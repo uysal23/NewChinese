@@ -46,6 +46,8 @@ for scene_dir in scene_dirs:
     word_exam = json.loads((scene_dir / "word_exam.json").read_text(encoding="utf-8"))
     sentence_exam = json.loads((scene_dir / "sentence_exam.json").read_text(encoding="utf-8"))
     visual = json.loads((scene_dir / "visual_manifest.json").read_text(encoding="utf-8"))
+    media_status_path = scene_dir / "media_status.json"
+    media_status = json.loads(media_status_path.read_text(encoding="utf-8")) if media_status_path.exists() else None
 
     scene_id = scene.get("sceneId")
     if scene_id != expected_scene_id:
@@ -89,6 +91,21 @@ for scene_dir in scene_dirs:
     if bubble.get("outline") != "dashed" or bubble.get("text") is not False:
         fail(f"{scene_id} active speaker bubble must be dashed and textless")
 
+    if media_status is not None:
+        for category in ("visual", "audio"):
+            block = media_status.get(category, {})
+            status = block.get("status")
+            required_assets = block.get("required", [])
+            if status not in ("pending", "complete"):
+                fail(f"{scene_id} {category} media status must be pending or complete")
+            if not required_assets:
+                fail(f"{scene_id} {category} media required list cannot be empty")
+            if status == "complete":
+                for rel in required_assets:
+                    asset_path = scene_dir / rel
+                    if not asset_path.exists():
+                        fail(f"{scene_id} {category} marked complete but missing physical asset: {rel}")
+
 placement = json.loads((ROOT / "content/placement/placement_test.json").read_text(encoding="utf-8"))
 questions = placement.get("questions", [])
 if len(questions) != 30:
@@ -102,4 +119,11 @@ print("Validation PASS")
 print("Locked manifests: 20/20")
 print("Target scenes declared: 300")
 print(f"Present scene packages validated: {len(scene_dirs)}")
+pending_media = 0
+for scene_dir in scene_dirs:
+    media_path = scene_dir / "media_status.json"
+    if media_path.exists():
+        media = json.loads(media_path.read_text(encoding="utf-8"))
+        pending_media += sum(1 for k in ("visual", "audio") if media.get(k, {}).get("status") == "pending")
+print(f"Pending media categories: {pending_media}")
 print("Placement test: 30 questions / 5 per HSK level PASS")
