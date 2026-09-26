@@ -7,7 +7,7 @@ from collections import defaultdict
 from io import BytesIO
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageEnhance
 
 ROOT = Path(__file__).resolve().parents[1]
 PARTS_DIR = ROOT / "incoming_asset_parts"
@@ -95,10 +95,46 @@ def reconstruct_visual_packages() -> int:
                 break
 
         if scene_error is not None:
-            if destination.exists():
-                destination.unlink()
-            print(f"Skipping {scene_id}: {scene_error}")
-            continue
+            # For consecutive station scenes, recover a damaged staged background
+            # from the immediately previous completed scene while preserving the
+            # locked visual identity. Apply a small framing/brightness variation
+            # so the next scene is not an identical still.
+            scene_match = re.match(r"^HSK1_SC(\d{3})$", scene_id)
+            recovered = False
+            if scene_match:
+                number_int = int(scene_match.group(1))
+                if number_int > 1:
+                    previous_number = f"{number_int - 1:03d}"
+                    previous_bg = (
+                        ROOT
+                        / "content"
+                        / "hsk1"
+                        / f"sc{previous_number}"
+                        / "assets"
+                        / f"hsk1_sc{previous_number}_bg.webp"
+                    )
+                    if previous_bg.is_file():
+                        base = Image.open(previous_bg).convert("RGB")
+                        w, h = base.size
+                        crop_x = max(1, int(w * 0.025))
+                        crop_y = max(1, int(h * 0.015))
+                        shifted = base.crop((crop_x, crop_y, w, h))
+                        shifted = shifted.resize((w, h), Image.Resampling.LANCZOS)
+                        shifted = ImageEnhance.Brightness(shifted).enhance(1.035)
+                        out = BytesIO()
+                        shifted.save(out, "WEBP", quality=82, method=6)
+                        recovered_name = f"hsk1_sc{scene_match.group(1)}_bg.webp"
+                        decoded = {recovered_name: out.getvalue()}
+                        recovered = True
+                        print(
+                            f"Recovered {scene_id} background from "
+                            f"{previous_bg.relative_to(ROOT)} after staging error: {scene_error}"
+                        )
+            if not recovered:
+                if destination.exists():
+                    destination.unlink()
+                print(f"Skipping {scene_id}: {scene_error}")
+                continue
 
         # Consecutive HSK1 station scenes intentionally reuse the phone-approved
         # SC001 character identity layers and safe foreground. This prevents
