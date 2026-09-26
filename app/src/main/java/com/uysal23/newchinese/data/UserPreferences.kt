@@ -13,7 +13,8 @@ data class UserSettings(
     val darkMode: Boolean = false,
     val palette: String = "PURPLE",
     val showPinyin: Boolean = true,
-    val showTurkish: Boolean = true
+    val showTurkish: Boolean = true,
+    val favoriteWordIds: Set<String> = emptySet()
 )
 
 class UserPreferences(private val context: Context) {
@@ -23,6 +24,7 @@ class UserPreferences(private val context: Context) {
         val PALETTE = stringPreferencesKey("palette")
         val SHOW_PINYIN = booleanPreferencesKey("show_pinyin")
         val SHOW_TURKISH = booleanPreferencesKey("show_turkish")
+        val FAVORITE_WORD_IDS = stringSetPreferencesKey("favorite_word_ids")
     }
 
     val settings: Flow<UserSettings> = context.dataStore.data.map { p ->
@@ -31,7 +33,8 @@ class UserPreferences(private val context: Context) {
             darkMode = p[Keys.DARK_MODE] ?: false,
             palette = p[Keys.PALETTE] ?: "PURPLE",
             showPinyin = p[Keys.SHOW_PINYIN] ?: true,
-            showTurkish = p[Keys.SHOW_TURKISH] ?: true
+            showTurkish = p[Keys.SHOW_TURKISH] ?: true,
+            favoriteWordIds = p[Keys.FAVORITE_WORD_IDS] ?: emptySet()
         )
     }
 
@@ -40,4 +43,10 @@ class UserPreferences(private val context: Context) {
     suspend fun setPalette(value: String) = context.dataStore.edit { it[Keys.PALETTE] = value }
     suspend fun setShowPinyin(value: Boolean) = context.dataStore.edit { it[Keys.SHOW_PINYIN] = value }
     suspend fun setShowTurkish(value: Boolean) = context.dataStore.edit { it[Keys.SHOW_TURKISH] = value }
+
+    suspend fun toggleFavorite(wordId: String) = context.dataStore.edit { prefs ->
+        val current = prefs[Keys.FAVORITE_WORD_IDS] ?: emptySet()
+        prefs[Keys.FAVORITE_WORD_IDS] =
+            if (wordId in current) current - wordId else current + wordId
+    }
 }
