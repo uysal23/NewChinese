@@ -179,96 +179,183 @@ fun DialogueScreen(
     onStudy: () -> Unit,
     onBack: () -> Unit
 ) {
-    var index by rememberSaveable(scene.sceneId) { mutableIntStateOf(initialLineIndex.coerceIn(0, scene.lines.lastIndex)) }
-    var playing by remember { mutableStateOf(false) }
+    var index by rememberSaveable(scene.sceneId) {
+        mutableIntStateOf(initialLineIndex.coerceIn(0, scene.lines.lastIndex))
+    }
+    var autoPlay by rememberSaveable(scene.sceneId) { mutableStateOf(true) }
     var audioMissing by remember { mutableStateOf(false) }
     var showPinyin by rememberSaveable { mutableStateOf(showPinyinDefault) }
     var showTurkish by rememberSaveable { mutableStateOf(showTurkishDefault) }
+
     val line = scene.lines[index]
     val speaker = if (line.speakerId.contains("LI_NA")) "李娜" else "张伟"
     val context = LocalContext.current
     val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
-    DisposableEffect(Unit) { onDispose { audioPlayer.release() } }
-    LaunchedEffect(index) { audioMissing = false }
+
+    DisposableEffect(Unit) {
+        onDispose { audioPlayer.release() }
+    }
+
+    LaunchedEffect(index, autoPlay, playbackSpeed) {
+        audioMissing = false
+        if (autoPlay) {
+            val assetPath = "${sceneIdToAssetBase(scene.sceneId)}/${line.audioFile}"
+            val ok = audioPlayer.play(assetPath, playbackSpeed) {
+                if (index < scene.lines.lastIndex) {
+                    index++
+                    onPositionChanged(index, 0L)
+                } else {
+                    autoPlay = false
+                    onPositionChanged(index, 0L)
+                }
+            }
+            audioMissing = !ok
+            if (!ok) autoPlay = false
+        }
+    }
 
     Column(
         Modifier.fillMaxSize().padding(16.dp),
         verticalArrangement = Arrangement.SpaceBetween
     ) {
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+        Row(
+            Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             TextButton(onClick = {
                 val position = audioPlayer.currentPositionMs()
                 audioPlayer.pause()
-                playing = false
+                autoPlay = false
                 onPositionChanged(index, position)
                 onStudy()
             }) { Text("Çalışma") }
-            TextButton(onClick = { showPinyin = !showPinyin }) {
-                Text(if (showPinyin) "Pinyin ✓" else "Pinyin")
-            }
+
+            Text(
+                "${index + 1} / ${scene.lines.size}",
+                style = MaterialTheme.typography.labelLarge
+            )
         }
 
         Column(
-            Modifier.weight(1f).fillMaxWidth(),
+            Modifier
+                .weight(1f)
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(scene.titleZh, style = MaterialTheme.typography.titleLarge)
             Text(scene.titleTr)
-            Spacer(Modifier.height(16.dp))
-            AssetSceneImage(
+            Spacer(Modifier.height(10.dp))
+
+            AssetSceneStage(
                 sceneAssetBase = sceneIdToAssetBase(scene.sceneId),
-                relativePath = scene.visualAssets.background,
-                contentDescription = scene.titleTr,
-                modifier = Modifier.fillMaxWidth().height(220.dp)
+                background = scene.visualAssets.background,
+                characterA = scene.visualAssets.characterA,
+                characterB = scene.visualAssets.characterB,
+                foreground = scene.visualAssets.foreground,
+                activeSpeakerId = line.speakerId,
+                modifier = Modifier.fillMaxWidth().height(280.dp)
             )
-            Spacer(Modifier.height(16.dp))
+
+            Spacer(Modifier.height(10.dp))
             ActiveSpeakerMarker(
                 speakerName = speaker,
                 isLeft = line.speakerId.contains("LI_NA")
             )
-            Spacer(Modifier.height(10.dp))
+            Spacer(Modifier.height(8.dp))
             Text(line.chinese, style = MaterialTheme.typography.headlineSmall)
             if (showPinyin) Text(line.pinyin)
             if (showTurkish) Text(line.turkish)
-            Spacer(Modifier.height(12.dp))
+
             if (audioMissing) {
-                Text("Doğal Mandarin ses asset’i henüz eklenmedi.", color = MaterialTheme.colorScheme.error)
+                Spacer(Modifier.height(8.dp))
+                Text(
+                    "Bu satırın Mandarin sesi bulunamadı.",
+                    color = MaterialTheme.colorScheme.error
+                )
             }
         }
 
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
-            TextButton(onClick = {
-                val position = audioPlayer.currentPositionMs()
-                audioPlayer.pause()
-                playing = false
-                onPositionChanged(index, position)
-                onBack()
-            }) { Text("Geri") }
-            Button(onClick = { if (index > 0) { audioPlayer.pause(); index--; playing = false; onPositionChanged(index, 0L) } }) { Text("←") }
-            Button(onClick = {
-                if (playing) {
-                    audioPlayer.pause()
-                    playing = false
-                } else {
-                    val scenePath = scene.sceneId.lowercase().replace("_", "/").replace("sc/", "sc")
-                    val ok = audioPlayer.play("$scenePath/${line.audioFile}", playbackSpeed) {
-                        playing = false
+        Column(
+            Modifier.fillMaxWidth(),
+            verticalArrangement = Arrangement.spacedBy(6.dp)
+        ) {
+            Row(
+                Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                OutlinedButton(
+                    onClick = {
+                        val position = audioPlayer.currentPositionMs()
+                        audioPlayer.pause()
+                        autoPlay = false
+                        onPositionChanged(index, position)
+                        onBack()
+                    },
+                    modifier = Modifier.weight(1.15f)
+                ) { Text("Geri") }
+
+                Button(
+                    onClick = {
+                        audioPlayer.pause()
+                        autoPlay = false
+                        if (index > 0) {
+                            index--
+                            onPositionChanged(index, 0L)
+                        }
+                    },
+                    modifier = Modifier.weight(0.8f)
+                ) { Text("←") }
+
+                Button(
+                    onClick = {
+                        if (autoPlay) {
+                            onPositionChanged(index, audioPlayer.currentPositionMs())
+                            audioPlayer.pause()
+                            autoPlay = false
+                        } else {
+                            autoPlay = true
+                        }
+                    },
+                    modifier = Modifier.weight(1.65f)
+                ) { Text(if (autoPlay) "Duraklat" else "Oynat") }
+
+                Button(
+                    onClick = {
+                        audioPlayer.pause()
+                        autoPlay = false
                         if (index < scene.lines.lastIndex) {
                             index++
                             onPositionChanged(index, 0L)
                         }
-                    }
-                    audioMissing = !ok
-                    playing = ok
-                }
-            }) { Text(if (playing) "Duraklat" else "Oynat") }
-            Button(onClick = { if (index < scene.lines.lastIndex) { audioPlayer.pause(); index++; playing = false; onPositionChanged(index, 0L) } }) { Text("→") }
-            TextButton(onClick = { showTurkish = !showTurkish }) { Text("TR") }
+                    },
+                    modifier = Modifier.weight(0.8f)
+                ) { Text("→") }
+            }
+
+            Row(
+                Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                FilterChip(
+                    selected = showPinyin,
+                    onClick = { showPinyin = !showPinyin },
+                    label = { Text(if (showPinyin) "Pinyin ✓" else "Pinyin") },
+                    modifier = Modifier.weight(1f)
+                )
+                FilterChip(
+                    selected = showTurkish,
+                    onClick = { showTurkish = !showTurkish },
+                    label = { Text(if (showTurkish) "Türkçe ✓" else "Türkçe") },
+                    modifier = Modifier.weight(1f)
+                )
+            }
         }
     }
 }
-
 @Composable
 private fun ActiveSpeakerMarker(speakerName: String, isLeft: Boolean) {
     Row(
