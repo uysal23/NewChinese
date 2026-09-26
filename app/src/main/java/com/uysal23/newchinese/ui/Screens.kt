@@ -130,7 +130,13 @@ fun LevelsScreen(
 }
 
 @Composable
-fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, availableSceneIds: Set<String>, onOpen: (String) -> Unit) {
+fun SceneListScreen(
+    level: String,
+    unlockedSceneIds: Set<String>,
+    availableSceneIds: Set<String>,
+    sceneTitles: Map<String, String>,
+    onOpen: (String) -> Unit
+) {
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -138,24 +144,25 @@ fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, availableScene
         Text(level, style = MaterialTheme.typography.headlineMedium)
         (1..50).forEach { n ->
             val number3 = n.toString().padStart(3, '0')
+            val number2 = n.toString().padStart(2, '0')
             val sceneId = "${level}_SC$number3"
             val unlocked = sceneId in unlockedSceneIds
             val available = sceneId in availableSceneIds
             val open = unlocked && available
+            val title = sceneTitles[sceneId]
+
             OutlinedButton(
                 onClick = { if (open) onOpen(sceneId) },
                 enabled = open,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                val number = n.toString().padStart(2, '0')
-                val label = when {
-                    sceneId == "HSK1_SC001" -> "· İlk Tanışma"
-                    sceneId == "HSK1_SC002" && available -> "· İsimler"
-                    unlocked && !available -> "· İçerik hazırlanıyor"
-                    open -> "· Açık"
-                    else -> "· Kilitli"
+                val statusText = when {
+                    open && !title.isNullOrBlank() -> title
+                    unlocked && !available -> "Hazırlanıyor"
+                    available && !title.isNullOrBlank() -> "$title · Kilitli"
+                    else -> "Kilitli"
                 }
-                Text("SC$number $label")
+                Text("Sahne $number2 · $statusText")
             }
         }
     }
