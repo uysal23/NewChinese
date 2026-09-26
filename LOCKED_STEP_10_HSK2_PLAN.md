@@ -1,0 +1,2 @@
+# LOCKED STEP 10 — HSK2 Plan
+50 scenes: work/daily life, health/free time, language learning/technology, weekend travel, expanding social circle. Typical dialogue target 18–30 turns. HSK1 vocabulary remains in natural reuse. Dialogue adds reasons, plans, preferences, small problems and solutions while remaining conversational and coherent.
