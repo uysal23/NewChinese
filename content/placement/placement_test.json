@@ -1,0 +1,366 @@
+{
+  "schemaVersion": 1,
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": "PL_HSK1_01",
+      "level": "HSK1",
+      "prompt": "“你好” ne demektir?",
+      "options": [
+        "Merhaba",
+        "Teşekkürler",
+        "Hoşça kal",
+        "Özür dilerim"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK1_02",
+      "level": "HSK1",
+      "prompt": "我___学生。",
+      "options": [
+        "是",
+        "有",
+        "在",
+        "去"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK1_03",
+      "level": "HSK1",
+      "prompt": "“谢谢” için en uygun cevap hangisidir?",
+      "options": [
+        "不客气",
+        "再见",
+        "对不起",
+        "没关系吗"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK1_04",
+      "level": "HSK1",
+      "prompt": "你叫什么名字？",
+      "options": [
+        "我叫李明。",
+        "我很好。",
+        "我在北京。",
+        "我喝茶。"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK1_05",
+      "level": "HSK1",
+      "prompt": "“今天星期几？” sorusu neyi sorar?",
+      "options": [
+        "Bugünün hangi gün olduğunu",
+        "Saatin kaç olduğunu",
+        "Havanın nasıl olduğunu",
+        "Nereye gidildiğini"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK2_01",
+      "level": "HSK2",
+      "prompt": "外面下雨了，你___带伞。",
+      "options": [
+        "应该",
+        "正在",
+        "已经",
+        "一直"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK2_02",
+      "level": "HSK2",
+      "prompt": "“我比弟弟高。” cümlesinin anlamı hangisidir?",
+      "options": [
+        "Kardeşimden daha uzunum.",
+        "Kardeşim benim kadar uzun.",
+        "Kardeşim daha uzun.",
+        "Kardeşim çok uzun."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK2_03",
+      "level": "HSK2",
+      "prompt": "Aşağıdakilerden hangisi doğal bir cümledir?",
+      "options": [
+        "我每天坐地铁上班。",
+        "我上班地铁每天坐。",
+        "每天我上班坐地铁了。",
+        "坐我每天地铁上班。"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK2_04",
+      "level": "HSK2",
+      "prompt": "“因为今天很忙，所以我不能去。” ne anlatır?",
+      "options": [
+        "Neden-sonuç",
+        "Karşılaştırma",
+        "Geçmiş deneyim",
+        "Yer tarif etme"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK2_05",
+      "level": "HSK2",
+      "prompt": "服务员问：“您想喝点儿什么？” En doğal cevap hangisi?",
+      "options": [
+        "我要一杯茶，谢谢。",
+        "我昨天喝。",
+        "他是老师。",
+        "这里很远。"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK3_01",
+      "level": "HSK3",
+      "prompt": "这个问题不难，我觉得我们很快就能___。",
+      "options": [
+        "解决",
+        "参加",
+        "发现",
+        "提高"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK3_02",
+      "level": "HSK3",
+      "prompt": "“虽然很累，但是他还是完成了工作。” ne vurgular?",
+      "options": [
+        "Zorluğa rağmen işi bitirdiğini",
+        "İşe başlamadığını",
+        "İşi başkasının yaptığını",
+        "Yorgun olmadığını"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK3_03",
+      "level": "HSK3",
+      "prompt": "请你把这份文件___给王老师。",
+      "options": [
+        "交",
+        "借",
+        "开",
+        "搬"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK3_04",
+      "level": "HSK3",
+      "prompt": "“我已经习惯这里的生活了。” cümlesine en yakın anlam hangisidir?",
+      "options": [
+        "Buradaki yaşama artık alıştım.",
+        "Buradan taşınmak istiyorum.",
+        "Burayı ilk kez görüyorum.",
+        "Buradaki hayatı anlamıyorum."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK3_05",
+      "level": "HSK3",
+      "prompt": "会议改到下午三点了，请大家___时间。",
+      "options": [
+        "注意",
+        "需要",
+        "决定",
+        "检查"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK4_01",
+      "level": "HSK4",
+      "prompt": "这个方案有优点，不过我们还需要考虑它可能带来的___。",
+      "options": [
+        "风险",
+        "兴趣",
+        "性格",
+        "方向"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK4_02",
+      "level": "HSK4",
+      "prompt": "“与其等别人提醒，不如自己提前准备。” ne önerir?",
+      "options": [
+        "Önceden kendi hazırlığını yapmayı",
+        "Başkalarını beklemeyi",
+        "Hazırlığı ertelemeyi",
+        "Hiç plan yapmamayı"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK4_03",
+      "level": "HSK4",
+      "prompt": "经过几次讨论，大家终于___了意见。",
+      "options": [
+        "统一",
+        "申请",
+        "浪费",
+        "拒绝"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK4_04",
+      "level": "HSK4",
+      "prompt": "“这件事对我来说并不陌生。” ne demektir?",
+      "options": [
+        "Bu konu bana yabancı değil.",
+        "Bu konu beni korkutuyor.",
+        "Bu konuyu hiç duymadım.",
+        "Bu konu çok basit."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK4_05",
+      "level": "HSK4",
+      "prompt": "如果只看结果，而忽略过程，就很难真正___问题。",
+      "options": [
+        "理解",
+        "降低",
+        "提醒",
+        "表演"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK5_01",
+      "level": "HSK5",
+      "prompt": "面对大量网络信息，我们需要保持判断力，不能轻易___未经证实的消息。",
+      "options": [
+        "相信",
+        "适应",
+        "创造",
+        "承担"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK5_02",
+      "level": "HSK5",
+      "prompt": "“技术提高了效率，但并不意味着所有问题都会自动解决。” temel düşünce nedir?",
+      "options": [
+        "Teknolojinin faydalı ama sınırlı olduğu",
+        "Teknolojinin gereksiz olduğu",
+        "Bütün sorunların çözüldüğü",
+        "Verimliliğin düştüğü"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK5_03",
+      "level": "HSK5",
+      "prompt": "一个成熟的团队不仅需要能力，还需要成员之间的___。",
+      "options": [
+        "信任",
+        "距离",
+        "误会",
+        "压力"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK5_04",
+      "level": "HSK5",
+      "prompt": "计划执行过程中出现变化是正常的，关键是及时___策略。",
+      "options": [
+        "调整",
+        "怀疑",
+        "保存",
+        "庆祝"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK5_05",
+      "level": "HSK5",
+      "prompt": "“与短期收益相比，他更看重长期发展。” neyi ifade eder?",
+      "options": [
+        "Uzun vadeyi daha önemli gördüğünü",
+        "Kısa vadeyi seçtiğini",
+        "Kazancı önemsemediğini",
+        "Gelişime karşı olduğunu"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK6_01",
+      "level": "HSK6",
+      "prompt": "信息越丰富，独立思考反而越重要，因为数量本身并不能保证内容的___。",
+      "options": [
+        "可靠性",
+        "娱乐性",
+        "流行性",
+        "复杂性"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK6_02",
+      "level": "HSK6",
+      "prompt": "“真正的改变往往不是突然发生的，而是许多微小选择长期积累的结果。” ana fikir nedir?",
+      "options": [
+        "Değişimin çoğu zaman küçük seçimlerin birikimi olduğu",
+        "Değişimin her zaman ani olduğu",
+        "Küçük kararların önemsiz olduğu",
+        "Uzun vadeli planların işe yaramadığı"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK6_03",
+      "level": "HSK6",
+      "prompt": "一个观点是否有说服力，不仅取决于结论，还取决于论证过程是否___。",
+      "options": [
+        "严密",
+        "热闹",
+        "偶然",
+        "模糊"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK6_04",
+      "level": "HSK6",
+      "prompt": "面对复杂问题，与其急着表态，不如先弄清事实和不同观点背后的___。",
+      "options": [
+        "依据",
+        "外表",
+        "气氛",
+        "习惯"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": "PL_HSK6_05",
+      "level": "HSK6",
+      "prompt": "“经验值得参考，但不能代替对新情况的重新判断。” en yakın yorum hangisidir?",
+      "options": [
+        "Deneyim değerlidir ama yeni koşullar ayrıca değerlendirilmelidir.",
+        "Eski deneyim her zaman yeterlidir.",
+        "Yeni durumları incelemek gereksizdir.",
+        "Deneyim karar vermeyi engeller."
+      ],
+      "answerIndex": 0
+    }
+  ]
+}
