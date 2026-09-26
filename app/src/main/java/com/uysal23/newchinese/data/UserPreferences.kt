@@ -16,7 +16,8 @@ data class UserSettings(
     val showPinyin: Boolean = true,
     val showTurkish: Boolean = true,
     val favoriteWordIds: Set<String> = emptySet(),
-    val reminders: List<ReminderSpec> = emptyList()
+    val reminders: List<ReminderSpec> = emptyList(),
+    val playbackSpeed: Float = 1.0f
 )
 
 class UserPreferences(private val context: Context) {
@@ -28,6 +29,7 @@ class UserPreferences(private val context: Context) {
         val SHOW_TURKISH = booleanPreferencesKey("show_turkish")
         val FAVORITE_WORD_IDS = stringSetPreferencesKey("favorite_word_ids")
         val REMINDERS = stringSetPreferencesKey("reminders")
+        val PLAYBACK_SPEED = floatPreferencesKey("playback_speed")
     }
 
     val settings: Flow<UserSettings> = context.dataStore.data.map { p ->
@@ -40,7 +42,8 @@ class UserPreferences(private val context: Context) {
             favoriteWordIds = p[Keys.FAVORITE_WORD_IDS] ?: emptySet(),
             reminders = (p[Keys.REMINDERS] ?: emptySet())
                 .mapNotNull(ReminderSpec::decode)
-                .sortedWith(compareBy({ it.hour }, { it.minute }, { it.id }))
+                .sortedWith(compareBy({ it.hour }, { it.minute }, { it.id })),
+            playbackSpeed = p[Keys.PLAYBACK_SPEED] ?: 1.0f
         )
     }
 
@@ -49,6 +52,7 @@ class UserPreferences(private val context: Context) {
     suspend fun setPalette(value: String) = context.dataStore.edit { it[Keys.PALETTE] = value }
     suspend fun setShowPinyin(value: Boolean) = context.dataStore.edit { it[Keys.SHOW_PINYIN] = value }
     suspend fun setShowTurkish(value: Boolean) = context.dataStore.edit { it[Keys.SHOW_TURKISH] = value }
+    suspend fun setPlaybackSpeed(value: Float) = context.dataStore.edit { it[Keys.PLAYBACK_SPEED] = value }
 
     suspend fun toggleFavorite(wordId: String) = context.dataStore.edit { prefs ->
         val current = prefs[Keys.FAVORITE_WORD_IDS] ?: emptySet()
