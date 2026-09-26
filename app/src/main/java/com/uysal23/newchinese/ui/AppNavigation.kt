@@ -55,10 +55,15 @@ fun AppNavigation(
                 }
             }
             composable("dashboard") {
-                DashboardScreen(current.userName, onNavigate = nav::navigate)
+                DashboardScreen(
+                    userName = current.userName,
+                    progress = allProgress,
+                    favoriteCount = current.favoriteWordIds.size,
+                    onNavigate = nav::navigate
+                )
             }
             composable("levels") {
-                LevelsScreen { level -> nav.navigate("scenes/$level") }
+                LevelsScreen(progress = allProgress) { level -> nav.navigate("scenes/$level") }
             }
             composable(
                 "scenes/{level}",
