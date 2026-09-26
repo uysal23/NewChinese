@@ -1,0 +1,11 @@
+{
+  "voiceId":"VOICE_LI_NA_001",
+  "language":"zh-CN",
+  "nativeStyle":"Standard Mandarin",
+  "genderProfile":"female",
+  "ageProfile":"27-32",
+  "tone":"warm",
+  "speakingStyle":"natural_conversational",
+  "assignedCharacterId":"CHAR_LI_NA_001",
+  "phoneTtsAllowed":false
+}
