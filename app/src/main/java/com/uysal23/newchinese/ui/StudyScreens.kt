@@ -1,5 +1,9 @@
 package com.uysal23.newchinese.ui
 
+import android.Manifest
+import android.content.pm.PackageManager
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -7,10 +11,15 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
+import com.uysal23.newchinese.data.DialogueLine
 import com.uysal23.newchinese.data.SentenceExercise
 import com.uysal23.newchinese.data.VocabularyItem
 import com.uysal23.newchinese.data.progress.SceneProgressEntity
+import com.uysal23.newchinese.media.AssetAudioPlayer
+import com.uysal23.newchinese.media.VoiceRecorder
 
 @Composable
 fun StudyHubScreen(
@@ -313,17 +322,51 @@ private fun FlowLikeRow(tokens: List<String>, onToken: (String) -> Unit) {
 
 @Composable
 fun ShadowingSetupScreen(
-    dialogueCount: Int,
+    sceneId: String,
+    lines: List<DialogueLine>,
+    playbackSpeed: Float,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
-    val availableOptions = listOf(6, 10, 15).filter { it <= dialogueCount }
-    var selected by remember { mutableIntStateOf(availableOptions.firstOrNull() ?: dialogueCount) }
+    val context = LocalContext.current
+    val availableOptions = listOf(6, 10, 15).filter { it <= lines.size }
+    var selected by remember { mutableIntStateOf(availableOptions.firstOrNull() ?: lines.size) }
     var started by remember { mutableStateOf(false) }
-    var completed by remember { mutableIntStateOf(0) }
+    var currentIndex by remember { mutableIntStateOf(0) }
+    var isRecording by remember { mutableStateOf(false) }
+    var recordedPath by remember { mutableStateOf<String?>(null) }
+    var referenceMissing by remember { mutableStateOf(false) }
+    var listenOnly by remember { mutableStateOf(false) }
+    var referencePlayed by remember { mutableStateOf(false) }
+    var hasMicPermission by remember {
+        mutableStateOf(
+            ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) ==
+                PackageManager.PERMISSION_GRANTED
+        )
+    }
+
+    val recorder = remember { VoiceRecorder(context.applicationContext) }
+    val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
+    DisposableEffect(Unit) {
+        onDispose {
+            recorder.release()
+            audioPlayer.release()
+        }
+    }
+
+    val permissionLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { granted ->
+        hasMicPermission = granted
+        if (!granted) listenOnly = true
+    }
+
+    val sessionLines = remember(started, selected, lines) {
+        if (started) selectMixedShadowingLines(lines, selected) else emptyList()
+    }
 
     Column(
-        Modifier.fillMaxSize().padding(20.dp),
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         TextButton(onClick = onBack) { Text("Geri") }
@@ -340,32 +383,143 @@ fun ShadowingSetupScreen(
                 }
             }
             OutlinedButton(
-                onClick = { selected = dialogueCount },
+                onClick = { selected = lines.size },
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("Tüm diyalog${if (selected == dialogueCount) " ✓" else ""}")
+                Text("Tüm diyalog${if (selected == lines.size) " ✓" else ""}")
             }
             Text("Varsayılan ve minimum hedef: 6 cümle")
-            Button(onClick = { started = true }, modifier = Modifier.fillMaxWidth()) {
+
+            if (!hasMicPermission) {
+                OutlinedButton(
+                    onClick = { permissionLauncher.launch(Manifest.permission.RECORD_AUDIO) },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text("Mikrofon İzni Ver")
+                }
+                TextButton(onClick = { listenOnly = true }) {
+                    Text("Yalnız dinleme modunda devam et")
+                }
+            }
+
+            Button(
+                onClick = { started = true },
+                enabled = hasMicPermission || listenOnly,
+                modifier = Modifier.fillMaxWidth()
+            ) {
                 Text("Shadowing'i Başlat")
             }
-        } else {
-            Text("Cümle ${completed + 1} / $selected")
-            OutlinedButton(onClick = {}) { Text("🔊 Referansı Dinle") }
-            OutlinedButton(onClick = {}) { Text("🎙 Kaydı Başlat") }
-            Button(
+        } else if (sessionLines.isNotEmpty()) {
+            val line = sessionLines[currentIndex]
+            val assetBase = sceneIdToAssetPath(sceneId)
+
+            Text("Cümle ${currentIndex + 1} / ${sessionLines.size}")
+            Text(line.chinese, style = MaterialTheme.typography.headlineSmall)
+            Text(line.pinyin)
+            Text(line.turkish)
+
+            OutlinedButton(
                 onClick = {
-                    if (completed + 1 >= selected) {
-                        completed = selected
-                        onComplete()
-                    } else {
-                        completed++
-                    }
+                    val ok = audioPlayer.play("$assetBase/${line.audioFile}", playbackSpeed)
+                    referenceMissing = !ok
+                    referencePlayed = true
                 },
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text(if (completed + 1 >= selected) "Oturumu Tamamla ✓" else "Sonraki Cümle →")
+                Text("🔊 Referansı Dinle")
+            }
+
+            if (referenceMissing) {
+                Text(
+                    "Doğal Mandarin referans ses asset’i henüz eklenmedi.",
+                    color = MaterialTheme.colorScheme.error
+                )
+            }
+
+            if (!listenOnly) {
+                Button(
+                    onClick = {
+                        if (!isRecording) {
+                            val result = recorder.start()
+                            if (result.isSuccess) {
+                                isRecording = true
+                                recordedPath = null
+                            }
+                        } else {
+                            recordedPath = recorder.stop().getOrNull()?.absolutePath
+                            isRecording = false
+                        }
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(if (isRecording) "■ Kaydı Durdur" else "🎙 Kaydı Başlat")
+                }
+
+                OutlinedButton(
+                    onClick = { recordedPath?.let { audioPlayer.playFile(it) } },
+                    enabled = recordedPath != null && !isRecording,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text("▶ Kendi Kaydımı Dinle")
+                }
+            } else {
+                Text("Yalnız dinleme modu")
+            }
+
+            val canAdvance = if (listenOnly) referencePlayed else recordedPath != null
+            Button(
+                onClick = {
+                    recorder.cancel()
+                    recordedPath = null
+                    isRecording = false
+                    referencePlayed = false
+                    referenceMissing = false
+                    if (currentIndex == sessionLines.lastIndex) {
+                        onComplete()
+                    } else {
+                        currentIndex++
+                    }
+                },
+                enabled = canAdvance && !isRecording,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(if (currentIndex == sessionLines.lastIndex) "Oturumu Tamamla ✓" else "Sonraki Cümle →")
             }
         }
     }
+}
+
+private fun selectMixedShadowingLines(
+    lines: List<DialogueLine>,
+    count: Int
+): List<DialogueLine> {
+    if (count >= lines.size) return lines
+
+    val speakers = lines.map { it.speakerId }.distinct()
+    if (speakers.size < 2) return lines.shuffled().take(count)
+
+    val buckets = speakers.associateWith { speaker ->
+        lines.filter { it.speakerId == speaker }.shuffled().toMutableList()
+    }
+    val result = mutableListOf<DialogueLine>()
+    var speakerIndex = 0
+
+    while (result.size < count) {
+        val speaker = speakers[speakerIndex % speakers.size]
+        val bucket = buckets[speaker]
+        if (bucket != null && bucket.isNotEmpty()) {
+            result += bucket.removeAt(0)
+        }
+        speakerIndex++
+        if (buckets.values.all { it.isEmpty() }) break
+    }
+    return result
+}
+
+private fun sceneIdToAssetPath(sceneId: String): String {
+    val match = Regex("""HSK(\d)_SC(\d{3})""").matchEntire(sceneId)
+        ?: return "hsk1/sc001"
+    val level = match.groupValues[1]
+    val scene = match.groupValues[2]
+    return "hsk$level/sc$scene"
 }
