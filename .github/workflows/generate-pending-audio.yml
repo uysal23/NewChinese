@@ -1,0 +1,78 @@
+name: Generate Pending Scene Audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "content/hsk*/sc*/audio_production_queue.json"
+      - "tools/generate_pending_audio.py"
+      - "tools/generate_audio_assets.py"
+      - ".github/workflows/generate-pending-audio.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newchinese-pending-audio
+  cancel-in-progress: false
+
+jobs:
+  generate-import-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install "edge-tts>=7,<8"
+
+      - name: Generate pending scene audio packages
+        id: generate
+        shell: bash
+        run: |
+          python tools/generate_pending_audio.py
+          if compgen -G "incoming_assets/*_audio_assets.zip" > /dev/null; then
+            echo "generated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "generated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Preserve generated audio packages
+        if: steps.generate.outputs.generated == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-scene-audio-packages
+          path: incoming_assets/*_audio_assets.zip
+          if-no-files-found: error
+
+      - name: Import generated audio
+        run: python tools/import_media_assets.py
+
+      - name: Validate project content
+        run: python validation/validate_content.py
+
+      - name: Commit imported scene audio
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No repository changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/hsk*/sc*/assets content/hsk*/sc*/media_status.json
+          git commit -m "Generate and import pending scene audio"
+          git push
