@@ -55,15 +55,19 @@ fun AppNavigation(
                 }
             }
             composable("dashboard") {
-                DashboardScreen(
-                    userName = current.userName,
-                    progress = allProgress,
-                    favoriteCount = current.favoriteWordIds.size,
-                    onNavigate = nav::navigate
-                )
+                MainScaffold(nav = nav, currentRoute = "dashboard") {
+                    DashboardScreen(
+                        userName = current.userName,
+                        progress = allProgress,
+                        favoriteCount = current.favoriteWordIds.size,
+                        onNavigate = nav::navigate
+                    )
+                }
             }
             composable("levels") {
-                LevelsScreen(progress = allProgress) { level -> nav.navigate("scenes/$level") }
+                MainScaffold(nav = nav, currentRoute = "dashboard") {
+                    LevelsScreen(progress = allProgress) { level -> nav.navigate("scenes/$level") }
+                }
             }
             composable(
                 "scenes/{level}",
@@ -73,13 +77,15 @@ fun AppNavigation(
                 val levelNumber = levelName.removePrefix("HSK").toIntOrNull() ?: 1
                 val unlocked = allProgress.filter { p -> p.unlocked }.map { p -> p.sceneId }.toSet()
                 val available = remember(levelNumber) { repository.availableSceneIds(levelNumber) }
-                SceneListScreen(
-                    level = levelName,
-                    unlockedSceneIds = unlocked,
-                    availableSceneIds = available
-                ) { sceneId ->
-                    activeSceneId = sceneId
-                    nav.navigate("dialogue")
+                MainScaffold(nav = nav, currentRoute = "dashboard") {
+                    SceneListScreen(
+                        level = levelName,
+                        unlockedSceneIds = unlocked,
+                        availableSceneIds = available
+                    ) { sceneId ->
+                        activeSceneId = sceneId
+                        nav.navigate("dialogue")
+                    }
                 }
             }
             composable("dialogue") {
@@ -165,49 +171,57 @@ fun AppNavigation(
                     .filter { it.unlocked && it.sceneId in availableScenes }
                     .map { it.sceneId }
                     .sorted()
-                FreeStudyScreen(
-                    sceneIds = unlockedAvailable,
-                    onOpenScene = { sceneId ->
-                        activeSceneId = sceneId
-                        nav.navigate("study")
-                    }
-                )
+                MainScaffold(nav = nav, currentRoute = "freeStudy") {
+                    FreeStudyScreen(
+                        sceneIds = unlockedAvailable,
+                        onOpenScene = { sceneId ->
+                            activeSceneId = sceneId
+                            nav.navigate("study")
+                        }
+                    )
+                }
             }
             composable("favorites") {
                 val favoriteWords = remember(current.favoriteWordIds) {
                     repository.loadFavoriteWords(current.favoriteWordIds)
                 }
-                FavoritesScreen(
-                    allWords = favoriteWords,
-                    favoriteIds = current.favoriteWordIds,
-                    onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } }
-                )
+                MainScaffold(nav = nav, currentRoute = "favorites") {
+                    FavoritesScreen(
+                        allWords = favoriteWords,
+                        favoriteIds = current.favoriteWordIds,
+                        onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } }
+                    )
+                }
             }
             composable("progress") {
-                ProgressScreen(allProgress)
+                MainScaffold(nav = nav, currentRoute = "progress") {
+                    ProgressScreen(allProgress)
+                }
             }
             composable("settings") {
-                SettingsScreen(
-                    settings = current,
-                    onName = { scope.launch { preferences.setUserName(it) } },
-                    onDark = { scope.launch { preferences.setDarkMode(it) } },
-                    onPalette = { scope.launch { preferences.setPalette(it) } },
-                    onPinyin = { scope.launch { preferences.setShowPinyin(it) } },
-                    onTurkish = { scope.launch { preferences.setShowTurkish(it) } },
-                    onPlaybackSpeed = { scope.launch { preferences.setPlaybackSpeed(it) } },
-                    onSaveReminder = { reminder ->
-                        scope.launch {
-                            preferences.upsertReminder(reminder)
-                            ReminderScheduler.schedule(appContext, reminder)
+                MainScaffold(nav = nav, currentRoute = "settings") {
+                    SettingsScreen(
+                        settings = current,
+                        onName = { scope.launch { preferences.setUserName(it) } },
+                        onDark = { scope.launch { preferences.setDarkMode(it) } },
+                        onPalette = { scope.launch { preferences.setPalette(it) } },
+                        onPinyin = { scope.launch { preferences.setShowPinyin(it) } },
+                        onTurkish = { scope.launch { preferences.setShowTurkish(it) } },
+                        onPlaybackSpeed = { scope.launch { preferences.setPlaybackSpeed(it) } },
+                        onSaveReminder = { reminder ->
+                            scope.launch {
+                                preferences.upsertReminder(reminder)
+                                ReminderScheduler.schedule(appContext, reminder)
+                            }
+                        },
+                        onDeleteReminder = { reminderId ->
+                            scope.launch {
+                                preferences.deleteReminder(reminderId)
+                                ReminderScheduler.cancel(appContext, reminderId)
+                            }
                         }
-                    },
-                    onDeleteReminder = { reminderId ->
-                        scope.launch {
-                            preferences.deleteReminder(reminderId)
-                            ReminderScheduler.cancel(appContext, reminderId)
-                        }
-                    }
-                )
+                    )
+                }
             }
             composable("placement") {
                 PlacementScreen(
