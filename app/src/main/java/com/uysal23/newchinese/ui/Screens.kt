@@ -225,7 +225,6 @@ fun DialogueScreen(
             if (showPinyin) Text(line.pinyin)
             if (showTurkish) Text(line.turkish)
             Spacer(Modifier.height(12.dp))
-            Text("Ses: ${line.voiceId}", style = MaterialTheme.typography.labelSmall)
             if (audioMissing) {
                 Text("Doğal Mandarin ses asset’i henüz eklenmedi.", color = MaterialTheme.colorScheme.error)
             }
@@ -256,7 +255,7 @@ fun DialogueScreen(
                     audioMissing = !ok
                     playing = ok
                 }
-            }) { Text(if (playing) "Pause" else "Start") }
+            }) { Text(if (playing) "Duraklat" else "Oynat") }
             Button(onClick = { if (index < scene.lines.lastIndex) { audioPlayer.pause(); index++; playing = false; onPositionChanged(index, 0L) } }) { Text("→") }
             TextButton(onClick = { showTurkish = !showTurkish }) { Text("TR") }
         }
