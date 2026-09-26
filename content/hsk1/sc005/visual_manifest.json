@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK1_SC005",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "assets": {
+    "background": "assets/hsk1_sc005_bg.webp",
+    "characterA": "assets/hsk1_sc005_char_li_na.webp",
+    "characterB": "assets/hsk1_sc005_char_zhang_wei.webp",
+    "foreground": "assets/hsk1_sc005_fg.webp",
+    "preview": "assets/hsk1_sc005_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_LI_NA_001",
+      "outfit": "OUTFIT_LI_NA_CASUAL_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_STATION_TAXI_WALK_01",
+  "lightingPreset": "LIGHT_STATION_DAY_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}
