@@ -133,8 +133,10 @@ fun AppNavigation(
             composable("vocabulary") {
                 KeepScreenOn()
                 VocabularyScreen(
+                    sceneId = scene.sceneId,
                     items = scene.vocabulary,
                     favoriteIds = current.favoriteWordIds,
+                    playbackSpeed = current.playbackSpeed,
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } },
                     onComplete = {
                         if (!freeStudyMode) scope.launch { progressRepository.markVocabularyComplete(scene.sceneId) }
@@ -145,7 +147,9 @@ fun AppNavigation(
             composable("sentences") {
                 KeepScreenOn()
                 SentencePracticeScreen(
+                    sceneId = scene.sceneId,
                     exercises = scene.exercises,
+                    playbackSpeed = current.playbackSpeed,
                     onComplete = {
                         if (!freeStudyMode) scope.launch { progressRepository.markSentencePracticeComplete(scene.sceneId) }
                     },
