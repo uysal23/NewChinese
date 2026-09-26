@@ -76,6 +76,14 @@ class ContentRepository(private val context: Context) {
         }
     }
 
+    fun availableSceneIds(level: Int): Set<String> {
+        val folders = context.assets.list("hsk$level").orEmpty()
+        return folders
+            .filter { it.matches(Regex("""sc\d{3}""")) }
+            .map { folder -> "HSK${level}_SC${folder.removePrefix("sc")}" }
+            .toSet()
+    }
+
     fun loadSceneById(sceneId: String): SceneContent {
         val match = Regex("""HSK(\d)_SC(\d{3})""").matchEntire(sceneId)
             ?: error("Invalid sceneId: $sceneId")
