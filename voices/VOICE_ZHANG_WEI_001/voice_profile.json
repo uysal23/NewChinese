@@ -1,0 +1,11 @@
+{
+  "voiceId":"VOICE_ZHANG_WEI_001",
+  "language":"zh-CN",
+  "nativeStyle":"Standard Mandarin",
+  "genderProfile":"male",
+  "ageProfile":"28-35",
+  "tone":"calm",
+  "speakingStyle":"natural_conversational",
+  "assignedCharacterId":"CHAR_ZHANG_WEI_001",
+  "phoneTtsAllowed":false
+}
