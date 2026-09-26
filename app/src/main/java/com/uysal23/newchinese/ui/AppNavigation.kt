@@ -105,6 +105,12 @@ fun AppNavigation(
                     showPinyinDefault = current.showPinyin,
                     showTurkishDefault = current.showTurkish,
                     playbackSpeed = current.playbackSpeed,
+                    initialLineIndex = sceneProgress?.lastDialogueLineIndex ?: 0,
+                    onPositionChanged = { lineIndex, positionMs ->
+                        scope.launch {
+                            progressRepository.saveDialoguePosition(scene.sceneId, lineIndex, positionMs)
+                        }
+                    },
                     onStudy = { nav.navigate("study") },
                     onBack = { nav.popBackStack() }
                 )
