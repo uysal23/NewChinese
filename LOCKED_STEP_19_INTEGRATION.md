@@ -1,0 +1,2 @@
+# LOCKED STEP 19 — Integration
+Manifest-driven loading; no hard-coded scene content in UI. Bind scene→location, dialogue→speaker→voice→audio, scene→visual manifest, word/sentence IDs to study/exams. Dialogue line changes synchronize active character, audio, Chinese/pinyin/Turkish and speech bubble. Persist favorites, progress, exam results and shadowing scores. Word exam >=90 then sentence exam >=85 unlocks next scene. HSK SC050 unlocks next level SC001. Free Study only lists unlocked scenes. Commerce entitlement remains separate from learning unlock.
