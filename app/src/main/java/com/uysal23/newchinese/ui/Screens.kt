@@ -169,11 +169,11 @@ fun DialogueScreen(
     onStudy: () -> Unit,
     onBack: () -> Unit
 ) {
-    var index by remember { mutableIntStateOf(0) }
+    var index by rememberSaveable { mutableIntStateOf(0) }
     var playing by remember { mutableStateOf(false) }
     var audioMissing by remember { mutableStateOf(false) }
-    var showPinyin by remember { mutableStateOf(showPinyinDefault) }
-    var showTurkish by remember { mutableStateOf(showTurkishDefault) }
+    var showPinyin by rememberSaveable { mutableStateOf(showPinyinDefault) }
+    var showTurkish by rememberSaveable { mutableStateOf(showTurkishDefault) }
     val line = scene.lines[index]
     val speaker = if (line.speakerId.contains("LI_NA")) "李娜" else "张伟"
     val context = LocalContext.current
@@ -186,7 +186,11 @@ fun DialogueScreen(
         verticalArrangement = Arrangement.SpaceBetween
     ) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            TextButton(onClick = onStudy) { Text("Çalışma") }
+            TextButton(onClick = {
+                audioPlayer.pause()
+                playing = false
+                onStudy()
+            }) { Text("Çalışma") }
             TextButton(onClick = { showPinyin = !showPinyin }) {
                 Text(if (showPinyin) "Pinyin ✓" else "Pinyin")
             }
@@ -216,7 +220,11 @@ fun DialogueScreen(
         }
 
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
-            TextButton(onClick = onBack) { Text("Geri") }
+            TextButton(onClick = {
+                audioPlayer.pause()
+                playing = false
+                onBack()
+            }) { Text("Geri") }
             Button(onClick = { if (index > 0) { audioPlayer.pause(); index--; playing = false } }) { Text("←") }
             Button(onClick = {
                 if (playing) {
