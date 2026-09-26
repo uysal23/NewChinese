@@ -22,10 +22,12 @@ fun AppNavigation(
 ) {
     val current by preferences.settings.collectAsState(initial = UserSettings())
     val allProgress by progressRepository.observeAll().collectAsState(initial = emptyList())
-    val sceneProgress by progressRepository.observeScene("HSK1_SC001").collectAsState(initial = null)
+    var activeSceneId by remember { mutableStateOf("HSK1_SC001") }
+    val sceneProgressFlow = remember(activeSceneId) { progressRepository.observeScene(activeSceneId) }
+    val sceneProgress by sceneProgressFlow.collectAsState(initial = null)
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
-    val scene = remember { repository.loadScene() }
+    val scene = remember(activeSceneId) { repository.loadSceneById(activeSceneId) }
     val placementQuestions = remember { repository.loadPlacementQuestions() }
     val appContext = LocalContext.current.applicationContext
 
@@ -61,12 +63,17 @@ fun AppNavigation(
                 "scenes/{level}",
                 arguments = listOf(navArgument("level") { type = NavType.StringType })
             ) {
+                val levelName = it.arguments?.getString("level").orEmpty()
+                val levelNumber = levelName.removePrefix("HSK").toIntOrNull() ?: 1
                 val unlocked = allProgress.filter { p -> p.unlocked }.map { p -> p.sceneId }.toSet()
+                val available = remember(levelNumber) { repository.availableSceneIds(levelNumber) }
                 SceneListScreen(
-                    level = it.arguments?.getString("level").orEmpty(),
-                    unlockedSceneIds = unlocked
+                    level = levelName,
+                    unlockedSceneIds = unlocked,
+                    availableSceneIds = available
                 ) { sceneId ->
-                    if (sceneId == "HSK1_SC001") nav.navigate("dialogue")
+                    activeSceneId = sceneId
+                    nav.navigate("dialogue")
                 }
             }
             composable("dialogue") {
