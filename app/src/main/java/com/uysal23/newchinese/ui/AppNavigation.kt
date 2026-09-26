@@ -2,7 +2,10 @@ package com.uysal23.newchinese.ui
 
 import android.app.Activity
 import android.view.WindowManager
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavType
 import androidx.navigation.compose.*
@@ -46,7 +49,11 @@ fun AppNavigation(
     }
 
     NewChineseTheme(current.darkMode, current.palette) {
-        NavHost(navController = nav, startDestination = "welcome") {
+        NavHost(
+            navController = nav,
+            startDestination = "welcome",
+            modifier = Modifier.fillMaxSize().safeDrawingPadding()
+        ) {
             composable("welcome") {
                 WelcomeScreen { name ->
                     scope.launch {
