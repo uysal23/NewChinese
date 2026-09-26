@@ -1,0 +1,20 @@
+{
+  "sceneId": "HSK1_SC002",
+  "status": "reference-draft",
+  "lines": [
+    {"lineId":"HSK1_SC002_L001","order":1,"speakerId":"CHAR_LI_NA_001","textZh":"对了，你的中文名字是张伟，对吗？","pinyin":"Duì le, nǐ de Zhōngwén míngzi shì Zhāng Wěi, duì ma?","translationTr":"Bu arada, Çince adın Zhang Wei, değil mi?","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_001.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC002_L002","order":2,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"对，张伟。你呢？","pinyin":"Duì, Zhāng Wěi. Nǐ ne?","translationTr":"Evet, Zhang Wei. Ya sen?","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_002.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC002_L003","order":3,"speakerId":"CHAR_LI_NA_001","textZh":"我叫李娜。","pinyin":"Wǒ jiào Lǐ Nà.","translationTr":"Benim adım Li Na.","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_003.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC002_L004","order":4,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"李娜，很好听。","pinyin":"Lǐ Nà, hěn hǎotīng.","translationTr":"Li Na, kulağa çok hoş geliyor.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_004.m4a","emotion":"happy"},
+    {"lineId":"HSK1_SC002_L005","order":5,"speakerId":"CHAR_LI_NA_001","textZh":"谢谢。你有英文名字吗？","pinyin":"Xièxie. Nǐ yǒu Yīngwén míngzi ma?","translationTr":"Teşekkür ederim. İngilizce bir adın var mı?","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_005.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC002_L006","order":6,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"有，我叫 John。","pinyin":"Yǒu, wǒ jiào John.","translationTr":"Var, adım John.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_006.m4a","emotion":"calm"},
+    {"lineId":"HSK1_SC002_L007","order":7,"speakerId":"CHAR_LI_NA_001","textZh":"那我叫你张伟还是 John？","pinyin":"Nà wǒ jiào nǐ Zhāng Wěi háishi John?","translationTr":"O zaman sana Zhang Wei mi yoksa John mı diyeyim?","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_007.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC002_L008","order":8,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"叫我张伟吧，我想多用中文。","pinyin":"Jiào wǒ Zhāng Wěi ba, wǒ xiǎng duō yòng Zhōngwén.","translationTr":"Bana Zhang Wei de; Çinceyi daha çok kullanmak istiyorum.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_008.m4a","emotion":"happy"},
+    {"lineId":"HSK1_SC002_L009","order":9,"speakerId":"CHAR_LI_NA_001","textZh":"好啊。你也可以叫我娜娜。","pinyin":"Hǎo a. Nǐ yě kěyǐ jiào wǒ Nànà.","translationTr":"Olur. Sen de bana Nana diyebilirsin.","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_009.m4a","emotion":"happy"},
+    {"lineId":"HSK1_SC002_L010","order":10,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"娜娜？好，我记住了。","pinyin":"Nànà? Hǎo, wǒ jìzhù le.","translationTr":"Nana mı? Tamam, aklımda.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_010.m4a","emotion":"happy"},
+    {"lineId":"HSK1_SC002_L011","order":11,"speakerId":"CHAR_LI_NA_001","textZh":"我的朋友都这样叫我。","pinyin":"Wǒ de péngyou dōu zhèyàng jiào wǒ.","translationTr":"Arkadaşlarımın hepsi bana böyle seslenir.","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_011.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC002_L012","order":12,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"很好，这样很容易记。","pinyin":"Hěn hǎo, zhèyàng hěn róngyì jì.","translationTr":"Güzel, böyle hatırlaması kolay.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_012.m4a","emotion":"calm"},
+    {"lineId":"HSK1_SC002_L013","order":13,"speakerId":"CHAR_LI_NA_001","textZh":"那我们现在算认识了。","pinyin":"Nà wǒmen xiànzài suàn rènshi le.","translationTr":"O zaman artık tanışmış sayılırız.","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc002_line_013.m4a","emotion":"happy"},
+    {"lineId":"HSK1_SC002_L014","order":14,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"对，很高兴认识你，娜娜。","pinyin":"Duì, hěn gāoxìng rènshi nǐ, Nànà.","translationTr":"Evet, tanıştığımıza çok memnun oldum, Nana.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc002_line_014.m4a","emotion":"happy"}
+  ]
+}
