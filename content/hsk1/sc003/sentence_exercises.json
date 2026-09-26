@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK1_SC003",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC003_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC003_001",
+      "correctZh": "我们坐出租车吗？",
+      "pinyin": "Wǒmen zuò chūzūchē ma?",
+      "translationTr": "Taksiye mi bineceğiz?",
+      "tokens": [
+        "我们",
+        "坐",
+        "出租车",
+        "吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc003_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC003_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC003_002",
+      "sentenceZh": "我想喝___。",
+      "correctAnswer": "水",
+      "options": [
+        "水",
+        "天气",
+        "外面",
+        "出租车"
+      ],
+      "fullCorrectSentenceZh": "我想喝水。",
+      "correctZh": "我想喝水。",
+      "pinyin": "Wǒ xiǎng hē shuǐ.",
+      "translationTr": "Su içmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc003_sentence_002.m4a"
+    }
+  ]
+}

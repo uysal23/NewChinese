@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC003",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC003_001",
+      "hanzi": "回家",
+      "pinyin": "huí jiā",
+      "translationTr": "eve dönmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc003_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_002",
+      "hanzi": "远",
+      "pinyin": "yuǎn",
+      "translationTr": "uzak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc003_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_003",
+      "hanzi": "坐车",
+      "pinyin": "zuò chē",
+      "translationTr": "araçla gitmek / araca binmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc003_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_004",
+      "hanzi": "出租车",
+      "pinyin": "chūzūchē",
+      "translationTr": "taksi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc003_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_005",
+      "hanzi": "外面",
+      "pinyin": "wàimian",
+      "translationTr": "dışarı / dış taraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc003_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_006",
+      "hanzi": "漂亮",
+      "pinyin": "piàoliang",
+      "translationTr": "güzel",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc003_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_007",
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "translationTr": "hava",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc003_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC003_008",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "translationTr": "su",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc003_word_008.m4a"
+    }
+  ]
+}

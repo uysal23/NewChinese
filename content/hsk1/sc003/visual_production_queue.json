@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK1_SC003",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "Hangzhou station exit area, same day and same outfits as SC001-SC002; characters walking toward the exit, relaxed conversation, full bodies visible, clean composition with room for subtitle card.",
+  "assets": [
+    {
+      "file": "hsk1_sc003_bg.webp",
+      "purpose": "station-exit background without characters"
+    },
+    {
+      "file": "hsk1_sc003_char_li_na.webp",
+      "purpose": "Li Na full-body transparent walking/gesturing layer"
+    },
+    {
+      "file": "hsk1_sc003_char_zhang_wei.webp",
+      "purpose": "Zhang Wei full-body transparent walking/listening layer"
+    },
+    {
+      "file": "hsk1_sc003_fg.webp",
+      "purpose": "subtle station-exit depth foreground that must not mask bodies"
+    },
+    {
+      "file": "hsk1_sc003_preview.webp",
+      "purpose": "scene preview two-shot near station exit"
+    }
+  ],
+  "rules": [
+    "no text baked into image",
+    "no crowded composition",
+    "family-friendly",
+    "full legs/feet preserved",
+    "same faces/outfits as SC001-SC002",
+    "mobile-safe framing"
+  ]
+}
