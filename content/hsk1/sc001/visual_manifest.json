@@ -1,6 +1,13 @@
 {
   "sceneId":"HSK1_SC001",
   "locationId":"LOC_TRAIN_STATION_001",
+  "assets":{
+    "background":"assets/hsk1_sc001_bg.webp",
+    "characterA":"assets/hsk1_sc001_char_li_na.webp",
+    "characterB":"assets/hsk1_sc001_char_zhang_wei.webp",
+    "foreground":"assets/hsk1_sc001_fg.webp",
+    "preview":"assets/hsk1_sc001_preview.webp"
+  },
   "characters":[
     {"characterId":"CHAR_LI_NA_001","outfit":"OUTFIT_LI_NA_CASUAL_01","speechBubbleAnchor":"face_right"},
     {"characterId":"CHAR_ZHANG_WEI_001","outfit":"OUTFIT_ZHANG_WEI_CASUAL_01","speechBubbleAnchor":"face_left"}
