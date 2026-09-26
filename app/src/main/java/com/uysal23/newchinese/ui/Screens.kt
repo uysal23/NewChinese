@@ -166,10 +166,12 @@ fun DialogueScreen(
     showPinyinDefault: Boolean,
     showTurkishDefault: Boolean,
     playbackSpeed: Float,
+    initialLineIndex: Int,
+    onPositionChanged: (Int, Long) -> Unit,
     onStudy: () -> Unit,
     onBack: () -> Unit
 ) {
-    var index by rememberSaveable { mutableIntStateOf(0) }
+    var index by rememberSaveable(scene.sceneId) { mutableIntStateOf(initialLineIndex.coerceIn(0, scene.lines.lastIndex)) }
     var playing by remember { mutableStateOf(false) }
     var audioMissing by remember { mutableStateOf(false) }
     var showPinyin by rememberSaveable { mutableStateOf(showPinyinDefault) }
@@ -187,8 +189,10 @@ fun DialogueScreen(
     ) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
             TextButton(onClick = {
+                val position = audioPlayer.currentPositionMs()
                 audioPlayer.pause()
                 playing = false
+                onPositionChanged(index, position)
                 onStudy()
             }) { Text("Çalışma") }
             TextButton(onClick = { showPinyin = !showPinyin }) {
@@ -221,11 +225,13 @@ fun DialogueScreen(
 
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
             TextButton(onClick = {
+                val position = audioPlayer.currentPositionMs()
                 audioPlayer.pause()
                 playing = false
+                onPositionChanged(index, position)
                 onBack()
             }) { Text("Geri") }
-            Button(onClick = { if (index > 0) { audioPlayer.pause(); index--; playing = false } }) { Text("←") }
+            Button(onClick = { if (index > 0) { audioPlayer.pause(); index--; playing = false; onPositionChanged(index, 0L) } }) { Text("←") }
             Button(onClick = {
                 if (playing) {
                     audioPlayer.pause()
@@ -234,13 +240,16 @@ fun DialogueScreen(
                     val scenePath = scene.sceneId.lowercase().replace("_", "/").replace("sc/", "sc")
                     val ok = audioPlayer.play("$scenePath/${line.audioFile}", playbackSpeed) {
                         playing = false
-                        if (index < scene.lines.lastIndex) index++
+                        if (index < scene.lines.lastIndex) {
+                            index++
+                            onPositionChanged(index, 0L)
+                        }
                     }
                     audioMissing = !ok
                     playing = ok
                 }
             }) { Text(if (playing) "Pause" else "Start") }
-            Button(onClick = { if (index < scene.lines.lastIndex) { audioPlayer.pause(); index++; playing = false } }) { Text("→") }
+            Button(onClick = { if (index < scene.lines.lastIndex) { audioPlayer.pause(); index++; playing = false; onPositionChanged(index, 0L) } }) { Text("→") }
             TextButton(onClick = { showTurkish = !showTurkish }) { Text("TR") }
         }
     }
