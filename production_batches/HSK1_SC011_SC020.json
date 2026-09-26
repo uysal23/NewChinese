@@ -2,7 +2,7 @@
   "batchId": "HSK1_SC011_SC020",
   "masterStep": 6,
   "goldenReference": "Run #163",
-  "status": "validation_build_pending",
+  "status": "complete",
   "scenes": [
     {
       "sceneId": "HSK1_SC011",
@@ -85,6 +85,8 @@
     "contentReady": 10,
     "visualComplete": 10,
     "audioComplete": 10,
-    "validationBuildStatus": "pending"
-  }
+    "validationBuildStatus": "success",
+    "validationBuildRun": 244
+  },
+  "completedAt": "2026-09-26"
 }
