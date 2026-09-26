@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "incoming_assets/*.zip"
+      - "incoming_asset_parts/_READY"
 
 permissions:
   contents: write
@@ -27,8 +28,15 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Reconstruct staged binary packages
+        run: python tools/reconstruct_asset_packages.py
+
       - name: Import staged media
         run: python tools/import_media_assets.py
+
+      - name: Remove reconstructed package parts
+        shell: bash
+        run: rm -rf incoming_asset_parts
 
       - name: Validate project content
         run: python validation/validate_content.py
