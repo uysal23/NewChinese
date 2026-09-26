@@ -1,0 +1,2 @@
+# LOCKED STEP 09 — HSK1 Plan
+50 scenes: introductions and first social contact (1–10), daily routines (11–20), city and daily needs (21–30), family/personal life (31–40), learning/plans/closure (41–50). Typical dialogue target 14–24 turns, but naturalness overrides count. Vocabulary is cumulative. Exercises derive from authentic dialogue. Shadowing uses suitable dialogue lines. Visuals obey Character/Location Bible and ethics rules.
