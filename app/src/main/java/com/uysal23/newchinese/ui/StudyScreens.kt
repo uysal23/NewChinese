@@ -10,23 +10,58 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.uysal23.newchinese.data.SentenceExercise
 import com.uysal23.newchinese.data.VocabularyItem
+import com.uysal23.newchinese.data.progress.SceneProgressEntity
 
 @Composable
 fun StudyHubScreen(
+    progress: SceneProgressEntity?,
     onVocabulary: () -> Unit,
     onSentence: () -> Unit,
     onShadowing: () -> Unit,
+    onExam: () -> Unit,
     onBack: () -> Unit
 ) {
+    val studyReady = progress?.let {
+        it.vocabularyCompleted && it.sentencePracticeCompleted && it.shadowingCompleted
+    } == true
+
     Column(
         Modifier.fillMaxSize().padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text("Çalışma", style = MaterialTheme.typography.headlineMedium)
+        StudyStatus("Kelime", progress?.vocabularyCompleted == true)
+        StudyStatus("Cümle", progress?.sentencePracticeCompleted == true)
+        StudyStatus("Shadowing", progress?.shadowingCompleted == true)
         Button(onClick = onVocabulary, modifier = Modifier.fillMaxWidth()) { Text("Kelime Çalışması") }
         Button(onClick = onSentence, modifier = Modifier.fillMaxWidth()) { Text("Cümle Çalışması") }
         Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) { Text("Shadowing") }
+        Button(
+            onClick = onExam,
+            enabled = studyReady,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(
+                when {
+                    progress?.sentenceExamPassed == true -> "Sahne Sınavı ✓"
+                    progress?.wordExamPassed == true -> "Cümle Sınavına Devam Et"
+                    else -> "Sahne Sınavına Geç"
+                }
+            )
+        }
+        if (!studyReady) {
+            Text("Sınav için üç çalışma bölümünü de tamamla.")
+        }
         OutlinedButton(onClick = onBack, modifier = Modifier.fillMaxWidth()) { Text("Diyaloğa Dön") }
+    }
+}
+
+@Composable
+private fun StudyStatus(label: String, complete: Boolean) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        Text(if (complete) "✓" else "○")
+        Spacer(Modifier.width(8.dp))
+        Text(label)
     }
 }
 
@@ -35,6 +70,7 @@ fun VocabularyScreen(
     items: List<VocabularyItem>,
     favoriteIds: Set<String>,
     onToggleFavorite: (String) -> Unit,
+    onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
     var index by remember { mutableIntStateOf(0) }
@@ -83,15 +119,11 @@ fun VocabularyScreen(
 
             Text("${index + 1} / ${items.size}")
 
-            Button(
-                onClick = {
-                    if (index < items.lastIndex) {
-                        index++
-                        showMeaning = false
-                    }
-                },
-                enabled = index < items.lastIndex
-            ) { Text("Sonraki →") }
+            if (index < items.lastIndex) {
+                Button(onClick = { index++; showMeaning = false }) { Text("Sonraki →") }
+            } else {
+                Button(onClick = onComplete) { Text("Tamamla ✓") }
+            }
         }
     }
 }
@@ -158,7 +190,11 @@ fun FreeStudyScreen(
 }
 
 @Composable
-fun SentencePracticeScreen(exercises: List<SentenceExercise>, onBack: () -> Unit) {
+fun SentencePracticeScreen(
+    exercises: List<SentenceExercise>,
+    onComplete: () -> Unit,
+    onBack: () -> Unit
+) {
     var index by remember { mutableIntStateOf(0) }
     val exercise = exercises[index]
     var selectedTokens by remember(index) { mutableStateOf(emptyList<String>()) }
@@ -219,7 +255,11 @@ fun SentencePracticeScreen(exercises: List<SentenceExercise>, onBack: () -> Unit
 
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
             Button(onClick = { if (index > 0) index-- }, enabled = index > 0) { Text("←") }
-            Button(onClick = { if (index < exercises.lastIndex) index++ }, enabled = index < exercises.lastIndex) { Text("→") }
+            if (index < exercises.lastIndex) {
+                Button(onClick = { index++ }) { Text("→") }
+            } else {
+                Button(onClick = onComplete) { Text("Tamamla ✓") }
+            }
         }
     }
 }
@@ -238,9 +278,15 @@ private fun FlowLikeRow(tokens: List<String>, onToken: (String) -> Unit) {
 }
 
 @Composable
-fun ShadowingSetupScreen(dialogueCount: Int, onBack: () -> Unit) {
+fun ShadowingSetupScreen(
+    dialogueCount: Int,
+    onComplete: () -> Unit,
+    onBack: () -> Unit
+) {
     val availableOptions = listOf(6, 10, 15).filter { it <= dialogueCount }
     var selected by remember { mutableIntStateOf(availableOptions.firstOrNull() ?: dialogueCount) }
+    var started by remember { mutableStateOf(false) }
+    var completed by remember { mutableIntStateOf(0) }
 
     Column(
         Modifier.fillMaxSize().padding(20.dp),
@@ -248,24 +294,44 @@ fun ShadowingSetupScreen(dialogueCount: Int, onBack: () -> Unit) {
     ) {
         TextButton(onClick = onBack) { Text("Geri") }
         Text("Shadowing", style = MaterialTheme.typography.headlineMedium)
-        Text("Tekrar etmek istediğin cümle sayısını seç.")
-        availableOptions.forEach { count ->
+
+        if (!started) {
+            Text("Tekrar etmek istediğin cümle sayısını seç.")
+            availableOptions.forEach { count ->
+                OutlinedButton(
+                    onClick = { selected = count },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text("$count cümle${if (selected == count) " ✓" else ""}")
+                }
+            }
             OutlinedButton(
-                onClick = { selected = count },
+                onClick = { selected = dialogueCount },
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("$count cümle${if (selected == count) " ✓" else ""}")
+                Text("Tüm diyalog${if (selected == dialogueCount) " ✓" else ""}")
             }
-        }
-        OutlinedButton(
-            onClick = { selected = dialogueCount },
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Text("Tüm diyalog${if (selected == dialogueCount) " ✓" else ""}")
-        }
-        Text("Varsayılan ve minimum hedef: 6 cümle")
-        Button(onClick = {}, modifier = Modifier.fillMaxWidth()) {
-            Text("Shadowing'i Başlat")
+            Text("Varsayılan ve minimum hedef: 6 cümle")
+            Button(onClick = { started = true }, modifier = Modifier.fillMaxWidth()) {
+                Text("Shadowing'i Başlat")
+            }
+        } else {
+            Text("Cümle ${completed + 1} / $selected")
+            OutlinedButton(onClick = {}) { Text("🔊 Referansı Dinle") }
+            OutlinedButton(onClick = {}) { Text("🎙 Kaydı Başlat") }
+            Button(
+                onClick = {
+                    if (completed + 1 >= selected) {
+                        completed = selected
+                        onComplete()
+                    } else {
+                        completed++
+                    }
+                },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(if (completed + 1 >= selected) "Oturumu Tamamla ✓" else "Sonraki Cümle →")
+            }
         }
     }
 }
