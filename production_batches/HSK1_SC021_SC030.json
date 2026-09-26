@@ -2,67 +2,67 @@
   "batchId": "HSK1_SC021_SC030",
   "masterStep": 7,
   "goldenReference": "Run #163",
-  "status": "content_ready_audio_pending_visual_pending",
+  "status": "complete",
   "scenes": [
     {
       "sceneId": "HSK1_SC021",
       "titleTr": "Yol Sormak",
       "locationId": "LOC_NEIGHBORHOOD_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC022",
       "titleTr": "Otobüs Durağında",
       "locationId": "LOC_BUS_STOP_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC023",
       "titleTr": "Otobüs Yolculuğu",
       "locationId": "LOC_CITY_BUS_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC024",
       "titleTr": "Marketten Günlük İhtiyaçlar",
       "locationId": "LOC_CONVENIENCE_STORE_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC025",
       "titleTr": "Eczaneye Gitmek",
       "locationId": "LOC_PHARMACY_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC026",
       "titleTr": "Kafede Dinlenmek",
       "locationId": "LOC_CAFE_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC027",
       "titleTr": "Restoranda Sipariş",
       "locationId": "LOC_RESTAURANT_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC028",
       "titleTr": "Postaneye Gitmek",
       "locationId": "LOC_POST_OFFICE_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC029",
       "titleTr": "Parkta Haritaya Bakmak",
       "locationId": "LOC_CITY_PARK_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC030",
       "titleTr": "İhtiyaçlarla Eve Dönmek",
       "locationId": "LOC_NEIGHBORHOOD_001",
-      "status": "content_ready"
+      "status": "complete"
     }
   ],
   "pipeline": [
@@ -80,10 +80,13 @@
     "requireValidationPass": true
   },
   "progress": {
-    "completeScenes": 0,
+    "completeScenes": 10,
     "totalScenes": 10,
     "contentReady": 10,
-    "visualComplete": 0,
-    "audioComplete": 0
-  }
+    "visualComplete": 10,
+    "audioComplete": 10,
+    "validationBuildStatus": "success",
+    "validationBuildRun": 253
+  },
+  "completedAt": "2026-09-26"
 }
