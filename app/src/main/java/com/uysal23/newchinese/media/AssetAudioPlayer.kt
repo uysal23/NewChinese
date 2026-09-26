@@ -4,10 +4,20 @@ import android.content.Context
 import android.net.Uri
 import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackParameters
+import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 
 class AssetAudioPlayer(private val context: Context) {
-    private val player = ExoPlayer.Builder(context).build()
+    private var onEnded: (() -> Unit)? = null
+    private val player = ExoPlayer.Builder(context).build().apply {
+        addListener(object : Player.Listener {
+            override fun onPlaybackStateChanged(playbackState: Int) {
+                if (playbackState == Player.STATE_ENDED) {
+                    this@AssetAudioPlayer.onEnded?.invoke()
+                }
+            }
+        })
+    }
 
     fun exists(assetPath: String): Boolean =
         runCatching {
@@ -15,8 +25,9 @@ class AssetAudioPlayer(private val context: Context) {
             true
         }.getOrDefault(false)
 
-    fun play(assetPath: String, speed: Float = 1.0f): Boolean {
+    fun play(assetPath: String, speed: Float = 1.0f, onEnded: (() -> Unit)? = null): Boolean {
         if (!exists(assetPath)) return false
+        this.onEnded = onEnded
         player.stop()
         player.clearMediaItems()
         player.setMediaItem(MediaItem.fromUri("asset:///$assetPath"))
@@ -40,9 +51,11 @@ class AssetAudioPlayer(private val context: Context) {
 
     fun pause() {
         player.pause()
+        onEnded = null
     }
 
     fun release() {
+        onEnded = null
         player.release()
     }
 }
