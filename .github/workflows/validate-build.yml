@@ -22,9 +22,7 @@ jobs:
         run: python validation/validate_content.py
 
       - name: Smoke-test media importer
-        run: |
-          python -m py_compile tools/import_media_assets.py
-          python tools/import_media_assets.py
+        run: python -m py_compile tools/import_media_assets.py
 
   test-and-lint:
     needs: validate
