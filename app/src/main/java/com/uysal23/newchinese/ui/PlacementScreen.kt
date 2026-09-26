@@ -56,6 +56,7 @@ fun PlacementScreen(
     }
 
     val q = shuffled[index]
+    val displayedOptions = remember(q.id) { q.options.mapIndexed { originalIndex, text -> originalIndex to text }.shuffled() }
 
     Column(
         Modifier.fillMaxSize().padding(20.dp),
@@ -74,13 +75,13 @@ fun PlacementScreen(
         AssistChip(onClick = {}, label = { Text(q.level) })
         Text(q.prompt, style = MaterialTheme.typography.headlineSmall)
 
-        q.options.forEachIndexed { optionIndex, option ->
+        displayedOptions.forEach { (originalIndex, option) ->
             OutlinedButton(
                 onClick = {
                     if (!answered) {
-                        selectedIndex = optionIndex
+                        selectedIndex = originalIndex
                         answered = true
-                        if (optionIndex == q.answerIndex) {
+                        if (originalIndex == q.answerIndex) {
                             correctByLevel[q.level] = (correctByLevel[q.level] ?: 0) + 1
                         }
                     }
