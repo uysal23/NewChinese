@@ -1,5 +1,6 @@
 package com.uysal23.newchinese.data.progress
 
+import com.uysal23.newchinese.domain.ProgressRules
 import kotlinx.coroutines.flow.Flow
 
 class ProgressRepository(private val dao: SceneProgressDao) {
@@ -26,7 +27,7 @@ class ProgressRepository(private val dao: SceneProgressDao) {
 
     suspend fun recordWordExam(sceneId: String, score: Int) = mutate(sceneId) {
         copy(
-            wordExamPassed = wordExamPassed || score >= 90,
+            wordExamPassed = wordExamPassed || ProgressRules.wordPassed(score),
             wordExamBestScore = maxOf(wordExamBestScore, score),
             lastStudiedAt = System.currentTimeMillis()
         )
@@ -34,7 +35,7 @@ class ProgressRepository(private val dao: SceneProgressDao) {
 
     suspend fun recordSentenceExam(sceneId: String, score: Int) {
         val before = dao.get(sceneId) ?: SceneProgressEntity(sceneId = sceneId, unlocked = sceneId == "HSK1_SC001")
-        val passed = before.wordExamPassed && score >= 85
+        val passed = ProgressRules.sentencePassed(before.wordExamPassed, score)
         val completed = before.sceneCompleted || passed
         dao.upsert(
             before.copy(
@@ -48,20 +49,9 @@ class ProgressRepository(private val dao: SceneProgressDao) {
     }
 
     private suspend fun unlockNext(sceneId: String) {
-        val next = nextSceneId(sceneId) ?: return
+        val next = ProgressRules.nextSceneId(sceneId) ?: return
         val current = dao.get(next) ?: SceneProgressEntity(sceneId = next)
         if (!current.unlocked) dao.upsert(current.copy(unlocked = true))
-    }
-
-    private fun nextSceneId(sceneId: String): String? {
-        val match = Regex("""HSK(\d)_SC(\d{3})""").matchEntire(sceneId) ?: return null
-        val level = match.groupValues[1].toInt()
-        val scene = match.groupValues[2].toInt()
-        return when {
-            scene < 50 -> "HSK${level}_SC${(scene + 1).toString().padStart(3, '0')}"
-            level < 6 -> "HSK${level + 1}_SC001"
-            else -> null
-        }
     }
 
     private suspend fun mutate(sceneId: String, block: SceneProgressEntity.() -> SceneProgressEntity) {
