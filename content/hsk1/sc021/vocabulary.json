@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC021",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC021_001",
+      "hanzi": "问路",
+      "pinyin": "wènlù",
+      "translationTr": "yol sormak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc021_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_002",
+      "hanzi": "路口",
+      "pinyin": "lùkǒu",
+      "translationTr": "kavşak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc021_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_003",
+      "hanzi": "右转",
+      "pinyin": "yòu zhuǎn",
+      "translationTr": "sağa dönmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc021_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_004",
+      "hanzi": "左边",
+      "pinyin": "zuǒbian",
+      "translationTr": "sol taraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc021_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_005",
+      "hanzi": "对面",
+      "pinyin": "duìmiàn",
+      "translationTr": "karşı taraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc021_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_006",
+      "hanzi": "银行",
+      "pinyin": "yínháng",
+      "translationTr": "banka",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc021_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_007",
+      "hanzi": "药店",
+      "pinyin": "yàodiàn",
+      "translationTr": "eczane",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc021_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC021_008",
+      "hanzi": "迷路",
+      "pinyin": "mílù",
+      "translationTr": "yolunu kaybetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc021_word_008.m4a"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC024",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC024_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC024_001",
+      "correctZh": "电池在哪里？",
+      "pinyin": "Diànchí zài nǎli?",
+      "translationTr": "Piller nerede?",
+      "tokens": [
+        "电池",
+        "在",
+        "哪里"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc024_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC024_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC024_002",
+      "sentenceZh": "这些就___了。",
+      "correctAnswer": "够",
+      "options": [
+        "够",
+        "买",
+        "右边",
+        "冰箱"
+      ],
+      "fullCorrectSentenceZh": "这些就够了。",
+      "correctZh": "这些就够了。",
+      "pinyin": "Zhèxiē jiù gòu le.",
+      "translationTr": "Bunlar yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc024_sentence_002.m4a"
+    }
+  ]
+}

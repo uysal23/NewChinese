@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC021",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC021_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC021_001",
+      "correctZh": "去公交站怎么走？",
+      "pinyin": "Qù gōngjiāo zhàn zěnme zǒu?",
+      "translationTr": "Otobüs durağına nasıl gidilir?",
+      "tokens": [
+        "去公交站",
+        "怎么",
+        "走"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc021_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC021_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC021_002",
+      "sentenceZh": "到路口___。",
+      "correctAnswer": "右转",
+      "options": [
+        "右转",
+        "左边",
+        "对面",
+        "银行"
+      ],
+      "fullCorrectSentenceZh": "到路口右转。",
+      "correctZh": "到路口右转。",
+      "pinyin": "Dào lùkǒu yòu zhuǎn.",
+      "translationTr": "Kavşakta sağa dön.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc021_sentence_002.m4a"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "locationId": "LOC_BUS_STOP_001",
+  "name": "Neighborhood Bus Stop",
+  "city": "Hangzhou",
+  "style": "modern clean urban bus stop",
+  "continuity": [
+    "glass shelter",
+    "tree-lined street",
+    "city bus approach",
+    "family-friendly",
+    "no readable baked text"
+  ]
+}

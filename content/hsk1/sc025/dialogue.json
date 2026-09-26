@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC025",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC025_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "药店就在前面，我们进去看看。",
+      "pinyin": "Yàodiàn jiù zài qiánmiàn, wǒmen jìnqù kànkan.",
+      "translationTr": "Eczane hemen ileride, içeri bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想买一些创可贴。",
+      "pinyin": "Wǒ xiǎng mǎi yìxiē chuàngkětiē.",
+      "translationTr": "Biraz yara bandı almak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "家里没有吗？",
+      "pinyin": "Jiālǐ méiyǒu ma?",
+      "translationTr": "Evde yok mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "没有，我想准备一点。",
+      "pinyin": "Méiyǒu, wǒ xiǎng zhǔnbèi yìdiǎn.",
+      "translationTr": "Yok, biraz bulundurmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这个想法很好。",
+      "pinyin": "Zhège xiǎngfa hěn hǎo.",
+      "translationTr": "Bu iyi bir fikir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "创可贴在哪里？",
+      "pinyin": "Chuàngkětiē zài nǎli?",
+      "translationTr": "Yara bantları nerede?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "在那边的小架子上。",
+      "pinyin": "Zài nàbiān de xiǎo jiàzi shàng.",
+      "translationTr": "Şu taraftaki küçük rafta.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还想买一个体温计。",
+      "pinyin": "Wǒ hái xiǎng mǎi yí ge tǐwēnjì.",
+      "translationTr": "Bir de termometre almak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里有两种。",
+      "pinyin": "Zhèlǐ yǒu liǎng zhǒng.",
+      "translationTr": "Burada iki çeşit var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个简单吗？",
+      "pinyin": "Zhège jiǎndān ma?",
+      "translationTr": "Bu kullanımı kolay mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "看起来很简单。",
+      "pinyin": "Kàn qǐlái hěn jiǎndān.",
+      "translationTr": "Kolay görünüyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我买这个。",
+      "pinyin": "Nà wǒ mǎi zhège.",
+      "translationTr": "O zaman bunu alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还要买口罩吗？",
+      "pinyin": "Hái yào mǎi kǒuzhào ma?",
+      "translationTr": "Maske de alacak mısın?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "买一包放在家里吧。",
+      "pinyin": "Mǎi yì bāo fàng zài jiālǐ ba.",
+      "translationTr": "Evde dursun diye bir paket alalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，这些日常用品都很有用。",
+      "pinyin": "Hǎo, zhèxiē rìcháng yòngpǐn dōu hěn yǒuyòng.",
+      "translationTr": "İyi, bunların hepsi günlük hayatta işe yarar.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC025_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，准备好比较安心。",
+      "pinyin": "Duì, zhǔnbèi hǎo bǐjiào ānxīn.",
+      "translationTr": "Evet, hazır bulundurmak içimi rahatlatır.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

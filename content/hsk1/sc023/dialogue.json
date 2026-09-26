@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC023",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC023_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "里面有座位，我们坐后面吧。",
+      "pinyin": "Lǐmiàn yǒu zuòwèi, wǒmen zuò hòumiàn ba.",
+      "translationTr": "İçeride boş yer var, arkaya oturalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我坐窗边。",
+      "pinyin": "Hǎo, wǒ zuò chuāngbiān.",
+      "translationTr": "Tamam, pencere kenarına oturayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你可以看看路上的地方。",
+      "pinyin": "Nǐ kěyǐ kànkan lùshang de dìfang.",
+      "translationTr": "Yoldaki yerleri görebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这条路很宽。",
+      "pinyin": "Zhè tiáo lù hěn kuān.",
+      "translationTr": "Bu yol çok geniş.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "前面有一个大商场。",
+      "pinyin": "Qiánmiàn yǒu yí ge dà shāngchǎng.",
+      "translationTr": "İleride büyük bir alışveriş merkezi var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们今天去那里吗？",
+      "pinyin": "Wǒmen jīntiān qù nàli ma?",
+      "translationTr": "Bugün oraya gidecek miyiz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天不去，下次再去。",
+      "pinyin": "Jīntiān bú qù, xià cì zài qù.",
+      "translationTr": "Bugün gitmiyoruz, başka zaman gideriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "下一站叫什么？",
+      "pinyin": "Xià yí zhàn jiào shénme?",
+      "translationTr": "Bir sonraki durağın adı ne?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "下一站是和平路。",
+      "pinyin": "Xià yí zhàn shì Hépíng Lù.",
+      "translationTr": "Bir sonraki durak Heping Yolu.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们还要坐几站？",
+      "pinyin": "Wǒmen hái yào zuò jǐ zhàn?",
+      "translationTr": "Daha kaç durak gideceğiz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还有两站。",
+      "pinyin": "Hái yǒu liǎng zhàn.",
+      "translationTr": "İki durak daha var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "到站的时候告诉我。",
+      "pinyin": "Dào zhàn de shíhou gàosu wǒ.",
+      "translationTr": "Durağa gelince bana söyle.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，你不用担心。",
+      "pinyin": "Hǎo, nǐ bú yòng dānxīn.",
+      "translationTr": "Tamam, endişelenme.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "坐公交车比我想的简单。",
+      "pinyin": "Zuò gōngjiāo chē bǐ wǒ xiǎng de jiǎndān.",
+      "translationTr": "Otobüse binmek düşündüğümden kolaymış.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "习惯以后会更方便。",
+      "pinyin": "Xíguàn yǐhòu huì gèng fāngbiàn.",
+      "translationTr": "Alışınca daha da kolay olacak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC023_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我以后可以自己坐。",
+      "pinyin": "Hǎo, wǒ yǐhòu kěyǐ zìjǐ zuò.",
+      "translationTr": "Tamam, ileride tek başıma binebilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

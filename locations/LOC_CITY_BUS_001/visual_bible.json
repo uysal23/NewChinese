@@ -1,0 +1,13 @@
+{
+  "locationId": "LOC_CITY_BUS_001",
+  "name": "Hangzhou City Bus",
+  "city": "Hangzhou",
+  "style": "clean modern city bus interior",
+  "continuity": [
+    "wide windows",
+    "neutral seats",
+    "safe aisle",
+    "daylight",
+    "no readable baked text"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC023",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC023_001",
+      "hanzi": "座位",
+      "pinyin": "zuòwèi",
+      "translationTr": "koltuk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_002",
+      "hanzi": "窗边",
+      "pinyin": "chuāngbiān",
+      "translationTr": "pencere kenarı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_003",
+      "hanzi": "宽",
+      "pinyin": "kuān",
+      "translationTr": "geniş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_004",
+      "hanzi": "商场",
+      "pinyin": "shāngchǎng",
+      "translationTr": "alışveriş merkezi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_005",
+      "hanzi": "下一站",
+      "pinyin": "xià yí zhàn",
+      "translationTr": "sonraki durak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_006",
+      "hanzi": "到站",
+      "pinyin": "dào zhàn",
+      "translationTr": "durağa varmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_007",
+      "hanzi": "担心",
+      "pinyin": "dānxīn",
+      "translationTr": "endişelenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC023_008",
+      "hanzi": "方便",
+      "pinyin": "fāngbiàn",
+      "translationTr": "kolay / kullanışlı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_word_008.m4a"
+    }
+  ]
+}

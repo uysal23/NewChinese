@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC022",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC022_001",
+      "hanzi": "公交站",
+      "pinyin": "gōngjiāo zhàn",
+      "translationTr": "otobüs durağı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_002",
+      "hanzi": "几路",
+      "pinyin": "jǐ lù",
+      "translationTr": "kaç numaralı hat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_003",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "translationTr": "durak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_004",
+      "hanzi": "票",
+      "pinyin": "piào",
+      "translationTr": "bilet",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_005",
+      "hanzi": "交通卡",
+      "pinyin": "jiāotōng kǎ",
+      "translationTr": "ulaşım kartı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_006",
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "translationTr": "cep telefonu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_007",
+      "hanzi": "上车",
+      "pinyin": "shàng chē",
+      "translationTr": "araca binmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC022_008",
+      "hanzi": "下车",
+      "pinyin": "xià chē",
+      "translationTr": "araçtan inmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_word_008.m4a"
+    }
+  ]
+}

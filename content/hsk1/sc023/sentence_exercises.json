@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC023",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC023_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC023_001",
+      "correctZh": "我们还要坐几站？",
+      "pinyin": "Wǒmen hái yào zuò jǐ zhàn?",
+      "translationTr": "Daha kaç durak gideceğiz?",
+      "tokens": [
+        "我们",
+        "还要坐",
+        "几站"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc023_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC023_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC023_002",
+      "sentenceZh": "我坐___。",
+      "correctAnswer": "窗边",
+      "options": [
+        "窗边",
+        "座位",
+        "下一站",
+        "商场"
+      ],
+      "fullCorrectSentenceZh": "我坐窗边。",
+      "correctZh": "我坐窗边。",
+      "pinyin": "Wǒ zuò chuāngbiān.",
+      "translationTr": "Pencere kenarına oturuyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc023_sentence_002.m4a"
+    }
+  ]
+}

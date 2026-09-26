@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC022",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC022_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里就是公交站。",
+      "pinyin": "Zhèlǐ jiù shì gōngjiāo zhàn.",
+      "translationTr": "Burası otobüs durağı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们坐几路车？",
+      "pinyin": "Wǒmen zuò jǐ lù chē?",
+      "translationTr": "Kaç numaralı otobüse bineceğiz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "坐二十八路。",
+      "pinyin": "Zuò èrshíbā lù.",
+      "translationTr": "28 numaraya bineceğiz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要坐几站？",
+      "pinyin": "Yào zuò jǐ zhàn?",
+      "translationTr": "Kaç durak gideceğiz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "五站，不算远。",
+      "pinyin": "Wǔ zhàn, bú suàn yuǎn.",
+      "translationTr": "Beş durak, çok uzak değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我可以买票吗？",
+      "pinyin": "Wǒ kěyǐ mǎi piào ma?",
+      "translationTr": "Bilet alabilir miyim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以，也可以用交通卡。",
+      "pinyin": "Kěyǐ, yě kěyǐ yòng jiāotōng kǎ.",
+      "translationTr": "Olur, ulaşım kartı da kullanabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还没有交通卡。",
+      "pinyin": "Wǒ hái méiyǒu jiāotōng kǎ.",
+      "translationTr": "Henüz ulaşım kartım yok.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "没关系，今天先用手机。",
+      "pinyin": "Méi guānxi, jīntiān xiān yòng shǒujī.",
+      "translationTr": "Sorun değil, bugün telefonla ödeyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "车多久来？",
+      "pinyin": "Chē duō jiǔ lái?",
+      "translationTr": "Otobüs ne kadar sonra gelir?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "大概三分钟。",
+      "pinyin": "Dàgài sān fēnzhōng.",
+      "translationTr": "Yaklaşık üç dakika.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "站里的人不多。",
+      "pinyin": "Zhàn lǐ de rén bù duō.",
+      "translationTr": "Durakta çok insan yok.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，现在不是最忙的时候。",
+      "pinyin": "Duì, xiànzài bú shì zuì máng de shíhou.",
+      "translationTr": "Evet, şimdi en yoğun saat değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那辆是不是我们的车？",
+      "pinyin": "Nà liàng shì bú shì wǒmen de chē?",
+      "translationTr": "Şu gelen bizim otobüs mü?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，二十八路来了。",
+      "pinyin": "Duì, èrshíbā lù lái le.",
+      "translationTr": "Evet, 28 numara geldi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC022_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我们上车吧。",
+      "pinyin": "Hǎo, wǒmen shàng chē ba.",
+      "translationTr": "Tamam, binelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

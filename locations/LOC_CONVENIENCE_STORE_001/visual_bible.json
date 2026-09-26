@@ -1,0 +1,13 @@
+{
+  "locationId": "LOC_CONVENIENCE_STORE_001",
+  "name": "Neighborhood Convenience Store",
+  "city": "Hangzhou",
+  "style": "bright compact convenience store",
+  "continuity": [
+    "water cooler",
+    "tissues",
+    "daily goods",
+    "clean shelves",
+    "family-friendly"
+  ]
+}

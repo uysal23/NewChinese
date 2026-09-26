@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC025",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC025_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC025_001",
+      "correctZh": "创可贴在哪里？",
+      "pinyin": "Chuàngkětiē zài nǎli?",
+      "translationTr": "Yara bantları nerede?",
+      "tokens": [
+        "创可贴",
+        "在",
+        "哪里"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC025_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC025_002",
+      "sentenceZh": "我想买一个___。",
+      "correctAnswer": "体温计",
+      "options": [
+        "体温计",
+        "口罩",
+        "一包",
+        "有用"
+      ],
+      "fullCorrectSentenceZh": "我想买一个体温计。",
+      "correctZh": "我想买一个体温计。",
+      "pinyin": "Wǒ xiǎng mǎi yí ge tǐwēnjì.",
+      "translationTr": "Bir termometre almak istiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_sentence_002.m4a"
+    }
+  ]
+}

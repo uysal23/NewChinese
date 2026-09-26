@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC022",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC022_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC022_001",
+      "correctZh": "我们坐几路车？",
+      "pinyin": "Wǒmen zuò jǐ lù chē?",
+      "translationTr": "Kaç numaralı otobüse bineceğiz?",
+      "tokens": [
+        "我们",
+        "坐",
+        "几路车"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc022_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC022_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC022_002",
+      "sentenceZh": "我们在这里___。",
+      "correctAnswer": "上车",
+      "options": [
+        "上车",
+        "下车",
+        "买票",
+        "几站"
+      ],
+      "fullCorrectSentenceZh": "我们在这里上车。",
+      "correctZh": "我们在这里上车。",
+      "pinyin": "Wǒmen zài zhèlǐ shàng chē.",
+      "translationTr": "Buradan otobüse biniyoruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc022_sentence_002.m4a"
+    }
+  ]
+}

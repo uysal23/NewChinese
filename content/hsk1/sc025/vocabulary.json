@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC025",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC025_001",
+      "hanzi": "创可贴",
+      "pinyin": "chuàngkětiē",
+      "translationTr": "yara bandı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_002",
+      "hanzi": "准备",
+      "pinyin": "zhǔnbèi",
+      "translationTr": "hazırlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_003",
+      "hanzi": "体温计",
+      "pinyin": "tǐwēnjì",
+      "translationTr": "termometre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_004",
+      "hanzi": "两种",
+      "pinyin": "liǎng zhǒng",
+      "translationTr": "iki çeşit",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_005",
+      "hanzi": "口罩",
+      "pinyin": "kǒuzhào",
+      "translationTr": "maske",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_006",
+      "hanzi": "一包",
+      "pinyin": "yì bāo",
+      "translationTr": "bir paket",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_007",
+      "hanzi": "日常用品",
+      "pinyin": "rìcháng yòngpǐn",
+      "translationTr": "günlük ihtiyaç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc025_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC025_008",
+      "hanzi": "有用",
+      "pinyin": "yǒuyòng",
+      "translationTr": "faydalı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc025_word_008.m4a"
+    }
+  ]
+}

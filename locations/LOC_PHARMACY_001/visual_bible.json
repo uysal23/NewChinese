@@ -1,0 +1,12 @@
+{
+  "locationId": "LOC_PHARMACY_001",
+  "name": "Neighborhood Pharmacy",
+  "city": "Hangzhou",
+  "style": "clean modern pharmacy",
+  "continuity": [
+    "basic first aid shelves",
+    "bright neutral light",
+    "no procedures",
+    "family-friendly"
+  ]
+}
