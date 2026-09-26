@@ -208,7 +208,14 @@ fun DialogueScreen(
         ) {
             Text(scene.titleZh, style = MaterialTheme.typography.titleLarge)
             Text(scene.titleTr)
-            Spacer(Modifier.height(32.dp))
+            Spacer(Modifier.height(16.dp))
+            AssetSceneImage(
+                sceneAssetBase = sceneIdToAssetBase(scene.sceneId),
+                relativePath = scene.visualAssets.background,
+                contentDescription = scene.titleTr,
+                modifier = Modifier.fillMaxWidth().height(220.dp)
+            )
+            Spacer(Modifier.height(16.dp))
             ActiveSpeakerMarker(
                 speakerName = speaker,
                 isLeft = line.speakerId.contains("LI_NA")
