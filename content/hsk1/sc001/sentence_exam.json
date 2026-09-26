@@ -1,0 +1,6 @@
+{
+  "sceneId":"HSK1_SC001",
+  "passingScore":85,
+  "shuffleQuestions":true,
+  "types":["reorder","fill_blank","choose_word","listen_select"]
+}
