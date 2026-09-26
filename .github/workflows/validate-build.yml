@@ -56,3 +56,25 @@ jobs:
         with:
           name: NewChinese-debug-apk
           path: app/build/outputs/apk/debug/*.apk
+
+  build-release:
+    needs: test-and-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.11.1"
+      - name: Build unsigned release APK and AAB
+        run: gradle :app:assembleRelease :app:bundleRelease
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NewChinese-release-unsigned
+          path: |
+            app/build/outputs/apk/release/*.apk
+            app/build/outputs/bundle/release/*.aab
+
