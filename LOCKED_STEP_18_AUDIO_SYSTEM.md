@@ -1,0 +1,2 @@
+# LOCKED STEP 18 — Audio System
+Natural Standard Mandarin. Persistent voice per character. Dialogue, word, sentence, shadowing reference and correct-sentence audio. Main learning audio must not use phone TTS. Natural rhythm and emotion, no robotic prosody. User playback speeds: 0.75x/0.85x/1.0x/1.15x/1.25x. M4A/AAC preferred. Normalize levels, trim unnecessary silence, validate clipping/noise/voice consistency. Shadowing compares user recording with reference and supports compatibility/pronunciation/tone/fluency metrics where reliable.
