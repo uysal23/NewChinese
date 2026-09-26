@@ -60,8 +60,47 @@ def probe_duration(path: Path) -> float:
 
 
 async def synthesize_mp3(text: str, voice: str, rate: str, pitch: str, destination: Path) -> None:
-    communicate = edge_tts.Communicate(text=text, voice=voice, rate=rate, pitch=pitch)
-    await communicate.save(str(destination))
+    # Edge TTS occasionally returns no audio for an otherwise valid request.
+    # Retry the exact same synthesis request with bounded backoff before failing
+    # the scene. This keeps GitHub-only production resilient to transient service
+    # errors without changing voice identity, rate, pitch, or text.
+    attempts = 5
+    last_error: Exception | None = None
+
+    for attempt in range(1, attempts + 1):
+        if destination.exists():
+            destination.unlink()
+
+        try:
+            communicate = edge_tts.Communicate(
+                text=text,
+                voice=voice,
+                rate=rate,
+                pitch=pitch,
+            )
+            await communicate.save(str(destination))
+
+            if destination.is_file() and destination.stat().st_size > 0:
+                if attempt > 1:
+                    print(f"TTS recovered on attempt {attempt}/{attempts}.")
+                return
+
+            raise RuntimeError("TTS returned an empty audio file")
+        except Exception as exc:
+            last_error = exc
+            if attempt >= attempts:
+                break
+
+            delay_seconds = min(2 * attempt, 8)
+            print(
+                f"TTS attempt {attempt}/{attempts} failed: {exc}. "
+                f"Retrying in {delay_seconds}s..."
+            )
+            await asyncio.sleep(delay_seconds)
+
+    raise RuntimeError(
+        f"TTS failed after {attempts} attempts for voice={voice}: {last_error}"
+    )
 
 
 async def generate_item(item: dict, temp_dir: Path, output_dir: Path) -> Path:
