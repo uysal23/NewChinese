@@ -1,0 +1,2 @@
+# LOCKED STEP 13 — HSK5 Plan
+50 scenes follow the locked Step 08 arc: technology, travel, personal development, society, teamwork and future planning. Dialogue supports abstract topics without artificial complexity. All global rules remain binding.
