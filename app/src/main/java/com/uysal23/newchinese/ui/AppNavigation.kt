@@ -85,11 +85,18 @@ fun AppNavigation(
                 val levelNumber = levelName.removePrefix("HSK").toIntOrNull() ?: 1
                 val unlocked = allProgress.filter { p -> p.unlocked }.map { p -> p.sceneId }.toSet()
                 val available = remember(levelNumber) { repository.availableSceneIds(levelNumber) }
+                val sceneTitles = remember(levelNumber, available) {
+                    available.associateWith { sceneId ->
+                        runCatching { repository.loadSceneById(sceneId).titleTr }
+                            .getOrDefault("")
+                    }
+                }
                 MainScaffold(nav = nav, currentRoute = "dashboard") {
                     SceneListScreen(
                         level = levelName,
                         unlockedSceneIds = unlocked,
-                        availableSceneIds = available
+                        availableSceneIds = available,
+                        sceneTitles = sceneTitles
                     ) { sceneId ->
                         activeSceneId = sceneId
                         freeStudyMode = false
