@@ -1,0 +1,2 @@
+# LOCKED STEP 14 — HSK6 Plan
+50 scenes follow the locked Step 08 arc: career and meaning, education and learning, society/culture, technology/future, and story closure. Advanced Mandarin must remain natural adult conversation rather than artificially difficult textbook prose. All global rules remain binding.
