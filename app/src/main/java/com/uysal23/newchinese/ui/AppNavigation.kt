@@ -23,6 +23,7 @@ fun AppNavigation(
     val current by preferences.settings.collectAsState(initial = UserSettings())
     val allProgress by progressRepository.observeAll().collectAsState(initial = emptyList())
     var activeSceneId by remember { mutableStateOf("HSK1_SC001") }
+    var freeStudyMode by remember { mutableStateOf(false) }
     val sceneProgressFlow = remember(activeSceneId) { progressRepository.observeScene(activeSceneId) }
     val sceneProgress by sceneProgressFlow.collectAsState(initial = null)
     val nav = rememberNavController()
@@ -84,6 +85,7 @@ fun AppNavigation(
                         availableSceneIds = available
                     ) { sceneId ->
                         activeSceneId = sceneId
+                        freeStudyMode = false
                         nav.navigate("sceneIntro")
                     }
                 }
@@ -111,6 +113,7 @@ fun AppNavigation(
                 KeepScreenOn()
                 StudyHubScreen(
                     progress = sceneProgress,
+                    freeStudyMode = freeStudyMode,
                     onVocabulary = { nav.navigate("vocabulary") },
                     onSentence = { nav.navigate("sentences") },
                     onShadowing = { nav.navigate("shadowing") },
@@ -127,7 +130,9 @@ fun AppNavigation(
                     items = scene.vocabulary,
                     favoriteIds = current.favoriteWordIds,
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } },
-                    onComplete = { scope.launch { progressRepository.markVocabularyComplete(scene.sceneId) } },
+                    onComplete = {
+                        if (!freeStudyMode) scope.launch { progressRepository.markVocabularyComplete(scene.sceneId) }
+                    },
                     onBack = { nav.popBackStack() }
                 )
             }
@@ -135,7 +140,9 @@ fun AppNavigation(
                 KeepScreenOn()
                 SentencePracticeScreen(
                     exercises = scene.exercises,
-                    onComplete = { scope.launch { progressRepository.markSentencePracticeComplete(scene.sceneId) } },
+                    onComplete = {
+                        if (!freeStudyMode) scope.launch { progressRepository.markSentencePracticeComplete(scene.sceneId) }
+                    },
                     onBack = { nav.popBackStack() }
                 )
             }
@@ -145,7 +152,9 @@ fun AppNavigation(
                     sceneId = scene.sceneId,
                     lines = scene.lines,
                     playbackSpeed = current.playbackSpeed,
-                    onComplete = { scope.launch { progressRepository.markShadowingComplete(scene.sceneId) } },
+                    onComplete = {
+                        if (!freeStudyMode) scope.launch { progressRepository.markShadowingComplete(scene.sceneId) }
+                    },
                     onBack = { nav.popBackStack() }
                 )
             }
