@@ -6,9 +6,14 @@
   "titleZh": "名字",
   "titleTr": "İsimler",
   "locationId": "LOC_TRAIN_STATION_001",
-  "characterIds": ["CHAR_ZHANG_WEI_001", "CHAR_LI_NA_001"],
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
   "estimatedMinutes": 8,
   "isInitiallyUnlocked": false,
   "previousSceneId": "HSK1_SC001",
-  "nextSceneId": "HSK1_SC003"
+  "nextSceneId": "HSK1_SC003",
+  "summaryTr": "İstasyondan ayrılmadan önce Zhang Wei ve Li Na birbirlerinin isimlerini nasıl kullanacaklarını konuşur ve daha samimi biçimde tanışırlar.",
+  "locationTr": "Hangzhou Tren İstasyonu"
 }
