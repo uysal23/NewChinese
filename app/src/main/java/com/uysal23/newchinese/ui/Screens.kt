@@ -223,7 +223,11 @@ fun DialogueScreen(
                     audioPlayer.pause()
                     playing = false
                 } else {
-                    val ok = audioPlayer.play("hsk1/sc001/${line.audioFile}", playbackSpeed)
+                    val scenePath = scene.sceneId.lowercase().replace("_", "/").replace("sc/", "sc")
+                    val ok = audioPlayer.play("$scenePath/${line.audioFile}", playbackSpeed) {
+                        playing = false
+                        if (index < scene.lines.lastIndex) index++
+                    }
                     audioMissing = !ok
                     playing = ok
                 }
