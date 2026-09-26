@@ -1,6 +1,6 @@
 {
-  "sceneId":"HSK1_SC001",
-  "exercises":[
+  "sceneId": "HSK1_SC001",
+  "exercises": [
     {
       "exerciseId":"EX_SENT_HSK1_SC001_001",
       "type":"reorder",
@@ -9,7 +9,8 @@
       "pinyin":"Xièxie nǐ lái jiē wǒ.",
       "translationTr":"Beni karşılamaya geldiğin için teşekkür ederim.",
       "tokens":["谢谢","你","来","接","我"],
-      "audioFile":"hsk1_sc001_line_006.m4a",
+      "voiceId":"VOICE_ZHANG_WEI_001",
+      "audioFile":"assets/hsk1_sc001_sentence_001.m4a",
       "allowPreviewAudio":true
     },
     {
@@ -20,7 +21,10 @@
       "correctAnswer":"是",
       "options":["是","好","见","累"],
       "fullCorrectSentenceZh":"我是张伟。",
-      "audioFile":"hsk1_sc001_sentence_002.m4a"
+      "pinyin":"Wǒ shì Zhāng Wěi.",
+      "translationTr":"Ben Zhang Wei'yim.",
+      "voiceId":"VOICE_ZHANG_WEI_001",
+      "audioFile":"assets/hsk1_sc001_sentence_002.m4a"
     }
   ]
 }
