@@ -1,0 +1,9 @@
+{
+  "visualBibleId":"VIS_LOC_TRAIN_STATION_001",
+  "locationId":"LOC_TRAIN_STATION_001",
+  "style":"modern Hangzhou railway station, unified 2.5D/3D CGI",
+  "fixedObjects":["main concourse geometry","platform signage zones","large window structure"],
+  "safeAreas":["top-left study control","top-right pinyin control","bottom subtitle zone"],
+  "textRule":"Critical Chinese signage must be controlled overlay in Simplified Chinese",
+  "forbiddenContent":["alcohol","bar","nightclub","explicit content","erotic presentation"]
+}
