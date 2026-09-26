@@ -38,6 +38,7 @@ All twenty planning steps are LOCKED. Read the relevant root manifest before cha
 - Root manifests are the source of truth for future work.
 
 ## LOCKED GOLDEN DEMO V1 — SC001 reference implementation
+Golden Demo V1 reference implementation commit: `b5264eb81b5d6616cc2780ea81ae8feb7fc2f2e6`.
 The phone-tested HSK1_SC001 experience is the locked reference for all subsequent scenes.
 - Preserve the current dialogue UI layout and safe-area behavior.
 - Scene list labels use user-facing `Sahne XX · Başlık`; internal SC IDs remain implementation-only.
