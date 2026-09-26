@@ -1,0 +1,26 @@
+{
+  "sceneId": "HSK1_SC002",
+  "exercises": [
+    {
+      "exerciseId":"EX_SENT_HSK1_SC002_001",
+      "type":"reorder",
+      "sentenceId":"SENT_HSK1_SC002_001",
+      "correctZh":"我叫李娜。",
+      "pinyin":"Wǒ jiào Lǐ Nà.",
+      "translationTr":"Benim adım Li Na.",
+      "tokens":["我","叫","李娜"],
+      "audioFile":"hsk1_sc002_line_003.m4a",
+      "allowPreviewAudio":true
+    },
+    {
+      "exerciseId":"EX_SENT_HSK1_SC002_002",
+      "type":"fill_blank",
+      "sentenceId":"SENT_HSK1_SC002_002",
+      "sentenceZh":"很高兴___你。",
+      "correctAnswer":"认识",
+      "options":["认识","名字","朋友","中文"],
+      "fullCorrectSentenceZh":"很高兴认识你。",
+      "audioFile":"hsk1_sc002_sentence_002.m4a"
+    }
+  ]
+}
