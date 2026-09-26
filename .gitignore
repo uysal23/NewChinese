@@ -8,3 +8,6 @@ local.properties
 .externalNativeBuild/
 .cxx/
 app/release/
+
+# Downloaded during CI; bundled into APK but not committed.
+content/models/
