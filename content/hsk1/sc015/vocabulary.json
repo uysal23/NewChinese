@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC015",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC015_001",
+      "hanzi": "西红柿",
+      "pinyin": "xīhóngshì",
+      "translationTr": "domates",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_002",
+      "hanzi": "黄瓜",
+      "pinyin": "huángguā",
+      "translationTr": "salatalık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_003",
+      "hanzi": "根",
+      "pinyin": "gēn",
+      "translationTr": "uzun nesneler için ölçü sözcüğü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_004",
+      "hanzi": "排",
+      "pinyin": "pái",
+      "translationTr": "sıra",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_005",
+      "hanzi": "袋",
+      "pinyin": "dài",
+      "translationTr": "paket / torba",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_006",
+      "hanzi": "便宜",
+      "pinyin": "piányi",
+      "translationTr": "ucuz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_007",
+      "hanzi": "篮子",
+      "pinyin": "lánzi",
+      "translationTr": "sepet",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC015_008",
+      "hanzi": "结账",
+      "pinyin": "jiézhàng",
+      "translationTr": "hesap ödemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_word_008.m4a"
+    }
+  ]
+}

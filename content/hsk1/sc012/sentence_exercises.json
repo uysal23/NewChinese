@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC012",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC012_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC012_001",
+      "correctZh": "你喝牛奶还是茶？",
+      "pinyin": "Nǐ hē niúnǎi háishi chá?",
+      "translationTr": "Süt mü çay mı içersin?",
+      "tokens": [
+        "你喝",
+        "牛奶",
+        "还是茶"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC012_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC012_002",
+      "sentenceZh": "我喜欢鸡蛋和___。",
+      "correctAnswer": "面包",
+      "options": [
+        "面包",
+        "牛奶",
+        "苹果",
+        "茶"
+      ],
+      "fullCorrectSentenceZh": "我喜欢鸡蛋和面包。",
+      "correctZh": "我喜欢鸡蛋和面包。",
+      "pinyin": "Wǒ xǐhuan jīdàn hé miànbāo.",
+      "translationTr": "Yumurta ve ekmeği severim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_sentence_002.m4a"
+    }
+  ]
+}

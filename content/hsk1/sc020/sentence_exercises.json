@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC020",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC020_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC020_001",
+      "correctZh": "明天早上几点起？",
+      "pinyin": "Míngtiān zǎoshang jǐ diǎn qǐ?",
+      "translationTr": "Yarın sabah kaçta kalkacaksın?",
+      "tokens": [
+        "明天早上",
+        "几点",
+        "起"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC020_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC020_002",
+      "sentenceZh": "手机要___。",
+      "correctAnswer": "充电",
+      "options": [
+        "充电",
+        "晚安",
+        "椅子",
+        "早点"
+      ],
+      "fullCorrectSentenceZh": "手机要充电。",
+      "correctZh": "手机要充电。",
+      "pinyin": "Shǒujī yào chōngdiàn.",
+      "translationTr": "Telefon şarj edilmeli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_sentence_002.m4a"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK1_SC018",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "Apartment laundry corner; washing machine and laundry basket; Li Na explains controls while Zhang Wei sorts clothes; clear family-friendly framing.",
+  "assets": [
+    {
+      "file": "hsk1_sc018_bg.webp",
+      "purpose": "scene-specific background without characters"
+    },
+    {
+      "file": "hsk1_sc018_char_li_na.webp",
+      "purpose": "Li Na full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc018_char_zhang_wei.webp",
+      "purpose": "Zhang Wei full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc018_fg.webp",
+      "purpose": "subtle foreground depth layer that does not mask bodies"
+    },
+    {
+      "file": "hsk1_sc018_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no text baked into image",
+    "family-friendly",
+    "full legs/feet preserved",
+    "same faces/outfits as prior scenes",
+    "mobile-safe framing",
+    "scene background must match dialogue location"
+  ]
+}

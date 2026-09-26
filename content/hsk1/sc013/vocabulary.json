@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC013",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC013_001",
+      "hanzi": "房间",
+      "pinyin": "fángjiān",
+      "translationTr": "oda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_002",
+      "hanzi": "衣服",
+      "pinyin": "yīfu",
+      "translationTr": "kıyafet",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_003",
+      "hanzi": "柜子",
+      "pinyin": "guìzi",
+      "translationTr": "dolap",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_004",
+      "hanzi": "鞋",
+      "pinyin": "xié",
+      "translationTr": "ayakkabı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_005",
+      "hanzi": "桌子",
+      "pinyin": "zhuōzi",
+      "translationTr": "masa",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_006",
+      "hanzi": "旁边",
+      "pinyin": "pángbiān",
+      "translationTr": "yanında",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_007",
+      "hanzi": "照片",
+      "pinyin": "zhàopiàn",
+      "translationTr": "fotoğraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC013_008",
+      "hanzi": "整理",
+      "pinyin": "zhěnglǐ",
+      "translationTr": "düzenlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_word_008.m4a"
+    }
+  ]
+}

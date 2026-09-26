@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC017",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC017_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "吃饱了吗？",
+      "pinyin": "Chī bǎo le ma?",
+      "translationTr": "Doydun mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "吃饱了，午饭很好吃。",
+      "pinyin": "Chī bǎo le, wǔfàn hěn hǎochī.",
+      "translationTr": "Doydum, öğle yemeği çok lezzetliydi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那休息一会儿吧。",
+      "pinyin": "Nà xiūxi yíhuìr ba.",
+      "translationTr": "O zaman biraz dinlenelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我有点想睡觉。",
+      "pinyin": "Wǒ yǒudiǎn xiǎng shuìjiào.",
+      "translationTr": "Biraz uyumak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以睡半个小时。",
+      "pinyin": "Kěyǐ shuì bàn ge xiǎoshí.",
+      "translationTr": "Yarım saat uyuyabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你下午还有事吗？",
+      "pinyin": "Nǐ xiàwǔ hái yǒu shì ma?",
+      "translationTr": "Öğleden sonra başka işin var mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我四点要回去。",
+      "pinyin": "Wǒ sì diǎn yào huíqù.",
+      "translationTr": "Saat dörtte dönmem gerekiyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在几点？",
+      "pinyin": "Xiànzài jǐ diǎn?",
+      "translationTr": "Şimdi saat kaç?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "两点半。",
+      "pinyin": "Liǎng diǎn bàn.",
+      "translationTr": "İki buçuk.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那还有时间。",
+      "pinyin": "Nà hái yǒu shíjiān.",
+      "translationTr": "O zaman daha zaman var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，你先休息。",
+      "pinyin": "Duì, nǐ xiān xiūxi.",
+      "translationTr": "Evet, önce sen dinlen.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我三点起来。",
+      "pinyin": "Wǒ sān diǎn qǐlái.",
+      "translationTr": "Saat üçte kalkarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "要我叫你吗？",
+      "pinyin": "Yào wǒ jiào nǐ ma?",
+      "translationTr": "Seni uyandırayım mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不用，我有闹钟。",
+      "pinyin": "Bú yòng, wǒ yǒu nàozhōng.",
+      "translationTr": "Gerek yok, alarmım var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，那你好好睡一会儿。",
+      "pinyin": "Hǎo, nà nǐ hǎohāo shuì yíhuìr.",
+      "translationTr": "Tamam, o zaman biraz güzelce uyu.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC017_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢，醒了我们再喝茶。",
+      "pinyin": "Xièxie, xǐng le wǒmen zài hē chá.",
+      "translationTr": "Teşekkürler, uyanınca yine çay içeriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

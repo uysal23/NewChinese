@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC019",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC019_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC019_001",
+      "correctZh": "很多人来散步。",
+      "pinyin": "Hěn duō rén lái sànbù.",
+      "translationTr": "Birçok kişi yürüyüşe gelir.",
+      "tokens": [
+        "很多人",
+        "来",
+        "散步"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC019_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC019_002",
+      "sentenceZh": "我每天晚上走___小时。",
+      "correctAnswer": "半个",
+      "options": [
+        "半个",
+        "每天",
+        "晚上",
+        "桥"
+      ],
+      "fullCorrectSentenceZh": "我每天晚上走半个小时。",
+      "correctZh": "我每天晚上走半个小时。",
+      "pinyin": "Wǒ měitiān wǎnshang zǒu bàn ge xiǎoshí.",
+      "translationTr": "Her akşam yarım saat yürürüm.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_sentence_002.m4a"
+    }
+  ]
+}

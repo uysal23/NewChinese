@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC015",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC015_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "菜在这边，我们先看看。",
+      "pinyin": "Cài zài zhèbiān, wǒmen xiān kànkan.",
+      "translationTr": "Sebzeler bu tarafta, önce bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这些西红柿怎么样？",
+      "pinyin": "Zhèxiē xīhóngshì zěnmeyàng?",
+      "translationTr": "Bu domatesler nasıl?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，看起来很新鲜。",
+      "pinyin": "Hěn hǎo, kàn qǐlái hěn xīnxiān.",
+      "translationTr": "Çok iyi, taze görünüyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "买几个？",
+      "pinyin": "Mǎi jǐ ge?",
+      "translationTr": "Kaç tane alalım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "买四个吧。",
+      "pinyin": "Mǎi sì ge ba.",
+      "translationTr": "Dört tane alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "黄瓜也买吗？",
+      "pinyin": "Huángguā yě mǎi ma?",
+      "translationTr": "Salatalık da alalım mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "买两根就够了。",
+      "pinyin": "Mǎi liǎng gēn jiù gòu le.",
+      "translationTr": "İki tane yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "米在哪里？",
+      "pinyin": "Mǐ zài nǎli?",
+      "translationTr": "Pirinç nerede?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "在前面的第二排。",
+      "pinyin": "Zài qiánmiàn de dì èr pái.",
+      "translationTr": "Öndeki ikinci sırada.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这袋米有点大。",
+      "pinyin": "Zhè dài mǐ yǒudiǎn dà.",
+      "translationTr": "Bu pirinç paketi biraz büyük.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那买小一点的。",
+      "pinyin": "Nà mǎi xiǎo yìdiǎn de.",
+      "translationTr": "O zaman biraz daha küçüğünü alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这瓶水比昨天便宜。",
+      "pinyin": "Zhè píng shuǐ bǐ zuótiān piányi.",
+      "translationTr": "Bu şişe su dünkünden daha ucuz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，可以多买几瓶。",
+      "pinyin": "Duì, kěyǐ duō mǎi jǐ píng.",
+      "translationTr": "Evet, birkaç şişe fazla alabiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们的篮子快满了。",
+      "pinyin": "Wǒmen de lánzi kuài mǎn le.",
+      "translationTr": "Sepetimiz neredeyse doldu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "最后去拿纸，然后结账。",
+      "pinyin": "Zuìhòu qù ná zhǐ, ránhòu jiézhàng.",
+      "translationTr": "Son olarak kâğıdı alıp kasaya gidelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC015_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，今天买得很全。",
+      "pinyin": "Hǎo, jīntiān mǎi de hěn quán.",
+      "translationTr": "Tamam, bugün gereken her şeyi aldık.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

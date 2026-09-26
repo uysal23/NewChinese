@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC012",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC012_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你想吃什么早饭？",
+      "pinyin": "Nǐ xiǎng chī shénme zǎofàn?",
+      "translationTr": "Kahvaltıda ne yemek istersin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "简单一点就好。",
+      "pinyin": "Jiǎndān yìdiǎn jiù hǎo.",
+      "translationTr": "Basit bir şey yeter.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有鸡蛋、面包和牛奶。",
+      "pinyin": "Yǒu jīdàn, miànbāo hé niúnǎi.",
+      "translationTr": "Yumurta, ekmek ve süt var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "很好，我喜欢鸡蛋和面包。",
+      "pinyin": "Hěn hǎo, wǒ xǐhuan jīdàn hé miànbāo.",
+      "translationTr": "Çok iyi, yumurta ve ekmeği severim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你喝牛奶还是茶？",
+      "pinyin": "Nǐ hē niúnǎi háishi chá?",
+      "translationTr": "Süt mü çay mı içersin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我喝茶。你呢？",
+      "pinyin": "Wǒ hē chá. Nǐ ne?",
+      "translationTr": "Ben çay içerim. Ya sen?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我也喝茶。",
+      "pinyin": "Wǒ yě hē chá.",
+      "translationTr": "Ben de çay içerim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这些水果是谁买的？",
+      "pinyin": "Zhèxiē shuǐguǒ shì shéi mǎi de?",
+      "translationTr": "Bu meyveleri kim aldı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我昨天买的。",
+      "pinyin": "Wǒ zuótiān mǎi de.",
+      "translationTr": "Dün ben aldım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "看起来很新鲜。",
+      "pinyin": "Kàn qǐlái hěn xīnxiān.",
+      "translationTr": "Çok taze görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你可以吃一个苹果。",
+      "pinyin": "Nǐ kěyǐ chī yí ge píngguǒ.",
+      "translationTr": "Bir elma yiyebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，谢谢。",
+      "pinyin": "Hǎo, xièxie.",
+      "translationTr": "Tamam, teşekkürler.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "鸡蛋好了，我们吃吧。",
+      "pinyin": "Jīdàn hǎo le, wǒmen chī ba.",
+      "translationTr": "Yumurta hazır, yiyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "闻起来很香。",
+      "pinyin": "Wén qǐlái hěn xiāng.",
+      "translationTr": "Çok güzel kokuyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "慢慢吃，时间还早。",
+      "pinyin": "Mànmàn chī, shíjiān hái zǎo.",
+      "translationTr": "Yavaş ye, daha erken.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC012_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，今天的早饭真不错。",
+      "pinyin": "Hǎo, jīntiān de zǎofàn zhēn búcuò.",
+      "translationTr": "Tamam, bugünkü kahvaltı gerçekten güzel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

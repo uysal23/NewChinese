@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC014",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC014_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "家里还缺一点东西，我们去超市吧。",
+      "pinyin": "Jiālǐ hái quē yìdiǎn dōngxi, wǒmen qù chāoshì ba.",
+      "translationTr": "Evde birkaç şey eksik, süpermarkete gidelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，超市远吗？",
+      "pinyin": "Hǎo, chāoshì yuǎn ma?",
+      "translationTr": "Tamam, süpermarket uzak mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不远，走十分钟。",
+      "pinyin": "Bù yuǎn, zǒu shí fēnzhōng.",
+      "translationTr": "Uzak değil, on dakika yürürüz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们要买什么？",
+      "pinyin": "Wǒmen yào mǎi shénme?",
+      "translationTr": "Ne alacağız?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先买水、米和一些菜。",
+      "pinyin": "Xiān mǎi shuǐ, mǐ hé yìxiē cài.",
+      "translationTr": "Önce su, pirinç ve biraz sebze alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还需要纸吗？",
+      "pinyin": "Hái xūyào zhǐ ma?",
+      "translationTr": "Kâğıt da gerekiyor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，还要买纸。",
+      "pinyin": "Duì, hái yào mǎi zhǐ.",
+      "translationTr": "Evet, kâğıt da almalıyız.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我拿一个购物袋。",
+      "pinyin": "Wǒ ná yí ge gòuwùdài.",
+      "translationTr": "Bir alışveriş çantası alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，这样不用拿塑料袋。",
+      "pinyin": "Hěn hǎo, zhèyàng bú yòng ná sùliàodài.",
+      "translationTr": "Çok iyi, böylece plastik poşet almaya gerek kalmaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "前面那个大楼就是超市吗？",
+      "pinyin": "Qiánmiàn nàge dàlóu jiù shì chāoshì ma?",
+      "translationTr": "Öndeki büyük bina süpermarket mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，就在一楼。",
+      "pinyin": "Duì, jiù zài yī lóu.",
+      "translationTr": "Evet, birinci katta.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "附近真的很方便。",
+      "pinyin": "Fùjìn zhēn de hěn fāngbiàn.",
+      "translationTr": "Çevre gerçekten çok kullanışlı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "以后你自己来也很容易。",
+      "pinyin": "Yǐhòu nǐ zìjǐ lái yě hěn róngyì.",
+      "translationTr": "İleride tek başına gelmen de kolay olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我会记住这条路。",
+      "pinyin": "Wǒ huì jìzhù zhè tiáo lù.",
+      "translationTr": "Bu yolu hatırlayacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "到了，我们进去吧。",
+      "pinyin": "Dào le, wǒmen jìnqù ba.",
+      "translationTr": "Geldik, içeri girelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC014_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，先去买菜。",
+      "pinyin": "Hǎo, xiān qù mǎi cài.",
+      "translationTr": "Tamam, önce sebze alalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC016",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC016_001",
+      "hanzi": "午饭",
+      "pinyin": "wǔfàn",
+      "translationTr": "öğle yemeği",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc016_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_002",
+      "hanzi": "米饭",
+      "pinyin": "mǐfàn",
+      "translationTr": "pişmiş pirinç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc016_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_003",
+      "hanzi": "盘子",
+      "pinyin": "pánzi",
+      "translationTr": "tabak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc016_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_004",
+      "hanzi": "切",
+      "pinyin": "qiē",
+      "translationTr": "doğramak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc016_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_005",
+      "hanzi": "刀",
+      "pinyin": "dāo",
+      "translationTr": "bıçak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc016_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_006",
+      "hanzi": "沙拉",
+      "pinyin": "shālā",
+      "translationTr": "salata",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc016_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_007",
+      "hanzi": "盐",
+      "pinyin": "yán",
+      "translationTr": "tuz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc016_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC016_008",
+      "hanzi": "味道",
+      "pinyin": "wèidào",
+      "translationTr": "tat / lezzet",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc016_word_008.m4a"
+    }
+  ]
+}

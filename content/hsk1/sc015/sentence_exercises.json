@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC015",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC015_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC015_001",
+      "correctZh": "米在哪里？",
+      "pinyin": "Mǐ zài nǎli?",
+      "translationTr": "Pirinç nerede?",
+      "tokens": [
+        "米",
+        "在",
+        "哪里"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc015_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC015_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC015_002",
+      "sentenceZh": "我们的___快满了。",
+      "correctAnswer": "篮子",
+      "options": [
+        "篮子",
+        "黄瓜",
+        "一排",
+        "结账"
+      ],
+      "fullCorrectSentenceZh": "我们的篮子快满了。",
+      "correctZh": "我们的篮子快满了。",
+      "pinyin": "Wǒmen de lánzi kuài mǎn le.",
+      "translationTr": "Sepetimiz neredeyse doldu.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc015_sentence_002.m4a"
+    }
+  ]
+}

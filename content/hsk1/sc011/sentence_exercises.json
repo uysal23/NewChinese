@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC011",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC011_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC011_001",
+      "correctZh": "你起床了吗？",
+      "pinyin": "Nǐ qǐchuáng le ma?",
+      "translationTr": "Kalktın mı?",
+      "tokens": [
+        "你",
+        "起床",
+        "了吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc011_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC011_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC011_002",
+      "sentenceZh": "我们一会儿吃___。",
+      "correctAnswer": "早饭",
+      "options": [
+        "早饭",
+        "空气",
+        "窗户",
+        "洗脸"
+      ],
+      "fullCorrectSentenceZh": "我们一会儿吃早饭。",
+      "correctZh": "我们一会儿吃早饭。",
+      "pinyin": "Wǒmen yíhuìr chī zǎofàn.",
+      "translationTr": "Birazdan kahvaltı yaparız.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc011_sentence_002.m4a"
+    }
+  ]
+}

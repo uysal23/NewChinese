@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC013",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC013_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC013_001",
+      "correctZh": "书放哪里？",
+      "pinyin": "Shū fàng nǎli?",
+      "translationTr": "Kitapları nereye koyayım?",
+      "tokens": [
+        "书",
+        "放",
+        "哪里"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC013_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC013_002",
+      "sentenceZh": "衣服放在___里。",
+      "correctAnswer": "柜子",
+      "options": [
+        "柜子",
+        "桌子",
+        "照片",
+        "旁边"
+      ],
+      "fullCorrectSentenceZh": "衣服放在柜子里。",
+      "correctZh": "衣服放在柜子里。",
+      "pinyin": "Yīfu fàng zài guìzi lǐ.",
+      "translationTr": "Kıyafetler dolabın içine konur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_sentence_002.m4a"
+    }
+  ]
+}

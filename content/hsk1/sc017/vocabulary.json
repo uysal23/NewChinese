@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC017",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC017_001",
+      "hanzi": "吃饱",
+      "pinyin": "chī bǎo",
+      "translationTr": "doymak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_002",
+      "hanzi": "小时",
+      "pinyin": "xiǎoshí",
+      "translationTr": "saat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_003",
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "translationTr": "yarım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_004",
+      "hanzi": "回去",
+      "pinyin": "huíqù",
+      "translationTr": "geri dönmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_005",
+      "hanzi": "两点半",
+      "pinyin": "liǎng diǎn bàn",
+      "translationTr": "iki buçuk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_006",
+      "hanzi": "起来",
+      "pinyin": "qǐlái",
+      "translationTr": "kalkmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_007",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "translationTr": "çağırmak / uyandırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc017_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC017_008",
+      "hanzi": "闹钟",
+      "pinyin": "nàozhōng",
+      "translationTr": "alarm saati",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc017_word_008.m4a"
+    }
+  ]
+}

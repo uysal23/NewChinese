@@ -1,0 +1,19 @@
+{
+  "locationId": "LOC_ZHANG_HOME_001",
+  "name": "Zhang Wei Home",
+  "city": "Hangzhou",
+  "style": "warm modern compact apartment",
+  "continuity": [
+    "light wood",
+    "soft neutral walls",
+    "modest tidy furnishings",
+    "large window",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "morning",
+    "midday",
+    "afternoon",
+    "night"
+  ]
+}

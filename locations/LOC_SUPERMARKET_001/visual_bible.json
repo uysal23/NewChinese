@@ -1,0 +1,16 @@
+{
+  "locationId": "LOC_SUPERMARKET_001",
+  "name": "Neighborhood Supermarket",
+  "city": "Hangzhou",
+  "style": "bright modern neighborhood supermarket",
+  "continuity": [
+    "clean aisles",
+    "produce section",
+    "water and staple goods",
+    "neutral signage without baked scene text",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "day"
+  ]
+}

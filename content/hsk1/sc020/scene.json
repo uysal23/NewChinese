@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC020",
+  "level": "HSK1",
+  "sceneNumber": 20,
+  "titleZh": "准备睡觉",
+  "titleTr": "Uykuya Hazırlanmak",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC019",
+  "nextSceneId": "HSK1_SC021",
+  "summaryTr": "Günün sonunda Zhang Wei ertesi gün için hazırlanır; Li Na ile günlük rutinleri ve uyku saatini konuşarak günlük-rutin bölümünü kapatır.",
+  "locationTr": "Zhang Wei'nin Evi · Gece"
+}

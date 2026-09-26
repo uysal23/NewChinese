@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC011",
+  "level": "HSK1",
+  "sceneNumber": 11,
+  "titleZh": "早上起床",
+  "titleTr": "Sabah Uyanmak",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC010",
+  "nextSceneId": "HSK1_SC012",
+  "summaryTr": "Zhang Wei yeni evindeki ilk sabah uyanır; Li Na mesajla nasıl uyuduğunu ve sabah planını sorar.",
+  "locationTr": "Zhang Wei'nin Evi · Yatak/Oturma Alanı"
+}

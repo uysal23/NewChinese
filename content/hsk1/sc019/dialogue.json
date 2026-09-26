@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC019",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC019_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "晚上天气凉快多了。",
+      "pinyin": "Wǎnshang tiānqì liángkuai duō le.",
+      "translationTr": "Akşam hava çok daha serin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，出去走走很舒服。",
+      "pinyin": "Duì, chūqù zǒuzou hěn shūfu.",
+      "translationTr": "Evet, dışarıda yürümek çok rahat.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "前面就是昨天说的小公园。",
+      "pinyin": "Qiánmiàn jiù shì zuótiān shuō de xiǎo gōngyuán.",
+      "translationTr": "Ön taraf dün bahsettiğim küçük park.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里晚上人不少。",
+      "pinyin": "Zhèlǐ wǎnshang rén bù shǎo.",
+      "translationTr": "Akşam burada epey insan var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很多人吃完饭来散步。",
+      "pinyin": "Hěn duō rén chī wán fàn lái sànbù.",
+      "translationTr": "Birçok kişi yemekten sonra yürüyüşe gelir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那边有人在跑步。",
+      "pinyin": "Nàbiān yǒu rén zài pǎobù.",
+      "translationTr": "Orada insanlar koşuyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还有人在跳舞。",
+      "pinyin": "Hái yǒu rén zài tiàowǔ.",
+      "translationTr": "Dans edenler de var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "气氛很好。",
+      "pinyin": "Qìfēn hěn hǎo.",
+      "translationTr": "Ortam çok güzel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "以后你也可以每天来。",
+      "pinyin": "Yǐhòu nǐ yě kěyǐ měitiān lái.",
+      "translationTr": "İleride sen de her gün gelebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想每天晚上走半个小时。",
+      "pinyin": "Wǒ xiǎng měitiān wǎnshang zǒu bàn ge xiǎoshí.",
+      "translationTr": "Her akşam yarım saat yürümek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这个习惯很好。",
+      "pinyin": "Zhège xíguàn hěn hǎo.",
+      "translationTr": "Bu çok iyi bir alışkanlık.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你平时也来吗？",
+      "pinyin": "Nǐ píngshí yě lái ma?",
+      "translationTr": "Sen de normalde gelir misin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有时间的时候会来。",
+      "pinyin": "Yǒu shíjiān de shíhou huì lái.",
+      "translationTr": "Vaktim olduğunda gelirim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天走到前面的桥再回去吧。",
+      "pinyin": "Jīntiān zǒu dào qiánmiàn de qiáo zài huíqù ba.",
+      "translationTr": "Bugün öndeki köprüye kadar gidip dönelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，慢慢走。",
+      "pinyin": "Hǎo, mànmàn zǒu.",
+      "translationTr": "Olur, yavaş yavaş yürüyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC019_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里让我越来越喜欢杭州了。",
+      "pinyin": "Zhèlǐ ràng wǒ yuèláiyuè xǐhuan Hángzhōu le.",
+      "translationTr": "Burası Hangzhou'yu giderek daha çok sevmemi sağlıyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC018",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC018_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这些衣服要洗吗？",
+      "pinyin": "Zhèxiē yīfu yào xǐ ma?",
+      "translationTr": "Bu kıyafetler yıkanacak mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，昨天穿的都要洗。",
+      "pinyin": "Duì, zuótiān chuān de dōu yào xǐ.",
+      "translationTr": "Evet, dün giydiklerimin hepsi yıkanacak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "洗衣机在这里。",
+      "pinyin": "Xǐyījī zài zhèlǐ.",
+      "translationTr": "Çamaşır makinesi burada.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还不会用这个。",
+      "pinyin": "Wǒ hái bú huì yòng zhège.",
+      "translationTr": "Bunu henüz kullanmayı bilmiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很简单，我教你。",
+      "pinyin": "Hěn jiǎndān, wǒ jiāo nǐ.",
+      "translationTr": "Çok kolay, sana öğreteyim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "白衣服和黑衣服一起洗吗？",
+      "pinyin": "Bái yīfu hé hēi yīfu yìqǐ xǐ ma?",
+      "translationTr": "Beyaz ve siyah kıyafetleri birlikte mi yıkayalım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "最好分开洗。",
+      "pinyin": "Zuìhǎo fēnkāi xǐ.",
+      "translationTr": "Ayrı yıkamak daha iyi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我先洗白色的。",
+      "pinyin": "Nà wǒ xiān xǐ báisè de.",
+      "translationTr": "O zaman önce beyazları yıkayayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "洗衣液放一点就够了。",
+      "pinyin": "Xǐyīyè fàng yìdiǎn jiù gòu le.",
+      "translationTr": "Biraz deterjan yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个按钮按一下吗？",
+      "pinyin": "Zhège ànniǔ àn yíxià ma?",
+      "translationTr": "Bu düğmeye bir kez basayım mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，然后选这个程序。",
+      "pinyin": "Duì, ránhòu xuǎn zhège chéngxù.",
+      "translationTr": "Evet, sonra bu programı seç.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要洗多长时间？",
+      "pinyin": "Yào xǐ duō cháng shíjiān?",
+      "translationTr": "Ne kadar süre yıkayacak?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "大概四十分钟。",
+      "pinyin": "Dàgài sìshí fēnzhōng.",
+      "translationTr": "Yaklaşık kırk dakika.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "洗完以后在哪里晾？",
+      "pinyin": "Xǐ wán yǐhòu zài nǎli liàng?",
+      "translationTr": "Yıkandıktan sonra nerede asacağız?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "阳台上可以晾。",
+      "pinyin": "Yángtái shàng kěyǐ liàng.",
+      "translationTr": "Balkonda asabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC018_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明白了，下次我自己洗。",
+      "pinyin": "Míngbai le, xià cì wǒ zìjǐ xǐ.",
+      "translationTr": "Anladım, bir dahaki sefere kendim yıkarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

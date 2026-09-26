@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC020",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC020_001",
+      "hanzi": "早点",
+      "pinyin": "zǎodiǎn",
+      "translationTr": "daha erken",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_002",
+      "hanzi": "以前",
+      "pinyin": "yǐqián",
+      "translationTr": "önce",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_003",
+      "hanzi": "记得",
+      "pinyin": "jìde",
+      "translationTr": "hatırlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_004",
+      "hanzi": "充电",
+      "pinyin": "chōngdiàn",
+      "translationTr": "şarj etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_005",
+      "hanzi": "忘",
+      "pinyin": "wàng",
+      "translationTr": "unutmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_006",
+      "hanzi": "椅子",
+      "pinyin": "yǐzi",
+      "translationTr": "sandalye",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_007",
+      "hanzi": "规律",
+      "pinyin": "guīlǜ",
+      "translationTr": "düzen / rutin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC020_008",
+      "hanzi": "晚安",
+      "pinyin": "wǎn'ān",
+      "translationTr": "iyi geceler",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_word_008.m4a"
+    }
+  ]
+}

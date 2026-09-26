@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC012",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC012_001",
+      "hanzi": "鸡蛋",
+      "pinyin": "jīdàn",
+      "translationTr": "yumurta",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_002",
+      "hanzi": "面包",
+      "pinyin": "miànbāo",
+      "translationTr": "ekmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_003",
+      "hanzi": "牛奶",
+      "pinyin": "niúnǎi",
+      "translationTr": "süt",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_004",
+      "hanzi": "茶",
+      "pinyin": "chá",
+      "translationTr": "çay",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_005",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "translationTr": "meyve",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_006",
+      "hanzi": "苹果",
+      "pinyin": "píngguǒ",
+      "translationTr": "elma",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_007",
+      "hanzi": "新鲜",
+      "pinyin": "xīnxiān",
+      "translationTr": "taze",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc012_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC012_008",
+      "hanzi": "香",
+      "pinyin": "xiāng",
+      "translationTr": "güzel kokulu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc012_word_008.m4a"
+    }
+  ]
+}

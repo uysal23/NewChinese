@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC019",
+  "level": "HSK1",
+  "sceneNumber": 19,
+  "titleZh": "晚上散步",
+  "titleTr": "Akşam Yürüyüşü",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC018",
+  "nextSceneId": "HSK1_SC020",
+  "summaryTr": "Akşam serinliğinde Li Na ve Zhang Wei mahallede yürür, parkı ve çevredeki günlük yaşamı konuşur.",
+  "locationTr": "Mahalle · Akşam Yürüyüş Yolu"
+}

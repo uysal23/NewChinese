@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC019",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC019_001",
+      "hanzi": "晚上",
+      "pinyin": "wǎnshang",
+      "translationTr": "akşam",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_002",
+      "hanzi": "凉快",
+      "pinyin": "liángkuai",
+      "translationTr": "serin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_003",
+      "hanzi": "散步",
+      "pinyin": "sànbù",
+      "translationTr": "yürüyüş yapmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_004",
+      "hanzi": "跑步",
+      "pinyin": "pǎobù",
+      "translationTr": "koşmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_005",
+      "hanzi": "跳舞",
+      "pinyin": "tiàowǔ",
+      "translationTr": "dans etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_006",
+      "hanzi": "每天",
+      "pinyin": "měitiān",
+      "translationTr": "her gün",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_007",
+      "hanzi": "习惯",
+      "pinyin": "xíguàn",
+      "translationTr": "alışkanlık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc019_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC019_008",
+      "hanzi": "桥",
+      "pinyin": "qiáo",
+      "translationTr": "köprü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc019_word_008.m4a"
+    }
+  ]
+}

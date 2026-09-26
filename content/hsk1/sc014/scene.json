@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC014",
+  "level": "HSK1",
+  "sceneNumber": 14,
+  "titleZh": "去超市",
+  "titleTr": "Süpermarkete Gitmek",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC013",
+  "nextSceneId": "HSK1_SC015",
+  "summaryTr": "Ev için eksik temel ihtiyaçları almak üzere Li Na ve Zhang Wei mahalledeki süpermarkete yürür.",
+  "locationTr": "Mahalle · Süpermarket Yolu"
+}

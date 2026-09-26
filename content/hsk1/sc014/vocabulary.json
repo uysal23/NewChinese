@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC014",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC014_001",
+      "hanzi": "超市",
+      "pinyin": "chāoshì",
+      "translationTr": "süpermarket",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_002",
+      "hanzi": "米",
+      "pinyin": "mǐ",
+      "translationTr": "pirinç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_003",
+      "hanzi": "菜",
+      "pinyin": "cài",
+      "translationTr": "sebze / yemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_004",
+      "hanzi": "需要",
+      "pinyin": "xūyào",
+      "translationTr": "gerekmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_005",
+      "hanzi": "纸",
+      "pinyin": "zhǐ",
+      "translationTr": "kâğıt",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_006",
+      "hanzi": "购物袋",
+      "pinyin": "gòuwùdài",
+      "translationTr": "alışveriş çantası",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_007",
+      "hanzi": "一楼",
+      "pinyin": "yī lóu",
+      "translationTr": "birinci kat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC014_008",
+      "hanzi": "容易",
+      "pinyin": "róngyì",
+      "translationTr": "kolay",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_word_008.m4a"
+    }
+  ]
+}

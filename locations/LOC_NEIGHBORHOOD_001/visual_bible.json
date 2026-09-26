@@ -1,0 +1,17 @@
+{
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "name": "Zhang Wei Neighborhood",
+  "city": "Hangzhou",
+  "style": "clean lived-in residential Hangzhou street",
+  "continuity": [
+    "tree-lined sidewalks",
+    "small park",
+    "mixed residential storefronts",
+    "pedestrian friendly",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "day",
+    "evening"
+  ]
+}

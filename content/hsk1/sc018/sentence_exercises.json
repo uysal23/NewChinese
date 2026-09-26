@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC018",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC018_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC018_001",
+      "correctZh": "洗衣机在哪里？",
+      "pinyin": "Xǐyījī zài nǎli?",
+      "translationTr": "Çamaşır makinesi nerede?",
+      "tokens": [
+        "洗衣机",
+        "在",
+        "哪里"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc018_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC018_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC018_002",
+      "sentenceZh": "衣服在___上晾。",
+      "correctAnswer": "阳台",
+      "options": [
+        "阳台",
+        "按钮",
+        "白色",
+        "分开"
+      ],
+      "fullCorrectSentenceZh": "衣服在阳台上晾。",
+      "correctZh": "衣服在阳台上晾。",
+      "pinyin": "Yīfu zài yángtái shàng liàng.",
+      "translationTr": "Kıyafetler balkonda kurutulur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc018_sentence_002.m4a"
+    }
+  ]
+}

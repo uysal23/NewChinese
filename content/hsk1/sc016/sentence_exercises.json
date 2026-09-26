@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC016",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC016_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC016_001",
+      "correctZh": "你先洗菜。",
+      "pinyin": "Nǐ xiān xǐ cài.",
+      "translationTr": "Önce sebzeleri yıka.",
+      "tokens": [
+        "你",
+        "先",
+        "洗菜"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc016_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC016_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC016_002",
+      "sentenceZh": "放在这个___里。",
+      "correctAnswer": "盘子",
+      "options": [
+        "盘子",
+        "米饭",
+        "盐",
+        "味道"
+      ],
+      "fullCorrectSentenceZh": "放在这个盘子里。",
+      "correctZh": "放在这个盘子里。",
+      "pinyin": "Fàng zài zhège pánzi lǐ.",
+      "translationTr": "Bu tabağa koy.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc016_sentence_002.m4a"
+    }
+  ]
+}

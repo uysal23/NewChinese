@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC020",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC020_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天也忙了一天。",
+      "pinyin": "Jīntiān yě máng le yì tiān.",
+      "translationTr": "Bugün de yoğun bir gündü.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是啊，不过过得很开心。",
+      "pinyin": "Shì a, bùguò guò de hěn kāixīn.",
+      "translationTr": "Evet ama çok güzel geçti.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "晚上早点睡吧。",
+      "pinyin": "Wǎnshang zǎodiǎn shuì ba.",
+      "translationTr": "Bu akşam biraz erken uyu.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我准备十一点以前睡。",
+      "pinyin": "Wǒ zhǔnbèi shíyī diǎn yǐqián shuì.",
+      "translationTr": "Saat on birden önce uyumayı planlıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "明天早上几点起？",
+      "pinyin": "Míngtiān zǎoshang jǐ diǎn qǐ?",
+      "translationTr": "Yarın sabah kaçta kalkacaksın?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "七点半。",
+      "pinyin": "Qī diǎn bàn.",
+      "translationTr": "Yedi buçukta.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那记得定闹钟。",
+      "pinyin": "Nà jìde dìng nàozhōng.",
+      "translationTr": "O zaman alarm kurmayı unutma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "已经定好了。",
+      "pinyin": "Yǐjīng dìng hǎo le.",
+      "translationTr": "Zaten kurdum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "手机也要充电。",
+      "pinyin": "Shǒujī yě yào chōngdiàn.",
+      "translationTr": "Telefonu da şarj etmelisin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我差点忘了。",
+      "pinyin": "Duì, wǒ chàdiǎn wàng le.",
+      "translationTr": "Doğru, az kalsın unutuyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "明天的衣服准备好了吗？",
+      "pinyin": "Míngtiān de yīfu zhǔnbèi hǎo le ma?",
+      "translationTr": "Yarının kıyafetlerini hazırladın mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "准备好了，就放在椅子上。",
+      "pinyin": "Zhǔnbèi hǎo le, jiù fàng zài yǐzi shàng.",
+      "translationTr": "Hazırladım, sandalyenin üstünde.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，你越来越习惯这里了。",
+      "pinyin": "Hěn hǎo, nǐ yuèláiyuè xíguàn zhèlǐ le.",
+      "translationTr": "Çok iyi, buraya giderek alışıyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，生活开始有规律了。",
+      "pinyin": "Duì, shēnghuó kāishǐ yǒu guīlǜ le.",
+      "translationTr": "Evet, hayatım düzene girmeye başladı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那我先回去了，晚安。",
+      "pinyin": "Nà wǒ xiān huíqù le, wǎn'ān.",
+      "translationTr": "O zaman ben gidiyorum, iyi geceler.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc020_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC020_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "晚安，明天见。",
+      "pinyin": "Wǎn'ān, míngtiān jiàn.",
+      "translationTr": "İyi geceler, yarın görüşürüz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc020_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

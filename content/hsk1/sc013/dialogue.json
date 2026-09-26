@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC013",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC013_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "吃完早饭，我们整理一下房间吧。",
+      "pinyin": "Chī wán zǎofàn, wǒmen zhěnglǐ yíxià fángjiān ba.",
+      "translationTr": "Kahvaltıdan sonra odayı biraz toparlayalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我的箱子还没打开。",
+      "pinyin": "Hǎo, wǒ de xiāngzi hái méi dǎkāi.",
+      "translationTr": "Tamam, valizimi daha açmadım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "衣服可以放在这里。",
+      "pinyin": "Yīfu kěyǐ fàng zài zhèlǐ.",
+      "translationTr": "Kıyafetleri buraya koyabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个柜子吗？",
+      "pinyin": "Zhège guìzi ma?",
+      "translationTr": "Bu dolap mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，上面放衣服，下面放鞋。",
+      "pinyin": "Duì, shàngmiàn fàng yīfu, xiàmiàn fàng xié.",
+      "translationTr": "Evet, üste kıyafetleri, alta ayakkabıları koy.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明白了。书放哪里？",
+      "pinyin": "Míngbai le. Shū fàng nǎli?",
+      "translationTr": "Anladım. Kitapları nereye koyayım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "书放桌子旁边的架子上。",
+      "pinyin": "Shū fàng zhuōzi pángbiān de jiàzi shàng.",
+      "translationTr": "Kitapları masanın yanındaki rafa koy.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里真方便。",
+      "pinyin": "Zhèlǐ zhēn fāngbiàn.",
+      "translationTr": "Burası gerçekten kullanışlı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你的东西不算多。",
+      "pinyin": "Nǐ de dōngxi bú suàn duō.",
+      "translationTr": "Eşyan çok sayılmaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我只带了最需要的。",
+      "pinyin": "Duì, wǒ zhǐ dài le zuì xūyào de.",
+      "translationTr": "Evet, sadece en gerekli şeyleri getirdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这个小盒子是什么？",
+      "pinyin": "Zhège xiǎo hézi shì shénme?",
+      "translationTr": "Bu küçük kutu ne?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "里面是照片。",
+      "pinyin": "Lǐmiàn shì zhàopiàn.",
+      "translationTr": "İçinde fotoğraflar var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那放在桌子上吧。",
+      "pinyin": "Nà fàng zài zhuōzi shàng ba.",
+      "translationTr": "O zaman masaya koy.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我喜欢这样。",
+      "pinyin": "Hǎo, wǒ xǐhuan zhèyàng.",
+      "translationTr": "Tamam, böyle hoşuma gitti.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "差不多整理好了。",
+      "pinyin": "Chàbuduō zhěnglǐ hǎo le.",
+      "translationTr": "Neredeyse toparladık.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc013_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC013_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢，有你帮忙快多了。",
+      "pinyin": "Xièxie, yǒu nǐ bāngmáng kuài duō le.",
+      "translationTr": "Teşekkürler, sen yardım edince çok daha hızlı oldu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc013_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

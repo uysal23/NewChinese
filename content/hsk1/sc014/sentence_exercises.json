@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC014",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC014_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC014_001",
+      "correctZh": "我们要买什么？",
+      "pinyin": "Wǒmen yào mǎi shénme?",
+      "translationTr": "Ne alacağız?",
+      "tokens": [
+        "我们",
+        "要买",
+        "什么"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc014_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC014_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC014_002",
+      "sentenceZh": "先去买___。",
+      "correctAnswer": "菜",
+      "options": [
+        "菜",
+        "纸",
+        "米",
+        "一楼"
+      ],
+      "fullCorrectSentenceZh": "先去买菜。",
+      "correctZh": "先去买菜。",
+      "pinyin": "Xiān qù mǎi cài.",
+      "translationTr": "Önce sebze almaya gidelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc014_sentence_002.m4a"
+    }
+  ]
+}
