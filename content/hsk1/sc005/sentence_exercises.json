@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC005",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC005_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC005_001",
+      "correctZh": "离这里远吗？",
+      "pinyin": "Lí zhèlǐ yuǎn ma?",
+      "translationTr": "Buradan uzak mı?",
+      "tokens": [
+        "离这里",
+        "远",
+        "吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC005_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC005_002",
+      "sentenceZh": "我们去那边___。",
+      "correctAnswer": "等",
+      "options": [
+        "等",
+        "重",
+        "远",
+        "车"
+      ],
+      "fullCorrectSentenceZh": "我们去那边等。",
+      "correctZh": "我们去那边等。",
+      "pinyin": "Wǒmen qù nàbiān děng.",
+      "translationTr": "Gidip orada bekleyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_sentence_002.m4a"
+    }
+  ]
+}
