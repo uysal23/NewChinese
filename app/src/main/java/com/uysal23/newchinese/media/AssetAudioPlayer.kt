@@ -1,6 +1,7 @@
 package com.uysal23.newchinese.media
 
 import android.content.Context
+import android.net.Uri
 import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackParameters
 import androidx.media3.exoplayer.ExoPlayer
@@ -19,6 +20,18 @@ class AssetAudioPlayer(private val context: Context) {
         player.stop()
         player.clearMediaItems()
         player.setMediaItem(MediaItem.fromUri("asset:///$assetPath"))
+        player.playbackParameters = PlaybackParameters(speed)
+        player.prepare()
+        player.play()
+        return true
+    }
+
+    fun playFile(absolutePath: String, speed: Float = 1.0f): Boolean {
+        val file = java.io.File(absolutePath)
+        if (!file.exists() || file.length() == 0L) return false
+        player.stop()
+        player.clearMediaItems()
+        player.setMediaItem(MediaItem.fromUri(Uri.fromFile(file)))
         player.playbackParameters = PlaybackParameters(speed)
         player.prepare()
         player.play()
