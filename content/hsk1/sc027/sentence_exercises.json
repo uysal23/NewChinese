@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC027",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC027_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC027_001",
+      "correctZh": "这个辣吗？",
+      "pinyin": "Zhège là ma?",
+      "translationTr": "Bu acı mı?",
+      "tokens": [
+        "这个",
+        "辣",
+        "吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC027_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC027_002",
+      "sentenceZh": "米饭要两___。",
+      "correctAnswer": "碗",
+      "options": [
+        "碗",
+        "汤",
+        "辣",
+        "鸡肉"
+      ],
+      "fullCorrectSentenceZh": "米饭要两碗。",
+      "correctZh": "米饭要两碗。",
+      "pinyin": "Mǐfàn yào liǎng wǎn.",
+      "translationTr": "İki kâse pilav alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_sentence_002.m4a"
+    }
+  ]
+}

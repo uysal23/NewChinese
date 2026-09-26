@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC028",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC028_001",
+      "hanzi": "邮局",
+      "pinyin": "yóujú",
+      "translationTr": "postane",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_002",
+      "hanzi": "包裹",
+      "pinyin": "bāoguǒ",
+      "translationTr": "paket",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_003",
+      "hanzi": "寄",
+      "pinyin": "jì",
+      "translationTr": "göndermek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_004",
+      "hanzi": "号码",
+      "pinyin": "hàomǎ",
+      "translationTr": "numara",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_005",
+      "hanzi": "轮到",
+      "pinyin": "lúndào",
+      "translationTr": "sırası gelmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_006",
+      "hanzi": "地址",
+      "pinyin": "dìzhǐ",
+      "translationTr": "adres",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_007",
+      "hanzi": "收件人",
+      "pinyin": "shōujiànrén",
+      "translationTr": "alıcı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC028_008",
+      "hanzi": "一般",
+      "pinyin": "yìbān",
+      "translationTr": "genellikle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_word_008.m4a"
+    }
+  ]
+}

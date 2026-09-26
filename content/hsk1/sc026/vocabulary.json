@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC026",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC026_001",
+      "hanzi": "咖啡店",
+      "pinyin": "kāfēidiàn",
+      "translationTr": "kafe",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_002",
+      "hanzi": "热茶",
+      "pinyin": "rè chá",
+      "translationTr": "sıcak çay",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_003",
+      "hanzi": "咖啡",
+      "pinyin": "kāfēi",
+      "translationTr": "kahve",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_004",
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "translationTr": "bardak/fincan ölçüsü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_005",
+      "hanzi": "位置",
+      "pinyin": "wèizi",
+      "translationTr": "yer / oturma yeri",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_006",
+      "hanzi": "安静",
+      "pinyin": "ānjìng",
+      "translationTr": "sakin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_007",
+      "hanzi": "闻",
+      "pinyin": "wén",
+      "translationTr": "koklamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC026_008",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "translationTr": "dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_word_008.m4a"
+    }
+  ]
+}

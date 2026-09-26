@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC029",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC029_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC029_001",
+      "correctZh": "湖在哪里？",
+      "pinyin": "Hú zài nǎli?",
+      "translationTr": "Göl nerede?",
+      "tokens": [
+        "湖",
+        "在",
+        "哪里"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC029_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC029_002",
+      "sentenceZh": "我们从___出去。",
+      "correctAnswer": "出口",
+      "options": [
+        "出口",
+        "入口",
+        "湖边",
+        "地图"
+      ],
+      "fullCorrectSentenceZh": "我们从出口出去。",
+      "correctZh": "我们从出口出去。",
+      "pinyin": "Wǒmen cóng chūkǒu chūqù.",
+      "translationTr": "Çıkıştan dışarı çıkıyoruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_sentence_002.m4a"
+    }
+  ]
+}

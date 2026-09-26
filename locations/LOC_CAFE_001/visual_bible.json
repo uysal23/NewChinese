@@ -1,0 +1,13 @@
+{
+  "locationId": "LOC_CAFE_001",
+  "name": "Warm Neighborhood Cafe",
+  "city": "Hangzhou",
+  "style": "warm cozy family-friendly cafe",
+  "continuity": [
+    "wood accents",
+    "soft daylight",
+    "tea and coffee",
+    "no alcohol",
+    "modest seating"
+  ]
+}

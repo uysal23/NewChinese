@@ -1,0 +1,13 @@
+{
+  "locationId": "LOC_CITY_PARK_001",
+  "name": "City Park",
+  "city": "Hangzhou",
+  "style": "green calm urban park",
+  "continuity": [
+    "lake",
+    "small bridge",
+    "walking paths",
+    "map board without readable text",
+    "family-friendly"
+  ]
+}

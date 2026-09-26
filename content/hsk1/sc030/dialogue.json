@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC030",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC030_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天买的东西都带好了吗？",
+      "pinyin": "Jīntiān mǎi de dōngxi dōu dài hǎo le ma?",
+      "translationTr": "Bugün aldığımız her şeyi yanımıza aldık mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我看看，水、纸巾、创可贴，都在。",
+      "pinyin": "Wǒ kànkan, shuǐ, zhǐjīn, chuàngkětiē, dōu zài.",
+      "translationTr": "Bakayım; su, mendil, yara bandı, hepsi burada.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天你学了很多地方。",
+      "pinyin": "Jīntiān nǐ xué le hěn duō dìfang.",
+      "translationTr": "Bugün birçok yer öğrendin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "公交站、便利店、药店、邮局，我都记得。",
+      "pinyin": "Gōngjiāo zhàn, biànlìdiàn, yàodiàn, yóujú, wǒ dōu jìde.",
+      "translationTr": "Otobüs durağı, mini market, eczane, postane; hepsini hatırlıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "公园的路也记住了吗？",
+      "pinyin": "Gōngyuán de lù yě jìzhù le ma?",
+      "translationTr": "Parkın yolunu da hatırladın mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "记住了，从家走过去不远。",
+      "pinyin": "Jìzhù le, cóng jiā zǒu guòqù bù yuǎn.",
+      "translationTr": "Evet, evden yürüyerek uzak değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "以后很多事情你都可以自己办。",
+      "pinyin": "Yǐhòu hěn duō shìqing nǐ dōu kěyǐ zìjǐ bàn.",
+      "translationTr": "Bundan sonra birçok işini kendin halledebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也觉得越来越方便了。",
+      "pinyin": "Wǒ yě juéde yuèláiyuè fāngbiàn le.",
+      "translationTr": "Ben de giderek daha kolay olduğunu düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "明天你想自己去超市试试吗？",
+      "pinyin": "Míngtiān nǐ xiǎng zìjǐ qù chāoshì shìshi ma?",
+      "translationTr": "Yarın süpermarkete tek başına gitmeyi denemek ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可以，我应该不会迷路了。",
+      "pinyin": "Kěyǐ, wǒ yīnggāi bú huì mílù le.",
+      "translationTr": "Olur, sanırım artık kaybolmam.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那很好。",
+      "pinyin": "Nà hěn hǎo.",
+      "translationTr": "Harika.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天谢谢你带我走了这么多地方。",
+      "pinyin": "Jīntiān xièxie nǐ dài wǒ zǒu le zhème duō dìfang.",
+      "translationTr": "Bugün beni bu kadar çok yere götürdüğün için teşekkür ederim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用客气，慢慢就熟悉了。",
+      "pinyin": "Bú yòng kèqi, mànmàn jiù shúxī le.",
+      "translationTr": "Rica ederim, zamanla iyice alışırsın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC030_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我们回家吧。",
+      "pinyin": "Hǎo, wǒmen huí jiā ba.",
+      "translationTr": "Tamam, eve dönelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

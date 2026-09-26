@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC027",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC027_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "中午了，我们在这里吃饭吧。",
+      "pinyin": "Zhōngwǔ le, wǒmen zài zhèlǐ chīfàn ba.",
+      "translationTr": "Öğlen oldu, burada yemek yiyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我有点饿了。",
+      "pinyin": "Hǎo, wǒ yǒudiǎn è le.",
+      "translationTr": "Tamam, biraz acıktım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里的菜比较清淡。",
+      "pinyin": "Zhèlǐ de cài bǐjiào qīngdàn.",
+      "translationTr": "Buradaki yemekler daha hafif.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我不想吃太辣的。",
+      "pinyin": "Wǒ bù xiǎng chī tài là de.",
+      "translationTr": "Çok acı yemek istemiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那可以点这个鸡肉。",
+      "pinyin": "Nà kěyǐ diǎn zhège jīròu.",
+      "translationTr": "O zaman şu tavuk yemeğini söyleyebiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个辣吗？",
+      "pinyin": "Zhège là ma?",
+      "translationTr": "Bu acı mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不辣，味道很简单。",
+      "pinyin": "Bú là, wèidào hěn jiǎndān.",
+      "translationTr": "Acı değil, tadı sade.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "再来一个青菜吧。",
+      "pinyin": "Zài lái yí ge qīngcài ba.",
+      "translationTr": "Bir de yeşil sebze alalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，还要汤吗？",
+      "pinyin": "Hǎo, hái yào tāng ma?",
+      "translationTr": "Olur, çorba da ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要一个小汤。",
+      "pinyin": "Yào yí ge xiǎo tāng.",
+      "translationTr": "Küçük bir çorba olsun.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "米饭要两碗。",
+      "pinyin": "Mǐfàn yào liǎng wǎn.",
+      "translationTr": "İki kâse pilav alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样够两个人吗？",
+      "pinyin": "Zhèyàng gòu liǎng ge rén ma?",
+      "translationTr": "Bu iki kişiye yeter mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "够了，不用点太多。",
+      "pinyin": "Gòu le, bú yòng diǎn tài duō.",
+      "translationTr": "Yeter, çok fazla söylemeye gerek yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC027_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，今天安排得很好。",
+      "pinyin": "Hǎo, jīntiān ānpái de hěn hǎo.",
+      "translationTr": "Tamam, bugünkü plan çok iyi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

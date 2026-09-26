@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC028",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC028_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你不是要寄一个小包裹吗？",
+      "pinyin": "Nǐ bú shì yào jì yí ge xiǎo bāoguǒ ma?",
+      "translationTr": "Küçük bir paket gönderecektin, değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我想今天寄出去。",
+      "pinyin": "Duì, wǒ xiǎng jīntiān jì chūqù.",
+      "translationTr": "Evet, bugün göndermek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "邮局就在前面。",
+      "pinyin": "Yóujú jiù zài qiánmiàn.",
+      "translationTr": "Postane hemen ileride.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "进去以后先做什么？",
+      "pinyin": "Jìnqù yǐhòu xiān zuò shénme?",
+      "translationTr": "İçeri girince önce ne yapıyoruz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先拿一个号码。",
+      "pinyin": "Xiān ná yí ge hàomǎ.",
+      "translationTr": "Önce sıra numarası alıyoruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "然后等叫号吗？",
+      "pinyin": "Ránhòu děng jiào hào ma?",
+      "translationTr": "Sonra numaramızın çağrılmasını mı bekliyoruz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，很快就轮到我们。",
+      "pinyin": "Duì, hěn kuài jiù lúndào wǒmen.",
+      "translationTr": "Evet, yakında sıra bize gelir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "包裹上要写地址吗？",
+      "pinyin": "Bāoguǒ shàng yào xiě dìzhǐ ma?",
+      "translationTr": "Paketin üzerine adres yazmak gerekiyor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "要，还要写收件人的名字。",
+      "pinyin": "Yào, hái yào xiě shōujiànrén de míngzi.",
+      "translationTr": "Evet, alıcının adını da yazmak gerekiyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我已经准备好了。",
+      "pinyin": "Wǒ yǐjīng zhǔnbèi hǎo le.",
+      "translationTr": "Ben zaten hazırladım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，把包裹放在这里。",
+      "pinyin": "Hěn hǎo, bǎ bāoguǒ fàng zài zhèlǐ.",
+      "translationTr": "Çok iyi, paketi buraya koy.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "大概几天能到？",
+      "pinyin": "Dàgài jǐ tiān néng dào?",
+      "translationTr": "Yaklaşık kaç günde ulaşır?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "一般三四天。",
+      "pinyin": "Yìbān sān sì tiān.",
+      "translationTr": "Genelde üç dört gün.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC028_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，那就寄这个吧。",
+      "pinyin": "Hǎo, nà jiù jì zhège ba.",
+      "translationTr": "Tamam, bunu gönderelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

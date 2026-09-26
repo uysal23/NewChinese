@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC027",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC027_001",
+      "hanzi": "点菜",
+      "pinyin": "diǎncài",
+      "translationTr": "sipariş vermek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_002",
+      "hanzi": "清淡",
+      "pinyin": "qīngdàn",
+      "translationTr": "hafif yemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_003",
+      "hanzi": "辣",
+      "pinyin": "là",
+      "translationTr": "acı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_004",
+      "hanzi": "鸡肉",
+      "pinyin": "jīròu",
+      "translationTr": "tavuk eti",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_005",
+      "hanzi": "青菜",
+      "pinyin": "qīngcài",
+      "translationTr": "yeşil sebze",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_006",
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "translationTr": "çorba",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_007",
+      "hanzi": "碗",
+      "pinyin": "wǎn",
+      "translationTr": "kâse",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc027_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC027_008",
+      "hanzi": "安排",
+      "pinyin": "ānpái",
+      "translationTr": "planlamak / düzenlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc027_word_008.m4a"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC030",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC030_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC030_001",
+      "correctZh": "公园的路也记住了吗？",
+      "pinyin": "Gōngyuán de lù yě jìzhù le ma?",
+      "translationTr": "Parkın yolunu da hatırladın mı?",
+      "tokens": [
+        "公园的路",
+        "也",
+        "记住了吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc030_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC030_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC030_002",
+      "sentenceZh": "我们___吧。",
+      "correctAnswer": "回家",
+      "options": [
+        "回家",
+        "自己",
+        "事情",
+        "方便"
+      ],
+      "fullCorrectSentenceZh": "我们回家吧。",
+      "correctZh": "我们回家吧。",
+      "pinyin": "Wǒmen huí jiā ba.",
+      "translationTr": "Eve dönelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc030_sentence_002.m4a"
+    }
+  ]
+}

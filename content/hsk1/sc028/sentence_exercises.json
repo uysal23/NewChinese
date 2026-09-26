@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC028",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC028_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC028_001",
+      "correctZh": "包裹上要写地址吗？",
+      "pinyin": "Bāoguǒ shàng yào xiě dìzhǐ ma?",
+      "translationTr": "Paketin üzerine adres yazmak gerekiyor mu?",
+      "tokens": [
+        "包裹上",
+        "要写",
+        "地址吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc028_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC028_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC028_002",
+      "sentenceZh": "先拿一个___。",
+      "correctAnswer": "号码",
+      "options": [
+        "号码",
+        "包裹",
+        "地址",
+        "邮局"
+      ],
+      "fullCorrectSentenceZh": "先拿一个号码。",
+      "correctZh": "先拿一个号码。",
+      "pinyin": "Xiān ná yí ge hàomǎ.",
+      "translationTr": "Önce bir sıra numarası al.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc028_sentence_002.m4a"
+    }
+  ]
+}

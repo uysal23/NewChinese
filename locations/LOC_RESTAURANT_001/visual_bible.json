@@ -1,0 +1,12 @@
+{
+  "locationId": "LOC_RESTAURANT_001",
+  "name": "Family Restaurant",
+  "city": "Hangzhou",
+  "style": "casual clean neighborhood restaurant",
+  "continuity": [
+    "simple Chinese dishes",
+    "warm lunch light",
+    "family-friendly",
+    "no alcohol"
+  ]
+}

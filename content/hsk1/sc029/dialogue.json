@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC029",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC029_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里就是公园入口。",
+      "pinyin": "Zhèlǐ jiù shì gōngyuán rùkǒu.",
+      "translationTr": "Burası parkın girişi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个公园看起来很大。",
+      "pinyin": "Zhège gōngyuán kàn qǐlái hěn dà.",
+      "translationTr": "Bu park büyük görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们先看看地图。",
+      "pinyin": "Wǒmen xiān kànkan dìtú.",
+      "translationTr": "Önce haritaya bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "湖在哪里？",
+      "pinyin": "Hú zài nǎli?",
+      "translationTr": "Göl nerede?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "在我们前面，走五分钟。",
+      "pinyin": "Zài wǒmen qiánmiàn, zǒu wǔ fēnzhōng.",
+      "translationTr": "Önümüzde, beş dakika yürüme mesafesinde.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "桥也在湖边吗？",
+      "pinyin": "Qiáo yě zài húbiān ma?",
+      "translationTr": "Köprü de göl kenarında mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，小桥在湖的右边。",
+      "pinyin": "Duì, xiǎo qiáo zài hú de yòubian.",
+      "translationTr": "Evet, küçük köprü gölün sağında.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "另一个出口在哪里？",
+      "pinyin": "Lìng yí ge chūkǒu zài nǎli?",
+      "translationTr": "Diğer çıkış nerede?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "在公园的西边。",
+      "pinyin": "Zài gōngyuán de xībian.",
+      "translationTr": "Parkın batı tarafında.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们从那里出去吗？",
+      "pinyin": "Wǒmen cóng nàli chūqù ma?",
+      "translationTr": "Oradan mı çıkacağız?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以，那边离家更近。",
+      "pinyin": "Kěyǐ, nàbiān lí jiā gèng jìn.",
+      "translationTr": "Olur, o taraf eve daha yakın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那先去湖边走一圈。",
+      "pinyin": "Nà xiān qù húbiān zǒu yì quān.",
+      "translationTr": "O zaman önce gölün çevresinde yürüyelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，今天人也不多。",
+      "pinyin": "Hǎo, jīntiān rén yě bù duō.",
+      "translationTr": "Olur, bugün kalabalık da değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC029_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里很安静，我喜欢。",
+      "pinyin": "Zhèlǐ hěn ānjìng, wǒ xǐhuan.",
+      "translationTr": "Burası çok sakin, hoşuma gitti.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

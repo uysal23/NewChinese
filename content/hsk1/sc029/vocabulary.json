@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC029",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC029_001",
+      "hanzi": "入口",
+      "pinyin": "rùkǒu",
+      "translationTr": "giriş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_002",
+      "hanzi": "地图",
+      "pinyin": "dìtú",
+      "translationTr": "harita",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_003",
+      "hanzi": "湖",
+      "pinyin": "hú",
+      "translationTr": "göl",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_004",
+      "hanzi": "湖边",
+      "pinyin": "húbiān",
+      "translationTr": "göl kenarı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_005",
+      "hanzi": "出口",
+      "pinyin": "chūkǒu",
+      "translationTr": "çıkış",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_006",
+      "hanzi": "西边",
+      "pinyin": "xībian",
+      "translationTr": "batı tarafı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_007",
+      "hanzi": "近",
+      "pinyin": "jìn",
+      "translationTr": "yakın",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc029_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC029_008",
+      "hanzi": "周末",
+      "pinyin": "zhōumò",
+      "translationTr": "hafta sonu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc029_word_008.m4a"
+    }
+  ]
+}

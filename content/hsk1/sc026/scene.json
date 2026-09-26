@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC026",
+  "level": "HSK1",
+  "sceneNumber": 26,
+  "titleZh": "咖啡店休息",
+  "titleTr": "Kafede Dinlenmek",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC025",
+  "nextSceneId": "HSK1_SC027",
+  "summaryTr": "Li Na ve Zhang Wei kısa mola için kafeye girer; sıcak/soğuk içecek ve oturma yeri konuşulur.",
+  "locationTr": "Mahalle · Sıcak Kafe"
+}

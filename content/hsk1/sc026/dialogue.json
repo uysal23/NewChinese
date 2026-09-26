@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC026",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC026_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "走了这么久，我们休息一下吧。",
+      "pinyin": "Zǒu le zhème jiǔ, wǒmen xiūxi yíxià ba.",
+      "translationTr": "Bu kadar yürüdük, biraz dinlenelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，这家咖啡店看起来不错。",
+      "pinyin": "Hǎo, zhè jiā kāfēidiàn kàn qǐlái búcuò.",
+      "translationTr": "Olur, bu kafe güzel görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你想喝什么？",
+      "pinyin": "Nǐ xiǎng hē shénme?",
+      "translationTr": "Ne içmek istersin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想喝热茶。",
+      "pinyin": "Wǒ xiǎng hē rè chá.",
+      "translationTr": "Sıcak çay içmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我要一杯咖啡。",
+      "pinyin": "Wǒ yào yì bēi kāfēi.",
+      "translationTr": "Ben bir kahve alacağım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你要大杯还是小杯？",
+      "pinyin": "Nǐ yào dà bēi háishi xiǎo bēi?",
+      "translationTr": "Büyük mü küçük mü istiyorsun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "小杯就可以。",
+      "pinyin": "Xiǎo bēi jiù kěyǐ.",
+      "translationTr": "Küçük yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们坐哪里？",
+      "pinyin": "Wǒmen zuò nǎli?",
+      "translationTr": "Nereye oturalım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "窗边还有两个位置。",
+      "pinyin": "Chuāngbiān hái yǒu liǎng ge wèizi.",
+      "translationTr": "Pencere kenarında iki yer var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，那里比较安静。",
+      "pinyin": "Hǎo, nàli bǐjiào ānjìng.",
+      "translationTr": "Olur, orası daha sakin.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你的茶来了。",
+      "pinyin": "Nǐ de chá lái le.",
+      "translationTr": "Çayın geldi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "闻起来很香。",
+      "pinyin": "Wén qǐlái hěn xiāng.",
+      "translationTr": "Çok güzel kokuyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "休息十分钟再走。",
+      "pinyin": "Xiūxi shí fēnzhōng zài zǒu.",
+      "translationTr": "On dakika dinlenip devam edelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc026_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC026_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我正需要休息。",
+      "pinyin": "Hǎo, wǒ zhèng xūyào xiūxi.",
+      "translationTr": "Tamam, tam da dinlenmeye ihtiyacım vardı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc026_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

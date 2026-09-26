@@ -1,0 +1,12 @@
+{
+  "locationId": "LOC_POST_OFFICE_001",
+  "name": "Neighborhood Post Office",
+  "city": "Hangzhou",
+  "style": "clean public post office",
+  "continuity": [
+    "parcel counter",
+    "queue area",
+    "no readable private addresses",
+    "family-friendly"
+  ]
+}
