@@ -84,9 +84,17 @@ fun AppNavigation(
                         availableSceneIds = available
                     ) { sceneId ->
                         activeSceneId = sceneId
-                        nav.navigate("dialogue")
+                        nav.navigate("sceneIntro")
                     }
                 }
+            }
+            composable("sceneIntro") {
+                SceneIntroScreen(
+                    scene = scene,
+                    onStartDialogue = { nav.navigate("dialogue") },
+                    onStudy = { nav.navigate("study") },
+                    onBack = { nav.popBackStack() }
+                )
             }
             composable("dialogue") {
                 KeepScreenOn()
