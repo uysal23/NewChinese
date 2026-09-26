@@ -1,0 +1,26 @@
+{
+  "sceneId":"HSK1_SC001",
+  "exercises":[
+    {
+      "exerciseId":"EX_SENT_HSK1_SC001_001",
+      "type":"reorder",
+      "sentenceId":"SENT_HSK1_SC001_001",
+      "correctZh":"谢谢你来接我。",
+      "pinyin":"Xièxie nǐ lái jiē wǒ.",
+      "translationTr":"Beni karşılamaya geldiğin için teşekkür ederim.",
+      "tokens":["谢谢","你","来","接","我"],
+      "audioFile":"hsk1_sc001_line_006.m4a",
+      "allowPreviewAudio":true
+    },
+    {
+      "exerciseId":"EX_SENT_HSK1_SC001_002",
+      "type":"fill_blank",
+      "sentenceId":"SENT_HSK1_SC001_002",
+      "sentenceZh":"我___张伟。",
+      "correctAnswer":"是",
+      "options":["是","好","见","累"],
+      "fullCorrectSentenceZh":"我是张伟。",
+      "audioFile":"hsk1_sc001_sentence_002.m4a"
+    }
+  ]
+}
