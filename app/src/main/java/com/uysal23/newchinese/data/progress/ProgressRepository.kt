@@ -13,6 +13,18 @@ class ProgressRepository(private val dao: SceneProgressDao) {
         }
     }
 
+    suspend fun saveDialoguePosition(
+        sceneId: String,
+        lineIndex: Int,
+        playbackPositionMs: Long = 0L
+    ) = mutate(sceneId) {
+        copy(
+            lastDialogueLineIndex = lineIndex.coerceAtLeast(0),
+            lastPlaybackPositionMs = playbackPositionMs.coerceAtLeast(0L),
+            lastStudiedAt = System.currentTimeMillis()
+        )
+    }
+
     suspend fun markVocabularyComplete(sceneId: String) = mutate(sceneId) {
         copy(vocabularyCompleted = true, lastStudiedAt = System.currentTimeMillis())
     }
