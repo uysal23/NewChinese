@@ -165,27 +165,40 @@ fun FavoritesScreen(
 
 @Composable
 fun FreeStudyScreen(
-    onVocabulary: () -> Unit,
-    onSentence: () -> Unit,
-    onShadowing: () -> Unit,
-    onDialogue: () -> Unit
+    sceneIds: List<String>,
+    onOpenScene: (String) -> Unit
 ) {
     Column(
-        Modifier.fillMaxSize().padding(20.dp),
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text("Serbest Çalışma", style = MaterialTheme.typography.headlineMedium)
-        Text("Açılmış sahne")
-        Card(Modifier.fillMaxWidth()) {
-            Column(Modifier.padding(16.dp)) {
-                Text("HSK1 · SC01", style = MaterialTheme.typography.titleLarge)
-                Text("第一次见面 · İlk Tanışma")
+        Text("Daha önce açılmış sahnelerden birini seç. Buradaki çalışma sınav veya kilit durumunu sıfırlamaz.")
+        if (sceneIds.isEmpty()) {
+            Text("Henüz serbest çalışmaya açık sahne yok.")
+        } else {
+            sceneIds.forEach { sceneId ->
+                val level = sceneId.substringBefore("_SC")
+                val number = sceneId.substringAfter("_SC").toIntOrNull()?.toString()?.padStart(2, '0') ?: "01"
+                val title = when (sceneId) {
+                    "HSK1_SC001" -> "İlk Tanışma"
+                    "HSK1_SC002" -> "İsimler"
+                    else -> "Sahne"
+                }
+                Card(Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Text("$level · SC$number", style = MaterialTheme.typography.titleLarge)
+                        Text(title)
+                        Button(
+                            onClick = { onOpenScene(sceneId) },
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text("Çalışmayı Aç")
+                        }
+                    }
+                }
             }
         }
-        OutlinedButton(onClick = onDialogue, modifier = Modifier.fillMaxWidth()) { Text("Diyaloğu Aç") }
-        Button(onClick = onVocabulary, modifier = Modifier.fillMaxWidth()) { Text("Kelime Çalışması") }
-        Button(onClick = onSentence, modifier = Modifier.fillMaxWidth()) { Text("Cümle Çalışması") }
-        Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) { Text("Shadowing") }
     }
 }
 
