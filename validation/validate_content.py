@@ -46,6 +46,9 @@ for scene_dir in scene_dirs:
     word_exam = json.loads((scene_dir / "word_exam.json").read_text(encoding="utf-8"))
     sentence_exam = json.loads((scene_dir / "sentence_exam.json").read_text(encoding="utf-8"))
     visual = json.loads((scene_dir / "visual_manifest.json").read_text(encoding="utf-8"))
+    audio_manifest = json.loads((scene_dir / "audio_manifest.json").read_text(encoding="utf-8"))
+    vocabulary = json.loads((scene_dir / "vocabulary.json").read_text(encoding="utf-8"))
+    exercises = json.loads((scene_dir / "sentence_exercises.json").read_text(encoding="utf-8"))
     media_status_path = scene_dir / "media_status.json"
     media_status = json.loads(media_status_path.read_text(encoding="utf-8")) if media_status_path.exists() else None
 
@@ -90,6 +93,51 @@ for scene_dir in scene_dirs:
     bubble = visual.get("activeSpeakerBubble", {})
     if bubble.get("outline") != "dashed" or bubble.get("text") is not False:
         fail(f"{scene_id} active speaker bubble must be dashed and textless")
+
+    manifest_dialogue = audio_manifest.get("dialogue", [])
+    dialogue_lines = dialogue.get("lines", [])
+    if len(manifest_dialogue) != len(dialogue_lines):
+        fail(f"{scene_id} audio manifest dialogue count must match dialogue lines")
+
+    manifest_by_line = {item.get("lineId"): item for item in manifest_dialogue if isinstance(item, dict)}
+    for line in dialogue_lines:
+        item = manifest_by_line.get(line.get("lineId"))
+        if not item:
+            fail(f"{scene_id} audio manifest missing {line.get('lineId')}")
+        if item.get("voiceId") != line.get("voiceId"):
+            fail(f"{scene_id} audio manifest voice mismatch at {line.get('lineId')}")
+        if item.get("file") != line.get("audioFile"):
+            fail(f"{scene_id} audio manifest file mismatch at {line.get('lineId')}")
+
+    media_audio_required = set((media_status or {}).get("audio", {}).get("required", []))
+
+    for word in vocabulary.get("words", []):
+        audio_file = word.get("audioFile")
+        if not audio_file:
+            fail(f"{scene_id} vocabulary word {word.get('wordId')} missing audioFile")
+        if audio_file not in media_audio_required:
+            fail(f"{scene_id} vocabulary audio not declared in media_status: {audio_file}")
+
+    for exercise in exercises.get("exercises", []):
+        audio_file = exercise.get("audioFile")
+        if not audio_file:
+            fail(f"{scene_id} sentence exercise {exercise.get('exerciseId')} missing audioFile")
+        if audio_file not in media_audio_required:
+            fail(f"{scene_id} sentence audio not declared in media_status: {audio_file}")
+
+    manifest_files = {
+        item.get("file")
+        for group in ("dialogue", "vocabulary", "sentences")
+        for item in audio_manifest.get(group, [])
+        if isinstance(item, dict) and item.get("file")
+    }
+    if manifest_files != media_audio_required:
+        missing_from_manifest = sorted(media_audio_required - manifest_files)
+        missing_from_status = sorted(manifest_files - media_audio_required)
+        fail(
+            f"{scene_id} audio manifest/media_status mismatch; "
+            f"missing from manifest={missing_from_manifest}, missing from media_status={missing_from_status}"
+        )
 
     if media_status is not None:
         for category in ("visual", "audio"):
