@@ -1,0 +1,2 @@
+# LOCKED STEP 06 — Character Bible
+Core cast: CHAR_ZHANG_WEI_001, CHAR_LI_NA_001, CHAR_WANG_MING_001, CHAR_CHEN_YU_001, CHAR_LIU_MEI_001, CHAR_ZHAO_QIANG_001, CHAR_SUN_LIN_001, CHAR_GAO_JIE_001. Each character has fixed visual identity, personality, voiceId, outfit/emotion/gesture presets and story state. Same character always uses the same natural Mandarin voice. Main character phone TTS is forbidden. Commercial-use licensing must be tracked. Family-friendly visual rules apply.
