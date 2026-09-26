@@ -40,6 +40,14 @@ data class PlacementQuestion(
     val answerIndex: Int
 )
 
+data class VisualAssets(
+    val background: String?,
+    val characterA: String?,
+    val characterB: String?,
+    val foreground: String?,
+    val preview: String?
+)
+
 data class SceneContent(
     val sceneId: String,
     val titleZh: String,
@@ -50,7 +58,8 @@ data class SceneContent(
     val estimatedMinutes: Int,
     val lines: List<DialogueLine>,
     val vocabulary: List<VocabularyItem>,
-    val exercises: List<SentenceExercise>
+    val exercises: List<SentenceExercise>,
+    val visualAssets: VisualAssets
 )
 
 class ContentRepository(private val context: Context) {
@@ -112,6 +121,7 @@ class ContentRepository(private val context: Context) {
         val dialogue = JSONObject(readAsset("$scenePath/dialogue.json"))
         val vocabularyJson = JSONObject(readAsset("$scenePath/vocabulary.json"))
         val exercisesJson = JSONObject(readAsset("$scenePath/sentence_exercises.json"))
+        val visualJson = JSONObject(readAsset("$scenePath/visual_manifest.json"))
 
         val linesJson = dialogue.getJSONArray("lines")
         val lines = buildList {
@@ -179,6 +189,15 @@ class ContentRepository(private val context: Context) {
             for (i in 0 until chars.length()) add(chars.getString(i))
         }
 
+        val assets = visualJson.optJSONObject("assets")
+        val visualAssets = VisualAssets(
+            background = assets?.optString("background")?.ifBlank { null },
+            characterA = assets?.optString("characterA")?.ifBlank { null },
+            characterB = assets?.optString("characterB")?.ifBlank { null },
+            foreground = assets?.optString("foreground")?.ifBlank { null },
+            preview = assets?.optString("preview")?.ifBlank { null }
+        )
+
         return SceneContent(
             sceneId = scene.getString("sceneId"),
             titleZh = scene.getString("titleZh"),
@@ -189,7 +208,8 @@ class ContentRepository(private val context: Context) {
             estimatedMinutes = scene.optInt("estimatedMinutes", 0),
             lines = lines,
             vocabulary = vocabulary,
-            exercises = exercises
+            exercises = exercises,
+            visualAssets = visualAssets
         )
     }
 }
