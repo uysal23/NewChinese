@@ -113,6 +113,7 @@ fun DialogueScreen(
     scene: SceneContent,
     showPinyinDefault: Boolean,
     showTurkishDefault: Boolean,
+    onStudy: () -> Unit,
     onBack: () -> Unit
 ) {
     var index by remember { mutableIntStateOf(0) }
@@ -127,7 +128,7 @@ fun DialogueScreen(
         verticalArrangement = Arrangement.SpaceBetween
     ) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            TextButton(onClick = {}) { Text("Çalışma") }
+            TextButton(onClick = onStudy) { Text("Çalışma") }
             TextButton(onClick = { showPinyin = !showPinyin }) {
                 Text(if (showPinyin) "Pinyin ✓" else "Pinyin")
             }
