@@ -83,11 +83,22 @@ def reconstruct_visual_packages() -> int:
         destination = OUT_DIR / package_name
 
         decoded: dict[str, bytes] = {}
+        scene_error: Exception | None = None
         for asset_name, source in sorted(assets):
-            payload = decode_b64_text(source)
-            if not payload.startswith(b"RIFF") or b"WEBP" not in payload[:16]:
-                raise RuntimeError(f"Decoded visual is not WebP: {source.name}")
-            decoded[asset_name] = payload
+            try:
+                payload = decode_b64_text(source)
+                if not payload.startswith(b"RIFF") or b"WEBP" not in payload[:16]:
+                    raise RuntimeError(f"Decoded visual is not WebP: {source.name}")
+                decoded[asset_name] = payload
+            except Exception as exc:
+                scene_error = exc
+                break
+
+        if scene_error is not None:
+            if destination.exists():
+                destination.unlink()
+            print(f"Skipping {scene_id}: {scene_error}")
+            continue
 
         # Consecutive HSK1 station scenes intentionally reuse the phone-approved
         # SC001 character identity layers and safe foreground. This prevents
