@@ -1,0 +1,2 @@
+# LOCKED STEP 12 — HSK4 Plan
+50 scenes follow the locked Step 08 arc: professional life, team relationships, work-life balance, culture and a shared project. Natural Mandarin expands into opinions, negotiation and connected longer turns. All global rules remain binding.
