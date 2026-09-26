@@ -2,7 +2,7 @@
   "batchId": "HSK1_SC005_SC010",
   "masterStep": 5,
   "goldenReference": "Run #163",
-  "status": "in_progress",
+  "status": "media_generation",
   "scenes": [
     {
       "sceneId": "HSK1_SC005",
@@ -15,7 +15,7 @@
         "araba",
         "beklemek"
       ],
-      "status": "content_planning"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC006",
@@ -28,7 +28,7 @@
         "gelmek",
         "beklemek"
       ],
-      "status": "queued"
+      "status": "visual_complete_audio_generating"
     },
     {
       "sceneId": "HSK1_SC007",
@@ -41,7 +41,7 @@
         "mesaj",
         "arkadaş"
       ],
-      "status": "queued"
+      "status": "visual_complete_audio_generating"
     },
     {
       "sceneId": "HSK1_SC008",
@@ -54,7 +54,7 @@
         "ev",
         "dinlenmek"
       ],
-      "status": "queued"
+      "status": "visual_complete_audio_generating"
     },
     {
       "sceneId": "HSK1_SC009",
@@ -67,7 +67,7 @@
         "yemek",
         "birlikte"
       ],
-      "status": "queued"
+      "status": "visual_complete_audio_generating"
     },
     {
       "sceneId": "HSK1_SC010",
@@ -80,7 +80,7 @@
         "teşekkür",
         "hoş geldin"
       ],
-      "status": "queued"
+      "status": "visual_complete_audio_generating"
     }
   ],
   "pipeline": [
@@ -96,5 +96,12 @@
     "requireVisualComplete": true,
     "requireAudioComplete": true,
     "requireValidationPass": true
+  },
+  "progress": {
+    "completeScenes": 1,
+    "totalScenes": 6,
+    "visualComplete": 6,
+    "audioComplete": 1,
+    "audioBatchStatus": "in_progress"
   }
 }
