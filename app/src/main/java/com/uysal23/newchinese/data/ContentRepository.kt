@@ -32,6 +32,14 @@ data class SentenceExercise(
     val options: List<String>
 )
 
+data class PlacementQuestion(
+    val id: String,
+    val level: String,
+    val prompt: String,
+    val options: List<String>,
+    val answerIndex: Int
+)
+
 data class SceneContent(
     val sceneId: String,
     val titleZh: String,
@@ -44,6 +52,29 @@ data class SceneContent(
 class ContentRepository(private val context: Context) {
     private fun readAsset(path: String): String =
         context.assets.open(path).bufferedReader(Charsets.UTF_8).use { it.readText() }
+
+    fun loadPlacementQuestions(): List<PlacementQuestion> {
+        val root = JSONObject(readAsset("placement/placement_test.json"))
+        val array = root.getJSONArray("questions")
+        return buildList {
+            for (i in 0 until array.length()) {
+                val x = array.getJSONObject(i)
+                val options = buildList {
+                    val a = x.getJSONArray("options")
+                    for (j in 0 until a.length()) add(a.getString(j))
+                }
+                add(
+                    PlacementQuestion(
+                        id = x.getString("id"),
+                        level = x.getString("level"),
+                        prompt = x.getString("prompt"),
+                        options = options,
+                        answerIndex = x.getInt("answerIndex")
+                    )
+                )
+            }
+        }
+    }
 
     fun loadScene(scenePath: String = "hsk1/sc001"): SceneContent {
         val scene = JSONObject(readAsset("$scenePath/scene.json"))
