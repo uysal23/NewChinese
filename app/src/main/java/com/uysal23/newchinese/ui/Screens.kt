@@ -136,6 +136,7 @@ fun DialogueScreen(
     scene: SceneContent,
     showPinyinDefault: Boolean,
     showTurkishDefault: Boolean,
+    playbackSpeed: Float,
     onStudy: () -> Unit,
     onBack: () -> Unit
 ) {
@@ -193,7 +194,7 @@ fun DialogueScreen(
                     audioPlayer.pause()
                     playing = false
                 } else {
-                    val ok = audioPlayer.play("hsk1/sc001/${line.audioFile}")
+                    val ok = audioPlayer.play("hsk1/sc001/${line.audioFile}", playbackSpeed)
                     audioMissing = !ok
                     playing = ok
                 }
@@ -248,6 +249,7 @@ fun SettingsScreen(
     onPalette: (String) -> Unit,
     onPinyin: (Boolean) -> Unit,
     onTurkish: (Boolean) -> Unit,
+    onPlaybackSpeed: (Float) -> Unit,
     onSaveReminder: (ReminderSpec) -> Unit,
     onDeleteReminder: (Int) -> Unit
 ) {
@@ -286,6 +288,16 @@ fun SettingsScreen(
             Spacer(Modifier.width(8.dp))
             Text("Türkçe varsayılan açık")
         }
+                Text("Konuşma hızı")
+                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    listOf(0.75f, 0.85f, 1.0f, 1.15f, 1.25f).forEach { speed ->
+                        FilterChip(
+                            selected = settings.playbackSpeed == speed,
+                            onClick = { onPlaybackSpeed(speed) },
+                            label = { Text("${speed}x") }
+                        )
+                    }
+                }
 
         HorizontalDivider()
         Text("Hatırlatıcılar", style = MaterialTheme.typography.titleLarge)
