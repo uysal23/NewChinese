@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK1_SC005",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC005_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们走到前面的出租车站吧。",
+      "pinyin": "Wǒmen zǒu dào qiánmiàn de chūzūchē zhàn ba.",
+      "translationTr": "Öndeki taksi durağına yürüyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_001.m4a",
+      "emotion": "helpful"
+    },
+    {
+      "lineId": "HSK1_SC005_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，离这里远吗？",
+      "pinyin": "Hǎo, lí zhèlǐ yuǎn ma?",
+      "translationTr": "Tamam, buradan uzak mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_002.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC005_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不远，走几分钟就到了。",
+      "pinyin": "Bù yuǎn, zǒu jǐ fēnzhōng jiù dào le.",
+      "translationTr": "Uzak değil, birkaç dakika yürüyünce varırız.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_003.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC005_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那很好，我还可以走。",
+      "pinyin": "Nà hěn hǎo, wǒ hái kěyǐ zǒu.",
+      "translationTr": "Çok iyi, hâlâ yürüyebilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_004.m4a",
+      "emotion": "light"
+    },
+    {
+      "lineId": "HSK1_SC005_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你的箱子重不重？",
+      "pinyin": "Nǐ de xiāngzi zhòng bu zhòng?",
+      "translationTr": "Valizin ağır mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_005.m4a",
+      "emotion": "caring"
+    },
+    {
+      "lineId": "HSK1_SC005_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一点重，不过没问题。",
+      "pinyin": "Yǒu yìdiǎn zhòng, bùguò méi wèntí.",
+      "translationTr": "Biraz ağır ama sorun değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_006.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC005_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "累了就告诉我。",
+      "pinyin": "Lèi le jiù gàosu wǒ.",
+      "translationTr": "Yorulursan bana söyle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_007.m4a",
+      "emotion": "warm"
+    },
+    {
+      "lineId": "HSK1_SC005_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，谢谢你。",
+      "pinyin": "Hǎo, xièxie nǐ.",
+      "translationTr": "Tamam, teşekkür ederim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_008.m4a",
+      "emotion": "warm"
+    },
+    {
+      "lineId": "HSK1_SC005_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你看，前面就是出租车站。",
+      "pinyin": "Nǐ kàn, qiánmiàn jiù shì chūzūchē zhàn.",
+      "translationTr": "Bak, ilerisi taksi durağı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_009.m4a",
+      "emotion": "helpful"
+    },
+    {
+      "lineId": "HSK1_SC005_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我看到了。那里有几辆车。",
+      "pinyin": "Wǒ kàn dào le. Nàli yǒu jǐ liàng chē.",
+      "translationTr": "Gördüm. Orada birkaç araç var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_010.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC005_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，我们去那边等。",
+      "pinyin": "Duì, wǒmen qù nàbiān děng.",
+      "translationTr": "Evet, gidip orada bekleyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_011.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC005_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在人多吗？",
+      "pinyin": "Xiànzài rén duō ma?",
+      "translationTr": "Şimdi kalabalık mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_012.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC005_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不多，应该很快。",
+      "pinyin": "Bù duō, yīnggāi hěn kuài.",
+      "translationTr": "Çok değil, sanırım hızlı olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_013.m4a",
+      "emotion": "reassuring"
+    },
+    {
+      "lineId": "HSK1_SC005_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那太好了。",
+      "pinyin": "Nà tài hǎo le.",
+      "translationTr": "Harika.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_014.m4a",
+      "emotion": "happy"
+    },
+    {
+      "lineId": "HSK1_SC005_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "等车的时候你可以休息一下。",
+      "pinyin": "Děng chē de shíhou nǐ kěyǐ xiūxi yíxià.",
+      "translationTr": "Arabayı beklerken biraz dinlenebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_015.m4a",
+      "emotion": "helpful"
+    },
+    {
+      "lineId": "HSK1_SC005_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我正想坐一会儿。",
+      "pinyin": "Hǎo, wǒ zhèng xiǎng zuò yíhuìr.",
+      "translationTr": "Tamam, zaten biraz oturmak istiyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_016.m4a",
+      "emotion": "relieved"
+    },
+    {
+      "lineId": "HSK1_SC005_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "车来了我们就上车。",
+      "pinyin": "Chē lái le wǒmen jiù shàng chē.",
+      "translationTr": "Araç gelince bineriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_line_017.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC005_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，终于可以回家了。",
+      "pinyin": "Hǎo, zhōngyú kěyǐ huí jiā le.",
+      "translationTr": "Tamam, sonunda eve gidebiliriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_line_018.m4a",
+      "emotion": "happy"
+    }
+  ]
+}
