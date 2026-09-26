@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC004",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC004_001",
+      "hanzi": "商店",
+      "pinyin": "shāngdiàn",
+      "translationTr": "dükkân",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_002",
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "translationTr": "içmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_003",
+      "hanzi": "水",
+      "pinyin": "shuǐ",
+      "translationTr": "su",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_004",
+      "hanzi": "饮料",
+      "pinyin": "yǐnliào",
+      "translationTr": "içecek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_005",
+      "hanzi": "多少钱",
+      "pinyin": "duōshao qián",
+      "translationTr": "ne kadar para",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_006",
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "translationTr": "yuan için konuşma dili ölçüsü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_007",
+      "hanzi": "瓶",
+      "pinyin": "píng",
+      "translationTr": "şişe için ölçü sözcüğü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC004_008",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "translationTr": "satın almak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_word_008.m4a"
+    }
+  ]
+}

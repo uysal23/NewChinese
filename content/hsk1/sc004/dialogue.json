@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK1_SC004",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC004_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "前面有一家小店，我们先买水吧。",
+      "pinyin": "Qiánmian yǒu yì jiā xiǎodiàn, wǒmen xiān mǎi shuǐ ba.",
+      "translationTr": "İleride küçük bir dükkân var, önce su alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_001.m4a",
+      "emotion": "helpful"
+    },
+    {
+      "lineId": "HSK1_SC004_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我正好有点渴。",
+      "pinyin": "Hǎo, wǒ zhènghǎo yǒudiǎn kě.",
+      "translationTr": "Tamam, zaten biraz susadım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_002.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC004_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你想喝什么？",
+      "pinyin": "Nǐ xiǎng hē shénme?",
+      "translationTr": "Ne içmek istiyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_003.m4a",
+      "emotion": "friendly"
+    },
+    {
+      "lineId": "HSK1_SC004_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想喝水。你呢？",
+      "pinyin": "Wǒ xiǎng hē shuǐ. Nǐ ne?",
+      "translationTr": "Su içmek istiyorum. Ya sen?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_004.m4a",
+      "emotion": "friendly"
+    },
+    {
+      "lineId": "HSK1_SC004_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我也喝水。今天有点热。",
+      "pinyin": "Wǒ yě hē shuǐ. Jīntiān yǒudiǎn rè.",
+      "translationTr": "Ben de su içerim. Bugün biraz sıcak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_005.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC004_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里有很多饮料。",
+      "pinyin": "Zhèli yǒu hěn duō yǐnliào.",
+      "translationTr": "Burada çok içecek var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_006.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC004_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，不过水最简单。",
+      "pinyin": "Duì, bùguò shuǐ zuì jiǎndān.",
+      "translationTr": "Evet, ama su en basiti.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_007.m4a",
+      "emotion": "light"
+    },
+    {
+      "lineId": "HSK1_SC004_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这瓶水多少钱？",
+      "pinyin": "Zhè píng shuǐ duōshao qián?",
+      "translationTr": "Bu şişe su ne kadar?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_008.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC004_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "五块钱。",
+      "pinyin": "Wǔ kuài qián.",
+      "translationTr": "Beş yuan.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_009.m4a",
+      "emotion": "neutral"
+    },
+    {
+      "lineId": "HSK1_SC004_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我买两瓶。",
+      "pinyin": "Hǎo, wǒ mǎi liǎng píng.",
+      "translationTr": "Tamam, iki şişe alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_010.m4a",
+      "emotion": "happy"
+    },
+    {
+      "lineId": "HSK1_SC004_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用买我的，我自己来。",
+      "pinyin": "Bú yòng mǎi wǒ de, wǒ zìjǐ lái.",
+      "translationTr": "Benimkini almana gerek yok, kendim alırım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_011.m4a",
+      "emotion": "friendly"
+    },
+    {
+      "lineId": "HSK1_SC004_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "没关系，我来吧。",
+      "pinyin": "Méi guānxi, wǒ lái ba.",
+      "translationTr": "Sorun değil, ben alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_012.m4a",
+      "emotion": "warm"
+    },
+    {
+      "lineId": "HSK1_SC004_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那谢谢你。",
+      "pinyin": "Nà xièxie nǐ.",
+      "translationTr": "O zaman teşekkür ederim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_013.m4a",
+      "emotion": "warm"
+    },
+    {
+      "lineId": "HSK1_SC004_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不客气。还要别的吗？",
+      "pinyin": "Bú kèqi. Hái yào bié de ma?",
+      "translationTr": "Rica ederim. Başka bir şey ister misin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_014.m4a",
+      "emotion": "friendly"
+    },
+    {
+      "lineId": "HSK1_SC004_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用了，两瓶水就够了。",
+      "pinyin": "Bú yòng le, liǎng píng shuǐ jiù gòu le.",
+      "translationTr": "Gerek yok, iki şişe su yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_015.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC004_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，那我们付钱吧。",
+      "pinyin": "Hǎo, nà wǒmen fù qián ba.",
+      "translationTr": "Tamam, o zaman ödeme yapalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_016.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC004_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "买好以后，我们去坐车。",
+      "pinyin": "Mǎi hǎo yǐhòu, wǒmen qù zuò chē.",
+      "translationTr": "Aldıktan sonra araca binmeye gidelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc004_line_017.m4a",
+      "emotion": "helpful"
+    },
+    {
+      "lineId": "HSK1_SC004_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，买完水就回家。",
+      "pinyin": "Hǎo, mǎi wán shuǐ jiù huí jiā.",
+      "translationTr": "Tamam, suyu aldıktan sonra eve dönelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_line_018.m4a",
+      "emotion": "happy"
+    }
+  ]
+}

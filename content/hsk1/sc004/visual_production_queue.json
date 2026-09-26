@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK1_SC004",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "Station-side kiosk near Hangzhou station exit; bright daytime; Li Na indicates bottled water, Zhang Wei follows; full bodies visible; clean mobile-safe framing.",
+  "assets": [
+    {
+      "file": "hsk1_sc004_bg.webp",
+      "purpose": "station-side kiosk background without characters"
+    },
+    {
+      "file": "hsk1_sc004_char_li_na.webp",
+      "purpose": "Li Na full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc004_char_zhang_wei.webp",
+      "purpose": "Zhang Wei full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc004_fg.webp",
+      "purpose": "subtle foreground depth layer that does not mask bodies"
+    },
+    {
+      "file": "hsk1_sc004_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no text baked into image",
+    "family-friendly",
+    "full legs/feet preserved",
+    "same faces/outfits as prior scenes",
+    "mobile-safe framing"
+  ]
+}

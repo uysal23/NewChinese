@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC004",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC004_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC004_001",
+      "correctZh": "这瓶水多少钱？",
+      "pinyin": "Zhè píng shuǐ duōshao qián?",
+      "translationTr": "Bu şişe su ne kadar?",
+      "tokens": [
+        "这瓶水",
+        "多少",
+        "钱"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC004_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC004_002",
+      "sentenceZh": "我买两___。",
+      "correctAnswer": "瓶",
+      "options": [
+        "瓶",
+        "块",
+        "水",
+        "商店"
+      ],
+      "fullCorrectSentenceZh": "我买两瓶。",
+      "correctZh": "我买两瓶。",
+      "pinyin": "Wǒ mǎi liǎng píng.",
+      "translationTr": "İki şişe alıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc004_sentence_002.m4a"
+    }
+  ]
+}
