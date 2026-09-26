@@ -1,0 +1,12 @@
+{
+  "sceneId":"HSK1_SC001",
+  "status":"reference-draft",
+  "lines":[
+    {"lineId":"HSK1_SC001_L001","order":1,"speakerId":"CHAR_LI_NA_001","textZh":"你好，你是张伟吧？","pinyin":"Nǐ hǎo, nǐ shì Zhāng Wěi ba?","translationTr":"Merhaba, sen Zhang Wei olmalısın, değil mi?","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc001_line_001.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC001_L002","order":2,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"对，我是张伟。你是李娜吗？","pinyin":"Duì, wǒ shì Zhāng Wěi. Nǐ shì Lǐ Nà ma?","translationTr":"Evet, ben Zhang Wei. Sen Li Na mısın?","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc001_line_002.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC001_L003","order":3,"speakerId":"CHAR_LI_NA_001","textZh":"是我。终于见到你了！路上顺利吗？","pinyin":"Shì wǒ. Zhōngyú jiàn dào nǐ le! Lùshang shùnlì ma?","translationTr":"Benim. Sonunda tanıştık! Yolculuğun iyi geçti mi?","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc001_line_003.m4a","emotion":"happy"},
+    {"lineId":"HSK1_SC001_L004","order":4,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"挺顺利的，就是有一点累。","pinyin":"Tǐng shùnlì de, jiùshì yǒu yìdiǎn lèi.","translationTr":"Gayet iyi geçti, sadece biraz yorgunum.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc001_line_004.m4a","emotion":"calm"},
+    {"lineId":"HSK1_SC001_L005","order":5,"speakerId":"CHAR_LI_NA_001","textZh":"那我们先出去吧，外面没那么吵。","pinyin":"Nà wǒmen xiān chūqu ba, wàimiàn méi nàme chǎo.","translationTr":"O zaman önce dışarı çıkalım, dışarısı bu kadar gürültülü değil.","voiceId":"VOICE_LI_NA_001","audioFile":"hsk1_sc001_line_005.m4a","emotion":"friendly"},
+    {"lineId":"HSK1_SC001_L006","order":6,"speakerId":"CHAR_ZHANG_WEI_001","textZh":"好。谢谢你来接我。","pinyin":"Hǎo. Xièxie nǐ lái jiē wǒ.","translationTr":"Olur. Beni karşılamaya geldiğin için teşekkür ederim.","voiceId":"VOICE_ZHANG_WEI_001","audioFile":"hsk1_sc001_line_006.m4a","emotion":"happy"}
+  ]
+}
