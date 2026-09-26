@@ -24,6 +24,7 @@ import com.uysal23.newchinese.media.VoiceRecorder
 @Composable
 fun StudyHubScreen(
     progress: SceneProgressEntity?,
+    freeStudyMode: Boolean,
     onVocabulary: () -> Unit,
     onSentence: () -> Unit,
     onShadowing: () -> Unit,
@@ -39,27 +40,33 @@ fun StudyHubScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text("Çalışma", style = MaterialTheme.typography.headlineMedium)
-        StudyStatus("Kelime", progress?.vocabularyCompleted == true)
-        StudyStatus("Cümle", progress?.sentencePracticeCompleted == true)
-        StudyStatus("Shadowing", progress?.shadowingCompleted == true)
+        if (freeStudyMode) {
+            Text("Serbest Çalışma modu · ilerleme ve sahne kilitleri değişmez.")
+        } else {
+            StudyStatus("Kelime", progress?.vocabularyCompleted == true)
+            StudyStatus("Cümle", progress?.sentencePracticeCompleted == true)
+            StudyStatus("Shadowing", progress?.shadowingCompleted == true)
+        }
         Button(onClick = onVocabulary, modifier = Modifier.fillMaxWidth()) { Text("Kelime Çalışması") }
         Button(onClick = onSentence, modifier = Modifier.fillMaxWidth()) { Text("Cümle Çalışması") }
         Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) { Text("Shadowing") }
-        Button(
-            onClick = onExam,
-            enabled = studyReady,
-            modifier = Modifier.fillMaxWidth()
-        ) {
-            Text(
-                when {
-                    progress?.sentenceExamPassed == true -> "Sahne Sınavı ✓"
-                    progress?.wordExamPassed == true -> "Cümle Sınavına Devam Et"
-                    else -> "Sahne Sınavına Geç"
-                }
-            )
-        }
-        if (!studyReady) {
-            Text("Sınav için üç çalışma bölümünü de tamamla.")
+        if (!freeStudyMode) {
+            Button(
+                onClick = onExam,
+                enabled = studyReady,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(
+                    when {
+                        progress?.sentenceExamPassed == true -> "Sahne Sınavı ✓"
+                        progress?.wordExamPassed == true -> "Cümle Sınavına Devam Et"
+                        else -> "Sahne Sınavına Geç"
+                    }
+                )
+            }
+            if (!studyReady) {
+                Text("Sınav için üç çalışma bölümünü de tamamla.")
+            }
         }
         OutlinedButton(onClick = onBack, modifier = Modifier.fillMaxWidth()) { Text("Diyaloğa Dön") }
     }
