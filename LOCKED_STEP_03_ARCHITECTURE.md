@@ -1,0 +1,2 @@
+# LOCKED STEP 03 — Architecture
+Kotlin + Jetpack Compose. MVVM. Room for durable progress; DataStore for preferences. Media3 for playback. Local JSON/content-first architecture. WebP/2.5D CGI assets. Local notifications. Shadowing module. Content validation and GitHub Actions. Android minimum target originally planned at API 26; targetSdk must remain Play-compatible and upgradable. Heavy content is data/media; app engine stays lean. Lazy loading and audio preloading are required.
