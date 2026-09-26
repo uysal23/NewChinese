@@ -75,6 +75,7 @@ fun AppNavigation(
                     scene = scene,
                     showPinyinDefault = current.showPinyin,
                     showTurkishDefault = current.showTurkish,
+                    playbackSpeed = current.playbackSpeed,
                     onStudy = { nav.navigate("study") },
                     onBack = { nav.popBackStack() }
                 )
@@ -172,6 +173,7 @@ fun AppNavigation(
                     onPalette = { scope.launch { preferences.setPalette(it) } },
                     onPinyin = { scope.launch { preferences.setShowPinyin(it) } },
                     onTurkish = { scope.launch { preferences.setShowTurkish(it) } },
+                    onPlaybackSpeed = { scope.launch { preferences.setPlaybackSpeed(it) } },
                     onSaveReminder = { reminder ->
                         scope.launch {
                             preferences.upsertReminder(reminder)
