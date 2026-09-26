@@ -1,0 +1,2 @@
+# LOCKED STEP 04 — Repository Structure
+Root contains all locked manifests and LOCKS.md. Main areas: app, core, data, domain, feature modules, content, characters, voices, locations, assets, validation, scripts, docs, tests, .github/workflows. Commercial readiness is designed in: feature-commerce/entitlement boundary, optional Play Billing integration, APK+AAB release readiness, secure signing, feature flag for commerce, future account/sync extension points. Learning progress must remain independent of purchase state.
