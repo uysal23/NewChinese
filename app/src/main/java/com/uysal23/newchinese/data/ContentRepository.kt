@@ -76,6 +76,17 @@ class ContentRepository(private val context: Context) {
         }
     }
 
+    fun loadFavoriteWords(wordIds: Set<String>): List<VocabularyItem> {
+        val sceneIds = wordIds.mapNotNull { wordId ->
+            Regex("""WORD_(HSK\d_SC\d{3})_\d+""").matchEntire(wordId)?.groupValues?.get(1)
+        }.toSet()
+
+        return sceneIds
+            .flatMap { sceneId -> runCatching { loadSceneById(sceneId).vocabulary }.getOrDefault(emptyList()) }
+            .filter { it.id in wordIds }
+            .distinctBy { it.id }
+    }
+
     fun availableSceneIds(level: Int): Set<String> {
         val folders = context.assets.list("hsk$level").orEmpty()
         return folders
