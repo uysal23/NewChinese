@@ -19,8 +19,7 @@ import com.uysal23.newchinese.data.SentenceExercise
 import com.uysal23.newchinese.data.VocabularyItem
 import com.uysal23.newchinese.data.progress.SceneProgressEntity
 import com.uysal23.newchinese.media.AssetAudioPlayer
-import com.uysal23.newchinese.media.MandarinSpeechRecognizer
-import com.uysal23.newchinese.media.VoiceRecorder
+import com.uysal23.newchinese.media.OfflineMandarinShadowingEngine
 
 @Composable
 fun StudyHubScreen(
@@ -386,6 +385,9 @@ fun ShadowingSetupScreen(
     var similarityPercent by remember { mutableStateOf<Int?>(null) }
     var recognitionError by remember { mutableStateOf<String?>(null) }
     var recognitionInProgress by remember { mutableStateOf(false) }
+    var offlineModelReady by remember { mutableStateOf(false) }
+    var offlineModelPreparing by remember { mutableStateOf(true) }
+    var offlineModelError by remember { mutableStateOf<String?>(null) }
     var hasMicPermission by remember {
         mutableStateOf(
             ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) ==
@@ -393,22 +395,30 @@ fun ShadowingSetupScreen(
         )
     }
 
-    val recorder = remember { VoiceRecorder(context.applicationContext) }
+    val shadowingEngine = remember {
+        OfflineMandarinShadowingEngine(context.applicationContext)
+    }
     val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
-    val speechRecognizer = remember { MandarinSpeechRecognizer(context.applicationContext) }
 
-    fun stopRecordingSafely() {
-        if (isRecording) {
-            recordedPath = recorder.stop().getOrNull()?.absolutePath
-            isRecording = false
-        }
+    LaunchedEffect(Unit) {
+        shadowingEngine.prepare(
+            onReady = {
+                offlineModelReady = true
+                offlineModelPreparing = false
+                offlineModelError = null
+            },
+            onError = { message ->
+                offlineModelReady = false
+                offlineModelPreparing = false
+                offlineModelError = message
+            }
+        )
     }
 
     DisposableEffect(Unit) {
         onDispose {
-            recorder.release()
+            shadowingEngine.release()
             audioPlayer.release()
-            speechRecognizer.destroy()
         }
     }
 
@@ -460,9 +470,22 @@ fun ShadowingSetupScreen(
                 }
             }
 
+            if (offlineModelPreparing) {
+                Text(
+                    "Mandarin tanıma modeli hazırlanıyor…",
+                    style = MaterialTheme.typography.labelMedium
+                )
+            }
+            if (offlineModelError != null) {
+                Text(
+                    offlineModelError.orEmpty(),
+                    color = MaterialTheme.colorScheme.error
+                )
+            }
+
             Button(
                 onClick = { started = true },
-                enabled = hasMicPermission || listenOnly,
+                enabled = (hasMicPermission && offlineModelReady) || listenOnly,
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text("Shadowing'i Başlat")
@@ -504,39 +527,32 @@ fun ShadowingSetupScreen(
                             recognitionInProgress = false
                             recordedPath = null
 
-                            val result = recorder.start()
-                            if (result.isSuccess) {
-                                isRecording = true
-                                val recognitionStarted = speechRecognizer.start(
-                                    targetText = line.chinese,
-                                    onSpeechEnded = {
-                                        stopRecordingSafely()
-                                        recognitionInProgress = true
-                                    },
-                                    onResult = { resultData ->
-                                        stopRecordingSafely()
-                                        recognizedText = resultData.recognizedText
-                                        similarityPercent = resultData.similarityPercent
-                                        recognitionError = null
-                                        recognitionInProgress = false
-                                    },
-                                    onError = { message ->
-                                        stopRecordingSafely()
-                                        recognitionError = message
-                                        recognitionInProgress = false
-                                    }
-                                )
-                                if (!recognitionStarted) {
-                                    recognitionError =
-                                        "Konuşma tanıma kullanılamadı; kayıt manuel olarak durdurulabilir."
+                            val ok = shadowingEngine.start(
+                                targetText = line.chinese,
+                                onResult = { result ->
+                                    isRecording = false
+                                    recognitionInProgress = false
+                                    recordedPath = result.recordingPath
+                                    recognizedText = result.recognizedText
+                                    similarityPercent = result.similarityPercent
+                                    recognitionError = null
+                                },
+                                onError = { message ->
+                                    isRecording = false
+                                    recognitionInProgress = false
+                                    recognitionError = message
                                 }
+                            )
+                            if (ok) {
+                                isRecording = true
                             }
                         } else {
-                            speechRecognizer.stop()
-                            stopRecordingSafely()
+                            shadowingEngine.stop()
+                            isRecording = false
                             recognitionInProgress = true
                         }
                     },
+                    enabled = offlineModelReady && !recognitionInProgress,
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(if (isRecording) "■ Kaydı Durdur" else "🎙 Kaydı Başlat")
@@ -588,6 +604,13 @@ fun ShadowingSetupScreen(
                         style = MaterialTheme.typography.bodyMedium
                     )
                 }
+
+                if (!offlineModelReady && offlineModelPreparing) {
+                    Text(
+                        "Mandarin tanıma modeli hazırlanıyor…",
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                }
             } else {
                 Text("Yalnız dinleme modu")
             }
@@ -600,8 +623,7 @@ fun ShadowingSetupScreen(
 
             Button(
                 onClick = {
-                    speechRecognizer.cancel()
-                    recorder.cancel()
+                    shadowingEngine.cancel()
                     recordedPath = null
                     isRecording = false
                     recognizedText = null
