@@ -26,6 +26,7 @@ fun AppNavigation(
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
     val scene = remember { repository.loadScene() }
+    val placementQuestions = remember { repository.loadPlacementQuestions() }
     val appContext = LocalContext.current.applicationContext
 
     LaunchedEffect(Unit) {
@@ -185,7 +186,13 @@ fun AppNavigation(
                     }
                 )
             }
-            composable("placement") { PlaceholderScreen("Seviye Tespit Sınavı") }
+            composable("placement") {
+                PlacementScreen(
+                    questions = placementQuestions,
+                    onBack = { nav.popBackStack() },
+                    onGoToLevels = { nav.navigate("levels") }
+                )
+            }
         }
     }
 }
