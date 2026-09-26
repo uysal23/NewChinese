@@ -102,6 +102,18 @@ fun AssetSceneStage(
             contentScale = ContentScale.Crop
         )
 
+        // The current foreground asset is not guaranteed to contain alpha.
+        // Draw it before characters so it can add scene depth without masking bodies.
+        if (!foreground.isNullOrBlank()) {
+            AssetSceneImage(
+                sceneAssetBase = sceneAssetBase,
+                relativePath = foreground,
+                contentDescription = "Sahne ön planı",
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop
+            )
+        }
+
         AssetSceneImage(
             sceneAssetBase = sceneAssetBase,
             relativePath = characterA,
@@ -109,7 +121,7 @@ fun AssetSceneStage(
             modifier = Modifier
                 .align(Alignment.BottomStart)
                 .fillMaxWidth(0.56f)
-                .fillMaxHeight(0.96f)
+                .fillMaxHeight(0.98f)
                 .graphicsLayer {
                     scaleX = liNaScale
                     scaleY = liNaScale
@@ -126,7 +138,7 @@ fun AssetSceneStage(
             modifier = Modifier
                 .align(Alignment.BottomEnd)
                 .fillMaxWidth(0.56f)
-                .fillMaxHeight(0.96f)
+                .fillMaxHeight(0.98f)
                 .graphicsLayer {
                     scaleX = zhangWeiScale
                     scaleY = zhangWeiScale
@@ -135,16 +147,6 @@ fun AssetSceneStage(
                 },
             contentScale = ContentScale.Fit
         )
-
-        if (!foreground.isNullOrBlank()) {
-            AssetSceneImage(
-                sceneAssetBase = sceneAssetBase,
-                relativePath = foreground,
-                contentDescription = "Sahne ön planı",
-                modifier = Modifier.fillMaxSize(),
-                contentScale = ContentScale.Crop
-            )
-        }
     }
 }
 
