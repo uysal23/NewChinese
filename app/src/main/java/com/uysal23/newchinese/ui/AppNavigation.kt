@@ -29,6 +29,7 @@ fun AppNavigation(
     val scope = rememberCoroutineScope()
     val scene = remember(activeSceneId) { repository.loadSceneById(activeSceneId) }
     val placementQuestions = remember { repository.loadPlacementQuestions() }
+    val availableScenes = remember { (1..6).flatMap { repository.availableSceneIds(it) }.toSet() }
     val appContext = LocalContext.current.applicationContext
 
     LaunchedEffect(Unit) {
@@ -155,11 +156,16 @@ fun AppNavigation(
                 )
             }
             composable("freeStudy") {
+                val unlockedAvailable = allProgress
+                    .filter { it.unlocked && it.sceneId in availableScenes }
+                    .map { it.sceneId }
+                    .sorted()
                 FreeStudyScreen(
-                    onVocabulary = { nav.navigate("vocabulary") },
-                    onSentence = { nav.navigate("sentences") },
-                    onShadowing = { nav.navigate("shadowing") },
-                    onDialogue = { nav.navigate("dialogue") }
+                    sceneIds = unlockedAvailable,
+                    onOpenScene = { sceneId ->
+                        activeSceneId = sceneId
+                        nav.navigate("study")
+                    }
                 )
             }
             composable("favorites") {
