@@ -1,5 +1,9 @@
 package com.uysal23.newchinese.ui
 
+import android.Manifest
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -10,6 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.uysal23.newchinese.data.SceneContent
 import com.uysal23.newchinese.data.UserSettings
+import com.uysal23.newchinese.notifications.ReminderSpec
+import java.util.Calendar
 
 @Composable
 fun WelcomeScreen(onContinue: (String) -> Unit) {
@@ -176,9 +182,17 @@ fun SettingsScreen(
     onDark: (Boolean) -> Unit,
     onPalette: (String) -> Unit,
     onPinyin: (Boolean) -> Unit,
-    onTurkish: (Boolean) -> Unit
+    onTurkish: (Boolean) -> Unit,
+    onSaveReminder: (ReminderSpec) -> Unit,
+    onDeleteReminder: (Int) -> Unit
 ) {
     var name by remember(settings.userName) { mutableStateOf(settings.userName) }
+    var hourText by remember { mutableStateOf("19") }
+    var minuteText by remember { mutableStateOf("00") }
+    var reminderMessage by remember { mutableStateOf("Bugünkü Çince çalışmanı unutma.") }
+    var selectedDays by remember { mutableStateOf(setOf(Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.THURSDAY, Calendar.FRIDAY)) }
+    val permissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
+
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
@@ -207,7 +221,96 @@ fun SettingsScreen(
             Spacer(Modifier.width(8.dp))
             Text("Türkçe varsayılan açık")
         }
-        Text("Hatırlatıcı altyapısı sonraki entegrasyon paketinde bu ekrana bağlanacak.")
+
+        HorizontalDivider()
+        Text("Hatırlatıcılar", style = MaterialTheme.typography.titleLarge)
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            OutlinedTextField(
+                value = hourText,
+                onValueChange = { hourText = it.filter(Char::isDigit).take(2) },
+                label = { Text("Saat") },
+                modifier = Modifier.weight(1f),
+                singleLine = true
+            )
+            OutlinedTextField(
+                value = minuteText,
+                onValueChange = { minuteText = it.filter(Char::isDigit).take(2) },
+                label = { Text("Dakika") },
+                modifier = Modifier.weight(1f),
+                singleLine = true
+            )
+        }
+        OutlinedTextField(
+            value = reminderMessage,
+            onValueChange = { reminderMessage = it },
+            label = { Text("Hatırlatma mesajı") },
+            modifier = Modifier.fillMaxWidth()
+        )
+        Text("Günler")
+        val days = listOf(
+            Calendar.MONDAY to "Pzt",
+            Calendar.TUESDAY to "Sal",
+            Calendar.WEDNESDAY to "Çar",
+            Calendar.THURSDAY to "Per",
+            Calendar.FRIDAY to "Cum",
+            Calendar.SATURDAY to "Cmt",
+            Calendar.SUNDAY to "Paz"
+        )
+        days.chunked(4).forEach { row ->
+            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                row.forEach { (day, label) ->
+                    FilterChip(
+                        selected = day in selectedDays,
+                        onClick = {
+                            selectedDays = if (day in selectedDays) selectedDays - day else selectedDays + day
+                        },
+                        label = { Text(label) }
+                    )
+                }
+            }
+        }
+        Button(
+            onClick = {
+                val hour = hourText.toIntOrNull()?.coerceIn(0, 23) ?: 19
+                val minute = minuteText.toIntOrNull()?.coerceIn(0, 59) ?: 0
+                if (Build.VERSION.SDK_INT >= 33) {
+                    permissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+                }
+                if (selectedDays.isNotEmpty()) {
+                    onSaveReminder(
+                        ReminderSpec(
+                            id = (System.currentTimeMillis() % 1000000000L).toInt(),
+                            hour = hour,
+                            minute = minute,
+                            days = selectedDays,
+                            message = reminderMessage.ifBlank { "Bugünkü Çince çalışmanı unutma." },
+                            enabled = true
+                        )
+                    )
+                }
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) { Text("Hatırlatıcı Ekle") }
+
+        settings.reminders.forEach { reminder ->
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("%02d:%02d".format(reminder.hour, reminder.minute), style = MaterialTheme.typography.titleMedium)
+                    Text(reminder.message)
+                    Text(reminder.days.sorted().joinToString(" · ") { day -> days.firstOrNull { it.first == day }?.second ?: day.toString() })
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Switch(
+                            checked = reminder.enabled,
+                            onCheckedChange = { onSaveReminder(reminder.copy(enabled = it)) }
+                        )
+                        Spacer(Modifier.width(8.dp))
+                        Text(if (reminder.enabled) "Açık" else "Kapalı")
+                        Spacer(Modifier.weight(1f))
+                        TextButton(onClick = { onDeleteReminder(reminder.id) }) { Text("Sil") }
+                    }
+                }
+            }
+        }
     }
 }
 
