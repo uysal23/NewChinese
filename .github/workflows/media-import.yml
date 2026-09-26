@@ -1,0 +1,47 @@
+name: Import Media Assets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "incoming_assets/*.zip"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newchinese-media-import
+  cancel-in-progress: false
+
+jobs:
+  import-media:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Import staged media
+        run: python tools/import_media_assets.py
+
+      - name: Validate project content
+        run: python validation/validate_content.py
+
+      - name: Commit imported media
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No repository changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import staged media assets"
+          git push
