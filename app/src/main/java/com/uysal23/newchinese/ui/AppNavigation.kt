@@ -169,8 +169,11 @@ fun AppNavigation(
                 )
             }
             composable("favorites") {
+                val favoriteWords = remember(current.favoriteWordIds) {
+                    repository.loadFavoriteWords(current.favoriteWordIds)
+                }
                 FavoritesScreen(
-                    allWords = scene.vocabulary,
+                    allWords = favoriteWords,
                     favoriteIds = current.favoriteWordIds,
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } }
                 )
