@@ -15,5 +15,7 @@ data class SceneProgressEntity(
     val sentenceExamBestScore: Int = 0,
     val sceneCompleted: Boolean = false,
     val unlocked: Boolean = false,
-    val lastStudiedAt: Long = 0L
+    val lastStudiedAt: Long = 0L,
+    val lastDialogueLineIndex: Int = 0,
+    val lastPlaybackPositionMs: Long = 0L
 )
