@@ -23,6 +23,12 @@ fun SceneIntroScreen(
         Text(scene.titleZh, style = MaterialTheme.typography.headlineLarge)
         Text(scene.titleTr, style = MaterialTheme.typography.titleLarge)
 
+        AssetSceneImage(
+            sceneAssetBase = sceneIdToAssetBase(scene.sceneId),
+            relativePath = scene.visualAssets.preview,
+            contentDescription = scene.titleTr
+        )
+
         Card(Modifier.fillMaxWidth()) {
             Column(
                 Modifier.padding(16.dp),
