@@ -1,0 +1,16 @@
+{
+  "sceneId":"HSK1_SC001",
+  "voiceBindings":{
+    "CHAR_ZHANG_WEI_001":"VOICE_ZHANG_WEI_001",
+    "CHAR_LI_NA_001":"VOICE_LI_NA_001"
+  },
+  "dialogue":[
+    "hsk1_sc001_line_001.m4a",
+    "hsk1_sc001_line_002.m4a",
+    "hsk1_sc001_line_003.m4a",
+    "hsk1_sc001_line_004.m4a",
+    "hsk1_sc001_line_005.m4a",
+    "hsk1_sc001_line_006.m4a"
+  ],
+  "status":"audio-assets-pending"
+}
