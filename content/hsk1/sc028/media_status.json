@@ -1,7 +1,7 @@
 {
   "sceneId": "HSK1_SC028",
   "visual": {
-    "status": "pending",
+    "status": "complete",
     "required": [
       "assets/hsk1_sc028_bg.webp",
       "assets/hsk1_sc028_char_li_na.webp",
@@ -9,9 +9,7 @@
       "assets/hsk1_sc028_fg.webp",
       "assets/hsk1_sc028_preview.webp"
     ],
-    "missing": [
-      "assets/hsk1_sc028_bg.webp"
-    ]
+    "missing": []
   },
   "audio": {
     "status": "complete",
