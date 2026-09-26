@@ -3,6 +3,7 @@ package com.uysal23.newchinese.data
 import android.content.Context
 import androidx.datastore.preferences.core.*
 import androidx.datastore.preferences.preferencesDataStore
+import com.uysal23.newchinese.notifications.ReminderSpec
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
@@ -14,7 +15,8 @@ data class UserSettings(
     val palette: String = "PURPLE",
     val showPinyin: Boolean = true,
     val showTurkish: Boolean = true,
-    val favoriteWordIds: Set<String> = emptySet()
+    val favoriteWordIds: Set<String> = emptySet(),
+    val reminders: List<ReminderSpec> = emptyList()
 )
 
 class UserPreferences(private val context: Context) {
@@ -25,6 +27,7 @@ class UserPreferences(private val context: Context) {
         val SHOW_PINYIN = booleanPreferencesKey("show_pinyin")
         val SHOW_TURKISH = booleanPreferencesKey("show_turkish")
         val FAVORITE_WORD_IDS = stringSetPreferencesKey("favorite_word_ids")
+        val REMINDERS = stringSetPreferencesKey("reminders")
     }
 
     val settings: Flow<UserSettings> = context.dataStore.data.map { p ->
@@ -34,7 +37,10 @@ class UserPreferences(private val context: Context) {
             palette = p[Keys.PALETTE] ?: "PURPLE",
             showPinyin = p[Keys.SHOW_PINYIN] ?: true,
             showTurkish = p[Keys.SHOW_TURKISH] ?: true,
-            favoriteWordIds = p[Keys.FAVORITE_WORD_IDS] ?: emptySet()
+            favoriteWordIds = p[Keys.FAVORITE_WORD_IDS] ?: emptySet(),
+            reminders = (p[Keys.REMINDERS] ?: emptySet())
+                .mapNotNull(ReminderSpec::decode)
+                .sortedWith(compareBy({ it.hour }, { it.minute }, { it.id }))
         )
     }
 
@@ -48,5 +54,19 @@ class UserPreferences(private val context: Context) {
         val current = prefs[Keys.FAVORITE_WORD_IDS] ?: emptySet()
         prefs[Keys.FAVORITE_WORD_IDS] =
             if (wordId in current) current - wordId else current + wordId
+    }
+
+    suspend fun upsertReminder(reminder: ReminderSpec) = context.dataStore.edit { prefs ->
+        val current = (prefs[Keys.REMINDERS] ?: emptySet())
+            .mapNotNull(ReminderSpec::decode)
+            .filterNot { it.id == reminder.id }
+        prefs[Keys.REMINDERS] = (current + reminder).map { it.encode() }.toSet()
+    }
+
+    suspend fun deleteReminder(reminderId: Int) = context.dataStore.edit { prefs ->
+        val current = (prefs[Keys.REMINDERS] ?: emptySet())
+            .mapNotNull(ReminderSpec::decode)
+            .filterNot { it.id == reminderId }
+        prefs[Keys.REMINDERS] = current.map { it.encode() }.toSet()
     }
 }
