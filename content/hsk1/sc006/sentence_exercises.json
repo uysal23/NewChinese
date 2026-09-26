@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC006",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC006_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC006_001",
+      "correctZh": "大概要等多久？",
+      "pinyin": "Dàgài yào děng duō jiǔ?",
+      "translationTr": "Yaklaşık ne kadar bekleriz?",
+      "tokens": [
+        "大概",
+        "要等",
+        "多久"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC006_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC006_002",
+      "sentenceZh": "我们准备___车吧。",
+      "correctAnswer": "上",
+      "options": [
+        "上",
+        "坐",
+        "忙",
+        "腿"
+      ],
+      "fullCorrectSentenceZh": "我们准备上车吧。",
+      "correctZh": "我们准备上车吧。",
+      "pinyin": "Wǒmen zhǔnbèi shàng chē ba.",
+      "translationTr": "Binmeye hazırlanalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_sentence_002.m4a"
+    }
+  ]
+}

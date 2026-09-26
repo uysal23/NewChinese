@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK1_SC006",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC006_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们在这里等车吧。",
+      "pinyin": "Wǒmen zài zhèlǐ děng chē ba.",
+      "translationTr": "Arabayı burada bekleyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_001.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC006_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，大概要等多久？",
+      "pinyin": "Hǎo, dàgài yào děng duō jiǔ?",
+      "translationTr": "Tamam, yaklaşık ne kadar bekleriz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_002.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC006_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "应该五分钟左右。",
+      "pinyin": "Yīnggāi wǔ fēnzhōng zuǒyòu.",
+      "translationTr": "Sanırım yaklaşık beş dakika.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_003.m4a",
+      "emotion": "reassuring"
+    },
+    {
+      "lineId": "HSK1_SC006_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不算久。",
+      "pinyin": "Bú suàn jiǔ.",
+      "translationTr": "Çok uzun değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_004.m4a",
+      "emotion": "light"
+    },
+    {
+      "lineId": "HSK1_SC006_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你先坐一下吧。",
+      "pinyin": "Nǐ xiān zuò yíxià ba.",
+      "translationTr": "Önce biraz otur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_005.m4a",
+      "emotion": "caring"
+    },
+    {
+      "lineId": "HSK1_SC006_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我的腿有点累。",
+      "pinyin": "Hǎo, wǒ de tuǐ yǒudiǎn lèi.",
+      "translationTr": "Tamam, bacaklarım biraz yoruldu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_006.m4a",
+      "emotion": "tired"
+    },
+    {
+      "lineId": "HSK1_SC006_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天路上人不少。",
+      "pinyin": "Jīntiān lùshang rén bù shǎo.",
+      "translationTr": "Bugün yolda epey insan var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_007.m4a",
+      "emotion": "neutral"
+    },
+    {
+      "lineId": "HSK1_SC006_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "杭州一直这么忙吗？",
+      "pinyin": "Hángzhōu yìzhí zhème máng ma?",
+      "translationTr": "Hangzhou her zaman böyle yoğun mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_008.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC006_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "上下班的时候比较忙。",
+      "pinyin": "Shàngxiàbān de shíhou bǐjiào máng.",
+      "translationTr": "İşe gidiş geliş saatlerinde daha yoğun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_009.m4a",
+      "emotion": "explanatory"
+    },
+    {
+      "lineId": "HSK1_SC006_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在还好。",
+      "pinyin": "Xiànzài hái hǎo.",
+      "translationTr": "Şimdi fena değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_010.m4a",
+      "emotion": "calm"
+    },
+    {
+      "lineId": "HSK1_SC006_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，而且天气也不错。",
+      "pinyin": "Duì, érqiě tiānqì yě búcuò.",
+      "translationTr": "Evet, ayrıca hava da güzel.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_011.m4a",
+      "emotion": "light"
+    },
+    {
+      "lineId": "HSK1_SC006_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我喜欢这里的感觉。",
+      "pinyin": "Wǒ xǐhuan zhèlǐ de gǎnjué.",
+      "translationTr": "Buranın havasını sevdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_012.m4a",
+      "emotion": "warm"
+    },
+    {
+      "lineId": "HSK1_SC006_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "以后你会更熟悉的。",
+      "pinyin": "Yǐhòu nǐ huì gèng shúxī de.",
+      "translationTr": "İleride daha da alışacaksın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_013.m4a",
+      "emotion": "warm"
+    },
+    {
+      "lineId": "HSK1_SC006_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "希望如此。",
+      "pinyin": "Xīwàng rúcǐ.",
+      "translationTr": "Umarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_014.m4a",
+      "emotion": "hopeful"
+    },
+    {
+      "lineId": "HSK1_SC006_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "看，那辆车过来了。",
+      "pinyin": "Kàn, nà liàng chē guòlái le.",
+      "translationTr": "Bak, şu araç geliyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_015.m4a",
+      "emotion": "alert"
+    },
+    {
+      "lineId": "HSK1_SC006_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是我们的车吗？",
+      "pinyin": "Shì wǒmen de chē ma?",
+      "translationTr": "Bizim aracımız mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_016.m4a",
+      "emotion": "curious"
+    },
+    {
+      "lineId": "HSK1_SC006_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，就是那辆。",
+      "pinyin": "Duì, jiù shì nà liàng.",
+      "translationTr": "Evet, tam o.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc006_line_017.m4a",
+      "emotion": "happy"
+    },
+    {
+      "lineId": "HSK1_SC006_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我们准备上车吧。",
+      "pinyin": "Hǎo, wǒmen zhǔnbèi shàng chē ba.",
+      "translationTr": "Tamam, binmeye hazırlanalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc006_line_018.m4a",
+      "emotion": "happy"
+    }
+  ]
+}
