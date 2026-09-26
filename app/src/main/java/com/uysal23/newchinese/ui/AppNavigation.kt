@@ -134,7 +134,9 @@ fun AppNavigation(
             composable("shadowing") {
                 KeepScreenOn()
                 ShadowingSetupScreen(
-                    dialogueCount = scene.lines.size,
+                    sceneId = scene.sceneId,
+                    lines = scene.lines,
+                    playbackSpeed = current.playbackSpeed,
                     onComplete = { scope.launch { progressRepository.markShadowingComplete(scene.sceneId) } },
                     onBack = { nav.popBackStack() }
                 )
