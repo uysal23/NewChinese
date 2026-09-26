@@ -9,7 +9,6 @@ import androidx.navigation.compose.*
 import androidx.navigation.navArgument
 import com.uysal23.newchinese.data.ContentRepository
 import com.uysal23.newchinese.data.UserPreferences
-import com.uysal23.newchinese.data.UserSettings
 import kotlinx.coroutines.launch
 
 @Composable
@@ -18,6 +17,7 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
     val current = settings ?: return
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
+    val scene = remember { repository.loadScene() }
     val start = remember { if (current.userName.isBlank()) "welcome" else "dashboard" }
 
     NewChineseTheme(current.darkMode, current.palette) {
@@ -47,11 +47,33 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
             composable("dialogue") {
                 KeepScreenOn()
                 DialogueScreen(
-                    scene = remember { repository.loadScene() },
+                    scene = scene,
                     showPinyinDefault = current.showPinyin,
                     showTurkishDefault = current.showTurkish,
+                    onStudy = { nav.navigate("study") },
                     onBack = { nav.popBackStack() }
                 )
+            }
+            composable("study") {
+                KeepScreenOn()
+                StudyHubScreen(
+                    onVocabulary = { nav.navigate("vocabulary") },
+                    onSentence = { nav.navigate("sentences") },
+                    onShadowing = { nav.navigate("shadowing") },
+                    onBack = { nav.popBackStack() }
+                )
+            }
+            composable("vocabulary") {
+                KeepScreenOn()
+                VocabularyScreen(scene.vocabulary, onBack = { nav.popBackStack() })
+            }
+            composable("sentences") {
+                KeepScreenOn()
+                SentencePracticeScreen(scene.exercises, onBack = { nav.popBackStack() })
+            }
+            composable("shadowing") {
+                KeepScreenOn()
+                ShadowingSetupScreen(scene.lines.size, onBack = { nav.popBackStack() })
             }
             composable("settings") {
                 SettingsScreen(
