@@ -1,0 +1,100 @@
+{
+  "batchId": "HSK1_SC005_SC010",
+  "masterStep": 5,
+  "goldenReference": "Run #163",
+  "status": "in_progress",
+  "scenes": [
+    {
+      "sceneId": "HSK1_SC005",
+      "titleTr": "Taksi Durağına Doğru",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "focus": [
+        "gitmek",
+        "burada",
+        "orada",
+        "araba",
+        "beklemek"
+      ],
+      "status": "content_planning"
+    },
+    {
+      "sceneId": "HSK1_SC006",
+      "titleTr": "Arabayı Beklerken",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "focus": [
+        "şimdi",
+        "biraz",
+        "dakika",
+        "gelmek",
+        "beklemek"
+      ],
+      "status": "queued"
+    },
+    {
+      "sceneId": "HSK1_SC007",
+      "titleTr": "Telefon Numarası",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "focus": [
+        "telefon",
+        "numara",
+        "aramak",
+        "mesaj",
+        "arkadaş"
+      ],
+      "status": "queued"
+    },
+    {
+      "sceneId": "HSK1_SC008",
+      "titleTr": "İlk Gün Hakkında",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "focus": [
+        "bugün",
+        "yarın",
+        "iş",
+        "ev",
+        "dinlenmek"
+      ],
+      "status": "queued"
+    },
+    {
+      "sceneId": "HSK1_SC009",
+      "titleTr": "Yarın İçin Plan",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "focus": [
+        "yarın",
+        "saat",
+        "buluşmak",
+        "yemek",
+        "birlikte"
+      ],
+      "status": "queued"
+    },
+    {
+      "sceneId": "HSK1_SC010",
+      "titleTr": "İstasyondan Ayrılış",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "focus": [
+        "görüşürüz",
+        "dikkat",
+        "eve gitmek",
+        "teşekkür",
+        "hoş geldin"
+      ],
+      "status": "queued"
+    }
+  ],
+  "pipeline": [
+    "content",
+    "visuals",
+    "audio",
+    "app_binding",
+    "validation_build",
+    "batch_acceptance"
+  ],
+  "acceptance": {
+    "sceneCount": 6,
+    "requireVisualComplete": true,
+    "requireAudioComplete": true,
+    "requireValidationPass": true
+  }
+}
