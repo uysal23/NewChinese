@@ -44,6 +44,10 @@ data class SceneContent(
     val sceneId: String,
     val titleZh: String,
     val titleTr: String,
+    val summaryTr: String,
+    val locationTr: String,
+    val characterIds: List<String>,
+    val estimatedMinutes: Int,
     val lines: List<DialogueLine>,
     val vocabulary: List<VocabularyItem>,
     val exercises: List<SentenceExercise>
@@ -170,10 +174,19 @@ class ContentRepository(private val context: Context) {
             }
         }
 
+        val characterIds = buildList {
+            val chars = scene.getJSONArray("characterIds")
+            for (i in 0 until chars.length()) add(chars.getString(i))
+        }
+
         return SceneContent(
             sceneId = scene.getString("sceneId"),
             titleZh = scene.getString("titleZh"),
             titleTr = scene.getString("titleTr"),
+            summaryTr = scene.optString("summaryTr", ""),
+            locationTr = scene.optString("locationTr", scene.optString("locationId", "")),
+            characterIds = characterIds,
+            estimatedMinutes = scene.optInt("estimatedMinutes", 0),
             lines = lines,
             vocabulary = vocabulary,
             exercises = exercises
