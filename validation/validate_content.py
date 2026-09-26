@@ -66,3 +66,12 @@ print("Validation PASS")
 print("Locked manifests: 20/20")
 print("Target scenes declared: 300")
 print("Reference scene HSK1_SC001: schema PASS")
+
+placement = json.loads((ROOT / "content/placement/placement_test.json").read_text(encoding="utf-8"))
+questions = placement.get("questions", [])
+if len(questions) != 30:
+    fail("Placement test must contain exactly 30 questions")
+for level in [f"HSK{i}" for i in range(1, 7)]:
+    count = sum(1 for q in questions if q.get("level") == level)
+    if count != 5:
+        fail(f"Placement test must contain exactly 5 questions for {level}; found {count}")
