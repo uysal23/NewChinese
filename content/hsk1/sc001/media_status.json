@@ -1,0 +1,33 @@
+{
+  "sceneId":"HSK1_SC001",
+  "visual":{
+    "status":"pending",
+    "required":[
+      "assets/hsk1_sc001_bg.webp",
+      "assets/hsk1_sc001_char_li_na.webp",
+      "assets/hsk1_sc001_char_zhang_wei.webp",
+      "assets/hsk1_sc001_fg.webp",
+      "assets/hsk1_sc001_preview.webp"
+    ]
+  },
+  "audio":{
+    "status":"pending",
+    "required":[
+      "assets/hsk1_sc001_line_001.m4a",
+      "assets/hsk1_sc001_line_002.m4a",
+      "assets/hsk1_sc001_line_003.m4a",
+      "assets/hsk1_sc001_line_004.m4a",
+      "assets/hsk1_sc001_line_005.m4a",
+      "assets/hsk1_sc001_line_006.m4a",
+      "assets/hsk1_sc001_word_001.m4a",
+      "assets/hsk1_sc001_word_002.m4a",
+      "assets/hsk1_sc001_word_003.m4a",
+      "assets/hsk1_sc001_word_004.m4a",
+      "assets/hsk1_sc001_word_005.m4a",
+      "assets/hsk1_sc001_word_006.m4a",
+      "assets/hsk1_sc001_sentence_001.m4a",
+      "assets/hsk1_sc001_sentence_002.m4a"
+    ]
+  },
+  "rule":"A media category may only be marked complete after every required physical asset exists and passes validation."
+}
