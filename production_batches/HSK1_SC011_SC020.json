@@ -2,7 +2,7 @@
   "batchId": "HSK1_SC011_SC020",
   "masterStep": 6,
   "goldenReference": "Run #163",
-  "status": "visual_generation",
+  "status": "validation_build_pending",
   "scenes": [
     {
       "sceneId": "HSK1_SC011",
@@ -14,55 +14,55 @@
       "sceneId": "HSK1_SC012",
       "titleTr": "Birlikte Kahvaltı",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC013",
       "titleTr": "Odayı Toparlamak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC014",
       "titleTr": "Süpermarkete Gitmek",
       "locationId": "LOC_NEIGHBORHOOD_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC015",
       "titleTr": "Süpermarkette",
       "locationId": "LOC_SUPERMARKET_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC016",
       "titleTr": "Eve Dönüp Yemek Yapmak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC017",
       "titleTr": "Öğleden Sonra Dinlenme",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC018",
       "titleTr": "Çamaşır Yıkamak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC019",
       "titleTr": "Akşam Yürüyüşü",
       "locationId": "LOC_NEIGHBORHOOD_001",
-      "status": "content_ready"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC020",
       "titleTr": "Uykuya Hazırlanmak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready"
+      "status": "complete"
     }
   ],
   "pipeline": [
@@ -80,10 +80,11 @@
     "requireValidationPass": true
   },
   "progress": {
-    "completeScenes": 1,
+    "completeScenes": 10,
     "totalScenes": 10,
     "contentReady": 10,
-    "visualComplete": 1,
-    "audioComplete": 10
+    "visualComplete": 10,
+    "audioComplete": 10,
+    "validationBuildStatus": "pending"
   }
 }
