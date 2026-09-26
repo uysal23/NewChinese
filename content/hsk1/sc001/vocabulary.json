@@ -1,11 +1,11 @@
 {
-  "sceneId":"HSK1_SC001",
-  "words":[
-    {"wordId":"WORD_HSK1_SC001_001","hanzi":"你好","pinyin":"nǐ hǎo","translationTr":"merhaba","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC001_002","hanzi":"是","pinyin":"shì","translationTr":"olmak / -dır","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC001_003","hanzi":"谢谢","pinyin":"xièxie","translationTr":"teşekkür ederim","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC001_004","hanzi":"见","pinyin":"jiàn","translationTr":"görmek / görüşmek","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC001_005","hanzi":"累","pinyin":"lèi","translationTr":"yorgun","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC001_006","hanzi":"好","pinyin":"hǎo","translationTr":"iyi / tamam","isExamTarget":true}
+  "sceneId": "HSK1_SC001",
+  "words": [
+    {"wordId":"WORD_HSK1_SC001_001","hanzi":"你好","pinyin":"nǐ hǎo","translationTr":"merhaba","isExamTarget":true,"voiceId":"VOICE_LI_NA_001","audioFile":"assets/hsk1_sc001_word_001.m4a"},
+    {"wordId":"WORD_HSK1_SC001_002","hanzi":"是","pinyin":"shì","translationTr":"olmak / -dır","isExamTarget":true,"voiceId":"VOICE_ZHANG_WEI_001","audioFile":"assets/hsk1_sc001_word_002.m4a"},
+    {"wordId":"WORD_HSK1_SC001_003","hanzi":"谢谢","pinyin":"xièxie","translationTr":"teşekkür ederim","isExamTarget":true,"voiceId":"VOICE_ZHANG_WEI_001","audioFile":"assets/hsk1_sc001_word_003.m4a"},
+    {"wordId":"WORD_HSK1_SC001_004","hanzi":"见","pinyin":"jiàn","translationTr":"görmek / görüşmek","isExamTarget":true,"voiceId":"VOICE_LI_NA_001","audioFile":"assets/hsk1_sc001_word_004.m4a"},
+    {"wordId":"WORD_HSK1_SC001_005","hanzi":"累","pinyin":"lèi","translationTr":"yorgun","isExamTarget":true,"voiceId":"VOICE_ZHANG_WEI_001","audioFile":"assets/hsk1_sc001_word_005.m4a"},
+    {"wordId":"WORD_HSK1_SC001_006","hanzi":"好","pinyin":"hǎo","translationTr":"iyi / tamam","isExamTarget":true,"voiceId":"VOICE_ZHANG_WEI_001","audioFile":"assets/hsk1_sc001_word_006.m4a"}
   ]
 }
