@@ -80,7 +80,6 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 
 ## Güncel Durum
 - Golden Demo #163: kilitli referans.
-- SC001: tamam.
-- SC002: ses tamam, görsel eksik.
-- SC003: ses kuyruğu hazır, görsel ve fiziksel ses eksik.
-- **Aktif Adım: Adım 1**
+- SC001–SC010: tamam.
+- SC011–SC020: içerik paketleri hazır; ses üretimi çalışıyor; görseller üretim kuyruğunda.
+- **Aktif Adım: Adım 6**
