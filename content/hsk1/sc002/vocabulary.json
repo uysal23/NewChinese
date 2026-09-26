@@ -1,13 +1,77 @@
 {
   "sceneId": "HSK1_SC002",
   "words": [
-    {"wordId":"WORD_HSK1_SC002_001","hanzi":"名字","pinyin":"míngzi","translationTr":"isim","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_002","hanzi":"叫","pinyin":"jiào","translationTr":"adı olmak / diye çağırmak","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_003","hanzi":"中文","pinyin":"Zhōngwén","translationTr":"Çince","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_004","hanzi":"英文","pinyin":"Yīngwén","translationTr":"İngilizce","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_005","hanzi":"朋友","pinyin":"péngyou","translationTr":"arkadaş","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_006","hanzi":"认识","pinyin":"rènshi","translationTr":"tanımak / tanışmak","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_007","hanzi":"高兴","pinyin":"gāoxìng","translationTr":"mutlu / memnun","isExamTarget":true},
-    {"wordId":"WORD_HSK1_SC002_008","hanzi":"记","pinyin":"jì","translationTr":"hatırlamak / kaydetmek","isExamTarget":true}
+    {
+      "wordId": "WORD_HSK1_SC002_001",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "translationTr": "isim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc002_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_002",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "translationTr": "adı olmak / diye çağırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc002_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_003",
+      "hanzi": "中文",
+      "pinyin": "Zhōngwén",
+      "translationTr": "Çince",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc002_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_004",
+      "hanzi": "英文",
+      "pinyin": "Yīngwén",
+      "translationTr": "İngilizce",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc002_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_005",
+      "hanzi": "朋友",
+      "pinyin": "péngyou",
+      "translationTr": "arkadaş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc002_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_006",
+      "hanzi": "喜欢",
+      "pinyin": "xǐhuan",
+      "translationTr": "sevmek / hoşlanmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc002_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_007",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "translationTr": "tanımak / tanışmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc002_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC002_008",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "translationTr": "mutlu / memnun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc002_word_008.m4a"
+    }
   ]
 }
