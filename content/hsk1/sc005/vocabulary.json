@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC005",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC005_001",
+      "hanzi": "出租车站",
+      "pinyin": "chūzūchē zhàn",
+      "translationTr": "taksi durağı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_002",
+      "hanzi": "远",
+      "pinyin": "yuǎn",
+      "translationTr": "uzak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_003",
+      "hanzi": "分钟",
+      "pinyin": "fēnzhōng",
+      "translationTr": "dakika",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_004",
+      "hanzi": "箱子",
+      "pinyin": "xiāngzi",
+      "translationTr": "valiz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_005",
+      "hanzi": "重",
+      "pinyin": "zhòng",
+      "translationTr": "ağır",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_006",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "translationTr": "beklemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_007",
+      "hanzi": "车",
+      "pinyin": "chē",
+      "translationTr": "araç / araba",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc005_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC005_008",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "translationTr": "dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc005_word_008.m4a"
+    }
+  ]
+}
