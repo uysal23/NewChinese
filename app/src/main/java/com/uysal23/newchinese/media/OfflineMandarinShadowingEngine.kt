@@ -254,8 +254,9 @@ class OfflineMandarinShadowingEngine(
     }
 
     fun stop() {
+        // Let the recorder loop exit cleanly on its next short read so
+        // Vosk can still emit a final result for manual stop.
         recording = false
-        runCatching { activeAudioRecord?.stop() }
     }
 
     fun cancel() {
