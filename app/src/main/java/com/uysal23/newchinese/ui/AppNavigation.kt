@@ -10,14 +10,25 @@ import androidx.navigation.navArgument
 import com.uysal23.newchinese.data.ContentRepository
 import com.uysal23.newchinese.data.UserPreferences
 import com.uysal23.newchinese.data.UserSettings
+import com.uysal23.newchinese.data.progress.ProgressRepository
 import kotlinx.coroutines.launch
 
 @Composable
-fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
+fun AppNavigation(
+    preferences: UserPreferences,
+    repository: ContentRepository,
+    progressRepository: ProgressRepository
+) {
     val current by preferences.settings.collectAsState(initial = UserSettings())
+    val allProgress by progressRepository.observeAll().collectAsState(initial = emptyList())
+    val sceneProgress by progressRepository.observeScene("HSK1_SC001").collectAsState(initial = null)
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
     val scene = remember { repository.loadScene() }
+
+    LaunchedEffect(Unit) {
+        progressRepository.ensureInitialScene()
+    }
 
     LaunchedEffect(current.userName) {
         if (current.userName.isNotBlank() && nav.currentDestination?.route == "welcome") {
@@ -47,8 +58,12 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
                 "scenes/{level}",
                 arguments = listOf(navArgument("level") { type = NavType.StringType })
             ) {
-                SceneListScreen(it.arguments?.getString("level").orEmpty()) {
-                    nav.navigate("dialogue")
+                val unlocked = allProgress.filter { p -> p.unlocked }.map { p -> p.sceneId }.toSet()
+                SceneListScreen(
+                    level = it.arguments?.getString("level").orEmpty(),
+                    unlockedSceneIds = unlocked
+                ) { sceneId ->
+                    if (sceneId == "HSK1_SC001") nav.navigate("dialogue")
                 }
             }
             composable("dialogue") {
@@ -64,9 +79,14 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
             composable("study") {
                 KeepScreenOn()
                 StudyHubScreen(
+                    progress = sceneProgress,
                     onVocabulary = { nav.navigate("vocabulary") },
                     onSentence = { nav.navigate("sentences") },
                     onShadowing = { nav.navigate("shadowing") },
+                    onExam = {
+                        if (sceneProgress?.wordExamPassed == true) nav.navigate("sentenceExam")
+                        else nav.navigate("wordExam")
+                    },
                     onBack = { nav.popBackStack() }
                 )
             }
@@ -76,16 +96,52 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
                     items = scene.vocabulary,
                     favoriteIds = current.favoriteWordIds,
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } },
+                    onComplete = { scope.launch { progressRepository.markVocabularyComplete(scene.sceneId) } },
                     onBack = { nav.popBackStack() }
                 )
             }
             composable("sentences") {
                 KeepScreenOn()
-                SentencePracticeScreen(scene.exercises, onBack = { nav.popBackStack() })
+                SentencePracticeScreen(
+                    exercises = scene.exercises,
+                    onComplete = { scope.launch { progressRepository.markSentencePracticeComplete(scene.sceneId) } },
+                    onBack = { nav.popBackStack() }
+                )
             }
             composable("shadowing") {
                 KeepScreenOn()
-                ShadowingSetupScreen(scene.lines.size, onBack = { nav.popBackStack() })
+                ShadowingSetupScreen(
+                    dialogueCount = scene.lines.size,
+                    onComplete = { scope.launch { progressRepository.markShadowingComplete(scene.sceneId) } },
+                    onBack = { nav.popBackStack() }
+                )
+            }
+            composable("wordExam") {
+                KeepScreenOn()
+                WordExamScreen(
+                    words = scene.vocabulary,
+                    onFinished = { score ->
+                        scope.launch {
+                            progressRepository.recordWordExam(scene.sceneId, score)
+                            if (score >= 90) nav.navigate("sentenceExam")
+                        }
+                    },
+                    onBack = { nav.popBackStack() }
+                )
+            }
+            composable("sentenceExam") {
+                KeepScreenOn()
+                SentenceExamScreen(
+                    exercises = scene.exercises,
+                    wordExamPassed = sceneProgress?.wordExamPassed == true,
+                    onFinished = { score ->
+                        scope.launch {
+                            progressRepository.recordSentenceExam(scene.sceneId, score)
+                            nav.navigate("progress")
+                        }
+                    },
+                    onBack = { nav.popBackStack() }
+                )
             }
             composable("freeStudy") {
                 FreeStudyScreen(
@@ -102,6 +158,9 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } }
                 )
             }
+            composable("progress") {
+                ProgressScreen(allProgress)
+            }
             composable("settings") {
                 SettingsScreen(
                     settings = current,
@@ -113,7 +172,6 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
                 )
             }
             composable("placement") { PlaceholderScreen("Seviye Tespit Sınavı") }
-            composable("progress") { PlaceholderScreen("İlerlemem") }
         }
     }
 }
