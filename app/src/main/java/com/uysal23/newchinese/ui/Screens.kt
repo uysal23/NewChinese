@@ -88,21 +88,28 @@ fun LevelsScreen(onSelect: (String) -> Unit) {
 }
 
 @Composable
-fun SceneListScreen(level: String, onOpen: () -> Unit) {
+fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, onOpen: (String) -> Unit) {
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         Text(level, style = MaterialTheme.typography.headlineMedium)
         (1..50).forEach { n ->
-            val open = level == "HSK1" && n == 1
+            val number3 = n.toString().padStart(3, '0')
+            val sceneId = "${level}_SC$number3"
+            val open = sceneId in unlockedSceneIds
             OutlinedButton(
-                onClick = { if (open) onOpen() },
+                onClick = { if (open) onOpen(sceneId) },
                 enabled = open,
                 modifier = Modifier.fillMaxWidth()
             ) {
                 val number = n.toString().padStart(2, '0')
-                Text("SC$number ${if (open) "· İlk Tanışma" else "· Kilitli"}")
+                val label = when {
+                    sceneId == "HSK1_SC001" -> "· İlk Tanışma"
+                    open -> "· Açık"
+                    else -> "· Kilitli"
+                }
+                Text("SC$number $label")
             }
         }
     }
