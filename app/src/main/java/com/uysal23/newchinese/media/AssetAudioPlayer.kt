@@ -25,13 +25,14 @@ class AssetAudioPlayer(private val context: Context) {
             true
         }.getOrDefault(false)
 
-    fun play(assetPath: String, speed: Float = 1.0f, onEnded: (() -> Unit)? = null): Boolean {
+    fun play(assetPath: String, speed: Float = 1.0f, startPositionMs: Long = 0L, onEnded: (() -> Unit)? = null): Boolean {
         if (!exists(assetPath)) return false
         this.onEnded = onEnded
         player.stop()
         player.clearMediaItems()
         player.setMediaItem(MediaItem.fromUri("asset:///$assetPath"))
         player.playbackParameters = PlaybackParameters(speed)
+        if (startPositionMs > 0L) player.seekTo(startPositionMs)
         player.prepare()
         player.play()
         return true
