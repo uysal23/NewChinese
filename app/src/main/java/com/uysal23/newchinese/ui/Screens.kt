@@ -104,7 +104,7 @@ fun LevelsScreen(onSelect: (String) -> Unit) {
 }
 
 @Composable
-fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, onOpen: (String) -> Unit) {
+fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, availableSceneIds: Set<String>, onOpen: (String) -> Unit) {
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -113,7 +113,9 @@ fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, onOpen: (Strin
         (1..50).forEach { n ->
             val number3 = n.toString().padStart(3, '0')
             val sceneId = "${level}_SC$number3"
-            val open = sceneId in unlockedSceneIds
+            val unlocked = sceneId in unlockedSceneIds
+            val available = sceneId in availableSceneIds
+            val open = unlocked && available
             OutlinedButton(
                 onClick = { if (open) onOpen(sceneId) },
                 enabled = open,
@@ -122,6 +124,8 @@ fun SceneListScreen(level: String, unlockedSceneIds: Set<String>, onOpen: (Strin
                 val number = n.toString().padStart(2, '0')
                 val label = when {
                     sceneId == "HSK1_SC001" -> "· İlk Tanışma"
+                    sceneId == "HSK1_SC002" && available -> "· İsimler"
+                    unlocked && !available -> "· İçerik hazırlanıyor"
                     open -> "· Açık"
                     else -> "· Kilitli"
                 }
