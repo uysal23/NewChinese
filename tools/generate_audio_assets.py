@@ -97,8 +97,6 @@ async def generate_item(item: dict, temp_dir: Path, output_dir: Path) -> Path:
         "-i",
         str(source_mp3),
         "-af",
-        "silenceremove=start_periods=1:start_silence=0.05:start_threshold=-50dB:"
-        "stop_periods=1:stop_silence=0.08:stop_threshold=-50dB,"
         "loudnorm=I=-18:TP=-2:LRA=7",
         "-c:a",
         "aac",
@@ -115,8 +113,12 @@ async def generate_item(item: dict, temp_dir: Path, output_dir: Path) -> Path:
         fail(f"Invalid generated audio file: {filename}")
 
     duration = probe_duration(output_m4a)
-    if duration < 0.15:
-        fail(f"Generated audio is too short ({duration:.3f}s): {filename}")
+    minimum_duration = 0.25 if item_type == "vocabulary" else 0.45
+    if duration < minimum_duration:
+        fail(
+            f"Generated audio is too short ({duration:.3f}s < {minimum_duration:.2f}s): "
+            f"{filename}"
+        )
 
     return output_m4a
 
