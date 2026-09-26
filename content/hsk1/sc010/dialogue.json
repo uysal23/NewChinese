@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC010",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC010_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "车到了，我们走吧。",
+      "pinyin": "Chē dào le, wǒmen zǒu ba.",
+      "translationTr": "Araç geldi, gidelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我拿箱子。",
+      "pinyin": "Hǎo, wǒ ná xiāngzi.",
+      "translationTr": "Tamam, valizi ben alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "小心一点，别着急。",
+      "pinyin": "Xiǎoxīn yìdiǎn, bié zháojí.",
+      "translationTr": "Dikkatli ol, acele etme.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "没事，我可以。",
+      "pinyin": "Méi shì, wǒ kěyǐ.",
+      "translationTr": "Sorun yok, yapabilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们坐后面吧。",
+      "pinyin": "Wǒmen zuò hòumiàn ba.",
+      "translationTr": "Arkaya oturalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好。到家要多久？",
+      "pinyin": "Hǎo. Dào jiā yào duō jiǔ?",
+      "translationTr": "Tamam. Eve ne kadar sürer?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "大概二十分钟。",
+      "pinyin": "Dàgài èrshí fēnzhōng.",
+      "translationTr": "Yaklaşık yirmi dakika.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那很快。",
+      "pinyin": "Nà hěn kuài.",
+      "translationTr": "O zaman kısa sürer.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "路上你可以看看杭州。",
+      "pinyin": "Lùshang nǐ kěyǐ kànkan Hángzhōu.",
+      "translationTr": "Yolda Hangzhou'ya bakabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我已经很期待了。",
+      "pinyin": "Wǒ yǐjīng hěn qīdài le.",
+      "translationTr": "Şimdiden çok heyecanlıyım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "以后有很多时间慢慢看。",
+      "pinyin": "Yǐhòu yǒu hěn duō shíjiān mànmàn kàn.",
+      "translationTr": "İleride rahatça gezmek için çok zamanın olacak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天真的谢谢你。",
+      "pinyin": "Jīntiān zhēn de xièxie nǐ.",
+      "translationTr": "Bugün gerçekten teşekkür ederim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "别客气，欢迎你来杭州。",
+      "pinyin": "Bié kèqi, huānyíng nǐ lái Hángzhōu.",
+      "translationTr": "Rica ederim, Hangzhou'ya hoş geldin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我很高兴来到这里。",
+      "pinyin": "Wǒ hěn gāoxìng láidào zhèlǐ.",
+      "translationTr": "Buraya geldiğim için çok mutluyum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "新的生活开始了。",
+      "pinyin": "Xīn de shēnghuó kāishǐ le.",
+      "translationTr": "Yeni hayat başladı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC010_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我们回家吧。",
+      "pinyin": "Duì, wǒmen huí jiā ba.",
+      "translationTr": "Evet, eve gidelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

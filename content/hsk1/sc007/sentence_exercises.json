@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC007",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC007_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC007_001",
+      "correctZh": "电话号码告诉我。",
+      "pinyin": "Diànhuà hàomǎ gàosu wǒ.",
+      "translationTr": "Telefon numaranı bana söyle.",
+      "tokens": [
+        "电话号码",
+        "告诉",
+        "我"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC007_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC007_002",
+      "sentenceZh": "我给你发___。",
+      "correctAnswer": "消息",
+      "options": [
+        "消息",
+        "电话",
+        "手机",
+        "号码"
+      ],
+      "fullCorrectSentenceZh": "我给你发消息。",
+      "correctZh": "我给你发消息。",
+      "pinyin": "Wǒ gěi nǐ fā xiāoxi.",
+      "translationTr": "Sana mesaj gönderiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_sentence_002.m4a"
+    }
+  ]
+}

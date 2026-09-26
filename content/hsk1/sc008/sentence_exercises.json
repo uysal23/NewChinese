@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC008",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC008_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC008_001",
+      "correctZh": "今天感觉怎么样？",
+      "pinyin": "Jīntiān gǎnjué zěnmeyàng?",
+      "translationTr": "Bugün nasıl hissediyorsun?",
+      "tokens": [
+        "今天",
+        "感觉",
+        "怎么样"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc008_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC008_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC008_002",
+      "sentenceZh": "我想先___。",
+      "correctAnswer": "休息",
+      "options": [
+        "休息",
+        "工作",
+        "高兴",
+        "东西"
+      ],
+      "fullCorrectSentenceZh": "我想先休息。",
+      "correctZh": "我想先休息。",
+      "pinyin": "Wǒ xiǎng xiān xiūxi.",
+      "translationTr": "Önce dinlenmek istiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc008_sentence_002.m4a"
+    }
+  ]
+}

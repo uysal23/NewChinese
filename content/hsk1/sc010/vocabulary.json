@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC010",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC010_001",
+      "hanzi": "到",
+      "pinyin": "dào",
+      "translationTr": "varmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_002",
+      "hanzi": "小心",
+      "pinyin": "xiǎoxīn",
+      "translationTr": "dikkatli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_003",
+      "hanzi": "后面",
+      "pinyin": "hòumiàn",
+      "translationTr": "arka taraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_004",
+      "hanzi": "多久",
+      "pinyin": "duō jiǔ",
+      "translationTr": "ne kadar süre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_005",
+      "hanzi": "路上",
+      "pinyin": "lùshang",
+      "translationTr": "yolda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_006",
+      "hanzi": "期待",
+      "pinyin": "qīdài",
+      "translationTr": "heyecanla beklemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_007",
+      "hanzi": "欢迎",
+      "pinyin": "huānyíng",
+      "translationTr": "hoş geldin / karşılamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC010_008",
+      "hanzi": "生活",
+      "pinyin": "shēnghuó",
+      "translationTr": "hayat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_word_008.m4a"
+    }
+  ]
+}

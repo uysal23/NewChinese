@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC010",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC010_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC010_001",
+      "correctZh": "到家要多久？",
+      "pinyin": "Dào jiā yào duō jiǔ?",
+      "translationTr": "Eve ne kadar sürer?",
+      "tokens": [
+        "到家",
+        "要",
+        "多久"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc010_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC010_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC010_002",
+      "sentenceZh": "欢迎你来___。",
+      "correctAnswer": "杭州",
+      "options": [
+        "杭州",
+        "生活",
+        "后面",
+        "路上"
+      ],
+      "fullCorrectSentenceZh": "欢迎你来杭州。",
+      "correctZh": "欢迎你来杭州。",
+      "pinyin": "Huānyíng nǐ lái Hángzhōu.",
+      "translationTr": "Hangzhou'ya hoş geldin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc010_sentence_002.m4a"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK1_SC010",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "HSK1 scene 10 continuation near Hangzhou station/taxi area; warm natural two-shot; full bodies visible; phone-safe framing; composition follows dialogue 'İstasyondan Ayrılış'.",
+  "assets": [
+    {
+      "file": "hsk1_sc010_bg.webp",
+      "purpose": "scene-specific background without characters"
+    },
+    {
+      "file": "hsk1_sc010_char_li_na.webp",
+      "purpose": "Li Na full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc010_char_zhang_wei.webp",
+      "purpose": "Zhang Wei full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc010_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk1_sc010_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no text baked into image",
+    "family-friendly",
+    "full legs/feet preserved",
+    "same faces/outfits as prior scenes",
+    "mobile-safe framing"
+  ]
+}

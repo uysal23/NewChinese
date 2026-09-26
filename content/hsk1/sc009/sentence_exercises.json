@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC009",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC009_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC009_001",
+      "correctZh": "明天下午三点见。",
+      "pinyin": "Míngtiān xiàwǔ sān diǎn jiàn.",
+      "translationTr": "Yarın öğleden sonra üçte görüşürüz.",
+      "tokens": [
+        "明天下午",
+        "三点",
+        "见"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC009_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC009_002",
+      "sentenceZh": "晚上可以___吃饭。",
+      "correctAnswer": "一起",
+      "options": [
+        "一起",
+        "附近",
+        "上午",
+        "计划"
+      ],
+      "fullCorrectSentenceZh": "晚上可以一起吃饭。",
+      "correctZh": "晚上可以一起吃饭。",
+      "pinyin": "Wǎnshang kěyǐ yìqǐ chīfàn.",
+      "translationTr": "Akşam birlikte yemek yiyebiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_sentence_002.m4a"
+    }
+  ]
+}

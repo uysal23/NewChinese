@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC007",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC007_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对了，你现在有中国的电话号码吗？",
+      "pinyin": "Duì le, nǐ xiànzài yǒu Zhōngguó de diànhuà hàomǎ ma?",
+      "translationTr": "Bu arada, şimdi Çin telefon numaran var mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有，昨天刚办好。",
+      "pinyin": "Yǒu, zuótiān gāng bàn hǎo.",
+      "translationTr": "Var, daha dün aldım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那你把号码告诉我吧。",
+      "pinyin": "Nà nǐ bǎ hàomǎ gàosu wǒ ba.",
+      "translationTr": "O zaman numaranı bana söyle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，你记一下。",
+      "pinyin": "Hǎo, nǐ jì yíxià.",
+      "translationTr": "Tamam, not al.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "等一下，我拿手机。",
+      "pinyin": "Děng yíxià, wǒ ná shǒujī.",
+      "translationTr": "Bir dakika, telefonumu alayım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "准备好了吗？",
+      "pinyin": "Zhǔnbèi hǎo le ma?",
+      "translationTr": "Hazır mısın?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好了，你说吧。",
+      "pinyin": "Hǎo le, nǐ shuō ba.",
+      "translationTr": "Hazırım, söyle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "一三八，五二六九，四一七三。",
+      "pinyin": "Yī sān bā, wǔ èr liù jiǔ, sì yī qī sān.",
+      "translationTr": "138, 5269, 4173.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我再念一遍，对吗？",
+      "pinyin": "Wǒ zài niàn yí biàn, duì ma?",
+      "translationTr": "Bir daha okuyayım, doğru mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，完全正确。",
+      "pinyin": "Duì, wánquán zhèngquè.",
+      "translationTr": "Evet, tamamen doğru.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我给你发一条消息。",
+      "pinyin": "Wǒ gěi nǐ fā yì tiáo xiāoxi.",
+      "translationTr": "Sana bir mesaj göndereyim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "收到了。",
+      "pinyin": "Shōudào le.",
+      "translationTr": "Geldi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "以后有事就给我打电话。",
+      "pinyin": "Yǐhòu yǒu shì jiù gěi wǒ dǎ diànhuà.",
+      "translationTr": "İleride bir şey olursa beni ara.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，也可以给你发消息吗？",
+      "pinyin": "Hǎo, yě kěyǐ gěi nǐ fā xiāoxi ma?",
+      "translationTr": "Tamam, sana mesaj da atabilir miyim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "当然可以。",
+      "pinyin": "Dāngrán kěyǐ.",
+      "translationTr": "Tabii ki.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC007_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那就方便多了。",
+      "pinyin": "Nà jiù fāngbiàn duō le.",
+      "translationTr": "O zaman çok daha kolay olur.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

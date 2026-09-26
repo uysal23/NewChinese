@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC007",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC007_001",
+      "hanzi": "电话",
+      "pinyin": "diànhuà",
+      "translationTr": "telefon",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_002",
+      "hanzi": "号码",
+      "pinyin": "hàomǎ",
+      "translationTr": "numara",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_003",
+      "hanzi": "手机",
+      "pinyin": "shǒujī",
+      "translationTr": "cep telefonu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_004",
+      "hanzi": "说",
+      "pinyin": "shuō",
+      "translationTr": "söylemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_005",
+      "hanzi": "消息",
+      "pinyin": "xiāoxi",
+      "translationTr": "mesaj",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_006",
+      "hanzi": "收到",
+      "pinyin": "shōudào",
+      "translationTr": "almak / ulaşmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_007",
+      "hanzi": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "translationTr": "telefon etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc007_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC007_008",
+      "hanzi": "方便",
+      "pinyin": "fāngbiàn",
+      "translationTr": "kolay / uygun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc007_word_008.m4a"
+    }
+  ]
+}

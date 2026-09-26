@@ -1,0 +1,425 @@
+{
+  "sceneId": "HSK1_SC007",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK1_SC007_audio_assets.zip",
+  "outputDirectory": "content/hsk1/sc007/assets",
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk1_sc007_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "对了，你现在有中国的电话号码吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 2,
+      "file": "hsk1_sc007_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有，昨天刚办好。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 3,
+      "file": "hsk1_sc007_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那你把号码告诉我吧。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 4,
+      "file": "hsk1_sc007_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，你记一下。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 5,
+      "file": "hsk1_sc007_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "等一下，我拿手机。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 6,
+      "file": "hsk1_sc007_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "准备好了吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 7,
+      "file": "hsk1_sc007_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "好了，你说吧。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 8,
+      "file": "hsk1_sc007_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "一三八，五二六九，四一七三。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 9,
+      "file": "hsk1_sc007_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我再念一遍，对吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 10,
+      "file": "hsk1_sc007_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，完全正确。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 11,
+      "file": "hsk1_sc007_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我给你发一条消息。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 12,
+      "file": "hsk1_sc007_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "收到了。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 13,
+      "file": "hsk1_sc007_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "以后有事就给我打电话。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 14,
+      "file": "hsk1_sc007_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，也可以给你发消息吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 15,
+      "file": "hsk1_sc007_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "当然可以。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 16,
+      "file": "hsk1_sc007_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那就方便多了。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 17,
+      "file": "hsk1_sc007_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "电话",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 18,
+      "file": "hsk1_sc007_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "号码",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 19,
+      "file": "hsk1_sc007_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "手机",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 20,
+      "file": "hsk1_sc007_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "说",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 21,
+      "file": "hsk1_sc007_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "消息",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 22,
+      "file": "hsk1_sc007_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "收到",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 23,
+      "file": "hsk1_sc007_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "打电话",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 24,
+      "file": "hsk1_sc007_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "方便",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 25,
+      "file": "hsk1_sc007_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "电话号码告诉我。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 26,
+      "file": "hsk1_sc007_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我给你发消息。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    }
+  ]
+}

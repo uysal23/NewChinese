@@ -1,0 +1,182 @@
+{
+  "sceneId": "HSK1_SC009",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC009_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "明天你有什么计划？",
+      "pinyin": "Míngtiān nǐ yǒu shénme jìhuà?",
+      "translationTr": "Yarın için planın var mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还没有，你有什么建议？",
+      "pinyin": "Hái méiyǒu, nǐ yǒu shénme jiànyì?",
+      "translationTr": "Henüz yok, önerin var mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "上午先休息，下午我们出去走走。",
+      "pinyin": "Shàngwǔ xiān xiūxi, xiàwǔ wǒmen chūqù zǒuzou.",
+      "translationTr": "Sabah dinlen, öğleden sonra biraz dışarı çıkarız.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好啊，几点见？",
+      "pinyin": "Hǎo a, jǐ diǎn jiàn?",
+      "translationTr": "Olur, saat kaçta buluşalım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "三点怎么样？",
+      "pinyin": "Sān diǎn zěnmeyàng?",
+      "translationTr": "Saat üç nasıl?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "三点可以。",
+      "pinyin": "Sān diǎn kěyǐ.",
+      "translationTr": "Üç olur.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我带你去附近看看。",
+      "pinyin": "Wǒ dài nǐ qù fùjìn kànkan.",
+      "translationTr": "Seni yakındaki yerlere götürürüm.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "附近有什么？",
+      "pinyin": "Fùjìn yǒu shénme?",
+      "translationTr": "Yakında ne var?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有超市、饭店，还有一个小公园。",
+      "pinyin": "Yǒu chāoshì, fàndiàn, hái yǒu yí ge xiǎo gōngyuán.",
+      "translationTr": "Süpermarket, restoran ve küçük bir park var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听起来不错。",
+      "pinyin": "Tīng qǐlái búcuò.",
+      "translationTr": "Kulağa güzel geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "晚上可以一起吃饭。",
+      "pinyin": "Wǎnshang kěyǐ yìqǐ chīfàn.",
+      "translationTr": "Akşam birlikte yemek yiyebiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我请你吃饭。",
+      "pinyin": "Hǎo, wǒ qǐng nǐ chīfàn.",
+      "translationTr": "Tamam, yemeği ben ısmarlayayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用这么客气。",
+      "pinyin": "Bú yòng zhème kèqi.",
+      "translationTr": "Bu kadar nazik olmana gerek yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你今天帮了我很多。",
+      "pinyin": "Nǐ jīntiān bāng le wǒ hěn duō.",
+      "translationTr": "Bugün bana çok yardım ettin.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那明天再说。",
+      "pinyin": "Nà míngtiān zài shuō.",
+      "translationTr": "Onu yarın konuşuruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC009_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，明天下午三点见。",
+      "pinyin": "Hǎo, míngtiān xiàwǔ sān diǎn jiàn.",
+      "translationTr": "Tamam, yarın öğleden sonra üçte görüşürüz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_line_016.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

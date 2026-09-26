@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC008",
+  "level": "HSK1",
+  "sceneNumber": 8,
+  "titleZh": "第一天的感觉",
+  "titleTr": "İlk Gün Hakkında",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC007",
+  "nextSceneId": "HSK1_SC009",
+  "summaryTr": "Zhang Wei Hangzhou'daki ilk gününün nasıl geçtiğini anlatır; Li Na dinlenme ve eve varma hakkında konuşur.",
+  "locationTr": "Hangzhou Tren İstasyonu · Çıkış/Taksi Alanı"
+}

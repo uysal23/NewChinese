@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC009",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC009_001",
+      "hanzi": "明天",
+      "pinyin": "míngtiān",
+      "translationTr": "yarın",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_002",
+      "hanzi": "计划",
+      "pinyin": "jìhuà",
+      "translationTr": "plan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_003",
+      "hanzi": "上午",
+      "pinyin": "shàngwǔ",
+      "translationTr": "sabah",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_004",
+      "hanzi": "下午",
+      "pinyin": "xiàwǔ",
+      "translationTr": "öğleden sonra",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_005",
+      "hanzi": "几点",
+      "pinyin": "jǐ diǎn",
+      "translationTr": "saat kaç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_006",
+      "hanzi": "附近",
+      "pinyin": "fùjìn",
+      "translationTr": "yakın / civar",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_007",
+      "hanzi": "公园",
+      "pinyin": "gōngyuán",
+      "translationTr": "park",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc009_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC009_008",
+      "hanzi": "一起",
+      "pinyin": "yìqǐ",
+      "translationTr": "birlikte",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc009_word_008.m4a"
+    }
+  ]
+}

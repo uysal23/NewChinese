@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC008",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC008_001",
+      "hanzi": "感觉",
+      "pinyin": "gǎnjué",
+      "translationTr": "his / hissetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc008_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_002",
+      "hanzi": "正常",
+      "pinyin": "zhèngcháng",
+      "translationTr": "normal",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc008_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_003",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "translationTr": "mutlu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc008_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_004",
+      "hanzi": "以后",
+      "pinyin": "yǐhòu",
+      "translationTr": "bundan sonra",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc008_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_005",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "translationTr": "dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc008_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_006",
+      "hanzi": "洗澡",
+      "pinyin": "xǐzǎo",
+      "translationTr": "duş almak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc008_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_007",
+      "hanzi": "东西",
+      "pinyin": "dōngxi",
+      "translationTr": "şey / yiyecek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc008_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC008_008",
+      "hanzi": "工作",
+      "pinyin": "gōngzuò",
+      "translationTr": "iş / çalışmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc008_word_008.m4a"
+    }
+  ]
+}
