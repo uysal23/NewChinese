@@ -19,9 +19,11 @@ import androidx.compose.ui.graphics.PathEffect
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.uysal23.newchinese.data.SceneContent
 import com.uysal23.newchinese.data.UserSettings
+import com.uysal23.newchinese.media.AssetAudioPlayer
 import com.uysal23.newchinese.notifications.ReminderSpec
 import java.util.Calendar
 
@@ -139,10 +141,15 @@ fun DialogueScreen(
 ) {
     var index by remember { mutableIntStateOf(0) }
     var playing by remember { mutableStateOf(false) }
+    var audioMissing by remember { mutableStateOf(false) }
     var showPinyin by remember { mutableStateOf(showPinyinDefault) }
     var showTurkish by remember { mutableStateOf(showTurkishDefault) }
     val line = scene.lines[index]
     val speaker = if (line.speakerId.contains("LI_NA")) "李娜" else "张伟"
+    val context = LocalContext.current
+    val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
+    DisposableEffect(Unit) { onDispose { audioPlayer.release() } }
+    LaunchedEffect(index) { audioMissing = false }
 
     Column(
         Modifier.fillMaxSize().padding(16.dp),
@@ -173,13 +180,25 @@ fun DialogueScreen(
             if (showTurkish) Text(line.turkish)
             Spacer(Modifier.height(12.dp))
             Text("Ses: ${line.voiceId}", style = MaterialTheme.typography.labelSmall)
+            if (audioMissing) {
+                Text("Doğal Mandarin ses asset’i henüz eklenmedi.", color = MaterialTheme.colorScheme.error)
+            }
         }
 
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
             TextButton(onClick = onBack) { Text("Geri") }
-            Button(onClick = { if (index > 0) { index--; playing = false } }) { Text("←") }
-            Button(onClick = { playing = !playing }) { Text(if (playing) "Pause" else "Start") }
-            Button(onClick = { if (index < scene.lines.lastIndex) { index++; playing = false } }) { Text("→") }
+            Button(onClick = { if (index > 0) { audioPlayer.pause(); index--; playing = false } }) { Text("←") }
+            Button(onClick = {
+                if (playing) {
+                    audioPlayer.pause()
+                    playing = false
+                } else {
+                    val ok = audioPlayer.play("hsk1/sc001/${line.audioFile}")
+                    audioMissing = !ok
+                    playing = ok
+                }
+            }) { Text(if (playing) "Pause" else "Start") }
+            Button(onClick = { if (index < scene.lines.lastIndex) { audioPlayer.pause(); index++; playing = false } }) { Text("→") }
             TextButton(onClick = { showTurkish = !showTurkish }) { Text("TR") }
         }
     }
