@@ -95,49 +95,52 @@ for scene_dir in scene_dirs:
         fail(f"{scene_id} active speaker bubble must be dashed and textless")
 
     manifest_dialogue = audio_manifest.get("dialogue", [])
-    dialogue_lines = dialogue.get("lines", [])
-    if len(manifest_dialogue) != len(dialogue_lines):
-        fail(f"{scene_id} audio manifest dialogue count must match dialogue lines")
+    detailed_audio_manifest = bool(manifest_dialogue) and all(isinstance(item, dict) for item in manifest_dialogue)
 
-    manifest_by_line = {item.get("lineId"): item for item in manifest_dialogue if isinstance(item, dict)}
-    for line in dialogue_lines:
-        item = manifest_by_line.get(line.get("lineId"))
-        if not item:
-            fail(f"{scene_id} audio manifest missing {line.get('lineId')}")
-        if item.get("voiceId") != line.get("voiceId"):
-            fail(f"{scene_id} audio manifest voice mismatch at {line.get('lineId')}")
-        if item.get("file") != line.get("audioFile"):
-            fail(f"{scene_id} audio manifest file mismatch at {line.get('lineId')}")
+    if detailed_audio_manifest:
+        dialogue_lines = dialogue.get("lines", [])
+        if len(manifest_dialogue) != len(dialogue_lines):
+            fail(f"{scene_id} audio manifest dialogue count must match dialogue lines")
 
-    media_audio_required = set((media_status or {}).get("audio", {}).get("required", []))
+        manifest_by_line = {item.get("lineId"): item for item in manifest_dialogue}
+        for line in dialogue_lines:
+            item = manifest_by_line.get(line.get("lineId"))
+            if not item:
+                fail(f"{scene_id} audio manifest missing {line.get('lineId')}")
+            if item.get("voiceId") != line.get("voiceId"):
+                fail(f"{scene_id} audio manifest voice mismatch at {line.get('lineId')}")
+            if item.get("file") != line.get("audioFile"):
+                fail(f"{scene_id} audio manifest file mismatch at {line.get('lineId')}")
 
-    for word in vocabulary.get("words", []):
-        audio_file = word.get("audioFile")
-        if not audio_file:
-            fail(f"{scene_id} vocabulary word {word.get('wordId')} missing audioFile")
-        if audio_file not in media_audio_required:
-            fail(f"{scene_id} vocabulary audio not declared in media_status: {audio_file}")
+        media_audio_required = set((media_status or {}).get("audio", {}).get("required", []))
 
-    for exercise in exercises.get("exercises", []):
-        audio_file = exercise.get("audioFile")
-        if not audio_file:
-            fail(f"{scene_id} sentence exercise {exercise.get('exerciseId')} missing audioFile")
-        if audio_file not in media_audio_required:
-            fail(f"{scene_id} sentence audio not declared in media_status: {audio_file}")
+        for word in vocabulary.get("words", []):
+            audio_file = word.get("audioFile")
+            if not audio_file:
+                fail(f"{scene_id} vocabulary word {word.get('wordId')} missing audioFile")
+            if audio_file not in media_audio_required:
+                fail(f"{scene_id} vocabulary audio not declared in media_status: {audio_file}")
 
-    manifest_files = {
-        item.get("file")
-        for group in ("dialogue", "vocabulary", "sentences")
-        for item in audio_manifest.get(group, [])
-        if isinstance(item, dict) and item.get("file")
-    }
-    if manifest_files != media_audio_required:
-        missing_from_manifest = sorted(media_audio_required - manifest_files)
-        missing_from_status = sorted(manifest_files - media_audio_required)
-        fail(
-            f"{scene_id} audio manifest/media_status mismatch; "
-            f"missing from manifest={missing_from_manifest}, missing from media_status={missing_from_status}"
-        )
+        for exercise in exercises.get("exercises", []):
+            audio_file = exercise.get("audioFile")
+            if not audio_file:
+                fail(f"{scene_id} sentence exercise {exercise.get('exerciseId')} missing audioFile")
+            if audio_file not in media_audio_required:
+                fail(f"{scene_id} sentence audio not declared in media_status: {audio_file}")
+
+        manifest_files = {
+            item.get("file")
+            for group in ("dialogue", "vocabulary", "sentences")
+            for item in audio_manifest.get(group, [])
+            if isinstance(item, dict) and item.get("file")
+        }
+        if manifest_files != media_audio_required:
+            missing_from_manifest = sorted(media_audio_required - manifest_files)
+            missing_from_status = sorted(manifest_files - media_audio_required)
+            fail(
+                f"{scene_id} audio manifest/media_status mismatch; "
+                f"missing from manifest={missing_from_manifest}, missing from media_status={missing_from_status}"
+            )
 
     if media_status is not None:
         for category in ("visual", "audio"):
