@@ -4,7 +4,10 @@ import base64
 import re
 import zipfile
 from collections import defaultdict
+from io import BytesIO
 from pathlib import Path
+
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 PARTS_DIR = ROOT / "incoming_asset_parts"
@@ -105,6 +108,42 @@ def reconstruct_visual_packages() -> int:
                     if not reference_path.is_file():
                         raise RuntimeError(f"Missing locked reference asset: {reference_path}")
                     decoded[target_name] = reference_path.read_bytes()
+
+            background_name = f"hsk1_sc{number}_bg.webp"
+            preview_name = f"hsk1_sc{number}_preview.webp"
+            li_name = f"hsk1_sc{number}_char_li_na.webp"
+            zw_name = f"hsk1_sc{number}_char_zhang_wei.webp"
+            fg_name = f"hsk1_sc{number}_fg.webp"
+
+            if preview_name not in decoded and background_name in decoded:
+                background = Image.open(BytesIO(decoded[background_name])).convert("RGBA")
+                canvas = background.copy()
+
+                if fg_name in decoded:
+                    fg = Image.open(BytesIO(decoded[fg_name])).convert("RGBA")
+                    fg.thumbnail(canvas.size, Image.Resampling.LANCZOS)
+                    canvas.alpha_composite(fg, (0, canvas.height - fg.height))
+
+                def place_character(asset_name: str, x_fraction: float) -> None:
+                    if asset_name not in decoded:
+                        return
+                    char = Image.open(BytesIO(decoded[asset_name])).convert("RGBA")
+                    target_h = int(canvas.height * 0.76)
+                    scale = target_h / max(char.height, 1)
+                    char = char.resize(
+                        (max(1, int(char.width * scale)), target_h),
+                        Image.Resampling.LANCZOS,
+                    )
+                    x = int(canvas.width * x_fraction - char.width / 2)
+                    y = canvas.height - char.height
+                    canvas.alpha_composite(char, (x, y))
+
+                place_character(li_name, 0.34)
+                place_character(zw_name, 0.67)
+
+                output = BytesIO()
+                canvas.convert("RGB").save(output, "WEBP", quality=78, method=6)
+                decoded[preview_name] = output.getvalue()
 
         if destination.exists():
             destination.unlink()
