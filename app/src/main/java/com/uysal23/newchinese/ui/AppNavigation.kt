@@ -11,6 +11,7 @@ import com.uysal23.newchinese.data.ContentRepository
 import com.uysal23.newchinese.data.UserPreferences
 import com.uysal23.newchinese.data.UserSettings
 import com.uysal23.newchinese.data.progress.ProgressRepository
+import com.uysal23.newchinese.notifications.ReminderScheduler
 import kotlinx.coroutines.launch
 
 @Composable
@@ -25,6 +26,7 @@ fun AppNavigation(
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
     val scene = remember { repository.loadScene() }
+    val appContext = LocalContext.current.applicationContext
 
     LaunchedEffect(Unit) {
         progressRepository.ensureInitialScene()
@@ -168,7 +170,19 @@ fun AppNavigation(
                     onDark = { scope.launch { preferences.setDarkMode(it) } },
                     onPalette = { scope.launch { preferences.setPalette(it) } },
                     onPinyin = { scope.launch { preferences.setShowPinyin(it) } },
-                    onTurkish = { scope.launch { preferences.setShowTurkish(it) } }
+                    onTurkish = { scope.launch { preferences.setShowTurkish(it) } },
+                    onSaveReminder = { reminder ->
+                        scope.launch {
+                            preferences.upsertReminder(reminder)
+                            ReminderScheduler.schedule(appContext, reminder)
+                        }
+                    },
+                    onDeleteReminder = { reminderId ->
+                        scope.launch {
+                            preferences.deleteReminder(reminderId)
+                            ReminderScheduler.cancel(appContext, reminderId)
+                        }
+                    }
                 )
             }
             composable("placement") { PlaceholderScreen("Seviye Tespit Sınavı") }
