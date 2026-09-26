@@ -215,8 +215,10 @@ fun DialogueScreen(
     }
 
     Column(
-        Modifier.fillMaxSize().padding(16.dp),
-        verticalArrangement = Arrangement.SpaceBetween
+        Modifier
+            .fillMaxSize()
+            .padding(horizontal = 16.dp, vertical = 10.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         Row(
             Modifier.fillMaxWidth(),
@@ -233,48 +235,69 @@ fun DialogueScreen(
 
             Text(
                 "${index + 1} / ${scene.lines.size}",
-                style = MaterialTheme.typography.labelLarge
+                style = MaterialTheme.typography.titleMedium
             )
         }
 
         Column(
-            Modifier
-                .weight(1f)
-                .fillMaxWidth()
-                .verticalScroll(rememberScrollState()),
-            verticalArrangement = Arrangement.Center,
+            Modifier.fillMaxWidth(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text(scene.titleZh, style = MaterialTheme.typography.titleLarge)
-            Text(scene.titleTr)
-            Spacer(Modifier.height(10.dp))
+            Text(scene.titleZh, style = MaterialTheme.typography.headlineSmall)
+            Text(scene.titleTr, style = MaterialTheme.typography.titleMedium)
+        }
 
-            AssetSceneStage(
-                sceneAssetBase = sceneIdToAssetBase(scene.sceneId),
-                background = scene.visualAssets.background,
-                characterA = scene.visualAssets.characterA,
-                characterB = scene.visualAssets.characterB,
-                foreground = scene.visualAssets.foreground,
-                activeSpeakerId = line.speakerId,
-                modifier = Modifier.fillMaxWidth().height(280.dp)
-            )
+        AssetSceneStage(
+            sceneAssetBase = sceneIdToAssetBase(scene.sceneId),
+            background = scene.visualAssets.background,
+            characterA = scene.visualAssets.characterA,
+            characterB = scene.visualAssets.characterB,
+            foreground = scene.visualAssets.foreground,
+            activeSpeakerId = line.speakerId,
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f)
+                .heightIn(min = 180.dp, max = 245.dp)
+        )
 
-            Spacer(Modifier.height(10.dp))
-            ActiveSpeakerMarker(
-                speakerName = speaker,
-                isLeft = line.speakerId.contains("LI_NA")
-            )
-            Spacer(Modifier.height(8.dp))
-            Text(line.chinese, style = MaterialTheme.typography.headlineSmall)
-            if (showPinyin) Text(line.pinyin)
-            if (showTurkish) Text(line.turkish)
-
-            if (audioMissing) {
-                Spacer(Modifier.height(8.dp))
+        Card(
+            Modifier.fillMaxWidth()
+        ) {
+            Column(
+                Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 14.dp, vertical = 10.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
                 Text(
-                    "Bu satırın Mandarin sesi bulunamadı.",
-                    color = MaterialTheme.colorScheme.error
+                    speaker,
+                    style = MaterialTheme.typography.titleSmall,
+                    color = MaterialTheme.colorScheme.primary
                 )
+                Text(
+                    line.chinese,
+                    style = MaterialTheme.typography.headlineSmall
+                )
+                if (showPinyin) {
+                    Text(
+                        line.pinyin,
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+                if (showTurkish) {
+                    Text(
+                        line.turkish,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+                if (audioMissing) {
+                    Text(
+                        "Bu satırın Mandarin sesi bulunamadı.",
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                }
             }
         }
 
@@ -295,7 +318,8 @@ fun DialogueScreen(
                         onPositionChanged(index, position)
                         onBack()
                     },
-                    modifier = Modifier.weight(1.15f)
+                    modifier = Modifier.weight(1.1f),
+                    contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp)
                 ) { Text("Geri") }
 
                 Button(
@@ -307,7 +331,8 @@ fun DialogueScreen(
                             onPositionChanged(index, 0L)
                         }
                     },
-                    modifier = Modifier.weight(0.8f)
+                    modifier = Modifier.weight(0.8f),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 8.dp)
                 ) { Text("←") }
 
                 Button(
@@ -320,8 +345,11 @@ fun DialogueScreen(
                             autoPlay = true
                         }
                     },
-                    modifier = Modifier.weight(1.65f)
-                ) { Text(if (autoPlay) "Duraklat" else "Oynat") }
+                    modifier = Modifier.weight(1.55f),
+                    contentPadding = PaddingValues(horizontal = 8.dp, vertical = 8.dp)
+                ) {
+                    Text(if (autoPlay) "Duraklat" else "Oynat")
+                }
 
                 Button(
                     onClick = {
@@ -332,7 +360,8 @@ fun DialogueScreen(
                             onPositionChanged(index, 0L)
                         }
                     },
-                    modifier = Modifier.weight(0.8f)
+                    modifier = Modifier.weight(0.8f),
+                    contentPadding = PaddingValues(horizontal = 6.dp, vertical = 8.dp)
                 ) { Text("→") }
             }
 
