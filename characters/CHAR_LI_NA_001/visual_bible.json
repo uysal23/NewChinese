@@ -1,0 +1,11 @@
+{
+  "visualBibleId":"VIS_CHAR_LI_NA_001",
+  "characterId":"CHAR_LI_NA_001",
+  "style":"unified_2_5d_3d_cgi",
+  "hair":"medium-length dark hair",
+  "face":"natural adult proportions, warm expression",
+  "eyes":"dark brown",
+  "body":"natural adult proportions",
+  "wardrobeRule":"modern modest family-friendly",
+  "forbiddenChanges":["different face identity","dramatic age shift","different hair color","mini skirt","revealing clothing","explicit clothing"]
+}
