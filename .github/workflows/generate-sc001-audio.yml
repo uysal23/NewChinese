@@ -2,6 +2,12 @@ name: Generate SC001 Audio
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "content/hsk1/sc001/audio_production_queue.json"
+      - "tools/generate_audio_assets.py"
+      - ".github/workflows/generate-sc001-audio.yml"
 
 permissions:
   contents: write
