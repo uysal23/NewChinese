@@ -1,0 +1,78 @@
+name: Generate SC001 Audio
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newchinese-sc001-audio
+  cancel-in-progress: false
+
+jobs:
+  generate-and-import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install audio tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install "edge-tts>=7,<8"
+
+      - name: Generate locked SC001 Mandarin audio ZIP
+        run: |
+          python tools/generate_audio_assets.py \
+            --queue content/hsk1/sc001/audio_production_queue.json \
+            --output incoming_assets/HSK1_SC001_audio_assets.zip
+
+      - name: Preserve exact audio package as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: HSK1_SC001_audio_assets
+          path: incoming_assets/HSK1_SC001_audio_assets.zip
+          if-no-files-found: error
+
+      - name: Import generated audio package
+        run: python tools/import_media_assets.py
+
+      - name: Validate project content
+        run: python validation/validate_content.py
+
+      - name: Verify SC001 audio status
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("content/hsk1/sc001/media_status.json")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          audio = data["audio"]
+          assert audio["status"] == "complete", audio
+          assert audio.get("missing") == [], audio
+          print("SC001 audio status: complete")
+          PY
+
+      - name: Commit generated SC001 audio assets
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No repository changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/hsk1/sc001/assets content/hsk1/sc001/media_status.json
+          git commit -m "Generate and import SC001 Mandarin audio"
+          git push
