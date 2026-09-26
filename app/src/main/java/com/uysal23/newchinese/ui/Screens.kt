@@ -4,12 +4,20 @@ import android.Manifest
 import android.os.Build
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathEffect
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.uysal23.newchinese.data.SceneContent
@@ -155,8 +163,10 @@ fun DialogueScreen(
             Text(scene.titleZh, style = MaterialTheme.typography.titleLarge)
             Text(scene.titleTr)
             Spacer(Modifier.height(32.dp))
-            Text(speaker, style = MaterialTheme.typography.titleMedium)
-            Text("◌", style = MaterialTheme.typography.headlineMedium)
+            ActiveSpeakerMarker(
+                speakerName = speaker,
+                isLeft = line.speakerId.contains("LI_NA")
+            )
             Spacer(Modifier.height(10.dp))
             Text(line.chinese, style = MaterialTheme.typography.headlineSmall)
             if (showPinyin) Text(line.pinyin)
@@ -171,6 +181,42 @@ fun DialogueScreen(
             Button(onClick = { playing = !playing }) { Text(if (playing) "Pause" else "Start") }
             Button(onClick = { if (index < scene.lines.lastIndex) { index++; playing = false } }) { Text("→") }
             TextButton(onClick = { showTurkish = !showTurkish }) { Text("TR") }
+        }
+    }
+}
+
+@Composable
+private fun ActiveSpeakerMarker(speakerName: String, isLeft: Boolean) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = if (isLeft) Arrangement.Start else Arrangement.End,
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            SpeechBubble(width = 54.dp, height = 34.dp)
+            Spacer(Modifier.height(4.dp))
+            Text(speakerName, style = MaterialTheme.typography.titleMedium)
+        }
+    }
+}
+
+@Composable
+private fun SpeechBubble(width: Dp, height: Dp) {
+    Box(
+        modifier = Modifier
+            .size(width, height)
+            .clip(MaterialTheme.shapes.medium)
+            .background(Color.White.copy(alpha = 0.78f))
+    ) {
+        Canvas(Modifier.matchParentSize()) {
+            drawRoundRect(
+                color = Color.Gray.copy(alpha = 0.85f),
+                cornerRadius = CornerRadius(14f, 14f),
+                style = Stroke(
+                    width = 2.5f,
+                    pathEffect = PathEffect.dashPathEffect(floatArrayOf(10f, 7f))
+                )
+            )
         }
     }
 }
