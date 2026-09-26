@@ -17,7 +17,9 @@ data class VocabularyItem(
     val id: String,
     val hanzi: String,
     val pinyin: String,
-    val turkish: String
+    val turkish: String,
+    val voiceId: String,
+    val audioFile: String
 )
 
 data class SentenceExercise(
@@ -29,7 +31,9 @@ data class SentenceExercise(
     val tokens: List<String>,
     val sentenceZh: String?,
     val correctAnswer: String?,
-    val options: List<String>
+    val options: List<String>,
+    val voiceId: String,
+    val audioFile: String
 )
 
 data class PlacementQuestion(
@@ -150,7 +154,9 @@ class ContentRepository(private val context: Context) {
                         id = x.getString("wordId"),
                         hanzi = x.getString("hanzi"),
                         pinyin = x.getString("pinyin"),
-                        turkish = x.getString("translationTr")
+                        turkish = x.getString("translationTr"),
+                        voiceId = x.optString("voiceId", ""),
+                        audioFile = x.optString("audioFile", "")
                     )
                 )
             }
@@ -178,7 +184,9 @@ class ContentRepository(private val context: Context) {
                         tokens = tokens,
                         sentenceZh = x.optString("sentenceZh").ifBlank { null },
                         correctAnswer = x.optString("correctAnswer").ifBlank { null },
-                        options = options
+                        options = options,
+                        voiceId = x.optString("voiceId", ""),
+                        audioFile = x.optString("audioFile", "")
                     )
                 )
             }
