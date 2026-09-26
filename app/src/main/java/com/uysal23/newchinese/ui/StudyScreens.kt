@@ -134,12 +134,33 @@ fun FavoritesScreen(
     favoriteIds: Set<String>,
     onToggleFavorite: (String) -> Unit
 ) {
-    val favorites = allWords.filter { it.id in favoriteIds }
+    var selectedLevel by remember { mutableStateOf("ALL") }
+    val favorites = allWords.filter { word ->
+        word.id in favoriteIds && (selectedLevel == "ALL" || word.id.contains("_${selectedLevel}_"))
+    }
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         Text("Favoriler", style = MaterialTheme.typography.headlineMedium)
+        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            listOf("ALL", "HSK1", "HSK2", "HSK3").forEach { level ->
+                FilterChip(
+                    selected = selectedLevel == level,
+                    onClick = { selectedLevel = level },
+                    label = { Text(if (level == "ALL") "Tümü" else level) }
+                )
+            }
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            listOf("HSK4", "HSK5", "HSK6").forEach { level ->
+                FilterChip(
+                    selected = selectedLevel == level,
+                    onClick = { selectedLevel = level },
+                    label = { Text(level) }
+                )
+            }
+        }
         if (favorites.isEmpty()) {
             Text("Henüz favori kelime seçmedin.")
         } else {
