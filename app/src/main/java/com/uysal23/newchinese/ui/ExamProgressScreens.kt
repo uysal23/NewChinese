@@ -225,7 +225,9 @@ private fun ExamResultScreen(
 fun ProgressScreen(progress: List<SceneProgressEntity>) {
     val completed = progress.count { it.sceneCompleted }
     val unlocked = progress.count { it.unlocked }
-    val sc001 = progress.firstOrNull { it.sceneId == "HSK1_SC001" }
+    val lastScene = progress
+        .filter { it.lastStudiedAt > 0L }
+        .maxByOrNull { it.lastStudiedAt }
 
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
@@ -235,13 +237,31 @@ fun ProgressScreen(progress: List<SceneProgressEntity>) {
         MetricCard("Tamamlanan sahne", "$completed / 300")
         MetricCard("Açılmış sahne", "$unlocked / 300")
         MetricCard("Telaffuz Doğruluk", "Henüz veri yok")
+        MetricCard("Son çalışılan", lastScene?.sceneId ?: "Henüz yok")
 
-        Card(Modifier.fillMaxWidth()) {
-            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("HSK1 · SC01", style = MaterialTheme.typography.titleLarge)
-                Text("Kelime sınavı: %${sc001?.wordExamBestScore ?: 0}")
-                Text("Cümle sınavı: %${sc001?.sentenceExamBestScore ?: 0}")
-                Text(if (sc001?.sceneCompleted == true) "Durum: Tamamlandı ✓" else "Durum: Devam ediyor")
+        (1..6).forEach { level ->
+            val prefix = "HSK${level}_SC"
+            val levelRows = progress.filter { it.sceneId.startsWith(prefix) }
+            val levelCompleted = levelRows.count { it.sceneCompleted }
+            val levelUnlocked = levelRows.count { it.unlocked }
+            val bestWord = levelRows.maxOfOrNull { it.wordExamBestScore } ?: 0
+            val bestSentence = levelRows.maxOfOrNull { it.sentenceExamBestScore } ?: 0
+
+            Card(Modifier.fillMaxWidth()) {
+                Column(
+                    Modifier.padding(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    Text("HSK$level", style = MaterialTheme.typography.titleLarge)
+                    Text("Tamamlanan: $levelCompleted / 50")
+                    Text("Açık sahne: $levelUnlocked")
+                    if (levelRows.isNotEmpty()) {
+                        Text("En iyi kelime sınavı: %$bestWord")
+                        Text("En iyi cümle sınavı: %$bestSentence")
+                    } else {
+                        Text("Henüz çalışma yok.")
+                    }
+                }
             }
         }
     }
