@@ -23,6 +23,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.uysal23.newchinese.data.SceneContent
 import com.uysal23.newchinese.data.UserSettings
+import com.uysal23.newchinese.data.progress.SceneProgressEntity
 import com.uysal23.newchinese.media.AssetAudioPlayer
 import com.uysal23.newchinese.notifications.ReminderSpec
 import java.util.Calendar
@@ -55,22 +56,37 @@ fun WelcomeScreen(onContinue: (String) -> Unit) {
 }
 
 @Composable
-fun DashboardScreen(userName: String, onNavigate: (String) -> Unit) {
+fun DashboardScreen(
+    userName: String,
+    progress: List<SceneProgressEntity>,
+    favoriteCount: Int,
+    onNavigate: (String) -> Unit
+) {
+    val completed = progress.count { it.sceneCompleted }
+    val unlocked = progress.count { it.unlocked }
+    val lastScene = progress
+        .filter { it.lastStudiedAt > 0L }
+        .maxByOrNull { it.lastStudiedAt }
+        ?.sceneId
+        ?: "Henüz yok"
+
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text("你好，$userName！", style = MaterialTheme.typography.headlineMedium)
         Text("Bugün Çince çalışmaya devam edelim.")
+
         Card(Modifier.fillMaxWidth()) {
-            Row(
-                Modifier.padding(16.dp).fillMaxWidth(),
-                horizontalArrangement = Arrangement.SpaceBetween
-            ) {
-                Text("Telaffuz Doğruluk")
-                Text("Henüz veri yok")
+            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("Tamamlanan sahne: $completed / 300")
+                Text("Açılmış sahne: $unlocked / 300")
+                Text("Favoriler: $favoriteCount")
+                Text("Son çalışma: $lastScene")
+                Text("Telaffuz Doğruluk: Henüz veri yok")
             }
         }
+
         DashboardButton("HSK Seviyeleri") { onNavigate("levels") }
         DashboardButton("Seviye Tespit Sınavı") { onNavigate("placement") }
         DashboardButton("Serbest Çalışma") { onNavigate("freeStudy") }
@@ -86,18 +102,27 @@ private fun DashboardButton(text: String, onClick: () -> Unit) {
 }
 
 @Composable
-fun LevelsScreen(onSelect: (String) -> Unit) {
+fun LevelsScreen(
+    progress: List<SceneProgressEntity>,
+    onSelect: (String) -> Unit
+) {
     Column(
         Modifier.fillMaxSize().padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         Text("HSK Seviyeleri", style = MaterialTheme.typography.headlineMedium)
         (1..6).forEach { n ->
+            val prefix = "HSK${n}_SC"
+            val completed = progress.count { it.sceneId.startsWith(prefix) && it.sceneCompleted }
+            val unlocked = progress.count { it.sceneId.startsWith(prefix) && it.unlocked }
             OutlinedButton(
                 onClick = { onSelect("HSK$n") },
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("HSK$n · 0 / 50")
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text("HSK$n · $completed / 50")
+                    if (unlocked > 0) Text("Açık sahne: $unlocked", style = MaterialTheme.typography.labelSmall)
+                }
             }
         }
     }
