@@ -10,10 +10,7 @@
       "assets/hsk1_sc023_preview.webp"
     ],
     "missing": [
-      "assets/hsk1_sc023_bg.webp",
-      "assets/hsk1_sc023_char_li_na.webp",
-      "assets/hsk1_sc023_char_zhang_wei.webp",
-      "assets/hsk1_sc023_fg.webp"
+      "assets/hsk1_sc023_bg.webp"
     ]
   },
   "audio": {
