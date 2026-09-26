@@ -31,12 +31,16 @@ fun StudyHubScreen(
 }
 
 @Composable
-fun VocabularyScreen(items: List<VocabularyItem>, onBack: () -> Unit) {
+fun VocabularyScreen(
+    items: List<VocabularyItem>,
+    favoriteIds: Set<String>,
+    onToggleFavorite: (String) -> Unit,
+    onBack: () -> Unit
+) {
     var index by remember { mutableIntStateOf(0) }
     var showMeaning by remember { mutableStateOf(false) }
-    val favorites = remember { mutableStateListOf<String>() }
     val item = items[index]
-    val favorite = favorites.contains(item.id)
+    val favorite = item.id in favoriteIds
 
     Column(
         Modifier.fillMaxSize().padding(20.dp),
@@ -45,9 +49,7 @@ fun VocabularyScreen(items: List<VocabularyItem>, onBack: () -> Unit) {
     ) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
             TextButton(onClick = onBack) { Text("Geri") }
-            TextButton(onClick = {
-                if (favorite) favorites.remove(item.id) else favorites.add(item.id)
-            }) {
+            TextButton(onClick = { onToggleFavorite(item.id) }) {
                 Text(if (favorite) "★" else "☆")
             }
         }
@@ -69,22 +71,89 @@ fun VocabularyScreen(items: List<VocabularyItem>, onBack: () -> Unit) {
         }
 
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Button(onClick = {
-                if (index > 0) {
-                    index--
-                    showMeaning = false
-                }
-            }, enabled = index > 0) { Text("← Önceki") }
+            Button(
+                onClick = {
+                    if (index > 0) {
+                        index--
+                        showMeaning = false
+                    }
+                },
+                enabled = index > 0
+            ) { Text("← Önceki") }
 
             Text("${index + 1} / ${items.size}")
 
-            Button(onClick = {
-                if (index < items.lastIndex) {
-                    index++
-                    showMeaning = false
-                }
-            }, enabled = index < items.lastIndex) { Text("Sonraki →") }
+            Button(
+                onClick = {
+                    if (index < items.lastIndex) {
+                        index++
+                        showMeaning = false
+                    }
+                },
+                enabled = index < items.lastIndex
+            ) { Text("Sonraki →") }
         }
+    }
+}
+
+@Composable
+fun FavoritesScreen(
+    allWords: List<VocabularyItem>,
+    favoriteIds: Set<String>,
+    onToggleFavorite: (String) -> Unit
+) {
+    val favorites = allWords.filter { it.id in favoriteIds }
+    Column(
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        Text("Favoriler", style = MaterialTheme.typography.headlineMedium)
+        if (favorites.isEmpty()) {
+            Text("Henüz favori kelime seçmedin.")
+        } else {
+            favorites.forEach { word ->
+                Card(Modifier.fillMaxWidth()) {
+                    Row(
+                        Modifier.fillMaxWidth().padding(14.dp),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Column {
+                            Text(word.hanzi, style = MaterialTheme.typography.titleLarge)
+                            Text(word.pinyin)
+                            Text(word.turkish)
+                        }
+                        TextButton(onClick = { onToggleFavorite(word.id) }) { Text("★") }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun FreeStudyScreen(
+    onVocabulary: () -> Unit,
+    onSentence: () -> Unit,
+    onShadowing: () -> Unit,
+    onDialogue: () -> Unit
+) {
+    Column(
+        Modifier.fillMaxSize().padding(20.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Text("Serbest Çalışma", style = MaterialTheme.typography.headlineMedium)
+        Text("Açılmış sahne")
+        Card(Modifier.fillMaxWidth()) {
+            Column(Modifier.padding(16.dp)) {
+                Text("HSK1 · SC01", style = MaterialTheme.typography.titleLarge)
+                Text("第一次见面 · İlk Tanışma")
+            }
+        }
+        OutlinedButton(onClick = onDialogue, modifier = Modifier.fillMaxWidth()) { Text("Diyaloğu Aç") }
+        Button(onClick = onVocabulary, modifier = Modifier.fillMaxWidth()) { Text("Kelime Çalışması") }
+        Button(onClick = onSentence, modifier = Modifier.fillMaxWidth()) { Text("Cümle Çalışması") }
+        Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) { Text("Shadowing") }
     }
 }
 
@@ -123,13 +192,11 @@ fun SentencePracticeScreen(exercises: List<SentenceExercise>, onBack: () -> Unit
                     }
                 }
                 FlowLikeRow(
-                    tokens = exercise.tokens.filterIndexed { tokenIndex, _ ->
-                        tokenIndex >= selectedTokens.size || !selectedTokens.contains(exercise.tokens[tokenIndex])
-                    },
+                    tokens = exercise.tokens.filter { token -> token !in selectedTokens },
                     onToken = { selectedTokens = selectedTokens + it }
                 )
-                val answer = selectedTokens.joinToString("")
                 if (selectedTokens.size == exercise.tokens.size) {
+                    val answer = selectedTokens.joinToString("")
                     Text(if (answer == exercise.tokens.joinToString("")) "✓ Doğru" else "Tekrar dene")
                 }
             }
@@ -150,16 +217,9 @@ fun SentencePracticeScreen(exercises: List<SentenceExercise>, onBack: () -> Unit
             else -> Text("Bu alıştırma tipi sonraki içerik paketinde etkinleştirilecek.")
         }
 
-        Spacer(Modifier.height(8.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Button(
-                onClick = { if (index > 0) index-- },
-                enabled = index > 0
-            ) { Text("←") }
-            Button(
-                onClick = { if (index < exercises.lastIndex) index++ },
-                enabled = index < exercises.lastIndex
-            ) { Text("→") }
+            Button(onClick = { if (index > 0) index-- }, enabled = index > 0) { Text("←") }
+            Button(onClick = { if (index < exercises.lastIndex) index++ }, enabled = index < exercises.lastIndex) { Text("→") }
         }
     }
 }
@@ -179,7 +239,9 @@ private fun FlowLikeRow(tokens: List<String>, onToken: (String) -> Unit) {
 
 @Composable
 fun ShadowingSetupScreen(dialogueCount: Int, onBack: () -> Unit) {
-    var selected by remember { mutableStateOf(6) }
+    val availableOptions = listOf(6, 10, 15).filter { it <= dialogueCount }
+    var selected by remember { mutableIntStateOf(availableOptions.firstOrNull() ?: dialogueCount) }
+
     Column(
         Modifier.fillMaxSize().padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
@@ -187,10 +249,9 @@ fun ShadowingSetupScreen(dialogueCount: Int, onBack: () -> Unit) {
         TextButton(onClick = onBack) { Text("Geri") }
         Text("Shadowing", style = MaterialTheme.typography.headlineMedium)
         Text("Tekrar etmek istediğin cümle sayısını seç.")
-        listOf(6, 10, 15).forEach { count ->
+        availableOptions.forEach { count ->
             OutlinedButton(
                 onClick = { selected = count },
-                enabled = dialogueCount >= count,
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text("$count cümle${if (selected == count) " ✓" else ""}")
@@ -202,7 +263,7 @@ fun ShadowingSetupScreen(dialogueCount: Int, onBack: () -> Unit) {
         ) {
             Text("Tüm diyalog${if (selected == dialogueCount) " ✓" else ""}")
         }
-        Text("Varsayılan ve minimum seçim: 6 cümle")
+        Text("Varsayılan ve minimum hedef: 6 cümle")
         Button(onClick = {}, modifier = Modifier.fillMaxWidth()) {
             Text("Shadowing'i Başlat")
         }
