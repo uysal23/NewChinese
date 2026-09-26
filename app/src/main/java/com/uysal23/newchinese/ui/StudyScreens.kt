@@ -19,6 +19,7 @@ import com.uysal23.newchinese.data.SentenceExercise
 import com.uysal23.newchinese.data.VocabularyItem
 import com.uysal23.newchinese.data.progress.SceneProgressEntity
 import com.uysal23.newchinese.media.AssetAudioPlayer
+import com.uysal23.newchinese.media.MandarinSpeechRecognizer
 import com.uysal23.newchinese.media.VoiceRecorder
 
 @Composable
@@ -381,6 +382,10 @@ fun ShadowingSetupScreen(
     var referenceMissing by remember { mutableStateOf(false) }
     var listenOnly by remember { mutableStateOf(false) }
     var referencePlayed by remember { mutableStateOf(false) }
+    var recognizedText by remember { mutableStateOf<String?>(null) }
+    var similarityPercent by remember { mutableStateOf<Int?>(null) }
+    var recognitionError by remember { mutableStateOf<String?>(null) }
+    var recognitionInProgress by remember { mutableStateOf(false) }
     var hasMicPermission by remember {
         mutableStateOf(
             ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) ==
@@ -390,10 +395,20 @@ fun ShadowingSetupScreen(
 
     val recorder = remember { VoiceRecorder(context.applicationContext) }
     val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
+    val speechRecognizer = remember { MandarinSpeechRecognizer(context.applicationContext) }
+
+    fun stopRecordingSafely() {
+        if (isRecording) {
+            recordedPath = recorder.stop().getOrNull()?.absolutePath
+            isRecording = false
+        }
+    }
+
     DisposableEffect(Unit) {
         onDispose {
             recorder.release()
             audioPlayer.release()
+            speechRecognizer.destroy()
         }
     }
 
@@ -483,19 +498,60 @@ fun ShadowingSetupScreen(
                 Button(
                     onClick = {
                         if (!isRecording) {
+                            recognizedText = null
+                            similarityPercent = null
+                            recognitionError = null
+                            recognitionInProgress = false
+                            recordedPath = null
+
                             val result = recorder.start()
                             if (result.isSuccess) {
                                 isRecording = true
-                                recordedPath = null
+                                val recognitionStarted = speechRecognizer.start(
+                                    targetText = line.chinese,
+                                    onSpeechEnded = {
+                                        stopRecordingSafely()
+                                        recognitionInProgress = true
+                                    },
+                                    onResult = { resultData ->
+                                        stopRecordingSafely()
+                                        recognizedText = resultData.recognizedText
+                                        similarityPercent = resultData.similarityPercent
+                                        recognitionError = null
+                                        recognitionInProgress = false
+                                    },
+                                    onError = { message ->
+                                        stopRecordingSafely()
+                                        recognitionError = message
+                                        recognitionInProgress = false
+                                    }
+                                )
+                                if (!recognitionStarted) {
+                                    recognitionError =
+                                        "Konuşma tanıma kullanılamadı; kayıt manuel olarak durdurulabilir."
+                                }
                             }
                         } else {
-                            recordedPath = recorder.stop().getOrNull()?.absolutePath
-                            isRecording = false
+                            speechRecognizer.stop()
+                            stopRecordingSafely()
+                            recognitionInProgress = true
                         }
                     },
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(if (isRecording) "■ Kaydı Durdur" else "🎙 Kaydı Başlat")
+                }
+
+                if (isRecording) {
+                    Text(
+                        "Konuş; sustuğunda kayıt otomatik duracak.",
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                } else if (recognitionInProgress) {
+                    Text(
+                        "Telaffuz karşılaştırılıyor…",
+                        style = MaterialTheme.typography.labelMedium
+                    )
                 }
 
                 OutlinedButton(
@@ -505,18 +561,56 @@ fun ShadowingSetupScreen(
                 ) {
                     Text("▶ Kendi Kaydımı Dinle")
                 }
+
+                if (recognizedText != null && similarityPercent != null) {
+                    Card(Modifier.fillMaxWidth()) {
+                        Column(
+                            Modifier.fillMaxWidth().padding(12.dp),
+                            verticalArrangement = Arrangement.spacedBy(4.dp)
+                        ) {
+                            Text(
+                                "Benzerlik: %$similarityPercent",
+                                style = MaterialTheme.typography.titleLarge,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                            Text(
+                                "Tanınan: $recognizedText",
+                                style = MaterialTheme.typography.bodyMedium
+                            )
+                        }
+                    }
+                }
+
+                if (recognitionError != null) {
+                    Text(
+                        recognitionError.orEmpty(),
+                        color = MaterialTheme.colorScheme.error,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
             } else {
                 Text("Yalnız dinleme modu")
             }
 
-            val canAdvance = if (listenOnly) referencePlayed else recordedPath != null
+            val canAdvance = if (listenOnly) {
+                referencePlayed
+            } else {
+                recordedPath != null && !recognitionInProgress
+            }
+
             Button(
                 onClick = {
+                    speechRecognizer.cancel()
                     recorder.cancel()
                     recordedPath = null
                     isRecording = false
+                    recognizedText = null
+                    similarityPercent = null
+                    recognitionError = null
+                    recognitionInProgress = false
                     referencePlayed = false
                     referenceMissing = false
+
                     if (currentIndex == sessionLines.lastIndex) {
                         onComplete()
                     } else {
@@ -526,7 +620,13 @@ fun ShadowingSetupScreen(
                 enabled = canAdvance && !isRecording,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text(if (currentIndex == sessionLines.lastIndex) "Oturumu Tamamla ✓" else "Sonraki Cümle →")
+                Text(
+                    if (currentIndex == sessionLines.lastIndex) {
+                        "Oturumu Tamamla ✓"
+                    } else {
+                        "Sonraki Cümle →"
+                    }
+                )
             }
         }
     }
