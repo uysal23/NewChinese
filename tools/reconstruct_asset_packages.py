@@ -79,23 +79,43 @@ def reconstruct_visual_packages() -> int:
         package_name = f"{scene_id}_visual_assets.zip"
         destination = OUT_DIR / package_name
 
-        decoded: list[tuple[str, bytes]] = []
+        decoded: dict[str, bytes] = {}
         for asset_name, source in sorted(assets):
             payload = decode_b64_text(source)
             if not payload.startswith(b"RIFF") or b"WEBP" not in payload[:16]:
                 raise RuntimeError(f"Decoded visual is not WebP: {source.name}")
-            decoded.append((asset_name, payload))
+            decoded[asset_name] = payload
+
+        # Consecutive HSK1 station scenes intentionally reuse the phone-approved
+        # SC001 character identity layers and safe foreground. This prevents
+        # face/outfit drift while each scene keeps its own background/preview.
+        scene_match = re.match(r"^HSK1_SC(\d{3})$", scene_id)
+        if scene_match and scene_id != "HSK1_SC001":
+            number = scene_match.group(1)
+            reference_assets = {
+                f"hsk1_sc{number}_char_li_na.webp":
+                    ROOT / "content/hsk1/sc001/assets/hsk1_sc001_char_li_na.webp",
+                f"hsk1_sc{number}_char_zhang_wei.webp":
+                    ROOT / "content/hsk1/sc001/assets/hsk1_sc001_char_zhang_wei.webp",
+                f"hsk1_sc{number}_fg.webp":
+                    ROOT / "content/hsk1/sc001/assets/hsk1_sc001_fg.webp",
+            }
+            for target_name, reference_path in reference_assets.items():
+                if target_name not in decoded:
+                    if not reference_path.is_file():
+                        raise RuntimeError(f"Missing locked reference asset: {reference_path}")
+                    decoded[target_name] = reference_path.read_bytes()
 
         if destination.exists():
             destination.unlink()
 
         with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-            for asset_name, payload in decoded:
+            for asset_name, payload in sorted(decoded.items()):
                 archive.writestr(asset_name, payload)
 
         print(
             f"Built {destination.relative_to(ROOT)} "
-            f"from {len(decoded)} staged WebP assets."
+            f"from {len(decoded)} WebP assets."
         )
         count += 1
     return count
