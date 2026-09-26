@@ -1,0 +1,11 @@
+{
+  "sceneId":"HSK1_SC001",
+  "locationId":"LOC_TRAIN_STATION_001",
+  "characters":[
+    {"characterId":"CHAR_LI_NA_001","outfit":"OUTFIT_LI_NA_CASUAL_01","speechBubbleAnchor":"face_right"},
+    {"characterId":"CHAR_ZHANG_WEI_001","outfit":"OUTFIT_ZHANG_WEI_CASUAL_01","speechBubbleAnchor":"face_left"}
+  ],
+  "cameraPreset":"CAM_TWO_SHOT_01",
+  "lightingPreset":"LIGHT_STATION_DAY_01",
+  "activeSpeakerBubble":{"fill":"white","opacity":"light","outline":"dashed","text":false}
+}
