@@ -9,19 +9,26 @@ import androidx.navigation.compose.*
 import androidx.navigation.navArgument
 import com.uysal23.newchinese.data.ContentRepository
 import com.uysal23.newchinese.data.UserPreferences
+import com.uysal23.newchinese.data.UserSettings
 import kotlinx.coroutines.launch
 
 @Composable
 fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
-    val settings by preferences.settings.collectAsState(initial = null)
-    val current = settings ?: return
+    val current by preferences.settings.collectAsState(initial = UserSettings())
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
     val scene = remember { repository.loadScene() }
-    val start = remember { if (current.userName.isBlank()) "welcome" else "dashboard" }
+
+    LaunchedEffect(current.userName) {
+        if (current.userName.isNotBlank() && nav.currentDestination?.route == "welcome") {
+            nav.navigate("dashboard") {
+                popUpTo("welcome") { inclusive = true }
+            }
+        }
+    }
 
     NewChineseTheme(current.darkMode, current.palette) {
-        NavHost(navController = nav, startDestination = start) {
+        NavHost(navController = nav, startDestination = "welcome") {
             composable("welcome") {
                 WelcomeScreen { name ->
                     scope.launch {
