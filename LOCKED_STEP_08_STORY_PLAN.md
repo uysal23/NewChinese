@@ -1,0 +1,2 @@
+# LOCKED STEP 08 — 300-Scene Story Plan
+Hangzhou-centered continuous story universe. HSK1–HSK6 each contain 50 scenes. Scenes are not disconnected drills: character relationships, work, learning, daily life, culture, travel, technology and personal growth evolve across levels. Every scene has two active speakers. Dialogue must sound like two real people: contextual, responsive, coherent, flowing and naturally closed. Robotic textbook exchanges, disconnected answers and forced vocabulary insertion are forbidden.
