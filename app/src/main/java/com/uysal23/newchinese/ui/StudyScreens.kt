@@ -83,14 +83,20 @@ private fun StudyStatus(label: String, complete: Boolean) {
 
 @Composable
 fun VocabularyScreen(
+    sceneId: String,
     items: List<VocabularyItem>,
     favoriteIds: Set<String>,
+    playbackSpeed: Float,
     onToggleFavorite: (String) -> Unit,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
+    val context = LocalContext.current
+    val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
+    DisposableEffect(Unit) { onDispose { audioPlayer.release() } }
     var index by remember { mutableIntStateOf(0) }
     var showMeaning by remember { mutableStateOf(false) }
+    var audioMissing by remember(index) { mutableStateOf(false) }
     val item = items[index]
     val favorite = item.id in favoriteIds
 
@@ -118,7 +124,19 @@ fun VocabularyScreen(
                 TextButton(onClick = { showMeaning = !showMeaning }) {
                     Text(if (showMeaning) "Anlamı Gizle" else "Anlamı Göster")
                 }
-                OutlinedButton(onClick = {}) { Text("🔊 Dinle") }
+                OutlinedButton(
+                    onClick = {
+                        val ok = item.audioFile.isNotBlank() &&
+                            audioPlayer.play("${sceneIdToAssetPath(sceneId)}/${item.audioFile}", playbackSpeed)
+                        audioMissing = !ok
+                    }
+                ) { Text("🔊 Dinle") }
+                if (audioMissing) {
+                    Text(
+                        "Doğal Mandarin kelime sesi henüz eklenmedi.",
+                        color = MaterialTheme.colorScheme.error
+                    )
+                }
             }
         }
 
@@ -241,14 +259,20 @@ fun FreeStudyScreen(
 
 @Composable
 fun SentencePracticeScreen(
+    sceneId: String,
     exercises: List<SentenceExercise>,
+    playbackSpeed: Float,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
+    val context = LocalContext.current
+    val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
+    DisposableEffect(Unit) { onDispose { audioPlayer.release() } }
     var index by remember { mutableIntStateOf(0) }
     val exercise = exercises[index]
     var selectedTokens by remember(index) { mutableStateOf(emptyList<String>()) }
     var selectedOption by remember(index) { mutableStateOf<String?>(null) }
+    var audioMissing by remember(index) { mutableStateOf(false) }
 
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
@@ -257,7 +281,19 @@ fun SentencePracticeScreen(
         TextButton(onClick = onBack) { Text("Geri") }
         Text("Cümle Çalışması", style = MaterialTheme.typography.headlineMedium)
         Text("${index + 1} / ${exercises.size}")
-        OutlinedButton(onClick = {}) { Text("🔊 Doğru Cümleyi Dinle") }
+        OutlinedButton(
+            onClick = {
+                val ok = exercise.audioFile.isNotBlank() &&
+                    audioPlayer.play("${sceneIdToAssetPath(sceneId)}/${exercise.audioFile}", playbackSpeed)
+                audioMissing = !ok
+            }
+        ) { Text("🔊 Doğru Cümleyi Dinle") }
+        if (audioMissing) {
+            Text(
+                "Doğal Mandarin doğru cümle sesi henüz eklenmedi.",
+                color = MaterialTheme.colorScheme.error
+            )
+        }
 
         when (exercise.type) {
             "reorder" -> {
