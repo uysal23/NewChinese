@@ -49,6 +49,8 @@ class AssetAudioPlayer(private val context: Context) {
         return true
     }
 
+    fun currentPositionMs(): Long = player.currentPosition.coerceAtLeast(0L)
+
     fun pause() {
         player.pause()
         onEnded = null
