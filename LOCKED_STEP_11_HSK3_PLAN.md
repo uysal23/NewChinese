@@ -1,0 +1,2 @@
+# LOCKED STEP 11 — HSK3 Plan
+50 scenes follow the locked Step 08 arc: work responsibilities, learning methods, daily problem-solving, hobbies/social life, technology and growing projects. Language becomes longer and more explanatory while remaining natural. All global dialogue, character, location, audio, visual and ethics rules apply.
