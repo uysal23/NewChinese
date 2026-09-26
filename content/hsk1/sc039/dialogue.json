@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC039",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC039_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你觉得自己是什么样的人？",
+      "pinyin": "Nǐ juéde zìjǐ shì shénme yàng de rén?",
+      "translationTr": "Kendini nasıl biri olarak görüyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我觉得自己比较安静。",
+      "pinyin": "Wǒ juéde zìjǐ bǐjiào ānjìng.",
+      "translationTr": "Kendimi daha sakin biri olarak görüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "但是你也很喜欢聊天。",
+      "pinyin": "Dànshì nǐ yě hěn xǐhuan liáotiān.",
+      "translationTr": "Ama sohbet etmeyi de çok seviyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "跟熟人话比较多。",
+      "pinyin": "Gēn shúrén huà bǐjiào duō.",
+      "translationTr": "Tanıdıklarımla daha çok konuşurum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你做事很认真。",
+      "pinyin": "Nǐ zuòshì hěn rènzhēn.",
+      "translationTr": "İşlerini çok dikkatli yapıyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢，我喜欢把事情做好。",
+      "pinyin": "Xièxie, wǒ xǐhuan bǎ shìqing zuò hǎo.",
+      "translationTr": "Teşekkürler, işleri iyi yapmayı severim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你也很有耐心。",
+      "pinyin": "Nǐ yě hěn yǒu nàixīn.",
+      "translationTr": "Ayrıca çok sabırlısın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有时候吧。",
+      "pinyin": "Yǒushíhou ba.",
+      "translationTr": "Bazen diyelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "朋友需要帮助时，你总会帮忙。",
+      "pinyin": "Péngyou xūyào bāngzhù shí, nǐ zǒng huì bāngmáng.",
+      "translationTr": "Arkadaşlarının yardıma ihtiyacı olduğunda hep yardım edersin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "朋友之间应该这样。",
+      "pinyin": "Péngyou zhījiān yīnggāi zhèyàng.",
+      "translationTr": "Arkadaşlar arasında böyle olmalı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我觉得你很可靠。",
+      "pinyin": "Wǒ juéde nǐ hěn kěkào.",
+      "translationTr": "Bence güvenilir birisin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你这么说我很高兴。",
+      "pinyin": "Nǐ zhème shuō wǒ hěn gāoxìng.",
+      "translationTr": "Böyle söylemene sevindim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们越来越了解彼此了。",
+      "pinyin": "Wǒmen yuèláiyuè liǎojiě bǐcǐ le.",
+      "translationTr": "Birbirimizi giderek daha iyi tanıyoruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC039_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，这很好。",
+      "pinyin": "Duì, zhè hěn hǎo.",
+      "translationTr": "Evet, bu çok güzel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC036",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC036_001",
+      "hanzi": "爱好",
+      "pinyin": "àihào",
+      "translationTr": "hobi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_002",
+      "hanzi": "电影",
+      "pinyin": "diànyǐng",
+      "translationTr": "film",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_003",
+      "hanzi": "音乐",
+      "pinyin": "yīnyuè",
+      "translationTr": "müzik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_004",
+      "hanzi": "运动",
+      "pinyin": "yùndòng",
+      "translationTr": "spor",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_005",
+      "hanzi": "跑步",
+      "pinyin": "pǎobù",
+      "translationTr": "koşmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_006",
+      "hanzi": "散步",
+      "pinyin": "sànbù",
+      "translationTr": "yürüyüş yapmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_007",
+      "hanzi": "篮球",
+      "pinyin": "lánqiú",
+      "translationTr": "basketbol",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC036_008",
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "translationTr": "hava",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_word_008.m4a"
+    }
+  ]
+}

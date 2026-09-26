@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC037",
+  "level": "HSK1",
+  "sceneNumber": 37,
+  "titleZh": "家里的晚上",
+  "titleTr": "Evde Bir Akşam",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC036",
+  "nextSceneId": "HSK1_SC038",
+  "summaryTr": "Akşam evde dinlenme, televizyon, çay ve günlük alışkanlıklar konuşulur.",
+  "locationTr": "Zhang'ın Evi · Akşam"
+}

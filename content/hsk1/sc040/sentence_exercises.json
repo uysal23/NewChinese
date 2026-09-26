@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC040",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC040_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC040_001",
+      "correctZh": "大家一起吃饭很开心。",
+      "pinyin": "Dàjiā yìqǐ chīfàn hěn kāixīn.",
+      "translationTr": "Hep birlikte yemek yemek çok keyifli.",
+      "tokens": [
+        "大家",
+        "一起吃饭",
+        "很开心"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC040_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC040_002",
+      "sentenceZh": "家人和朋友都很___。",
+      "correctAnswer": "重要",
+      "options": [
+        "重要",
+        "温暖",
+        "晚餐",
+        "生活"
+      ],
+      "fullCorrectSentenceZh": "家人和朋友都很重要。",
+      "correctZh": "家人和朋友都很重要。",
+      "pinyin": "Jiārén hé péngyou dōu hěn zhòngyào.",
+      "translationTr": "Aile ve arkadaşlar çok önemlidir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_sentence_002.m4a"
+    }
+  ]
+}

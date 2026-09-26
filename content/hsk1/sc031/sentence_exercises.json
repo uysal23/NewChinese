@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC031",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC031_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC031_001",
+      "correctZh": "你家有几口人？",
+      "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+      "translationTr": "Ailende kaç kişi var?",
+      "tokens": [
+        "你家",
+        "有",
+        "几口人"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc031_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC031_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC031_002",
+      "sentenceZh": "我家有___口人。",
+      "correctAnswer": "四",
+      "options": [
+        "四",
+        "妹妹",
+        "常",
+        "周末"
+      ],
+      "fullCorrectSentenceZh": "我家有四口人。",
+      "correctZh": "我家有四口人。",
+      "pinyin": "Wǒ jiā yǒu sì kǒu rén.",
+      "translationTr": "Ailemde dört kişi var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc031_sentence_002.m4a"
+    }
+  ]
+}

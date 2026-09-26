@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC039",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC039_001",
+      "hanzi": "性格",
+      "pinyin": "xìnggé",
+      "translationTr": "kişilik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_002",
+      "hanzi": "安静",
+      "pinyin": "ānjìng",
+      "translationTr": "sakin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_003",
+      "hanzi": "熟人",
+      "pinyin": "shúrén",
+      "translationTr": "tanıdık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_004",
+      "hanzi": "认真",
+      "pinyin": "rènzhēn",
+      "translationTr": "dikkatli / ciddi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_005",
+      "hanzi": "耐心",
+      "pinyin": "nàixīn",
+      "translationTr": "sabır",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_006",
+      "hanzi": "帮助",
+      "pinyin": "bāngzhù",
+      "translationTr": "yardım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_007",
+      "hanzi": "可靠",
+      "pinyin": "kěkào",
+      "translationTr": "güvenilir",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC039_008",
+      "hanzi": "了解",
+      "pinyin": "liǎojiě",
+      "translationTr": "tanımak / anlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_word_008.m4a"
+    }
+  ]
+}

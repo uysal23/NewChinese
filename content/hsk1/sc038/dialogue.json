@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC038",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC038_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我来了。",
+      "pinyin": "Wǒ lái le.",
+      "translationTr": "Geldim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "欢迎，快进来。",
+      "pinyin": "Huānyíng, kuài jìnlái.",
+      "translationTr": "Hoş geldin, içeri gel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "打扰你了。",
+      "pinyin": "Dǎrǎo nǐ le.",
+      "translationTr": "Seni rahatsız ettim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不会，请坐。",
+      "pinyin": "Bú huì, qǐng zuò.",
+      "translationTr": "Olur mu, otur lütfen.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你家很舒服。",
+      "pinyin": "Nǐ jiā hěn shūfu.",
+      "translationTr": "Evin çok rahat.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢。要喝点什么？",
+      "pinyin": "Xièxie. Yào hē diǎn shénme?",
+      "translationTr": "Teşekkürler. Ne içersin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "茶就可以。",
+      "pinyin": "Chá jiù kěyǐ.",
+      "translationTr": "Çay yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要不要吃水果？",
+      "pinyin": "Yào bú yào chī shuǐguǒ?",
+      "translationTr": "Meyve ister misin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，吃一点。",
+      "pinyin": "Hǎo, chī yìdiǎn.",
+      "translationTr": "Olur, biraz yerim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天路上堵吗？",
+      "pinyin": "Jīntiān lùshang dǔ ma?",
+      "translationTr": "Bugün trafik yoğun muydu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不太堵，我很快就到了。",
+      "pinyin": "Bú tài dǔ, wǒ hěn kuài jiù dào le.",
+      "translationTr": "Çok değildi, çabuk geldim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那就好。",
+      "pinyin": "Nà jiù hǎo.",
+      "translationTr": "İyi o zaman.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们先聊一会儿吧。",
+      "pinyin": "Wǒmen xiān liáo yíhuìr ba.",
+      "translationTr": "Önce biraz sohbet edelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC038_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，慢慢聊。",
+      "pinyin": "Hǎo, mànmàn liáo.",
+      "translationTr": "Olur, rahat rahat konuşalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

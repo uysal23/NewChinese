@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC033",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC033_001",
+      "hanzi": "父母",
+      "pinyin": "fùmǔ",
+      "translationTr": "anne baba",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_002",
+      "hanzi": "打电话",
+      "pinyin": "dǎ diànhuà",
+      "translationTr": "telefon etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_003",
+      "hanzi": "方便",
+      "pinyin": "fāngbiàn",
+      "translationTr": "müsait / uygun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_004",
+      "hanzi": "接电话",
+      "pinyin": "jiē diànhuà",
+      "translationTr": "telefonu açmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_005",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "translationTr": "mutlu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_006",
+      "hanzi": "一会儿",
+      "pinyin": "yíhuìr",
+      "translationTr": "birazdan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_007",
+      "hanzi": "问好",
+      "pinyin": "wèn hǎo",
+      "translationTr": "selam iletmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC033_008",
+      "hanzi": "着急",
+      "pinyin": "zháojí",
+      "translationTr": "acele etmek / endişelenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_word_008.m4a"
+    }
+  ]
+}

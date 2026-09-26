@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC040",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC040_001",
+      "hanzi": "摆桌子",
+      "pinyin": "bǎi zhuōzi",
+      "translationTr": "masa hazırlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_002",
+      "hanzi": "筷子",
+      "pinyin": "kuàizi",
+      "translationTr": "yemek çubuğu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_003",
+      "hanzi": "家常菜",
+      "pinyin": "jiācháng cài",
+      "translationTr": "ev yemeği",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_004",
+      "hanzi": "晚餐",
+      "pinyin": "wǎncān",
+      "translationTr": "akşam yemeği",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_005",
+      "hanzi": "温暖",
+      "pinyin": "wēnnuǎn",
+      "translationTr": "sıcak / içten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_006",
+      "hanzi": "适应",
+      "pinyin": "shìyìng",
+      "translationTr": "alışmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_007",
+      "hanzi": "生活",
+      "pinyin": "shēnghuó",
+      "translationTr": "hayat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC040_008",
+      "hanzi": "重要",
+      "pinyin": "zhòngyào",
+      "translationTr": "önemli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_word_008.m4a"
+    }
+  ]
+}

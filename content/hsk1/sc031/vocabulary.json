@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC031",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC031_001",
+      "hanzi": "家人",
+      "pinyin": "jiārén",
+      "translationTr": "aile üyeleri",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc031_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_002",
+      "hanzi": "几口人",
+      "pinyin": "jǐ kǒu rén",
+      "translationTr": "kaç kişilik aile",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc031_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_003",
+      "hanzi": "妹妹",
+      "pinyin": "mèimei",
+      "translationTr": "kız kardeş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc031_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_004",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "translationTr": "yaşamak / oturmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc031_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_005",
+      "hanzi": "常",
+      "pinyin": "cháng",
+      "translationTr": "sık sık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc031_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_006",
+      "hanzi": "周末",
+      "pinyin": "zhōumò",
+      "translationTr": "hafta sonu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc031_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_007",
+      "hanzi": "关系",
+      "pinyin": "guānxi",
+      "translationTr": "ilişki",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc031_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC031_008",
+      "hanzi": "家庭照片",
+      "pinyin": "jiātíng zhàopiàn",
+      "translationTr": "aile fotoğrafı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc031_word_008.m4a"
+    }
+  ]
+}

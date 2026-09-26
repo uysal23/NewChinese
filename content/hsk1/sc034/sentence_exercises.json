@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC034",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC034_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC034_001",
+      "correctZh": "这个周末你有计划吗？",
+      "pinyin": "Zhège zhōumò nǐ yǒu jìhuà ma?",
+      "translationTr": "Bu hafta sonu planın var mı?",
+      "tokens": [
+        "这个周末",
+        "你有",
+        "计划吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc034_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC034_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC034_002",
+      "sentenceZh": "先___吃午饭。",
+      "correctAnswer": "一起",
+      "options": [
+        "一起",
+        "下午",
+        "如果",
+        "欢迎"
+      ],
+      "fullCorrectSentenceZh": "先一起吃午饭。",
+      "correctZh": "先一起吃午饭。",
+      "pinyin": "Xiān yìqǐ chī wǔfàn.",
+      "translationTr": "Önce birlikte öğle yemeği yiyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc034_sentence_002.m4a"
+    }
+  ]
+}

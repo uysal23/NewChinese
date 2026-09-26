@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC032",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC032_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC032_001",
+      "correctZh": "这是谁？",
+      "pinyin": "Zhè shì shéi?",
+      "translationTr": "Bu kim?",
+      "tokens": [
+        "这",
+        "是",
+        "谁"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC032_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC032_002",
+      "sentenceZh": "她喜欢___。",
+      "correctAnswer": "画画",
+      "options": [
+        "画画",
+        "照片",
+        "去年",
+        "旁边"
+      ],
+      "fullCorrectSentenceZh": "她喜欢画画。",
+      "correctZh": "她喜欢画画。",
+      "pinyin": "Tā xǐhuan huàhuà.",
+      "translationTr": "Resim yapmayı sever.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_sentence_002.m4a"
+    }
+  ]
+}

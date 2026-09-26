@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC038",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC038_001",
+      "hanzi": "欢迎",
+      "pinyin": "huānyíng",
+      "translationTr": "hoş geldin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_002",
+      "hanzi": "进来",
+      "pinyin": "jìnlái",
+      "translationTr": "içeri girmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_003",
+      "hanzi": "打扰",
+      "pinyin": "dǎrǎo",
+      "translationTr": "rahatsız etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_004",
+      "hanzi": "请坐",
+      "pinyin": "qǐng zuò",
+      "translationTr": "oturun lütfen",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_005",
+      "hanzi": "舒服",
+      "pinyin": "shūfu",
+      "translationTr": "rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_006",
+      "hanzi": "水果",
+      "pinyin": "shuǐguǒ",
+      "translationTr": "meyve",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_007",
+      "hanzi": "堵",
+      "pinyin": "dǔ",
+      "translationTr": "trafik yoğun olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC038_008",
+      "hanzi": "聊天",
+      "pinyin": "liáotiān",
+      "translationTr": "sohbet etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_word_008.m4a"
+    }
+  ]
+}

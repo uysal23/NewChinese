@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK1_SC036",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CITY_PARK_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "Relaxed park bench by lake in Hangzhou, daytime, two friends chatting about hobbies, no text.",
+  "assets": [
+    {
+      "file": "hsk1_sc036_bg.webp",
+      "purpose": "scene-specific background without characters"
+    },
+    {
+      "file": "hsk1_sc036_char_li_na.webp",
+      "purpose": "Li Na full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc036_char_zhang_wei.webp",
+      "purpose": "Zhang Wei full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc036_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk1_sc036_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no text baked into image",
+    "family-friendly",
+    "full legs/feet preserved",
+    "same canonical faces/outfits",
+    "mobile-safe framing",
+    "location must match dialogue"
+  ]
+}

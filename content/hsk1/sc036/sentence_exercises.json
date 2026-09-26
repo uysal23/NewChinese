@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC036",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC036_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC036_001",
+      "correctZh": "你平时有什么爱好？",
+      "pinyin": "Nǐ píngshí yǒu shénme àihào?",
+      "translationTr": "Genelde hangi hobilerin var?",
+      "tokens": [
+        "你平时",
+        "有什么",
+        "爱好"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC036_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC036_002",
+      "sentenceZh": "我喜欢看___。",
+      "correctAnswer": "电影",
+      "options": [
+        "电影",
+        "音乐",
+        "运动",
+        "天气"
+      ],
+      "fullCorrectSentenceZh": "我喜欢看电影。",
+      "correctZh": "我喜欢看电影。",
+      "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+      "translationTr": "Film izlemeyi severim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_sentence_002.m4a"
+    }
+  ]
+}

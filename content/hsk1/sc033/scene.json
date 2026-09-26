@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC033",
+  "level": "HSK1",
+  "sceneNumber": 33,
+  "titleZh": "给父母打电话",
+  "titleTr": "Anne Babayı Aramak",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC032",
+  "nextSceneId": "HSK1_SC034",
+  "summaryTr": "Zhang Wei ailesini aramadan önce Li Na ile konuşur; aramak, cevap vermek ve iyi dilek ifadeleri çalışılır.",
+  "locationTr": "Zhang'ın Evi · Akşam"
+}

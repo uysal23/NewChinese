@@ -1,0 +1,393 @@
+{
+  "sceneId": "HSK1_SC036",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK1_SC036_audio_assets.zip",
+  "outputDirectory": "content/hsk1/sc036/assets",
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk1_sc036_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你平时有什么爱好？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 2,
+      "file": "hsk1_sc036_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我喜欢看电影。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 3,
+      "file": "hsk1_sc036_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "还喜欢什么？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 4,
+      "file": "hsk1_sc036_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "也喜欢听音乐。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 5,
+      "file": "hsk1_sc036_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你做运动吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 6,
+      "file": "hsk1_sc036_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有时候跑步。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 7,
+      "file": "hsk1_sc036_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我比较喜欢散步。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 8,
+      "file": "hsk1_sc036_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "散步也很好。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 9,
+      "file": "hsk1_sc036_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你会打篮球吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 10,
+      "file": "hsk1_sc036_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "会一点，但是打得不好。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 11,
+      "file": "hsk1_sc036_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "周末可以一起运动。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 12,
+      "file": "hsk1_sc036_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，天气好就去。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 13,
+      "file": "hsk1_sc036_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你也可以带音乐。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 14,
+      "file": "hsk1_sc036_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "没问题。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 15,
+      "file": "hsk1_sc036_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "爱好",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 16,
+      "file": "hsk1_sc036_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "电影",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 17,
+      "file": "hsk1_sc036_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "音乐",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 18,
+      "file": "hsk1_sc036_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "运动",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 19,
+      "file": "hsk1_sc036_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "跑步",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 20,
+      "file": "hsk1_sc036_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "散步",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 21,
+      "file": "hsk1_sc036_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "篮球",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 22,
+      "file": "hsk1_sc036_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "天气",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 23,
+      "file": "hsk1_sc036_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "你平时有什么爱好？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 24,
+      "file": "hsk1_sc036_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我喜欢看电影。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    }
+  ]
+}

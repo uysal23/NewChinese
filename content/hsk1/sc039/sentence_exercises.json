@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC039",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC039_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC039_001",
+      "correctZh": "你觉得自己是什么样的人？",
+      "pinyin": "Nǐ juéde zìjǐ shì shénme yàng de rén?",
+      "translationTr": "Kendini nasıl biri olarak görüyorsun?",
+      "tokens": [
+        "你觉得",
+        "自己",
+        "是什么样的人"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc039_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC039_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC039_002",
+      "sentenceZh": "我觉得自己比较___。",
+      "correctAnswer": "安静",
+      "options": [
+        "安静",
+        "认真",
+        "帮助",
+        "了解"
+      ],
+      "fullCorrectSentenceZh": "我觉得自己比较安静。",
+      "correctZh": "我觉得自己比较安静。",
+      "pinyin": "Wǒ juéde zìjǐ bǐjiào ānjìng.",
+      "translationTr": "Kendimi daha sakin biri olarak görüyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc039_sentence_002.m4a"
+    }
+  ]
+}

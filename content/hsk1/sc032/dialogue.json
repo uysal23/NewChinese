@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC032",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC032_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你看，这是我爸爸。",
+      "pinyin": "Nǐ kàn, zhè shì wǒ bàba.",
+      "translationTr": "Bak, bu babam.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "他看起来很年轻。",
+      "pinyin": "Tā kàn qǐlái hěn niánqīng.",
+      "translationTr": "Genç görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这张是去年拍的。",
+      "pinyin": "Zhè zhāng shì qùnián pāi de.",
+      "translationTr": "Bu geçen yıl çekildi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "旁边的是你妈妈吗？",
+      "pinyin": "Pángbiān de shì nǐ māma ma?",
+      "translationTr": "Yanındaki annen mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，她很喜欢笑。",
+      "pinyin": "Duì, tā hěn xǐhuan xiào.",
+      "translationTr": "Evet, gülmeyi çok sever.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这是谁？",
+      "pinyin": "Zhè shì shéi?",
+      "translationTr": "Bu kim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这是我妹妹。",
+      "pinyin": "Zhè shì wǒ mèimei.",
+      "translationTr": "Bu kız kardeşim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你们长得有点像。",
+      "pinyin": "Nǐmen zhǎng de yǒudiǎn xiàng.",
+      "translationTr": "Biraz birbirinize benziyorsunuz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "大家都这么说。",
+      "pinyin": "Dàjiā dōu zhème shuō.",
+      "translationTr": "Herkes öyle söylüyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "她喜欢做什么？",
+      "pinyin": "Tā xǐhuan zuò shénme?",
+      "translationTr": "Ne yapmayı sever?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "她喜欢画画，也喜欢旅行。",
+      "pinyin": "Tā xǐhuan huàhuà, yě xǐhuan lǚxíng.",
+      "translationTr": "Resim yapmayı ve seyahat etmeyi sever.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这张照片在哪里拍的？",
+      "pinyin": "Zhè zhāng zhàopiàn zài nǎli pāi de?",
+      "translationTr": "Bu fotoğraf nerede çekildi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "在西湖边。",
+      "pinyin": "Zài Xīhú biān.",
+      "translationTr": "Batı Gölü kenarında.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc032_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC032_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "照片很漂亮。",
+      "pinyin": "Zhàopiàn hěn piàoliang.",
+      "translationTr": "Fotoğraf çok güzel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc032_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

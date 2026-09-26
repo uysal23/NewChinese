@@ -1,0 +1,76 @@
+{
+  "sceneId": "HSK1_SC037",
+  "visual": {
+    "status": "pending",
+    "required": [
+      "assets/hsk1_sc037_bg.webp",
+      "assets/hsk1_sc037_char_li_na.webp",
+      "assets/hsk1_sc037_char_zhang_wei.webp",
+      "assets/hsk1_sc037_fg.webp",
+      "assets/hsk1_sc037_preview.webp"
+    ],
+    "missing": [
+      "assets/hsk1_sc037_bg.webp",
+      "assets/hsk1_sc037_char_li_na.webp",
+      "assets/hsk1_sc037_char_zhang_wei.webp",
+      "assets/hsk1_sc037_fg.webp",
+      "assets/hsk1_sc037_preview.webp"
+    ]
+  },
+  "audio": {
+    "status": "pending",
+    "required": [
+      "assets/hsk1_sc037_line_001.m4a",
+      "assets/hsk1_sc037_line_002.m4a",
+      "assets/hsk1_sc037_line_003.m4a",
+      "assets/hsk1_sc037_line_004.m4a",
+      "assets/hsk1_sc037_line_005.m4a",
+      "assets/hsk1_sc037_line_006.m4a",
+      "assets/hsk1_sc037_line_007.m4a",
+      "assets/hsk1_sc037_line_008.m4a",
+      "assets/hsk1_sc037_line_009.m4a",
+      "assets/hsk1_sc037_line_010.m4a",
+      "assets/hsk1_sc037_line_011.m4a",
+      "assets/hsk1_sc037_line_012.m4a",
+      "assets/hsk1_sc037_line_013.m4a",
+      "assets/hsk1_sc037_line_014.m4a",
+      "assets/hsk1_sc037_word_001.m4a",
+      "assets/hsk1_sc037_word_002.m4a",
+      "assets/hsk1_sc037_word_003.m4a",
+      "assets/hsk1_sc037_word_004.m4a",
+      "assets/hsk1_sc037_word_005.m4a",
+      "assets/hsk1_sc037_word_006.m4a",
+      "assets/hsk1_sc037_word_007.m4a",
+      "assets/hsk1_sc037_word_008.m4a",
+      "assets/hsk1_sc037_sentence_001.m4a",
+      "assets/hsk1_sc037_sentence_002.m4a"
+    ],
+    "missing": [
+      "assets/hsk1_sc037_line_001.m4a",
+      "assets/hsk1_sc037_line_002.m4a",
+      "assets/hsk1_sc037_line_003.m4a",
+      "assets/hsk1_sc037_line_004.m4a",
+      "assets/hsk1_sc037_line_005.m4a",
+      "assets/hsk1_sc037_line_006.m4a",
+      "assets/hsk1_sc037_line_007.m4a",
+      "assets/hsk1_sc037_line_008.m4a",
+      "assets/hsk1_sc037_line_009.m4a",
+      "assets/hsk1_sc037_line_010.m4a",
+      "assets/hsk1_sc037_line_011.m4a",
+      "assets/hsk1_sc037_line_012.m4a",
+      "assets/hsk1_sc037_line_013.m4a",
+      "assets/hsk1_sc037_line_014.m4a",
+      "assets/hsk1_sc037_word_001.m4a",
+      "assets/hsk1_sc037_word_002.m4a",
+      "assets/hsk1_sc037_word_003.m4a",
+      "assets/hsk1_sc037_word_004.m4a",
+      "assets/hsk1_sc037_word_005.m4a",
+      "assets/hsk1_sc037_word_006.m4a",
+      "assets/hsk1_sc037_word_007.m4a",
+      "assets/hsk1_sc037_word_008.m4a",
+      "assets/hsk1_sc037_sentence_001.m4a",
+      "assets/hsk1_sc037_sentence_002.m4a"
+    ]
+  },
+  "rule": "A media category may only be marked complete after every required physical asset exists and passes validation."
+}

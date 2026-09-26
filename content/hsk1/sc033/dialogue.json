@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC033",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC033_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你今天给父母打电话了吗？",
+      "pinyin": "Nǐ jīntiān gěi fùmǔ dǎ diànhuà le ma?",
+      "translationTr": "Bugün anne babanı aradın mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还没有，我现在打。",
+      "pinyin": "Hái méiyǒu, wǒ xiànzài dǎ.",
+      "translationTr": "Henüz değil, şimdi arayacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "他们现在方便吗？",
+      "pinyin": "Tāmen xiànzài fāngbiàn ma?",
+      "translationTr": "Şu an müsaitler mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "应该方便。",
+      "pinyin": "Yīnggāi fāngbiàn.",
+      "translationTr": "Muhtemelen müsaitler.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你先打吧，我等你。",
+      "pinyin": "Nǐ xiān dǎ ba, wǒ děng nǐ.",
+      "translationTr": "Önce sen ara, ben beklerim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好。喂，妈妈，你好。",
+      "pinyin": "Hǎo. Wéi, māma, nǐ hǎo.",
+      "translationTr": "Tamam. Alo anne, merhaba.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "她接电话了吗？",
+      "pinyin": "Tā jiē diànhuà le ma?",
+      "translationTr": "Telefonu açtı mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "接了，她很高兴。",
+      "pinyin": "Jiē le, tā hěn gāoxìng.",
+      "translationTr": "Açtı, çok sevindi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你爸爸也在家吗？",
+      "pinyin": "Nǐ bàba yě zài jiā ma?",
+      "translationTr": "Baban da evde mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "在，他一会儿跟我说话。",
+      "pinyin": "Zài, tā yíhuìr gēn wǒ shuōhuà.",
+      "translationTr": "Evet, birazdan benimle konuşacak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "替我问他们好。",
+      "pinyin": "Tì wǒ wèn tāmen hǎo.",
+      "translationTr": "Benden de selam söyle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我会说。",
+      "pinyin": "Hǎo, wǒ huì shuō.",
+      "translationTr": "Tamam, söylerim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "慢慢聊，不着急。",
+      "pinyin": "Mànmàn liáo, bù zháojí.",
+      "translationTr": "Rahat rahat konuş, acele yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC033_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢，我很快回来。",
+      "pinyin": "Xièxie, wǒ hěn kuài huílái.",
+      "translationTr": "Teşekkürler, hemen dönerim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

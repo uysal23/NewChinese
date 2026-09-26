@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC038",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC038_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC038_001",
+      "correctZh": "要喝点什么？",
+      "pinyin": "Yào hē diǎn shénme?",
+      "translationTr": "Ne içersin?",
+      "tokens": [
+        "要喝",
+        "点",
+        "什么"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc038_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC038_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC038_002",
+      "sentenceZh": "我们先___一会儿吧。",
+      "correctAnswer": "聊",
+      "options": [
+        "聊",
+        "坐",
+        "进来",
+        "堵"
+      ],
+      "fullCorrectSentenceZh": "我们先聊一会儿吧。",
+      "correctZh": "我们先聊一会儿吧。",
+      "pinyin": "Wǒmen xiān liáo yíhuìr ba.",
+      "translationTr": "Önce biraz sohbet edelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc038_sentence_002.m4a"
+    }
+  ]
+}

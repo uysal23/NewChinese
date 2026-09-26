@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC040",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC040_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "饭快好了。",
+      "pinyin": "Fàn kuài hǎo le.",
+      "translationTr": "Yemek neredeyse hazır.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我来摆桌子。",
+      "pinyin": "Wǒ lái bǎi zhuōzi.",
+      "translationTr": "Masayı ben hazırlayayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，把碗和筷子放这里。",
+      "pinyin": "Hǎo, bǎ wǎn hé kuàizi fàng zhèlǐ.",
+      "translationTr": "Tamam, kâse ve çubukları buraya koy.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天的菜真香。",
+      "pinyin": "Jīntiān de cài zhēn xiāng.",
+      "translationTr": "Bugünkü yemek çok güzel kokuyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "都是家常菜。",
+      "pinyin": "Dōu shì jiācháng cài.",
+      "translationTr": "Hepsi ev yemeği.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我很喜欢这种晚餐。",
+      "pinyin": "Wǒ hěn xǐhuan zhè zhǒng wǎncān.",
+      "translationTr": "Böyle akşam yemeklerini çok seviyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "大家一起吃饭很开心。",
+      "pinyin": "Dàjiā yìqǐ chīfàn hěn kāixīn.",
+      "translationTr": "Hep birlikte yemek yemek çok keyifli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，感觉很温暖。",
+      "pinyin": "Duì, gǎnjué hěn wēnnuǎn.",
+      "translationTr": "Evet, çok sıcak bir his veriyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这几天你适应得越来越好了。",
+      "pinyin": "Zhè jǐ tiān nǐ shìyìng de yuèláiyuè hǎo le.",
+      "translationTr": "Son günlerde gittikçe daha iyi alıştın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是啊，现在像自己的生活了。",
+      "pinyin": "Shì a, xiànzài xiàng zìjǐ de shēnghuó le.",
+      "translationTr": "Evet, artık kendi hayatım gibi geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "家人和朋友都很重要。",
+      "pinyin": "Jiārén hé péngyou dōu hěn zhòngyào.",
+      "translationTr": "Aile ve arkadaşlar çok önemli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也这么觉得。",
+      "pinyin": "Wǒ yě zhème juéde.",
+      "translationTr": "Ben de öyle düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先吃饭吧，别凉了。",
+      "pinyin": "Xiān chīfàn ba, bié liáng le.",
+      "translationTr": "Önce yiyelim, soğumasın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc040_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC040_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，开饭。",
+      "pinyin": "Hǎo, kāifàn.",
+      "translationTr": "Tamam, başlayalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc040_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

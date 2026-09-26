@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC037",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC037_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC037_001",
+      "correctZh": "你一般几点睡觉？",
+      "pinyin": "Nǐ yìbān jǐ diǎn shuìjiào?",
+      "translationTr": "Genelde saat kaçta uyursun?",
+      "tokens": [
+        "你一般",
+        "几点",
+        "睡觉"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC037_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC037_002",
+      "sentenceZh": "我给你___一杯。",
+      "correctAnswer": "倒",
+      "options": [
+        "倒",
+        "睡觉",
+        "可能",
+        "晚上"
+      ],
+      "fullCorrectSentenceZh": "我给你倒一杯。",
+      "correctZh": "我给你倒一杯。",
+      "pinyin": "Wǒ gěi nǐ dào yì bēi.",
+      "translationTr": "Sana bir fincan doldurayım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_sentence_002.m4a"
+    }
+  ]
+}

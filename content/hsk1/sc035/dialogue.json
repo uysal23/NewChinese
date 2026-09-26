@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC035",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC035_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你妹妹的生日快到了吧？",
+      "pinyin": "Nǐ mèimei de shēngrì kuài dào le ba?",
+      "translationTr": "Kız kardeşinin doğum günü yaklaştı, değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，下个星期就是。",
+      "pinyin": "Duì, xià ge xīngqī jiù shì.",
+      "translationTr": "Evet, gelecek hafta.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你准备礼物了吗？",
+      "pinyin": "Nǐ zhǔnbèi lǐwù le ma?",
+      "translationTr": "Hediyeyi hazırladın mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还没有，我在想。",
+      "pinyin": "Hái méiyǒu, wǒ zài xiǎng.",
+      "translationTr": "Henüz değil, düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "她喜欢什么？",
+      "pinyin": "Tā xǐhuan shénme?",
+      "translationTr": "Neyi sever?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "她喜欢书和画画。",
+      "pinyin": "Tā xǐhuan shū hé huàhuà.",
+      "translationTr": "Kitap ve resim yapmayı sever.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那可以买一本好书。",
+      "pinyin": "Nà kěyǐ mǎi yì běn hǎo shū.",
+      "translationTr": "O zaman güzel bir kitap alabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好主意。还要买蛋糕。",
+      "pinyin": "Hǎo zhǔyi. Hái yào mǎi dàngāo.",
+      "translationTr": "İyi fikir. Bir de pasta almak lazım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你想买什么味道的？",
+      "pinyin": "Nǐ xiǎng mǎi shénme wèidào de?",
+      "translationTr": "Hangi aromalı olsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "她喜欢草莓味。",
+      "pinyin": "Tā xǐhuan cǎoméi wèi.",
+      "translationTr": "Çilekli sever.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "要不要写一张卡片？",
+      "pinyin": "Yào bú yào xiě yì zhāng kǎpiàn?",
+      "translationTr": "Bir kart yazalım mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要，我想写几句话。",
+      "pinyin": "Yào, wǒ xiǎng xiě jǐ jù huà.",
+      "translationTr": "Evet, birkaç cümle yazmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "她一定会很开心。",
+      "pinyin": "Tā yídìng huì hěn kāixīn.",
+      "translationTr": "Kesin çok mutlu olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC035_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "希望她喜欢。",
+      "pinyin": "Xīwàng tā xǐhuan.",
+      "translationTr": "Umarım beğenir.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

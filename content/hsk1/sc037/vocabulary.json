@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC037",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC037_001",
+      "hanzi": "晚上",
+      "pinyin": "wǎnshang",
+      "translationTr": "akşam",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_002",
+      "hanzi": "电视",
+      "pinyin": "diànshì",
+      "translationTr": "televizyon",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_003",
+      "hanzi": "新闻",
+      "pinyin": "xīnwén",
+      "translationTr": "haber",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_004",
+      "hanzi": "可能",
+      "pinyin": "kěnéng",
+      "translationTr": "belki / mümkün",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_005",
+      "hanzi": "倒",
+      "pinyin": "dào",
+      "translationTr": "dökmek / doldurmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_006",
+      "hanzi": "睡觉",
+      "pinyin": "shuìjiào",
+      "translationTr": "uyumak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_007",
+      "hanzi": "左右",
+      "pinyin": "zuǒyòu",
+      "translationTr": "civarı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC037_008",
+      "hanzi": "慢慢",
+      "pinyin": "mànmàn",
+      "translationTr": "yavaşça / rahatça",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_word_008.m4a"
+    }
+  ]
+}

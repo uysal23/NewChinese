@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC034",
+  "level": "HSK1",
+  "sceneNumber": 34,
+  "titleZh": "周末家庭计划",
+  "titleTr": "Hafta Sonu Aile Planı",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC033",
+  "nextSceneId": "HSK1_SC035",
+  "summaryTr": "Hafta sonu aileyle yapılacak planlar konuşulur; birlikte, ziyaret, öğle yemeği ve zaman ifadeleri pekiştirilir.",
+  "locationTr": "Zhang'ın Evi · Sabah"
+}

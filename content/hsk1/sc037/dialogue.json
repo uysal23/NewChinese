@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC037",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC037_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天晚上你想做什么？",
+      "pinyin": "Jīntiān wǎnshang nǐ xiǎng zuò shénme?",
+      "translationTr": "Bu akşam ne yapmak istiyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想在家休息。",
+      "pinyin": "Wǒ xiǎng zài jiā xiūxi.",
+      "translationTr": "Evde dinlenmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "要看电视吗？",
+      "pinyin": "Yào kàn diànshì ma?",
+      "translationTr": "Televizyon izleyecek misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "看一会儿新闻。",
+      "pinyin": "Kàn yíhuìr xīnwén.",
+      "translationTr": "Biraz haber izleyeceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "然后呢？",
+      "pinyin": "Ránhòu ne?",
+      "translationTr": "Sonra?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可能看一部电影。",
+      "pinyin": "Kěnéng kàn yí bù diànyǐng.",
+      "translationTr": "Belki bir film izlerim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你晚上喝茶吗？",
+      "pinyin": "Nǐ wǎnshang hē chá ma?",
+      "translationTr": "Akşamları çay içer misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "喝，但是不喝太多。",
+      "pinyin": "Hē, dànshì bù hē tài duō.",
+      "translationTr": "İçerim ama çok içmem.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我给你倒一杯。",
+      "pinyin": "Wǒ gěi nǐ dào yì bēi.",
+      "translationTr": "Sana bir fincan koyayım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢。",
+      "pinyin": "Xièxie.",
+      "translationTr": "Teşekkürler.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你一般几点睡觉？",
+      "pinyin": "Nǐ yìbān jǐ diǎn shuìjiào?",
+      "translationTr": "Genelde saat kaçta uyursun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "十一点左右。",
+      "pinyin": "Shíyī diǎn zuǒyòu.",
+      "translationTr": "Saat on bir civarı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那还早，可以慢慢休息。",
+      "pinyin": "Nà hái zǎo, kěyǐ mànmàn xiūxi.",
+      "translationTr": "Daha erken, rahatça dinlenebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc037_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC037_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，今天不着急。",
+      "pinyin": "Duì, jīntiān bù zháojí.",
+      "translationTr": "Evet, bugün acelem yok.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc037_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

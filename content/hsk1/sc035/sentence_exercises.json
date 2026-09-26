@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC035",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC035_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC035_001",
+      "correctZh": "你准备礼物了吗？",
+      "pinyin": "Nǐ zhǔnbèi lǐwù le ma?",
+      "translationTr": "Hediyeyi hazırladın mı?",
+      "tokens": [
+        "你",
+        "准备礼物",
+        "了吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC035_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC035_002",
+      "sentenceZh": "她喜欢___味。",
+      "correctAnswer": "草莓",
+      "options": [
+        "草莓",
+        "礼物",
+        "卡片",
+        "希望"
+      ],
+      "fullCorrectSentenceZh": "她喜欢草莓味。",
+      "correctZh": "她喜欢草莓味。",
+      "pinyin": "Tā xǐhuan cǎoméi wèi.",
+      "translationTr": "Çilekli aromayı sever.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_sentence_002.m4a"
+    }
+  ]
+}

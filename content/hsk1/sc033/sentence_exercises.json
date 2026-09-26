@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC033",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC033_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC033_001",
+      "correctZh": "她接电话了吗？",
+      "pinyin": "Tā jiē diànhuà le ma?",
+      "translationTr": "Telefonu açtı mı?",
+      "tokens": [
+        "她",
+        "接电话",
+        "了吗"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc033_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC033_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC033_002",
+      "sentenceZh": "替我___他们好。",
+      "correctAnswer": "问",
+      "options": [
+        "问",
+        "等",
+        "接",
+        "打"
+      ],
+      "fullCorrectSentenceZh": "替我问他们好。",
+      "correctZh": "替我问他们好。",
+      "pinyin": "Tì wǒ wèn tāmen hǎo.",
+      "translationTr": "Benden de selam söyle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc033_sentence_002.m4a"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC036",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC036_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你平时有什么爱好？",
+      "pinyin": "Nǐ píngshí yǒu shénme àihào?",
+      "translationTr": "Genelde hangi hobilerin var?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我喜欢看电影。",
+      "pinyin": "Wǒ xǐhuan kàn diànyǐng.",
+      "translationTr": "Film izlemeyi severim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还喜欢什么？",
+      "pinyin": "Hái xǐhuan shénme?",
+      "translationTr": "Başka ne seversin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "也喜欢听音乐。",
+      "pinyin": "Yě xǐhuan tīng yīnyuè.",
+      "translationTr": "Müzik dinlemeyi de severim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你做运动吗？",
+      "pinyin": "Nǐ zuò yùndòng ma?",
+      "translationTr": "Spor yapar mısın?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有时候跑步。",
+      "pinyin": "Yǒushíhou pǎobù.",
+      "translationTr": "Bazen koşarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我比较喜欢散步。",
+      "pinyin": "Wǒ bǐjiào xǐhuan sànbù.",
+      "translationTr": "Ben daha çok yürümeyi severim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "散步也很好。",
+      "pinyin": "Sànbù yě hěn hǎo.",
+      "translationTr": "Yürüyüş de çok iyi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你会打篮球吗？",
+      "pinyin": "Nǐ huì dǎ lánqiú ma?",
+      "translationTr": "Basketbol oynayabilir misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "会一点，但是打得不好。",
+      "pinyin": "Huì yìdiǎn, dànshì dǎ de bù hǎo.",
+      "translationTr": "Biraz, ama iyi oynamam.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "周末可以一起运动。",
+      "pinyin": "Zhōumò kěyǐ yìqǐ yùndòng.",
+      "translationTr": "Hafta sonu birlikte spor yapabiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，天气好就去。",
+      "pinyin": "Hǎo, tiānqì hǎo jiù qù.",
+      "translationTr": "Olur, hava güzel olursa gideriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你也可以带音乐。",
+      "pinyin": "Nǐ yě kěyǐ dài yīnyuè.",
+      "translationTr": "Müzik de getirebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc036_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC036_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "没问题。",
+      "pinyin": "Méi wèntí.",
+      "translationTr": "Sorun değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc036_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC035",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC035_001",
+      "hanzi": "生日",
+      "pinyin": "shēngrì",
+      "translationTr": "doğum günü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_002",
+      "hanzi": "礼物",
+      "pinyin": "lǐwù",
+      "translationTr": "hediye",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_003",
+      "hanzi": "主意",
+      "pinyin": "zhǔyi",
+      "translationTr": "fikir",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_004",
+      "hanzi": "蛋糕",
+      "pinyin": "dàngāo",
+      "translationTr": "pasta",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_005",
+      "hanzi": "味道",
+      "pinyin": "wèidào",
+      "translationTr": "tat / aroma",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_006",
+      "hanzi": "草莓",
+      "pinyin": "cǎoméi",
+      "translationTr": "çilek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_007",
+      "hanzi": "卡片",
+      "pinyin": "kǎpiàn",
+      "translationTr": "kart",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc035_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC035_008",
+      "hanzi": "希望",
+      "pinyin": "xīwàng",
+      "translationTr": "ummak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc035_word_008.m4a"
+    }
+  ]
+}

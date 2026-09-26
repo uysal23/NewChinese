@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC032",
+  "level": "HSK1",
+  "sceneNumber": 32,
+  "titleZh": "看家庭照片",
+  "titleTr": "Aile Fotoğraflarına Bakmak",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC031",
+  "nextSceneId": "HSK1_SC033",
+  "summaryTr": "Aile fotoğrafları üzerinden kişileri tanımlama, görünüş ve yaş ifadeleri çalışılır.",
+  "locationTr": "Zhang'ın Evi · Oturma Odası"
+}
