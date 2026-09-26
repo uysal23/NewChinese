@@ -1,0 +1,11 @@
+{
+  "sceneId":"HSK1_SC001",
+  "words":[
+    {"wordId":"WORD_HSK1_SC001_001","hanzi":"你好","pinyin":"nǐ hǎo","translationTr":"merhaba","isExamTarget":true},
+    {"wordId":"WORD_HSK1_SC001_002","hanzi":"是","pinyin":"shì","translationTr":"olmak / -dır","isExamTarget":true},
+    {"wordId":"WORD_HSK1_SC001_003","hanzi":"谢谢","pinyin":"xièxie","translationTr":"teşekkür ederim","isExamTarget":true},
+    {"wordId":"WORD_HSK1_SC001_004","hanzi":"见","pinyin":"jiàn","translationTr":"görmek / görüşmek","isExamTarget":true},
+    {"wordId":"WORD_HSK1_SC001_005","hanzi":"累","pinyin":"lèi","translationTr":"yorgun","isExamTarget":true},
+    {"wordId":"WORD_HSK1_SC001_006","hanzi":"好","pinyin":"hǎo","translationTr":"iyi / tamam","isExamTarget":true}
+  ]
+}
