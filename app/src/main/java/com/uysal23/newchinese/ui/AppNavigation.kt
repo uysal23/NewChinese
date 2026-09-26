@@ -72,7 +72,12 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
             }
             composable("vocabulary") {
                 KeepScreenOn()
-                VocabularyScreen(scene.vocabulary, onBack = { nav.popBackStack() })
+                VocabularyScreen(
+                    items = scene.vocabulary,
+                    favoriteIds = current.favoriteWordIds,
+                    onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } },
+                    onBack = { nav.popBackStack() }
+                )
             }
             composable("sentences") {
                 KeepScreenOn()
@@ -81,6 +86,21 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
             composable("shadowing") {
                 KeepScreenOn()
                 ShadowingSetupScreen(scene.lines.size, onBack = { nav.popBackStack() })
+            }
+            composable("freeStudy") {
+                FreeStudyScreen(
+                    onVocabulary = { nav.navigate("vocabulary") },
+                    onSentence = { nav.navigate("sentences") },
+                    onShadowing = { nav.navigate("shadowing") },
+                    onDialogue = { nav.navigate("dialogue") }
+                )
+            }
+            composable("favorites") {
+                FavoritesScreen(
+                    allWords = scene.vocabulary,
+                    favoriteIds = current.favoriteWordIds,
+                    onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } }
+                )
             }
             composable("settings") {
                 SettingsScreen(
@@ -93,8 +113,6 @@ fun AppNavigation(preferences: UserPreferences, repository: ContentRepository) {
                 )
             }
             composable("placement") { PlaceholderScreen("Seviye Tespit Sınavı") }
-            composable("freeStudy") { PlaceholderScreen("Serbest Çalışma") }
-            composable("favorites") { PlaceholderScreen("Favoriler") }
             composable("progress") { PlaceholderScreen("İlerlemem") }
         }
     }
