@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0",
+  "levels": [
+    {"level":"HSK1","sceneCount":50},
+    {"level":"HSK2","sceneCount":50},
+    {"level":"HSK3","sceneCount":50},
+    {"level":"HSK4","sceneCount":50},
+    {"level":"HSK5","sceneCount":50},
+    {"level":"HSK6","sceneCount":50}
+  ],
+  "referenceScene": "HSK1_SC001"
+}
