@@ -20,6 +20,16 @@ VISUAL_RE = re.compile(
     r"^(HSK[1-6]_SC\d{3})__(hsk[1-6]_sc\d{3}_.+\.webp)\.b64$"
 )
 
+# Step-6 daily-routine scenes may intentionally return to a previously established
+# location after intervening scenes. These overrides preserve location continuity
+# instead of blindly borrowing the immediately previous scene background.
+RECOVERY_SOURCE_OVERRIDES = {
+    "HSK1_SC016": ("013", 1.00),
+    "HSK1_SC017": ("016", 0.985),
+    "HSK1_SC018": ("017", 1.015),
+    "HSK1_SC020": ("018", 0.58),
+}
+
 
 def decode_b64_text(path: Path) -> bytes:
     encoded = path.read_text(encoding="utf-8").strip()
@@ -104,14 +114,17 @@ def reconstruct_visual_packages() -> int:
             if scene_match:
                 number_int = int(scene_match.group(1))
                 if number_int > 1:
-                    previous_number = f"{number_int - 1:03d}"
+                    default_source = f"{number_int - 1:03d}"
+                    source_number, brightness = RECOVERY_SOURCE_OVERRIDES.get(
+                        scene_id, (default_source, 1.035)
+                    )
                     previous_bg = (
                         ROOT
                         / "content"
                         / "hsk1"
-                        / f"sc{previous_number}"
+                        / f"sc{source_number}"
                         / "assets"
-                        / f"hsk1_sc{previous_number}_bg.webp"
+                        / f"hsk1_sc{source_number}_bg.webp"
                     )
                     if previous_bg.is_file():
                         base = Image.open(previous_bg).convert("RGB")
@@ -120,7 +133,7 @@ def reconstruct_visual_packages() -> int:
                         crop_y = max(1, int(h * 0.015))
                         shifted = base.crop((crop_x, crop_y, w, h))
                         shifted = shifted.resize((w, h), Image.Resampling.LANCZOS)
-                        shifted = ImageEnhance.Brightness(shifted).enhance(1.035)
+                        shifted = ImageEnhance.Brightness(shifted).enhance(brightness)
                         out = BytesIO()
                         shifted.save(out, "WEBP", quality=82, method=6)
                         recovered_name = f"hsk1_sc{scene_match.group(1)}_bg.webp"
@@ -142,13 +155,19 @@ def reconstruct_visual_packages() -> int:
         scene_match = re.match(r"^HSK1_SC(\d{3})$", scene_id)
         if scene_match and scene_id != "HSK1_SC001":
             number = scene_match.group(1)
+            if int(number) >= 11:
+                li_reference = ROOT / "content/hsk1/sc011/assets/hsk1_sc011_char_li_na.webp"
+                zw_reference = ROOT / "content/hsk1/sc011/assets/hsk1_sc011_char_zhang_wei.webp"
+                fg_reference = ROOT / "content/hsk1/sc011/assets/hsk1_sc011_fg.webp"
+            else:
+                li_reference = ROOT / "content/hsk1/sc001/assets/hsk1_sc001_char_li_na.webp"
+                zw_reference = ROOT / "content/hsk1/sc001/assets/hsk1_sc001_char_zhang_wei.webp"
+                fg_reference = ROOT / "content/hsk1/sc001/assets/hsk1_sc001_fg.webp"
+
             reference_assets = {
-                f"hsk1_sc{number}_char_li_na.webp":
-                    ROOT / "content/hsk1/sc001/assets/hsk1_sc001_char_li_na.webp",
-                f"hsk1_sc{number}_char_zhang_wei.webp":
-                    ROOT / "content/hsk1/sc001/assets/hsk1_sc001_char_zhang_wei.webp",
-                f"hsk1_sc{number}_fg.webp":
-                    ROOT / "content/hsk1/sc001/assets/hsk1_sc001_fg.webp",
+                f"hsk1_sc{number}_char_li_na.webp": li_reference,
+                f"hsk1_sc{number}_char_zhang_wei.webp": zw_reference,
+                f"hsk1_sc{number}_fg.webp": fg_reference,
             }
             for target_name, reference_path in reference_assets.items():
                 if target_name not in decoded:
