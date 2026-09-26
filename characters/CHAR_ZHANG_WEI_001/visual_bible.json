@@ -1,0 +1,11 @@
+{
+  "visualBibleId":"VIS_CHAR_ZHANG_WEI_001",
+  "characterId":"CHAR_ZHANG_WEI_001",
+  "style":"unified_2_5d_3d_cgi",
+  "hair":"short dark straight hair",
+  "face":"oval, natural adult proportions",
+  "eyes":"dark brown",
+  "body":"average fit",
+  "wardrobeRule":"modern modest family-friendly",
+  "forbiddenChanges":["different face identity","dramatic age shift","different hair color","explicit clothing"]
+}
