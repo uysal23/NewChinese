@@ -1,0 +1,2 @@
+# LOCKED STEP 07 — Location Bible
+Locations use persistent IDs and visual bibles. Same location remains recognizably the same across scenes; time/weather/camera may vary. 2.5D layering, camera/lighting presets and UI safe areas are defined per location. Chinese context and Simplified Chinese signage are required; critical text should be overlaid rather than trusted to image generation. Family-friendly rule: no alcohol, bars/nightclubs, mini-skirts, explicit/sexual/erotic content.
