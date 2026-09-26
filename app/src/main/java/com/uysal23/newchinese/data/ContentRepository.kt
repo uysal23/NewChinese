@@ -76,6 +76,14 @@ class ContentRepository(private val context: Context) {
         }
     }
 
+    fun loadSceneById(sceneId: String): SceneContent {
+        val match = Regex("""HSK(\d)_SC(\d{3})""").matchEntire(sceneId)
+            ?: error("Invalid sceneId: $sceneId")
+        val level = match.groupValues[1]
+        val scene = match.groupValues[2].toInt().toString().padStart(3, '0')
+        return loadScene("hsk$level/sc$scene")
+    }
+
     fun loadScene(scenePath: String = "hsk1/sc001"): SceneContent {
         val scene = JSONObject(readAsset("$scenePath/scene.json"))
         val dialogue = JSONObject(readAsset("$scenePath/dialogue.json"))
