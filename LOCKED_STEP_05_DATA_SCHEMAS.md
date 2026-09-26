@@ -1,0 +1,2 @@
+# LOCKED STEP 05 — Data Schemas
+Stable IDs for scenes, lines, characters, voices, locations, words, sentences and exercises. Content, user progress and entitlement are separate. Required scene files: scene.json, dialogue.json, vocabulary.json, sentence_exercises.json, word_exam.json, sentence_exam.json, visual_manifest.json, audio_manifest.json. Dialogue fields include speakerId, textZh, pinyin, translationTr, voiceId, audioFile. Duplicate IDs forbidden. Simplified Chinese and pinyin validations required. Full content manifest must resolve 300 scenes.
