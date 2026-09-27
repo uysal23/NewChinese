@@ -12,61 +12,61 @@
       "sceneId": "HSK2_SC001",
       "titleTr": "Yeni Bir İş Günü",
       "focus": "iş günü rutini ve plan",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC002",
       "titleTr": "Bugünün Görevleri",
       "focus": "görevler, sıra ve öncelik",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC003",
       "titleTr": "Öğle Arasında",
       "focus": "öğle planı ve tercihler",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC004",
       "titleTr": "Yardım İstemek",
       "focus": "işte yardım isteme ve açıklama",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC005",
       "titleTr": "Küçük Bir Hata",
       "focus": "problem açıklama ve çözüm",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC006",
       "titleTr": "Yoğun Bir Öğleden Sonra",
       "focus": "zaman, yoğunluk ve plan değişikliği",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC007",
       "titleTr": "İş Çıkışı Planı",
       "focus": "iş sonrası etkinlik planı",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC008",
       "titleTr": "Bir Mesajı Açıklamak",
       "focus": "mesaj, neden ve tekrar açıklama",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC009",
       "titleTr": "Yarın İçin Hazırlık",
       "focus": "gelecek planları ve hazırlık",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC010",
       "titleTr": "İlk Haftayı Değerlendirmek",
       "focus": "deneyim, tercih ve küçük değerlendirme",
-      "status": "media_ready_validation_pending"
+      "status": "complete"
     }
   ],
   "requiredBeforeContent": [
