@@ -83,8 +83,12 @@ fun AppNavigation(
             ) {
                 val levelName = it.arguments?.getString("level").orEmpty()
                 val levelNumber = levelName.removePrefix("HSK").toIntOrNull() ?: 1
-                val unlocked = allProgress.filter { p -> p.unlocked }.map { p -> p.sceneId }.toSet()
                 val available = remember(levelNumber) { repository.availableSceneIds(levelNumber) }
+                val unlocked = if (current.adminMode) {
+                    available
+                } else {
+                    allProgress.filter { p -> p.unlocked }.map { p -> p.sceneId }.toSet()
+                }
                 val sceneTitles = remember(levelNumber, available) {
                     available.associateWith { sceneId ->
                         runCatching { repository.loadSceneById(sceneId).titleTr }
@@ -134,6 +138,8 @@ fun AppNavigation(
                 StudyHubScreen(
                     progress = sceneProgress,
                     freeStudyMode = freeStudyMode,
+                    vocabularyCount = scene.vocabulary.size,
+                    dialogueLineCount = scene.lines.size,
                     onVocabulary = { nav.navigate("vocabulary") },
                     onSentence = { nav.navigate("sentences") },
                     onShadowing = { nav.navigate("shadowing") },
@@ -152,6 +158,13 @@ fun AppNavigation(
                     favoriteIds = current.favoriteWordIds,
                     playbackSpeed = current.playbackSpeed,
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } },
+                    onProgress = { percent ->
+                        if (!freeStudyMode) {
+                            scope.launch {
+                                progressRepository.recordVocabularyProgress(scene.sceneId, percent)
+                            }
+                        }
+                    },
                     onComplete = {
                         if (!freeStudyMode) scope.launch { progressRepository.markVocabularyComplete(scene.sceneId) }
                     },
@@ -162,10 +175,22 @@ fun AppNavigation(
                 KeepScreenOn()
                 SentencePracticeScreen(
                     sceneId = scene.sceneId,
-                    exercises = scene.exercises,
+                    lines = scene.lines,
                     playbackSpeed = current.playbackSpeed,
+                    onProgress = { percent ->
+                        if (!freeStudyMode) {
+                            scope.launch {
+                                progressRepository.recordSentencePracticeProgress(scene.sceneId, percent)
+                            }
+                        }
+                    },
                     onComplete = {
-                        if (!freeStudyMode) scope.launch { progressRepository.markSentencePracticeComplete(scene.sceneId) }
+                        if (!freeStudyMode) {
+                            scope.launch {
+                                progressRepository.markSentencePracticeComplete(scene.sceneId)
+                            }
+                        }
+                        nav.popBackStack("study", inclusive = false)
                     },
                     onBack = { nav.popBackStack() }
                 )
@@ -180,6 +205,13 @@ fun AppNavigation(
                         if (!freeStudyMode) {
                             scope.launch {
                                 progressRepository.recordShadowingSimilarity(scene.sceneId, similarity)
+                            }
+                        }
+                    },
+                    onProgress = { percent ->
+                        if (!freeStudyMode) {
+                            scope.launch {
+                                progressRepository.recordShadowingProgress(scene.sceneId, percent)
                             }
                         }
                     },
@@ -217,10 +249,14 @@ fun AppNavigation(
                 )
             }
             composable("freeStudy") {
-                val unlockedAvailable = allProgress
-                    .filter { it.unlocked && it.sceneId in availableScenes }
-                    .map { it.sceneId }
-                    .sorted()
+                val unlockedAvailable = if (current.adminMode) {
+                    availableScenes.sorted()
+                } else {
+                    allProgress
+                        .filter { it.unlocked && it.sceneId in availableScenes }
+                        .map { it.sceneId }
+                        .sorted()
+                }
                 MainScaffold(nav = nav, currentRoute = "freeStudy") {
                     FreeStudyScreen(
                         sceneIds = unlockedAvailable,
@@ -259,6 +295,9 @@ fun AppNavigation(
                         onPinyin = { scope.launch { preferences.setShowPinyin(it) } },
                         onTurkish = { scope.launch { preferences.setShowTurkish(it) } },
                         onPlaybackSpeed = { scope.launch { preferences.setPlaybackSpeed(it) } },
+                        onAdminMode = { enabled ->
+                            scope.launch { preferences.setAdminMode(enabled) }
+                        },
                         onSaveReminder = { reminder ->
                             scope.launch {
                                 preferences.upsertReminder(reminder)
