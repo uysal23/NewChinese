@@ -1,0 +1,393 @@
+{
+  "sceneId": "HSK1_SC044",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK1_SC044_audio_assets.zip",
+  "outputDirectory": "content/hsk1/sc044/assets",
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk1_sc044_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我想给家里寄一个包裹。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 2,
+      "file": "hsk1_sc044_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "里面是什么？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 3,
+      "file": "hsk1_sc044_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "一些茶和一张照片。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 4,
+      "file": "hsk1_sc044_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "东西不重。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 5,
+      "file": "hsk1_sc044_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这个盒子可以吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 6,
+      "file": "hsk1_sc044_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可以，大小正好。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 7,
+      "file": "hsk1_sc044_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "地址写在哪里？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 8,
+      "file": "hsk1_sc044_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "写在盒子上面。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 9,
+      "file": "hsk1_sc044_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我已经写好了。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 10,
+      "file": "hsk1_sc044_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那去称一下吧。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 11,
+      "file": "hsk1_sc044_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "多少钱？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 12,
+      "file": "hsk1_sc044_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "应该不贵。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 13,
+      "file": "hsk1_sc044_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "希望他们很快收到。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 14,
+      "file": "hsk1_sc044_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "一定会的。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 15,
+      "file": "hsk1_sc044_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "寄",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 16,
+      "file": "hsk1_sc044_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "包裹",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 17,
+      "file": "hsk1_sc044_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "照片",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 18,
+      "file": "hsk1_sc044_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "重",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 19,
+      "file": "hsk1_sc044_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "盒子",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 20,
+      "file": "hsk1_sc044_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "地址",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 21,
+      "file": "hsk1_sc044_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "已经",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 22,
+      "file": "hsk1_sc044_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "收到",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 23,
+      "file": "hsk1_sc044_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我想给家里寄一个包裹。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 24,
+      "file": "hsk1_sc044_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "地址写在盒子上面。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "sceneId": "HSK1_SC043",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK1_SC043_audio_assets.zip",
+  "outputDirectory": "content/hsk1/sc043/assets",
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk1_sc043_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我们坐到第五站。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 2,
+      "file": "hsk1_sc043_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "大概需要多久？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 3,
+      "file": "hsk1_sc043_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "二十分钟左右。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 4,
+      "file": "hsk1_sc043_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这里有两个空座位。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 5,
+      "file": "hsk1_sc043_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "你坐吧，我站着。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 6,
+      "file": "hsk1_sc043_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "没关系，我们一起坐。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 7,
+      "file": "hsk1_sc043_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "下一站是什么？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 8,
+      "file": "hsk1_sc043_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "是中心广场。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 9,
+      "file": "hsk1_sc043_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我们还有三站。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 10,
+      "file": "hsk1_sc043_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你记得下车吗？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 11,
+      "file": "hsk1_sc043_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "记得，你也提醒我。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 12,
+      "file": "hsk1_sc043_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "快到了。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 13,
+      "file": "hsk1_sc043_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我们准备一下。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 14,
+      "file": "hsk1_sc043_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "好，下一站下车。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 15,
+      "file": "hsk1_sc043_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "站",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 16,
+      "file": "hsk1_sc043_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "多久",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 17,
+      "file": "hsk1_sc043_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "分钟",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 18,
+      "file": "hsk1_sc043_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "座位",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 19,
+      "file": "hsk1_sc043_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "站着",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 20,
+      "file": "hsk1_sc043_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "下一站",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 21,
+      "file": "hsk1_sc043_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "提醒",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 22,
+      "file": "hsk1_sc043_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "下车",
+      "emotion": "neutral",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 23,
+      "file": "hsk1_sc043_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "下一站是什么？",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    },
+    {
+      "order": 24,
+      "file": "hsk1_sc043_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这里有两个空座位。",
+      "emotion": "natural",
+      "requirements": {
+        "nativeStyle": "Standard Mandarin",
+        "naturalProsody": true,
+        "noMusic": true,
+        "noSfx": true,
+        "normalizeLoudness": true,
+        "trimSilence": true
+      }
+    }
+  ]
+}
