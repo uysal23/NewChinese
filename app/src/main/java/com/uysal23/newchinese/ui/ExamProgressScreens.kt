@@ -6,6 +6,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.uysal23.newchinese.data.SentenceExercise
 import com.uysal23.newchinese.data.VocabularyItem
@@ -281,10 +282,20 @@ private fun MetricCard(label: String, value: String) {
     Card(Modifier.fillMaxWidth()) {
         Row(
             Modifier.fillMaxWidth().padding(16.dp),
-            horizontalArrangement = Arrangement.SpaceBetween
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            Text(label)
-            Text(value, style = MaterialTheme.typography.titleMedium)
+            Text(
+                label,
+                modifier = Modifier.weight(1f),
+                style = MaterialTheme.typography.bodyLarge
+            )
+            Text(
+                value,
+                modifier = Modifier.widthIn(min = 110.dp, max = 150.dp),
+                style = MaterialTheme.typography.titleMedium,
+                textAlign = TextAlign.End,
+                maxLines = 2
+            )
         }
     }
 }
