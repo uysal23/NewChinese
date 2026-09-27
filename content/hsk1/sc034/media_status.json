@@ -13,9 +13,10 @@
       "assets/hsk1_sc034_bg.webp",
       "assets/hsk1_sc034_char_li_na.webp",
       "assets/hsk1_sc034_char_zhang_wei.webp",
-      "assets/hsk1_sc034_fg.webp",
-      "assets/hsk1_sc034_preview.webp"
-    ]
+      "assets/hsk1_sc034_fg.webp"
+    ],
+    "importedPreview": "assets/hsk1_sc034_preview.webp",
+    "note": "Composite scene preview is present; layered background/character/foreground assets remain pending."
   },
   "audio": {
     "status": "complete",
