@@ -1,0 +1,29 @@
+{
+  "sceneId": "HSK1_SC038",
+  "sceneFolder": "content/hsk1/sc038",
+  "incomingAssets": {
+    "char_li_na": "incoming_assets/hsk1_sc038_char_li_na.webp",
+    "char_zhang_wei": "incoming_assets/hsk1_sc038_char_zhang_wei.webp",
+    "fg": "incoming_assets/hsk1_sc038_fg.webp"
+  },
+  "targetAssets": {
+    "char_li_na": "content/hsk1/sc038/assets/hsk1_sc038_char_li_na.webp",
+    "char_zhang_wei": "content/hsk1/sc038/assets/hsk1_sc038_char_zhang_wei.webp",
+    "fg": "content/hsk1/sc038/assets/hsk1_sc038_fg.webp"
+  },
+  "proposedMediaStatusAfterImport": {
+    "visual": {
+      "status": "complete",
+      "required": [
+        "assets/hsk1_sc038_bg.webp",
+        "assets/hsk1_sc038_char_li_na.webp",
+        "assets/hsk1_sc038_char_zhang_wei.webp",
+        "assets/hsk1_sc038_fg.webp",
+        "assets/hsk1_sc038_preview.webp"
+      ],
+      "missing": [],
+      "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+    }
+  },
+  "roleMappingNote": "friend_arrives_home"
+}

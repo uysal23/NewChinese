@@ -1,0 +1,307 @@
+{
+  "package_name": "NewChinese_HSK1_SC031_SC040_layers_import_package",
+  "contains": {
+    "char_li_na": 10,
+    "char_zhang_wei": 10,
+    "fg": 10,
+    "json_updates": 11
+  },
+  "status": "ready_for_incoming_assets_upload",
+  "notes": [
+    "Background assets for SC031-SC040 were already imported separately.",
+    "This package contains only Li Na, Zhang Wei, and foreground layer assets.",
+    "After upload to incoming_assets, distribute to content/hsk1/scXXX/assets/ and update media_status.json."
+  ],
+  "scenes": {
+    "HSK1_SC031": {
+      "sceneId": "HSK1_SC031",
+      "sceneFolder": "content/hsk1/sc031",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc031_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc031_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc031_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc031/assets/hsk1_sc031_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc031/assets/hsk1_sc031_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc031/assets/hsk1_sc031_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc031_bg.webp",
+            "assets/hsk1_sc031_char_li_na.webp",
+            "assets/hsk1_sc031_char_zhang_wei.webp",
+            "assets/hsk1_sc031_fg.webp",
+            "assets/hsk1_sc031_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "family_talk"
+    },
+    "HSK1_SC032": {
+      "sceneId": "HSK1_SC032",
+      "sceneFolder": "content/hsk1/sc032",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc032_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc032_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc032_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc032/assets/hsk1_sc032_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc032/assets/hsk1_sc032_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc032/assets/hsk1_sc032_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc032_bg.webp",
+            "assets/hsk1_sc032_char_li_na.webp",
+            "assets/hsk1_sc032_char_zhang_wei.webp",
+            "assets/hsk1_sc032_fg.webp",
+            "assets/hsk1_sc032_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "family_photos"
+    },
+    "HSK1_SC033": {
+      "sceneId": "HSK1_SC033",
+      "sceneFolder": "content/hsk1/sc033",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc033_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc033_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc033_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc033/assets/hsk1_sc033_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc033/assets/hsk1_sc033_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc033/assets/hsk1_sc033_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc033_bg.webp",
+            "assets/hsk1_sc033_char_li_na.webp",
+            "assets/hsk1_sc033_char_zhang_wei.webp",
+            "assets/hsk1_sc033_fg.webp",
+            "assets/hsk1_sc033_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "calling_family"
+    },
+    "HSK1_SC034": {
+      "sceneId": "HSK1_SC034",
+      "sceneFolder": "content/hsk1/sc034",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc034_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc034_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc034_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc034/assets/hsk1_sc034_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc034/assets/hsk1_sc034_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc034/assets/hsk1_sc034_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc034_bg.webp",
+            "assets/hsk1_sc034_char_li_na.webp",
+            "assets/hsk1_sc034_char_zhang_wei.webp",
+            "assets/hsk1_sc034_fg.webp",
+            "assets/hsk1_sc034_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "weekend_plan"
+    },
+    "HSK1_SC035": {
+      "sceneId": "HSK1_SC035",
+      "sceneFolder": "content/hsk1/sc035",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc035_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc035_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc035_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc035/assets/hsk1_sc035_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc035/assets/hsk1_sc035_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc035/assets/hsk1_sc035_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc035_bg.webp",
+            "assets/hsk1_sc035_char_li_na.webp",
+            "assets/hsk1_sc035_char_zhang_wei.webp",
+            "assets/hsk1_sc035_fg.webp",
+            "assets/hsk1_sc035_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "birthday_prep"
+    },
+    "HSK1_SC036": {
+      "sceneId": "HSK1_SC036",
+      "sceneFolder": "content/hsk1/sc036",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc036_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc036_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc036_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc036/assets/hsk1_sc036_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc036/assets/hsk1_sc036_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc036/assets/hsk1_sc036_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc036_bg.webp",
+            "assets/hsk1_sc036_char_li_na.webp",
+            "assets/hsk1_sc036_char_zhang_wei.webp",
+            "assets/hsk1_sc036_fg.webp",
+            "assets/hsk1_sc036_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "hobby_park"
+    },
+    "HSK1_SC037": {
+      "sceneId": "HSK1_SC037",
+      "sceneFolder": "content/hsk1/sc037",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc037_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc037_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc037_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc037/assets/hsk1_sc037_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc037/assets/hsk1_sc037_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc037/assets/hsk1_sc037_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc037_bg.webp",
+            "assets/hsk1_sc037_char_li_na.webp",
+            "assets/hsk1_sc037_char_zhang_wei.webp",
+            "assets/hsk1_sc037_fg.webp",
+            "assets/hsk1_sc037_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "cozy_evening_home"
+    },
+    "HSK1_SC038": {
+      "sceneId": "HSK1_SC038",
+      "sceneFolder": "content/hsk1/sc038",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc038_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc038_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc038_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc038/assets/hsk1_sc038_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc038/assets/hsk1_sc038_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc038/assets/hsk1_sc038_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc038_bg.webp",
+            "assets/hsk1_sc038_char_li_na.webp",
+            "assets/hsk1_sc038_char_zhang_wei.webp",
+            "assets/hsk1_sc038_fg.webp",
+            "assets/hsk1_sc038_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "friend_arrives_home"
+    },
+    "HSK1_SC039": {
+      "sceneId": "HSK1_SC039",
+      "sceneFolder": "content/hsk1/sc039",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc039_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc039_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc039_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc039/assets/hsk1_sc039_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc039/assets/hsk1_sc039_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc039/assets/hsk1_sc039_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc039_bg.webp",
+            "assets/hsk1_sc039_char_li_na.webp",
+            "assets/hsk1_sc039_char_zhang_wei.webp",
+            "assets/hsk1_sc039_fg.webp",
+            "assets/hsk1_sc039_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "talking_personality"
+    },
+    "HSK1_SC040": {
+      "sceneId": "HSK1_SC040",
+      "sceneFolder": "content/hsk1/sc040",
+      "incomingAssets": {
+        "char_li_na": "incoming_assets/hsk1_sc040_char_li_na.webp",
+        "char_zhang_wei": "incoming_assets/hsk1_sc040_char_zhang_wei.webp",
+        "fg": "incoming_assets/hsk1_sc040_fg.webp"
+      },
+      "targetAssets": {
+        "char_li_na": "content/hsk1/sc040/assets/hsk1_sc040_char_li_na.webp",
+        "char_zhang_wei": "content/hsk1/sc040/assets/hsk1_sc040_char_zhang_wei.webp",
+        "fg": "content/hsk1/sc040/assets/hsk1_sc040_fg.webp"
+      },
+      "proposedMediaStatusAfterImport": {
+        "visual": {
+          "status": "complete",
+          "required": [
+            "assets/hsk1_sc040_bg.webp",
+            "assets/hsk1_sc040_char_li_na.webp",
+            "assets/hsk1_sc040_char_zhang_wei.webp",
+            "assets/hsk1_sc040_fg.webp",
+            "assets/hsk1_sc040_preview.webp"
+          ],
+          "missing": [],
+          "note": "BG and preview already imported earlier; this package supplies Li Na, Zhang Wei, and foreground."
+        }
+      },
+      "roleMappingNote": "family_dinner"
+    }
+  }
+}
