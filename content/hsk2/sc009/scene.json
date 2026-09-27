@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC009",
+  "level": "HSK2",
+  "sceneNumber": 9,
+  "titleZh": "准备明天",
+  "titleTr": "Yarın İçin Hazırlık",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC008",
+  "nextSceneId": "HSK2_SC010",
+  "summaryTr": "Günün sonunda Zhang Wei ve Wang Ming ertesi sabahın toplantısı için gerekli işleri bölüp hazırlık yapar."
+}

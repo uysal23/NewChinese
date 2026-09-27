@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC008",
+  "level": "HSK2",
+  "sceneNumber": 8,
+  "titleZh": "解释一条消息",
+  "titleTr": "Bir Mesajı Açıklamak",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC007",
+  "nextSceneId": "HSK2_SC009",
+  "summaryTr": "Zhang Wei kısa bir iş mesajını yanlış anlayınca Wang Ming bağlamı açıklayıp mesajın gerçek anlamını netleştirir."
+}

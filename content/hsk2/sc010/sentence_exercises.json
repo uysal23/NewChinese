@@ -1,0 +1,112 @@
+{
+  "sceneId": "HSK2_SC010",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC010_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC010_001",
+      "correctZh": "现在觉得最容易的是什么？",
+      "pinyin": "Xiànzài juéde zuì róngyì de shì shénme?",
+      "translationTr": "Şimdi sana en kolay gelen şey ne?",
+      "sentenceZh": "现在觉得最容易的是什么？",
+      "correctAnswer": "现在觉得最容易的是什么？",
+      "options": [],
+      "tokens": [
+        "现在觉",
+        "得最容",
+        "易的是",
+        "什么"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC010_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC010_002",
+      "correctZh": "有时候事情一起来的时候，我还是会有点儿乱。",
+      "pinyin": "Yǒushíhou shìqing yìqǐ lái de shíhou, wǒ háishi huì yǒudiǎnr luàn.",
+      "translationTr": "Bazen işler aynı anda geldiğinde hâlâ biraz karışıyorum.",
+      "sentenceZh": "___候事情一起来的时候，我还是会有点儿乱。",
+      "correctAnswer": "有时",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC010_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC010_003",
+      "correctZh": "还有遇到问题会先找原因。",
+      "pinyin": "Hái yǒu yùdào wèntí huì xiān zhǎo yuányīn.",
+      "translationTr": "Bir de sorun olunca önce nedenini arıyorsun.",
+      "sentenceZh": "还有遇到问题会先找原因。",
+      "correctAnswer": "还有遇到问题会先找原因。",
+      "options": [
+        "还有遇到问题会先找原因。",
+        "这一周过得怎么样？",
+        "比我想的忙，但是也学到了很多。",
+        "现在觉得最容易的是什么？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC010_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC010_004",
+      "correctZh": "我想提高写消息和开会时表达的能力。",
+      "pinyin": "Wǒ xiǎng tígāo xiě xiāoxi hé kāihuì shí biǎodá de nénglì.",
+      "translationTr": "Mesaj yazma ve toplantıda kendimi ifade etme becerimi geliştirmek istiyorum.",
+      "sentenceZh": "我想提高写消息和开会时表达的能力。",
+      "correctAnswer": "我想提高写消息和开会时表达的能力。",
+      "options": [],
+      "tokens": [
+        "我想提",
+        "高写消",
+        "息和开",
+        "会时表",
+        "达的能",
+        "力"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC010_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC010_005",
+      "correctZh": "对，而且都是你工作里真的会用到的。",
+      "pinyin": "Duì, érqiě dōu shì nǐ gōngzuò lǐ zhēn de huì yòngdào de.",
+      "translationTr": "Evet, üstelik hepsi işte gerçekten kullanacağın ifadeler olur.",
+      "sentenceZh": "___而且都是你工作里真的会用到的。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC010_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC010_006",
+      "correctZh": "好。第一周顺利结束，值得庆祝一下。",
+      "pinyin": "Hǎo. Dì yī zhōu shùnlì jiéshù, zhíde qìngzhù yíxià.",
+      "translationTr": "Tamam. İlk hafta sorunsuz bitti, biraz kutlamaya değer.",
+      "sentenceZh": "好。第一周顺利结束，值得庆祝一下。",
+      "correctAnswer": "好。第一周顺利结束，值得庆祝一下。",
+      "options": [
+        "好。第一周顺利结束，值得庆祝一下。",
+        "这一周过得怎么样？",
+        "比我想的忙，但是也学到了很多。",
+        "现在觉得最容易的是什么？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_sentence_006.m4a"
+    }
+  ]
+}

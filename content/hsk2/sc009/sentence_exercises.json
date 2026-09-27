@@ -1,0 +1,108 @@
+{
+  "sceneId": "HSK2_SC009",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC009_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC009_001",
+      "correctZh": "对，九点半开始。",
+      "pinyin": "Duì, jiǔ diǎn bàn kāishǐ.",
+      "translationTr": "Evet, dokuz buçukta başlıyor.",
+      "sentenceZh": "对，九点半开始。",
+      "correctAnswer": "对，九点半开始。",
+      "options": [],
+      "tokens": [
+        "对九点",
+        "半开始"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC009_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC009_002",
+      "correctZh": "还需要准备问题吗？",
+      "pinyin": "Hái xūyào zhǔnbèi wèntí ma?",
+      "translationTr": "Soru hazırlamak da gerekiyor mu?",
+      "sentenceZh": "___要准备问题吗？",
+      "correctAnswer": "还需",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC009_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC009_003",
+      "correctZh": "很好。还有，明天可能会比平时早一点儿忙。",
+      "pinyin": "Hěn hǎo. Hái yǒu, míngtiān kěnéng huì bǐ píngshí zǎo yìdiǎnr máng.",
+      "translationTr": "Çok iyi. Bir de yarın normalden biraz daha erken yoğunluk başlayabilir.",
+      "sentenceZh": "很好。还有，明天可能会比平时早一点儿忙。",
+      "correctAnswer": "很好。还有，明天可能会比平时早一点儿忙。",
+      "options": [
+        "很好。还有，明天可能会比平时早一点儿忙。",
+        "下班前我们把明天的事情准备一下吧。",
+        "好。明天上午先开会，对吗？",
+        "对，九点半开始。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC009_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC009_004",
+      "correctZh": "我主要是不想早上太着急。",
+      "pinyin": "Wǒ zhǔyào shì bù xiǎng zǎoshang tài zháojí.",
+      "translationTr": "Asıl olarak sabah fazla telaşlanmak istemiyorum.",
+      "sentenceZh": "我主要是不想早上太着急。",
+      "correctAnswer": "我主要是不想早上太着急。",
+      "options": [],
+      "tokens": [
+        "我主要",
+        "是不想",
+        "早上太",
+        "着急"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC009_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC009_005",
+      "correctZh": "好习惯。我也把会议需要的东西准备好。",
+      "pinyin": "Hǎo xíguàn. Wǒ yě bǎ huìyì xūyào de dōngxi zhǔnbèi hǎo.",
+      "translationTr": "İyi alışkanlık. Ben de toplantıda gereken şeyleri hazırlayayım.",
+      "sentenceZh": "___惯。我也把会议需要的东西准备好。",
+      "correctAnswer": "好习",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC009_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC009_006",
+      "correctZh": "准备好了，我们可以下班了。",
+      "pinyin": "Zhǔnbèi hǎo le, wǒmen kěyǐ xiàbān le.",
+      "translationTr": "Hazırlık tamam, artık çıkabiliriz.",
+      "sentenceZh": "准备好了，我们可以下班了。",
+      "correctAnswer": "准备好了，我们可以下班了。",
+      "options": [
+        "准备好了，我们可以下班了。",
+        "下班前我们把明天的事情准备一下吧。",
+        "好。明天上午先开会，对吗？",
+        "对，九点半开始。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_sentence_006.m4a"
+    }
+  ]
+}

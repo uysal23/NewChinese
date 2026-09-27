@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC006",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC006_L001",
+      "order": 1,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "张伟，下午的计划可能要改一下。",
+      "pinyin": "Zhāng Wěi, xiàwǔ de jìhuà kěnéng yào gǎi yíxià.",
+      "translationTr": "Zhang Wei, öğleden sonraki planı biraz değiştirmemiz gerekebilir.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "怎么了？有新的任务吗？",
+      "pinyin": "Zěnme le? Yǒu xīn de rènwu ma?",
+      "translationTr": "Ne oldu? Yeni bir görev mi var?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L003",
+      "order": 3,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对，刚刚来了一个比较急的事情。",
+      "pinyin": "Duì, gānggāng lái le yí ge bǐjiào jí de shìqing.",
+      "translationTr": "Evet, az önce biraz acil bir iş geldi.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "需要今天完成吗？",
+      "pinyin": "Xūyào jīntiān wánchéng ma?",
+      "translationTr": "Bugün tamamlanması mı gerekiyor?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L005",
+      "order": 5,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "最好下班以前做完。",
+      "pinyin": "Zuìhǎo xiàbān yǐqián zuò wán.",
+      "translationTr": "En iyisi mesai bitmeden tamamlamak.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我原来的邮件怎么办？",
+      "pinyin": "Nà wǒ yuánlái de yóujiàn zěnme bàn?",
+      "translationTr": "Peki önceki e-posta işim ne olacak?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L007",
+      "order": 7,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "邮件可以晚一点儿发，我先帮你处理一部分。",
+      "pinyin": "Yóujiàn kěyǐ wǎn yìdiǎnr fā, wǒ xiān bāng nǐ chǔlǐ yí bùfen.",
+      "translationTr": "E-postayı biraz geç gönderebiliriz, ben önce bir kısmını hallederim.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样可以省很多时间。",
+      "pinyin": "Zhèyàng kěyǐ shěng hěn duō shíjiān.",
+      "translationTr": "Böylece çok zaman kazanırız.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L009",
+      "order": 9,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "你负责前面的检查，我负责后面的整理。",
+      "pinyin": "Nǐ fùzé qiánmiàn de jiǎnchá, wǒ fùzé hòumiàn de zhěnglǐ.",
+      "translationTr": "Sen ilk kontrollerden sorumlu ol, ben sonraki düzenlemeyi yaparım.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我们几点再一起确认？",
+      "pinyin": "Hǎo, wǒmen jǐ diǎn zài yìqǐ quèrèn?",
+      "translationTr": "Tamam, saat kaçta tekrar birlikte kontrol edelim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L011",
+      "order": 11,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "四点半怎么样？",
+      "pinyin": "Sì diǎn bàn zěnmeyàng?",
+      "translationTr": "Dört buçuk nasıl?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可以。那我先把最急的部分做完。",
+      "pinyin": "Kěyǐ. Nà wǒ xiān bǎ zuì jí de bùfen zuò wán.",
+      "translationTr": "Olur. O zaman önce en acil kısmı bitireyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L013",
+      "order": 13,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "别忘了中间休息几分钟。",
+      "pinyin": "Bié wàng le zhōngjiān xiūxi jǐ fēnzhōng.",
+      "translationTr": "Arada birkaç dakika dinlenmeyi unutma.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天这么忙，我很容易忘。",
+      "pinyin": "Jīntiān zhème máng, wǒ hěn róngyì wàng.",
+      "translationTr": "Bugün bu kadar yoğunken kolayca unutabilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L015",
+      "order": 15,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "越忙越要安排好时间。",
+      "pinyin": "Yuè máng yuè yào ānpái hǎo shíjiān.",
+      "translationTr": "Ne kadar yoğun olursan zamanı o kadar iyi planlamalısın.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你说得对。我先做半小时，再休息五分钟。",
+      "pinyin": "Nǐ shuō de duì. Wǒ xiān zuò bàn xiǎoshí, zài xiūxi wǔ fēnzhōng.",
+      "translationTr": "Haklısın. Önce yarım saat çalışırım, sonra beş dakika dinlenirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L017",
+      "order": 17,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "好，有问题马上叫我。",
+      "pinyin": "Hǎo, yǒu wèntí mǎshàng jiào wǒ.",
+      "translationTr": "Tamam, sorun olursa hemen bana haber ver.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC006_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "没问题，四点半我们一起检查。",
+      "pinyin": "Méi wèntí, sì diǎn bàn wǒmen yìqǐ jiǎnchá.",
+      "translationTr": "Tamam, dört buçukta birlikte kontrol ederiz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

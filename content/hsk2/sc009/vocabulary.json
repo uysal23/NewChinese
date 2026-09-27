@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC009",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC009_001",
+      "hanzi": "记录",
+      "pinyin": "jìlù",
+      "translationTr": "kayıt",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_002",
+      "hanzi": "免得",
+      "pinyin": "miǎnde",
+      "translationTr": "...olmaması için",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_003",
+      "hanzi": "平时",
+      "pinyin": "píngshí",
+      "translationTr": "normalde",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_004",
+      "hanzi": "提前",
+      "pinyin": "tíqián",
+      "translationTr": "önceden / erken",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_005",
+      "hanzi": "主要",
+      "pinyin": "zhǔyào",
+      "translationTr": "esas olarak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_006",
+      "hanzi": "确实",
+      "pinyin": "quèshí",
+      "translationTr": "gerçekten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_007",
+      "hanzi": "习惯",
+      "pinyin": "xíguàn",
+      "translationTr": "alışkanlık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_008",
+      "hanzi": "会议",
+      "pinyin": "huìyì",
+      "translationTr": "toplantı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_009",
+      "hanzi": "不少",
+      "pinyin": "bù shǎo",
+      "translationTr": "az değil / epey",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC009_010",
+      "hanzi": "准备好",
+      "pinyin": "zhǔnbèi hǎo",
+      "translationTr": "hazır hale getirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_word_010.m4a"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC007",
+  "level": "HSK2",
+  "sceneNumber": 7,
+  "titleZh": "下班后的计划",
+  "titleTr": "İş Çıkışı Planı",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC006",
+  "nextSceneId": "HSK2_SC008",
+  "summaryTr": "İş çıkışında Zhang Wei ile Wang Ming küçük bir kafede oturup akşam planlarını ve iş-özel yaşam dengesini konuşur."
+}

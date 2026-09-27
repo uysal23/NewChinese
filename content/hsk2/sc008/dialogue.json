@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC008",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC008_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "王明，你能帮我看一下这条消息吗？",
+      "pinyin": "Wáng Míng, nǐ néng bāng wǒ kàn yíxià zhè tiáo xiāoxi ma?",
+      "translationTr": "Wang Ming, şu mesaja bir bakmama yardım eder misin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L002",
+      "order": 2,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "可以。你哪里不明白？",
+      "pinyin": "Kěyǐ. Nǐ nǎlǐ bù míngbai?",
+      "translationTr": "Olur. Hangi kısmı anlamadın?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "他说“下午再说”，我不知道是不是不同意。",
+      "pinyin": "Tā shuō “xiàwǔ zài shuō”, wǒ bù zhīdào shì bu shì bù tóngyì.",
+      "translationTr": "“Öğleden sonra tekrar konuşuruz” demiş, bunun kabul etmediği anlamına gelip gelmediğini bilmiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L004",
+      "order": 4,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "不一定。这里更像是现在没有时间。",
+      "pinyin": "Bù yídìng. Zhèlǐ gèng xiàng shì xiànzài méiyǒu shíjiān.",
+      "translationTr": "Şart değil. Burada daha çok şu an vakti olmadığı anlamına geliyor.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "所以不是直接拒绝，对吗？",
+      "pinyin": "Suǒyǐ bú shì zhíjiē jùjué, duì ma?",
+      "translationTr": "Yani doğrudan reddetmiş değil, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L006",
+      "order": 6,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对。要看前后说了什么。",
+      "pinyin": "Duì. Yào kàn qiánhòu shuō le shénme.",
+      "translationTr": "Evet. Öncesinde ve sonrasında ne söylendiğine bakmak gerekir.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "前面我问他能不能今天确认。",
+      "pinyin": "Qiánmiàn wǒ wèn tā néng bu néng jīntiān quèrèn.",
+      "translationTr": "Öncesinde bugün teyit edip edemeyeceğini sormuştum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L008",
+      "order": 8,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那就很可能是下午有时间再确认。",
+      "pinyin": "Nà jiù hěn kěnéng shì xiàwǔ yǒu shíjiān zài quèrèn.",
+      "translationTr": "O zaman büyük olasılıkla öğleden sonra vakit bulunca teyit edeceğini söylüyor.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明白了。我刚才有点儿担心。",
+      "pinyin": "Míngbai le. Wǒ gāngcái yǒudiǎnr dānxīn.",
+      "translationTr": "Anladım. Az önce biraz endişelenmiştim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L010",
+      "order": 10,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "工作消息有时候很短，所以容易想多。",
+      "pinyin": "Gōngzuò xiāoxi yǒushíhou hěn duǎn, suǒyǐ róngyì xiǎng duō.",
+      "translationTr": "İş mesajları bazen çok kısa olur, bu yüzden fazla anlam yüklemek kolay.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我需要现在回复吗？",
+      "pinyin": "Nà wǒ xūyào xiànzài huífù ma?",
+      "translationTr": "Peki şimdi cevap vermem gerekiyor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L012",
+      "order": 12,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "可以简单回复“好的，下午再联系”。",
+      "pinyin": "Kěyǐ jiǎndān huífù “hǎo de, xiàwǔ zài liánxì”.",
+      "translationTr": "Kısaca “Tamam, öğleden sonra tekrar iletişime geçeriz” diye yanıtlayabilirsin.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样不会太正式吗？",
+      "pinyin": "Zhèyàng bú huì tài zhèngshì ma?",
+      "translationTr": "Bu fazla resmî olmaz mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L014",
+      "order": 14,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "不会，很自然，也很清楚。",
+      "pinyin": "Bú huì, hěn zìrán, yě hěn qīngchu.",
+      "translationTr": "Hayır, gayet doğal ve açık.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我就这么回。",
+      "pinyin": "Hǎo, wǒ jiù zhème huí.",
+      "translationTr": "Tamam, öyle cevap vereceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L016",
+      "order": 16,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "以后不确定的时候，也可以先问一句。",
+      "pinyin": "Yǐhòu bù quèdìng de shíhou, yě kěyǐ xiān wèn yí jù.",
+      "translationTr": "Bundan sonra emin olmadığında önce bir cümleyle sorabilirsin.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样比自己猜好得多。",
+      "pinyin": "Zhèyàng bǐ zìjǐ cāi hǎo de duō.",
+      "translationTr": "Bu, kendi kendime tahmin etmekten çok daha iyi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC008_L018",
+      "order": 18,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对，沟通清楚最重要。",
+      "pinyin": "Duì, gōutōng qīngchu zuì zhòngyào.",
+      "translationTr": "Evet, en önemlisi iletişimin açık olması.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

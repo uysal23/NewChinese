@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC009",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC009_L001",
+      "order": 1,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "下班前我们把明天的事情准备一下吧。",
+      "pinyin": "Xiàbān qián wǒmen bǎ míngtiān de shìqing zhǔnbèi yíxià ba.",
+      "translationTr": "Çıkmadan önce yarının işlerini biraz hazırlayalım.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好。明天上午先开会，对吗？",
+      "pinyin": "Hǎo. Míngtiān shàngwǔ xiān kāihuì, duì ma?",
+      "translationTr": "Tamam. Yarın sabah önce toplantı var, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L003",
+      "order": 3,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对，九点半开始。",
+      "pinyin": "Duì, jiǔ diǎn bàn kāishǐ.",
+      "translationTr": "Evet, dokuz buçukta başlıyor.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我需要带哪些资料？",
+      "pinyin": "Wǒ xūyào dài nǎxiē zīliào?",
+      "translationTr": "Hangi belgeleri getirmem gerekiyor?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L005",
+      "order": 5,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "今天的结果和上周的记录都带上。",
+      "pinyin": "Jīntiān de jiéguǒ hé shàng zhōu de jìlù dōu dài shàng.",
+      "translationTr": "Bugünkü sonuçları ve geçen haftanın kayıtlarını da getir.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还需要准备问题吗？",
+      "pinyin": "Hái xūyào zhǔnbèi wèntí ma?",
+      "translationTr": "Soru hazırlamak da gerekiyor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L007",
+      "order": 7,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "最好写两三个你想确认的问题。",
+      "pinyin": "Zuìhǎo xiě liǎng sān ge nǐ xiǎng quèrèn de wèntí.",
+      "translationTr": "Teyit etmek istediğin iki üç soruyu yazman iyi olur.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在就记下来，免得明天忘了。",
+      "pinyin": "Wǒ xiànzài jiù jì xiàlái, miǎnde míngtiān wàng le.",
+      "translationTr": "Yarın unutmamak için şimdi not alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L009",
+      "order": 9,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "很好。还有，明天可能会比平时早一点儿忙。",
+      "pinyin": "Hěn hǎo. Hái yǒu, míngtiān kěnéng huì bǐ píngshí zǎo yìdiǎnr máng.",
+      "translationTr": "Çok iyi. Bir de yarın normalden biraz daha erken yoğunluk başlayabilir.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我提前十分钟到。",
+      "pinyin": "Nà wǒ tíqián shí fēnzhōng dào.",
+      "translationTr": "O zaman on dakika erken gelirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L011",
+      "order": 11,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "不用太早，时间够。",
+      "pinyin": "Bú yòng tài zǎo, shíjiān gòu.",
+      "translationTr": "Çok erken gelmene gerek yok, zaman yeter.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我主要是不想早上太着急。",
+      "pinyin": "Wǒ zhǔyào shì bù xiǎng zǎoshang tài zháojí.",
+      "translationTr": "Asıl olarak sabah fazla telaşlanmak istemiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L013",
+      "order": 13,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那提前一点儿确实更适合你。",
+      "pinyin": "Nà tíqián yìdiǎnr quèshí gèng shìhé nǐ.",
+      "translationTr": "O zaman biraz erken gelmek gerçekten sana daha uygun.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "资料我放在桌子左边，明天一来就能看到。",
+      "pinyin": "Zīliào wǒ fàng zài zhuōzi zuǒbian, míngtiān yì lái jiù néng kàndào.",
+      "translationTr": "Belgeleri masanın soluna koyacağım, yarın gelir gelmez görürüm.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L015",
+      "order": 15,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "好习惯。我也把会议需要的东西准备好。",
+      "pinyin": "Hǎo xíguàn. Wǒ yě bǎ huìyì xūyào de dōngxi zhǔnbèi hǎo.",
+      "translationTr": "İyi alışkanlık. Ben de toplantıda gereken şeyleri hazırlayayım.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样明天早上会轻松很多。",
+      "pinyin": "Zhèyàng míngtiān zǎoshang huì qīngsōng hěn duō.",
+      "translationTr": "Böylece yarın sabah çok daha rahat olur.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L017",
+      "order": 17,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对，今天多准备五分钟，明天能省不少时间。",
+      "pinyin": "Duì, jīntiān duō zhǔnbèi wǔ fēnzhōng, míngtiān néng shěng bù shǎo shíjiān.",
+      "translationTr": "Evet, bugün fazladan beş dakika hazırlanmak yarın epey zaman kazandırır.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc009_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC009_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "准备好了，我们可以下班了。",
+      "pinyin": "Zhǔnbèi hǎo le, wǒmen kěyǐ xiàbān le.",
+      "translationTr": "Hazırlık tamam, artık çıkabiliriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc009_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

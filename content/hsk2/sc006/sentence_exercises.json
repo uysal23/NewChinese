@@ -1,0 +1,112 @@
+{
+  "sceneId": "HSK2_SC006",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC006_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC006_001",
+      "correctZh": "对，刚刚来了一个比较急的事情。",
+      "pinyin": "Duì, gānggāng lái le yí ge bǐjiào jí de shìqing.",
+      "translationTr": "Evet, az önce biraz acil bir iş geldi.",
+      "sentenceZh": "对，刚刚来了一个比较急的事情。",
+      "correctAnswer": "对，刚刚来了一个比较急的事情。",
+      "options": [],
+      "tokens": [
+        "对刚刚",
+        "来了一",
+        "个比较",
+        "急的事",
+        "情"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC006_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC006_002",
+      "correctZh": "那我原来的邮件怎么办？",
+      "pinyin": "Nà wǒ yuánlái de yóujiàn zěnme bàn?",
+      "translationTr": "Peki önceki e-posta işim ne olacak?",
+      "sentenceZh": "___原来的邮件怎么办？",
+      "correctAnswer": "那我",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC006_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC006_003",
+      "correctZh": "你负责前面的检查，我负责后面的整理。",
+      "pinyin": "Nǐ fùzé qiánmiàn de jiǎnchá, wǒ fùzé hòumiàn de zhěnglǐ.",
+      "translationTr": "Sen ilk kontrollerden sorumlu ol, ben sonraki düzenlemeyi yaparım.",
+      "sentenceZh": "你负责前面的检查，我负责后面的整理。",
+      "correctAnswer": "你负责前面的检查，我负责后面的整理。",
+      "options": [
+        "你负责前面的检查，我负责后面的整理。",
+        "张伟，下午的计划可能要改一下。",
+        "怎么了？有新的任务吗？",
+        "对，刚刚来了一个比较急的事情。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC006_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC006_004",
+      "correctZh": "可以。那我先把最急的部分做完。",
+      "pinyin": "Kěyǐ. Nà wǒ xiān bǎ zuì jí de bùfen zuò wán.",
+      "translationTr": "Olur. O zaman önce en acil kısmı bitireyim.",
+      "sentenceZh": "可以。那我先把最急的部分做完。",
+      "correctAnswer": "可以。那我先把最急的部分做完。",
+      "options": [],
+      "tokens": [
+        "可以那",
+        "我先把",
+        "最急的",
+        "部分做",
+        "完"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC006_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC006_005",
+      "correctZh": "越忙越要安排好时间。",
+      "pinyin": "Yuè máng yuè yào ānpái hǎo shíjiān.",
+      "translationTr": "Ne kadar yoğun olursan zamanı o kadar iyi planlamalısın.",
+      "sentenceZh": "___越要安排好时间。",
+      "correctAnswer": "越忙",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc006_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC006_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC006_006",
+      "correctZh": "没问题，四点半我们一起检查。",
+      "pinyin": "Méi wèntí, sì diǎn bàn wǒmen yìqǐ jiǎnchá.",
+      "translationTr": "Tamam, dört buçukta birlikte kontrol ederiz.",
+      "sentenceZh": "没问题，四点半我们一起检查。",
+      "correctAnswer": "没问题，四点半我们一起检查。",
+      "options": [
+        "没问题，四点半我们一起检查。",
+        "张伟，下午的计划可能要改一下。",
+        "怎么了？有新的任务吗？",
+        "对，刚刚来了一个比较急的事情。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc006_sentence_006.m4a"
+    }
+  ]
+}

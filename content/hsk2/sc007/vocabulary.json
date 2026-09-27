@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC007",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC007_001",
+      "hanzi": "本来",
+      "pinyin": "běnlái",
+      "translationTr": "aslında / başta",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_002",
+      "hanzi": "简单",
+      "pinyin": "jiǎndān",
+      "translationTr": "basit",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_003",
+      "hanzi": "视频",
+      "pinyin": "shìpín",
+      "translationTr": "video",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_004",
+      "hanzi": "大部分",
+      "pinyin": "dà bùfen",
+      "translationTr": "büyük kısmı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_005",
+      "hanzi": "适合",
+      "pinyin": "shìhé",
+      "translationTr": "uygun olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_006",
+      "hanzi": "坚持",
+      "pinyin": "jiānchí",
+      "translationTr": "sürdürmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_007",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "translationTr": "dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_008",
+      "hanzi": "安排",
+      "pinyin": "ānpái",
+      "translationTr": "düzenlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_009",
+      "hanzi": "注意",
+      "pinyin": "zhùyì",
+      "translationTr": "dikkat etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC007_010",
+      "hanzi": "终于",
+      "pinyin": "zhōngyú",
+      "translationTr": "sonunda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_word_010.m4a"
+    }
+  ]
+}

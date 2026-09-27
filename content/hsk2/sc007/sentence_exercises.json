@@ -1,0 +1,108 @@
+{
+  "sceneId": "HSK2_SC007",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC007_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC007_001",
+      "correctZh": "还好最后都做完了。",
+      "pinyin": "Háihǎo zuìhòu dōu zuò wán le.",
+      "translationTr": "İyi ki sonunda hepsini bitirdik.",
+      "sentenceZh": "还好最后都做完了。",
+      "correctAnswer": "还好最后都做完了。",
+      "options": [],
+      "tokens": [
+        "还好最",
+        "后都做",
+        "完了"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC007_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC007_002",
+      "correctZh": "那就做简单一点儿的。",
+      "pinyin": "Nà jiù zuò jiǎndān yìdiǎnr de.",
+      "translationTr": "O zaman daha basit bir şey yap.",
+      "sentenceZh": "___做简单一点儿的。",
+      "correctAnswer": "那就",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC007_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC007_003",
+      "correctZh": "我想看一会儿中文视频，然后早点儿睡。",
+      "pinyin": "Wǒ xiǎng kàn yíhuìr Zhōngwén shìpín, ránhòu zǎodiǎnr shuì.",
+      "translationTr": "Biraz Çince video izleyip sonra erken yatmak istiyorum.",
+      "sentenceZh": "我想看一会儿中文视频，然后早点儿睡。",
+      "correctAnswer": "我想看一会儿中文视频，然后早点儿睡。",
+      "options": [
+        "我想看一会儿中文视频，然后早点儿睡。",
+        "今天终于忙完了。",
+        "是啊，下午比我想的还忙。",
+        "还好最后都做完了。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC007_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC007_004",
+      "correctZh": "这样挺好，不容易累。",
+      "pinyin": "Zhèyàng tǐng hǎo, bù róngyì lèi.",
+      "translationTr": "Bu iyi, böyle fazla yorulmazsın.",
+      "sentenceZh": "这样挺好，不容易累。",
+      "correctAnswer": "这样挺好，不容易累。",
+      "options": [],
+      "tokens": [
+        "这样挺",
+        "好不容",
+        "易累"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC007_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC007_005",
+      "correctZh": "对。工作忙的时候，我就少学一点儿。",
+      "pinyin": "Duì. Gōngzuò máng de shíhou, wǒ jiù shǎo xué yìdiǎnr.",
+      "translationTr": "Evet. İş yoğun olduğunda biraz daha az çalışıyorum.",
+      "sentenceZh": "___工作忙的时候，我就少学一点儿。",
+      "correctAnswer": "对。",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC007_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC007_006",
+      "correctZh": "好，明天见。",
+      "pinyin": "Hǎo, míngtiān jiàn.",
+      "translationTr": "Tamam, yarın görüşürüz.",
+      "sentenceZh": "好，明天见。",
+      "correctAnswer": "好，明天见。",
+      "options": [
+        "好，明天见。",
+        "今天终于忙完了。",
+        "是啊，下午比我想的还忙。",
+        "还好最后都做完了。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_sentence_006.m4a"
+    }
+  ]
+}

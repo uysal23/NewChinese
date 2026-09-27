@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC010",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC010_001",
+      "hanzi": "基本",
+      "pinyin": "jīběn",
+      "translationTr": "temel",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_002",
+      "hanzi": "进步",
+      "pinyin": "jìnbù",
+      "translationTr": "ilerleme",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_003",
+      "hanzi": "特别",
+      "pinyin": "tèbié",
+      "translationTr": "özellikle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_004",
+      "hanzi": "重点",
+      "pinyin": "zhòngdiǎn",
+      "translationTr": "odak / önemli nokta",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_005",
+      "hanzi": "提高",
+      "pinyin": "tígāo",
+      "translationTr": "geliştirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_006",
+      "hanzi": "表达",
+      "pinyin": "biǎodá",
+      "translationTr": "ifade etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_007",
+      "hanzi": "能力",
+      "pinyin": "nénglì",
+      "translationTr": "beceri",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_008",
+      "hanzi": "常用",
+      "pinyin": "chángyòng",
+      "translationTr": "sık kullanılan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_009",
+      "hanzi": "实际",
+      "pinyin": "shíjì",
+      "translationTr": "pratik / gerçekçi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc010_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC010_010",
+      "hanzi": "压力",
+      "pinyin": "yālì",
+      "translationTr": "baskı / stres",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc010_word_010.m4a"
+    }
+  ]
+}

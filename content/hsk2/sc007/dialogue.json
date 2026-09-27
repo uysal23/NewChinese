@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC007",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC007_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天终于忙完了。",
+      "pinyin": "Jīntiān zhōngyú máng wán le.",
+      "translationTr": "Bugünün yoğunluğu sonunda bitti.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L002",
+      "order": 2,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "是啊，下午比我想的还忙。",
+      "pinyin": "Shì a, xiàwǔ bǐ wǒ xiǎng de hái máng.",
+      "translationTr": "Evet, öğleden sonra düşündüğümden de yoğundu.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还好最后都做完了。",
+      "pinyin": "Háihǎo zuìhòu dōu zuò wán le.",
+      "translationTr": "İyi ki sonunda hepsini bitirdik.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L004",
+      "order": 4,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "你晚上有什么计划？",
+      "pinyin": "Nǐ wǎnshang yǒu shénme jìhuà?",
+      "translationTr": "Akşam için planın var mı?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "本来想回家做饭，不过现在有点儿累。",
+      "pinyin": "Běnlái xiǎng huí jiā zuòfàn, búguò xiànzài yǒudiǎnr lèi.",
+      "translationTr": "Aslında eve gidip yemek yapacaktım ama şimdi biraz yorgunum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L006",
+      "order": 6,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那就做简单一点儿的。",
+      "pinyin": "Nà jiù zuò jiǎndān yìdiǎnr de.",
+      "translationTr": "O zaman daha basit bir şey yap.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可能煮面，再加一点儿蔬菜。",
+      "pinyin": "Kěnéng zhǔ miàn, zài jiā yìdiǎnr shūcài.",
+      "translationTr": "Belki noodle haşlarım, biraz da sebze eklerim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L008",
+      "order": 8,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "听起来不错。吃完以后呢？",
+      "pinyin": "Tīng qǐlái búcuò. Chī wán yǐhòu ne?",
+      "translationTr": "Kulağa iyi geliyor. Yemekten sonra?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想看一会儿中文视频，然后早点儿睡。",
+      "pinyin": "Wǒ xiǎng kàn yíhuìr Zhōngwén shìpín, ránhòu zǎodiǎnr shuì.",
+      "translationTr": "Biraz Çince video izleyip sonra erken yatmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L010",
+      "order": 10,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "你每天都学习中文吗？",
+      "pinyin": "Nǐ měitiān dōu xuéxí Zhōngwén ma?",
+      "translationTr": "Her gün Çince çalışıyor musun?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "大部分时间会学一点儿，但是不会太久。",
+      "pinyin": "Dà bùfen shíjiān huì xué yìdiǎnr, dànshì bú huì tài jiǔ.",
+      "translationTr": "Çoğu gün biraz çalışırım ama çok uzun sürmez.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L012",
+      "order": 12,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "这样挺好，不容易累。",
+      "pinyin": "Zhèyàng tǐng hǎo, bù róngyì lèi.",
+      "translationTr": "Bu iyi, böyle fazla yorulmazsın.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我发现每天二十分钟比周末学两个小时更适合我。",
+      "pinyin": "Wǒ fāxiàn měitiān èrshí fēnzhōng bǐ zhōumò xué liǎng ge xiǎoshí gèng shìhé wǒ.",
+      "translationTr": "Her gün yirmi dakika çalışmanın hafta sonu iki saat çalışmaktan bana daha uygun olduğunu fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L014",
+      "order": 14,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "重要的是能坚持。",
+      "pinyin": "Zhòngyào de shì néng jiānchí.",
+      "translationTr": "Önemli olan sürdürebilmek.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对。工作忙的时候，我就少学一点儿。",
+      "pinyin": "Duì. Gōngzuò máng de shíhou, wǒ jiù shǎo xué yìdiǎnr.",
+      "translationTr": "Evet. İş yoğun olduğunda biraz daha az çalışıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L016",
+      "order": 16,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "休息也很重要，别把每天都安排得太满。",
+      "pinyin": "Xiūxi yě hěn zhòngyào, bié bǎ měitiān dōu ānpái de tài mǎn.",
+      "translationTr": "Dinlenmek de önemli, her gününü fazla doldurma.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我会注意。喝完茶我就回家。",
+      "pinyin": "Wǒ huì zhùyì. Hē wán chá wǒ jiù huí jiā.",
+      "translationTr": "Dikkat edeceğim. Çayımı bitirince eve döneceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc007_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC007_L018",
+      "order": 18,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "好，明天见。",
+      "pinyin": "Hǎo, míngtiān jiàn.",
+      "translationTr": "Tamam, yarın görüşürüz.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc007_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

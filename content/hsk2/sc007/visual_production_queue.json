@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK2_SC007",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CAFE_001",
+  "continuity": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001",
+    "OUTFIT_ZHANG_WEI_WORK_01",
+    "OUTFIT_WANG_MING_WORK_01"
+  ],
+  "composition": "Canonical warm Hangzhou cafe in early evening, Zhang Wei and Wang Ming at a small wooden table with tea, relaxed after-work posture, modest casual/work clothes, no readable text.",
+  "assets": [
+    {
+      "file": "hsk2_sc007_bg.webp",
+      "purpose": "scene-specific background without characters"
+    },
+    {
+      "file": "hsk2_sc007_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc007_char_wang_ming.webp",
+      "purpose": "Wang Ming transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc007_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc007_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "same canonical faces",
+    "modest office-casual clothing",
+    "mobile-safe framing",
+    "location must match dialogue"
+  ]
+}

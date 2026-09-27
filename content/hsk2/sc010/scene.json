@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC010",
+  "level": "HSK2",
+  "sceneNumber": 10,
+  "titleZh": "第一周的感觉",
+  "titleTr": "İlk Haftayı Değerlendirmek",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC009",
+  "nextSceneId": "HSK2_SC011",
+  "summaryTr": "İlk yoğun haftanın sonunda Zhang Wei ile Wang Ming çay içerken nelerin kolaylaştığını, nelerin hâlâ zor geldiğini ve sonraki haftanın hedeflerini konuşur."
+}

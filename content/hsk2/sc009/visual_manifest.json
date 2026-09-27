@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK2_SC009",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "assets": {
+    "background": "assets/hsk2_sc009_bg.webp",
+    "characterA": "assets/hsk2_sc009_char_zhang_wei.webp",
+    "characterB": "assets/hsk2_sc009_char_wang_ming.webp",
+    "foreground": "assets/hsk2_sc009_fg.webp",
+    "preview": "assets/hsk2_sc009_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_WORK_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_WANG_MING_001",
+      "outfit": "OUTFIT_WANG_MING_WORK_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK2_SC009_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

@@ -1,0 +1,113 @@
+{
+  "sceneId": "HSK2_SC008",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC008_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC008_001",
+      "correctZh": "他说“下午再说”，我不知道是不是不同意。",
+      "pinyin": "Tā shuō “xiàwǔ zài shuō”, wǒ bù zhīdào shì bu shì bù tóngyì.",
+      "translationTr": "“Öğleden sonra tekrar konuşuruz” demiş, bunun kabul etmediği anlamına gelip gelmediğini bilmiyorum.",
+      "sentenceZh": "他说“下午再说”，我不知道是不是不同意。",
+      "correctAnswer": "他说“下午再说”，我不知道是不是不同意。",
+      "options": [],
+      "tokens": [
+        "他说下",
+        "午再说",
+        "我不知",
+        "道是不",
+        "是不同",
+        "意"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC008_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC008_002",
+      "correctZh": "对。要看前后说了什么。",
+      "pinyin": "Duì. Yào kàn qiánhòu shuō le shénme.",
+      "translationTr": "Evet. Öncesinde ve sonrasında ne söylendiğine bakmak gerekir.",
+      "sentenceZh": "___要看前后说了什么。",
+      "correctAnswer": "对。",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC008_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC008_003",
+      "correctZh": "明白了。我刚才有点儿担心。",
+      "pinyin": "Míngbai le. Wǒ gāngcái yǒudiǎnr dānxīn.",
+      "translationTr": "Anladım. Az önce biraz endişelenmiştim.",
+      "sentenceZh": "明白了。我刚才有点儿担心。",
+      "correctAnswer": "明白了。我刚才有点儿担心。",
+      "options": [
+        "明白了。我刚才有点儿担心。",
+        "王明，你能帮我看一下这条消息吗？",
+        "可以。你哪里不明白？",
+        "他说“下午再说”，我不知道是不是不同意。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC008_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC008_004",
+      "correctZh": "可以简单回复“好的，下午再联系”。",
+      "pinyin": "Kěyǐ jiǎndān huífù “hǎo de, xiàwǔ zài liánxì”.",
+      "translationTr": "Kısaca “Tamam, öğleden sonra tekrar iletişime geçeriz” diye yanıtlayabilirsin.",
+      "sentenceZh": "可以简单回复“好的，下午再联系”。",
+      "correctAnswer": "可以简单回复“好的，下午再联系”。",
+      "options": [],
+      "tokens": [
+        "可以简",
+        "单回复",
+        "好的下",
+        "午再联",
+        "系"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC008_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC008_005",
+      "correctZh": "好，我就这么回。",
+      "pinyin": "Hǎo, wǒ jiù zhème huí.",
+      "translationTr": "Tamam, öyle cevap vereceğim.",
+      "sentenceZh": "___我就这么回。",
+      "correctAnswer": "好，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC008_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC008_006",
+      "correctZh": "对，沟通清楚最重要。",
+      "pinyin": "Duì, gōutōng qīngchu zuì zhòngyào.",
+      "translationTr": "Evet, en önemlisi iletişimin açık olması.",
+      "sentenceZh": "对，沟通清楚最重要。",
+      "correctAnswer": "对，沟通清楚最重要。",
+      "options": [
+        "对，沟通清楚最重要。",
+        "王明，你能帮我看一下这条消息吗？",
+        "可以。你哪里不明白？",
+        "他说“下午再说”，我不知道是不是不同意。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_sentence_006.m4a"
+    }
+  ]
+}

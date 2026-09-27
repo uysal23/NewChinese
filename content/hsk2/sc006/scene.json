@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC006",
+  "level": "HSK2",
+  "sceneNumber": 6,
+  "titleZh": "忙碌的下午",
+  "titleTr": "Yoğun Bir Öğleden Sonra",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC005",
+  "nextSceneId": "HSK2_SC007",
+  "summaryTr": "Beklenmedik bir ek görev gelince Zhang Wei ile Wang Ming öğleden sonraki planı yeniden düzenler ve işleri bölüşür."
+}

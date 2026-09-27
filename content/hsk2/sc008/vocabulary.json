@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC008",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC008_001",
+      "hanzi": "消息",
+      "pinyin": "xiāoxi",
+      "translationTr": "mesaj",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_002",
+      "hanzi": "同意",
+      "pinyin": "tóngyì",
+      "translationTr": "kabul etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_003",
+      "hanzi": "拒绝",
+      "pinyin": "jùjué",
+      "translationTr": "reddetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_004",
+      "hanzi": "前后",
+      "pinyin": "qiánhòu",
+      "translationTr": "öncesi ve sonrası",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_005",
+      "hanzi": "回复",
+      "pinyin": "huífù",
+      "translationTr": "yanıtlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_006",
+      "hanzi": "联系",
+      "pinyin": "liánxì",
+      "translationTr": "iletişime geçmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_007",
+      "hanzi": "正式",
+      "pinyin": "zhèngshì",
+      "translationTr": "resmî",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_008",
+      "hanzi": "自然",
+      "pinyin": "zìrán",
+      "translationTr": "doğal",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_009",
+      "hanzi": "猜",
+      "pinyin": "cāi",
+      "translationTr": "tahmin etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc008_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC008_010",
+      "hanzi": "沟通",
+      "pinyin": "gōutōng",
+      "translationTr": "iletişim kurmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc008_word_010.m4a"
+    }
+  ]
+}
