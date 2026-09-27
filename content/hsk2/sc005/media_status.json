@@ -13,9 +13,12 @@
       "assets/hsk2_sc005_bg.webp",
       "assets/hsk2_sc005_char_zhang_wei.webp",
       "assets/hsk2_sc005_char_wang_ming.webp",
-      "assets/hsk2_sc005_fg.webp",
+      "assets/hsk2_sc005_fg.webp"
+    ],
+    "available": [
       "assets/hsk2_sc005_preview.webp"
-    ]
+    ],
+    "previewStatus": "complete"
   },
   "audio": {
     "status": "complete",
