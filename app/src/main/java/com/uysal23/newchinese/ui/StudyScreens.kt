@@ -296,7 +296,7 @@ fun SentencePracticeScreen(
         }
 
         when (exercise.type) {
-            "reorder" -> {
+            "reorder", "repair_order" -> {
                 Text("Kelimeleri doğru sıraya koy.")
                 Card(Modifier.fillMaxWidth().heightIn(min = 72.dp)) {
                     Row(
@@ -322,7 +322,7 @@ fun SentencePracticeScreen(
                     Text(if (answer == exercise.tokens.joinToString("")) "✓ Doğru" else "Tekrar dene")
                 }
             }
-            "fill_blank" -> {
+            "fill_blank", "choose_word" -> {
                 Text(exercise.sentenceZh.orEmpty().replace("___", " - - - - - - - - "))
                 exercise.options.forEach { option ->
                     OutlinedButton(
@@ -336,7 +336,22 @@ fun SentencePracticeScreen(
                     Text(if (selectedOption == exercise.correctAnswer) "✓ Doğru" else "Tekrar dene")
                 }
             }
-            else -> Text("Bu alıştırma tipi sonraki içerik paketinde etkinleştirilecek.")
+            "listen_select" -> {
+                Text("Cümleyi dinle ve doğru seçeneği seç.")
+                val correct = exercise.correctAnswer ?: exercise.correctZh
+                exercise.options.forEach { option ->
+                    OutlinedButton(
+                        onClick = { selectedOption = option },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text(option)
+                    }
+                }
+                if (selectedOption != null) {
+                    Text(if (selectedOption == correct) "✓ Doğru" else "Tekrar dene")
+                }
+            }
+            else -> Text("Bu alıştırma tipi desteklenmiyor.")
         }
 
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
@@ -368,6 +383,7 @@ fun ShadowingSetupScreen(
     sceneId: String,
     lines: List<DialogueLine>,
     playbackSpeed: Float,
+    onSimilarityResult: (Int) -> Unit,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
@@ -535,6 +551,7 @@ fun ShadowingSetupScreen(
                                     recordedPath = result.recordingPath
                                     recognizedText = result.recognizedText
                                     similarityPercent = result.similarityPercent
+                                    onSimilarityResult(result.similarityPercent)
                                     recognitionError = null
                                 },
                                 onError = { message ->
