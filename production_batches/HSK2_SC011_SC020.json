@@ -5,67 +5,67 @@
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "health and free time",
   "dialogueTargetTurns": "18-30",
-  "status": "content_ready_visual_audio_pending",
+  "status": "media_complete_validation_pending",
   "scenes": [
     {
       "sceneId": "HSK2_SC011",
       "titleTr": "Bugün Biraz Yorgunum",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC012",
       "titleTr": "Yeterince Uyuyor musun?",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC013",
       "titleTr": "Birlikte Yürüyüş",
       "locationId": "LOC_CITY_PARK_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC014",
       "titleTr": "Yağmurlu Günde de Hareket",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC015",
       "titleTr": "Eczaneden Birkaç Şey Almak",
       "locationId": "LOC_PHARMACY_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC016",
       "titleTr": "Hafta Sonu Uzun Yürüyüş",
       "locationId": "LOC_CITY_PARK_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC017",
       "titleTr": "Kafede Kitap Okumak",
       "locationId": "LOC_CAFE_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC018",
       "titleTr": "Evde Film Akşamı",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC019",
       "titleTr": "Telefonsuz Bir Akşam",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     },
     {
       "sceneId": "HSK2_SC020",
       "titleTr": "Kendi Ritmini Bulmak",
       "locationId": "LOC_CITY_PARK_001",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_complete_validation_pending"
     }
   ],
   "pipeline": [
@@ -79,8 +79,8 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
-    "audioComplete": 0,
+    "visualComplete": 10,
+    "audioComplete": 10,
     "acceptedScenes": 0
   }
 }
