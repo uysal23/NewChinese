@@ -430,6 +430,7 @@ fun SettingsScreen(
     onPinyin: (Boolean) -> Unit,
     onTurkish: (Boolean) -> Unit,
     onPlaybackSpeed: (Float) -> Unit,
+    onAdminMode: (Boolean) -> Unit,
     onSaveReminder: (ReminderSpec) -> Unit,
     onDeleteReminder: (Int) -> Unit
 ) {
@@ -437,6 +438,8 @@ fun SettingsScreen(
     var hourText by remember { mutableStateOf("19") }
     var minuteText by remember { mutableStateOf("00") }
     var reminderMessage by remember { mutableStateOf("Bugünkü Çince çalışmanı unutma.") }
+    var adminPassword by remember { mutableStateOf("") }
+    var adminMessage by remember { mutableStateOf<String?>(null) }
     var selectedDays by remember { mutableStateOf(setOf(Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.THURSDAY, Calendar.FRIDAY)) }
     val permissionLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
 
@@ -453,9 +456,22 @@ fun SettingsScreen(
             Text("Koyu tema")
         }
         Text("Pastel tema")
-        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-            listOf("PURPLE", "BLUE", "GREEN", "PEACH").forEach { p ->
-                AssistChip(onClick = { onPalette(p) }, label = { Text(p) })
+        listOf(
+            listOf("PURPLE", "BLUE"),
+            listOf("GREEN", "PEACH")
+        ).forEach { rowPalettes ->
+            Row(
+                Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                rowPalettes.forEach { p ->
+                    FilterChip(
+                        selected = settings.palette == p,
+                        onClick = { onPalette(p) },
+                        label = { Text(p) },
+                        modifier = Modifier.weight(1f)
+                    )
+                }
             }
         }
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -468,16 +484,69 @@ fun SettingsScreen(
             Spacer(Modifier.width(8.dp))
             Text("Türkçe varsayılan açık")
         }
-                Text("Konuşma hızı")
-                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    listOf(0.75f, 0.85f, 1.0f, 1.15f, 1.25f).forEach { speed ->
-                        FilterChip(
-                            selected = settings.playbackSpeed == speed,
-                            onClick = { onPlaybackSpeed(speed) },
-                            label = { Text("${speed}x") }
-                        )
-                    }
+        Text("Konuşma hızı")
+        listOf(
+            listOf(0.75f, 0.85f, 1.0f),
+            listOf(1.15f, 1.25f)
+        ).forEach { speedRow ->
+            Row(
+                Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                speedRow.forEach { speed ->
+                    FilterChip(
+                        selected = settings.playbackSpeed == speed,
+                        onClick = { onPlaybackSpeed(speed) },
+                        label = { Text("${speed}x") },
+                        modifier = Modifier.weight(1f)
+                    )
                 }
+                if (speedRow.size == 2) Spacer(Modifier.weight(1f))
+            }
+        }
+
+        HorizontalDivider()
+        Text("Admin erişimi", style = MaterialTheme.typography.titleLarge)
+        Text(
+            if (settings.adminMode) {
+                "Admin modu açık. Mevcut tüm sahneler kilitsiz görüntülenir."
+            } else {
+                "Admin modu kapalı. HSK2026 parolasını girerek tüm mevcut içeriğe erişebilirsin."
+            }
+        )
+        if (!settings.adminMode) {
+            OutlinedTextField(
+                value = adminPassword,
+                onValueChange = {
+                    adminPassword = it
+                    adminMessage = null
+                },
+                label = { Text("Admin şifresi") },
+                singleLine = true,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Button(
+                onClick = {
+                    if (adminPassword == "HSK2026") {
+                        onAdminMode(true)
+                        adminPassword = ""
+                        adminMessage = "Admin modu açıldı."
+                    } else {
+                        adminMessage = "Şifre hatalı."
+                    }
+                },
+                modifier = Modifier.fillMaxWidth()
+            ) { Text("Admin Modunu Aç") }
+        } else {
+            OutlinedButton(
+                onClick = {
+                    onAdminMode(false)
+                    adminMessage = "Admin modu kapatıldı."
+                },
+                modifier = Modifier.fillMaxWidth()
+            ) { Text("Admin Modunu Kapat") }
+        }
+        adminMessage?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
 
         HorizontalDivider()
         Text("Hatırlatıcılar", style = MaterialTheme.typography.titleLarge)
