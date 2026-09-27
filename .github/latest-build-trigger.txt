@@ -1,3 +1,4 @@
-Latest media-integrated build trigger.
-SC001 visual: complete
-SC001 audio: complete
+Approved HSK1 acceptance build
+Source head before trigger: 8f37f4d92e10eaba7dbd630fab05ac7b9af460d1
+Scope: HSK1 SC001-SC050 + acceptance fixes
+Build: debug APK + unsigned release APK/AAB
