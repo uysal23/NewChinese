@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC003",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC003_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc003/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_WANG_MING_001": "zh-CN-YunjianNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc003_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "终于到午休了，你今天想吃什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc003_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我带了饭，不过不太多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc003_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "我也带了。要不要一起坐这边？",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc003_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，这里比较安静。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc003_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "你现在习惯自己带午饭了吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc003_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "差不多了。自己带比较省时间。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc003_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "而且想吃什么就可以准备什么。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc003_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，不过我做饭的种类还不多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc003_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "慢慢学。这个周末你可以试一个新菜。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc003_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好主意。你午休一般做什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc003_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "吃完饭以后，我会走十分钟。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc003_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我常常坐着看手机，可能不太好。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc003_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "偶尔没问题，不过走一走下午更有精神。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc003_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那今天我跟你一起走。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc003_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "可以。下午你还有那个邮件吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc003_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有，写完以后我还要整理明天的资料。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc003_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "时间够，不用着急。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc003_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，先好好吃饭。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc003_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "午休",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc003_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "安静",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc003_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "省时间",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc003_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "准备",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc003_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "种类",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc003_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "一般",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc003_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "常常",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc003_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "偶尔",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc003_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "精神",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc003_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "着急",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc003_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "我也带了。要不要一起坐这边？",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc003_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "差不多了。自己带比较省时间。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc003_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "慢慢学。这个周末你可以试一个新菜。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc003_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我常常坐着看手机，可能不太好。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc003_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "可以。下午你还有那个邮件吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc003_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，先好好吃饭。",
+      "emotion": "natural"
+    }
+  ]
+}

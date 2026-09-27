@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC001",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC001_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc001/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_WANG_MING_001": "zh-CN-YunjianNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc001_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "早上好，张伟。今天来得很早啊。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc001_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "早上好。我想早点儿开始，今天事情不少。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc001_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "你先看一下今天的安排吧。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc001_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我刚看了，上午有一个小会。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc001_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "对，十点开始，大概半个小时。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc001_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "开会以后，我要把昨天的工作做完。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc001_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "那个不难，不过要仔细一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc001_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我知道。昨天有两个地方我不太确定。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc001_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "没关系，一会儿我可以帮你看看。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc001_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "谢谢。你今天忙吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc001_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "上午比较忙，下午会轻松一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc001_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我先自己做，有问题再问你。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc001_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "好。你现在越来越熟悉这里了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc001_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "是啊，第一天的时候我什么都要问。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc001_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "慢慢来，习惯以后就快了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc001_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我也是这么想的。今天先把三件事做好。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc001_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "很好，有计划就不容易乱。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc001_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我开始了，中午一起吃饭吧。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc001_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "安排",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc001_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "开会",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc001_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "做完",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc001_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "仔细",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc001_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "确定",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc001_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "比较",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc001_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "轻松",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc001_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "熟悉",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc001_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "习惯",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc001_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "计划",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc001_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "你先看一下今天的安排吧。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc001_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "开会以后，我要把昨天的工作做完。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc001_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "没关系，一会儿我可以帮你看看。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc001_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我先自己做，有问题再问你。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc001_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "慢慢来，习惯以后就快了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc001_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我开始了，中午一起吃饭吧。",
+      "emotion": "natural"
+    }
+  ]
+}

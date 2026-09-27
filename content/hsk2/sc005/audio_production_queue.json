@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC005",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC005_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc005/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_WANG_MING_001": "zh-CN-YunjianNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc005_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "王明，我刚发现一个小问题。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc005_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "什么问题？严重吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc005_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "应该不严重，但是这个结果和昨天不一样。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc005_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "先别担心。我们从输入的数据开始看。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc005_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这里的三个数字我都检查过了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc005_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "那日期呢？有时候日期选错也会影响结果。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc005_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "等一下……你说得对，我选成昨天了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc005_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "那就找到原因了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc005_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "原来这么简单，我刚才还很紧张。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc005_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "小错误很正常，重要的是及时发现。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc005_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我现在改一下，再重新检查。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc005_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "好。改完以后把前后两个结果比较一下。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc005_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "现在一样了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc005_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "那就没问题了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc005_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天又学到一个检查方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc005_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "工作里很多经验都是这样慢慢来的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc005_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "以后我先检查日期，再看别的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc005_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "很好，这次的小错误就很有价值了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc005_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "发现",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc005_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "严重",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc005_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "输入",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc005_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "日期",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc005_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "影响",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc005_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "紧张",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc005_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "及时",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc005_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "重新",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc005_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "比较",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc005_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "经验",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc005_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "应该不严重，但是这个结果和昨天不一样。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc005_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "那日期呢？有时候日期选错也会影响结果。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc005_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "原来这么简单，我刚才还很紧张。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc005_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "好。改完以后把前后两个结果比较一下。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc005_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天又学到一个检查方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc005_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_WANG_MING_001",
+      "textZh": "很好，这次的小错误就很有价值了。",
+      "emotion": "natural"
+    }
+  ]
+}
