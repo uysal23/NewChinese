@@ -9,6 +9,7 @@ For all core NewChinese Mandarin learning audio, use the existing repository pro
 - Production tool: `edge-tts` through `tools/generate_audio_assets.py`.
 - Li Na / `VOICE_LI_NA_001`: `zh-CN-XiaoxiaoNeural`.
 - Zhang Wei / `VOICE_ZHANG_WEI_001`: `zh-CN-YunxiNeural`.
+- Wang Ming / `VOICE_WANG_MING_001`: `zh-CN-YunjianNeural`.
 - Output container/codec: M4A / AAC.
 - Encoding: AAC 128 kbps, 44.1 kHz, mono.
 - Loudness normalization: FFmpeg `loudnorm=I=-18:TP=-2:LRA=7`.

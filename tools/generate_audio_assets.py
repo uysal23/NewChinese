@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 VOICE_MAP = {
     "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural",
     "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+    "VOICE_WANG_MING_001": "zh-CN-YunjianNeural",
 }
 
 RATE_BY_TYPE = {
@@ -28,6 +29,7 @@ RATE_BY_TYPE = {
 PITCH_BY_VOICE = {
     "VOICE_LI_NA_001": "+0Hz",
     "VOICE_ZHANG_WEI_001": "+0Hz",
+    "VOICE_WANG_MING_001": "+0Hz",
 }
 
 
