@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC044",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC044_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC044_001",
+      "correctZh": "我想给家里寄一个包裹。",
+      "pinyin": "Wǒ xiǎng gěi jiālǐ jì yí ge bāoguǒ.",
+      "translationTr": "Eve bir paket göndermek istiyorum.",
+      "tokens": [
+        "我想",
+        "给家里",
+        "寄一个包裹"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC044_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC044_002",
+      "sentenceZh": "地址写在盒子___。",
+      "correctAnswer": "上面",
+      "options": [
+        "上面",
+        "已经",
+        "照片",
+        "收到"
+      ],
+      "fullCorrectSentenceZh": "地址写在盒子上面。",
+      "correctZh": "地址写在盒子上面。",
+      "pinyin": "Dìzhǐ xiě zài hézi shàngmiàn.",
+      "translationTr": "Adres kutunun üstüne yazılır.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_sentence_002.m4a"
+    }
+  ]
+}

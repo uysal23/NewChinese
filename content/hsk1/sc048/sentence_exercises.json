@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC048",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC048_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC048_001",
+      "correctZh": "我想吃牛肉面。",
+      "pinyin": "Wǒ xiǎng chī niúròu miàn.",
+      "translationTr": "Etli noodle yemek istiyorum.",
+      "tokens": [
+        "我想",
+        "吃",
+        "牛肉面"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC048_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC048_002",
+      "sentenceZh": "这些就___了。",
+      "correctAnswer": "够",
+      "options": [
+        "够",
+        "汤",
+        "点",
+        "餐厅"
+      ],
+      "fullCorrectSentenceZh": "这些就够了。",
+      "correctZh": "这些就够了。",
+      "pinyin": "Zhèxiē jiù gòu le.",
+      "translationTr": "Bunlar yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_sentence_002.m4a"
+    }
+  ]
+}

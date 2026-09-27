@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC049",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC049_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "周末想不想去附近看看？",
+      "pinyin": "Zhōumò xiǎng bu xiǎng qù fùjìn kànkan?",
+      "translationTr": "Hafta sonu yakındaki bir yere gitmek ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "想，我们坐火车去吧。",
+      "pinyin": "Xiǎng, wǒmen zuò huǒchē qù ba.",
+      "translationTr": "İsterim, trenle gidelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "早上的车比较方便。",
+      "pinyin": "Zǎoshang de chē bǐjiào fāngbiàn.",
+      "translationTr": "Sabah treni daha uygun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "几点出发？",
+      "pinyin": "Jǐ diǎn chūfā?",
+      "translationTr": "Saat kaçta hareket ediyor?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "八点十分。",
+      "pinyin": "Bā diǎn shí fēn.",
+      "translationTr": "Sekizi on geçe.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我们七点半到车站。",
+      "pinyin": "Nà wǒmen qī diǎn bàn dào chēzhàn.",
+      "translationTr": "O zaman yedi buçukta istasyonda olalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，先买票。",
+      "pinyin": "Hǎo, xiān mǎi piào.",
+      "translationTr": "Tamam, önce bilet alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "来回票都买吗？",
+      "pinyin": "Láihuí piào dōu mǎi ma?",
+      "translationTr": "Gidiş dönüş bileti de alalım mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，这样更方便。",
+      "pinyin": "Duì, zhèyàng gèng fāngbiàn.",
+      "translationTr": "Evet, böyle daha rahat olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要带很多东西吗？",
+      "pinyin": "Yào dài hěn duō dōngxi ma?",
+      "translationTr": "Çok eşya götürmek gerekiyor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用，一个小包就够了。",
+      "pinyin": "Bú yòng, yí ge xiǎo bāo jiù gòu le.",
+      "translationTr": "Hayır, küçük bir çanta yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我很期待。",
+      "pinyin": "Wǒ hěn qīdài.",
+      "translationTr": "Sabırsızlıkla bekliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这是你的第一次短途旅行。",
+      "pinyin": "Zhè shì nǐ de dì yī cì duǎntú lǚxíng.",
+      "translationTr": "Bu senin ilk kısa gezinin olacak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC049_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我想看看杭州周边。",
+      "pinyin": "Duì, wǒ xiǎng kànkan Hángzhōu zhōubiān.",
+      "translationTr": "Evet, Hangzhou çevresini görmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

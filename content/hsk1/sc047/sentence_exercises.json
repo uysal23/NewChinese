@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC047",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC047_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC047_001",
+      "correctZh": "右边是公交车站。",
+      "pinyin": "Yòubian shì gōngjiāochē zhàn.",
+      "translationTr": "Sağ tarafta otobüs durağı var.",
+      "tokens": [
+        "右边",
+        "是",
+        "公交车站"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC047_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC047_002",
+      "sentenceZh": "这里生活很___。",
+      "correctAnswer": "方便",
+      "options": [
+        "方便",
+        "天气",
+        "小区",
+        "公园"
+      ],
+      "fullCorrectSentenceZh": "这里生活很方便。",
+      "correctZh": "这里生活很方便。",
+      "pinyin": "Zhèlǐ shēnghuó hěn fāngbiàn.",
+      "translationTr": "Burada yaşamak çok rahat.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_sentence_002.m4a"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC042",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC042_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天下雨了。",
+      "pinyin": "Jīntiān xiàyǔ le.",
+      "translationTr": "Bugün yağmur yağıyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是啊，还好我带了伞。",
+      "pinyin": "Shì a, háihǎo wǒ dài le sǎn.",
+      "translationTr": "Evet, iyi ki şemsiye getirdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "公交车还没来。",
+      "pinyin": "Gōngjiāochē hái méi lái.",
+      "translationTr": "Otobüs henüz gelmedi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们等几分钟吧。",
+      "pinyin": "Wǒmen děng jǐ fēnzhōng ba.",
+      "translationTr": "Birkaç dakika bekleyelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你冷不冷？",
+      "pinyin": "Nǐ lěng bu lěng?",
+      "translationTr": "Üşüyor musun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一点儿冷。",
+      "pinyin": "Yǒu yìdiǎnr lěng.",
+      "translationTr": "Biraz üşüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天比昨天冷。",
+      "pinyin": "Jīntiān bǐ zuótiān lěng.",
+      "translationTr": "Bugün dünden daha soğuk.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明天可能会暖和一点儿。",
+      "pinyin": "Míngtiān kěnéng huì nuǎnhuo yìdiǎnr.",
+      "translationTr": "Yarın biraz daha sıcak olabilir.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你看，车来了。",
+      "pinyin": "Nǐ kàn, chē lái le.",
+      "translationTr": "Bak, otobüs geldi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是我们要坐的车吗？",
+      "pinyin": "Shì wǒmen yào zuò de chē ma?",
+      "translationTr": "Bu bineceğimiz otobüs mü?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，就是这辆。",
+      "pinyin": "Duì, jiù shì zhè liàng.",
+      "translationTr": "Evet, tam bu.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "人不太多。",
+      "pinyin": "Rén bú tài duō.",
+      "translationTr": "Çok fazla insan yok.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们上车吧。",
+      "pinyin": "Wǒmen shàng chē ba.",
+      "translationTr": "Hadi otobüse binelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC042_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，小心地滑。",
+      "pinyin": "Hǎo, xiǎoxīn dì huá.",
+      "translationTr": "Tamam, yer kaygan, dikkat et.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC049",
+  "level": "HSK1",
+  "sceneNumber": 49,
+  "titleZh": "在火车站计划旅行",
+  "titleTr": "Tren İstasyonunda Gezi Planı",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC048",
+  "nextSceneId": "HSK1_SC050",
+  "summaryTr": "İkili kısa bir hafta sonu gezisi için istasyonda saat ve bilet planı yapar.",
+  "locationTr": "Tren İstasyonu"
+}

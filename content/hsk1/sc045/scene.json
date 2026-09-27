@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC045",
+  "level": "HSK1",
+  "sceneNumber": 45,
+  "titleZh": "去药店",
+  "titleTr": "Eczaneye Uğramak",
+  "locationId": "LOC_PHARMACY_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC044",
+  "nextSceneId": "HSK1_SC046",
+  "summaryTr": "Zhang Wei hafif bir soğuk algınlığı hissedince Li Na ile eczaneye uğrar ve basit ihtiyaçlarını konuşur.",
+  "locationTr": "Eczane"
+}

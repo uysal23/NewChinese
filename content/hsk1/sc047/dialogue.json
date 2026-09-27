@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC047",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC047_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "天气好了，我们走一走吧。",
+      "pinyin": "Tiānqì hǎo le, wǒmen zǒu yì zǒu ba.",
+      "translationTr": "Hava düzeldi, biraz yürüyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我也想出去走走。",
+      "pinyin": "Hǎo, wǒ yě xiǎng chūqu zǒuzou.",
+      "translationTr": "Tamam, ben de dışarı çıkıp yürümek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你现在熟悉这个小区了吗？",
+      "pinyin": "Nǐ xiànzài shúxī zhège xiǎoqū le ma?",
+      "translationTr": "Artık bu mahalleye alıştın mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "差不多了。",
+      "pinyin": "Chàbuduō le.",
+      "translationTr": "Aşağı yukarı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "前面有一家便利店。",
+      "pinyin": "Qiánmiàn yǒu yì jiā biànlìdiàn.",
+      "translationTr": "İleride bir market var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我去过两次。",
+      "pinyin": "Wǒ qùguo liǎng cì.",
+      "translationTr": "İki kez gittim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "右边是公交车站。",
+      "pinyin": "Yòubian shì gōngjiāochē zhàn.",
+      "translationTr": "Sağ tarafta otobüs durağı var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我每天从那里坐车。",
+      "pinyin": "Wǒ měitiān cóng nàlǐ zuò chē.",
+      "translationTr": "Her gün oradan otobüse biniyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里生活方便吗？",
+      "pinyin": "Zhèlǐ shēnghuó fāngbiàn ma?",
+      "translationTr": "Burada yaşamak rahat mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "很方便，也很安静。",
+      "pinyin": "Hěn fāngbiàn, yě hěn ānjìng.",
+      "translationTr": "Çok rahat ve sakin.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那边还有一个小公园。",
+      "pinyin": "Nàbiān hái yǒu yí ge xiǎo gōngyuán.",
+      "translationTr": "Şurada küçük bir park da var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "周末我们可以去。",
+      "pinyin": "Zhōumò wǒmen kěyǐ qù.",
+      "translationTr": "Hafta sonu gidebiliriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你越来越像本地人了。",
+      "pinyin": "Nǐ yuèláiyuè xiàng běndìrén le.",
+      "translationTr": "Gittikçe yerli biri gibi oldun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC047_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还要继续学习。",
+      "pinyin": "Wǒ hái yào jìxù xuéxí.",
+      "translationTr": "Daha öğrenmeye devam etmeliyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

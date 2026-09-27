@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC047",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC047_001",
+      "hanzi": "天气",
+      "pinyin": "tiānqì",
+      "translationTr": "hava",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_002",
+      "hanzi": "熟悉",
+      "pinyin": "shúxī",
+      "translationTr": "aşina olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_003",
+      "hanzi": "小区",
+      "pinyin": "xiǎoqū",
+      "translationTr": "site / mahalle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_004",
+      "hanzi": "便利店",
+      "pinyin": "biànlìdiàn",
+      "translationTr": "küçük market",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_005",
+      "hanzi": "右边",
+      "pinyin": "yòubian",
+      "translationTr": "sağ taraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_006",
+      "hanzi": "方便",
+      "pinyin": "fāngbiàn",
+      "translationTr": "uygun / rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_007",
+      "hanzi": "公园",
+      "pinyin": "gōngyuán",
+      "translationTr": "park",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc047_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC047_008",
+      "hanzi": "本地人",
+      "pinyin": "běndìrén",
+      "translationTr": "yerel kişi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc047_word_008.m4a"
+    }
+  ]
+}

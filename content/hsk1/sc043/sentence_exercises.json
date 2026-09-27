@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC043",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC043_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC043_001",
+      "correctZh": "下一站是什么？",
+      "pinyin": "Xià yí zhàn shì shénme?",
+      "translationTr": "Bir sonraki durak hangisi?",
+      "tokens": [
+        "下一站",
+        "是",
+        "什么"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC043_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC043_002",
+      "sentenceZh": "这里有两个空___。",
+      "correctAnswer": "座位",
+      "options": [
+        "座位",
+        "分钟",
+        "下车",
+        "提醒"
+      ],
+      "fullCorrectSentenceZh": "这里有两个空座位。",
+      "correctZh": "这里有两个空座位。",
+      "pinyin": "Zhèlǐ yǒu liǎng ge kōng zuòwèi.",
+      "translationTr": "Burada iki boş koltuk var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_sentence_002.m4a"
+    }
+  ]
+}

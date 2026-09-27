@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC044",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC044_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想给家里寄一个包裹。",
+      "pinyin": "Wǒ xiǎng gěi jiālǐ jì yí ge bāoguǒ.",
+      "translationTr": "Eve bir paket göndermek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "里面是什么？",
+      "pinyin": "Lǐmiàn shì shénme?",
+      "translationTr": "İçinde ne var?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "一些茶和一张照片。",
+      "pinyin": "Yìxiē chá hé yì zhāng zhàopiàn.",
+      "translationTr": "Biraz çay ve bir fotoğraf.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "东西不重。",
+      "pinyin": "Dōngxi bú zhòng.",
+      "translationTr": "Eşyalar ağır değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个盒子可以吗？",
+      "pinyin": "Zhège hézi kěyǐ ma?",
+      "translationTr": "Bu kutu olur mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以，大小正好。",
+      "pinyin": "Kěyǐ, dàxiǎo zhènghǎo.",
+      "translationTr": "Olur, boyutu tam uygun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "地址写在哪里？",
+      "pinyin": "Dìzhǐ xiě zài nǎlǐ?",
+      "translationTr": "Adres nereye yazılıyor?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "写在盒子上面。",
+      "pinyin": "Xiě zài hézi shàngmiàn.",
+      "translationTr": "Kutunun üstüne yaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我已经写好了。",
+      "pinyin": "Wǒ yǐjīng xiě hǎo le.",
+      "translationTr": "Ben zaten yazdım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那去称一下吧。",
+      "pinyin": "Nà qù chēng yíxià ba.",
+      "translationTr": "O zaman tarttıralım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "多少钱？",
+      "pinyin": "Duōshao qián?",
+      "translationTr": "Ne kadar?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "应该不贵。",
+      "pinyin": "Yīnggāi bú guì.",
+      "translationTr": "Muhtemelen pahalı değildir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "希望他们很快收到。",
+      "pinyin": "Xīwàng tāmen hěn kuài shōudào.",
+      "translationTr": "Umarım kısa sürede alırlar.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC044_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "一定会的。",
+      "pinyin": "Yídìng huì de.",
+      "translationTr": "Kesinlikle alırlar.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

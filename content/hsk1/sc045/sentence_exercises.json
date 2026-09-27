@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC045",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC045_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC045_001",
+      "correctZh": "今天早点儿回家休息。",
+      "pinyin": "Jīntiān zǎodiǎnr huí jiā xiūxi.",
+      "translationTr": "Bugün biraz erken eve dönüp dinlen.",
+      "tokens": [
+        "今天",
+        "早点儿回家",
+        "休息"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC045_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC045_002",
+      "sentenceZh": "我有一点儿___。",
+      "correctAnswer": "感冒",
+      "options": [
+        "感冒",
+        "纸巾",
+        "药店",
+        "喝水"
+      ],
+      "fullCorrectSentenceZh": "我有一点儿感冒。",
+      "correctZh": "我有一点儿感冒。",
+      "pinyin": "Wǒ yǒu yìdiǎnr gǎnmào.",
+      "translationTr": "Biraz soğuk algınlığım var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_sentence_002.m4a"
+    }
+  ]
+}

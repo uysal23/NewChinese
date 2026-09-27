@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC046",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC046_001",
+      "hanzi": "学习",
+      "pinyin": "xuéxí",
+      "translationTr": "çalışmak / öğrenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc046_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_002",
+      "hanzi": "安静",
+      "pinyin": "ānjìng",
+      "translationTr": "sakin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc046_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_003",
+      "hanzi": "笔记本",
+      "pinyin": "bǐjìběn",
+      "translationTr": "not defteri",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc046_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_004",
+      "hanzi": "复习",
+      "pinyin": "fùxí",
+      "translationTr": "tekrar etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc046_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_005",
+      "hanzi": "方向",
+      "pinyin": "fāngxiàng",
+      "translationTr": "yön",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc046_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_006",
+      "hanzi": "问题",
+      "pinyin": "wèntí",
+      "translationTr": "soru",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc046_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_007",
+      "hanzi": "清楚",
+      "pinyin": "qīngchu",
+      "translationTr": "net",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc046_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC046_008",
+      "hanzi": "练习",
+      "pinyin": "liànxí",
+      "translationTr": "pratik yapmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc046_word_008.m4a"
+    }
+  ]
+}

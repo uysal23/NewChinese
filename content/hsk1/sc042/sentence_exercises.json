@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC042",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC042_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC042_001",
+      "correctZh": "公交车还没来。",
+      "pinyin": "Gōngjiāochē hái méi lái.",
+      "translationTr": "Otobüs henüz gelmedi.",
+      "tokens": [
+        "公交车",
+        "还没",
+        "来"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc042_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC042_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC042_002",
+      "sentenceZh": "今天比昨天___。",
+      "correctAnswer": "冷",
+      "options": [
+        "冷",
+        "伞",
+        "明天",
+        "上车"
+      ],
+      "fullCorrectSentenceZh": "今天比昨天冷。",
+      "correctZh": "今天比昨天冷。",
+      "pinyin": "Jīntiān bǐ zuótiān lěng.",
+      "translationTr": "Bugün dünden daha soğuk.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc042_sentence_002.m4a"
+    }
+  ]
+}

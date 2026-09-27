@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC043",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC043_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们坐到第五站。",
+      "pinyin": "Wǒmen zuò dào dì wǔ zhàn.",
+      "translationTr": "Beşinci durağa kadar gideceğiz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "大概需要多久？",
+      "pinyin": "Dàgài xūyào duōjiǔ?",
+      "translationTr": "Yaklaşık ne kadar sürer?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "二十分钟左右。",
+      "pinyin": "Èrshí fēnzhōng zuǒyòu.",
+      "translationTr": "Yaklaşık yirmi dakika.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里有两个空座位。",
+      "pinyin": "Zhèlǐ yǒu liǎng ge kōng zuòwèi.",
+      "translationTr": "Burada iki boş koltuk var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你坐吧，我站着。",
+      "pinyin": "Nǐ zuò ba, wǒ zhànzhe.",
+      "translationTr": "Sen otur, ben ayakta dururum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "没关系，我们一起坐。",
+      "pinyin": "Méiguānxi, wǒmen yìqǐ zuò.",
+      "translationTr": "Sorun değil, birlikte oturalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "下一站是什么？",
+      "pinyin": "Xià yí zhàn shì shénme?",
+      "translationTr": "Bir sonraki durak hangisi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "是中心广场。",
+      "pinyin": "Shì Zhōngxīn Guǎngchǎng.",
+      "translationTr": "Merkez Meydanı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我们还有三站。",
+      "pinyin": "Nà wǒmen hái yǒu sān zhàn.",
+      "translationTr": "O zaman üç durağımız daha var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你记得下车吗？",
+      "pinyin": "Nǐ jìde xià chē ma?",
+      "translationTr": "İnmeyi hatırlarsın değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "记得，你也提醒我。",
+      "pinyin": "Jìde, nǐ yě tíxǐng wǒ.",
+      "translationTr": "Hatırlıyorum, sen de bana hatırlat.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "快到了。",
+      "pinyin": "Kuài dào le.",
+      "translationTr": "Neredeyse geldik.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们准备一下。",
+      "pinyin": "Wǒmen zhǔnbèi yíxià.",
+      "translationTr": "Hazırlanalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC043_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，下一站下车。",
+      "pinyin": "Hǎo, xià yí zhàn xià chē.",
+      "translationTr": "Tamam, bir sonraki durakta iniyoruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "batchId": "HSK1_SC041_SC050",
+  "masterStep": 9,
+  "goldenReference": "Run #163",
+  "status": "content_ready_visual_audio_pending",
+  "scenes": [
+    {
+      "sceneId": "HSK1_SC041",
+      "titleTr": "Süpermarkette Alışveriş",
+      "locationId": "LOC_SUPERMARKET_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC042",
+      "titleTr": "Otobüs Beklemek",
+      "locationId": "LOC_BUS_STOP_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC043",
+      "titleTr": "Otobüsle Yolculuk",
+      "locationId": "LOC_CITY_BUS_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC044",
+      "titleTr": "Postanede Paket Göndermek",
+      "locationId": "LOC_POST_OFFICE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC045",
+      "titleTr": "Eczaneye Uğramak",
+      "locationId": "LOC_PHARMACY_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC046",
+      "titleTr": "Kafede Çince Çalışmak",
+      "locationId": "LOC_CAFE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC047",
+      "titleTr": "Mahallede Yürüyüş",
+      "locationId": "LOC_NEIGHBORHOOD_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC048",
+      "titleTr": "Restoranda Sipariş",
+      "locationId": "LOC_RESTAURANT_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC049",
+      "titleTr": "Tren İstasyonunda Gezi Planı",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK1_SC050",
+      "titleTr": "HSK1 Finali: Göl Kenarında",
+      "locationId": "LOC_CITY_PARK_001",
+      "status": "content_ready_visual_audio_pending"
+    }
+  ],
+  "pipeline": [
+    "content",
+    "visuals",
+    "audio",
+    "app_binding",
+    "validation_build",
+    "batch_acceptance"
+  ],
+  "acceptance": {
+    "sceneCount": 10,
+    "requireVisualComplete": true,
+    "requireAudioComplete": true,
+    "requireValidationPass": true
+  },
+  "progress": {
+    "completeScenes": 0,
+    "totalScenes": 10,
+    "contentReady": 10,
+    "visualComplete": 0,
+    "audioComplete": 0,
+    "previewImported": 0,
+    "previewTotal": 10
+  }
+}

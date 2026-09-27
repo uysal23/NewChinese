@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC044",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC044_001",
+      "hanzi": "寄",
+      "pinyin": "jì",
+      "translationTr": "göndermek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_002",
+      "hanzi": "包裹",
+      "pinyin": "bāoguǒ",
+      "translationTr": "paket",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_003",
+      "hanzi": "照片",
+      "pinyin": "zhàopiàn",
+      "translationTr": "fotoğraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_004",
+      "hanzi": "重",
+      "pinyin": "zhòng",
+      "translationTr": "ağır",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_005",
+      "hanzi": "盒子",
+      "pinyin": "hézi",
+      "translationTr": "kutu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_006",
+      "hanzi": "地址",
+      "pinyin": "dìzhǐ",
+      "translationTr": "adres",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_007",
+      "hanzi": "已经",
+      "pinyin": "yǐjīng",
+      "translationTr": "zaten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc044_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC044_008",
+      "hanzi": "收到",
+      "pinyin": "shōudào",
+      "translationTr": "teslim almak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc044_word_008.m4a"
+    }
+  ]
+}

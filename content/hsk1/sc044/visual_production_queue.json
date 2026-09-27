@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK1_SC044",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_POST_OFFICE_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "Small clean Hangzhou post office counter, parcel scale, envelopes and a compact cardboard box, Li Na helping Zhang Wei prepare a family package, no readable labels or text, warm neutral 2.5D/3D CGI.",
+  "assets": [
+    {
+      "file": "hsk1_sc044_bg.webp",
+      "purpose": "scene-specific background without characters"
+    },
+    {
+      "file": "hsk1_sc044_char_li_na.webp",
+      "purpose": "Li Na full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc044_char_zhang_wei.webp",
+      "purpose": "Zhang Wei full-body transparent layer"
+    },
+    {
+      "file": "hsk1_sc044_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk1_sc044_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no text baked into image",
+    "family-friendly",
+    "full legs/feet preserved",
+    "same canonical faces/outfits",
+    "mobile-safe framing",
+    "location must match dialogue"
+  ]
+}

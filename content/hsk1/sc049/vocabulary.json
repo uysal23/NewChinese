@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC049",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC049_001",
+      "hanzi": "附近",
+      "pinyin": "fùjìn",
+      "translationTr": "yakın çevre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_002",
+      "hanzi": "火车",
+      "pinyin": "huǒchē",
+      "translationTr": "tren",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_003",
+      "hanzi": "出发",
+      "pinyin": "chūfā",
+      "translationTr": "hareket etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_004",
+      "hanzi": "车站",
+      "pinyin": "chēzhàn",
+      "translationTr": "istasyon",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_005",
+      "hanzi": "票",
+      "pinyin": "piào",
+      "translationTr": "bilet",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_006",
+      "hanzi": "来回",
+      "pinyin": "láihuí",
+      "translationTr": "gidiş dönüş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_007",
+      "hanzi": "期待",
+      "pinyin": "qīdài",
+      "translationTr": "sabırsızlıkla beklemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC049_008",
+      "hanzi": "旅行",
+      "pinyin": "lǚxíng",
+      "translationTr": "seyahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_word_008.m4a"
+    }
+  ]
+}

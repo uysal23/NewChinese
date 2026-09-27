@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC041",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC041_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们先买水果吧。",
+      "pinyin": "Wǒmen xiān mǎi shuǐguǒ ba.",
+      "translationTr": "Önce meyve alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，你想买什么？",
+      "pinyin": "Hǎo, nǐ xiǎng mǎi shénme?",
+      "translationTr": "Tamam, ne almak istiyorsun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我想买苹果和香蕉。",
+      "pinyin": "Wǒ xiǎng mǎi píngguǒ hé xiāngjiāo.",
+      "translationTr": "Elma ve muz almak istiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "苹果在那边。",
+      "pinyin": "Píngguǒ zài nàbiān.",
+      "translationTr": "Elmalar şu tarafta.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这些苹果很新鲜。",
+      "pinyin": "Zhèxiē píngguǒ hěn xīnxiān.",
+      "translationTr": "Bu elmalar çok taze.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们买四个吧。",
+      "pinyin": "Wǒmen mǎi sì ge ba.",
+      "translationTr": "Dört tane alalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还要买牛奶吗？",
+      "pinyin": "Hái yào mǎi niúnǎi ma?",
+      "translationTr": "Süt de alacak mıyız?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要，我每天早上喝牛奶。",
+      "pinyin": "Yào, wǒ měitiān zǎoshang hē niúnǎi.",
+      "translationTr": "Evet, her sabah süt içerim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "米也快没有了。",
+      "pinyin": "Mǐ yě kuài méiyǒu le.",
+      "translationTr": "Pirinç de neredeyse bitti.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那买一袋米。",
+      "pinyin": "Nà mǎi yí dài mǐ.",
+      "translationTr": "O zaman bir paket pirinç alalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还需要鸡蛋吗？",
+      "pinyin": "Hái xūyào jīdàn ma?",
+      "translationTr": "Yumurtaya da ihtiyacımız var mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "需要，买十个。",
+      "pinyin": "Xūyào, mǎi shí ge.",
+      "translationTr": "Evet, on tane alalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好了，我们去付钱吧。",
+      "pinyin": "Hǎo le, wǒmen qù fù qián ba.",
+      "translationTr": "Tamam, ödeme yapmaya gidelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC041_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，今天买得很快。",
+      "pinyin": "Hǎo, jīntiān mǎi de hěn kuài.",
+      "translationTr": "Tamam, bugün alışverişi hızlı yaptık.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

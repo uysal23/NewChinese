@@ -1,0 +1,39 @@
+{
+  "sceneId": "HSK1_SC049",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC049_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC049_001",
+      "correctZh": "八点十分出发。",
+      "pinyin": "Bā diǎn shí fēn chūfā.",
+      "translationTr": "Sekizi on geçe hareket ediyor.",
+      "tokens": [
+        "八点十分",
+        "出发"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc049_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC049_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC049_002",
+      "sentenceZh": "先买___。",
+      "correctAnswer": "票",
+      "options": [
+        "票",
+        "附近",
+        "旅行",
+        "火车"
+      ],
+      "fullCorrectSentenceZh": "先买票。",
+      "correctZh": "先买票。",
+      "pinyin": "Xiān mǎi piào.",
+      "translationTr": "Önce bilet alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc049_sentence_002.m4a"
+    }
+  ]
+}

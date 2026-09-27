@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC048",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC048_001",
+      "hanzi": "餐厅",
+      "pinyin": "cāntīng",
+      "translationTr": "restoran",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_002",
+      "hanzi": "面",
+      "pinyin": "miàn",
+      "translationTr": "noodle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_003",
+      "hanzi": "牛肉",
+      "pinyin": "niúròu",
+      "translationTr": "dana eti",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_004",
+      "hanzi": "蔬菜",
+      "pinyin": "shūcài",
+      "translationTr": "sebze",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_005",
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "translationTr": "çorba",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_006",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "translationTr": "sipariş vermek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_007",
+      "hanzi": "够",
+      "pinyin": "gòu",
+      "translationTr": "yeterli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC048_008",
+      "hanzi": "服务员",
+      "pinyin": "fúwùyuán",
+      "translationTr": "garson",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_word_008.m4a"
+    }
+  ]
+}

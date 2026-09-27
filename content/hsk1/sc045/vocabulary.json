@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC045",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC045_001",
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "translationTr": "yorgun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_002",
+      "hanzi": "感冒",
+      "pinyin": "gǎnmào",
+      "translationTr": "soğuk algınlığı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_003",
+      "hanzi": "头疼",
+      "pinyin": "tóu téng",
+      "translationTr": "baş ağrımak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_004",
+      "hanzi": "舒服",
+      "pinyin": "shūfu",
+      "translationTr": "rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_005",
+      "hanzi": "药店",
+      "pinyin": "yàodiàn",
+      "translationTr": "eczane",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_006",
+      "hanzi": "纸巾",
+      "pinyin": "zhǐjīn",
+      "translationTr": "mendil",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_007",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "translationTr": "dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC045_008",
+      "hanzi": "喝水",
+      "pinyin": "hē shuǐ",
+      "translationTr": "su içmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_word_008.m4a"
+    }
+  ]
+}

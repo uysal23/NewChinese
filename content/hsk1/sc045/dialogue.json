@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC045",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC045_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你今天看起来有点儿累。",
+      "pinyin": "Nǐ jīntiān kàn qǐlái yǒudiǎnr lèi.",
+      "translationTr": "Bugün biraz yorgun görünüyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我有一点儿感冒。",
+      "pinyin": "Wǒ yǒu yìdiǎnr gǎnmào.",
+      "translationTr": "Biraz soğuk algınlığım var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "头疼吗？",
+      "pinyin": "Tóu téng ma?",
+      "translationTr": "Başın ağrıyor mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不疼，只是鼻子不舒服。",
+      "pinyin": "Bù téng, zhǐshì bízi bù shūfu.",
+      "translationTr": "Ağrımıyor, sadece burnum rahatsız.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们去药店看看吧。",
+      "pinyin": "Wǒmen qù yàodiàn kànkan ba.",
+      "translationTr": "Eczaneye bir bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我想买一些纸巾。",
+      "pinyin": "Hǎo, wǒ xiǎng mǎi yìxiē zhǐjīn.",
+      "translationTr": "Tamam, biraz mendil almak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还要温度计吗？",
+      "pinyin": "Hái yào wēndùjì ma?",
+      "translationTr": "Termometre de ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "家里有，不用了。",
+      "pinyin": "Jiālǐ yǒu, bú yòng le.",
+      "translationTr": "Evde var, gerek yok.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天早点儿回家休息。",
+      "pinyin": "Jīntiān zǎodiǎnr huí jiā xiūxi.",
+      "translationTr": "Bugün biraz erken eve dönüp dinlen.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我会多喝水。",
+      "pinyin": "Hǎo, wǒ huì duō hē shuǐ.",
+      "translationTr": "Tamam, daha çok su içeceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "晚上别太晚睡。",
+      "pinyin": "Wǎnshang bié tài wǎn shuì.",
+      "translationTr": "Akşam çok geç yatma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "知道了，谢谢你。",
+      "pinyin": "Zhīdào le, xièxie nǐ.",
+      "translationTr": "Anladım, teşekkür ederim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "明天应该会好一点儿。",
+      "pinyin": "Míngtiān yīnggāi huì hǎo yìdiǎnr.",
+      "translationTr": "Yarın biraz daha iyi olursun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc045_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC045_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "希望如此。",
+      "pinyin": "Xīwàng rúcǐ.",
+      "translationTr": "Umarım öyle olur.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc045_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC046",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC046_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC046_001",
+      "correctZh": "我想复习时间和方向。",
+      "pinyin": "Wǒ xiǎng fùxí shíjiān hé fāngxiàng.",
+      "translationTr": "Saat ve yönleri tekrar etmek istiyorum.",
+      "tokens": [
+        "我想",
+        "复习",
+        "时间和方向"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc046_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC046_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC046_002",
+      "sentenceZh": "这里很___。",
+      "correctAnswer": "安静",
+      "options": [
+        "安静",
+        "方向",
+        "问题",
+        "练习"
+      ],
+      "fullCorrectSentenceZh": "这里很安静。",
+      "correctZh": "这里很安静。",
+      "pinyin": "Zhèlǐ hěn ānjìng.",
+      "translationTr": "Burası çok sakin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc046_sentence_002.m4a"
+    }
+  ]
+}

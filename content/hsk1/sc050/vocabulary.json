@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC050",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC050_001",
+      "hanzi": "习惯",
+      "pinyin": "xíguàn",
+      "translationTr": "alışmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_002",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "translationTr": "tanımak / bilmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_003",
+      "hanzi": "进步",
+      "pinyin": "jìnbù",
+      "translationTr": "ilerlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_004",
+      "hanzi": "帮助",
+      "pinyin": "bāngzhù",
+      "translationTr": "yardım etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_005",
+      "hanzi": "努力",
+      "pinyin": "nǔlì",
+      "translationTr": "çalışkan / çaba göstermek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_006",
+      "hanzi": "介绍",
+      "pinyin": "jièshào",
+      "translationTr": "tanıtmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_007",
+      "hanzi": "信心",
+      "pinyin": "xìnxīn",
+      "translationTr": "özgüven",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC050_008",
+      "hanzi": "继续",
+      "pinyin": "jìxù",
+      "translationTr": "devam etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_word_008.m4a"
+    }
+  ]
+}

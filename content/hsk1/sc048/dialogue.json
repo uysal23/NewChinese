@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC048",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC048_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这家餐厅看起来不错。",
+      "pinyin": "Zhè jiā cāntīng kàn qǐlái búcuò.",
+      "translationTr": "Bu restoran güzel görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这里的面很好吃。",
+      "pinyin": "Zhèlǐ de miàn hěn hǎochī.",
+      "translationTr": "Buradaki noodle çok lezzetli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想吃牛肉面。",
+      "pinyin": "Wǒ xiǎng chī niúròu miàn.",
+      "translationTr": "Etli noodle yemek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我想吃米饭和蔬菜。",
+      "pinyin": "Wǒ xiǎng chī mǐfàn hé shūcài.",
+      "translationTr": "Pirinç ve sebze yemek istiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "要不要点一个汤？",
+      "pinyin": "Yào bu yào diǎn yí ge tāng?",
+      "translationTr": "Bir çorba söyleyelim mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，点一个西红柿汤。",
+      "pinyin": "Hǎo, diǎn yí ge xīhóngshì tāng.",
+      "translationTr": "Tamam, bir domates çorbası söyleyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你想喝什么？",
+      "pinyin": "Nǐ xiǎng hē shénme?",
+      "translationTr": "Ne içmek istersin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我喝茶。",
+      "pinyin": "Wǒ hē chá.",
+      "translationTr": "Çay içeceğim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我喝水。",
+      "pinyin": "Nà wǒ hē shuǐ.",
+      "translationTr": "Ben de su içeyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这些就够了。",
+      "pinyin": "Zhèxiē jiù gòu le.",
+      "translationTr": "Bunlar yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "服务员来了。",
+      "pinyin": "Fúwùyuán lái le.",
+      "translationTr": "Garson geldi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你来点吧。",
+      "pinyin": "Nǐ lái diǎn ba.",
+      "translationTr": "Siparişi sen ver.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我试一试。",
+      "pinyin": "Hǎo, wǒ shì yí shì.",
+      "translationTr": "Tamam, deneyeyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc048_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC048_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "别担心，你说得很好。",
+      "pinyin": "Bié dānxīn, nǐ shuō de hěn hǎo.",
+      "translationTr": "Endişelenme, çok iyi konuşuyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc048_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

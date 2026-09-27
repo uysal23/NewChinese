@@ -1,0 +1,77 @@
+{
+  "sceneId": "HSK1_SC043",
+  "words": [
+    {
+      "wordId": "WORD_HSK1_SC043_001",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "translationTr": "durak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_002",
+      "hanzi": "多久",
+      "pinyin": "duōjiǔ",
+      "translationTr": "ne kadar süre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_003",
+      "hanzi": "分钟",
+      "pinyin": "fēnzhōng",
+      "translationTr": "dakika",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_004",
+      "hanzi": "座位",
+      "pinyin": "zuòwèi",
+      "translationTr": "koltuk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_005",
+      "hanzi": "站着",
+      "pinyin": "zhànzhe",
+      "translationTr": "ayakta durmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_006",
+      "hanzi": "下一站",
+      "pinyin": "xià yí zhàn",
+      "translationTr": "sonraki durak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_007",
+      "hanzi": "提醒",
+      "pinyin": "tíxǐng",
+      "translationTr": "hatırlatmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc043_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK1_SC043_008",
+      "hanzi": "下车",
+      "pinyin": "xià chē",
+      "translationTr": "araçtan inmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc043_word_008.m4a"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC050",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC050_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC050_001",
+      "correctZh": "我会继续学习。",
+      "pinyin": "Wǒ huì jìxù xuéxí.",
+      "translationTr": "Öğrenmeye devam edeceğim.",
+      "tokens": [
+        "我会",
+        "继续",
+        "学习"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC050_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC050_002",
+      "sentenceZh": "你的中文也___了。",
+      "correctAnswer": "进步",
+      "options": [
+        "进步",
+        "帮助",
+        "信心",
+        "继续"
+      ],
+      "fullCorrectSentenceZh": "你的中文也进步了。",
+      "correctZh": "你的中文也进步了。",
+      "pinyin": "Nǐ de Zhōngwén yě jìnbù le.",
+      "translationTr": "Çincen de ilerledi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_sentence_002.m4a"
+    }
+  ]
+}

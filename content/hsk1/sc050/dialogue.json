@@ -1,0 +1,160 @@
+{
+  "sceneId": "HSK1_SC050",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK1_SC050_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你来杭州已经一段时间了。",
+      "pinyin": "Nǐ lái Hángzhōu yǐjīng yí duàn shíjiān le.",
+      "translationTr": "Hangzhou'ya geleli epey oldu.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是啊，时间过得很快。",
+      "pinyin": "Shì a, shíjiān guò de hěn kuài.",
+      "translationTr": "Evet, zaman çok hızlı geçti.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在生活习惯了吗？",
+      "pinyin": "Xiànzài shēnghuó xíguàn le ma?",
+      "translationTr": "Artık buradaki hayata alıştın mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "习惯了，也认识了很多地方。",
+      "pinyin": "Xíguàn le, yě rènshi le hěn duō dìfang.",
+      "translationTr": "Alıştım ve birçok yeri öğrendim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你的中文也进步了。",
+      "pinyin": "Nǐ de Zhōngwén yě jìnbù le.",
+      "translationTr": "Çincen de ilerledi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢你一直帮助我。",
+      "pinyin": "Xièxie nǐ yìzhí bāngzhù wǒ.",
+      "translationTr": "Bana sürekli yardım ettiğin için teşekkür ederim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你自己也很努力。",
+      "pinyin": "Nǐ zìjǐ yě hěn nǔlì.",
+      "translationTr": "Sen de çok çalıştın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在我会买东西、坐车、点菜。",
+      "pinyin": "Xiànzài wǒ huì mǎi dōngxi, zuò chē, diǎn cài.",
+      "translationTr": "Artık alışveriş yapabiliyor, otobüse binebiliyor ve sipariş verebiliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还会介绍家人和朋友。",
+      "pinyin": "Hái huì jièshào jiārén hé péngyou.",
+      "translationTr": "Ayrıca aileni ve arkadaşlarını tanıtabiliyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我越来越有信心了。",
+      "pinyin": "Duì, wǒ yuèláiyuè yǒu xìnxīn le.",
+      "translationTr": "Evet, gittikçe daha çok güven kazanıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "学习语言要慢慢来。",
+      "pinyin": "Xuéxí yǔyán yào mànmàn lái.",
+      "translationTr": "Dil öğrenmek zamanla olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我会继续学习。",
+      "pinyin": "Wǒ huì jìxù xuéxí.",
+      "translationTr": "Öğrenmeye devam edeceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "下一阶段会更有意思。",
+      "pinyin": "Xià yí jiēduàn huì gèng yǒuyìsi.",
+      "translationTr": "Sonraki aşama daha da ilginç olacak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc050_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK1_SC050_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我们继续加油。",
+      "pinyin": "Hǎo, wǒmen jìxù jiāyóu.",
+      "translationTr": "Tamam, birlikte devam edelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc050_line_014.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

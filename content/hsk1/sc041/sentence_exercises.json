@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK1_SC041",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK1_SC041_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK1_SC041_001",
+      "correctZh": "我们先买水果吧。",
+      "pinyin": "Wǒmen xiān mǎi shuǐguǒ ba.",
+      "translationTr": "Önce meyve alalım.",
+      "tokens": [
+        "我们",
+        "先",
+        "买水果吧"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk1_sc041_sentence_001.m4a",
+      "allowPreviewAudio": true
+    },
+    {
+      "exerciseId": "EX_SENT_HSK1_SC041_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK1_SC041_002",
+      "sentenceZh": "这些苹果很___。",
+      "correctAnswer": "新鲜",
+      "options": [
+        "新鲜",
+        "牛奶",
+        "鸡蛋",
+        "香蕉"
+      ],
+      "fullCorrectSentenceZh": "这些苹果很新鲜。",
+      "correctZh": "这些苹果很新鲜。",
+      "pinyin": "Zhèxiē píngguǒ hěn xīnxiān.",
+      "translationTr": "Bu elmalar çok taze.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk1_sc041_sentence_002.m4a"
+    }
+  ]
+}

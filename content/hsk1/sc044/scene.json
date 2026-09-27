@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK1_SC044",
+  "level": "HSK1",
+  "sceneNumber": 44,
+  "titleZh": "去邮局寄东西",
+  "titleTr": "Postanede Paket Göndermek",
+  "locationId": "LOC_POST_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 8,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC043",
+  "nextSceneId": "HSK1_SC045",
+  "summaryTr": "Zhang Wei ailesine küçük bir paket göndermek için Li Na ile postaneye gider.",
+  "locationTr": "Postane"
+}
