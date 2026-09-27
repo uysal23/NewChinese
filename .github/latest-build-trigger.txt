@@ -1,4 +1,4 @@
-Approved HSK1 acceptance build
-Source head before trigger: 8f37f4d92e10eaba7dbd630fab05ac7b9af460d1
-Scope: HSK1 SC001-SC050 + acceptance fixes
-Build: debug APK + unsigned release APK/AAB
+Approved debug test build
+Source head before trigger: 40c1ff2eec30e5049ea1a33458547fec7a1bb12d
+Scope: UI/study/admin fixes after HSK1 acceptance
+Purpose: install and phone-test latest APK
