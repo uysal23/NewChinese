@@ -70,6 +70,8 @@ fun DashboardScreen(
         .maxByOrNull { it.lastStudiedAt }
         ?.sceneId
         ?: "Henüz yok"
+    val shadowingScores = progress.map { it.shadowingBestSimilarity }.filter { it > 0 }
+    val shadowingAverage = if (shadowingScores.isEmpty()) null else shadowingScores.average().toInt()
 
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
@@ -84,7 +86,7 @@ fun DashboardScreen(
                 Text("Açılmış sahne: $unlocked / 300")
                 Text("Favoriler: $favoriteCount")
                 Text("Son çalışma: $lastScene")
-                Text("Telaffuz Doğruluk: Henüz veri yok")
+                Text("Shadowing metin benzerliği: " + (shadowingAverage?.let { "%$it" } ?: "Henüz veri yok"))
             }
         }
 
