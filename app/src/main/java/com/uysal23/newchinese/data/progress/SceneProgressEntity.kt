@@ -9,6 +9,7 @@ data class SceneProgressEntity(
     val vocabularyCompleted: Boolean = false,
     val sentencePracticeCompleted: Boolean = false,
     val shadowingCompleted: Boolean = false,
+    val shadowingBestSimilarity: Int = 0,
     val wordExamPassed: Boolean = false,
     val wordExamBestScore: Int = 0,
     val sentenceExamPassed: Boolean = false,
