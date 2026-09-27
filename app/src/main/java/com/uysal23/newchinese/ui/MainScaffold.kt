@@ -33,14 +33,21 @@ fun MainScaffold(
                     NavigationBarItem(
                         selected = currentRoute == destination.route,
                         onClick = {
-                            nav.navigate(destination.route) {
-                                launchSingleTop = true
-                                restoreState = true
-                                popUpTo("dashboard") { saveState = true }
+                            if (destination.route == "dashboard") {
+                                val returned = nav.popBackStack("dashboard", inclusive = false)
+                                if (!returned) {
+                                    nav.navigate("dashboard") { launchSingleTop = true }
+                                }
+                            } else {
+                                nav.navigate(destination.route) {
+                                    launchSingleTop = true
+                                    restoreState = true
+                                    popUpTo("dashboard") { saveState = true }
+                                }
                             }
                         },
                         icon = { Text(destinationIcon(destination.route)) },
-                        label = { Text(destination.label) }
+                        label = { Text(destination.label, style = MaterialTheme.typography.labelSmall, maxLines = 2) }
                     )
                 }
             }
