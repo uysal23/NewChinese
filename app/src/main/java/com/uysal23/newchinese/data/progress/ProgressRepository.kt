@@ -25,17 +25,38 @@ class ProgressRepository(private val dao: SceneProgressDao) {
         )
     }
 
-    suspend fun markVocabularyComplete(sceneId: String) = mutate(sceneId) {
-        copy(vocabularyCompleted = true, lastStudiedAt = System.currentTimeMillis())
+    suspend fun recordVocabularyProgress(sceneId: String, percent: Int) = mutate(sceneId) {
+        val p = percent.coerceIn(0, 100)
+        copy(
+            vocabularyProgressPercent = maxOf(vocabularyProgressPercent, p),
+            vocabularyCompleted = vocabularyCompleted || p >= 100,
+            lastStudiedAt = System.currentTimeMillis()
+        )
     }
 
-    suspend fun markSentencePracticeComplete(sceneId: String) = mutate(sceneId) {
-        copy(sentencePracticeCompleted = true, lastStudiedAt = System.currentTimeMillis())
+    suspend fun recordSentencePracticeProgress(sceneId: String, percent: Int) = mutate(sceneId) {
+        val p = percent.coerceIn(0, 100)
+        copy(
+            sentencePracticeProgressPercent = maxOf(sentencePracticeProgressPercent, p),
+            sentencePracticeCompleted = sentencePracticeCompleted || p >= 100,
+            lastStudiedAt = System.currentTimeMillis()
+        )
     }
 
-    suspend fun markShadowingComplete(sceneId: String) = mutate(sceneId) {
-        copy(shadowingCompleted = true, lastStudiedAt = System.currentTimeMillis())
+    suspend fun recordShadowingProgress(sceneId: String, percent: Int) = mutate(sceneId) {
+        val p = percent.coerceIn(0, 100)
+        copy(
+            shadowingProgressPercent = maxOf(shadowingProgressPercent, p),
+            shadowingCompleted = shadowingCompleted || p >= 100,
+            lastStudiedAt = System.currentTimeMillis()
+        )
     }
+
+    suspend fun markVocabularyComplete(sceneId: String) = recordVocabularyProgress(sceneId, 100)
+
+    suspend fun markSentencePracticeComplete(sceneId: String) = recordSentencePracticeProgress(sceneId, 100)
+
+    suspend fun markShadowingComplete(sceneId: String) = recordShadowingProgress(sceneId, 100)
 
     suspend fun recordShadowingSimilarity(sceneId: String, similarityPercent: Int) = mutate(sceneId) {
         copy(
