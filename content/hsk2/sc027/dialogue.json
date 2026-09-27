@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC027",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC027_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我一会儿要用中文参加一个视频通话。",
+      "pinyin": "Wǒ yíhuìr yào yòng Zhōngwén cānjiā yí ge shìpín tōnghuà.",
+      "translationTr": "Birazdan Çince bir görüntülü görüşmeye katılacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "紧张吗？",
+      "pinyin": "Jǐnzhāng ma?",
+      "translationTr": "Heyecanlı mısın?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一点儿，主要怕听不清。",
+      "pinyin": "Yǒu yìdiǎnr, zhǔyào pà tīng bu qīng.",
+      "translationTr": "Biraz, asıl sesleri net duyamamaktan korkuyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先检查网络和耳机。",
+      "pinyin": "Xiān jiǎnchá wǎngluò hé ěrjī.",
+      "translationTr": "Önce interneti ve kulaklığı kontrol et.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "网络没问题，耳机也是新的。",
+      "pinyin": "Wǎngluò méi wèntí, ěrjī yě shì xīn de.",
+      "translationTr": "İnternet sorunsuz, kulaklığım da yeni.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那把房间安静一点儿。",
+      "pinyin": "Nà bǎ fángjiān ānjìng yìdiǎnr.",
+      "translationTr": "O zaman odayı biraz sessiz hale getir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "窗户要关吗？",
+      "pinyin": "Chuānghu yào guān ma?",
+      "translationTr": "Pencereyi kapatayım mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "外面有点儿吵，关上会更好。",
+      "pinyin": "Wàimiàn yǒudiǎnr chǎo, guānshang huì gèng hǎo.",
+      "translationTr": "Dışarısı biraz gürültülü, kapatırsan daha iyi olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还写了几个想说的关键词。",
+      "pinyin": "Wǒ hái xiě le jǐ ge xiǎng shuō de guānjiàncí.",
+      "translationTr": "Söylemek istediklerim için birkaç anahtar kelime de yazdım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，但别把整句话都写下来。",
+      "pinyin": "Hěn hǎo, dàn bié bǎ zhěng jù huà dōu xiě xiàlái.",
+      "translationTr": "Çok iyi ama bütün cümleleri yazma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不然我会一直看纸，对吧？",
+      "pinyin": "Bùrán wǒ huì yìzhí kàn zhǐ, duì ba?",
+      "translationTr": "Yoksa sürekli kâğıda bakarım, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对。听不懂的时候就请对方再说一次。",
+      "pinyin": "Duì. Tīng bu dǒng de shíhou jiù qǐng duìfāng zài shuō yí cì.",
+      "translationTr": "Evet. Anlamadığında karşı taraftan tekrar söylemesini iste.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我可以说“请再说一遍”或者“请说慢一点儿”。",
+      "pinyin": "Wǒ kěyǐ shuō “qǐng zài shuō yí biàn” huòzhě “qǐng shuō màn yìdiǎnr”.",
+      "translationTr": "'Lütfen tekrar söyleyin' ya da 'Lütfen biraz yavaş konuşun' diyebilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "完全可以，很自然。",
+      "pinyin": "Wánquán kěyǐ, hěn zìrán.",
+      "translationTr": "Kesinlikle olur, çok doğal.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "通话只有十五分钟，应该不会太累。",
+      "pinyin": "Tōnghuà zhǐ yǒu shíwǔ fēnzhōng, yīnggāi bú huì tài lèi.",
+      "translationTr": "Görüşme sadece on beş dakika, çok yorucu olmaz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "结束以后记一下你没听懂的地方。",
+      "pinyin": "Jiéshù yǐhòu jì yíxià nǐ méi tīng dǒng de dìfang.",
+      "translationTr": "Bittikten sonra anlamadığın yerleri not et.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好。现在设备都准备好了。",
+      "pinyin": "Hǎo. Xiànzài shèbèi dōu zhǔnbèi hǎo le.",
+      "translationTr": "Tamam. Şimdi cihazlar hazır.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC027_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就放松一点儿，正常聊天就好。",
+      "pinyin": "Nà jiù fàngsōng yìdiǎnr, zhèngcháng liáotiān jiù hǎo.",
+      "translationTr": "O zaman biraz rahatla, normal sohbet etmen yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

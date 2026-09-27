@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC028",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC028_001",
+      "hanzi": "网上",
+      "pinyin": "wǎngshang",
+      "translationTr": "internette",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_002",
+      "hanzi": "听力",
+      "pinyin": "tīnglì",
+      "translationTr": "dinleme becerisi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_003",
+      "hanzi": "语法",
+      "pinyin": "yǔfǎ",
+      "translationTr": "dilbilgisi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_004",
+      "hanzi": "跟读",
+      "pinyin": "gēndú",
+      "translationTr": "ardından tekrar etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_005",
+      "hanzi": "必须",
+      "pinyin": "bìxū",
+      "translationTr": "zorunda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_006",
+      "hanzi": "全部",
+      "pinyin": "quánbù",
+      "translationTr": "tamamı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_007",
+      "hanzi": "真正",
+      "pinyin": "zhēnzhèng",
+      "translationTr": "gerçekten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_008",
+      "hanzi": "免费",
+      "pinyin": "miǎnfèi",
+      "translationTr": "ücretsiz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_009",
+      "hanzi": "体验",
+      "pinyin": "tǐyàn",
+      "translationTr": "deneyimlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC028_010",
+      "hanzi": "浪费",
+      "pinyin": "làngfèi",
+      "translationTr": "boşa harcamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_word_010.m4a"
+    }
+  ]
+}

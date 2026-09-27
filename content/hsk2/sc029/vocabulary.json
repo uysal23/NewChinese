@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC029",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC029_001",
+      "hanzi": "连接",
+      "pinyin": "liánjiē",
+      "translationTr": "bağlanmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_002",
+      "hanzi": "蓝牙",
+      "pinyin": "lányá",
+      "translationTr": "Bluetooth",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_003",
+      "hanzi": "充电",
+      "pinyin": "chōngdiàn",
+      "translationTr": "şarj etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_004",
+      "hanzi": "配对",
+      "pinyin": "pèiduì",
+      "translationTr": "eşleştirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_005",
+      "hanzi": "进入",
+      "pinyin": "jìnrù",
+      "translationTr": "girmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_006",
+      "hanzi": "说明",
+      "pinyin": "shuōmíng",
+      "translationTr": "açıklama",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_007",
+      "hanzi": "店员",
+      "pinyin": "diànyuán",
+      "translationTr": "mağaza görevlisi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_008",
+      "hanzi": "按钮",
+      "pinyin": "ànniǔ",
+      "translationTr": "düğme",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_009",
+      "hanzi": "闪",
+      "pinyin": "shǎn",
+      "translationTr": "yanıp sönmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC029_010",
+      "hanzi": "成功",
+      "pinyin": "chénggōng",
+      "translationTr": "başarılı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_word_010.m4a"
+    }
+  ]
+}

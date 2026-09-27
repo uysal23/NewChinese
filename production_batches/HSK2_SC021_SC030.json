@@ -1,0 +1,56 @@
+{
+  "batchId": "HSK2_SC021_SC030",
+  "masterStep": 11,
+  "goldenReference": "Run #163",
+  "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
+  "theme": "language learning and technology",
+  "dialogueTargetTurns": "18-30",
+  "status": "content_ready_visual_audio_pending",
+  "scenes": [
+    {
+      "sceneId": "HSK2_SC026",
+      "titleTr": "Sesli Çalışma Denemesi",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC027",
+      "titleTr": "İlk Görüntülü Görüşme",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC028",
+      "titleTr": "Online Ders Seçmek",
+      "locationId": "LOC_CAFE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC029",
+      "titleTr": "Cihazda Küçük Bir Sorun",
+      "locationId": "LOC_ELECTRONICS_STORE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC030",
+      "titleTr": "Daha Akıllı Çalışmak",
+      "locationId": "LOC_PUBLIC_LIBRARY_001",
+      "status": "content_ready_visual_audio_pending"
+    }
+  ],
+  "pipeline": [
+    "content",
+    "visuals",
+    "audio",
+    "app_binding",
+    "validation",
+    "batch_acceptance"
+  ],
+  "progress": {
+    "contentReady": 10,
+    "totalScenes": 10,
+    "visualComplete": 0,
+    "audioComplete": 0,
+    "acceptedScenes": 0
+  }
+}

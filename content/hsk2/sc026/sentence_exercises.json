@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC026",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC026_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC026_001",
+      "correctZh": "对，我先听参考，再自己说。",
+      "pinyin": "Duì, wǒ xiān tīng cānkǎo, zài zìjǐ shuō.",
+      "translationTr": "Evet, önce referansı dinleyip sonra kendim söylüyorum.",
+      "sentenceZh": "对，我先听参考，再自己说。",
+      "correctAnswer": "对，我先听参考，再自己说。",
+      "options": [],
+      "tokens": [
+        "对我先",
+        "听参考",
+        "再自己",
+        "说"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC026_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC026_002",
+      "correctZh": "你看的是文字相似度，对吧？",
+      "pinyin": "Nǐ kàn de shì wénzì xiāngsìdù, duì ba?",
+      "translationTr": "Baktığın şey metin benzerliği, değil mi?",
+      "sentenceZh": "___的是文字相似度，对吧？",
+      "correctAnswer": "你看",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC026_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC026_003",
+      "correctZh": "如果识别出来的字不一样，我会再听一次。",
+      "pinyin": "Rúguǒ shíbié chūlái de zì bù yíyàng, wǒ huì zài tīng yí cì.",
+      "translationTr": "Tanınan karakterler farklıysa bir kez daha dinliyorum.",
+      "sentenceZh": "如果识别出来的字不一样，我会再听一次。",
+      "correctAnswer": "如果识别出来的字不一样，我会再听一次。",
+      "options": [
+        "如果识别出来的字不一样，我会再听一次。",
+        "我刚用手机练了几句中文。",
+        "是录自己的声音吗？",
+        "对，我先听参考，再自己说。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC026_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC026_004",
+      "correctZh": "很多人都这样，习惯以后就好了。",
+      "pinyin": "Hěn duō rén dōu zhèyàng, xíguàn yǐhòu jiù hǎo le.",
+      "translationTr": "Birçok kişi böyle, alışınca geçer.",
+      "sentenceZh": "很多人都这样，习惯以后就好了。",
+      "correctAnswer": "很多人都这样，习惯以后就好了。",
+      "options": [],
+      "tokens": [
+        "很多人",
+        "都这样",
+        "习惯以",
+        "后就好",
+        "了"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC026_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC026_005",
+      "correctZh": "我每天练六句就够了吗？",
+      "pinyin": "Wǒ měitiān liàn liù jù jiù gòu le ma?",
+      "translationTr": "Her gün altı cümle çalışmam yeter mi?",
+      "sentenceZh": "___天练六句就够了吗？",
+      "correctAnswer": "我每",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC026_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC026_006",
+      "correctZh": "很好，练完就休息。",
+      "pinyin": "Hěn hǎo, liàn wán jiù xiūxi.",
+      "translationTr": "Çok iyi, bitirince dinlen.",
+      "sentenceZh": "很好，练完就休息。",
+      "correctAnswer": "很好，练完就休息。",
+      "options": [
+        "很好，练完就休息。",
+        "我刚用手机练了几句中文。",
+        "是录自己的声音吗？",
+        "对，我先听参考，再自己说。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_sentence_006.m4a"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC028",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC028_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "网上中文课太多了，我不知道怎么选。",
+      "pinyin": "Wǎngshang Zhōngwén kè tài duō le, wǒ bù zhīdào zěnme xuǎn.",
+      "translationTr": "İnternette çok fazla Çince kursu var, nasıl seçeceğimi bilmiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你先想清楚自己最需要什么。",
+      "pinyin": "Nǐ xiān xiǎng qīngchu zìjǐ zuì xūyào shénme.",
+      "translationTr": "Önce en çok neye ihtiyacın olduğunu netleştir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想提高听力和日常口语。",
+      "pinyin": "Wǒ xiǎng tígāo tīnglì hé rìcháng kǒuyǔ.",
+      "translationTr": "Dinleme ve günlük konuşmamı geliştirmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就别选只讲语法的课。",
+      "pinyin": "Nà jiù bié xuǎn zhǐ jiǎng yǔfǎ de kè.",
+      "translationTr": "O zaman sadece dilbilgisi anlatan bir kurs seçme.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我看到一个课程，每课有十分钟视频。",
+      "pinyin": "Wǒ kàndào yí ge kèchéng, měi kè yǒu shí fēnzhōng shìpín.",
+      "translationTr": "Her dersi on dakikalık videolardan oluşan bir kurs gördüm.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有没有听力练习？",
+      "pinyin": "Yǒu méiyǒu tīnglì liànxí?",
+      "translationTr": "Dinleme alıştırması var mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有，还有短对话和跟读。",
+      "pinyin": "Yǒu, hái yǒu duǎn duìhuà hé gēndú.",
+      "translationTr": "Var, ayrıca kısa diyaloglar ve tekrar etme bölümü var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那听起来比较适合你。",
+      "pinyin": "Nà tīng qǐlái bǐjiào shìhé nǐ.",
+      "translationTr": "O zaman sana oldukça uygun görünüyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不过课程很长，有一百多课。",
+      "pinyin": "Búguò kèchéng hěn cháng, yǒu yìbǎi duō kè.",
+      "translationTr": "Ama kurs çok uzun, yüzün üzerinde ders var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用一次想完。先学前五课看看。",
+      "pinyin": "Bú yòng yí cì xiǎng wán. Xiān xué qián wǔ kè kànkan.",
+      "translationTr": "Hepsini birden düşünme. Önce ilk beş dersi dene.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果不适合就换，对吗？",
+      "pinyin": "Rúguǒ bù shìhé jiù huàn, duì ma?",
+      "translationTr": "Uygun değilse değiştiririm, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，不要因为已经开始就一定要学完。",
+      "pinyin": "Duì, bú yào yīnwèi yǐjīng kāishǐ jiù yídìng yào xué wán.",
+      "translationTr": "Evet, başlamış olman mutlaka bitirmen gerektiği anlamına gelmez.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前常常买了课就觉得必须全部完成。",
+      "pinyin": "Wǒ yǐqián chángcháng mǎi le kè jiù juéde bìxū quánbù wánchéng.",
+      "translationTr": "Eskiden bir kurs alınca hepsini bitirmek zorundaymışım gibi hissederdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "真正有用比“全部完成”更重要。",
+      "pinyin": "Zhēnzhèng yǒuyòng bǐ “quánbù wánchéng” gèng zhòngyào.",
+      "translationTr": "Gerçekten faydalı olması 'hepsini bitirmekten' daha önemli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我先看有没有免费试听。",
+      "pinyin": "Nà wǒ xiān kàn yǒu méiyǒu miǎnfèi shìtīng.",
+      "translationTr": "O zaman önce ücretsiz deneme var mı bakayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，先体验再决定。",
+      "pinyin": "Hěn hǎo, xiān tǐyàn zài juédìng.",
+      "translationTr": "Çok iyi, önce deneyip sonra karar ver.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样就不会因为选择太多而浪费时间。",
+      "pinyin": "Zhèyàng jiù bú huì yīnwèi xuǎnzé tài duō ér làngfèi shíjiān.",
+      "translationTr": "Böylece çok seçenek yüzünden zaman kaybetmem.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC028_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，目标清楚，选择就简单多了。",
+      "pinyin": "Duì, mùbiāo qīngchu, xuǎnzé jiù jiǎndān duō le.",
+      "translationTr": "Evet, hedef net olunca seçim çok daha kolay olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

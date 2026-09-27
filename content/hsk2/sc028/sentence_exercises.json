@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC028",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC028_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC028_001",
+      "correctZh": "我想提高听力和日常口语。",
+      "pinyin": "Wǒ xiǎng tígāo tīnglì hé rìcháng kǒuyǔ.",
+      "translationTr": "Dinleme ve günlük konuşmamı geliştirmek istiyorum.",
+      "sentenceZh": "我想提高听力和日常口语。",
+      "correctAnswer": "我想提高听力和日常口语。",
+      "options": [],
+      "tokens": [
+        "我想提",
+        "高听力",
+        "和日常",
+        "口语"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC028_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC028_002",
+      "correctZh": "有没有听力练习？",
+      "pinyin": "Yǒu méiyǒu tīnglì liànxí?",
+      "translationTr": "Dinleme alıştırması var mı?",
+      "sentenceZh": "___有听力练习？",
+      "correctAnswer": "有没",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC028_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC028_003",
+      "correctZh": "不过课程很长，有一百多课。",
+      "pinyin": "Búguò kèchéng hěn cháng, yǒu yìbǎi duō kè.",
+      "translationTr": "Ama kurs çok uzun, yüzün üzerinde ders var.",
+      "sentenceZh": "不过课程很长，有一百多课。",
+      "correctAnswer": "不过课程很长，有一百多课。",
+      "options": [
+        "不过课程很长，有一百多课。",
+        "网上中文课太多了，我不知道怎么选。",
+        "你先想清楚自己最需要什么。",
+        "我想提高听力和日常口语。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC028_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC028_004",
+      "correctZh": "对，不要因为已经开始就一定要学完。",
+      "pinyin": "Duì, bú yào yīnwèi yǐjīng kāishǐ jiù yídìng yào xué wán.",
+      "translationTr": "Evet, başlamış olman mutlaka bitirmen gerektiği anlamına gelmez.",
+      "sentenceZh": "对，不要因为已经开始就一定要学完。",
+      "correctAnswer": "对，不要因为已经开始就一定要学完。",
+      "options": [],
+      "tokens": [
+        "对不要",
+        "因为已",
+        "经开始",
+        "就一定",
+        "要学完"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC028_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC028_005",
+      "correctZh": "那我先看有没有免费试听。",
+      "pinyin": "Nà wǒ xiān kàn yǒu méiyǒu miǎnfèi shìtīng.",
+      "translationTr": "O zaman önce ücretsiz deneme var mı bakayım.",
+      "sentenceZh": "___先看有没有免费试听。",
+      "correctAnswer": "那我",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc028_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC028_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC028_006",
+      "correctZh": "对，目标清楚，选择就简单多了。",
+      "pinyin": "Duì, mùbiāo qīngchu, xuǎnzé jiù jiǎndān duō le.",
+      "translationTr": "Evet, hedef net olunca seçim çok daha kolay olur.",
+      "sentenceZh": "对，目标清楚，选择就简单多了。",
+      "correctAnswer": "对，目标清楚，选择就简单多了。",
+      "options": [
+        "对，目标清楚，选择就简单多了。",
+        "网上中文课太多了，我不知道怎么选。",
+        "你先想清楚自己最需要什么。",
+        "我想提高听力和日常口语。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc028_sentence_006.m4a"
+    }
+  ]
+}

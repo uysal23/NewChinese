@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC026",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC026_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我刚用手机练了几句中文。",
+      "pinyin": "Wǒ gāng yòng shǒujī liàn le jǐ jù Zhōngwén.",
+      "translationTr": "Az önce telefonda birkaç Çince cümle çalıştım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "是录自己的声音吗？",
+      "pinyin": "Shì lù zìjǐ de shēngyīn ma?",
+      "translationTr": "Kendi sesini mi kaydettin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我先听参考，再自己说。",
+      "pinyin": "Duì, wǒ xiān tīng cānkǎo, zài zìjǐ shuō.",
+      "translationTr": "Evet, önce referansı dinleyip sonra kendim söylüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "感觉怎么样？",
+      "pinyin": "Gǎnjué zěnmeyàng?",
+      "translationTr": "Nasıl hissettin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有些句子很像，有些差很多。",
+      "pinyin": "Yǒuxiē jùzi hěn xiàng, yǒuxiē chà hěn duō.",
+      "translationTr": "Bazı cümleler çok benziyor, bazıları oldukça farklı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你看的是文字相似度，对吧？",
+      "pinyin": "Nǐ kàn de shì wénzì xiāngsìdù, duì ba?",
+      "translationTr": "Baktığın şey metin benzerliği, değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对。我知道它不是声调分数。",
+      "pinyin": "Duì. Wǒ zhīdào tā bú shì shēngdiào fēnshù.",
+      "translationTr": "Evet. Bunun ton puanı olmadığını biliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样理解就对了。",
+      "pinyin": "Zhèyàng lǐjiě jiù duì le.",
+      "translationTr": "Böyle anlaman doğru.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果识别出来的字不一样，我会再听一次。",
+      "pinyin": "Rúguǒ shíbié chūlái de zì bù yíyàng, wǒ huì zài tīng yí cì.",
+      "translationTr": "Tanınan karakterler farklıysa bir kez daha dinliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "也可以听自己的录音，比较哪里不一样。",
+      "pinyin": "Yě kěyǐ tīng zìjǐ de lùyīn, bǐjiào nǎlǐ bù yíyàng.",
+      "translationTr": "Kendi kaydını da dinleyip nerede farklı olduğunu karşılaştırabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "开始的时候我不太喜欢听自己的声音。",
+      "pinyin": "Kāishǐ de shíhou wǒ bú tài xǐhuan tīng zìjǐ de shēngyīn.",
+      "translationTr": "Başta kendi sesimi dinlemeyi pek sevmiyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很多人都这样，习惯以后就好了。",
+      "pinyin": "Hěn duō rén dōu zhèyàng, xíguàn yǐhòu jiù hǎo le.",
+      "translationTr": "Birçok kişi böyle, alışınca geçer.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在我更注意整句话，不只看一个字。",
+      "pinyin": "Xiànzài wǒ gèng zhùyì zhěng jù huà, bù zhǐ kàn yí ge zì.",
+      "translationTr": "Artık tek bir karaktere değil, bütün cümleye daha çok dikkat ediyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这会让语气更自然。",
+      "pinyin": "Zhè huì ràng yǔqì gèng zìrán.",
+      "translationTr": "Bu, söyleyişini daha doğal yapar.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我每天练六句就够了吗？",
+      "pinyin": "Wǒ měitiān liàn liù jù jiù gòu le ma?",
+      "translationTr": "Her gün altı cümle çalışmam yeter mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "够，先保证认真，再慢慢增加。",
+      "pinyin": "Gòu, xiān bǎozhèng rènzhēn, zài mànmàn zēngjiā.",
+      "translationTr": "Yeter, önce dikkatli çalış, sonra yavaş yavaş artır.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我今天就做到六句。",
+      "pinyin": "Nà wǒ jīntiān jiù zuò dào liù jù.",
+      "translationTr": "O zaman bugün altı cümlede bırakayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC026_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，练完就休息。",
+      "pinyin": "Hěn hǎo, liàn wán jiù xiūxi.",
+      "translationTr": "Çok iyi, bitirince dinlen.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC030",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC030_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC030_001",
+      "correctZh": "哪个对你最有帮助？",
+      "pinyin": "Nǎge duì nǐ zuì yǒu bāngzhù?",
+      "translationTr": "Hangisi sana en çok yardımcı oldu?",
+      "sentenceZh": "哪个对你最有帮助？",
+      "correctAnswer": "哪个对你最有帮助？",
+      "options": [],
+      "tokens": [
+        "哪个对",
+        "你最有",
+        "帮助"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC030_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC030_002",
+      "correctZh": "因为我能听、说，再马上比较。",
+      "pinyin": "Yīnwèi wǒ néng tīng, shuō, zài mǎshàng bǐjiào.",
+      "translationTr": "Çünkü dinleyip söyleyebiliyor ve hemen karşılaştırabiliyorum.",
+      "sentenceZh": "___我能听、说，再马上比较。",
+      "correctAnswer": "因为",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC030_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC030_003",
+      "correctZh": "很好，工具应该帮你学习，不是打断学习。",
+      "pinyin": "Hěn hǎo, gōngjù yīnggāi bāng nǐ xuéxí, bú shì dǎduàn xuéxí.",
+      "translationTr": "Çok iyi, araçlar öğrenmeye yardım etmeli, öğrenmeyi bölmemeli.",
+      "sentenceZh": "很好，工具应该帮你学习，不是打断学习。",
+      "correctAnswer": "很好，工具应该帮你学习，不是打断学习。",
+      "options": [
+        "很好，工具应该帮你学习，不是打断学习。",
+        "这段时间你用了不少学习工具。",
+        "对，词典、录音、视频课，还有中文输入法。",
+        "哪个对你最有帮助？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC030_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC030_004",
+      "correctZh": "现在我只留几个真正会用的。",
+      "pinyin": "Xiànzài wǒ zhǐ liú jǐ ge zhēnzhèng huì yòng de.",
+      "translationTr": "Artık gerçekten kullandığım birkaç tanesini bırakıyorum.",
+      "sentenceZh": "现在我只留几个真正会用的。",
+      "correctAnswer": "现在我只留几个真正会用的。",
+      "options": [],
+      "tokens": [
+        "现在我",
+        "只留几",
+        "个真正",
+        "会用的"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC030_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC030_005",
+      "correctZh": "技术最有用的时候，就是让简单的事情更简单。",
+      "pinyin": "Jìshù zuì yǒuyòng de shíhou, jiù shì ràng jiǎndān de shìqing gèng jiǎndān.",
+      "translationTr": "Teknoloji en faydalı olduğunda basit işleri daha da basitleştirir.",
+      "sentenceZh": "___最有用的时候，就是让简单的事情更简单。",
+      "correctAnswer": "技术",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC030_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC030_006",
+      "correctZh": "好，周末出去的时候我就开始试。",
+      "pinyin": "Hǎo, zhōumò chūqù de shíhou wǒ jiù kāishǐ shì.",
+      "translationTr": "Tamam, hafta sonu dışarı çıktığımda denemeye başlayacağım.",
+      "sentenceZh": "好，周末出去的时候我就开始试。",
+      "correctAnswer": "好，周末出去的时候我就开始试。",
+      "options": [
+        "好，周末出去的时候我就开始试。",
+        "这段时间你用了不少学习工具。",
+        "对，词典、录音、视频课，还有中文输入法。",
+        "哪个对你最有帮助？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_sentence_006.m4a"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC026",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC026_001",
+      "hanzi": "录音",
+      "pinyin": "lùyīn",
+      "translationTr": "ses kaydı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_002",
+      "hanzi": "参考",
+      "pinyin": "cānkǎo",
+      "translationTr": "referans",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_003",
+      "hanzi": "相似度",
+      "pinyin": "xiāngsìdù",
+      "translationTr": "benzerlik oranı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_004",
+      "hanzi": "声调",
+      "pinyin": "shēngdiào",
+      "translationTr": "ton",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_005",
+      "hanzi": "识别",
+      "pinyin": "shíbié",
+      "translationTr": "tanımak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_006",
+      "hanzi": "比较",
+      "pinyin": "bǐjiào",
+      "translationTr": "karşılaştırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_007",
+      "hanzi": "整句",
+      "pinyin": "zhěng jù",
+      "translationTr": "bütün cümle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_008",
+      "hanzi": "语气",
+      "pinyin": "yǔqì",
+      "translationTr": "söyleyiş tonu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_009",
+      "hanzi": "增加",
+      "pinyin": "zēngjiā",
+      "translationTr": "artırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc026_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC026_010",
+      "hanzi": "保证",
+      "pinyin": "bǎozhèng",
+      "translationTr": "garanti etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc026_word_010.m4a"
+    }
+  ]
+}

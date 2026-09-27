@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC027",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC027_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC027_001",
+      "correctZh": "有一点儿，主要怕听不清。",
+      "pinyin": "Yǒu yìdiǎnr, zhǔyào pà tīng bu qīng.",
+      "translationTr": "Biraz, asıl sesleri net duyamamaktan korkuyorum.",
+      "sentenceZh": "有一点儿，主要怕听不清。",
+      "correctAnswer": "有一点儿，主要怕听不清。",
+      "options": [],
+      "tokens": [
+        "有一点",
+        "儿主要",
+        "怕听不",
+        "清"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC027_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC027_002",
+      "correctZh": "那把房间安静一点儿。",
+      "pinyin": "Nà bǎ fángjiān ānjìng yìdiǎnr.",
+      "translationTr": "O zaman odayı biraz sessiz hale getir.",
+      "sentenceZh": "___房间安静一点儿。",
+      "correctAnswer": "那把",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC027_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC027_003",
+      "correctZh": "我还写了几个想说的关键词。",
+      "pinyin": "Wǒ hái xiě le jǐ ge xiǎng shuō de guānjiàncí.",
+      "translationTr": "Söylemek istediklerim için birkaç anahtar kelime de yazdım.",
+      "sentenceZh": "我还写了几个想说的关键词。",
+      "correctAnswer": "我还写了几个想说的关键词。",
+      "options": [
+        "我还写了几个想说的关键词。",
+        "我一会儿要用中文参加一个视频通话。",
+        "紧张吗？",
+        "有一点儿，主要怕听不清。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC027_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC027_004",
+      "correctZh": "对。听不懂的时候就请对方再说一次。",
+      "pinyin": "Duì. Tīng bu dǒng de shíhou jiù qǐng duìfāng zài shuō yí cì.",
+      "translationTr": "Evet. Anlamadığında karşı taraftan tekrar söylemesini iste.",
+      "sentenceZh": "对。听不懂的时候就请对方再说一次。",
+      "correctAnswer": "对。听不懂的时候就请对方再说一次。",
+      "options": [],
+      "tokens": [
+        "对听不",
+        "懂的时",
+        "候就请",
+        "对方再",
+        "说一次"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC027_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC027_005",
+      "correctZh": "通话只有十五分钟，应该不会太累。",
+      "pinyin": "Tōnghuà zhǐ yǒu shíwǔ fēnzhōng, yīnggāi bú huì tài lèi.",
+      "translationTr": "Görüşme sadece on beş dakika, çok yorucu olmaz.",
+      "sentenceZh": "___只有十五分钟，应该不会太累。",
+      "correctAnswer": "通话",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC027_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC027_006",
+      "correctZh": "那就放松一点儿，正常聊天就好。",
+      "pinyin": "Nà jiù fàngsōng yìdiǎnr, zhèngcháng liáotiān jiù hǎo.",
+      "translationTr": "O zaman biraz rahatla, normal sohbet etmen yeter.",
+      "sentenceZh": "那就放松一点儿，正常聊天就好。",
+      "correctAnswer": "那就放松一点儿，正常聊天就好。",
+      "options": [
+        "那就放松一点儿，正常聊天就好。",
+        "我一会儿要用中文参加一个视频通话。",
+        "紧张吗？",
+        "有一点儿，主要怕听不清。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_sentence_006.m4a"
+    }
+  ]
+}

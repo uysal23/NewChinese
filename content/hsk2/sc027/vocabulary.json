@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC027",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC027_001",
+      "hanzi": "参加",
+      "pinyin": "cānjiā",
+      "translationTr": "katılmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_002",
+      "hanzi": "视频通话",
+      "pinyin": "shìpín tōnghuà",
+      "translationTr": "görüntülü görüşme",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_003",
+      "hanzi": "网络",
+      "pinyin": "wǎngluò",
+      "translationTr": "internet / ağ",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_004",
+      "hanzi": "吵",
+      "pinyin": "chǎo",
+      "translationTr": "gürültülü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_005",
+      "hanzi": "关键词",
+      "pinyin": "guānjiàncí",
+      "translationTr": "anahtar kelime",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_006",
+      "hanzi": "对方",
+      "pinyin": "duìfāng",
+      "translationTr": "karşı taraf",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_007",
+      "hanzi": "一遍",
+      "pinyin": "yí biàn",
+      "translationTr": "bir kez",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_008",
+      "hanzi": "完全",
+      "pinyin": "wánquán",
+      "translationTr": "tamamen",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_009",
+      "hanzi": "设备",
+      "pinyin": "shèbèi",
+      "translationTr": "cihaz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc027_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC027_010",
+      "hanzi": "正常",
+      "pinyin": "zhèngcháng",
+      "translationTr": "normal",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc027_word_010.m4a"
+    }
+  ]
+}

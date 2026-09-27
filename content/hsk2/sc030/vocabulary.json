@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC030",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC030_001",
+      "hanzi": "工具",
+      "pinyin": "gōngjù",
+      "translationTr": "araç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_002",
+      "hanzi": "帮助",
+      "pinyin": "bāngzhù",
+      "translationTr": "yardım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_003",
+      "hanzi": "打断",
+      "pinyin": "dǎduàn",
+      "translationTr": "bölmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_004",
+      "hanzi": "应用",
+      "pinyin": "yìngyòng",
+      "translationTr": "uygulama",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_005",
+      "hanzi": "留下",
+      "pinyin": "liúxià",
+      "translationTr": "bırakmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_006",
+      "hanzi": "技术",
+      "pinyin": "jìshù",
+      "translationTr": "teknoloji",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_007",
+      "hanzi": "复杂",
+      "pinyin": "fùzá",
+      "translationTr": "karmaşık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_008",
+      "hanzi": "真实",
+      "pinyin": "zhēnshí",
+      "translationTr": "gerçek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_009",
+      "hanzi": "下一步",
+      "pinyin": "xià yí bù",
+      "translationTr": "sonraki adım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC030_010",
+      "hanzi": "目标",
+      "pinyin": "mùbiāo",
+      "translationTr": "hedef",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_word_010.m4a"
+    }
+  ]
+}

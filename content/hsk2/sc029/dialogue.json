@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC029",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC029_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我的耳机今天突然连不上手机了。",
+      "pinyin": "Wǒ de ěrjī jīntiān tūrán lián bu shàng shǒujī le.",
+      "translationTr": "Kulaklığım bugün birden telefona bağlanmamaya başladı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "昨天还能用吗？",
+      "pinyin": "Zuótiān hái néng yòng ma?",
+      "translationTr": "Dün çalışıyor muydu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "能，昨天晚上还正常。",
+      "pinyin": "Néng, zuótiān wǎnshang hái zhèngcháng.",
+      "translationTr": "Evet, dün gece normaldi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你先把蓝牙关掉再打开试试。",
+      "pinyin": "Nǐ xiān bǎ lányá guān diào zài dǎkāi shìshi.",
+      "translationTr": "Önce Bluetooth'u kapatıp tekrar açmayı dene.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "试过了，还是找不到。",
+      "pinyin": "Shì guo le, háishi zhǎo bu dào.",
+      "translationTr": "Denedim, hâlâ bulamıyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那耳机有没有电？",
+      "pinyin": "Nà ěrjī yǒu méiyǒu diàn?",
+      "translationTr": "Peki kulaklığın şarjı var mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有，昨天刚充过。",
+      "pinyin": "Yǒu, zuótiān gāng chōng guo.",
+      "translationTr": "Var, dün yeni şarj ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可能要重新配对。",
+      "pinyin": "Kěnéng yào chóngxīn pèiduì.",
+      "translationTr": "Belki yeniden eşleştirmek gerekiyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我不记得怎么进入配对模式。",
+      "pinyin": "Wǒ bù jìde zěnme jìnrù pèiduì móshì.",
+      "translationTr": "Eşleştirme moduna nasıl girildiğini hatırlamıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们可以先看说明，或者问店员。",
+      "pinyin": "Wǒmen kěyǐ xiān kàn shuōmíng, huòzhě wèn diànyuán.",
+      "translationTr": "Önce açıklamaya bakabiliriz ya da görevliye sorabiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我喜欢先自己试，但不想浪费太多时间。",
+      "pinyin": "Wǒ xǐhuan xiān zìjǐ shì, dàn bù xiǎng làngfèi tài duō shíjiān.",
+      "translationTr": "Önce kendim denemeyi seviyorum ama fazla zaman kaybetmek istemiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那给自己五分钟，解决不了就问。",
+      "pinyin": "Nà gěi zìjǐ wǔ fēnzhōng, jiějué bù liǎo jiù wèn.",
+      "translationTr": "Kendine beş dakika ver, çözemezsen sor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个方法不错。",
+      "pinyin": "Zhège fāngfǎ búcuò.",
+      "translationTr": "Bu yöntem iyi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你看，这里有一个小按钮。",
+      "pinyin": "Nǐ kàn, zhèlǐ yǒu yí ge xiǎo ànniǔ.",
+      "translationTr": "Bak, burada küçük bir düğme var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "按几秒以后灯开始闪了。",
+      "pinyin": "Àn jǐ miǎo yǐhòu dēng kāishǐ shǎn le.",
+      "translationTr": "Birkaç saniye basınca ışık yanıp sönmeye başladı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在手机应该能找到。",
+      "pinyin": "Xiànzài shǒujī yīnggāi néng zhǎodào.",
+      "translationTr": "Şimdi telefon bulabilmeli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "找到了，已经连接成功。",
+      "pinyin": "Zhǎodào le, yǐjīng liánjiē chénggōng.",
+      "translationTr": "Buldu, bağlantı başarılı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC029_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，下次你就知道先检查什么了。",
+      "pinyin": "Hěn hǎo, xià cì nǐ jiù zhīdào xiān jiǎnchá shénme le.",
+      "translationTr": "Çok iyi, bir dahaki sefere neyi önce kontrol edeceğini bilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

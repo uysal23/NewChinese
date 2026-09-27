@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC029",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC029_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC029_001",
+      "correctZh": "能，昨天晚上还正常。",
+      "pinyin": "Néng, zuótiān wǎnshang hái zhèngcháng.",
+      "translationTr": "Evet, dün gece normaldi.",
+      "sentenceZh": "能，昨天晚上还正常。",
+      "correctAnswer": "能，昨天晚上还正常。",
+      "options": [],
+      "tokens": [
+        "能昨天",
+        "晚上还",
+        "正常"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC029_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC029_002",
+      "correctZh": "那耳机有没有电？",
+      "pinyin": "Nà ěrjī yǒu méiyǒu diàn?",
+      "translationTr": "Peki kulaklığın şarjı var mı?",
+      "sentenceZh": "___机有没有电？",
+      "correctAnswer": "那耳",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC029_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC029_003",
+      "correctZh": "我不记得怎么进入配对模式。",
+      "pinyin": "Wǒ bù jìde zěnme jìnrù pèiduì móshì.",
+      "translationTr": "Eşleştirme moduna nasıl girildiğini hatırlamıyorum.",
+      "sentenceZh": "我不记得怎么进入配对模式。",
+      "correctAnswer": "我不记得怎么进入配对模式。",
+      "options": [
+        "我不记得怎么进入配对模式。",
+        "我的耳机今天突然连不上手机了。",
+        "昨天还能用吗？",
+        "能，昨天晚上还正常。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC029_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC029_004",
+      "correctZh": "那给自己五分钟，解决不了就问。",
+      "pinyin": "Nà gěi zìjǐ wǔ fēnzhōng, jiějué bù liǎo jiù wèn.",
+      "translationTr": "Kendine beş dakika ver, çözemezsen sor.",
+      "sentenceZh": "那给自己五分钟，解决不了就问。",
+      "correctAnswer": "那给自己五分钟，解决不了就问。",
+      "options": [],
+      "tokens": [
+        "那给自",
+        "己五分",
+        "钟解决",
+        "不了就",
+        "问"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC029_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC029_005",
+      "correctZh": "按几秒以后灯开始闪了。",
+      "pinyin": "Àn jǐ miǎo yǐhòu dēng kāishǐ shǎn le.",
+      "translationTr": "Birkaç saniye basınca ışık yanıp sönmeye başladı.",
+      "sentenceZh": "___秒以后灯开始闪了。",
+      "correctAnswer": "按几",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc029_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC029_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC029_006",
+      "correctZh": "很好，下次你就知道先检查什么了。",
+      "pinyin": "Hěn hǎo, xià cì nǐ jiù zhīdào xiān jiǎnchá shénme le.",
+      "translationTr": "Çok iyi, bir dahaki sefere neyi önce kontrol edeceğini bilirsin.",
+      "sentenceZh": "很好，下次你就知道先检查什么了。",
+      "correctAnswer": "很好，下次你就知道先检查什么了。",
+      "options": [
+        "很好，下次你就知道先检查什么了。",
+        "我的耳机今天突然连不上手机了。",
+        "昨天还能用吗？",
+        "能，昨天晚上还正常。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc029_sentence_006.m4a"
+    }
+  ]
+}

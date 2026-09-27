@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC030",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC030_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这段时间你用了不少学习工具。",
+      "pinyin": "Zhè duàn shíjiān nǐ yòng le bù shǎo xuéxí gōngjù.",
+      "translationTr": "Bu dönemde epey öğrenme aracı kullandın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，词典、录音、视频课，还有中文输入法。",
+      "pinyin": "Duì, cídiǎn, lùyīn, shìpín kè, hái yǒu Zhōngwén shūrùfǎ.",
+      "translationTr": "Evet; sözlük, ses kaydı, video dersleri ve Çince klavye.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "哪个对你最有帮助？",
+      "pinyin": "Nǎge duì nǐ zuì yǒu bāngzhù?",
+      "translationTr": "Hangisi sana en çok yardımcı oldu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我觉得录音和短对话最有用。",
+      "pinyin": "Wǒ juéde lùyīn hé duǎn duìhuà zuì yǒuyòng.",
+      "translationTr": "Bence ses kaydı ve kısa diyaloglar en faydalısı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "为什么？",
+      "pinyin": "Wèishénme?",
+      "translationTr": "Neden?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "因为我能听、说，再马上比较。",
+      "pinyin": "Yīnwèi wǒ néng tīng, shuō, zài mǎshàng bǐjiào.",
+      "translationTr": "Çünkü dinleyip söyleyebiliyor ve hemen karşılaştırabiliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那手机词典呢？",
+      "pinyin": "Nà shǒujī cídiǎn ne?",
+      "translationTr": "Peki telefon sözlüğü?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "也有用，但是我现在不会每个词都查。",
+      "pinyin": "Yě yǒuyòng, dànshì wǒ xiànzài bú huì měi ge cí dōu chá.",
+      "translationTr": "O da faydalı ama artık her kelimeye bakmıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好，工具应该帮你学习，不是打断学习。",
+      "pinyin": "Hěn hǎo, gōngjù yīnggāi bāng nǐ xuéxí, bú shì dǎduàn xuéxí.",
+      "translationTr": "Çok iyi, araçlar öğrenmeye yardım etmeli, öğrenmeyi bölmemeli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前常常花很多时间找“最好”的应用。",
+      "pinyin": "Wǒ yǐqián chángcháng huā hěn duō shíjiān zhǎo “zuì hǎo” de yìngyòng.",
+      "translationTr": "Eskiden 'en iyi' uygulamayı bulmak için çok zaman harcardım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在呢？",
+      "pinyin": "Xiànzài ne?",
+      "translationTr": "Şimdi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在我只留几个真正会用的。",
+      "pinyin": "Xiànzài wǒ zhǐ liú jǐ ge zhēnzhèng huì yòng de.",
+      "translationTr": "Artık gerçekten kullandığım birkaç tanesini bırakıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样手机也不会太乱。",
+      "pinyin": "Zhèyàng shǒujī yě bú huì tài luàn.",
+      "translationTr": "Böyle telefon da fazla karışık olmaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "而且我更清楚自己的学习目标。",
+      "pinyin": "Érqiě wǒ gèng qīngchu zìjǐ de xuéxí mùbiāo.",
+      "translationTr": "Ayrıca öğrenme hedefimi daha net biliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "技术最有用的时候，就是让简单的事情更简单。",
+      "pinyin": "Jìshù zuì yǒuyòng de shíhou, jiù shì ràng jiǎndān de shìqing gèng jiǎndān.",
+      "translationTr": "Teknoloji en faydalı olduğunda basit işleri daha da basitleştirir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不是让学习变得更复杂。",
+      "pinyin": "Bú shì ràng xuéxí biàn de gèng fùzá.",
+      "translationTr": "Öğrenmeyi daha karmaşık hale getirmek değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对。下一步可以把中文用到更多真实生活里。",
+      "pinyin": "Duì. Xià yí bù kěyǐ bǎ Zhōngwén yòng dào gèng duō zhēnshí shēnghuó lǐ.",
+      "translationTr": "Evet. Sonraki adım Çinceyi gerçek hayatta daha fazla kullanmak olabilir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc030_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC030_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，周末出去的时候我就开始试。",
+      "pinyin": "Hǎo, zhōumò chūqù de shíhou wǒ jiù kāishǐ shì.",
+      "translationTr": "Tamam, hafta sonu dışarı çıktığımda denemeye başlayacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc030_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}
