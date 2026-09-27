@@ -135,15 +135,17 @@ fun SentenceExamScreen(
 
     val exercise = exercises[index]
     val correctAnswer = when (exercise.type) {
-        "fill_blank" -> exercise.correctAnswer.orEmpty()
-        "reorder" -> exercise.tokens.joinToString("")
+        "fill_blank", "choose_word", "listen_select" ->
+            exercise.correctAnswer?.takeIf { it.isNotBlank() } ?: exercise.correctZh
+        "reorder", "repair_order" -> exercise.tokens.joinToString("")
         else -> exercise.correctZh
     }
 
     val options = remember(exercise.id) {
         when (exercise.type) {
-            "fill_blank" -> exercise.options.shuffled()
-            "reorder" -> listOf(
+            "fill_blank", "choose_word", "listen_select" ->
+                exercise.options.ifEmpty { listOf(correctAnswer) }.shuffled()
+            "reorder", "repair_order" -> listOf(
                 exercise.tokens.joinToString(""),
                 exercise.tokens.reversed().joinToString(""),
                 exercise.tokens.shuffled().joinToString("")
@@ -161,8 +163,10 @@ fun SentenceExamScreen(
         Text("${index + 1} / ${exercises.size}")
 
         when (exercise.type) {
-            "fill_blank" -> Text(exercise.sentenceZh.orEmpty().replace("___", " - - - - - - - - "))
-            "reorder" -> Text("Doğru kelime sırasını seç.")
+            "fill_blank", "choose_word" ->
+                Text(exercise.sentenceZh.orEmpty().replace("___", " - - - - - - - - "))
+            "reorder", "repair_order" -> Text("Doğru kelime sırasını seç.")
+            "listen_select" -> Text("Dinlediğin cümle için doğru seçeneği seç.")
             else -> Text(exercise.correctZh)
         }
 
@@ -225,6 +229,8 @@ private fun ExamResultScreen(
 fun ProgressScreen(progress: List<SceneProgressEntity>) {
     val completed = progress.count { it.sceneCompleted }
     val unlocked = progress.count { it.unlocked }
+    val shadowingScores = progress.map { it.shadowingBestSimilarity }.filter { it > 0 }
+    val shadowingAverage = if (shadowingScores.isEmpty()) null else shadowingScores.average().roundToInt()
     val lastScene = progress
         .filter { it.lastStudiedAt > 0L }
         .maxByOrNull { it.lastStudiedAt }
@@ -236,7 +242,10 @@ fun ProgressScreen(progress: List<SceneProgressEntity>) {
         Text("İlerlemem", style = MaterialTheme.typography.headlineMedium)
         MetricCard("Tamamlanan sahne", "$completed / 300")
         MetricCard("Açılmış sahne", "$unlocked / 300")
-        MetricCard("Telaffuz Doğruluk", "Henüz veri yok")
+        MetricCard(
+            "Shadowing metin benzerliği",
+            shadowingAverage?.let { "%$it" } ?: "Henüz veri yok"
+        )
         MetricCard("Son çalışılan", lastScene?.sceneId ?: "Henüz yok")
 
         (1..6).forEach { level ->
