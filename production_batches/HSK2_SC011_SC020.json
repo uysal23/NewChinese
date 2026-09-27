@@ -8,6 +8,36 @@
   "status": "content_ready_visual_audio_pending",
   "scenes": [
     {
+      "sceneId": "HSK2_SC011",
+      "titleTr": "Bugün Biraz Yorgunum",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC012",
+      "titleTr": "Yeterince Uyuyor musun?",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC013",
+      "titleTr": "Birlikte Yürüyüş",
+      "locationId": "LOC_CITY_PARK_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC014",
+      "titleTr": "Yağmurlu Günde de Hareket",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC015",
+      "titleTr": "Eczaneden Birkaç Şey Almak",
+      "locationId": "LOC_PHARMACY_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
       "sceneId": "HSK2_SC016",
       "titleTr": "Hafta Sonu Uzun Yürüyüş",
       "locationId": "LOC_CITY_PARK_001",
