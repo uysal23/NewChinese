@@ -1,0 +1,19 @@
+{
+  "visualBibleId": "VIS_CHAR_CHEN_YU_001",
+  "characterId": "CHAR_CHEN_YU_001",
+  "style": "unified_2_5d_3d_cgi",
+  "hair": "short slightly textured dark hair",
+  "face": "natural adult face with gentle smile",
+  "eyes": "dark brown",
+  "body": "average build",
+  "wardrobeRule": "modern modest casual, family-friendly",
+  "canonicalOutfits": {
+    "OUTFIT_CHEN_YU_CASUAL_01": "olive or navy casual jacket, light neutral tee, dark trousers"
+  },
+  "forbiddenChanges": [
+    "different face identity",
+    "dramatic age shift",
+    "different hair color",
+    "explicit clothing"
+  ]
+}

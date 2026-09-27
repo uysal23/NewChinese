@@ -1,0 +1,21 @@
+{
+  "visualBibleId": "VIS_CHAR_LIU_MEI_001",
+  "characterId": "CHAR_LIU_MEI_001",
+  "style": "unified_2_5d_3d_cgi",
+  "hair": "shoulder-length dark hair, simple natural style",
+  "face": "natural adult proportions, calm warm expression",
+  "eyes": "dark brown",
+  "body": "natural adult proportions",
+  "wardrobeRule": "modern modest family-friendly",
+  "canonicalOutfits": {
+    "OUTFIT_LIU_MEI_CASUAL_01": "soft cream or muted green top, modest trousers, simple flat shoes"
+  },
+  "forbiddenChanges": [
+    "different face identity",
+    "dramatic age shift",
+    "different hair color",
+    "mini skirt",
+    "revealing clothing",
+    "explicit clothing"
+  ]
+}

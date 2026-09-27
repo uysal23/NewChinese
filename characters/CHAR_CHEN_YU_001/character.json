@@ -1,0 +1,21 @@
+{
+  "characterId": "CHAR_CHEN_YU_001",
+  "nameZh": "陈宇",
+  "nameLatin": "Chen Yu",
+  "gender": "male",
+  "age": 30,
+  "voiceId": "VOICE_CHEN_YU_001",
+  "visualBibleId": "VIS_CHAR_CHEN_YU_001",
+  "storyRole": "new friend met through a Hangzhou community activity",
+  "personality": [
+    "curious",
+    "easygoing",
+    "observant",
+    "friendly"
+  ],
+  "continuityNotes": [
+    "likes walking, photography and local weekend activities",
+    "speaks naturally and patiently without becoming a teacher",
+    "becomes part of Zhang Wei's expanding social circle"
+  ]
+}

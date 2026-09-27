@@ -1,0 +1,21 @@
+{
+  "characterId": "CHAR_LIU_MEI_001",
+  "nameZh": "刘梅",
+  "nameLatin": "Liu Mei",
+  "gender": "female",
+  "age": 28,
+  "voiceId": "VOICE_LIU_MEI_001",
+  "visualBibleId": "VIS_CHAR_LIU_MEI_001",
+  "storyRole": "Li Na's acquaintance who becomes a new friend in Zhang Wei's social circle",
+  "personality": [
+    "warm",
+    "organized",
+    "open-minded",
+    "thoughtful"
+  ],
+  "continuityNotes": [
+    "enjoys reading, community events and casual group activities",
+    "friendly but not overly familiar at first",
+    "relationship develops gradually"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "name": "Hangzhou Community Activity Center",
+  "city": "Hangzhou",
+  "style": "bright modern neighborhood community activity room",
+  "continuity": [
+    "light wood tables",
+    "movable chairs",
+    "notice board without readable generated text",
+    "large windows",
+    "small plant corner",
+    "family-friendly"
+  ],
+  "zones": [
+    "activity room",
+    "entry lounge",
+    "window-side seating"
+  ],
+  "timeVariants": [
+    "afternoon",
+    "early evening"
+  ],
+  "signageRule": "Simplified Chinese context only; critical text via UI overlay"
+}

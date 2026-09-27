@@ -10,6 +10,8 @@ For all core NewChinese Mandarin learning audio, use the existing repository pro
 - Li Na / `VOICE_LI_NA_001`: `zh-CN-XiaoxiaoNeural`.
 - Zhang Wei / `VOICE_ZHANG_WEI_001`: `zh-CN-YunxiNeural`.
 - Wang Ming / `VOICE_WANG_MING_001`: `zh-CN-YunjianNeural`.
+- Chen Yu / `VOICE_CHEN_YU_001`: `zh-CN-YunyangNeural`.
+- Liu Mei / `VOICE_LIU_MEI_001`: `zh-CN-XiaoyiNeural`.
 - Output container/codec: M4A / AAC.
 - Encoding: AAC 128 kbps, 44.1 kHz, mono.
 - Loudness normalization: FFmpeg `loudnorm=I=-18:TP=-2:LRA=7`.
