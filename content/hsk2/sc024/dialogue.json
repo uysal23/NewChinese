@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC024",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC024_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我用手机打中文还是很慢。",
+      "pinyin": "Wǒ yòng shǒujī dǎ Zhōngwén háishi hěn màn.",
+      "translationTr": "Telefonda Çince yazmakta hâlâ çok yavaşım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你用拼音输入法吗？",
+      "pinyin": "Nǐ yòng pīnyīn shūrùfǎ ma?",
+      "translationTr": "Pinyin klavyesi mi kullanıyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，但是同样的拼音常常有很多字。",
+      "pinyin": "Duì, dànshì tóngyàng de pīnyīn chángcháng yǒu hěn duō zì.",
+      "translationTr": "Evet ama aynı pinyin için çoğu zaman çok karakter çıkıyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "开始的时候都会这样。",
+      "pinyin": "Kāishǐ de shíhou dōu huì zhèyàng.",
+      "translationTr": "Başlangıçta herkes böyle yaşar.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我常常要一个一个找。",
+      "pinyin": "Wǒ chángcháng yào yí ge yí ge zhǎo.",
+      "translationTr": "Çoğu zaman tek tek aramam gerekiyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你可以先打整个词，不要只打一个字。",
+      "pinyin": "Nǐ kěyǐ xiān dǎ zhěngge cí, bú yào zhǐ dǎ yí ge zì.",
+      "translationTr": "Önce bütün kelimeyi yaz, tek karakter yazma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "比如“学习”直接打“xuexi”？",
+      "pinyin": "Bǐrú “xuéxí” zhíjiē dǎ “xuexi”?",
+      "translationTr": "Mesela '学习' için doğrudan 'xuexi' mi yazayım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，这样一般更容易找到。",
+      "pinyin": "Duì, zhèyàng yìbān gèng róngyì zhǎodào.",
+      "translationTr": "Evet, böyle genelde daha kolay bulursun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那句子也可以一起打吗？",
+      "pinyin": "Nà jùzi yě kěyǐ yìqǐ dǎ ma?",
+      "translationTr": "Cümleyi de birlikte yazabilir miyim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以先打一小段，系统会给你一些选择。",
+      "pinyin": "Kěyǐ xiān dǎ yì xiǎo duàn, xìtǒng huì gěi nǐ yìxiē xuǎnzé.",
+      "translationTr": "Önce kısa bir bölüm yazabilirsin, sistem sana seçenekler verir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前太注意每一个字了。",
+      "pinyin": "Wǒ yǐqián tài zhùyì měi yí ge zì le.",
+      "translationTr": "Eskiden her bir karaktere fazla odaklanıyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "打字的时候先想词和句子会更自然。",
+      "pinyin": "Dǎzì de shíhou xiān xiǎng cí hé jùzi huì gèng zìrán.",
+      "translationTr": "Yazarken önce kelimeyi ve cümleyi düşünmek daha doğal olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样也能练拼音。",
+      "pinyin": "Zhèyàng yě néng liàn pīnyīn.",
+      "translationTr": "Böyle pinyin de çalışmış olurum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，不过别为了速度写错字。",
+      "pinyin": "Duì, búguò bié wèile sùdù xiě cuò zì.",
+      "translationTr": "Evet ama hız uğruna yanlış karakter yazma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我先保证正确，再慢慢变快。",
+      "pinyin": "Wǒ xiān bǎozhèng zhèngquè, zài mànmàn biàn kuài.",
+      "translationTr": "Önce doğruluğu garanti ederim, sonra yavaş yavaş hızlanırım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这个顺序很好。",
+      "pinyin": "Zhège shùnxù hěn hǎo.",
+      "translationTr": "Bu sıra çok iyi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今晚我用中文给你发三条消息。",
+      "pinyin": "Jīnwǎn wǒ yòng Zhōngwén gěi nǐ fā sān tiáo xiāoxi.",
+      "translationTr": "Bu akşam sana Çince üç mesaj göndereceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC024_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，我只改真的影响理解的错误。",
+      "pinyin": "Hǎo, wǒ zhǐ gǎi zhēn de yǐngxiǎng lǐjiě de cuòwù.",
+      "translationTr": "Tamam, sadece anlamayı gerçekten etkileyen hataları düzelteceğim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

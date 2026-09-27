@@ -1,0 +1,114 @@
+{
+  "sceneId": "HSK2_SC021",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC021_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC021_001",
+      "correctZh": "差不多。我会看中文、拼音和土耳其语。",
+      "pinyin": "Chàbuduō. Wǒ huì kàn Zhōngwén, pīnyīn hé Tǔ'ěrqíyǔ.",
+      "translationTr": "Aşağı yukarı. Çinceye, pinyine ve Türkçeye bakıyorum.",
+      "sentenceZh": "差不多。我会看中文、拼音和土耳其语。",
+      "correctAnswer": "差不多。我会看中文、拼音和土耳其语。",
+      "options": [],
+      "tokens": [
+        "差不多",
+        "我会看",
+        "中文、",
+        "拼音和",
+        "土耳其",
+        "语"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC021_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC021_002",
+      "correctZh": "对，而且句子不用太难。",
+      "pinyin": "Duì, érqiě jùzi bú yòng tài nán.",
+      "translationTr": "Evet, üstelik cümlenin zor olması gerekmiyor.",
+      "sentenceZh": "___而且句子不用太难。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC021_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC021_003",
+      "correctZh": "“工作忙的时候，我会重新安排任务。”",
+      "pinyin": "“Gōngzuò máng de shíhou, wǒ huì chóngxīn ānpái rènwu.”",
+      "translationTr": "'İş yoğun olduğunda görevleri yeniden planlarım.'",
+      "sentenceZh": "“工作忙的时候，我会重新安排任务。”",
+      "correctAnswer": "“工作忙的时候，我会重新安排任务。”",
+      "options": [
+        "“工作忙的时候，我会重新安排任务。”",
+        "我最近记了很多新词，但是很快就忘。",
+        "你是怎么记的？只看词表吗？",
+        "差不多。我会看中文、拼音和土耳其语。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC021_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC021_004",
+      "correctZh": "不用太多，少一点儿但是经常复习更好。",
+      "pinyin": "Bú yòng tài duō, shǎo yìdiǎnr dànshì jīngcháng fùxí gèng hǎo.",
+      "translationTr": "Çok gerekmez; az ama sık tekrar daha iyi.",
+      "sentenceZh": "不用太多，少一点儿但是经常复习更好。",
+      "correctAnswer": "不用太多，少一点儿但是经常复习更好。",
+      "options": [],
+      "tokens": [
+        "不用太",
+        "多少一",
+        "点儿但",
+        "是经常",
+        "复习更",
+        "好"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC021_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC021_005",
+      "correctZh": "这样学习好像更有意思。",
+      "pinyin": "Zhèyàng xuéxí hǎoxiàng gèng yǒuyìsi.",
+      "translationTr": "Böyle çalışmak daha ilginç geliyor.",
+      "sentenceZh": "___学习好像更有意思。",
+      "correctAnswer": "这样",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC021_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC021_006",
+      "correctZh": "做完以后别忘了休息。",
+      "pinyin": "Zuò wán yǐhòu bié wàng le xiūxi.",
+      "translationTr": "Bitirdikten sonra dinlenmeyi unutma.",
+      "sentenceZh": "做完以后别忘了休息。",
+      "correctAnswer": "做完以后别忘了休息。",
+      "options": [
+        "做完以后别忘了休息。",
+        "我最近记了很多新词，但是很快就忘。",
+        "你是怎么记的？只看词表吗？",
+        "差不多。我会看中文、拼音和土耳其语。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_sentence_006.m4a"
+    }
+  ]
+}

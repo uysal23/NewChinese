@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC022",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC022_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个词我又忘了，我查一下手机。",
+      "pinyin": "Zhège cí wǒ yòu wàng le, wǒ chá yíxià shǒujī.",
+      "translationTr": "Bu kelimeyi yine unuttum, telefondan bakayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你每次不认识就马上查吗？",
+      "pinyin": "Nǐ měi cì bù rènshi jiù mǎshàng chá ma?",
+      "translationTr": "Her bilmediğin kelimeyi hemen mi arıyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "基本上是，不然我怕看不懂。",
+      "pinyin": "Jīběnshang shì, bùrán wǒ pà kàn bu dǒng.",
+      "translationTr": "Genelde evet, yoksa anlamamaktan korkuyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有时候可以先猜一下。",
+      "pinyin": "Yǒushíhou kěyǐ xiān cāi yíxià.",
+      "translationTr": "Bazen önce tahmin edebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果猜错了呢？",
+      "pinyin": "Rúguǒ cāi cuò le ne?",
+      "translationTr": "Ya yanlış tahmin edersem?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "没关系，后面再查就知道了。",
+      "pinyin": "Méiguānxi, hòumiàn zài chá jiù zhīdào le.",
+      "translationTr": "Sorun değil, sonra bakınca öğrenirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那词典里我应该看什么？",
+      "pinyin": "Nà cídiǎn lǐ wǒ yīnggāi kàn shénme?",
+      "translationTr": "Peki sözlükte neye bakmalıyım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先看最常用的意思，再听发音。",
+      "pinyin": "Xiān kàn zuì chángyòng de yìsi, zài tīng fāyīn.",
+      "translationTr": "Önce en sık kullanılan anlama bak, sonra telaffuzu dinle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "例句也要看吗？",
+      "pinyin": "Lìjù yě yào kàn ma?",
+      "translationTr": "Örnek cümlelere de bakmalı mıyım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "如果不太明白用法，就看一两个。",
+      "pinyin": "Rúguǒ bú tài míngbai yòngfǎ, jiù kàn yì liǎng ge.",
+      "translationTr": "Kullanımını tam anlamadıysan bir iki tane bak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前常常看很多意思，结果更乱。",
+      "pinyin": "Wǒ yǐqián chángcháng kàn hěn duō yìsi, jiéguǒ gèng luàn.",
+      "translationTr": "Eskiden birçok anlama birden bakardım, daha çok karışırdı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，先学你现在需要的意思就好。",
+      "pinyin": "Duì, xiān xué nǐ xiànzài xūyào de yìsi jiù hǎo.",
+      "translationTr": "Evet, önce şu an ihtiyacın olan anlamı öğrenmen yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还可以把好例句保存起来。",
+      "pinyin": "Wǒ hái kěyǐ bǎ hǎo lìjù bǎocún qǐlái.",
+      "translationTr": "İyi örnek cümleleri kaydedebilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以，但是别保存太多。",
+      "pinyin": "Kěyǐ, dànshì bié bǎocún tài duō.",
+      "translationTr": "Olur ama çok fazla kaydetme.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "为什么？",
+      "pinyin": "Wèishénme?",
+      "translationTr": "Neden?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "保存很多不等于真的会用。",
+      "pinyin": "Bǎocún hěn duō bù děngyú zhēn de huì yòng.",
+      "translationTr": "Çok kaydetmek gerçekten kullanabildiğin anlamına gelmez.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明白了，少查一点儿，多用一点儿。",
+      "pinyin": "Míngbai le, shǎo chá yìdiǎnr, duō yòng yìdiǎnr.",
+      "translationTr": "Anladım, biraz daha az bakıp daha çok kullanmak lazım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC022_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，这个方法更适合你。",
+      "pinyin": "Duì, zhège fāngfǎ gèng shìhé nǐ.",
+      "translationTr": "Evet, bu yöntem sana daha uygun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

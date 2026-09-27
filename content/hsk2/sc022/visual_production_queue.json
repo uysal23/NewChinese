@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK2_SC022",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CAFE_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "composition": "Canonical cafe table with phone and notebook, Zhang Wei checking a dictionary app while Li Na explains, warm daylight, no readable phone text.",
+  "assets": [
+    {
+      "file": "hsk2_sc022_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc022_char_li_na.webp",
+      "purpose": "Li Na transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc022_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc022_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc022_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

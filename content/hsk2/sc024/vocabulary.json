@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC024",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC024_001",
+      "hanzi": "输入法",
+      "pinyin": "shūrùfǎ",
+      "translationTr": "giriş yöntemi / klavye",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_002",
+      "hanzi": "同样",
+      "pinyin": "tóngyàng",
+      "translationTr": "aynı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_003",
+      "hanzi": "整个",
+      "pinyin": "zhěngge",
+      "translationTr": "bütün",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_004",
+      "hanzi": "系统",
+      "pinyin": "xìtǒng",
+      "translationTr": "sistem",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_005",
+      "hanzi": "选择",
+      "pinyin": "xuǎnzé",
+      "translationTr": "seçenek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_006",
+      "hanzi": "打字",
+      "pinyin": "dǎzì",
+      "translationTr": "yazı yazmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_007",
+      "hanzi": "速度",
+      "pinyin": "sùdù",
+      "translationTr": "hız",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_008",
+      "hanzi": "保证",
+      "pinyin": "bǎozhèng",
+      "translationTr": "garanti etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_009",
+      "hanzi": "正确",
+      "pinyin": "zhèngquè",
+      "translationTr": "doğru",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC024_010",
+      "hanzi": "理解",
+      "pinyin": "lǐjiě",
+      "translationTr": "anlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_word_010.m4a"
+    }
+  ]
+}

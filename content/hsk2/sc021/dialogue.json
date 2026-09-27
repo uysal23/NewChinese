@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC021",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC021_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我最近记了很多新词，但是很快就忘。",
+      "pinyin": "Wǒ zuìjìn jì le hěn duō xīncí, dànshì hěn kuài jiù wàng.",
+      "translationTr": "Son zamanlarda çok yeni kelime öğrendim ama çabuk unutuyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你是怎么记的？只看词表吗？",
+      "pinyin": "Nǐ shì zěnme jì de? Zhǐ kàn cíbiǎo ma?",
+      "translationTr": "Nasıl çalışıyorsun? Sadece kelime listesine mi bakıyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "差不多。我会看中文、拼音和土耳其语。",
+      "pinyin": "Chàbuduō. Wǒ huì kàn Zhōngwén, pīnyīn hé Tǔ'ěrqíyǔ.",
+      "translationTr": "Aşağı yukarı. Çinceye, pinyine ve Türkçeye bakıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样可以开始，但是最好放进句子里。",
+      "pinyin": "Zhèyàng kěyǐ kāishǐ, dànshì zuìhǎo fàng jìn jùzi lǐ.",
+      "translationTr": "Başlangıç için olur ama en iyisi kelimeyi cümle içinde kullanmak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "自己造句吗？",
+      "pinyin": "Zìjǐ zàojù ma?",
+      "translationTr": "Kendim cümle mi kurayım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，而且句子不用太难。",
+      "pinyin": "Duì, érqiě jùzi bú yòng tài nán.",
+      "translationTr": "Evet, üstelik cümlenin zor olması gerekmiyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "比如学“安排”，我可以说“我安排周末的时间”。",
+      "pinyin": "Bǐrú xué “ānpái”, wǒ kěyǐ shuō “wǒ ānpái zhōumò de shíjiān”.",
+      "translationTr": "Mesela 'planlamak' kelimesiyle 'hafta sonu zamanımı planlıyorum' diyebilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好。再加一个跟你生活有关的例子。",
+      "pinyin": "Hěn hǎo. Zài jiā yí ge gēn nǐ shēnghuó yǒuguān de lìzi.",
+      "translationTr": "Çok iyi. Hayatınla ilgili bir örnek daha ekle.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "“工作忙的时候，我会重新安排任务。”",
+      "pinyin": "“Gōngzuò máng de shíhou, wǒ huì chóngxīn ānpái rènwu.”",
+      "translationTr": "'İş yoğun olduğunda görevleri yeniden planlarım.'",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样就比单独看一个词容易记。",
+      "pinyin": "Zhèyàng jiù bǐ dāndú kàn yí ge cí róngyì jì.",
+      "translationTr": "Böyle kelimeyi tek başına görmekten daha kolay hatırlarsın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我要不要每天复习很多词？",
+      "pinyin": "Nà wǒ yào bu yào měitiān fùxí hěn duō cí?",
+      "translationTr": "Peki her gün çok kelime tekrar etmeli miyim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用太多，少一点儿但是经常复习更好。",
+      "pinyin": "Bú yòng tài duō, shǎo yìdiǎnr dànshì jīngcháng fùxí gèng hǎo.",
+      "translationTr": "Çok gerekmez; az ama sık tekrar daha iyi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我可以把最难的词放到最前面。",
+      "pinyin": "Wǒ kěyǐ bǎ zuì nán de cí fàng dào zuì qiánmiàn.",
+      "translationTr": "En zor kelimeleri listenin başına koyabilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，也可以用你喜欢的例句。",
+      "pinyin": "Duì, yě kěyǐ yòng nǐ xǐhuan de lìjù.",
+      "translationTr": "Evet, sevdiğin örnek cümleleri de kullanabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样学习好像更有意思。",
+      "pinyin": "Zhèyàng xuéxí hǎoxiàng gèng yǒuyìsi.",
+      "translationTr": "Böyle çalışmak daha ilginç geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "因为不是在背词，是在用词。",
+      "pinyin": "Yīnwèi bú shì zài bèi cí, shì zài yòng cí.",
+      "translationTr": "Çünkü kelime ezberlemiyorsun, kelimeyi kullanıyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我今天先改十个词。",
+      "pinyin": "Hǎo, wǒ jīntiān xiān gǎi shí ge cí.",
+      "translationTr": "Tamam, bugün önce on kelimeyi bu şekilde değiştireyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC021_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "做完以后别忘了休息。",
+      "pinyin": "Zuò wán yǐhòu bié wàng le xiūxi.",
+      "translationTr": "Bitirdikten sonra dinlenmeyi unutma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

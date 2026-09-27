@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK2_SC024",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "composition": "Canonical apartment evening, Zhang Wei holding phone with generic keyboard glow, Li Na explaining beside him, no readable generated phone text, cozy CGI.",
+  "assets": [
+    {
+      "file": "hsk2_sc024_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc024_char_li_na.webp",
+      "purpose": "Li Na transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc024_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc024_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc024_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

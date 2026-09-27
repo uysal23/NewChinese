@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC024",
+  "level": "HSK2",
+  "sceneNumber": 24,
+  "titleZh": "中文输入法",
+  "titleTr": "Çince Yazma Klavyesi",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC023",
+  "nextSceneId": "HSK2_SC025",
+  "summaryTr": "Zhang Wei telefonda Çince yazarken yavaş kaldığını söyler; Li Na pinyin klavyesini kullanma konusunda pratik öneriler verir."
+}

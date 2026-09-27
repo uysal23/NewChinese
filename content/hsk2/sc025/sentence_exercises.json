@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC025",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC025_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC025_001",
+      "correctZh": "还能用，但是戴久了不太舒服。",
+      "pinyin": "Hái néng yòng, dànshì dài jiǔ le bú tài shūfu.",
+      "translationTr": "Hâlâ çalışıyor ama uzun süre takınca rahat değil.",
+      "sentenceZh": "还能用，但是戴久了不太舒服。",
+      "correctAnswer": "还能用，但是戴久了不太舒服。",
+      "options": [],
+      "tokens": [
+        "还能用",
+        "但是戴",
+        "久了不",
+        "太舒服"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC025_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC025_002",
+      "correctZh": "你真的需要那些功能吗？",
+      "pinyin": "Nǐ zhēn de xūyào nàxiē gōngnéng ma?",
+      "translationTr": "O özelliklere gerçekten ihtiyacın var mı?",
+      "sentenceZh": "___的需要那些功能吗？",
+      "correctAnswer": "你真",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC025_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC025_003",
+      "correctZh": "戴起来不错，也没有夹得太紧。",
+      "pinyin": "Dài qǐlái búcuò, yě méiyǒu jiā de tài jǐn.",
+      "translationTr": "Takınca iyi, fazla sıkmıyor da.",
+      "sentenceZh": "戴起来不错，也没有夹得太紧。",
+      "correctAnswer": "戴起来不错，也没有夹得太紧。",
+      "options": [
+        "戴起来不错，也没有夹得太紧。",
+        "我想买一副新耳机，主要用来听中文。",
+        "你现在的耳机怎么了？",
+        "还能用，但是戴久了不太舒服。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC025_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC025_004",
+      "correctZh": "那就很适合语言学习。",
+      "pinyin": "Nà jiù hěn shìhé yǔyán xuéxí.",
+      "translationTr": "O zaman dil öğrenmek için çok uygun.",
+      "sentenceZh": "那就很适合语言学习。",
+      "correctAnswer": "那就很适合语言学习。",
+      "options": [],
+      "tokens": [
+        "那就很",
+        "适合语",
+        "言学习"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC025_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC025_005",
+      "correctZh": "好。我以前买东西常常只看功能。",
+      "pinyin": "Hǎo. Wǒ yǐqián mǎi dōngxi chángcháng zhǐ kàn gōngnéng.",
+      "translationTr": "Tamam. Eskiden bir şey alırken hep sadece özelliklere bakardım.",
+      "sentenceZh": "___我以前买东西常常只看功能。",
+      "correctAnswer": "好。",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC025_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC025_006",
+      "correctZh": "那这副看起来很合适。",
+      "pinyin": "Nà zhè fù kàn qǐlái hěn héshì.",
+      "translationTr": "O zaman bu model oldukça uygun görünüyor.",
+      "sentenceZh": "那这副看起来很合适。",
+      "correctAnswer": "那这副看起来很合适。",
+      "options": [
+        "那这副看起来很合适。",
+        "我想买一副新耳机，主要用来听中文。",
+        "你现在的耳机怎么了？",
+        "还能用，但是戴久了不太舒服。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_sentence_006.m4a"
+    }
+  ]
+}

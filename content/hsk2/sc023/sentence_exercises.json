@@ -1,0 +1,107 @@
+{
+  "sceneId": "HSK2_SC023",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC023_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC023_001",
+      "correctZh": "你今天想完成什么？",
+      "pinyin": "Nǐ jīntiān xiǎng wánchéng shénme?",
+      "translationTr": "Bugün neyi tamamlamak istiyorsun?",
+      "sentenceZh": "你今天想完成什么？",
+      "correctAnswer": "你今天想完成什么？",
+      "options": [],
+      "tokens": [
+        "你今天",
+        "想完成",
+        "什么"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC023_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC023_002",
+      "correctZh": "以前我来学习，总是带很多东西。",
+      "pinyin": "Yǐqián wǒ lái xuéxí, zǒng shì dài hěn duō dōngxi.",
+      "translationTr": "Eskiden çalışmaya geldiğimde hep çok şey getirirdim.",
+      "sentenceZh": "___我来学习，总是带很多东西。",
+      "correctAnswer": "以前",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC023_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC023_003",
+      "correctZh": "这样桌子也更干净。",
+      "pinyin": "Zhèyàng zhuōzi yě gèng gānjìng.",
+      "translationTr": "Böyle masa da daha düzenli oluyor.",
+      "sentenceZh": "这样桌子也更干净。",
+      "correctAnswer": "这样桌子也更干净。",
+      "options": [
+        "这样桌子也更干净。",
+        "今天我们在这里学一个小时怎么样？",
+        "可以。这里比咖啡馆安静多了。",
+        "你今天想完成什么？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC023_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC023_004",
+      "correctZh": "对，再做第二次。",
+      "pinyin": "Duì, zài zuò dì èr cì.",
+      "translationTr": "Evet, sonra ikinci turu yaparım.",
+      "sentenceZh": "对，再做第二次。",
+      "correctAnswer": "对，再做第二次。",
+      "options": [],
+      "tokens": [
+        "对再做",
+        "第二次"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC023_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC023_005",
+      "correctZh": "比一直坐着好。",
+      "pinyin": "Bǐ yìzhí zuòzhe hǎo.",
+      "translationTr": "Sürekli oturmaktan daha iyi.",
+      "sentenceZh": "___直坐着好。",
+      "correctAnswer": "比一",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC023_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC023_006",
+      "correctZh": "已经调好了，二十五分钟以后见。",
+      "pinyin": "Yǐjīng tiáo hǎo le, èrshíwǔ fēnzhōng yǐhòu jiàn.",
+      "translationTr": "Zaten ayarladım, yirmi beş dakika sonra görüşürüz.",
+      "sentenceZh": "已经调好了，二十五分钟以后见。",
+      "correctAnswer": "已经调好了，二十五分钟以后见。",
+      "options": [
+        "已经调好了，二十五分钟以后见。",
+        "今天我们在这里学一个小时怎么样？",
+        "可以。这里比咖啡馆安静多了。",
+        "你今天想完成什么？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_sentence_006.m4a"
+    }
+  ]
+}

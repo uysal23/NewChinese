@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC022",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC022_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC022_001",
+      "correctZh": "基本上是，不然我怕看不懂。",
+      "pinyin": "Jīběnshang shì, bùrán wǒ pà kàn bu dǒng.",
+      "translationTr": "Genelde evet, yoksa anlamamaktan korkuyorum.",
+      "sentenceZh": "基本上是，不然我怕看不懂。",
+      "correctAnswer": "基本上是，不然我怕看不懂。",
+      "options": [],
+      "tokens": [
+        "基本上",
+        "是不然",
+        "我怕看",
+        "不懂"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC022_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC022_002",
+      "correctZh": "没关系，后面再查就知道了。",
+      "pinyin": "Méiguānxi, hòumiàn zài chá jiù zhīdào le.",
+      "translationTr": "Sorun değil, sonra bakınca öğrenirsin.",
+      "sentenceZh": "___系，后面再查就知道了。",
+      "correctAnswer": "没关",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC022_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC022_003",
+      "correctZh": "例句也要看吗？",
+      "pinyin": "Lìjù yě yào kàn ma?",
+      "translationTr": "Örnek cümlelere de bakmalı mıyım?",
+      "sentenceZh": "例句也要看吗？",
+      "correctAnswer": "例句也要看吗？",
+      "options": [
+        "例句也要看吗？",
+        "这个词我又忘了，我查一下手机。",
+        "你每次不认识就马上查吗？",
+        "基本上是，不然我怕看不懂。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC022_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC022_004",
+      "correctZh": "对，先学你现在需要的意思就好。",
+      "pinyin": "Duì, xiān xué nǐ xiànzài xūyào de yìsi jiù hǎo.",
+      "translationTr": "Evet, önce şu an ihtiyacın olan anlamı öğrenmen yeter.",
+      "sentenceZh": "对，先学你现在需要的意思就好。",
+      "correctAnswer": "对，先学你现在需要的意思就好。",
+      "options": [],
+      "tokens": [
+        "对先学",
+        "你现在",
+        "需要的",
+        "意思就",
+        "好"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC022_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC022_005",
+      "correctZh": "为什么？",
+      "pinyin": "Wèishénme?",
+      "translationTr": "Neden?",
+      "sentenceZh": "___么？",
+      "correctAnswer": "为什",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC022_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC022_006",
+      "correctZh": "对，这个方法更适合你。",
+      "pinyin": "Duì, zhège fāngfǎ gèng shìhé nǐ.",
+      "translationTr": "Evet, bu yöntem sana daha uygun.",
+      "sentenceZh": "对，这个方法更适合你。",
+      "correctAnswer": "对，这个方法更适合你。",
+      "options": [
+        "对，这个方法更适合你。",
+        "这个词我又忘了，我查一下手机。",
+        "你每次不认识就马上查吗？",
+        "基本上是，不然我怕看不懂。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_sentence_006.m4a"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC023",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC023_001",
+      "hanzi": "完成",
+      "pinyin": "wánchéng",
+      "translationTr": "tamamlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_002",
+      "hanzi": "一段",
+      "pinyin": "yí duàn",
+      "translationTr": "bir bölüm",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_003",
+      "hanzi": "目标",
+      "pinyin": "mùbiāo",
+      "translationTr": "hedef",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_004",
+      "hanzi": "干净",
+      "pinyin": "gānjìng",
+      "translationTr": "temiz / düzenli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_005",
+      "hanzi": "专心",
+      "pinyin": "zhuānxīn",
+      "translationTr": "odaklanmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_006",
+      "hanzi": "第二次",
+      "pinyin": "dì èr cì",
+      "translationTr": "ikinci kez",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_007",
+      "hanzi": "模式",
+      "pinyin": "móshì",
+      "translationTr": "mod",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_008",
+      "hanzi": "调成",
+      "pinyin": "tiáo chéng",
+      "translationTr": "ayarlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_009",
+      "hanzi": "安静",
+      "pinyin": "ānjìng",
+      "translationTr": "sessiz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC023_010",
+      "hanzi": "出去",
+      "pinyin": "chūqù",
+      "translationTr": "dışarı çıkmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_word_010.m4a"
+    }
+  ]
+}

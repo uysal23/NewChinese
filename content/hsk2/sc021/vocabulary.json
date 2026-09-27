@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC021",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC021_001",
+      "hanzi": "新词",
+      "pinyin": "xīncí",
+      "translationTr": "yeni kelime",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_002",
+      "hanzi": "词表",
+      "pinyin": "cíbiǎo",
+      "translationTr": "kelime listesi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_003",
+      "hanzi": "造句",
+      "pinyin": "zàojù",
+      "translationTr": "cümle kurmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_004",
+      "hanzi": "有关",
+      "pinyin": "yǒuguān",
+      "translationTr": "ilgili",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_005",
+      "hanzi": "例子",
+      "pinyin": "lìzi",
+      "translationTr": "örnek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_006",
+      "hanzi": "单独",
+      "pinyin": "dāndú",
+      "translationTr": "tek başına",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_007",
+      "hanzi": "复习",
+      "pinyin": "fùxí",
+      "translationTr": "tekrar etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_008",
+      "hanzi": "例句",
+      "pinyin": "lìjù",
+      "translationTr": "örnek cümle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_009",
+      "hanzi": "背词",
+      "pinyin": "bèi cí",
+      "translationTr": "kelime ezberlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc021_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC021_010",
+      "hanzi": "改",
+      "pinyin": "gǎi",
+      "translationTr": "değiştirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc021_word_010.m4a"
+    }
+  ]
+}

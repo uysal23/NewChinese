@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC023",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC023_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天我们在这里学一个小时怎么样？",
+      "pinyin": "Jīntiān wǒmen zài zhèlǐ xué yí ge xiǎoshí zěnmeyàng?",
+      "translationTr": "Bugün burada bir saat çalışalım mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可以。这里比咖啡馆安静多了。",
+      "pinyin": "Kěyǐ. Zhèlǐ bǐ kāfēiguǎn ānjìng duō le.",
+      "translationTr": "Olur. Burası kafeden çok daha sessiz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你今天想完成什么？",
+      "pinyin": "Nǐ jīntiān xiǎng wánchéng shénme?",
+      "translationTr": "Bugün neyi tamamlamak istiyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "先复习昨天的词，再听一段对话。",
+      "pinyin": "Xiān fùxí zuótiān de cí, zài tīng yí duàn duìhuà.",
+      "translationTr": "Önce dünkü kelimeleri tekrar edeceğim, sonra bir diyalog dinleyeceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "目标很清楚。",
+      "pinyin": "Mùbiāo hěn qīngchu.",
+      "translationTr": "Hedefin çok net.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以前我来学习，总是带很多东西。",
+      "pinyin": "Yǐqián wǒ lái xuéxí, zǒng shì dài hěn duō dōngxi.",
+      "translationTr": "Eskiden çalışmaya geldiğimde hep çok şey getirirdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "然后不知道先做什么？",
+      "pinyin": "Ránhòu bù zhīdào xiān zuò shénme?",
+      "translationTr": "Sonra neye önce başlayacağını bilemiyordun, değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对。现在我只带今天要用的。",
+      "pinyin": "Duì. Xiànzài wǒ zhǐ dài jīntiān yào yòng de.",
+      "translationTr": "Evet. Artık sadece bugün kullanacağım şeyleri getiriyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样桌子也更干净。",
+      "pinyin": "Zhèyàng zhuōzi yě gèng gānjìng.",
+      "translationTr": "Böyle masa da daha düzenli oluyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想先专心二十五分钟。",
+      "pinyin": "Wǒ xiǎng xiān zhuānxīn èrshíwǔ fēnzhōng.",
+      "translationTr": "Önce yirmi beş dakika odaklanmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "然后休息五分钟？",
+      "pinyin": "Ránhòu xiūxi wǔ fēnzhōng?",
+      "translationTr": "Sonra beş dakika mola mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，再做第二次。",
+      "pinyin": "Duì, zài zuò dì èr cì.",
+      "translationTr": "Evet, sonra ikinci turu yaparım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很适合一个小时的学习。",
+      "pinyin": "Hěn shìhé yí ge xiǎoshí de xuéxí.",
+      "translationTr": "Bir saatlik çalışma için çok uygun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "休息的时候我出去走一下。",
+      "pinyin": "Xiūxi de shíhou wǒ chūqù zǒu yíxià.",
+      "translationTr": "Molada dışarı çıkıp biraz yürürüm.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "比一直坐着好。",
+      "pinyin": "Bǐ yìzhí zuòzhe hǎo.",
+      "translationTr": "Sürekli oturmaktan daha iyi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，那我们现在开始。",
+      "pinyin": "Hǎo, nà wǒmen xiànzài kāishǐ.",
+      "translationTr": "Tamam, o zaman şimdi başlayalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "手机调成安静模式。",
+      "pinyin": "Shǒujī tiáo chéng ānjìng móshì.",
+      "translationTr": "Telefonu sessiz moda al.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc023_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC023_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "已经调好了，二十五分钟以后见。",
+      "pinyin": "Yǐjīng tiáo hǎo le, èrshíwǔ fēnzhōng yǐhòu jiàn.",
+      "translationTr": "Zaten ayarladım, yirmi beş dakika sonra görüşürüz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc023_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

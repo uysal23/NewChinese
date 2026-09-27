@@ -1,0 +1,112 @@
+{
+  "sceneId": "HSK2_SC024",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC024_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC024_001",
+      "correctZh": "对，但是同样的拼音常常有很多字。",
+      "pinyin": "Duì, dànshì tóngyàng de pīnyīn chángcháng yǒu hěn duō zì.",
+      "translationTr": "Evet ama aynı pinyin için çoğu zaman çok karakter çıkıyor.",
+      "sentenceZh": "对，但是同样的拼音常常有很多字。",
+      "correctAnswer": "对，但是同样的拼音常常有很多字。",
+      "options": [],
+      "tokens": [
+        "对但是",
+        "同样的",
+        "拼音常",
+        "常有很",
+        "多字"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC024_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC024_002",
+      "correctZh": "你可以先打整个词，不要只打一个字。",
+      "pinyin": "Nǐ kěyǐ xiān dǎ zhěngge cí, bú yào zhǐ dǎ yí ge zì.",
+      "translationTr": "Önce bütün kelimeyi yaz, tek karakter yazma.",
+      "sentenceZh": "___以先打整个词，不要只打一个字。",
+      "correctAnswer": "你可",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC024_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC024_003",
+      "correctZh": "那句子也可以一起打吗？",
+      "pinyin": "Nà jùzi yě kěyǐ yìqǐ dǎ ma?",
+      "translationTr": "Cümleyi de birlikte yazabilir miyim?",
+      "sentenceZh": "那句子也可以一起打吗？",
+      "correctAnswer": "那句子也可以一起打吗？",
+      "options": [
+        "那句子也可以一起打吗？",
+        "我用手机打中文还是很慢。",
+        "你用拼音输入法吗？",
+        "对，但是同样的拼音常常有很多字。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC024_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC024_004",
+      "correctZh": "打字的时候先想词和句子会更自然。",
+      "pinyin": "Dǎzì de shíhou xiān xiǎng cí hé jùzi huì gèng zìrán.",
+      "translationTr": "Yazarken önce kelimeyi ve cümleyi düşünmek daha doğal olur.",
+      "sentenceZh": "打字的时候先想词和句子会更自然。",
+      "correctAnswer": "打字的时候先想词和句子会更自然。",
+      "options": [],
+      "tokens": [
+        "打字的",
+        "时候先",
+        "想词和",
+        "句子会",
+        "更自然"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC024_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC024_005",
+      "correctZh": "我先保证正确，再慢慢变快。",
+      "pinyin": "Wǒ xiān bǎozhèng zhèngquè, zài mànmàn biàn kuài.",
+      "translationTr": "Önce doğruluğu garanti ederim, sonra yavaş yavaş hızlanırım.",
+      "sentenceZh": "___保证正确，再慢慢变快。",
+      "correctAnswer": "我先",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc024_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC024_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC024_006",
+      "correctZh": "好，我只改真的影响理解的错误。",
+      "pinyin": "Hǎo, wǒ zhǐ gǎi zhēn de yǐngxiǎng lǐjiě de cuòwù.",
+      "translationTr": "Tamam, sadece anlamayı gerçekten etkileyen hataları düzelteceğim.",
+      "sentenceZh": "好，我只改真的影响理解的错误。",
+      "correctAnswer": "好，我只改真的影响理解的错误。",
+      "options": [
+        "好，我只改真的影响理解的错误。",
+        "我用手机打中文还是很慢。",
+        "你用拼音输入法吗？",
+        "对，但是同样的拼音常常有很多字。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc024_sentence_006.m4a"
+    }
+  ]
+}

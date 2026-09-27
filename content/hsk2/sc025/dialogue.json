@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC025",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC025_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想买一副新耳机，主要用来听中文。",
+      "pinyin": "Wǒ xiǎng mǎi yí fù xīn ěrjī, zhǔyào yòng lái tīng Zhōngwén.",
+      "translationTr": "Yeni bir kulaklık almak istiyorum, esas olarak Çince dinlemek için.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你现在的耳机怎么了？",
+      "pinyin": "Nǐ xiànzài de ěrjī zěnme le?",
+      "translationTr": "Şimdiki kulaklığın ne oldu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还能用，但是戴久了不太舒服。",
+      "pinyin": "Hái néng yòng, dànshì dài jiǔ le bú tài shūfu.",
+      "translationTr": "Hâlâ çalışıyor ama uzun süre takınca rahat değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那舒适比很多功能更重要。",
+      "pinyin": "Nà shūshì bǐ hěn duō gōngnéng gèng zhòngyào.",
+      "translationTr": "O zaman rahatlık birçok özellikten daha önemli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我看到有的耳机功能很多，价格也高。",
+      "pinyin": "Wǒ kàndào yǒu de ěrjī gōngnéng hěn duō, jiàgé yě gāo.",
+      "translationTr": "Bazı kulaklıkların çok özelliği olduğunu ve pahalı olduklarını gördüm.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你真的需要那些功能吗？",
+      "pinyin": "Nǐ zhēn de xūyào nàxiē gōngnéng ma?",
+      "translationTr": "O özelliklere gerçekten ihtiyacın var mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可能不需要。我主要听对话和音乐。",
+      "pinyin": "Kěnéng bù xūyào. Wǒ zhǔyào tīng duìhuà hé yīnyuè.",
+      "translationTr": "Muhtemelen hayır. Asıl olarak diyalog ve müzik dinliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那试试这个比较轻的。",
+      "pinyin": "Nà shìshi zhège bǐjiào qīng de.",
+      "translationTr": "O zaman şu daha hafif olanı dene.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "戴起来不错，也没有夹得太紧。",
+      "pinyin": "Dài qǐlái búcuò, yě méiyǒu jiā de tài jǐn.",
+      "translationTr": "Takınca iyi, fazla sıkmıyor da.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "声音清楚吗？",
+      "pinyin": "Shēngyīn qīngchu ma?",
+      "translationTr": "Ses net mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "很清楚，人声也比较自然。",
+      "pinyin": "Hěn qīngchu, rénshēng yě bǐjiào zìrán.",
+      "translationTr": "Çok net, insan sesi de doğal geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就很适合语言学习。",
+      "pinyin": "Nà jiù hěn shìhé yǔyán xuéxí.",
+      "translationTr": "O zaman dil öğrenmek için çok uygun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个价格也在我的计划里。",
+      "pinyin": "Zhège jiàgé yě zài wǒ de jìhuà lǐ.",
+      "translationTr": "Fiyatı da bütçeme uygun.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你可以再试五分钟，看看耳朵舒服不舒服。",
+      "pinyin": "Nǐ kěyǐ zài shì wǔ fēnzhōng, kànkan ěrduo shūfu bu shūfu.",
+      "translationTr": "Beş dakika daha dene, kulağın rahat mı bak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好。我以前买东西常常只看功能。",
+      "pinyin": "Hǎo. Wǒ yǐqián mǎi dōngxi chángcháng zhǐ kàn gōngnéng.",
+      "translationTr": "Tamam. Eskiden bir şey alırken hep sadece özelliklere bakardım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在你更知道自己需要什么了。",
+      "pinyin": "Xiànzài nǐ gèng zhīdào zìjǐ xūyào shénme le.",
+      "translationTr": "Artık neye ihtiyacın olduğunu daha iyi biliyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，简单、舒服、声音清楚就够了。",
+      "pinyin": "Duì, jiǎndān, shūfu, shēngyīn qīngchu jiù gòu le.",
+      "translationTr": "Evet; sade, rahat ve sesi net olması yeter.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC025_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那这副看起来很合适。",
+      "pinyin": "Nà zhè fù kàn qǐlái hěn héshì.",
+      "translationTr": "O zaman bu model oldukça uygun görünüyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

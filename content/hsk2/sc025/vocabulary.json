@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC025",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC025_001",
+      "hanzi": "一副",
+      "pinyin": "yí fù",
+      "translationTr": "bir çift",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_002",
+      "hanzi": "耳机",
+      "pinyin": "ěrjī",
+      "translationTr": "kulaklık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_003",
+      "hanzi": "戴",
+      "pinyin": "dài",
+      "translationTr": "takmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_004",
+      "hanzi": "舒适",
+      "pinyin": "shūshì",
+      "translationTr": "rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_005",
+      "hanzi": "功能",
+      "pinyin": "gōngnéng",
+      "translationTr": "özellik / işlev",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_006",
+      "hanzi": "价格",
+      "pinyin": "jiàgé",
+      "translationTr": "fiyat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_007",
+      "hanzi": "轻",
+      "pinyin": "qīng",
+      "translationTr": "hafif",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_008",
+      "hanzi": "夹",
+      "pinyin": "jiā",
+      "translationTr": "sıkıştırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_009",
+      "hanzi": "人声",
+      "pinyin": "rénshēng",
+      "translationTr": "insan sesi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc025_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC025_010",
+      "hanzi": "合适",
+      "pinyin": "héshì",
+      "translationTr": "uygun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc025_word_010.m4a"
+    }
+  ]
+}

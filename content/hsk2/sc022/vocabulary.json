@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC022",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC022_001",
+      "hanzi": "基本上",
+      "pinyin": "jīběnshang",
+      "translationTr": "genellikle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_002",
+      "hanzi": "不然",
+      "pinyin": "bùrán",
+      "translationTr": "yoksa",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_003",
+      "hanzi": "词典",
+      "pinyin": "cídiǎn",
+      "translationTr": "sözlük",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_004",
+      "hanzi": "常用",
+      "pinyin": "chángyòng",
+      "translationTr": "sık kullanılan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_005",
+      "hanzi": "发音",
+      "pinyin": "fāyīn",
+      "translationTr": "telaffuz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_006",
+      "hanzi": "用法",
+      "pinyin": "yòngfǎ",
+      "translationTr": "kullanım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_007",
+      "hanzi": "保存",
+      "pinyin": "bǎocún",
+      "translationTr": "kaydetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_008",
+      "hanzi": "等于",
+      "pinyin": "děngyú",
+      "translationTr": "eşit olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_009",
+      "hanzi": "真的",
+      "pinyin": "zhēn de",
+      "translationTr": "gerçekten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc022_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC022_010",
+      "hanzi": "适合",
+      "pinyin": "shìhé",
+      "translationTr": "uygun olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc022_word_010.m4a"
+    }
+  ]
+}
