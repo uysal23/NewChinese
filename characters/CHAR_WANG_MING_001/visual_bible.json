@@ -1,0 +1,21 @@
+{
+  "visualBibleId": "VIS_CHAR_WANG_MING_001",
+  "characterId": "CHAR_WANG_MING_001",
+  "style": "unified_2_5d_3d_cgi",
+  "hair": "short dark hair with neat side part",
+  "face": "slightly square natural adult face, approachable expression",
+  "eyes": "dark brown",
+  "body": "average build",
+  "wardrobeRule": "modern modest office-casual, family-friendly",
+  "canonicalOutfits": {
+    "OUTFIT_WANG_MING_WORK_01": "light blue or soft gray office shirt, dark trousers, simple sneakers or office shoes",
+    "OUTFIT_WANG_MING_CASUAL_01": "neutral casual overshirt, plain tee, dark trousers"
+  },
+  "forbiddenChanges": [
+    "different face identity",
+    "dramatic age shift",
+    "different hair color",
+    "flashy formal suit unless scene requires it",
+    "explicit clothing"
+  ]
+}

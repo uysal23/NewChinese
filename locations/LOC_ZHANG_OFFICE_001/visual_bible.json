@@ -1,0 +1,28 @@
+{
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "name": "Zhang Wei Workplace",
+  "city": "Hangzhou",
+  "style": "modern medium-size Hangzhou office, warm professional and realistic",
+  "continuity": [
+    "light wood desks",
+    "soft gray and off-white walls",
+    "large windows with Hangzhou urban view",
+    "green desk plants",
+    "compact meeting corner",
+    "neutral computer monitors without readable generated text",
+    "tidy family-friendly workplace"
+  ],
+  "zones": [
+    "main desk area",
+    "small meeting corner",
+    "printer/storage area",
+    "window-side walkway"
+  ],
+  "timeVariants": [
+    "morning",
+    "midday",
+    "afternoon",
+    "early evening"
+  ],
+  "signageRule": "Simplified Chinese context only; avoid relying on generated readable text"
+}

@@ -1,0 +1,21 @@
+{
+  "characterId": "CHAR_WANG_MING_001",
+  "nameZh": "王明",
+  "nameLatin": "Wang Ming",
+  "gender": "male",
+  "age": 31,
+  "voiceId": "VOICE_WANG_MING_001",
+  "visualBibleId": "VIS_CHAR_WANG_MING_001",
+  "storyRole": "Zhang Wei's friendly workplace colleague in Hangzhou",
+  "personality": [
+    "practical",
+    "patient",
+    "reliable",
+    "light sense of humor"
+  ],
+  "continuityNotes": [
+    "helps Zhang Wei understand workplace routines without sounding like a teacher",
+    "friendly but professional at work",
+    "relationship gradually becomes a genuine friendship"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "name": "Office Break Room",
+  "city": "Hangzhou",
+  "style": "small bright office lunch and tea area connected to Zhang Wei's workplace",
+  "continuity": [
+    "light wood table",
+    "simple kitchenette counter",
+    "tea and water station",
+    "small refrigerator",
+    "two or three indoor plants",
+    "clean neutral walls",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "midday",
+    "afternoon"
+  ],
+  "signageRule": "no critical readable generated text"
+}
