@@ -176,6 +176,13 @@ fun AppNavigation(
                     sceneId = scene.sceneId,
                     lines = scene.lines,
                     playbackSpeed = current.playbackSpeed,
+                    onSimilarityResult = { similarity ->
+                        if (!freeStudyMode) {
+                            scope.launch {
+                                progressRepository.recordShadowingSimilarity(scene.sceneId, similarity)
+                            }
+                        }
+                    },
                     onComplete = {
                         if (!freeStudyMode) scope.launch { progressRepository.markShadowingComplete(scene.sceneId) }
                     },
@@ -219,6 +226,7 @@ fun AppNavigation(
                         sceneIds = unlockedAvailable,
                         onOpenScene = { sceneId ->
                             activeSceneId = sceneId
+                            freeStudyMode = true
                             nav.navigate("study")
                         }
                     )
