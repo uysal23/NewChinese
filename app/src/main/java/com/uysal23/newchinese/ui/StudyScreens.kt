@@ -326,19 +326,19 @@ fun SentencePracticeScreen(
     }
     var index by remember { mutableIntStateOf(0) }
     var selectedOption by remember(index) { mutableStateOf<String?>(null) }
+    var selectedChunkIndexes by remember(index) { mutableStateOf<List<Int>>(emptyList()) }
     var audioMissing by remember(index) { mutableStateOf(false) }
     val task = tasks[index]
     val line = task.line
 
     val chunks = remember(line.id) { splitMandarinChunks(line.chinese) }
     val correctReorder = chunks.joinToString("")
-    val reorderOptions = remember(line.id) {
-        listOf(
-            correctReorder,
-            chunks.reversed().joinToString(""),
-            (chunks.drop(1) + chunks.take(1)).joinToString("")
-        ).distinct().shuffled()
+    val shuffledChunks = remember(line.id) {
+        chunks.mapIndexed { chunkIndex, chunk -> chunkIndex to chunk }.shuffled()
     }
+    val reorderAnswer = selectedChunkIndexes.joinToString("") { chunkIndex -> chunks[chunkIndex] }
+    val reorderComplete = selectedChunkIndexes.size == chunks.size
+    val reorderCorrect = reorderComplete && reorderAnswer == correctReorder
     val blankChunk = remember(line.id) {
         chunks.getOrElse((chunks.size - 1).coerceAtLeast(0) / 2) { line.chinese }
     }
@@ -367,9 +367,19 @@ fun SentencePracticeScreen(
         DialoguePracticeMode.LISTEN_SELECT -> line.chinese
     }
     val options = when (task.mode) {
-        DialoguePracticeMode.REORDER -> reorderOptions
+        DialoguePracticeMode.REORDER -> emptyList()
         DialoguePracticeMode.FILL_BLANK -> fillOptions
         DialoguePracticeMode.LISTEN_SELECT -> listenOptions
+    }
+    val answerCorrect = when (task.mode) {
+        DialoguePracticeMode.REORDER -> reorderCorrect
+        DialoguePracticeMode.FILL_BLANK,
+        DialoguePracticeMode.LISTEN_SELECT -> selectedOption == correctAnswer
+    }
+    val attempted = when (task.mode) {
+        DialoguePracticeMode.REORDER -> reorderComplete
+        DialoguePracticeMode.FILL_BLANK,
+        DialoguePracticeMode.LISTEN_SELECT -> selectedOption != null
     }
 
     Column(
@@ -383,7 +393,52 @@ fun SentencePracticeScreen(
         when (task.mode) {
             DialoguePracticeMode.REORDER -> {
                 Text("Sıralama", style = MaterialTheme.typography.titleMedium)
-                Text("Parçaları doğru cümle sırasına getiren seçeneği seç.")
+                Text("Parçalara doğru sırayla dokun. Seçtiğin parçaya tekrar dokunarak geri alabilirsin.")
+
+                Card(Modifier.fillMaxWidth().heightIn(min = 72.dp)) {
+                    Column(
+                        Modifier.fillMaxWidth().padding(10.dp),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        selectedChunkIndexes.chunked(3).forEach { rowIndexes ->
+                            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                rowIndexes.forEach { chunkIndex ->
+                                    AssistChip(
+                                        onClick = {
+                                            selectedChunkIndexes = selectedChunkIndexes.toMutableList().also {
+                                                it.remove(chunkIndex)
+                                            }
+                                        },
+                                        label = { Text(chunks[chunkIndex]) }
+                                    )
+                                }
+                            }
+                        }
+                        if (selectedChunkIndexes.isEmpty()) {
+                            Text("Seçilen parçalar burada görünecek.")
+                        }
+                    }
+                }
+
+                val remaining = shuffledChunks.filter { (chunkIndex, _) ->
+                    chunkIndex !in selectedChunkIndexes
+                }
+                remaining.chunked(3).forEach { rowChunks ->
+                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        rowChunks.forEach { (chunkIndex, chunk) ->
+                            AssistChip(
+                                onClick = {
+                                    selectedChunkIndexes = selectedChunkIndexes + chunkIndex
+                                },
+                                label = { Text(chunk) }
+                            )
+                        }
+                    }
+                }
+
+                if (reorderComplete) {
+                    Text(if (reorderCorrect) "✓ Doğru" else "Tekrar dene")
+                }
             }
             DialoguePracticeMode.FILL_BLANK -> {
                 Text("Boşluk Doldurma", style = MaterialTheme.typography.titleMedium)
@@ -410,19 +465,21 @@ fun SentencePracticeScreen(
             Text("Bu cümlenin Mandarin sesi bulunamadı.", color = MaterialTheme.colorScheme.error)
         }
 
-        options.forEach { option ->
-            OutlinedButton(
-                onClick = { selectedOption = option },
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Text(option)
+        if (task.mode != DialoguePracticeMode.REORDER) {
+            options.forEach { option ->
+                OutlinedButton(
+                    onClick = { selectedOption = option },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(option)
+                }
             }
-        }
 
-        if (selectedOption != null) {
-            Text(
-                if (selectedOption == correctAnswer) "✓ Doğru" else "Tekrar dene · Doğru: $correctAnswer"
-            )
+            if (selectedOption != null) {
+                Text(
+                    if (selectedOption == correctAnswer) "✓ Doğru" else "Tekrar dene"
+                )
+            }
         }
 
         Button(
@@ -436,7 +493,7 @@ fun SentencePracticeScreen(
                     index++
                 }
             },
-            enabled = selectedOption != null,
+            enabled = attempted && answerCorrect,
             modifier = Modifier.fillMaxWidth()
         ) {
             Text(if (index == tasks.lastIndex) "Cümle Çalışmasını Tamamla ✓" else "Sonraki →")
