@@ -7,8 +7,11 @@ import androidx.room.PrimaryKey
 data class SceneProgressEntity(
     @PrimaryKey val sceneId: String,
     val vocabularyCompleted: Boolean = false,
+    val vocabularyProgressPercent: Int = 0,
     val sentencePracticeCompleted: Boolean = false,
+    val sentencePracticeProgressPercent: Int = 0,
     val shadowingCompleted: Boolean = false,
+    val shadowingProgressPercent: Int = 0,
     val shadowingBestSimilarity: Int = 0,
     val wordExamPassed: Boolean = false,
     val wordExamBestScore: Int = 0,
