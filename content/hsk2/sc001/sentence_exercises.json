@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC001",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC001_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC001_001",
+      "correctZh": "你先看一下今天的安排吧。",
+      "pinyin": "Nǐ xiān kàn yíxià jīntiān de ānpái ba.",
+      "translationTr": "Önce bugünkü programa bir göz at.",
+      "sentenceZh": "你先看一下今天的安排吧。",
+      "correctAnswer": "你先看一下今天的安排吧。",
+      "options": [],
+      "tokens": [
+        "你先看",
+        "一下今",
+        "天的安",
+        "排吧"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC001_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC001_002",
+      "correctZh": "开会以后，我要把昨天的工作做完。",
+      "pinyin": "Kāihuì yǐhòu, wǒ yào bǎ zuótiān de gōngzuò zuò wán.",
+      "translationTr": "Toplantıdan sonra dünkü işi bitirmem gerekiyor.",
+      "sentenceZh": "___以后，我要把昨天的工作做完。",
+      "correctAnswer": "开会",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC001_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC001_003",
+      "correctZh": "没关系，一会儿我可以帮你看看。",
+      "pinyin": "Méiguānxi, yíhuìr wǒ kěyǐ bāng nǐ kànkan.",
+      "translationTr": "Sorun değil, birazdan birlikte bakabiliriz.",
+      "sentenceZh": "没关系，一会儿我可以帮你看看。",
+      "correctAnswer": "没关系，一会儿我可以帮你看看。",
+      "options": [
+        "没关系，一会儿我可以帮你看看。",
+        "早上好，张伟。今天来得很早啊。",
+        "早上好。我想早点儿开始，今天事情不少。",
+        "你先看一下今天的安排吧。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC001_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC001_004",
+      "correctZh": "那我先自己做，有问题再问你。",
+      "pinyin": "Nà wǒ xiān zìjǐ zuò, yǒu wèntí zài wèn nǐ.",
+      "translationTr": "O zaman önce kendim yapayım, sorun olursa sana sorarım.",
+      "sentenceZh": "那我先自己做，有问题再问你。",
+      "correctAnswer": "那我先自己做，有问题再问你。",
+      "options": [],
+      "tokens": [
+        "那我先",
+        "自己做",
+        "有问题",
+        "再问你"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC001_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC001_005",
+      "correctZh": "慢慢来，习惯以后就快了。",
+      "pinyin": "Mànmàn lái, xíguàn yǐhòu jiù kuài le.",
+      "translationTr": "Zamanla, alışınca her şey daha hızlı olur.",
+      "sentenceZh": "___来，习惯以后就快了。",
+      "correctAnswer": "慢慢",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC001_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC001_006",
+      "correctZh": "那我开始了，中午一起吃饭吧。",
+      "pinyin": "Nà wǒ kāishǐ le, zhōngwǔ yìqǐ chīfàn ba.",
+      "translationTr": "O zaman başlayayım, öğlen birlikte yemek yiyelim.",
+      "sentenceZh": "那我开始了，中午一起吃饭吧。",
+      "correctAnswer": "那我开始了，中午一起吃饭吧。",
+      "options": [
+        "那我开始了，中午一起吃饭吧。",
+        "早上好，张伟。今天来得很早啊。",
+        "早上好。我想早点儿开始，今天事情不少。",
+        "你先看一下今天的安排吧。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_sentence_006.m4a"
+    }
+  ]
+}

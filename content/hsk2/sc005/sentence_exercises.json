@@ -1,0 +1,114 @@
+{
+  "sceneId": "HSK2_SC005",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC005_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC005_001",
+      "correctZh": "应该不严重，但是这个结果和昨天不一样。",
+      "pinyin": "Yīnggāi bù yánzhòng, dànshì zhège jiéguǒ hé zuótiān bù yíyàng.",
+      "translationTr": "Sanırım ciddi değil ama bu sonuç dünkünden farklı.",
+      "sentenceZh": "应该不严重，但是这个结果和昨天不一样。",
+      "correctAnswer": "应该不严重，但是这个结果和昨天不一样。",
+      "options": [],
+      "tokens": [
+        "应该不",
+        "严重但",
+        "是这个",
+        "结果和",
+        "昨天不",
+        "一样"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC005_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC005_002",
+      "correctZh": "那日期呢？有时候日期选错也会影响结果。",
+      "pinyin": "Nà rìqī ne? Yǒushíhou rìqī xuǎn cuò yě huì yǐngxiǎng jiéguǒ.",
+      "translationTr": "Peki tarih? Bazen yanlış tarih seçmek de sonucu etkileyebilir.",
+      "sentenceZh": "___期呢？有时候日期选错也会影响结果。",
+      "correctAnswer": "那日",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC005_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC005_003",
+      "correctZh": "原来这么简单，我刚才还很紧张。",
+      "pinyin": "Yuánlái zhème jiǎndān, wǒ gāngcái hái hěn jǐnzhāng.",
+      "translationTr": "Meğer bu kadar basitmiş, az önce çok gerilmiştim.",
+      "sentenceZh": "原来这么简单，我刚才还很紧张。",
+      "correctAnswer": "原来这么简单，我刚才还很紧张。",
+      "options": [
+        "原来这么简单，我刚才还很紧张。",
+        "王明，我刚发现一个小问题。",
+        "什么问题？严重吗？",
+        "应该不严重，但是这个结果和昨天不一样。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC005_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC005_004",
+      "correctZh": "好。改完以后把前后两个结果比较一下。",
+      "pinyin": "Hǎo. Gǎi wán yǐhòu bǎ qiánhòu liǎng ge jiéguǒ bǐjiào yíxià.",
+      "translationTr": "Tamam. Düzelttikten sonra önceki ve sonraki iki sonucu karşılaştır.",
+      "sentenceZh": "好。改完以后把前后两个结果比较一下。",
+      "correctAnswer": "好。改完以后把前后两个结果比较一下。",
+      "options": [],
+      "tokens": [
+        "好改完",
+        "以后把",
+        "前后两",
+        "个结果",
+        "比较一",
+        "下"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC005_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC005_005",
+      "correctZh": "今天又学到一个检查方法。",
+      "pinyin": "Jīntiān yòu xuédào yí ge jiǎnchá fāngfǎ.",
+      "translationTr": "Bugün yine yeni bir kontrol yöntemi öğrendim.",
+      "sentenceZh": "___又学到一个检查方法。",
+      "correctAnswer": "今天",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC005_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC005_006",
+      "correctZh": "很好，这次的小错误就很有价值了。",
+      "pinyin": "Hěn hǎo, zhè cì de xiǎo cuòwù jiù hěn yǒu jiàzhí le.",
+      "translationTr": "Çok iyi, böylece bu küçük hata bile değerli bir deneyim olmuş oldu.",
+      "sentenceZh": "很好，这次的小错误就很有价值了。",
+      "correctAnswer": "很好，这次的小错误就很有价值了。",
+      "options": [
+        "很好，这次的小错误就很有价值了。",
+        "王明，我刚发现一个小问题。",
+        "什么问题？严重吗？",
+        "应该不严重，但是这个结果和昨天不一样。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_sentence_006.m4a"
+    }
+  ]
+}

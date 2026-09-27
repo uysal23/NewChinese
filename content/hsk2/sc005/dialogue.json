@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC005",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC005_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "王明，我刚发现一个小问题。",
+      "pinyin": "Wáng Míng, wǒ gāng fāxiàn yí ge xiǎo wèntí.",
+      "translationTr": "Wang Ming, az önce küçük bir sorun fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L002",
+      "order": 2,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "什么问题？严重吗？",
+      "pinyin": "Shénme wèntí? Yánzhòng ma?",
+      "translationTr": "Ne sorunu? Ciddi mi?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "应该不严重，但是这个结果和昨天不一样。",
+      "pinyin": "Yīnggāi bù yánzhòng, dànshì zhège jiéguǒ hé zuótiān bù yíyàng.",
+      "translationTr": "Sanırım ciddi değil ama bu sonuç dünkünden farklı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L004",
+      "order": 4,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "先别担心。我们从输入的数据开始看。",
+      "pinyin": "Xiān bié dānxīn. Wǒmen cóng shūrù de shùjù kāishǐ kàn.",
+      "translationTr": "Önce endişelenme. Girdi verilerinden başlayalım.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里的三个数字我都检查过了。",
+      "pinyin": "Zhèlǐ de sān ge shùzì wǒ dōu jiǎnchá guo le.",
+      "translationTr": "Buradaki üç sayıyı da kontrol ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L006",
+      "order": 6,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那日期呢？有时候日期选错也会影响结果。",
+      "pinyin": "Nà rìqī ne? Yǒushíhou rìqī xuǎn cuò yě huì yǐngxiǎng jiéguǒ.",
+      "translationTr": "Peki tarih? Bazen yanlış tarih seçmek de sonucu etkileyebilir.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "等一下……你说得对，我选成昨天了。",
+      "pinyin": "Děng yíxià… nǐ shuō de duì, wǒ xuǎn chéng zuótiān le.",
+      "translationTr": "Bir dakika... haklısın, dünkü tarihi seçmişim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L008",
+      "order": 8,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那就找到原因了。",
+      "pinyin": "Nà jiù zhǎodào yuányīn le.",
+      "translationTr": "O zaman nedeni bulduk.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "原来这么简单，我刚才还很紧张。",
+      "pinyin": "Yuánlái zhème jiǎndān, wǒ gāngcái hái hěn jǐnzhāng.",
+      "translationTr": "Meğer bu kadar basitmiş, az önce çok gerilmiştim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L010",
+      "order": 10,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "小错误很正常，重要的是及时发现。",
+      "pinyin": "Xiǎo cuòwù hěn zhèngcháng, zhòngyào de shì jíshí fāxiàn.",
+      "translationTr": "Küçük hatalar normaldir, önemli olan zamanında fark etmek.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在改一下，再重新检查。",
+      "pinyin": "Wǒ xiànzài gǎi yíxià, zài chóngxīn jiǎnchá.",
+      "translationTr": "Şimdi düzelteyim, sonra tekrar kontrol ederim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L012",
+      "order": 12,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "好。改完以后把前后两个结果比较一下。",
+      "pinyin": "Hǎo. Gǎi wán yǐhòu bǎ qiánhòu liǎng ge jiéguǒ bǐjiào yíxià.",
+      "translationTr": "Tamam. Düzelttikten sonra önceki ve sonraki iki sonucu karşılaştır.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在一样了。",
+      "pinyin": "Xiànzài yíyàng le.",
+      "translationTr": "Şimdi aynı oldu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L014",
+      "order": 14,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那就没问题了。",
+      "pinyin": "Nà jiù méi wèntí le.",
+      "translationTr": "O zaman sorun kalmadı.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天又学到一个检查方法。",
+      "pinyin": "Jīntiān yòu xuédào yí ge jiǎnchá fāngfǎ.",
+      "translationTr": "Bugün yine yeni bir kontrol yöntemi öğrendim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L016",
+      "order": 16,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "工作里很多经验都是这样慢慢来的。",
+      "pinyin": "Gōngzuò lǐ hěn duō jīngyàn dōu shì zhèyàng mànmàn lái de.",
+      "translationTr": "İşte birçok deneyim böyle yavaş yavaş kazanılır.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以后我先检查日期，再看别的。",
+      "pinyin": "Yǐhòu wǒ xiān jiǎnchá rìqī, zài kàn biéde.",
+      "translationTr": "Bundan sonra önce tarihi kontrol edeceğim, sonra diğer şeylere bakarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc005_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC005_L018",
+      "order": 18,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "很好，这次的小错误就很有价值了。",
+      "pinyin": "Hěn hǎo, zhè cì de xiǎo cuòwù jiù hěn yǒu jiàzhí le.",
+      "translationTr": "Çok iyi, böylece bu küçük hata bile değerli bir deneyim olmuş oldu.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc005_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

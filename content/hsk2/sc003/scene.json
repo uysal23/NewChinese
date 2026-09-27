@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC003",
+  "level": "HSK2",
+  "sceneNumber": 3,
+  "titleZh": "午休时间",
+  "titleTr": "Öğle Arasında",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC002",
+  "nextSceneId": "HSK2_SC004",
+  "summaryTr": "Öğle arasında Zhang Wei ve Wang Ming yemek tercihlerini, dinlenmeyi ve öğleden sonraki planlarını konuşur."
+}

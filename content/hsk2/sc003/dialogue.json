@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC003",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC003_L001",
+      "order": 1,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "终于到午休了，你今天想吃什么？",
+      "pinyin": "Zhōngyú dào wǔxiū le, nǐ jīntiān xiǎng chī shénme?",
+      "translationTr": "Sonunda öğle molası geldi, bugün ne yemek istiyorsun?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我带了饭，不过不太多。",
+      "pinyin": "Wǒ dài le fàn, búguò bú tài duō.",
+      "translationTr": "Yemek getirdim ama çok değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L003",
+      "order": 3,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "我也带了。要不要一起坐这边？",
+      "pinyin": "Wǒ yě dài le. Yào bu yào yìqǐ zuò zhèbiān?",
+      "translationTr": "Ben de getirdim. Burada birlikte oturalım mı?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，这里比较安静。",
+      "pinyin": "Hǎo, zhèlǐ bǐjiào ānjìng.",
+      "translationTr": "Olur, burası daha sakin.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L005",
+      "order": 5,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "你现在习惯自己带午饭了吗？",
+      "pinyin": "Nǐ xiànzài xíguàn zìjǐ dài wǔfàn le ma?",
+      "translationTr": "Artık öğle yemeğini yanında getirmeye alıştın mı?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "差不多了。自己带比较省时间。",
+      "pinyin": "Chàbuduō le. Zìjǐ dài bǐjiào shěng shíjiān.",
+      "translationTr": "Aşağı yukarı. Kendim getirince zaman kazanıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L007",
+      "order": 7,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "而且想吃什么就可以准备什么。",
+      "pinyin": "Érqiě xiǎng chī shénme jiù kěyǐ zhǔnbèi shénme.",
+      "translationTr": "Ayrıca ne yemek istiyorsan onu hazırlayabiliyorsun.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，不过我做饭的种类还不多。",
+      "pinyin": "Duì, búguò wǒ zuòfàn de zhǒnglèi hái bù duō.",
+      "translationTr": "Evet ama yaptığım yemek çeşidi hâlâ çok değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L009",
+      "order": 9,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "慢慢学。这个周末你可以试一个新菜。",
+      "pinyin": "Mànmàn xué. Zhège zhōumò nǐ kěyǐ shì yí ge xīn cài.",
+      "translationTr": "Yavaş yavaş öğrenirsin. Bu hafta sonu yeni bir yemek deneyebilirsin.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好主意。你午休一般做什么？",
+      "pinyin": "Hǎo zhǔyi. Nǐ wǔxiū yìbān zuò shénme?",
+      "translationTr": "İyi fikir. Öğle arasında genelde ne yaparsın?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L011",
+      "order": 11,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "吃完饭以后，我会走十分钟。",
+      "pinyin": "Chī wán fàn yǐhòu, wǒ huì zǒu shí fēnzhōng.",
+      "translationTr": "Yemekten sonra on dakika yürürüm.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我常常坐着看手机，可能不太好。",
+      "pinyin": "Wǒ chángcháng zuòzhe kàn shǒujī, kěnéng bú tài hǎo.",
+      "translationTr": "Ben genelde oturup telefona bakıyorum, pek iyi olmayabilir.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L013",
+      "order": 13,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "偶尔没问题，不过走一走下午更有精神。",
+      "pinyin": "Ǒu'ěr méi wèntí, búguò zǒu yì zǒu xiàwǔ gèng yǒu jīngshen.",
+      "translationTr": "Ara sıra sorun değil ama biraz yürüyünce öğleden sonra daha zinde olursun.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那今天我跟你一起走。",
+      "pinyin": "Nà jīntiān wǒ gēn nǐ yìqǐ zǒu.",
+      "translationTr": "O zaman bugün seninle yürüyeyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L015",
+      "order": 15,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "可以。下午你还有那个邮件吗？",
+      "pinyin": "Kěyǐ. Xiàwǔ nǐ hái yǒu nàge yóujiàn ma?",
+      "translationTr": "Olur. Öğleden sonra o e-posta işi hâlâ var mı?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有，写完以后我还要整理明天的资料。",
+      "pinyin": "Yǒu, xiě wán yǐhòu wǒ hái yào zhěnglǐ míngtiān de zīliào.",
+      "translationTr": "Var, onu yazdıktan sonra yarının belgelerini de düzenlemem gerekiyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L017",
+      "order": 17,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "时间够，不用着急。",
+      "pinyin": "Shíjiān gòu, bú yòng zháojí.",
+      "translationTr": "Zaman yeter, acele etmene gerek yok.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC003_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，先好好吃饭。",
+      "pinyin": "Hǎo, xiān hǎohāo chīfàn.",
+      "translationTr": "Tamam, önce güzelce yemeğimizi yiyelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

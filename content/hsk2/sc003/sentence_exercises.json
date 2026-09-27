@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC003",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC003_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC003_001",
+      "correctZh": "我也带了。要不要一起坐这边？",
+      "pinyin": "Wǒ yě dài le. Yào bu yào yìqǐ zuò zhèbiān?",
+      "translationTr": "Ben de getirdim. Burada birlikte oturalım mı?",
+      "sentenceZh": "我也带了。要不要一起坐这边？",
+      "correctAnswer": "我也带了。要不要一起坐这边？",
+      "options": [],
+      "tokens": [
+        "我也带",
+        "了要不",
+        "要一起",
+        "坐这边"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC003_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC003_002",
+      "correctZh": "差不多了。自己带比较省时间。",
+      "pinyin": "Chàbuduō le. Zìjǐ dài bǐjiào shěng shíjiān.",
+      "translationTr": "Aşağı yukarı. Kendim getirince zaman kazanıyorum.",
+      "sentenceZh": "___多了。自己带比较省时间。",
+      "correctAnswer": "差不",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC003_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC003_003",
+      "correctZh": "慢慢学。这个周末你可以试一个新菜。",
+      "pinyin": "Mànmàn xué. Zhège zhōumò nǐ kěyǐ shì yí ge xīn cài.",
+      "translationTr": "Yavaş yavaş öğrenirsin. Bu hafta sonu yeni bir yemek deneyebilirsin.",
+      "sentenceZh": "慢慢学。这个周末你可以试一个新菜。",
+      "correctAnswer": "慢慢学。这个周末你可以试一个新菜。",
+      "options": [
+        "慢慢学。这个周末你可以试一个新菜。",
+        "终于到午休了，你今天想吃什么？",
+        "我带了饭，不过不太多。",
+        "我也带了。要不要一起坐这边？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC003_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC003_004",
+      "correctZh": "我常常坐着看手机，可能不太好。",
+      "pinyin": "Wǒ chángcháng zuòzhe kàn shǒujī, kěnéng bú tài hǎo.",
+      "translationTr": "Ben genelde oturup telefona bakıyorum, pek iyi olmayabilir.",
+      "sentenceZh": "我常常坐着看手机，可能不太好。",
+      "correctAnswer": "我常常坐着看手机，可能不太好。",
+      "options": [],
+      "tokens": [
+        "我常常",
+        "坐着看",
+        "手机可",
+        "能不太",
+        "好"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC003_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC003_005",
+      "correctZh": "可以。下午你还有那个邮件吗？",
+      "pinyin": "Kěyǐ. Xiàwǔ nǐ hái yǒu nàge yóujiàn ma?",
+      "translationTr": "Olur. Öğleden sonra o e-posta işi hâlâ var mı?",
+      "sentenceZh": "___。下午你还有那个邮件吗？",
+      "correctAnswer": "可以",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC003_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC003_006",
+      "correctZh": "好，先好好吃饭。",
+      "pinyin": "Hǎo, xiān hǎohāo chīfàn.",
+      "translationTr": "Tamam, önce güzelce yemeğimizi yiyelim.",
+      "sentenceZh": "好，先好好吃饭。",
+      "correctAnswer": "好，先好好吃饭。",
+      "options": [
+        "好，先好好吃饭。",
+        "终于到午休了，你今天想吃什么？",
+        "我带了饭，不过不太多。",
+        "我也带了。要不要一起坐这边？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_sentence_006.m4a"
+    }
+  ]
+}

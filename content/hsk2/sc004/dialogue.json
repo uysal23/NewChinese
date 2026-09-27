@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC004",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC004_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "王明，你现在方便吗？我想请你帮个忙。",
+      "pinyin": "Wáng Míng, nǐ xiànzài fāngbiàn ma? Wǒ xiǎng qǐng nǐ bāng ge máng.",
+      "translationTr": "Wang Ming, şu an müsait misin? Senden bir yardım isteyeceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L002",
+      "order": 2,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "可以，怎么了？",
+      "pinyin": "Kěyǐ, zěnme le?",
+      "translationTr": "Olur, ne oldu?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个文件我看了两次，还是有一部分不明白。",
+      "pinyin": "Zhège wénjiàn wǒ kàn le liǎng cì, háishi yǒu yí bùfen bù míngbai.",
+      "translationTr": "Bu dosyaya iki kez baktım ama hâlâ bir bölümünü anlamıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L004",
+      "order": 4,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "哪一部分？你指给我看。",
+      "pinyin": "Nǎ yí bùfen? Nǐ zhǐ gěi wǒ kàn.",
+      "translationTr": "Hangi bölüm? Bana göster.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "就是这里。我不知道为什么要先做这一步。",
+      "pinyin": "Jiù shì zhèlǐ. Wǒ bù zhīdào wèishénme yào xiān zuò zhè yí bù.",
+      "translationTr": "Tam burası. Neden önce bu adımı yapmamız gerektiğini bilmiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L006",
+      "order": 6,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "因为后面的结果要用到这里的数据。",
+      "pinyin": "Yīnwèi hòumiàn de jiéguǒ yào yòngdào zhèlǐ de shùjù.",
+      "translationTr": "Çünkü sonraki sonuçlarda buradaki veriler kullanılacak.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "哦，所以如果这里错了，后面也会错。",
+      "pinyin": "Ó, suǒyǐ rúguǒ zhèlǐ cuò le, hòumiàn yě huì cuò.",
+      "translationTr": "Anladım, yani burası yanlışsa sonrası da yanlış olur.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L008",
+      "order": 8,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对。你可以先检查这三个数字。",
+      "pinyin": "Duì. Nǐ kěyǐ xiān jiǎnchá zhè sān ge shùzì.",
+      "translationTr": "Evet. Önce bu üç sayıyı kontrol edebilirsin.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "然后再继续，对吗？",
+      "pinyin": "Ránhòu zài jìxù, duì ma?",
+      "translationTr": "Sonra devam edeceğim, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L010",
+      "order": 10,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对，这样比较安全，也容易找到问题。",
+      "pinyin": "Duì, zhèyàng bǐjiào ānquán, yě róngyì zhǎodào wèntí.",
+      "translationTr": "Evet, böyle daha güvenli olur ve sorunu bulmak kolaylaşır.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明白了。我刚才一直从后面找原因。",
+      "pinyin": "Míngbai le. Wǒ gāngcái yìzhí cóng hòumiàn zhǎo yuányīn.",
+      "translationTr": "Anladım. Az önce sürekli sorunun nedenini sonraki kısımlarda arıyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L012",
+      "order": 12,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "所以越看越复杂，对吧？",
+      "pinyin": "Suǒyǐ yuè kàn yuè fùzá, duì ba?",
+      "translationTr": "Bu yüzden baktıkça daha karmaşık geliyordu, değil mi?",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，差点儿把自己看糊涂了。",
+      "pinyin": "Duì, chàdiǎnr bǎ zìjǐ kàn hútu le.",
+      "translationTr": "Evet, neredeyse tamamen kafam karışacaktı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L014",
+      "order": 14,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "遇到这种情况，先回到最前面。",
+      "pinyin": "Yùdào zhè zhǒng qíngkuàng, xiān huídào zuì qiánmiàn.",
+      "translationTr": "Böyle bir durumla karşılaşınca önce en başa dön.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个方法我记住了。",
+      "pinyin": "Zhège fāngfǎ wǒ jìzhù le.",
+      "translationTr": "Bu yöntemi aklımda tutacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L016",
+      "order": 16,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "你先试一下，我五分钟以后再回来。",
+      "pinyin": "Nǐ xiān shì yíxià, wǒ wǔ fēnzhōng yǐhòu zài huílái.",
+      "translationTr": "Önce sen dene, beş dakika sonra tekrar gelirim.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，如果解决了我告诉你。",
+      "pinyin": "Hǎo, rúguǒ jiějué le wǒ gàosu nǐ.",
+      "translationTr": "Tamam, çözersem sana söylerim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC004_L018",
+      "order": 18,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "行，别急，慢慢检查。",
+      "pinyin": "Xíng, bié jí, mànmàn jiǎnchá.",
+      "translationTr": "Olur, acele etme, yavaş yavaş kontrol et.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

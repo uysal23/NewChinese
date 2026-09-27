@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC004",
+  "level": "HSK2",
+  "sceneNumber": 4,
+  "titleZh": "请你帮个忙",
+  "titleTr": "Yardım İstemek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC003",
+  "nextSceneId": "HSK2_SC005",
+  "summaryTr": "Zhang Wei bir dosyadaki bölümü anlayamayınca Wang Ming’den yardım ister; ikili sorunu birlikte adım adım çözer."
+}

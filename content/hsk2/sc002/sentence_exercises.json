@@ -1,0 +1,113 @@
+{
+  "sceneId": "HSK2_SC002",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC002_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC002_001",
+      "correctZh": "先整理资料，然后检查昨天的结果。",
+      "pinyin": "Xiān zhěnglǐ zīliào, ránhòu jiǎnchá zuótiān de jiéguǒ.",
+      "translationTr": "Önce belgeleri düzenleyeceğim, sonra dünkü sonucu kontrol edeceğim.",
+      "sentenceZh": "先整理资料，然后检查昨天的结果。",
+      "correctAnswer": "先整理资料，然后检查昨天的结果。",
+      "options": [],
+      "tokens": [
+        "先整理",
+        "资料然",
+        "后检查",
+        "昨天的",
+        "结果"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc002_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC002_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC002_002",
+      "correctZh": "我建议先检查结果，因为别人还在等。",
+      "pinyin": "Wǒ jiànyì xiān jiǎnchá jiéguǒ, yīnwèi biérén hái zài děng.",
+      "translationTr": "Önce sonucu kontrol etmeni öneririm, çünkü başkaları bekliyor.",
+      "sentenceZh": "___议先检查结果，因为别人还在等。",
+      "correctAnswer": "我建",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc002_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC002_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC002_003",
+      "correctZh": "这样我上午就只做两件事。",
+      "pinyin": "Zhèyàng wǒ shàngwǔ jiù zhǐ zuò liǎng jiàn shì.",
+      "translationTr": "Böylece sabah sadece iki iş yaparım.",
+      "sentenceZh": "这样我上午就只做两件事。",
+      "correctAnswer": "这样我上午就只做两件事。",
+      "options": [
+        "这样我上午就只做两件事。",
+        "王明，我想确认一下今天的任务顺序。",
+        "可以。你现在有哪几件事？",
+        "先整理资料，然后检查昨天的结果。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc002_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC002_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC002_004",
+      "correctZh": "我以前也这样。后来我开始写简单的清单。",
+      "pinyin": "Wǒ yǐqián yě zhèyàng. Hòulái wǒ kāishǐ xiě jiǎndān de qīngdān.",
+      "translationTr": "Ben de eskiden öyleydim. Sonra basit bir liste yazmaya başladım.",
+      "sentenceZh": "我以前也这样。后来我开始写简单的清单。",
+      "correctAnswer": "我以前也这样。后来我开始写简单的清单。",
+      "options": [],
+      "tokens": [
+        "我以前",
+        "也这样",
+        "后来我",
+        "开始写",
+        "简单的",
+        "清单"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc002_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC002_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC002_005",
+      "correctZh": "听起来很实用。",
+      "pinyin": "Tīng qǐlái hěn shíyòng.",
+      "translationTr": "Kulağa çok kullanışlı geliyor.",
+      "sentenceZh": "___来很实用。",
+      "correctAnswer": "听起",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc002_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC002_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC002_006",
+      "correctZh": "行，有变化我们下午再调整。",
+      "pinyin": "Xíng, yǒu biànhuà wǒmen xiàwǔ zài tiáozhěng.",
+      "translationTr": "Olur, bir değişiklik olursa öğleden sonra tekrar ayarlarız.",
+      "sentenceZh": "行，有变化我们下午再调整。",
+      "correctAnswer": "行，有变化我们下午再调整。",
+      "options": [
+        "行，有变化我们下午再调整。",
+        "王明，我想确认一下今天的任务顺序。",
+        "可以。你现在有哪几件事？",
+        "先整理资料，然后检查昨天的结果。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc002_sentence_006.m4a"
+    }
+  ]
+}

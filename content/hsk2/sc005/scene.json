@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC005",
+  "level": "HSK2",
+  "sceneNumber": 5,
+  "titleZh": "一个小错误",
+  "titleTr": "Küçük Bir Hata",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC004",
+  "nextSceneId": "HSK2_SC006",
+  "summaryTr": "Zhang Wei küçük bir veri hatası fark eder; Wang Ming ile paniğe kapılmadan hatanın kaynağını bulup düzeltir."
+}

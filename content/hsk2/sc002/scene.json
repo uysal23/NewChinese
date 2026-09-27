@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC002",
+  "level": "HSK2",
+  "sceneNumber": 2,
+  "titleZh": "今天的任务",
+  "titleTr": "Bugünün Görevleri",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC001",
+  "nextSceneId": "HSK2_SC003",
+  "summaryTr": "Zhang Wei ve Wang Ming görevlerin sırasını, önceliklerini ve zamanı nasıl kullanacaklarını konuşur."
+}

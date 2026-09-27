@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC004",
+  "sourcePolicy": "exam items derived only from dialogue; full study practice is generated from every dialogue line in three modes by locked UI flow",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC004_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC004_001",
+      "correctZh": "这个文件我看了两次，还是有一部分不明白。",
+      "pinyin": "Zhège wénjiàn wǒ kàn le liǎng cì, háishi yǒu yí bùfen bù míngbai.",
+      "translationTr": "Bu dosyaya iki kez baktım ama hâlâ bir bölümünü anlamıyorum.",
+      "sentenceZh": "这个文件我看了两次，还是有一部分不明白。",
+      "correctAnswer": "这个文件我看了两次，还是有一部分不明白。",
+      "options": [],
+      "tokens": [
+        "这个文",
+        "件我看",
+        "了两次",
+        "还是有",
+        "一部分",
+        "不明白"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC004_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC004_002",
+      "correctZh": "因为后面的结果要用到这里的数据。",
+      "pinyin": "Yīnwèi hòumiàn de jiéguǒ yào yòngdào zhèlǐ de shùjù.",
+      "translationTr": "Çünkü sonraki sonuçlarda buradaki veriler kullanılacak.",
+      "sentenceZh": "___后面的结果要用到这里的数据。",
+      "correctAnswer": "因为",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC004_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC004_003",
+      "correctZh": "然后再继续，对吗？",
+      "pinyin": "Ránhòu zài jìxù, duì ma?",
+      "translationTr": "Sonra devam edeceğim, değil mi?",
+      "sentenceZh": "然后再继续，对吗？",
+      "correctAnswer": "然后再继续，对吗？",
+      "options": [
+        "然后再继续，对吗？",
+        "王明，你现在方便吗？我想请你帮个忙。",
+        "可以，怎么了？",
+        "这个文件我看了两次，还是有一部分不明白。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC004_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC004_004",
+      "correctZh": "所以越看越复杂，对吧？",
+      "pinyin": "Suǒyǐ yuè kàn yuè fùzá, duì ba?",
+      "translationTr": "Bu yüzden baktıkça daha karmaşık geliyordu, değil mi?",
+      "sentenceZh": "所以越看越复杂，对吧？",
+      "correctAnswer": "所以越看越复杂，对吧？",
+      "options": [],
+      "tokens": [
+        "所以越",
+        "看越复",
+        "杂对吧"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC004_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC004_005",
+      "correctZh": "这个方法我记住了。",
+      "pinyin": "Zhège fāngfǎ wǒ jìzhù le.",
+      "translationTr": "Bu yöntemi aklımda tutacağım.",
+      "sentenceZh": "___方法我记住了。",
+      "correctAnswer": "这个",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc004_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC004_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC004_006",
+      "correctZh": "行，别急，慢慢检查。",
+      "pinyin": "Xíng, bié jí, mànmàn jiǎnchá.",
+      "translationTr": "Olur, acele etme, yavaş yavaş kontrol et.",
+      "sentenceZh": "行，别急，慢慢检查。",
+      "correctAnswer": "行，别急，慢慢检查。",
+      "options": [
+        "行，别急，慢慢检查。",
+        "王明，你现在方便吗？我想请你帮个忙。",
+        "可以，怎么了？",
+        "这个文件我看了两次，还是有一部分不明白。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc004_sentence_006.m4a"
+    }
+  ]
+}

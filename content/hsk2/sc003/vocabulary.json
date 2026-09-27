@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC003",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC003_001",
+      "hanzi": "午休",
+      "pinyin": "wǔxiū",
+      "translationTr": "öğle molası",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_002",
+      "hanzi": "安静",
+      "pinyin": "ānjìng",
+      "translationTr": "sakin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_003",
+      "hanzi": "省时间",
+      "pinyin": "shěng shíjiān",
+      "translationTr": "zaman kazanmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_004",
+      "hanzi": "准备",
+      "pinyin": "zhǔnbèi",
+      "translationTr": "hazırlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_005",
+      "hanzi": "种类",
+      "pinyin": "zhǒnglèi",
+      "translationTr": "çeşit",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_006",
+      "hanzi": "一般",
+      "pinyin": "yìbān",
+      "translationTr": "genellikle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_007",
+      "hanzi": "常常",
+      "pinyin": "chángcháng",
+      "translationTr": "sık sık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_008",
+      "hanzi": "偶尔",
+      "pinyin": "ǒu'ěr",
+      "translationTr": "ara sıra",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_009",
+      "hanzi": "精神",
+      "pinyin": "jīngshen",
+      "translationTr": "zindelik / enerji",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc003_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC003_010",
+      "hanzi": "着急",
+      "pinyin": "zháojí",
+      "translationTr": "acele etmek / telaşlanmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc003_word_010.m4a"
+    }
+  ]
+}

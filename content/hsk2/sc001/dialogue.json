@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC001",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC001_L001",
+      "order": 1,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "早上好，张伟。今天来得很早啊。",
+      "pinyin": "Zǎoshang hǎo, Zhāng Wěi. Jīntiān lái de hěn zǎo a.",
+      "translationTr": "Günaydın Zhang Wei. Bugün çok erken gelmişsin.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "早上好。我想早点儿开始，今天事情不少。",
+      "pinyin": "Zǎoshang hǎo. Wǒ xiǎng zǎodiǎnr kāishǐ, jīntiān shìqing bù shǎo.",
+      "translationTr": "Günaydın. Biraz erken başlamak istedim, bugün yapılacak çok şey var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L003",
+      "order": 3,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "你先看一下今天的安排吧。",
+      "pinyin": "Nǐ xiān kàn yíxià jīntiān de ānpái ba.",
+      "translationTr": "Önce bugünkü programa bir göz at.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我刚看了，上午有一个小会。",
+      "pinyin": "Wǒ gāng kàn le, shàngwǔ yǒu yí ge xiǎo huì.",
+      "translationTr": "Az önce baktım, sabah küçük bir toplantı var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L005",
+      "order": 5,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "对，十点开始，大概半个小时。",
+      "pinyin": "Duì, shí diǎn kāishǐ, dàgài bàn ge xiǎoshí.",
+      "translationTr": "Evet, saat onda başlıyor, yaklaşık yarım saat sürer.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "开会以后，我要把昨天的工作做完。",
+      "pinyin": "Kāihuì yǐhòu, wǒ yào bǎ zuótiān de gōngzuò zuò wán.",
+      "translationTr": "Toplantıdan sonra dünkü işi bitirmem gerekiyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L007",
+      "order": 7,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "那个不难，不过要仔细一点儿。",
+      "pinyin": "Nàge bù nán, búguò yào zǐxì yìdiǎnr.",
+      "translationTr": "O zor değil ama biraz dikkatli olmak gerekiyor.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我知道。昨天有两个地方我不太确定。",
+      "pinyin": "Wǒ zhīdào. Zuótiān yǒu liǎng ge dìfang wǒ bú tài quèdìng.",
+      "translationTr": "Biliyorum. Dün iki noktadan pek emin değildim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L009",
+      "order": 9,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "没关系，一会儿我可以帮你看看。",
+      "pinyin": "Méiguānxi, yíhuìr wǒ kěyǐ bāng nǐ kànkan.",
+      "translationTr": "Sorun değil, birazdan birlikte bakabiliriz.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢。你今天忙吗？",
+      "pinyin": "Xièxie. Nǐ jīntiān máng ma?",
+      "translationTr": "Teşekkürler. Bugün yoğun musun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L011",
+      "order": 11,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "上午比较忙，下午会轻松一点儿。",
+      "pinyin": "Shàngwǔ bǐjiào máng, xiàwǔ huì qīngsōng yìdiǎnr.",
+      "translationTr": "Sabah biraz yoğunum, öğleden sonra daha rahat olacak.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我先自己做，有问题再问你。",
+      "pinyin": "Nà wǒ xiān zìjǐ zuò, yǒu wèntí zài wèn nǐ.",
+      "translationTr": "O zaman önce kendim yapayım, sorun olursa sana sorarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L013",
+      "order": 13,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "好。你现在越来越熟悉这里了。",
+      "pinyin": "Hǎo. Nǐ xiànzài yuèláiyuè shúxī zhèlǐ le.",
+      "translationTr": "Tamam. Artık buraya gittikçe daha çok alışıyorsun.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是啊，第一天的时候我什么都要问。",
+      "pinyin": "Shì a, dì yī tiān de shíhou wǒ shénme dōu yào wèn.",
+      "translationTr": "Evet, ilk gün her şeyi sormam gerekiyordu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L015",
+      "order": 15,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "慢慢来，习惯以后就快了。",
+      "pinyin": "Mànmàn lái, xíguàn yǐhòu jiù kuài le.",
+      "translationTr": "Zamanla, alışınca her şey daha hızlı olur.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也是这么想的。今天先把三件事做好。",
+      "pinyin": "Wǒ yě shì zhème xiǎng de. Jīntiān xiān bǎ sān jiàn shì zuò hǎo.",
+      "translationTr": "Ben de öyle düşünüyorum. Bugün önce üç işi düzgünce bitireceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L017",
+      "order": 17,
+      "speakerId": "CHAR_WANG_MING_001",
+      "textZh": "很好，有计划就不容易乱。",
+      "pinyin": "Hěn hǎo, yǒu jìhuà jiù bù róngyì luàn.",
+      "translationTr": "Çok iyi, plan olunca işler kolay kolay karışmaz.",
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC001_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我开始了，中午一起吃饭吧。",
+      "pinyin": "Nà wǒ kāishǐ le, zhōngwǔ yìqǐ chīfàn ba.",
+      "translationTr": "O zaman başlayayım, öğlen birlikte yemek yiyelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

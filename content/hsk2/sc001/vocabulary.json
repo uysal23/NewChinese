@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC001",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC001_001",
+      "hanzi": "安排",
+      "pinyin": "ānpái",
+      "translationTr": "plan / düzenleme",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_002",
+      "hanzi": "开会",
+      "pinyin": "kāihuì",
+      "translationTr": "toplantı yapmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_003",
+      "hanzi": "做完",
+      "pinyin": "zuò wán",
+      "translationTr": "bitirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_004",
+      "hanzi": "仔细",
+      "pinyin": "zǐxì",
+      "translationTr": "dikkatli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_005",
+      "hanzi": "确定",
+      "pinyin": "quèdìng",
+      "translationTr": "emin olmak / kesinleştirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_006",
+      "hanzi": "比较",
+      "pinyin": "bǐjiào",
+      "translationTr": "nispeten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_007",
+      "hanzi": "轻松",
+      "pinyin": "qīngsōng",
+      "translationTr": "rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_008",
+      "hanzi": "熟悉",
+      "pinyin": "shúxī",
+      "translationTr": "aşina olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_009",
+      "hanzi": "习惯",
+      "pinyin": "xíguàn",
+      "translationTr": "alışmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc001_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC001_010",
+      "hanzi": "计划",
+      "pinyin": "jìhuà",
+      "translationTr": "plan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk2_sc001_word_010.m4a"
+    }
+  ]
+}

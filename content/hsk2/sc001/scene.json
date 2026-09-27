@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC001",
+  "level": "HSK2",
+  "sceneNumber": 1,
+  "titleZh": "新的一天",
+  "titleTr": "Yeni Bir İş Günü",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK1_SC050",
+  "nextSceneId": "HSK2_SC002",
+  "summaryTr": "Zhang Wei yeni iş haftasının sabahında Wang Ming ile günlük planını konuşur ve ofis düzenine daha çok alışmaya başlar."
+}
