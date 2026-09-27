@@ -1,0 +1,21 @@
+{
+  "locationId": "LOC_DAY_TRIP_TOWN_001",
+  "name": "Nearby Water Town",
+  "city": "Zhejiang near Hangzhou",
+  "style": "small traditional-style water-town day-trip area",
+  "continuity": [
+    "canal",
+    "stone bridge",
+    "white-walled dark-roof buildings",
+    "narrow pedestrian lane",
+    "small local shops without readable branding",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "morning",
+    "midday",
+    "afternoon",
+    "early evening"
+  ],
+  "signageRule": "avoid critical generated readable text"
+}

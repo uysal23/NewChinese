@@ -1,0 +1,20 @@
+{
+  "locationId": "LOC_GUESTHOUSE_001",
+  "name": "Small Weekend Guesthouse",
+  "city": "Zhejiang near Hangzhou",
+  "style": "clean modest modern guesthouse with local wood accents",
+  "continuity": [
+    "small reception area",
+    "light wood furniture",
+    "simple room",
+    "window toward quiet lane",
+    "tea kettle",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "afternoon check-in",
+    "evening",
+    "morning"
+  ],
+  "signageRule": "no critical readable generated text"
+}

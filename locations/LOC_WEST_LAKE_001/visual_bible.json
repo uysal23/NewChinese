@@ -1,0 +1,21 @@
+{
+  "locationId": "LOC_WEST_LAKE_001",
+  "name": "West Lake Lakeside",
+  "city": "Hangzhou",
+  "style": "recognizable calm West Lake lakeside promenade",
+  "continuity": [
+    "lake view",
+    "tree-lined walkway",
+    "stone railing",
+    "distant hills",
+    "small sightseeing boats without readable text",
+    "family-friendly"
+  ],
+  "timeVariants": [
+    "morning",
+    "afternoon",
+    "golden hour",
+    "evening"
+  ],
+  "signageRule": "Simplified Chinese context only; no critical generated readable text"
+}
