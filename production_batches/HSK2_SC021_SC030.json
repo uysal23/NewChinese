@@ -8,6 +8,36 @@
   "status": "content_ready_visual_audio_pending",
   "scenes": [
     {
+      "sceneId": "HSK2_SC021",
+      "titleTr": "Yeni Kelimeleri Nasıl Hatırlarım?",
+      "locationId": "LOC_PUBLIC_LIBRARY_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC022",
+      "titleTr": "Telefondan Kelime Bakmak",
+      "locationId": "LOC_CAFE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC023",
+      "titleTr": "Kütüphanede Çalışmak",
+      "locationId": "LOC_PUBLIC_LIBRARY_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC024",
+      "titleTr": "Çince Yazma Klavyesi",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC025",
+      "titleTr": "Kulaklık Almak",
+      "locationId": "LOC_ELECTRONICS_STORE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
       "sceneId": "HSK2_SC026",
       "titleTr": "Sesli Çalışma Denemesi",
       "locationId": "LOC_ZHANG_HOME_001",
