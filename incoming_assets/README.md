@@ -22,3 +22,16 @@ ZIP dosyasını bu klasöre yükleyin. GitHub Actions otomatik olarak:
 7. İşlenen ZIP dosyasını `incoming_assets/` klasöründen siler.
 
 Kilitli proje yapısı ve mevcut içerik dosyaları bu işlem sırasında değiştirilmez.
+
+
+## 10-sahnelik batch ZIP
+
+Tek tek 10 ZIP yüklemek yerine şu adlandırma desteklenir:
+
+- `HSK2_SC011_SC020_visual_assets_batch.zip`
+- aynı kalıp diğer HSK seviyeleri, sahne aralıkları ve audio paketleri için de kullanılabilir.
+
+Batch ZIP'in içinde her sahne için normal importer adını taşıyan ZIP bulunmalıdır:
+`HSK2_SC011_visual_assets.zip` ... `HSK2_SC020_visual_assets.zip`.
+
+Workflow batch ZIP'i açar, 10 scene paketini doğrular, ilgili sahnelere import eder, media status değerlerini günceller ve validation çalıştırır.
