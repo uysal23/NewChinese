@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC047",
+  "level": "HSK2",
+  "sceneNumber": 47,
+  "titleZh": "朋友之间的邀请",
+  "titleTr": "Arkadaş Daveti",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC046",
+  "nextSceneId": "HSK2_SC048",
+  "summaryTr": "Chen Yu Zhang Wei’yi küçük bir hafta sonu yürüyüş grubuna davet eder; Zhang Wei grup büyüklüğü ve ortamı sorar."
+}

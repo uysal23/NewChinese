@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC046",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC046_001",
+      "hanzi": "交换",
+      "pinyin": "jiāohuàn",
+      "translationTr": "değiş tokuş etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_002",
+      "hanzi": "联系方式",
+      "pinyin": "liánxì fāngshì",
+      "translationTr": "iletişim bilgisi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_003",
+      "hanzi": "陌生",
+      "pinyin": "mòshēng",
+      "translationTr": "yabancı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_004",
+      "hanzi": "第一步",
+      "pinyin": "dì yī bù",
+      "translationTr": "ilk adım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_005",
+      "hanzi": "一旦",
+      "pinyin": "yídàn",
+      "translationTr": "bir kez",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_006",
+      "hanzi": "本身",
+      "pinyin": "běnshēn",
+      "translationTr": "kendisi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_007",
+      "hanzi": "类似",
+      "pinyin": "lèisì",
+      "translationTr": "benzer",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_008",
+      "hanzi": "一半",
+      "pinyin": "yíbàn",
+      "translationTr": "yarısı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_009",
+      "hanzi": "期待",
+      "pinyin": "qīdài",
+      "translationTr": "beklemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC046_010",
+      "hanzi": "有道理",
+      "pinyin": "yǒu dàolǐ",
+      "translationTr": "mantıklı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_word_010.m4a"
+    }
+  ]
+}

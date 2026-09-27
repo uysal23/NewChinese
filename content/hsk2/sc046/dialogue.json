@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC046",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC046_L001",
+      "order": 1,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "第一次参加感觉怎么样？",
+      "pinyin": "Dì yī cì cānjiā gǎnjué zěnmeyàng?",
+      "translationTr": "İlk kez katılmak nasıl hissettirdi?",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "比我想的好。我最后还说了几分钟。",
+      "pinyin": "Bǐ wǒ xiǎng de hǎo. Wǒ zuìhòu hái shuō le jǐ fēnzhōng.",
+      "translationTr": "Düşündüğümden iyiydi. Sonunda birkaç dakika da konuştum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L003",
+      "order": 3,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "而且大家都听得很认真。",
+      "pinyin": "Érqiě dàjiā dōu tīng de hěn rènzhēn.",
+      "translationTr": "Üstelik herkes dikkatle dinledi.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我有两个词说错了，不过没有人觉得奇怪。",
+      "pinyin": "Wǒ yǒu liǎng ge cí shuō cuò le, búguò méiyǒu rén juéde qíguài.",
+      "translationTr": "İki kelimeyi yanlış söyledim ama kimse garipsemedi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L005",
+      "order": 5,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "正常聊天里谁都会说错。",
+      "pinyin": "Zhèngcháng liáotiān lǐ shéi dōu huì shuō cuò.",
+      "translationTr": "Normal sohbette herkes hata yapar.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天我真的感觉到了。",
+      "pinyin": "Jīntiān wǒ zhēn de gǎnjué dào le.",
+      "translationTr": "Bugün bunu gerçekten hissettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L007",
+      "order": 7,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "你还认识了别人吗？",
+      "pinyin": "Nǐ hái rènshi le biérén ma?",
+      "translationTr": "Başka biriyle de tanıştın mı?",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "认识了两个人，交换了联系方式。",
+      "pinyin": "Rènshi le liǎng ge rén, jiāohuàn le liánxì fāngshì.",
+      "translationTr": "İki kişiyle tanıştım, iletişim bilgilerimizi paylaştık.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L009",
+      "order": 9,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "很好，下次来就不会觉得陌生了。",
+      "pinyin": "Hěn hǎo, xià cì lái jiù bú huì juéde mòshēng le.",
+      "translationTr": "Çok iyi, bir dahaki gelişinde yabancılık çekmezsin.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我发现新环境最难的是第一步。",
+      "pinyin": "Wǒ fāxiàn xīn huánjìng zuì nán de shì dì yī bù.",
+      "translationTr": "Yeni ortamda en zor şeyin ilk adım olduğunu fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L011",
+      "order": 11,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "对，一旦开始，后面就容易多了。",
+      "pinyin": "Duì, yídàn kāishǐ, hòumiàn jiù róngyì duō le.",
+      "translationTr": "Evet, bir kez başlayınca sonrası çok daha kolay.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前总等自己准备得更好再参加。",
+      "pinyin": "Wǒ yǐqián zǒng děng zìjǐ zhǔnbèi de gèng hǎo zài cānjiā.",
+      "translationTr": "Eskiden daha iyi hazırlanmayı bekleyip sonra katılmak isterdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L013",
+      "order": 13,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "其实参加本身就是准备的一部分。",
+      "pinyin": "Qíshí cānjiā běnshēn jiù shì zhǔnbèi de yí bùfen.",
+      "translationTr": "Aslında katılmanın kendisi hazırlığın bir parçası.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这句话很有道理。",
+      "pinyin": "Zhè jù huà hěn yǒu dàolǐ.",
+      "translationTr": "Bu çok mantıklı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L015",
+      "order": 15,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "下个月还有一次类似的活动。",
+      "pinyin": "Xià ge yuè hái yǒu yí cì lèisì de huódòng.",
+      "translationTr": "Gelecek ay benzer bir etkinlik daha var.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果时间合适，我还会来。",
+      "pinyin": "Rúguǒ shíjiān héshì, wǒ hái huì lái.",
+      "translationTr": "Zaman uygunsa yine gelirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L017",
+      "order": 17,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "到时候你可能已经认识一半的人了。",
+      "pinyin": "Dào shíhou nǐ kěnéng yǐjīng rènshi yíbàn de rén le.",
+      "translationTr": "O zaman belki insanların yarısını tanıyor olursun.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC046_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听起来不错，我开始期待了。",
+      "pinyin": "Tīng qǐlái búcuò, wǒ kāishǐ qīdài le.",
+      "translationTr": "Kulağa iyi geliyor, şimdiden heyecanlandım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

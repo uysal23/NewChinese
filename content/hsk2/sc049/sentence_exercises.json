@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC049",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC049_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC049_001",
+      "correctZh": "认识新朋友的忙？",
+      "pinyin": "Rènshi xīn péngyou de máng?",
+      "translationTr": "Yeni arkadaşlar tanıma yoğunluğu mu?",
+      "sentenceZh": "认识新朋友的忙？",
+      "correctAnswer": "认识新朋友的忙？",
+      "options": [],
+      "tokens": [
+        "认识新",
+        "朋友的",
+        "忙"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC049_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC049_002",
+      "correctZh": "最开始我只认识你和工作上的几个人。",
+      "pinyin": "Zuì kāishǐ wǒ zhǐ rènshi nǐ hé gōngzuò shàng de jǐ ge rén.",
+      "translationTr": "Başta sadece seni ve işten birkaç kişiyi tanıyordum.",
+      "sentenceZh": "___始我只认识你和工作上的几个人。",
+      "correctAnswer": "最开",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC049_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC049_003",
+      "correctZh": "而且他们是不同地方认识的。",
+      "pinyin": "Érqiě tāmen shì bùtóng dìfang rènshi de.",
+      "translationTr": "Üstelik hepsini farklı yerlerde tanıdın.",
+      "sentenceZh": "而且他们是不同地方认识的。",
+      "correctAnswer": "而且他们是不同地方认识的。",
+      "options": [
+        "而且他们是不同地方认识的。",
+        "最近周末你比以前忙多了。",
+        "是，不过这种忙不一样。",
+        "认识新朋友的忙？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC049_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC049_004",
+      "correctZh": "我现在听不同人的说法更习惯了。",
+      "pinyin": "Wǒ xiànzài tīng bùtóng rén de shuōfǎ gèng xíguàn le.",
+      "translationTr": "Artık farklı insanların konuşma biçimlerine daha alışığım.",
+      "sentenceZh": "我现在听不同人的说法更习惯了。",
+      "correctAnswer": "我现在听不同人的说法更习惯了。",
+      "options": [],
+      "tokens": [
+        "我现在",
+        "听不同",
+        "人的说",
+        "法更习",
+        "惯了"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC049_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC049_005",
+      "correctZh": "现在会主动邀请别人吗？",
+      "pinyin": "Xiànzài huì zhǔdòng yāoqǐng biérén ma?",
+      "translationTr": "Şimdi başkalarını kendin davet eder misin?",
+      "sentenceZh": "___会主动邀请别人吗？",
+      "correctAnswer": "现在",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC049_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC049_006",
+      "correctZh": "对，我觉得杭州越来越像真正的生活，而不是一个新地方。",
+      "pinyin": "Duì, wǒ juéde Hángzhōu yuèláiyuè xiàng zhēnzhèng de shēnghuó, ér bú shì yí ge xīn dìfang.",
+      "translationTr": "Evet, Hangzhou giderek yeni bir yerden çok gerçek hayatım gibi geliyor.",
+      "sentenceZh": "对，我觉得杭州越来越像真正的生活，而不是一个新地方。",
+      "correctAnswer": "对，我觉得杭州越来越像真正的生活，而不是一个新地方。",
+      "options": [
+        "对，我觉得杭州越来越像真正的生活，而不是一个新地方。",
+        "最近周末你比以前忙多了。",
+        "是，不过这种忙不一样。",
+        "认识新朋友的忙？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_sentence_006.m4a"
+    }
+  ]
+}

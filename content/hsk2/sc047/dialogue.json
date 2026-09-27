@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC047",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC047_L001",
+      "order": 1,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "这个周末我们几个人准备去走一条新路线，你有兴趣吗？",
+      "pinyin": "Zhège zhōumò wǒmen jǐ ge rén zhǔnbèi qù zǒu yì tiáo xīn lùxiàn, nǐ yǒu xìngqù ma?",
+      "translationTr": "Bu hafta sonu birkaç kişi yeni bir rotada yürüyeceğiz, ilgini çeker mi?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听起来不错。有多少人？",
+      "pinyin": "Tīng qǐlái búcuò. Yǒu duōshao rén?",
+      "translationTr": "Kulağa iyi geliyor. Kaç kişi var?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L003",
+      "order": 3,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "大概五六个，都是我认识的朋友。",
+      "pinyin": "Dàgài wǔ liù ge, dōu shì wǒ rènshi de péngyou.",
+      "translationTr": "Yaklaşık beş altı kişi, hepsi tanıdığım arkadaşlar.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我都不认识，会不会有点儿奇怪？",
+      "pinyin": "Wǒ dōu bù rènshi, huì bú huì yǒudiǎnr qíguài?",
+      "translationTr": "Hiçbirini tanımıyorum, biraz garip olur mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L005",
+      "order": 5,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "不会，大家都很随和。",
+      "pinyin": "Bú huì, dàjiā dōu hěn suíhé.",
+      "translationTr": "Olmaz, herkes çok rahat biridir.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "路线难吗？",
+      "pinyin": "Lùxiàn nán ma?",
+      "translationTr": "Rota zor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L007",
+      "order": 7,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "不难，两个小时左右，中间会休息。",
+      "pinyin": "Bù nán, liǎng ge xiǎoshí zuǒyòu, zhōngjiān huì xiūxi.",
+      "translationTr": "Zor değil, yaklaşık iki saat, arada mola vereceğiz.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我应该没问题。",
+      "pinyin": "Nà wǒ yīnggāi méi wèntí.",
+      "translationTr": "O zaman sorun yaşamam.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L009",
+      "order": 9,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "你只要穿舒服的鞋，带水就行。",
+      "pinyin": "Nǐ zhǐyào chuān shūfu de xié, dài shuǐ jiù xíng.",
+      "translationTr": "Rahat ayakkabı giyip su getirmen yeter.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "几点集合？",
+      "pinyin": "Jǐ diǎn jíhé?",
+      "translationTr": "Saat kaçta buluşuyoruz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L011",
+      "order": 11,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "上午九点，在公园东门。",
+      "pinyin": "Shàngwǔ jiǔ diǎn, zài gōngyuán dōngmén.",
+      "translationTr": "Sabah dokuzda, parkın doğu kapısında.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我可以直接过去。",
+      "pinyin": "Wǒ kěyǐ zhíjiē guòqù.",
+      "translationTr": "Doğrudan gelebilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L013",
+      "order": 13,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "好。我会提前告诉他们有新朋友来。",
+      "pinyin": "Hǎo. Wǒ huì tíqián gàosu tāmen yǒu xīn péngyou lái.",
+      "translationTr": "Tamam. Yeni bir arkadaşın geleceğini önceden söylerim.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢，这样我会轻松一点儿。",
+      "pinyin": "Xièxie, zhèyàng wǒ huì qīngsōng yìdiǎnr.",
+      "translationTr": "Teşekkürler, böyle daha rahat olurum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L015",
+      "order": 15,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "不用担心，不需要特别准备聊天内容。",
+      "pinyin": "Bú yòng dānxīn, bù xūyào tèbié zhǔnbèi liáotiān nèiróng.",
+      "translationTr": "Endişelenme, konuşacak konu hazırlamana gerek yok.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在比以前自然多了。",
+      "pinyin": "Wǒ xiànzài bǐ yǐqián zìrán duō le.",
+      "translationTr": "Artık eskisine göre çok daha doğalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L017",
+      "order": 17,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "那周末正好再练练。",
+      "pinyin": "Nà zhōumò zhènghǎo zài liànlian.",
+      "translationTr": "O zaman hafta sonu biraz daha pratik yaparsın.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC047_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我参加。",
+      "pinyin": "Hǎo, wǒ cānjiā.",
+      "translationTr": "Tamam, katılıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

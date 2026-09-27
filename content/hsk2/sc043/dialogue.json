@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC043",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC043_L001",
+      "order": 1,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "今天不用走很远，边走边拍就好。",
+      "pinyin": "Jīntiān bú yòng zǒu hěn yuǎn, biān zǒu biān pāi jiù hǎo.",
+      "translationTr": "Bugün çok uzağa gitmeye gerek yok, yürürken fotoğraf çekeriz.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我对摄影其实不太懂。",
+      "pinyin": "Wǒ duì shèyǐng qíshí bú tài dǒng.",
+      "translationTr": "Fotoğrafçılıktan pek anlamıyorum aslında.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L003",
+      "order": 3,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "没关系，我也不是专业的。",
+      "pinyin": "Méiguānxi, wǒ yě bú shì zhuānyè de.",
+      "translationTr": "Sorun değil, ben de profesyonel değilim.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那你拍照最注意什么？",
+      "pinyin": "Nà nǐ pāizhào zuì zhùyì shénme?",
+      "translationTr": "Fotoğraf çekerken en çok neye dikkat ediyorsun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L005",
+      "order": 5,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "光线，还有画面里什么最重要。",
+      "pinyin": "Guāngxiàn, hái yǒu huàmiàn lǐ shénme zuì zhòngyào.",
+      "translationTr": "Işığa ve kadrajda en önemli şeyin ne olduğuna.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不是先看设备吗？",
+      "pinyin": "Bú shì xiān kàn shèbèi ma?",
+      "translationTr": "Önce ekipmana bakmıyor musun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L007",
+      "order": 7,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "设备有帮助，但不是第一件事。",
+      "pinyin": "Shèbèi yǒu bāngzhù, dàn bú shì dì yī jiàn shì.",
+      "translationTr": "Ekipman yardımcı olur ama ilk şey o değil.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那用手机也可以拍得不错。",
+      "pinyin": "Nà yòng shǒujī yě kěyǐ pāi de búcuò.",
+      "translationTr": "O zaman telefonla da iyi fotoğraf çekilebilir.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L009",
+      "order": 9,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "当然。先学会观察更重要。",
+      "pinyin": "Dāngrán. Xiān xuéhuì guānchá gèng zhòngyào.",
+      "translationTr": "Elbette. Önce gözlemlemeyi öğrenmek daha önemli.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "比如这棵树和后面的湖？",
+      "pinyin": "Bǐrú zhè kē shù hé hòumiàn de hú?",
+      "translationTr": "Mesela şu ağaç ve arkasındaki göl gibi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L011",
+      "order": 11,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "对，你可以换一个位置看看。",
+      "pinyin": "Duì, nǐ kěyǐ huàn yí ge wèizhi kànkan.",
+      "translationTr": "Evet, başka bir konuma geçip bakabilirsin.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "走两步以后画面真的不一样。",
+      "pinyin": "Zǒu liǎng bù yǐhòu huàmiàn zhēn de bù yíyàng.",
+      "translationTr": "İki adım atınca görüntü gerçekten değişti.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L013",
+      "order": 13,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "摄影会让人更认真地看周围。",
+      "pinyin": "Shèyǐng huì ràng rén gèng rènzhēn de kàn zhōuwéi.",
+      "translationTr": "Fotoğrafçılık insanın çevresine daha dikkatli bakmasını sağlar.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这跟我学中文有点儿像。",
+      "pinyin": "Zhè gēn wǒ xué Zhōngwén yǒudiǎnr xiàng.",
+      "translationTr": "Bu biraz Çince öğrenmeme benziyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L015",
+      "order": 15,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "怎么说？",
+      "pinyin": "Zěnme shuō?",
+      "translationTr": "Nasıl yani?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以前很多细节我都没注意，现在会听得更仔细。",
+      "pinyin": "Yǐqián hěn duō xìjié wǒ dōu méi zhùyì, xiànzài huì tīng de gèng zǐxì.",
+      "translationTr": "Eskiden birçok ayrıntıya dikkat etmiyordum, şimdi daha dikkatli dinliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L017",
+      "order": 17,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "那今天就练习认真看。",
+      "pinyin": "Nà jīntiān jiù liànxí rènzhēn kàn.",
+      "translationTr": "O zaman bugün dikkatli bakmayı çalışalım.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC043_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，不追求拍很多，拍几张喜欢的就行。",
+      "pinyin": "Hǎo, bù zhuīqiú pāi hěn duō, pāi jǐ zhāng xǐhuan de jiù xíng.",
+      "translationTr": "Tamam, çok çekmeye çalışmayayım, sevdiğim birkaç fotoğraf yeter.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

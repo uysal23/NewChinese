@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC046",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC046_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC046_001",
+      "correctZh": "而且大家都听得很认真。",
+      "pinyin": "Érqiě dàjiā dōu tīng de hěn rènzhēn.",
+      "translationTr": "Üstelik herkes dikkatle dinledi.",
+      "sentenceZh": "而且大家都听得很认真。",
+      "correctAnswer": "而且大家都听得很认真。",
+      "options": [],
+      "tokens": [
+        "而且大",
+        "家都听",
+        "得很认",
+        "真"
+      ],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC046_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC046_002",
+      "correctZh": "今天我真的感觉到了。",
+      "pinyin": "Jīntiān wǒ zhēn de gǎnjué dào le.",
+      "translationTr": "Bugün bunu gerçekten hissettim.",
+      "sentenceZh": "___我真的感觉到了。",
+      "correctAnswer": "今天",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC046_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC046_003",
+      "correctZh": "很好，下次来就不会觉得陌生了。",
+      "pinyin": "Hěn hǎo, xià cì lái jiù bú huì juéde mòshēng le.",
+      "translationTr": "Çok iyi, bir dahaki gelişinde yabancılık çekmezsin.",
+      "sentenceZh": "很好，下次来就不会觉得陌生了。",
+      "correctAnswer": "很好，下次来就不会觉得陌生了。",
+      "options": [
+        "很好，下次来就不会觉得陌生了。",
+        "第一次参加感觉怎么样？",
+        "比我想的好。我最后还说了几分钟。",
+        "而且大家都听得很认真。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC046_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC046_004",
+      "correctZh": "我以前总等自己准备得更好再参加。",
+      "pinyin": "Wǒ yǐqián zǒng děng zìjǐ zhǔnbèi de gèng hǎo zài cānjiā.",
+      "translationTr": "Eskiden daha iyi hazırlanmayı bekleyip sonra katılmak isterdim.",
+      "sentenceZh": "我以前总等自己准备得更好再参加。",
+      "correctAnswer": "我以前总等自己准备得更好再参加。",
+      "options": [],
+      "tokens": [
+        "我以前",
+        "总等自",
+        "己准备",
+        "得更好",
+        "再参加"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC046_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC046_005",
+      "correctZh": "下个月还有一次类似的活动。",
+      "pinyin": "Xià ge yuè hái yǒu yí cì lèisì de huódòng.",
+      "translationTr": "Gelecek ay benzer bir etkinlik daha var.",
+      "sentenceZh": "___月还有一次类似的活动。",
+      "correctAnswer": "下个",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc046_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC046_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC046_006",
+      "correctZh": "听起来不错，我开始期待了。",
+      "pinyin": "Tīng qǐlái búcuò, wǒ kāishǐ qīdài le.",
+      "translationTr": "Kulağa iyi geliyor, şimdiden heyecanlandım.",
+      "sentenceZh": "听起来不错，我开始期待了。",
+      "correctAnswer": "听起来不错，我开始期待了。",
+      "options": [
+        "听起来不错，我开始期待了。",
+        "第一次参加感觉怎么样？",
+        "比我想的好。我最后还说了几分钟。",
+        "而且大家都听得很认真。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc046_sentence_006.m4a"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC044",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC044_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC044_001",
+      "correctZh": "听说你最近一直在学中文。",
+      "pinyin": "Tīngshuō nǐ zuìjìn yìzhí zài xué Zhōngwén.",
+      "translationTr": "Son zamanlarda sürekli Çince çalıştığını duydum.",
+      "sentenceZh": "听说你最近一直在学中文。",
+      "correctAnswer": "听说你最近一直在学中文。",
+      "options": [],
+      "tokens": [
+        "听说你",
+        "最近一",
+        "直在学",
+        "中文"
+      ],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC044_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC044_002",
+      "correctZh": "听对话、走路的时候听中文，还有跟朋友聊天。",
+      "pinyin": "Tīng duìhuà, zǒulù de shíhou tīng Zhōngwén, hái yǒu gēn péngyou liáotiān.",
+      "translationTr": "Diyalog dinlemek, yürürken Çince dinlemek ve arkadaşlarla konuşmak.",
+      "sentenceZh": "___话、走路的时候听中文，还有跟朋友聊天。",
+      "correctAnswer": "听对",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC044_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC044_003",
+      "correctZh": "我平时参加一些读书和社区活动。",
+      "pinyin": "Wǒ píngshí cānjiā yìxiē dúshū hé shèqū huódòng.",
+      "translationTr": "Ben genelde bazı kitap ve mahalle etkinliklerine katılıyorum.",
+      "sentenceZh": "我平时参加一些读书和社区活动。",
+      "correctAnswer": "我平时参加一些读书和社区活动。",
+      "options": [
+        "我平时参加一些读书和社区活动。",
+        "李娜常常提到你，今天终于见到了。",
+        "我也听她说过你。很高兴认识你。",
+        "听说你最近一直在学中文。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC044_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC044_004",
+      "correctZh": "这样听起来压力不大。",
+      "pinyin": "Zhèyàng tīng qǐlái yālì bú dà.",
+      "translationTr": "Böyle kulağa fazla baskılı gelmiyor.",
+      "sentenceZh": "这样听起来压力不大。",
+      "correctAnswer": "这样听起来压力不大。",
+      "options": [],
+      "tokens": [
+        "这样听",
+        "起来压",
+        "力不大"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC044_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC044_005",
+      "correctZh": "可以，我到时候把时间告诉你。",
+      "pinyin": "Kěyǐ, wǒ dào shíhou bǎ shíjiān gàosu nǐ.",
+      "translationTr": "Olur, zamanı sana bildiririm.",
+      "sentenceZh": "___，我到时候把时间告诉你。",
+      "correctAnswer": "可以",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC044_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC044_006",
+      "correctZh": "那我很期待下次活动。",
+      "pinyin": "Nà wǒ hěn qīdài xià cì huódòng.",
+      "translationTr": "O zaman bir sonraki etkinliği sabırsızlıkla bekliyorum.",
+      "sentenceZh": "那我很期待下次活动。",
+      "correctAnswer": "那我很期待下次活动。",
+      "options": [
+        "那我很期待下次活动。",
+        "李娜常常提到你，今天终于见到了。",
+        "我也听她说过你。很高兴认识你。",
+        "听说你最近一直在学中文。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_sentence_006.m4a"
+    }
+  ]
+}

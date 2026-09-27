@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC043",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC043_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC043_001",
+      "correctZh": "没关系，我也不是专业的。",
+      "pinyin": "Méiguānxi, wǒ yě bú shì zhuānyè de.",
+      "translationTr": "Sorun değil, ben de profesyonel değilim.",
+      "sentenceZh": "没关系，我也不是专业的。",
+      "correctAnswer": "没关系，我也不是专业的。",
+      "options": [],
+      "tokens": [
+        "没关系",
+        "我也不",
+        "是专业",
+        "的"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC043_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC043_002",
+      "correctZh": "不是先看设备吗？",
+      "pinyin": "Bú shì xiān kàn shèbèi ma?",
+      "translationTr": "Önce ekipmana bakmıyor musun?",
+      "sentenceZh": "___先看设备吗？",
+      "correctAnswer": "不是",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC043_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC043_003",
+      "correctZh": "当然。先学会观察更重要。",
+      "pinyin": "Dāngrán. Xiān xuéhuì guānchá gèng zhòngyào.",
+      "translationTr": "Elbette. Önce gözlemlemeyi öğrenmek daha önemli.",
+      "sentenceZh": "当然。先学会观察更重要。",
+      "correctAnswer": "当然。先学会观察更重要。",
+      "options": [
+        "当然。先学会观察更重要。",
+        "今天不用走很远，边走边拍就好。",
+        "我对摄影其实不太懂。",
+        "没关系，我也不是专业的。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC043_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC043_004",
+      "correctZh": "走两步以后画面真的不一样。",
+      "pinyin": "Zǒu liǎng bù yǐhòu huàmiàn zhēn de bù yíyàng.",
+      "translationTr": "İki adım atınca görüntü gerçekten değişti.",
+      "sentenceZh": "走两步以后画面真的不一样。",
+      "correctAnswer": "走两步以后画面真的不一样。",
+      "options": [],
+      "tokens": [
+        "走两步",
+        "以后画",
+        "面真的",
+        "不一样"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC043_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC043_005",
+      "correctZh": "怎么说？",
+      "pinyin": "Zěnme shuō?",
+      "translationTr": "Nasıl yani?",
+      "sentenceZh": "___说？",
+      "correctAnswer": "怎么",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC043_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC043_006",
+      "correctZh": "好，不追求拍很多，拍几张喜欢的就行。",
+      "pinyin": "Hǎo, bù zhuīqiú pāi hěn duō, pāi jǐ zhāng xǐhuan de jiù xíng.",
+      "translationTr": "Tamam, çok çekmeye çalışmayayım, sevdiğim birkaç fotoğraf yeter.",
+      "sentenceZh": "好，不追求拍很多，拍几张喜欢的就行。",
+      "correctAnswer": "好，不追求拍很多，拍几张喜欢的就行。",
+      "options": [
+        "好，不追求拍很多，拍几张喜欢的就行。",
+        "今天不用走很远，边走边拍就好。",
+        "我对摄影其实不太懂。",
+        "没关系，我也不是专业的。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_sentence_006.m4a"
+    }
+  ]
+}

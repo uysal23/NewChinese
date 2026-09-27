@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC041",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC041_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc041/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_CHEN_YU_001": "zh-CN-YunyangNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc041_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "你好，你也是第一次来这个活动吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc041_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，我朋友说这里的人都很友好。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc041_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "我叫陈宇，住在附近。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc041_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我叫张伟。很高兴认识你。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc041_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "你来杭州多久了？",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc041_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有一段时间了，现在越来越习惯。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc041_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "你平时周末喜欢做什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc041_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "走路、看电影，有时候去咖啡馆学习中文。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc041_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "我也喜欢走路，还喜欢拍照。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc041_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "你经常去哪儿拍？",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc041_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "西湖、运河，还有一些老街。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc041_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我最近也开始喜欢慢慢看城市。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc041_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "那以后可以一起走走。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc041_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好啊。我还想认识更多本地朋友。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc041_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "这个活动挺适合认识人的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc041_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我刚来的时候还有点儿紧张。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc041_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "现在看起来已经放松多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc041_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，认识一个新朋友以后就好多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc041_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "活动",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc041_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "友好",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc041_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "一段时间",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc041_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "拍照",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc041_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "运河",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc041_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "老街",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc041_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "本地",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc041_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "适合",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc041_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "紧张",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc041_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "放松",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc041_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "我叫陈宇，住在附近。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc041_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有一段时间了，现在越来越习惯。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc041_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "我也喜欢走路，还喜欢拍照。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc041_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我最近也开始喜欢慢慢看城市。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc041_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "这个活动挺适合认识人的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc041_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，认识一个新朋友以后就好多了。",
+      "emotion": "natural"
+    }
+  ]
+}

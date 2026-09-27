@@ -84,5 +84,5 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - SC031–SC040: tamamlandı ve validation geçti.
 - SC041–SC050: tamamlandı; içerik, 50/50 görsel ve 240/240 ses hazır.
 - HSK1: 50/50 seviye kabulü tamamlandı. Run #280 validation, unit test, lint, debug APK ve release APK/AAB build SUCCESS.
-- HSK2: henüz sahne paketi yok; ilk aktif paket HSK2 SC001–SC010.
+- HSK2: SC001–SC050 içerik/manifest altyapısı hazır; görsel ve ses fiziksel üretimi pending.
 - **Aktif Adım: Adım 11 — HSK2'yi 50/50 Tamamla**

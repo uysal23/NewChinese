@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC043",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC043_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc043/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_CHEN_YU_001": "zh-CN-YunyangNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc043_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "今天不用走很远，边走边拍就好。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc043_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我对摄影其实不太懂。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc043_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "没关系，我也不是专业的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc043_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那你拍照最注意什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc043_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "光线，还有画面里什么最重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc043_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "不是先看设备吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc043_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "设备有帮助，但不是第一件事。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc043_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那用手机也可以拍得不错。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc043_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "当然。先学会观察更重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc043_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "比如这棵树和后面的湖？",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc043_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "对，你可以换一个位置看看。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc043_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "走两步以后画面真的不一样。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc043_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "摄影会让人更认真地看周围。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc043_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这跟我学中文有点儿像。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc043_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "怎么说？",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc043_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "以前很多细节我都没注意，现在会听得更仔细。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc043_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "那今天就练习认真看。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc043_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，不追求拍很多，拍几张喜欢的就行。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc043_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "摄影",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc043_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "专业",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc043_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "画面",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc043_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "观察",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc043_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "位置",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc043_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "认真",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc043_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "细节",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc043_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "仔细",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc043_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "追求",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc043_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "设备",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc043_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "没关系，我也不是专业的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc043_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "不是先看设备吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc043_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "当然。先学会观察更重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc043_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "走两步以后画面真的不一样。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc043_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "怎么说？",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc043_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，不追求拍很多，拍几张喜欢的就行。",
+      "emotion": "natural"
+    }
+  ]
+}

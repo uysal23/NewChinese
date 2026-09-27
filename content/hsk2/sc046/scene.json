@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC046",
+  "level": "HSK2",
+  "sceneNumber": 46,
+  "titleZh": "活动以后",
+  "titleTr": "Etkinlikten Sonra",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC045",
+  "nextSceneId": "HSK2_SC047",
+  "summaryTr": "Etkinlik sonrası Zhang Wei ile Liu Mei mahallede yürürken ilk sosyal etkinlik deneyimini değerlendirir."
+}

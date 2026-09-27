@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC044",
+  "level": "HSK2",
+  "sceneNumber": 44,
+  "titleZh": "李娜介绍的朋友",
+  "titleTr": "Li Na’nın Tanıştırdığı Arkadaş",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC043",
+  "nextSceneId": "HSK2_SC045",
+  "summaryTr": "Li Na’nın daha önce bahsettiği Liu Mei ile Zhang Wei kafede tanışır; kitap, iş ve şehir etkinlikleri üzerine sohbet eder."
+}

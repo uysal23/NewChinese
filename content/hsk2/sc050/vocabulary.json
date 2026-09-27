@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC050",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC050_001",
+      "hanzi": "阶段",
+      "pinyin": "jiēduàn",
+      "translationTr": "aşama",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_002",
+      "hanzi": "处理",
+      "pinyin": "chǔlǐ",
+      "translationTr": "ele almak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_003",
+      "hanzi": "方面",
+      "pinyin": "fāngmiàn",
+      "translationTr": "konu / yön",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_004",
+      "hanzi": "学会",
+      "pinyin": "xuéhuì",
+      "translationTr": "öğrenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_005",
+      "hanzi": "圈子",
+      "pinyin": "quānzi",
+      "translationTr": "çevre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_006",
+      "hanzi": "交流",
+      "pinyin": "jiāoliú",
+      "translationTr": "iletişim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_007",
+      "hanzi": "完整",
+      "pinyin": "wánzhěng",
+      "translationTr": "tam / bütün",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_008",
+      "hanzi": "复杂",
+      "pinyin": "fùzá",
+      "translationTr": "karmaşık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_009",
+      "hanzi": "内容",
+      "pinyin": "nèiróng",
+      "translationTr": "içerik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC050_010",
+      "hanzi": "继续",
+      "pinyin": "jìxù",
+      "translationTr": "devam etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_word_010.m4a"
+    }
+  ]
+}

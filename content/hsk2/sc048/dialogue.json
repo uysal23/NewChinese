@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC048",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC048_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天认识了三个人，比我想的容易。",
+      "pinyin": "Jīntiān rènshi le sān ge rén, bǐ wǒ xiǎng de róngyì.",
+      "translationTr": "Bugün üç kişiyle tanıştım, düşündüğümden kolaydı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L002",
+      "order": 2,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "大家也觉得你很好聊。",
+      "pinyin": "Dàjiā yě juéde nǐ hěn hǎo liáo.",
+      "translationTr": "Herkes seninle konuşmanın kolay olduğunu düşündü.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "开始的时候我还是有点儿不知道说什么。",
+      "pinyin": "Kāishǐ de shíhou wǒ háishi yǒudiǎnr bù zhīdào shuō shénme.",
+      "translationTr": "Başta yine ne söyleyeceğimi biraz bilemedim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L004",
+      "order": 4,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "走起来以后就自然了。",
+      "pinyin": "Zǒu qǐlái yǐhòu jiù zìrán le.",
+      "translationTr": "Yürümeye başlayınca doğal oldu.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "因为可以直接聊看到的东西。",
+      "pinyin": "Yīnwèi kěyǐ zhíjiē liáo kàndào de dōngxi.",
+      "translationTr": "Çünkü doğrudan gördüğümüz şeylerden konuşabiliyorduk.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L006",
+      "order": 6,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "对，一起做事比坐着硬找话题容易。",
+      "pinyin": "Duì, yìqǐ zuò shì bǐ zuòzhe yìng zhǎo huàtí róngyì.",
+      "translationTr": "Evet, birlikte bir şey yapmak oturup zorla konu bulmaktan daha kolay.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还发现大家说话速度不一样。",
+      "pinyin": "Wǒ hái fāxiàn dàjiā shuōhuà sùdù bù yíyàng.",
+      "translationTr": "Herkesin konuşma hızının farklı olduğunu da fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L008",
+      "order": 8,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "听多了就会习惯不同的人。",
+      "pinyin": "Tīng duō le jiù huì xíguàn bùtóng de rén.",
+      "translationTr": "Daha çok dinledikçe farklı insanlara alışırsın.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一个人说得很快，我请他慢一点儿。",
+      "pinyin": "Yǒu yí ge rén shuō de hěn kuài, wǒ qǐng tā màn yìdiǎnr.",
+      "translationTr": "Bir kişi çok hızlı konuşuyordu, biraz yavaş konuşmasını istedim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L010",
+      "order": 10,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "很好，这比假装听懂更好。",
+      "pinyin": "Hěn hǎo, zhè bǐ jiǎzhuāng tīng dǒng gèng hǎo.",
+      "translationTr": "Çok iyi, anlamış gibi yapmaktan daha iyi.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以前我可能会点头然后不说话。",
+      "pinyin": "Yǐqián wǒ kěnéng huì diǎntóu ránhòu bù shuōhuà.",
+      "translationTr": "Eskiden muhtemelen başımı sallayıp susardım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L012",
+      "order": 12,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "现在你更敢表达自己的需要了。",
+      "pinyin": "Xiànzài nǐ gèng gǎn biǎodá zìjǐ de xūyào le.",
+      "translationTr": "Artık ihtiyacını ifade etmeye daha çok cesaret ediyorsun.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对。我觉得这也是语言学习的一部分。",
+      "pinyin": "Duì. Wǒ juéde zhè yě shì yǔyán xuéxí de yí bùfen.",
+      "translationTr": "Evet. Bunun da dil öğrenmenin bir parçası olduğunu düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L014",
+      "order": 14,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "当然，沟通不是考试。",
+      "pinyin": "Dāngrán, gōutōng bú shì kǎoshì.",
+      "translationTr": "Elbette, iletişim sınav değildir.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天这句话我也记住了。",
+      "pinyin": "Jīntiān zhè jù huà wǒ yě jìzhù le.",
+      "translationTr": "Bugün bu cümleyi de aklımda tutacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L016",
+      "order": 16,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "下次你可以自己邀请他们喝咖啡。",
+      "pinyin": "Xià cì nǐ kěyǐ zìjǐ yāoqǐng tāmen hē kāfēi.",
+      "translationTr": "Bir dahaki sefere sen onları kahveye davet edebilirsin.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个对我来说是下一步挑战。",
+      "pinyin": "Zhège duì wǒ láishuō shì xià yí bù tiǎozhàn.",
+      "translationTr": "Bu benim için sıradaki zorluk.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC048_L018",
+      "order": 18,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "慢慢来，你已经进步很快了。",
+      "pinyin": "Mànmàn lái, nǐ yǐjīng jìnbù hěn kuài le.",
+      "translationTr": "Yavaş yavaş, zaten çok hızlı ilerledin.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

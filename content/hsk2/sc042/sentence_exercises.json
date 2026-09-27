@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC042",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC042_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC042_001",
+      "correctZh": "你还跟别人聊天了吗？",
+      "pinyin": "Nǐ hái gēn biérén liáotiān le ma?",
+      "translationTr": "Başka insanlarla da konuştun mu?",
+      "sentenceZh": "你还跟别人聊天了吗？",
+      "correctAnswer": "你还跟别人聊天了吗？",
+      "options": [],
+      "tokens": [
+        "你还跟",
+        "别人聊",
+        "天了吗"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC042_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC042_002",
+      "correctZh": "我现在也这么觉得。",
+      "pinyin": "Wǒ xiànzài yě zhème juéde.",
+      "translationTr": "Ben de artık öyle düşünüyorum.",
+      "sentenceZh": "___在也这么觉得。",
+      "correctAnswer": "我现",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC042_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC042_003",
+      "correctZh": "我以前换工作的时候也花了几个月才习惯。",
+      "pinyin": "Wǒ yǐqián huàn gōngzuò de shíhou yě huā le jǐ ge yuè cái xíguàn.",
+      "translationTr": "Ben de iş değiştirdiğimde alışmam birkaç ay sürdü.",
+      "sentenceZh": "我以前换工作的时候也花了几个月才习惯。",
+      "correctAnswer": "我以前换工作的时候也花了几个月才习惯。",
+      "options": [
+        "我以前换工作的时候也花了几个月才习惯。",
+        "上次活动以后，你觉得怎么样？",
+        "很好，比我想的轻松。",
+        "你还跟别人聊天了吗？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC042_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC042_004",
+      "correctZh": "生活也是。现在杭州越来越像家。",
+      "pinyin": "Shēnghuó yě shì. Xiànzài Hángzhōu yuèláiyuè xiàng jiā.",
+      "translationTr": "Hayat da öyle. Hangzhou giderek evim gibi geliyor.",
+      "sentenceZh": "生活也是。现在杭州越来越像家。",
+      "correctAnswer": "生活也是。现在杭州越来越像家。",
+      "options": [],
+      "tokens": [
+        "生活也",
+        "是现在",
+        "杭州越",
+        "来越像",
+        "家"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC042_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC042_005",
+      "correctZh": "慢慢来。朋友不用多，合得来更重要。",
+      "pinyin": "Mànmàn lái. Péngyou bú yòng duō, hé de lái gèng zhòngyào.",
+      "translationTr": "Yavaş yavaş. Arkadaşın çok olması gerekmez, iyi anlaşmak daha önemli.",
+      "sentenceZh": "___来。朋友不用多，合得来更重要。",
+      "correctAnswer": "慢慢",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC042_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC042_006",
+      "correctZh": "好，到时候你选路线。",
+      "pinyin": "Hǎo, dào shíhou nǐ xuǎn lùxiàn.",
+      "translationTr": "Olur, o zaman rotayı sen seç.",
+      "sentenceZh": "好，到时候你选路线。",
+      "correctAnswer": "好，到时候你选路线。",
+      "options": [
+        "好，到时候你选路线。",
+        "上次活动以后，你觉得怎么样？",
+        "很好，比我想的轻松。",
+        "你还跟别人聊天了吗？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_sentence_006.m4a"
+    }
+  ]
+}

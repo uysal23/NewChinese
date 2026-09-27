@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC046",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC046_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc046/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_LIU_MEI_001": "zh-CN-XiaoyiNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc046_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "第一次参加感觉怎么样？",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc046_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "比我想的好。我最后还说了几分钟。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc046_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "而且大家都听得很认真。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc046_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我有两个词说错了，不过没有人觉得奇怪。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc046_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "正常聊天里谁都会说错。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc046_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天我真的感觉到了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc046_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "你还认识了别人吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc046_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "认识了两个人，交换了联系方式。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc046_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "很好，下次来就不会觉得陌生了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc046_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我发现新环境最难的是第一步。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc046_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "对，一旦开始，后面就容易多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc046_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我以前总等自己准备得更好再参加。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc046_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "其实参加本身就是准备的一部分。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc046_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这句话很有道理。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc046_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "下个月还有一次类似的活动。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc046_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "如果时间合适，我还会来。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc046_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "到时候你可能已经认识一半的人了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc046_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "听起来不错，我开始期待了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc046_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "交换",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc046_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "联系方式",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc046_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "陌生",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc046_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "第一步",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc046_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "一旦",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc046_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "本身",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc046_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "类似",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc046_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "一半",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc046_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "期待",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc046_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "有道理",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc046_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "而且大家都听得很认真。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc046_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天我真的感觉到了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc046_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "很好，下次来就不会觉得陌生了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc046_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我以前总等自己准备得更好再参加。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc046_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "textZh": "下个月还有一次类似的活动。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc046_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "听起来不错，我开始期待了。",
+      "emotion": "natural"
+    }
+  ]
+}

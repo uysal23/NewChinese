@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC042",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC042_L001",
+      "order": 1,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "上次活动以后，你觉得怎么样？",
+      "pinyin": "Shàng cì huódòng yǐhòu, nǐ juéde zěnmeyàng?",
+      "translationTr": "Geçen etkinlikten sonra nasıl hissettin?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "很好，比我想的轻松。",
+      "pinyin": "Hěn hǎo, bǐ wǒ xiǎng de qīngsōng.",
+      "translationTr": "Çok iyi, düşündüğümden daha rahattı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L003",
+      "order": 3,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "你还跟别人聊天了吗？",
+      "pinyin": "Nǐ hái gēn biérén liáotiān le ma?",
+      "translationTr": "Başka insanlarla da konuştun mu?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "聊了一点儿，不过还是跟你聊得最多。",
+      "pinyin": "Liáo le yìdiǎnr, búguò háishi gēn nǐ liáo de zuì duō.",
+      "translationTr": "Biraz konuştum ama en çok seninle konuştum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L005",
+      "order": 5,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "没关系，第一次不用认识很多人。",
+      "pinyin": "Méiguānxi, dì yī cì bú yòng rènshi hěn duō rén.",
+      "translationTr": "Sorun değil, ilk seferde çok kişi tanımak gerekmiyor.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在也这么觉得。",
+      "pinyin": "Wǒ xiànzài yě zhème juéde.",
+      "translationTr": "Ben de artık öyle düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L007",
+      "order": 7,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "你工作还顺利吗？",
+      "pinyin": "Nǐ gōngzuò hái shùnlì ma?",
+      "translationTr": "İşin iyi gidiyor mu?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "越来越顺利。同事也很帮忙。",
+      "pinyin": "Yuèláiyuè shùnlì. Tóngshì yě hěn bāngmáng.",
+      "translationTr": "Giderek daha iyi. İş arkadaşlarım da çok yardımcı oluyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L009",
+      "order": 9,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "我以前换工作的时候也花了几个月才习惯。",
+      "pinyin": "Wǒ yǐqián huàn gōngzuò de shíhou yě huā le jǐ ge yuè cái xíguàn.",
+      "translationTr": "Ben de iş değiştirdiğimde alışmam birkaç ay sürdü.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听你这么说我放心多了。",
+      "pinyin": "Tīng nǐ zhème shuō wǒ fàngxīn duō le.",
+      "translationTr": "Bunu söylemen beni rahatlattı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L011",
+      "order": 11,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "新环境都需要时间。",
+      "pinyin": "Xīn huánjìng dōu xūyào shíjiān.",
+      "translationTr": "Yeni ortamlara alışmak zaman alır.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "生活也是。现在杭州越来越像家。",
+      "pinyin": "Shēnghuó yě shì. Xiànzài Hángzhōu yuèláiyuè xiàng jiā.",
+      "translationTr": "Hayat da öyle. Hangzhou giderek evim gibi geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L013",
+      "order": 13,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "那很好。你已经有自己的生活节奏了。",
+      "pinyin": "Nà hěn hǎo. Nǐ yǐjīng yǒu zìjǐ de shēnghuó jiézòu le.",
+      "translationTr": "Bu çok iyi. Artık kendi yaşam ritmin var.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还差一点儿，就是朋友不算多。",
+      "pinyin": "Hái chà yìdiǎnr, jiù shì péngyou bú suàn duō.",
+      "translationTr": "Biraz eksiğim var, o da arkadaş sayımın fazla olmaması.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L015",
+      "order": 15,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "慢慢来。朋友不用多，合得来更重要。",
+      "pinyin": "Mànmàn lái. Péngyou bú yòng duō, hé de lái gèng zhòngyào.",
+      "translationTr": "Yavaş yavaş. Arkadaşın çok olması gerekmez, iyi anlaşmak daha önemli.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这句话我很喜欢。",
+      "pinyin": "Zhè jù huà wǒ hěn xǐhuan.",
+      "translationTr": "Bu cümleyi çok sevdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L017",
+      "order": 17,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "那下周有空一起去走路？",
+      "pinyin": "Nà xià zhōu yǒu kòng yìqǐ qù zǒulù?",
+      "translationTr": "Gelecek hafta vaktin olursa birlikte yürüyelim mi?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc042_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC042_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，到时候你选路线。",
+      "pinyin": "Hǎo, dào shíhou nǐ xuǎn lùxiàn.",
+      "translationTr": "Olur, o zaman rotayı sen seç.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc042_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

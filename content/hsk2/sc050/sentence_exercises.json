@@ -1,0 +1,107 @@
+{
+  "sceneId": "HSK2_SC050",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC050_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC050_001",
+      "correctZh": "比如呢？",
+      "pinyin": "Bǐrú ne?",
+      "translationTr": "Mesela?",
+      "sentenceZh": "比如呢？",
+      "correctAnswer": "比如呢？",
+      "options": [],
+      "tokens": [
+        "比如呢"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC050_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC050_002",
+      "correctZh": "会安排休息和运动，也敢自己处理小问题。",
+      "pinyin": "Huì ānpái xiūxi hé yùndòng, yě gǎn zìjǐ chǔlǐ xiǎo wèntí.",
+      "translationTr": "Dinlenme ve hareketi planlayabiliyorum, küçük sorunları kendim çözmeye de cesaret ediyorum.",
+      "sentenceZh": "___排休息和运动，也敢自己处理小问题。",
+      "correctAnswer": "会安",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC050_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC050_003",
+      "correctZh": "旅行方面呢？",
+      "pinyin": "Lǚxíng fāngmiàn ne?",
+      "translationTr": "Seyahat konusunda?",
+      "sentenceZh": "旅行方面呢？",
+      "correctAnswer": "旅行方面呢？",
+      "options": [
+        "旅行方面呢？",
+        "从第一阶段到现在，你觉得自己最大的变化是什么？",
+        "我现在能用中文处理更多真实生活里的事情。",
+        "比如呢？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC050_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC050_004",
+      "correctZh": "这个可能是我最开心的部分。",
+      "pinyin": "Zhège kěnéng shì wǒ zuì kāixīn de bùfen.",
+      "translationTr": "Bu belki de beni en çok mutlu eden bölüm.",
+      "sentenceZh": "这个可能是我最开心的部分。",
+      "correctAnswer": "这个可能是我最开心的部分。",
+      "options": [],
+      "tokens": [
+        "这个可",
+        "能是我",
+        "最开心",
+        "的部分"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC050_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC050_005",
+      "correctZh": "这很重要。语言是用来交流的。",
+      "pinyin": "Zhè hěn zhòngyào. Yǔyán shì yòng lái jiāoliú de.",
+      "translationTr": "Bu çok önemli. Dil iletişim kurmak içindir.",
+      "sentenceZh": "___重要。语言是用来交流的。",
+      "correctAnswer": "这很",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC050_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC050_006",
+      "correctZh": "好，HSK2结束，我们继续。",
+      "pinyin": "Hǎo, HSK èr jiéshù, wǒmen jìxù.",
+      "translationTr": "Tamam, HSK2 bitti; devam ediyoruz.",
+      "sentenceZh": "好，HSK2结束，我们继续。",
+      "correctAnswer": "好，HSK2结束，我们继续。",
+      "options": [
+        "好，HSK2结束，我们继续。",
+        "从第一阶段到现在，你觉得自己最大的变化是什么？",
+        "我现在能用中文处理更多真实生活里的事情。",
+        "比如呢？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_sentence_006.m4a"
+    }
+  ]
+}

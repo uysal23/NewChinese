@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC044",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC044_001",
+      "hanzi": "提到",
+      "pinyin": "tídào",
+      "translationTr": "bahsetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_002",
+      "hanzi": "听说",
+      "pinyin": "tīngshuō",
+      "translationTr": "duymak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_003",
+      "hanzi": "社区",
+      "pinyin": "shèqū",
+      "translationTr": "mahalle / topluluk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_004",
+      "hanzi": "读书",
+      "pinyin": "dúshū",
+      "translationTr": "kitap okumak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_005",
+      "hanzi": "分享",
+      "pinyin": "fēnxiǎng",
+      "translationTr": "paylaşmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_006",
+      "hanzi": "加入",
+      "pinyin": "jiārù",
+      "translationTr": "katılmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_007",
+      "hanzi": "合适",
+      "pinyin": "héshì",
+      "translationTr": "uygun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_008",
+      "hanzi": "丰富",
+      "pinyin": "fēngfù",
+      "translationTr": "zengin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_009",
+      "hanzi": "期待",
+      "pinyin": "qīdài",
+      "translationTr": "sabırsızlıkla beklemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC044_010",
+      "hanzi": "自然",
+      "pinyin": "zìrán",
+      "translationTr": "doğal",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_word_010.m4a"
+    }
+  ]
+}

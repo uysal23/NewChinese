@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC049",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC049_001",
+      "hanzi": "生活圈",
+      "pinyin": "shēnghuóquān",
+      "translationTr": "sosyal çevre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_002",
+      "hanzi": "不同",
+      "pinyin": "bùtóng",
+      "translationTr": "farklı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_003",
+      "hanzi": "说法",
+      "pinyin": "shuōfǎ",
+      "translationTr": "konuşma biçimi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_004",
+      "hanzi": "主动",
+      "pinyin": "zhǔdòng",
+      "translationTr": "inisiyatif alarak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_005",
+      "hanzi": "邀请",
+      "pinyin": "yāoqǐng",
+      "translationTr": "davet etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_006",
+      "hanzi": "变化",
+      "pinyin": "biànhuà",
+      "translationTr": "değişim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_007",
+      "hanzi": "真正",
+      "pinyin": "zhēnzhèng",
+      "translationTr": "gerçek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_008",
+      "hanzi": "活动",
+      "pinyin": "huódòng",
+      "translationTr": "etkinlik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_009",
+      "hanzi": "习惯",
+      "pinyin": "xíguàn",
+      "translationTr": "alışmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC049_010",
+      "hanzi": "话题",
+      "pinyin": "huàtí",
+      "translationTr": "konu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_word_010.m4a"
+    }
+  ]
+}

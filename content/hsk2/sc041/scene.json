@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC041",
+  "level": "HSK2",
+  "sceneNumber": 41,
+  "titleZh": "认识新朋友",
+  "titleTr": "Yeni Bir Arkadaşla Tanışmak",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC040",
+  "nextSceneId": "HSK2_SC042",
+  "summaryTr": "Zhang Wei mahalle etkinliğinde Chen Yu ile tanışır; ikili Hangzhou, iş ve hafta sonu hobileri üzerine doğal bir ilk sohbet yapar."
+}

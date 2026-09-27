@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC047",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC047_001",
+      "hanzi": "邀请",
+      "pinyin": "yāoqǐng",
+      "translationTr": "davet",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_002",
+      "hanzi": "兴趣",
+      "pinyin": "xìngqù",
+      "translationTr": "ilgi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_003",
+      "hanzi": "随和",
+      "pinyin": "suíhé",
+      "translationTr": "uyumlu / rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_004",
+      "hanzi": "集合",
+      "pinyin": "jíhé",
+      "translationTr": "buluşmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_005",
+      "hanzi": "东门",
+      "pinyin": "dōngmén",
+      "translationTr": "doğu kapısı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_006",
+      "hanzi": "提前",
+      "pinyin": "tíqián",
+      "translationTr": "önceden",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_007",
+      "hanzi": "聊天内容",
+      "pinyin": "liáotiān nèiróng",
+      "translationTr": "konuşma konusu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_008",
+      "hanzi": "自然",
+      "pinyin": "zìrán",
+      "translationTr": "doğal",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_009",
+      "hanzi": "练练",
+      "pinyin": "liànlian",
+      "translationTr": "biraz pratik yapmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC047_010",
+      "hanzi": "参加",
+      "pinyin": "cānjiā",
+      "translationTr": "katılmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_word_010.m4a"
+    }
+  ]
+}

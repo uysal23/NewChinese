@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC049",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC049_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "最近周末你比以前忙多了。",
+      "pinyin": "Zuìjìn zhōumò nǐ bǐ yǐqián máng duō le.",
+      "translationTr": "Son zamanlarda hafta sonların eskisinden daha yoğun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是，不过这种忙不一样。",
+      "pinyin": "Shì, búguò zhè zhǒng máng bù yíyàng.",
+      "translationTr": "Evet ama bu farklı bir yoğunluk.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "认识新朋友的忙？",
+      "pinyin": "Rènshi xīn péngyou de máng?",
+      "translationTr": "Yeni arkadaşlar tanıma yoğunluğu mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "差不多。现在有人会问我周末有没有空。",
+      "pinyin": "Chàbuduō. Xiànzài yǒu rén huì wèn wǒ zhōumò yǒu méiyǒu kòng.",
+      "translationTr": "Aşağı yukarı. Artık insanlar hafta sonu boş olup olmadığımı soruyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "听起来你的生活圈真的变大了。",
+      "pinyin": "Tīng qǐlái nǐ de shēnghuóquān zhēn de biàn dà le.",
+      "translationTr": "Görünüşe göre sosyal çevren gerçekten büyümüş.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "最开始我只认识你和工作上的几个人。",
+      "pinyin": "Zuì kāishǐ wǒ zhǐ rènshi nǐ hé gōngzuò shàng de jǐ ge rén.",
+      "translationTr": "Başta sadece seni ve işten birkaç kişiyi tanıyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在呢？",
+      "pinyin": "Xiànzài ne?",
+      "translationTr": "Şimdi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有王明、陈宇、刘梅，还有活动里认识的几个人。",
+      "pinyin": "Yǒu Wáng Míng, Chén Yǔ, Liú Méi, hái yǒu huódòng lǐ rènshi de jǐ ge rén.",
+      "translationTr": "Wang Ming, Chen Yu, Liu Mei ve etkinliklerde tanıdığım birkaç kişi var.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "而且他们是不同地方认识的。",
+      "pinyin": "Érqiě tāmen shì bùtóng dìfang rènshi de.",
+      "translationTr": "Üstelik hepsini farklı yerlerde tanıdın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，所以聊天的话题也不一样。",
+      "pinyin": "Duì, suǒyǐ liáotiān de huàtí yě bù yíyàng.",
+      "translationTr": "Evet, bu yüzden konuşma konuları da farklı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这对中文也很有帮助。",
+      "pinyin": "Zhè duì Zhōngwén yě hěn yǒu bāngzhù.",
+      "translationTr": "Bu Çincene de çok yardımcı olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在听不同人的说法更习惯了。",
+      "pinyin": "Wǒ xiànzài tīng bùtóng rén de shuōfǎ gèng xíguàn le.",
+      "translationTr": "Artık farklı insanların konuşma biçimlerine daha alışığım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你自己主动说话也多了。",
+      "pinyin": "Nǐ zìjǐ zhǔdòng shuōhuà yě duō le.",
+      "translationTr": "Kendin de daha çok konuşma başlatıyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以前总等别人先问我。",
+      "pinyin": "Yǐqián zǒng děng biérén xiān wèn wǒ.",
+      "translationTr": "Eskiden hep başkasının önce bana soru sormasını beklerdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在会主动邀请别人吗？",
+      "pinyin": "Xiànzài huì zhǔdòng yāoqǐng biérén ma?",
+      "translationTr": "Şimdi başkalarını kendin davet eder misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还在练，不过已经没有以前那么难。",
+      "pinyin": "Hái zài liàn, búguò yǐjīng méiyǒu yǐqián nàme nán.",
+      "translationTr": "Hâlâ çalışıyorum ama eskisi kadar zor değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这就是很大的变化。",
+      "pinyin": "Zhè jiù shì hěn dà de biànhuà.",
+      "translationTr": "Bu büyük bir değişim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc049_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC049_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我觉得杭州越来越像真正的生活，而不是一个新地方。",
+      "pinyin": "Duì, wǒ juéde Hángzhōu yuèláiyuè xiàng zhēnzhèng de shēnghuó, ér bú shì yí ge xīn dìfang.",
+      "translationTr": "Evet, Hangzhou giderek yeni bir yerden çok gerçek hayatım gibi geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc049_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

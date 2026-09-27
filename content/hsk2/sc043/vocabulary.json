@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC043",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC043_001",
+      "hanzi": "摄影",
+      "pinyin": "shèyǐng",
+      "translationTr": "fotoğrafçılık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_002",
+      "hanzi": "专业",
+      "pinyin": "zhuānyè",
+      "translationTr": "profesyonel",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_003",
+      "hanzi": "画面",
+      "pinyin": "huàmiàn",
+      "translationTr": "kadraj / görüntü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_004",
+      "hanzi": "观察",
+      "pinyin": "guānchá",
+      "translationTr": "gözlemlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_005",
+      "hanzi": "位置",
+      "pinyin": "wèizhi",
+      "translationTr": "konum",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_006",
+      "hanzi": "认真",
+      "pinyin": "rènzhēn",
+      "translationTr": "dikkatli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_007",
+      "hanzi": "细节",
+      "pinyin": "xìjié",
+      "translationTr": "ayrıntı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_008",
+      "hanzi": "仔细",
+      "pinyin": "zǐxì",
+      "translationTr": "özenli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_009",
+      "hanzi": "追求",
+      "pinyin": "zhuīqiú",
+      "translationTr": "peşinden gitmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc043_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC043_010",
+      "hanzi": "设备",
+      "pinyin": "shèbèi",
+      "translationTr": "ekipman",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc043_word_010.m4a"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK2_SC042",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CAFE_001",
+  "continuity": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001",
+    "OUTFIT_ZHANG_WEI_CASUAL_01",
+    "OUTFIT_CHEN_YU_CASUAL_01"
+  ],
+  "composition": "Canonical warm cafe, Zhang Wei and Chen Yu at wooden table with tea/coffee, relaxed new-friend conversation, family-friendly no alcohol, no text.",
+  "assets": [
+    {
+      "file": "hsk2_sc042_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc042_char_zhang_wei.webp",
+      "purpose": "CHAR_ZHANG_WEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc042_char_chen_yu.webp",
+      "purpose": "CHAR_CHEN_YU_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc042_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc042_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

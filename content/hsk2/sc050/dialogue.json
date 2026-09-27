@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC050",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC050_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "从第一阶段到现在，你觉得自己最大的变化是什么？",
+      "pinyin": "Cóng dì yī jiēduàn dào xiànzài, nǐ juéde zìjǐ zuì dà de biànhuà shì shénme?",
+      "translationTr": "İlk aşamadan bugüne kadar kendindeki en büyük değişim ne?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在能用中文处理更多真实生活里的事情。",
+      "pinyin": "Wǒ xiànzài néng yòng Zhōngwén chǔlǐ gèng duō zhēnshí shēnghuó lǐ de shìqing.",
+      "translationTr": "Artık Çinceyle gerçek hayattaki daha fazla işi halledebiliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "比如呢？",
+      "pinyin": "Bǐrú ne?",
+      "translationTr": "Mesela?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "工作里问问题、安排任务、发消息。",
+      "pinyin": "Gōngzuò lǐ wèn wèntí, ānpái rènwu, fā xiāoxi.",
+      "translationTr": "İşte soru sormak, görev planlamak, mesaj göndermek.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "生活方面呢？",
+      "pinyin": "Shēnghuó fāngmiàn ne?",
+      "translationTr": "Günlük yaşamda?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "会安排休息和运动，也敢自己处理小问题。",
+      "pinyin": "Huì ānpái xiūxi hé yùndòng, yě gǎn zìjǐ chǔlǐ xiǎo wèntí.",
+      "translationTr": "Dinlenme ve hareketi planlayabiliyorum, küçük sorunları kendim çözmeye de cesaret ediyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "学习中文的方法也变了。",
+      "pinyin": "Xuéxí Zhōngwén de fāngfǎ yě biàn le.",
+      "translationTr": "Çince öğrenme yöntemin de değişti.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我不再一直找“最好的工具”。",
+      "pinyin": "Duì, wǒ bú zài yìzhí zhǎo “zuì hǎo de gōngjù”.",
+      "translationTr": "Evet, artık sürekli 'en iyi aracı' aramıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "旅行方面呢？",
+      "pinyin": "Lǚxíng fāngmiàn ne?",
+      "translationTr": "Seyahat konusunda?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我学会了计划不用太满，变化也没关系。",
+      "pinyin": "Wǒ xuéhuì le jìhuà bú yòng tài mǎn, biànhuà yě méiguānxi.",
+      "translationTr": "Planın çok dolu olması gerekmediğini ve değişikliklerin sorun olmadığını öğrendim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还有新朋友。",
+      "pinyin": "Hái yǒu xīn péngyou.",
+      "translationTr": "Bir de yeni arkadaşlar.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个可能是我最开心的部分。",
+      "pinyin": "Zhège kěnéng shì wǒ zuì kāixīn de bùfen.",
+      "translationTr": "Bu belki de beni en çok mutlu eden bölüm.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在你在杭州已经有自己的圈子了。",
+      "pinyin": "Xiànzài nǐ zài Hángzhōu yǐjīng yǒu zìjǐ de quānzi le.",
+      "translationTr": "Artık Hangzhou'da kendi çevren var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "而且说中文的时候没以前那么怕错了。",
+      "pinyin": "Érqiě shuō Zhōngwén de shíhou méi yǐqián nàme pà cuò le.",
+      "translationTr": "Üstelik Çince konuşurken eskisi kadar hata yapmaktan korkmuyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这很重要。语言是用来交流的。",
+      "pinyin": "Zhè hěn zhòngyào. Yǔyán shì yòng lái jiāoliú de.",
+      "translationTr": "Bu çok önemli. Dil iletişim kurmak içindir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "下一阶段我想说得更完整，也想理解更复杂的内容。",
+      "pinyin": "Xià yí jiēduàn wǒ xiǎng shuō de gèng wánzhěng, yě xiǎng lǐjiě gèng fùzá de nèiróng.",
+      "translationTr": "Sonraki aşamada daha tam konuşmak ve daha karmaşık içerikleri anlamak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就是新的开始。",
+      "pinyin": "Nà jiù shì xīn de kāishǐ.",
+      "translationTr": "Bu yeni bir başlangıç demek.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc050_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC050_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，HSK2结束，我们继续。",
+      "pinyin": "Hǎo, HSK èr jiéshù, wǒmen jìxù.",
+      "translationTr": "Tamam, HSK2 bitti; devam ediyoruz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc050_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

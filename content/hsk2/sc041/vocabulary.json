@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC041",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC041_001",
+      "hanzi": "活动",
+      "pinyin": "huódòng",
+      "translationTr": "etkinlik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_002",
+      "hanzi": "友好",
+      "pinyin": "yǒuhǎo",
+      "translationTr": "arkadaş canlısı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_003",
+      "hanzi": "一段时间",
+      "pinyin": "yí duàn shíjiān",
+      "translationTr": "bir süre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_004",
+      "hanzi": "拍照",
+      "pinyin": "pāizhào",
+      "translationTr": "fotoğraf çekmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_005",
+      "hanzi": "运河",
+      "pinyin": "Yùnhé",
+      "translationTr": "kanal",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_006",
+      "hanzi": "老街",
+      "pinyin": "lǎojiē",
+      "translationTr": "eski sokak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_007",
+      "hanzi": "本地",
+      "pinyin": "běndì",
+      "translationTr": "yerel",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_008",
+      "hanzi": "适合",
+      "pinyin": "shìhé",
+      "translationTr": "uygun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_009",
+      "hanzi": "紧张",
+      "pinyin": "jǐnzhāng",
+      "translationTr": "gergin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC041_010",
+      "hanzi": "放松",
+      "pinyin": "fàngsōng",
+      "translationTr": "rahatlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_word_010.m4a"
+    }
+  ]
+}

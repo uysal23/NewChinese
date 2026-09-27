@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC050",
+  "level": "HSK2",
+  "sceneNumber": 50,
+  "titleZh": "第二阶段的结束",
+  "titleTr": "HSK2 Finali: Yeni Bir Dönemin Sonu",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC049",
+  "nextSceneId": "HSK3_SC001",
+  "summaryTr": "HSK2 finalinde Zhang Wei ile Li Na West Lake kıyısında iş, sağlık, teknoloji, seyahat ve sosyal hayatta ne kadar ilerlediğini değerlendirir; HSK3’e hazırlanır."
+}

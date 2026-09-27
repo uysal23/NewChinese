@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC045",
+  "level": "HSK2",
+  "sceneNumber": 45,
+  "titleZh": "第一次参加读书活动",
+  "titleTr": "İlk Kitap Etkinliği",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC044",
+  "nextSceneId": "HSK2_SC046",
+  "summaryTr": "Zhang Wei Liu Mei’nin davetiyle küçük bir kitap paylaşım etkinliğine gelir; konuşmak zorunda olmadan katılabileceğini öğrenir."
+}

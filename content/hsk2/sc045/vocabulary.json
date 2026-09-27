@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC045",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC045_001",
+      "hanzi": "发言",
+      "pinyin": "fāyán",
+      "translationTr": "söz almak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_002",
+      "hanzi": "固定",
+      "pinyin": "gùdìng",
+      "translationTr": "sabit",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_003",
+      "hanzi": "内容",
+      "pinyin": "nèiróng",
+      "translationTr": "içerik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_004",
+      "hanzi": "说法",
+      "pinyin": "shuōfǎ",
+      "translationTr": "ifade biçimi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_005",
+      "hanzi": "直接",
+      "pinyin": "zhíjiē",
+      "translationTr": "doğrudan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_006",
+      "hanzi": "正确",
+      "pinyin": "zhèngquè",
+      "translationTr": "doğru",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_007",
+      "hanzi": "交流",
+      "pinyin": "jiāoliú",
+      "translationTr": "iletişim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_008",
+      "hanzi": "建议",
+      "pinyin": "jiànyì",
+      "translationTr": "öneri",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_009",
+      "hanzi": "语法",
+      "pinyin": "yǔfǎ",
+      "translationTr": "dilbilgisi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC045_010",
+      "hanzi": "同样",
+      "pinyin": "tóngyàng",
+      "translationTr": "aynı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_word_010.m4a"
+    }
+  ]
+}

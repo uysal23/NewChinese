@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC041",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC041_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC041_001",
+      "correctZh": "我叫陈宇，住在附近。",
+      "pinyin": "Wǒ jiào Chén Yǔ, zhù zài fùjìn.",
+      "translationTr": "Ben Chen Yu, yakınlarda oturuyorum.",
+      "sentenceZh": "我叫陈宇，住在附近。",
+      "correctAnswer": "我叫陈宇，住在附近。",
+      "options": [],
+      "tokens": [
+        "我叫陈",
+        "宇住在",
+        "附近"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC041_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC041_002",
+      "correctZh": "有一段时间了，现在越来越习惯。",
+      "pinyin": "Yǒu yí duàn shíjiān le, xiànzài yuèláiyuè xíguàn.",
+      "translationTr": "Bir süre oldu, artık giderek daha çok alışıyorum.",
+      "sentenceZh": "___段时间了，现在越来越习惯。",
+      "correctAnswer": "有一",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC041_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC041_003",
+      "correctZh": "我也喜欢走路，还喜欢拍照。",
+      "pinyin": "Wǒ yě xǐhuan zǒulù, hái xǐhuan pāizhào.",
+      "translationTr": "Ben de yürümeyi seviyorum, ayrıca fotoğraf çekmeyi.",
+      "sentenceZh": "我也喜欢走路，还喜欢拍照。",
+      "correctAnswer": "我也喜欢走路，还喜欢拍照。",
+      "options": [
+        "我也喜欢走路，还喜欢拍照。",
+        "你好，你也是第一次来这个活动吗？",
+        "对，我朋友说这里的人都很友好。",
+        "我叫陈宇，住在附近。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC041_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC041_004",
+      "correctZh": "我最近也开始喜欢慢慢看城市。",
+      "pinyin": "Wǒ zuìjìn yě kāishǐ xǐhuan mànmàn kàn chéngshì.",
+      "translationTr": "Ben de son zamanlarda şehri yavaş yavaş keşfetmeyi sevmeye başladım.",
+      "sentenceZh": "我最近也开始喜欢慢慢看城市。",
+      "correctAnswer": "我最近也开始喜欢慢慢看城市。",
+      "options": [],
+      "tokens": [
+        "我最近",
+        "也开始",
+        "喜欢慢",
+        "慢看城",
+        "市"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC041_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC041_005",
+      "correctZh": "这个活动挺适合认识人的。",
+      "pinyin": "Zhège huódòng tǐng shìhé rènshi rén de.",
+      "translationTr": "Bu etkinlik yeni insanlarla tanışmak için oldukça uygun.",
+      "sentenceZh": "___活动挺适合认识人的。",
+      "correctAnswer": "这个",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC041_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC041_006",
+      "correctZh": "对，认识一个新朋友以后就好多了。",
+      "pinyin": "Duì, rènshi yí ge xīn péngyou yǐhòu jiù hǎo duō le.",
+      "translationTr": "Evet, yeni bir arkadaş tanıyınca çok daha iyi oldu.",
+      "sentenceZh": "对，认识一个新朋友以后就好多了。",
+      "correctAnswer": "对，认识一个新朋友以后就好多了。",
+      "options": [
+        "对，认识一个新朋友以后就好多了。",
+        "你好，你也是第一次来这个活动吗？",
+        "对，我朋友说这里的人都很友好。",
+        "我叫陈宇，住在附近。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_sentence_006.m4a"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC041",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC041_L001",
+      "order": 1,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "你好，你也是第一次来这个活动吗？",
+      "pinyin": "Nǐ hǎo, nǐ yě shì dì yī cì lái zhège huódòng ma?",
+      "translationTr": "Merhaba, sen de bu etkinliğe ilk kez mi geliyorsun?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我朋友说这里的人都很友好。",
+      "pinyin": "Duì, wǒ péngyou shuō zhèlǐ de rén dōu hěn yǒuhǎo.",
+      "translationTr": "Evet, arkadaşım buradaki insanların çok arkadaş canlısı olduğunu söyledi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L003",
+      "order": 3,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "我叫陈宇，住在附近。",
+      "pinyin": "Wǒ jiào Chén Yǔ, zhù zài fùjìn.",
+      "translationTr": "Ben Chen Yu, yakınlarda oturuyorum.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我叫张伟。很高兴认识你。",
+      "pinyin": "Wǒ jiào Zhāng Wěi. Hěn gāoxìng rènshi nǐ.",
+      "translationTr": "Ben Zhang Wei. Tanıştığıma memnun oldum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L005",
+      "order": 5,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "你来杭州多久了？",
+      "pinyin": "Nǐ lái Hángzhōu duōjiǔ le?",
+      "translationTr": "Hangzhou'ya geleli ne kadar oldu?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一段时间了，现在越来越习惯。",
+      "pinyin": "Yǒu yí duàn shíjiān le, xiànzài yuèláiyuè xíguàn.",
+      "translationTr": "Bir süre oldu, artık giderek daha çok alışıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L007",
+      "order": 7,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "你平时周末喜欢做什么？",
+      "pinyin": "Nǐ píngshí zhōumò xǐhuan zuò shénme?",
+      "translationTr": "Hafta sonları genelde ne yapmayı seversin?",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "走路、看电影，有时候去咖啡馆学习中文。",
+      "pinyin": "Zǒulù, kàn diànyǐng, yǒushíhou qù kāfēiguǎn xuéxí Zhōngwén.",
+      "translationTr": "Yürümek, film izlemek, bazen kafede Çince çalışmak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L009",
+      "order": 9,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "我也喜欢走路，还喜欢拍照。",
+      "pinyin": "Wǒ yě xǐhuan zǒulù, hái xǐhuan pāizhào.",
+      "translationTr": "Ben de yürümeyi seviyorum, ayrıca fotoğraf çekmeyi.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你经常去哪儿拍？",
+      "pinyin": "Nǐ jīngcháng qù nǎr pāi?",
+      "translationTr": "Sık sık nerede fotoğraf çekersin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L011",
+      "order": 11,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "西湖、运河，还有一些老街。",
+      "pinyin": "Xīhú, Yùnhé, hái yǒu yìxiē lǎojiē.",
+      "translationTr": "West Lake, kanal ve bazı eski sokaklarda.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我最近也开始喜欢慢慢看城市。",
+      "pinyin": "Wǒ zuìjìn yě kāishǐ xǐhuan mànmàn kàn chéngshì.",
+      "translationTr": "Ben de son zamanlarda şehri yavaş yavaş keşfetmeyi sevmeye başladım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L013",
+      "order": 13,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "那以后可以一起走走。",
+      "pinyin": "Nà yǐhòu kěyǐ yìqǐ zǒuzou.",
+      "translationTr": "O zaman ileride birlikte yürüyebiliriz.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好啊。我还想认识更多本地朋友。",
+      "pinyin": "Hǎo a. Wǒ hái xiǎng rènshi gèng duō běndì péngyou.",
+      "translationTr": "Olur. Daha fazla yerel arkadaş tanımak da istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L015",
+      "order": 15,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "这个活动挺适合认识人的。",
+      "pinyin": "Zhège huódòng tǐng shìhé rènshi rén de.",
+      "translationTr": "Bu etkinlik yeni insanlarla tanışmak için oldukça uygun.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我刚来的时候还有点儿紧张。",
+      "pinyin": "Wǒ gāng lái de shíhou hái yǒudiǎnr jǐnzhāng.",
+      "translationTr": "İlk geldiğimde biraz gergindim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L017",
+      "order": 17,
+      "speakerId": "CHAR_CHEN_YU_001",
+      "textZh": "现在看起来已经放松多了。",
+      "pinyin": "Xiànzài kàn qǐlái yǐjīng fàngsōng duō le.",
+      "translationTr": "Şimdi çok daha rahat görünüyorsun.",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc041_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC041_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，认识一个新朋友以后就好多了。",
+      "pinyin": "Duì, rènshi yí ge xīn péngyou yǐhòu jiù hǎo duō le.",
+      "translationTr": "Evet, yeni bir arkadaş tanıyınca çok daha iyi oldu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc041_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

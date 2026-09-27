@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK2_SC046",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "continuity": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001",
+    "OUTFIT_ZHANG_WEI_CASUAL_01",
+    "OUTFIT_LIU_MEI_CASUAL_01"
+  ],
+  "composition": "Canonical neighborhood evening walkway, Zhang Wei and Liu Mei walking after community event, warm street lighting, relaxed conversation, no readable text.",
+  "assets": [
+    {
+      "file": "hsk2_sc046_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc046_char_zhang_wei.webp",
+      "purpose": "CHAR_ZHANG_WEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc046_char_liu_mei.webp",
+      "purpose": "CHAR_LIU_MEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc046_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc046_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

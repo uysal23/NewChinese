@@ -1,0 +1,113 @@
+{
+  "sceneId": "HSK2_SC048",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC048_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC048_001",
+      "correctZh": "开始的时候我还是有点儿不知道说什么。",
+      "pinyin": "Kāishǐ de shíhou wǒ háishi yǒudiǎnr bù zhīdào shuō shénme.",
+      "translationTr": "Başta yine ne söyleyeceğimi biraz bilemedim.",
+      "sentenceZh": "开始的时候我还是有点儿不知道说什么。",
+      "correctAnswer": "开始的时候我还是有点儿不知道说什么。",
+      "options": [],
+      "tokens": [
+        "开始的",
+        "时候我",
+        "还是有",
+        "点儿不",
+        "知道说",
+        "什么"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC048_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC048_002",
+      "correctZh": "对，一起做事比坐着硬找话题容易。",
+      "pinyin": "Duì, yìqǐ zuò shì bǐ zuòzhe yìng zhǎo huàtí róngyì.",
+      "translationTr": "Evet, birlikte bir şey yapmak oturup zorla konu bulmaktan daha kolay.",
+      "sentenceZh": "___一起做事比坐着硬找话题容易。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC048_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC048_003",
+      "correctZh": "有一个人说得很快，我请他慢一点儿。",
+      "pinyin": "Yǒu yí ge rén shuō de hěn kuài, wǒ qǐng tā màn yìdiǎnr.",
+      "translationTr": "Bir kişi çok hızlı konuşuyordu, biraz yavaş konuşmasını istedim.",
+      "sentenceZh": "有一个人说得很快，我请他慢一点儿。",
+      "correctAnswer": "有一个人说得很快，我请他慢一点儿。",
+      "options": [
+        "有一个人说得很快，我请他慢一点儿。",
+        "今天认识了三个人，比我想的容易。",
+        "大家也觉得你很好聊。",
+        "开始的时候我还是有点儿不知道说什么。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC048_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC048_004",
+      "correctZh": "现在你更敢表达自己的需要了。",
+      "pinyin": "Xiànzài nǐ gèng gǎn biǎodá zìjǐ de xūyào le.",
+      "translationTr": "Artık ihtiyacını ifade etmeye daha çok cesaret ediyorsun.",
+      "sentenceZh": "现在你更敢表达自己的需要了。",
+      "correctAnswer": "现在你更敢表达自己的需要了。",
+      "options": [],
+      "tokens": [
+        "现在你",
+        "更敢表",
+        "达自己",
+        "的需要",
+        "了"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC048_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC048_005",
+      "correctZh": "今天这句话我也记住了。",
+      "pinyin": "Jīntiān zhè jù huà wǒ yě jìzhù le.",
+      "translationTr": "Bugün bu cümleyi de aklımda tutacağım.",
+      "sentenceZh": "___这句话我也记住了。",
+      "correctAnswer": "今天",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc048_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC048_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC048_006",
+      "correctZh": "慢慢来，你已经进步很快了。",
+      "pinyin": "Mànmàn lái, nǐ yǐjīng jìnbù hěn kuài le.",
+      "translationTr": "Yavaş yavaş, zaten çok hızlı ilerledin.",
+      "sentenceZh": "慢慢来，你已经进步很快了。",
+      "correctAnswer": "慢慢来，你已经进步很快了。",
+      "options": [
+        "慢慢来，你已经进步很快了。",
+        "今天认识了三个人，比我想的容易。",
+        "大家也觉得你很好聊。",
+        "开始的时候我还是有点儿不知道说什么。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc048_sentence_006.m4a"
+    }
+  ]
+}

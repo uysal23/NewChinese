@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC047",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC047_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc047/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_CHEN_YU_001": "zh-CN-YunyangNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc047_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "这个周末我们几个人准备去走一条新路线，你有兴趣吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc047_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "听起来不错。有多少人？",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc047_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "大概五六个，都是我认识的朋友。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc047_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我都不认识，会不会有点儿奇怪？",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc047_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "不会，大家都很随和。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc047_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "路线难吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc047_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "不难，两个小时左右，中间会休息。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc047_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我应该没问题。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc047_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "你只要穿舒服的鞋，带水就行。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc047_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "几点集合？",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc047_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "上午九点，在公园东门。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc047_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我可以直接过去。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc047_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "好。我会提前告诉他们有新朋友来。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc047_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "谢谢，这样我会轻松一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc047_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "不用担心，不需要特别准备聊天内容。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc047_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我现在比以前自然多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc047_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "那周末正好再练练。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc047_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，我参加。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc047_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "邀请",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc047_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "兴趣",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc047_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "随和",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc047_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "集合",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc047_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "东门",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc047_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "提前",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc047_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "聊天内容",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc047_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "自然",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc047_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "练练",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc047_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "参加",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc047_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "大概五六个，都是我认识的朋友。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc047_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "路线难吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc047_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "你只要穿舒服的鞋，带水就行。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc047_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我可以直接过去。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc047_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_CHEN_YU_001",
+      "textZh": "不用担心，不需要特别准备聊天内容。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc047_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，我参加。",
+      "emotion": "natural"
+    }
+  ]
+}

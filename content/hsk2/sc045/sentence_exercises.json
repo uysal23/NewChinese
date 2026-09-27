@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC045",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC045_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC045_001",
+      "correctZh": "我有一点儿紧张，不知道要不要发言。",
+      "pinyin": "Wǒ yǒu yìdiǎnr jǐnzhāng, bù zhīdào yào bu yào fāyán.",
+      "translationTr": "Biraz gerginim, konuşmam gerekip gerekmediğini bilmiyorum.",
+      "sentenceZh": "我有一点儿紧张，不知道要不要发言。",
+      "correctAnswer": "我有一点儿紧张，不知道要不要发言。",
+      "options": [],
+      "tokens": [
+        "我有一",
+        "点儿紧",
+        "张不知",
+        "道要不",
+        "要发言"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC045_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC045_002",
+      "correctZh": "当然。想说的时候再说。",
+      "pinyin": "Dāngrán. Xiǎng shuō de shíhou zài shuō.",
+      "translationTr": "Elbette. İstediğinde konuşursun.",
+      "sentenceZh": "___。想说的时候再说。",
+      "correctAnswer": "当然",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC045_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC045_003",
+      "correctZh": "那我可以说我最近看的短故事。",
+      "pinyin": "Nà wǒ kěyǐ shuō wǒ zuìjìn kàn de duǎn gùshi.",
+      "translationTr": "O zaman son zamanlarda okuduğum kısa hikâyeden bahsedebilirim.",
+      "sentenceZh": "那我可以说我最近看的短故事。",
+      "correctAnswer": "那我可以说我最近看的短故事。",
+      "options": [
+        "那我可以说我最近看的短故事。",
+        "我来得是不是太早了？",
+        "不会，大家还要十分钟才到。",
+        "我有一点儿紧张，不知道要不要发言。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC045_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC045_004",
+      "correctZh": "换简单的说法，或者直接问。",
+      "pinyin": "Huàn jiǎndān de shuōfǎ, huòzhě zhíjiē wèn.",
+      "translationTr": "Daha basit bir ifadeyle söyle ya da doğrudan sor.",
+      "sentenceZh": "换简单的说法，或者直接问。",
+      "correctAnswer": "换简单的说法，或者直接问。",
+      "options": [],
+      "tokens": [
+        "换简单",
+        "的说法",
+        "或者直",
+        "接问"
+      ],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC045_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC045_005",
+      "correctZh": "这跟李娜说的一样。",
+      "pinyin": "Zhè gēn Lǐ Nà shuō de yíyàng.",
+      "translationTr": "Bu Li Na'nın dediğiyle aynı.",
+      "sentenceZh": "___李娜说的一样。",
+      "correctAnswer": "这跟",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc045_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC045_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC045_006",
+      "correctZh": "很好，活动快开始了。",
+      "pinyin": "Hěn hǎo, huódòng kuài kāishǐ le.",
+      "translationTr": "Çok iyi, etkinlik başlamak üzere.",
+      "sentenceZh": "很好，活动快开始了。",
+      "correctAnswer": "很好，活动快开始了。",
+      "options": [
+        "很好，活动快开始了。",
+        "我来得是不是太早了？",
+        "不会，大家还要十分钟才到。",
+        "我有一点儿紧张，不知道要不要发言。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc045_sentence_006.m4a"
+    }
+  ]
+}

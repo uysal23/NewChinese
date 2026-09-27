@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC044",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC044_L001",
+      "order": 1,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "李娜常常提到你，今天终于见到了。",
+      "pinyin": "Lǐ Nà chángcháng tídào nǐ, jīntiān zhōngyú jiàndào le.",
+      "translationTr": "Li Na senden sık sık bahsediyor, bugün sonunda tanıştık.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也听她说过你。很高兴认识你。",
+      "pinyin": "Wǒ yě tīng tā shuō guo nǐ. Hěn gāoxìng rènshi nǐ.",
+      "translationTr": "Ben de senden bahsettiğini duydum. Tanıştığıma memnun oldum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L003",
+      "order": 3,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "听说你最近一直在学中文。",
+      "pinyin": "Tīngshuō nǐ zuìjìn yìzhí zài xué Zhōngwén.",
+      "translationTr": "Son zamanlarda sürekli Çince çalıştığını duydum.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，现在比刚开始自然多了。",
+      "pinyin": "Duì, xiànzài bǐ gāng kāishǐ zìrán duō le.",
+      "translationTr": "Evet, şimdi başlangıca göre çok daha doğal geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L005",
+      "order": 5,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "你最喜欢怎么学？",
+      "pinyin": "Nǐ zuì xǐhuan zěnme xué?",
+      "translationTr": "En çok nasıl çalışmayı seviyorsun?",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听对话、走路的时候听中文，还有跟朋友聊天。",
+      "pinyin": "Tīng duìhuà, zǒulù de shíhou tīng Zhōngwén, hái yǒu gēn péngyou liáotiān.",
+      "translationTr": "Diyalog dinlemek, yürürken Çince dinlemek ve arkadaşlarla konuşmak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L007",
+      "order": 7,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "最后一个最有用。",
+      "pinyin": "Zuìhòu yí ge zuì yǒuyòng.",
+      "translationTr": "Sonuncusu en faydalısı.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也越来越这么觉得。",
+      "pinyin": "Wǒ yě yuèláiyuè zhème juéde.",
+      "translationTr": "Ben de giderek öyle düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L009",
+      "order": 9,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "我平时参加一些读书和社区活动。",
+      "pinyin": "Wǒ píngshí cānjiā yìxiē dúshū hé shèqū huódòng.",
+      "translationTr": "Ben genelde bazı kitap ve mahalle etkinliklerine katılıyorum.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "读书活动是大家一起聊一本书吗？",
+      "pinyin": "Dúshū huódòng shì dàjiā yìqǐ liáo yì běn shū ma?",
+      "translationTr": "Kitap etkinliğinde herkes birlikte bir kitabı mı konuşuyor?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L011",
+      "order": 11,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "有时候是，有时候只是分享最近读的东西。",
+      "pinyin": "Yǒushíhou shì, yǒushíhou zhǐshì fēnxiǎng zuìjìn dú de dōngxi.",
+      "translationTr": "Bazen evet, bazen sadece son okuduklarımızı paylaşıyoruz.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样听起来压力不大。",
+      "pinyin": "Zhèyàng tīng qǐlái yālì bú dà.",
+      "translationTr": "Böyle kulağa fazla baskılı gelmiyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L013",
+      "order": 13,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "对，新朋友来也很容易加入。",
+      "pinyin": "Duì, xīn péngyou lái yě hěn róngyì jiārù.",
+      "translationTr": "Evet, yeni gelenler de kolayca katılabiliyor.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果下次时间合适，我想去看看。",
+      "pinyin": "Rúguǒ xià cì shíjiān héshì, wǒ xiǎng qù kànkan.",
+      "translationTr": "Bir dahaki sefere zaman uygunsa ben de gelmek isterim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L015",
+      "order": 15,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "可以，我到时候把时间告诉你。",
+      "pinyin": "Kěyǐ, wǒ dào shíhou bǎ shíjiān gàosu nǐ.",
+      "translationTr": "Olur, zamanı sana bildiririm.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢。认识新朋友以后，生活真的更丰富了。",
+      "pinyin": "Xièxie. Rènshi xīn péngyou yǐhòu, shēnghuó zhēn de gèng fēngfù le.",
+      "translationTr": "Teşekkürler. Yeni arkadaşlar tanıyınca hayat gerçekten daha zengin oluyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L017",
+      "order": 17,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "而且会知道很多自己以前不知道的地方。",
+      "pinyin": "Érqiě huì zhīdào hěn duō zìjǐ yǐqián bù zhīdào de dìfang.",
+      "translationTr": "Ayrıca daha önce bilmediğin birçok yer öğreniyorsun.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk2_sc044_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC044_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我很期待下次活动。",
+      "pinyin": "Nà wǒ hěn qīdài xià cì huódòng.",
+      "translationTr": "O zaman bir sonraki etkinliği sabırsızlıkla bekliyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc044_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

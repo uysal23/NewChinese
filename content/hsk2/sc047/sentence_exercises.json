@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC047",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC047_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC047_001",
+      "correctZh": "大概五六个，都是我认识的朋友。",
+      "pinyin": "Dàgài wǔ liù ge, dōu shì wǒ rènshi de péngyou.",
+      "translationTr": "Yaklaşık beş altı kişi, hepsi tanıdığım arkadaşlar.",
+      "sentenceZh": "大概五六个，都是我认识的朋友。",
+      "correctAnswer": "大概五六个，都是我认识的朋友。",
+      "options": [],
+      "tokens": [
+        "大概五",
+        "六个都",
+        "是我认",
+        "识的朋",
+        "友"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC047_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC047_002",
+      "correctZh": "路线难吗？",
+      "pinyin": "Lùxiàn nán ma?",
+      "translationTr": "Rota zor mu?",
+      "sentenceZh": "___难吗？",
+      "correctAnswer": "路线",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC047_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC047_003",
+      "correctZh": "你只要穿舒服的鞋，带水就行。",
+      "pinyin": "Nǐ zhǐyào chuān shūfu de xié, dài shuǐ jiù xíng.",
+      "translationTr": "Rahat ayakkabı giyip su getirmen yeter.",
+      "sentenceZh": "你只要穿舒服的鞋，带水就行。",
+      "correctAnswer": "你只要穿舒服的鞋，带水就行。",
+      "options": [
+        "你只要穿舒服的鞋，带水就行。",
+        "这个周末我们几个人准备去走一条新路线，你有兴趣吗？",
+        "听起来不错。有多少人？",
+        "大概五六个，都是我认识的朋友。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC047_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC047_004",
+      "correctZh": "我可以直接过去。",
+      "pinyin": "Wǒ kěyǐ zhíjiē guòqù.",
+      "translationTr": "Doğrudan gelebilirim.",
+      "sentenceZh": "我可以直接过去。",
+      "correctAnswer": "我可以直接过去。",
+      "options": [],
+      "tokens": [
+        "我可以",
+        "直接过",
+        "去"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC047_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC047_005",
+      "correctZh": "不用担心，不需要特别准备聊天内容。",
+      "pinyin": "Bú yòng dānxīn, bù xūyào tèbié zhǔnbèi liáotiān nèiróng.",
+      "translationTr": "Endişelenme, konuşacak konu hazırlamana gerek yok.",
+      "sentenceZh": "___担心，不需要特别准备聊天内容。",
+      "correctAnswer": "不用",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk2_sc047_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC047_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC047_006",
+      "correctZh": "好，我参加。",
+      "pinyin": "Hǎo, wǒ cānjiā.",
+      "translationTr": "Tamam, katılıyorum.",
+      "sentenceZh": "好，我参加。",
+      "correctAnswer": "好，我参加。",
+      "options": [
+        "好，我参加。",
+        "这个周末我们几个人准备去走一条新路线，你有兴趣吗？",
+        "听起来不错。有多少人？",
+        "大概五六个，都是我认识的朋友。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc047_sentence_006.m4a"
+    }
+  ]
+}

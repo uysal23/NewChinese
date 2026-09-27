@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC049",
+  "level": "HSK2",
+  "sceneNumber": 49,
+  "titleZh": "生活圈变大了",
+  "titleTr": "Sosyal Çevrem Büyüdü",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC048",
+  "nextSceneId": "HSK2_SC050",
+  "summaryTr": "Zhang Wei evde Li Na’ya son haftalarda tanıştığı insanlardan ve sosyal olarak daha rahat hissetmesinden bahseder."
+}

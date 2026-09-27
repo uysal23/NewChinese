@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC042",
+  "level": "HSK2",
+  "sceneNumber": 42,
+  "titleZh": "一起喝咖啡",
+  "titleTr": "Birlikte Kahve İçmek",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC041",
+  "nextSceneId": "HSK2_SC043",
+  "summaryTr": "Zhang Wei ile Chen Yu ilk tanışmadan sonra kafede buluşup iş, şehir hayatı ve arkadaşlık üzerine daha rahat sohbet eder."
+}
