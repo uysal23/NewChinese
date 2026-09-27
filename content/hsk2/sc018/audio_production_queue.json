@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC018",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC018_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc018/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc018_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "今晚不出去，我们在家看电影吧。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc018_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好啊，你想看什么类型？",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc018_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "轻松一点儿的，不要太长。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc018_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "喜剧怎么样？",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc018_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可以。我今天不想看太复杂的故事。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc018_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我们选一个九十分钟左右的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc018_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你想开中文字幕吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc018_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "想。这样听不懂的时候可以看一下。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc018_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "不过别每句话都停下来查。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc018_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "放心，今晚主要是放松。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc018_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "很好。要不要准备一点儿水果？",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc018_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，我去洗苹果。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc018_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我来泡茶。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc018_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "最近我发现看电影也能学到不少口语。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc018_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "对，尤其是一些很自然的说法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc018_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "但是今天我只记一两个就够了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc018_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这就对了，别把休息也变成任务。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc018_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，电影开始以后我就不看手机了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc018_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "类型",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc018_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "喜剧",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc018_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "字幕",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc018_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "主要",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc018_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "放松",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc018_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "泡茶",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc018_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "口语",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc018_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "尤其",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc018_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "说法",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc018_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "任务",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc018_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "轻松一点儿的，不要太长。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc018_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我们选一个九十分钟左右的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc018_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "不过别每句话都停下来查。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc018_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，我去洗苹果。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc018_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "对，尤其是一些很自然的说法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc018_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，电影开始以后我就不看手机了。",
+      "emotion": "natural"
+    }
+  ]
+}

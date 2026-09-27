@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK2_SC020",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CITY_PARK_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "composition": "Canonical city park at golden late afternoon, Zhang Wei and Li Na walking slowly beside lake, reflective friendly mood, warm 2.5D/3D CGI, no readable text.",
+  "assets": [
+    {
+      "file": "hsk2_sc020_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc020_char_li_na.webp",
+      "purpose": "Li Na transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc020_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc020_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc020_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

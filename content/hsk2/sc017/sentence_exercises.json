@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC017",
+  "sourcePolicy": "exam dialogue-derived; full study uses every line × reorder/fill/listen",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC017_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC017_001",
+      "correctZh": "你最近在看什么？",
+      "pinyin": "Nǐ zuìjìn zài kàn shénme?",
+      "translationTr": "Son zamanlarda ne okuyorsun?",
+      "sentenceZh": "你最近在看什么？",
+      "correctAnswer": "你最近在看什么？",
+      "options": [],
+      "tokens": [
+        "你最近",
+        "在看什",
+        "么"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC017_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC017_002",
+      "correctZh": "你平时都看手机，对吧？",
+      "pinyin": "Nǐ píngshí dōu kàn shǒujī, duì ba?",
+      "translationTr": "Genelde telefona bakıyorsun, değil mi?",
+      "sentenceZh": "___时都看手机，对吧？",
+      "correctAnswer": "你平",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC017_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC017_003",
+      "correctZh": "我如果每天看十页，会不会太少？",
+      "pinyin": "Wǒ rúguǒ měitiān kàn shí yè, huì bú huì tài shǎo?",
+      "translationTr": "Her gün on sayfa okusam çok mu az olur?",
+      "sentenceZh": "我如果每天看十页，会不会太少？",
+      "correctAnswer": "我如果每天看十页，会不会太少？",
+      "options": [
+        "我如果每天看十页，会不会太少？",
+        "这里下午真安静。",
+        "所以我有时候来这里看书。",
+        "你最近在看什么？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC017_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC017_004",
+      "correctZh": "可以先看短故事，比较容易。",
+      "pinyin": "Kěyǐ xiān kàn duǎn gùshi, bǐjiào róngyì.",
+      "translationTr": "Önce kısa hikâyeler okuyabilirsin, daha kolay olur.",
+      "sentenceZh": "可以先看短故事，比较容易。",
+      "correctAnswer": "可以先看短故事，比较容易。",
+      "options": [],
+      "tokens": [
+        "可以先",
+        "看短故",
+        "事比较",
+        "容易"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC017_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC017_005",
+      "correctZh": "这样不会一直停下来。",
+      "pinyin": "Zhèyàng bú huì yìzhí tíng xiàlái.",
+      "translationTr": "Böylece sürekli durmak zorunda kalmam.",
+      "sentenceZh": "___不会一直停下来。",
+      "correctAnswer": "这样",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC017_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC017_006",
+      "correctZh": "我也看我的书，二十分钟以后再聊天。",
+      "pinyin": "Wǒ yě kàn wǒ de shū, èrshí fēnzhōng yǐhòu zài liáotiān.",
+      "translationTr": "Ben de kitabımı okuyayım, yirmi dakika sonra konuşuruz.",
+      "sentenceZh": "我也看我的书，二十分钟以后再聊天。",
+      "correctAnswer": "我也看我的书，二十分钟以后再聊天。",
+      "options": [
+        "我也看我的书，二十分钟以后再聊天。",
+        "这里下午真安静。",
+        "所以我有时候来这里看书。",
+        "你最近在看什么？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_sentence_006.m4a"
+    }
+  ]
+}

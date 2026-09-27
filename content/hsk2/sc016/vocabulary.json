@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC016",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC016_001",
+      "hanzi": "周末",
+      "pinyin": "zhōumò",
+      "translationTr": "hafta sonu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_002",
+      "hanzi": "多久",
+      "pinyin": "duōjiǔ",
+      "translationTr": "ne kadar süre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_003",
+      "hanzi": "上楼",
+      "pinyin": "shàng lóu",
+      "translationTr": "merdiven çıkmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_004",
+      "hanzi": "好处",
+      "pinyin": "hǎochu",
+      "translationTr": "fayda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_005",
+      "hanzi": "花钱",
+      "pinyin": "huā qián",
+      "translationTr": "para harcamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_006",
+      "hanzi": "心情",
+      "pinyin": "xīnqíng",
+      "translationTr": "ruh hali",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_007",
+      "hanzi": "长椅",
+      "pinyin": "chángyǐ",
+      "translationTr": "bank",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_008",
+      "hanzi": "路线",
+      "pinyin": "lùxiàn",
+      "translationTr": "rota",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_009",
+      "hanzi": "舒服",
+      "pinyin": "shūfu",
+      "translationTr": "rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC016_010",
+      "hanzi": "当成",
+      "pinyin": "dàng chéng",
+      "translationTr": "olarak görmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_word_010.m4a"
+    }
+  ]
+}

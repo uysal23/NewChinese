@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC020",
+  "level": "HSK2",
+  "sceneNumber": 20,
+  "titleZh": "找到自己的节奏",
+  "titleTr": "Kendi Ritmini Bulmak",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC019",
+  "nextSceneId": "HSK2_SC021",
+  "summaryTr": "Sağlık ve boş zaman temasının sonunda Zhang Wei ile Li Na parkta son haftalardaki uyku, hareket ve dinlenme alışkanlıklarını değerlendirir."
+}

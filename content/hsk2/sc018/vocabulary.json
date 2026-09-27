@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC018",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC018_001",
+      "hanzi": "类型",
+      "pinyin": "lèixíng",
+      "translationTr": "tür",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_002",
+      "hanzi": "喜剧",
+      "pinyin": "xǐjù",
+      "translationTr": "komedi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_003",
+      "hanzi": "字幕",
+      "pinyin": "zìmù",
+      "translationTr": "altyazı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_004",
+      "hanzi": "主要",
+      "pinyin": "zhǔyào",
+      "translationTr": "esas olarak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_005",
+      "hanzi": "放松",
+      "pinyin": "fàngsōng",
+      "translationTr": "rahatlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_006",
+      "hanzi": "泡茶",
+      "pinyin": "pào chá",
+      "translationTr": "çay demlemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_007",
+      "hanzi": "口语",
+      "pinyin": "kǒuyǔ",
+      "translationTr": "konuşma dili",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_008",
+      "hanzi": "尤其",
+      "pinyin": "yóuqí",
+      "translationTr": "özellikle",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_009",
+      "hanzi": "说法",
+      "pinyin": "shuōfǎ",
+      "translationTr": "ifade biçimi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC018_010",
+      "hanzi": "任务",
+      "pinyin": "rènwu",
+      "translationTr": "görev",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_word_010.m4a"
+    }
+  ]
+}

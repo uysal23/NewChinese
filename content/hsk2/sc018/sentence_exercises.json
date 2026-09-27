@@ -1,0 +1,108 @@
+{
+  "sceneId": "HSK2_SC018",
+  "sourcePolicy": "exam dialogue-derived; full study uses every line × reorder/fill/listen",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC018_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC018_001",
+      "correctZh": "轻松一点儿的，不要太长。",
+      "pinyin": "Qīngsōng yìdiǎnr de, bú yào tài cháng.",
+      "translationTr": "Biraz hafif olsun, çok uzun olmasın.",
+      "sentenceZh": "轻松一点儿的，不要太长。",
+      "correctAnswer": "轻松一点儿的，不要太长。",
+      "options": [],
+      "tokens": [
+        "轻松一",
+        "点儿的",
+        "不要太",
+        "长"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC018_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC018_002",
+      "correctZh": "那我们选一个九十分钟左右的。",
+      "pinyin": "Nà wǒmen xuǎn yí ge jiǔshí fēnzhōng zuǒyòu de.",
+      "translationTr": "O zaman yaklaşık doksan dakikalık bir şey seçelim.",
+      "sentenceZh": "___们选一个九十分钟左右的。",
+      "correctAnswer": "那我",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC018_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC018_003",
+      "correctZh": "不过别每句话都停下来查。",
+      "pinyin": "Búguò bié měi jù huà dōu tíng xiàlái chá.",
+      "translationTr": "Ama her cümlede durup araştırma.",
+      "sentenceZh": "不过别每句话都停下来查。",
+      "correctAnswer": "不过别每句话都停下来查。",
+      "options": [
+        "不过别每句话都停下来查。",
+        "今晚不出去，我们在家看电影吧。",
+        "好啊，你想看什么类型？",
+        "轻松一点儿的，不要太长。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC018_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC018_004",
+      "correctZh": "好，我去洗苹果。",
+      "pinyin": "Hǎo, wǒ qù xǐ píngguǒ.",
+      "translationTr": "Tamam, elmaları yıkayayım.",
+      "sentenceZh": "好，我去洗苹果。",
+      "correctAnswer": "好，我去洗苹果。",
+      "options": [],
+      "tokens": [
+        "好我去",
+        "洗苹果"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC018_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC018_005",
+      "correctZh": "对，尤其是一些很自然的说法。",
+      "pinyin": "Duì, yóuqí shì yìxiē hěn zìrán de shuōfǎ.",
+      "translationTr": "Evet, özellikle bazı çok doğal ifadeleri.",
+      "sentenceZh": "___尤其是一些很自然的说法。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC018_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC018_006",
+      "correctZh": "好，电影开始以后我就不看手机了。",
+      "pinyin": "Hǎo, diànyǐng kāishǐ yǐhòu wǒ jiù bù kàn shǒujī le.",
+      "translationTr": "Tamam, film başlayınca telefona bakmayacağım.",
+      "sentenceZh": "好，电影开始以后我就不看手机了。",
+      "correctAnswer": "好，电影开始以后我就不看手机了。",
+      "options": [
+        "好，电影开始以后我就不看手机了。",
+        "今晚不出去，我们在家看电影吧。",
+        "好啊，你想看什么类型？",
+        "轻松一点儿的，不要太长。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_sentence_006.m4a"
+    }
+  ]
+}

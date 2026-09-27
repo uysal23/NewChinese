@@ -1,0 +1,111 @@
+{
+  "sceneId": "HSK2_SC020",
+  "sourcePolicy": "exam dialogue-derived; full study uses every line × reorder/fill/listen",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC020_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC020_001",
+      "correctZh": "还有你现在走路也比以前多。",
+      "pinyin": "Hái yǒu nǐ xiànzài zǒulù yě bǐ yǐqián duō.",
+      "translationTr": "Bir de artık eskisine göre daha çok yürüyorsun.",
+      "sentenceZh": "还有你现在走路也比以前多。",
+      "correctAnswer": "还有你现在走路也比以前多。",
+      "options": [],
+      "tokens": [
+        "还有你",
+        "现在走",
+        "路也比",
+        "以前多"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC020_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC020_002",
+      "correctZh": "以前我总想一下子改变很多习惯。",
+      "pinyin": "Yǐqián wǒ zǒng xiǎng yíxiàzi gǎibiàn hěn duō xíguàn.",
+      "translationTr": "Eskiden birçok alışkanlığı bir anda değiştirmek isterdim.",
+      "sentenceZh": "___我总想一下子改变很多习惯。",
+      "correctAnswer": "以前",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC020_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC020_003",
+      "correctZh": "比如早点儿睡、每天走路？",
+      "pinyin": "Bǐrú zǎodiǎnr shuì, měitiān zǒulù?",
+      "translationTr": "Mesela erken yatmak ve her gün yürümek?",
+      "sentenceZh": "比如早点儿睡、每天走路？",
+      "correctAnswer": "比如早点儿睡、每天走路？",
+      "options": [
+        "比如早点儿睡、每天走路？",
+        "最近你看起来精神好多了。",
+        "我也觉得。可能是睡得早了一点儿。",
+        "还有你现在走路也比以前多。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC020_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC020_004",
+      "correctZh": "最重要的是我没有觉得压力很大。",
+      "pinyin": "Zuì zhòngyào de shì wǒ méiyǒu juéde yālì hěn dà.",
+      "translationTr": "En önemlisi de kendimi büyük bir baskı altında hissetmiyorum.",
+      "sentenceZh": "最重要的是我没有觉得压力很大。",
+      "correctAnswer": "最重要的是我没有觉得压力很大。",
+      "options": [],
+      "tokens": [
+        "最重要",
+        "的是我",
+        "没有觉",
+        "得压力",
+        "很大"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC020_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC020_005",
+      "correctZh": "有空的时候再多走走、看看书。",
+      "pinyin": "Yǒu kòng de shíhou zài duō zǒuzou, kànkan shū.",
+      "translationTr": "Boş vaktinde daha çok yürür, biraz kitap okursun.",
+      "sentenceZh": "___的时候再多走走、看看书。",
+      "correctAnswer": "有空",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC020_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC020_006",
+      "correctZh": "继续学中文，不过也要记得休息。",
+      "pinyin": "Jìxù xué Zhōngwén, búguò yě yào jìde xiūxi.",
+      "translationTr": "Çince öğrenmeye devam etmek ama dinlenmeyi de unutmamak.",
+      "sentenceZh": "继续学中文，不过也要记得休息。",
+      "correctAnswer": "继续学中文，不过也要记得休息。",
+      "options": [
+        "继续学中文，不过也要记得休息。",
+        "最近你看起来精神好多了。",
+        "我也觉得。可能是睡得早了一点儿。",
+        "还有你现在走路也比以前多。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_sentence_006.m4a"
+    }
+  ]
+}

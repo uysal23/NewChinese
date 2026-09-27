@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC020",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC020_001",
+      "hanzi": "精神",
+      "pinyin": "jīngshen",
+      "translationTr": "zindelik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_002",
+      "hanzi": "反而",
+      "pinyin": "fǎn'ér",
+      "translationTr": "tam tersine",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_003",
+      "hanzi": "一下子",
+      "pinyin": "yíxiàzi",
+      "translationTr": "bir anda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_004",
+      "hanzi": "改变",
+      "pinyin": "gǎibiàn",
+      "translationTr": "değiştirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_005",
+      "hanzi": "比如",
+      "pinyin": "bǐrú",
+      "translationTr": "örneğin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_006",
+      "hanzi": "实际",
+      "pinyin": "shíjì",
+      "translationTr": "uygulanabilir",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_007",
+      "hanzi": "节奏",
+      "pinyin": "jiézòu",
+      "translationTr": "ritim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_008",
+      "hanzi": "目标",
+      "pinyin": "mùbiāo",
+      "translationTr": "hedef",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_009",
+      "hanzi": "继续",
+      "pinyin": "jìxù",
+      "translationTr": "devam etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC020_010",
+      "hanzi": "记得",
+      "pinyin": "jìde",
+      "translationTr": "hatırlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_word_010.m4a"
+    }
+  ]
+}

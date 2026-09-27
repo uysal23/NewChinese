@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC017",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC017_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc017/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc017_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这里下午真安静。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc017_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "所以我有时候来这里看书。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc017_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "你最近在看什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc017_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "一本关于旅行的书，不难，很轻松。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc017_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我很久没认真看书了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc017_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你平时都看手机，对吧？",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc017_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，手机方便，但是很容易分心。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc017_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "看书的时候可以把手机放远一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc017_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我如果每天看十页，会不会太少？",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc017_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "不少，重要的是每天都看一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc017_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我想找一本简单的中文书。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc017_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可以先看短故事，比较容易。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc017_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "遇到不认识的字怎么办？",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc017_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "先猜意思，真的看不懂再查。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc017_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这样不会一直停下来。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc017_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "对，读得顺一点儿更重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc017_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好，今天我先看二十分钟。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc017_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我也看我的书，二十分钟以后再聊天。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc017_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "关于",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc017_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "认真",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc017_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "分心",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc017_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "页",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc017_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "短故事",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc017_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "认识",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc017_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "猜",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc017_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "查",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc017_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "顺",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc017_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "聊天",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc017_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "你最近在看什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc017_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你平时都看手机，对吧？",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc017_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我如果每天看十页，会不会太少？",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc017_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可以先看短故事，比较容易。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc017_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这样不会一直停下来。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc017_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我也看我的书，二十分钟以后再聊天。",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC019",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC019_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc019/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc019_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天晚上我们试试少看手机怎么样？",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc019_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可以。你怎么突然想到这个？",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc019_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "昨天我发现自己一小时看了很多次手机。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc019_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你是在等消息吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc019_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "没有，就是习惯了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc019_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那我们把手机放到那边。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc019_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "如果有重要电话怎么办？",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc019_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "铃声开着就可以，不用一直拿在手里。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc019_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好。那我们先喝茶聊天。",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc019_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "你今天工作有什么有意思的事吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc019_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有，王明教了我一个整理任务的方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc019_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "听起来你越来越适应工作了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc019_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "是。这样面对面聊，比发消息舒服。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc019_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我也觉得。有时候手机让人一直分心。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc019_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "已经半小时了，我都没想拿手机。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc019_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "说明没你想的那么难。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc019_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "以后每周试两个晚上怎么样？",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc019_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "好，只要别变成新的压力就行。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc019_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "突然",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc019_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "次数",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc019_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "铃声",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc019_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "拿",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc019_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "有意思",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc019_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "面对面",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc019_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "分心",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc019_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "说明",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc019_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "每周",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc019_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "压力",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc019_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "昨天我发现自己一小时看了很多次手机。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc019_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那我们把手机放到那边。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc019_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好。那我们先喝茶聊天。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc019_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "听起来你越来越适应工作了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc019_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "已经半小时了，我都没想拿手机。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc019_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "好，只要别变成新的压力就行。",
+      "emotion": "natural"
+    }
+  ]
+}

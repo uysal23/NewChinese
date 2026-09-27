@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC017",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC017_001",
+      "hanzi": "关于",
+      "pinyin": "guānyú",
+      "translationTr": "hakkında",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_002",
+      "hanzi": "认真",
+      "pinyin": "rènzhēn",
+      "translationTr": "ciddi / dikkatli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_003",
+      "hanzi": "分心",
+      "pinyin": "fēnxīn",
+      "translationTr": "dikkati dağılmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_004",
+      "hanzi": "页",
+      "pinyin": "yè",
+      "translationTr": "sayfa",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_005",
+      "hanzi": "短故事",
+      "pinyin": "duǎn gùshi",
+      "translationTr": "kısa hikâye",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_006",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "translationTr": "tanımak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_007",
+      "hanzi": "猜",
+      "pinyin": "cāi",
+      "translationTr": "tahmin etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_008",
+      "hanzi": "查",
+      "pinyin": "chá",
+      "translationTr": "bakmak / araştırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_009",
+      "hanzi": "顺",
+      "pinyin": "shùn",
+      "translationTr": "akıcı / düzgün",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC017_010",
+      "hanzi": "聊天",
+      "pinyin": "liáotiān",
+      "translationTr": "sohbet etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_word_010.m4a"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "sceneId": "HSK2_SC019",
+  "sourcePolicy": "exam dialogue-derived; full study uses every line × reorder/fill/listen",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC019_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC019_001",
+      "correctZh": "昨天我发现自己一小时看了很多次手机。",
+      "pinyin": "Zuótiān wǒ fāxiàn zìjǐ yì xiǎoshí kàn le hěn duō cì shǒujī.",
+      "translationTr": "Dün bir saat içinde telefona çok kez baktığımı fark ettim.",
+      "sentenceZh": "昨天我发现自己一小时看了很多次手机。",
+      "correctAnswer": "昨天我发现自己一小时看了很多次手机。",
+      "options": [],
+      "tokens": [
+        "昨天我",
+        "发现自",
+        "己一小",
+        "时看了",
+        "很多次",
+        "手机"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC019_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC019_002",
+      "correctZh": "那我们把手机放到那边。",
+      "pinyin": "Nà wǒmen bǎ shǒujī fàng dào nàbiān.",
+      "translationTr": "O zaman telefonları şuraya koyalım.",
+      "sentenceZh": "___们把手机放到那边。",
+      "correctAnswer": "那我",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC019_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC019_003",
+      "correctZh": "好。那我们先喝茶聊天。",
+      "pinyin": "Hǎo. Nà wǒmen xiān hē chá liáotiān.",
+      "translationTr": "Tamam. O zaman önce çay içip sohbet edelim.",
+      "sentenceZh": "好。那我们先喝茶聊天。",
+      "correctAnswer": "好。那我们先喝茶聊天。",
+      "options": [
+        "好。那我们先喝茶聊天。",
+        "今天晚上我们试试少看手机怎么样？",
+        "可以。你怎么突然想到这个？",
+        "昨天我发现自己一小时看了很多次手机。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC019_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC019_004",
+      "correctZh": "听起来你越来越适应工作了。",
+      "pinyin": "Tīng qǐlái nǐ yuèláiyuè shìyìng gōngzuò le.",
+      "translationTr": "Görünüşe göre işe giderek daha çok alışıyorsun.",
+      "sentenceZh": "听起来你越来越适应工作了。",
+      "correctAnswer": "听起来你越来越适应工作了。",
+      "options": [],
+      "tokens": [
+        "听起来",
+        "你越来",
+        "越适应",
+        "工作了"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC019_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC019_005",
+      "correctZh": "已经半小时了，我都没想拿手机。",
+      "pinyin": "Yǐjīng bàn xiǎoshí le, wǒ dōu méi xiǎng ná shǒujī.",
+      "translationTr": "Yarım saat oldu, telefonu elime almak hiç aklıma gelmedi.",
+      "sentenceZh": "___半小时了，我都没想拿手机。",
+      "correctAnswer": "已经",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC019_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC019_006",
+      "correctZh": "好，只要别变成新的压力就行。",
+      "pinyin": "Hǎo, zhǐyào bié biàn chéng xīn de yālì jiù xíng.",
+      "translationTr": "Olur, yeter ki yeni bir baskıya dönüşmesin.",
+      "sentenceZh": "好，只要别变成新的压力就行。",
+      "correctAnswer": "好，只要别变成新的压力就行。",
+      "options": [
+        "好，只要别变成新的压力就行。",
+        "今天晚上我们试试少看手机怎么样？",
+        "可以。你怎么突然想到这个？",
+        "昨天我发现自己一小时看了很多次手机。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_sentence_006.m4a"
+    }
+  ]
+}

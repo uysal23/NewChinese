@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC019",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC019_001",
+      "hanzi": "突然",
+      "pinyin": "tūrán",
+      "translationTr": "birden",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_002",
+      "hanzi": "次数",
+      "pinyin": "cìshù",
+      "translationTr": "kez sayısı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_003",
+      "hanzi": "铃声",
+      "pinyin": "língshēng",
+      "translationTr": "zil sesi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_004",
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "translationTr": "elinde tutmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_005",
+      "hanzi": "有意思",
+      "pinyin": "yǒuyìsi",
+      "translationTr": "ilginç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_006",
+      "hanzi": "面对面",
+      "pinyin": "miànduìmiàn",
+      "translationTr": "yüz yüze",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_007",
+      "hanzi": "分心",
+      "pinyin": "fēnxīn",
+      "translationTr": "dikkati dağılmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_008",
+      "hanzi": "说明",
+      "pinyin": "shuōmíng",
+      "translationTr": "göstermek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_009",
+      "hanzi": "每周",
+      "pinyin": "měi zhōu",
+      "translationTr": "her hafta",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc019_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC019_010",
+      "hanzi": "压力",
+      "pinyin": "yālì",
+      "translationTr": "baskı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc019_word_010.m4a"
+    }
+  ]
+}

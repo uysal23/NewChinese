@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC020",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC020_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "最近你看起来精神好多了。",
+      "pinyin": "Zuìjìn nǐ kàn qǐlái jīngshen hǎo duō le.",
+      "translationTr": "Son zamanlarda çok daha zinde görünüyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也觉得。可能是睡得早了一点儿。",
+      "pinyin": "Wǒ yě juéde. Kěnéng shì shuì de zǎo le yìdiǎnr.",
+      "translationTr": "Ben de öyle hissediyorum. Belki biraz daha erken yattığım içindir.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还有你现在走路也比以前多。",
+      "pinyin": "Hái yǒu nǐ xiànzài zǒulù yě bǐ yǐqián duō.",
+      "translationTr": "Bir de artık eskisine göre daha çok yürüyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对。我发现不用一次做很多。",
+      "pinyin": "Duì. Wǒ fāxiàn bú yòng yí cì zuò hěn duō.",
+      "translationTr": "Evet. Her şeyi tek seferde çok yapmak gerekmediğini fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "每天一点儿，反而更容易坚持。",
+      "pinyin": "Měitiān yìdiǎnr, fǎn'ér gèng róngyì jiānchí.",
+      "translationTr": "Her gün biraz yapmak tam tersine daha kolay sürdürülüyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以前我总想一下子改变很多习惯。",
+      "pinyin": "Yǐqián wǒ zǒng xiǎng yíxiàzi gǎibiàn hěn duō xíguàn.",
+      "translationTr": "Eskiden birçok alışkanlığı bir anda değiştirmek isterdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "所以很快就觉得累。",
+      "pinyin": "Suǒyǐ hěn kuài jiù juéde lèi.",
+      "translationTr": "Bu yüzden çabuk yorulurdun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在我只选两三件最重要的。",
+      "pinyin": "Xiànzài wǒ zhǐ xuǎn liǎng sān jiàn zuì zhòngyào de.",
+      "translationTr": "Şimdi sadece en önemli iki üç şeyi seçiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "比如早点儿睡、每天走路？",
+      "pinyin": "Bǐrú zǎodiǎnr shuì, měitiān zǒulù?",
+      "translationTr": "Mesela erken yatmak ve her gün yürümek?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，还有晚上少看一点儿手机。",
+      "pinyin": "Duì, hái yǒu wǎnshang shǎo kàn yìdiǎnr shǒujī.",
+      "translationTr": "Evet, bir de akşamları telefona biraz daha az bakmak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这些都很实际。",
+      "pinyin": "Zhèxiē dōu hěn shíjì.",
+      "translationTr": "Bunların hepsi çok uygulanabilir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "最重要的是我没有觉得压力很大。",
+      "pinyin": "Zuì zhòngyào de shì wǒ méiyǒu juéde yālì hěn dà.",
+      "translationTr": "En önemlisi de kendimi büyük bir baskı altında hissetmiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "找到适合自己的节奏就好。",
+      "pinyin": "Zhǎodào shìhé zìjǐ de jiézòu jiù hǎo.",
+      "translationTr": "Kendine uygun ritmi bulman yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "工作忙的时候我就少做一点儿。",
+      "pinyin": "Gōngzuò máng de shíhou wǒ jiù shǎo zuò yìdiǎnr.",
+      "translationTr": "İş yoğun olduğunda biraz daha az yapıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有空的时候再多走走、看看书。",
+      "pinyin": "Yǒu kòng de shíhou zài duō zǒuzou, kànkan shū.",
+      "translationTr": "Boş vaktinde daha çok yürür, biraz kitap okursun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样生活舒服多了。",
+      "pinyin": "Zhèyàng shēnghuó shūfu duō le.",
+      "translationTr": "Böyle hayat çok daha rahat.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "下一个目标是什么？",
+      "pinyin": "Xià yí ge mùbiāo shì shénme?",
+      "translationTr": "Sıradaki hedefin ne?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc020_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC020_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "继续学中文，不过也要记得休息。",
+      "pinyin": "Jìxù xué Zhōngwén, búguò yě yào jìde xiūxi.",
+      "translationTr": "Çince öğrenmeye devam etmek ama dinlenmeyi de unutmamak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc020_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC016",
+  "sourcePolicy": "exam dialogue-derived; full study uses every line × reorder/fill/listen",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC016_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC016_001",
+      "correctZh": "你想走多久？",
+      "pinyin": "Nǐ xiǎng zǒu duōjiǔ?",
+      "translationTr": "Ne kadar yürümek istiyorsun?",
+      "sentenceZh": "你想走多久？",
+      "correctAnswer": "你想走多久？",
+      "options": [],
+      "tokens": [
+        "你想走",
+        "多久"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC016_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC016_002",
+      "correctZh": "我最近走路比以前多了。",
+      "pinyin": "Wǒ zuìjìn zǒulù bǐ yǐqián duō le.",
+      "translationTr": "Son zamanlarda eskisine göre daha çok yürüyorum.",
+      "sentenceZh": "___近走路比以前多了。",
+      "correctAnswer": "我最",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC016_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC016_003",
+      "correctZh": "这就是慢慢坚持的好处。",
+      "pinyin": "Zhè jiù shì mànmàn jiānchí de hǎochu.",
+      "translationTr": "İşte düzenli devam etmenin faydası bu.",
+      "sentenceZh": "这就是慢慢坚持的好处。",
+      "correctAnswer": "这就是慢慢坚持的好处。",
+      "options": [
+        "这就是慢慢坚持的好处。",
+        "今天周末，我们多走一会儿吧。",
+        "好，我今天时间很多。",
+        "你想走多久？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC016_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC016_004",
+      "correctZh": "对，而且走完以后心情也比较好。",
+      "pinyin": "Duì, érqiě zǒu wán yǐhòu xīnqíng yě bǐjiào hǎo.",
+      "translationTr": "Evet, yürüyüşten sonra ruh halim de daha iyi oluyor.",
+      "sentenceZh": "对，而且走完以后心情也比较好。",
+      "correctAnswer": "对，而且走完以后心情也比较好。",
+      "options": [],
+      "tokens": [
+        "对而且",
+        "走完以",
+        "后心情",
+        "也比较",
+        "好"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC016_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC016_005",
+      "correctZh": "今天不用走得太快。",
+      "pinyin": "Jīntiān bú yòng zǒu de tài kuài.",
+      "translationTr": "Bugün çok hızlı yürümemize gerek yok.",
+      "sentenceZh": "___不用走得太快。",
+      "correctAnswer": "今天",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc016_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC016_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC016_006",
+      "correctZh": "好，就把它当成我们的周末习惯。",
+      "pinyin": "Hǎo, jiù bǎ tā dàng chéng wǒmen de zhōumò xíguàn.",
+      "translationTr": "Tamam, bunu hafta sonu alışkanlığımız yapalım.",
+      "sentenceZh": "好，就把它当成我们的周末习惯。",
+      "correctAnswer": "好，就把它当成我们的周末习惯。",
+      "options": [
+        "好，就把它当成我们的周末习惯。",
+        "今天周末，我们多走一会儿吧。",
+        "好，我今天时间很多。",
+        "你想走多久？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc016_sentence_006.m4a"
+    }
+  ]
+}

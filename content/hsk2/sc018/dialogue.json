@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC018",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC018_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今晚不出去，我们在家看电影吧。",
+      "pinyin": "Jīnwǎn bù chūqù, wǒmen zài jiā kàn diànyǐng ba.",
+      "translationTr": "Bu akşam dışarı çıkmayalım, evde film izleyelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好啊，你想看什么类型？",
+      "pinyin": "Hǎo a, nǐ xiǎng kàn shénme lèixíng?",
+      "translationTr": "Olur, ne tür izlemek istiyorsun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "轻松一点儿的，不要太长。",
+      "pinyin": "Qīngsōng yìdiǎnr de, bú yào tài cháng.",
+      "translationTr": "Biraz hafif olsun, çok uzun olmasın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "喜剧怎么样？",
+      "pinyin": "Xǐjù zěnmeyàng?",
+      "translationTr": "Komedi nasıl?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以。我今天不想看太复杂的故事。",
+      "pinyin": "Kěyǐ. Wǒ jīntiān bù xiǎng kàn tài fùzá de gùshi.",
+      "translationTr": "Olur. Bugün çok karmaşık hikâye izlemek istemiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我们选一个九十分钟左右的。",
+      "pinyin": "Nà wǒmen xuǎn yí ge jiǔshí fēnzhōng zuǒyòu de.",
+      "translationTr": "O zaman yaklaşık doksan dakikalık bir şey seçelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你想开中文字幕吗？",
+      "pinyin": "Nǐ xiǎng kāi Zhōngwén zìmù ma?",
+      "translationTr": "Çince altyazıyı açmak ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "想。这样听不懂的时候可以看一下。",
+      "pinyin": "Xiǎng. Zhèyàng tīng bu dǒng de shíhou kěyǐ kàn yíxià.",
+      "translationTr": "Evet. Böylece anlamadığımda bakabilirim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不过别每句话都停下来查。",
+      "pinyin": "Búguò bié měi jù huà dōu tíng xiàlái chá.",
+      "translationTr": "Ama her cümlede durup araştırma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "放心，今晚主要是放松。",
+      "pinyin": "Fàngxīn, jīnwǎn zhǔyào shì fàngsōng.",
+      "translationTr": "Merak etme, bu akşam asıl amaç rahatlamak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "很好。要不要准备一点儿水果？",
+      "pinyin": "Hěn hǎo. Yào bu yào zhǔnbèi yìdiǎnr shuǐguǒ?",
+      "translationTr": "Güzel. Biraz meyve hazırlayalım mı?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我去洗苹果。",
+      "pinyin": "Hǎo, wǒ qù xǐ píngguǒ.",
+      "translationTr": "Tamam, elmaları yıkayayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我来泡茶。",
+      "pinyin": "Wǒ lái pào chá.",
+      "translationTr": "Ben de çay demleyeyim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "最近我发现看电影也能学到不少口语。",
+      "pinyin": "Zuìjìn wǒ fāxiàn kàn diànyǐng yě néng xuédào bù shǎo kǒuyǔ.",
+      "translationTr": "Son zamanlarda filmlerden epey günlük konuşma öğrenebildiğimi fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，尤其是一些很自然的说法。",
+      "pinyin": "Duì, yóuqí shì yìxiē hěn zìrán de shuōfǎ.",
+      "translationTr": "Evet, özellikle bazı çok doğal ifadeleri.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "但是今天我只记一两个就够了。",
+      "pinyin": "Dànshì jīntiān wǒ zhǐ jì yì liǎng ge jiù gòu le.",
+      "translationTr": "Ama bugün bir iki tane not etmem yeter.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这就对了，别把休息也变成任务。",
+      "pinyin": "Zhè jiù duì le, bié bǎ xiūxi yě biàn chéng rènwu.",
+      "translationTr": "İşte böyle, dinlenmeyi de göreve dönüştürme.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc018_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC018_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，电影开始以后我就不看手机了。",
+      "pinyin": "Hǎo, diànyǐng kāishǐ yǐhòu wǒ jiù bù kàn shǒujī le.",
+      "translationTr": "Tamam, film başlayınca telefona bakmayacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc018_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC016",
+  "level": "HSK2",
+  "sceneNumber": 16,
+  "titleZh": "周末多走一会儿",
+  "titleTr": "Hafta Sonu Uzun Yürüyüş",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC015",
+  "nextSceneId": "HSK2_SC017",
+  "summaryTr": "Li Na ile Zhang Wei hafta sonu daha uzun bir yürüyüş yaparken tempo, mola ve günlük hareket alışkanlıklarını konuşur."
+}

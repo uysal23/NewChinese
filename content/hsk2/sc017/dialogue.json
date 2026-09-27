@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC017",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC017_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里下午真安静。",
+      "pinyin": "Zhèlǐ xiàwǔ zhēn ānjìng.",
+      "translationTr": "Burası öğleden sonra gerçekten sakin.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "所以我有时候来这里看书。",
+      "pinyin": "Suǒyǐ wǒ yǒushíhou lái zhèlǐ kàn shū.",
+      "translationTr": "Bu yüzden bazen buraya kitap okumaya geliyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你最近在看什么？",
+      "pinyin": "Nǐ zuìjìn zài kàn shénme?",
+      "translationTr": "Son zamanlarda ne okuyorsun?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "一本关于旅行的书，不难，很轻松。",
+      "pinyin": "Yì běn guānyú lǚxíng de shū, bù nán, hěn qīngsōng.",
+      "translationTr": "Seyahatle ilgili bir kitap, zor değil, rahat okunuyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我很久没认真看书了。",
+      "pinyin": "Wǒ hěn jiǔ méi rènzhēn kàn shū le.",
+      "translationTr": "Uzun zamandır ciddi şekilde kitap okumadım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你平时都看手机，对吧？",
+      "pinyin": "Nǐ píngshí dōu kàn shǒujī, duì ba?",
+      "translationTr": "Genelde telefona bakıyorsun, değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，手机方便，但是很容易分心。",
+      "pinyin": "Duì, shǒujī fāngbiàn, dànshì hěn róngyì fēnxīn.",
+      "translationTr": "Evet, telefon pratik ama dikkatim kolay dağılıyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "看书的时候可以把手机放远一点儿。",
+      "pinyin": "Kàn shū de shíhou kěyǐ bǎ shǒujī fàng yuǎn yìdiǎnr.",
+      "translationTr": "Kitap okurken telefonu biraz uzağa koyabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我如果每天看十页，会不会太少？",
+      "pinyin": "Wǒ rúguǒ měitiān kàn shí yè, huì bú huì tài shǎo?",
+      "translationTr": "Her gün on sayfa okusam çok mu az olur?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不少，重要的是每天都看一点儿。",
+      "pinyin": "Bù shǎo, zhòngyào de shì měitiān dōu kàn yìdiǎnr.",
+      "translationTr": "Az değil, önemli olan her gün biraz okumak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我想找一本简单的中文书。",
+      "pinyin": "Nà wǒ xiǎng zhǎo yì běn jiǎndān de Zhōngwén shū.",
+      "translationTr": "O zaman basit bir Çince kitap bulmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以先看短故事，比较容易。",
+      "pinyin": "Kěyǐ xiān kàn duǎn gùshi, bǐjiào róngyì.",
+      "translationTr": "Önce kısa hikâyeler okuyabilirsin, daha kolay olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "遇到不认识的字怎么办？",
+      "pinyin": "Yùdào bù rènshi de zì zěnme bàn?",
+      "translationTr": "Bilmediğim bir karakterle karşılaşırsam ne yapayım?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先猜意思，真的看不懂再查。",
+      "pinyin": "Xiān cāi yìsi, zhēn de kàn bu dǒng zài chá.",
+      "translationTr": "Önce anlamını tahmin et, gerçekten anlamazsan sonra bak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样不会一直停下来。",
+      "pinyin": "Zhèyàng bú huì yìzhí tíng xiàlái.",
+      "translationTr": "Böylece sürekli durmak zorunda kalmam.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，读得顺一点儿更重要。",
+      "pinyin": "Duì, dú de shùn yìdiǎnr gèng zhòngyào.",
+      "translationTr": "Evet, daha akıcı okumak daha önemli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，今天我先看二十分钟。",
+      "pinyin": "Hǎo, jīntiān wǒ xiān kàn èrshí fēnzhōng.",
+      "translationTr": "Tamam, bugün önce yirmi dakika okuyayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc017_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC017_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我也看我的书，二十分钟以后再聊天。",
+      "pinyin": "Wǒ yě kàn wǒ de shū, èrshí fēnzhōng yǐhòu zài liáotiān.",
+      "translationTr": "Ben de kitabımı okuyayım, yirmi dakika sonra konuşuruz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc017_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

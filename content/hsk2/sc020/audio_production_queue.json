@@ -1,0 +1,301 @@
+{
+  "sceneId": "HSK2_SC020",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK2_SC020_audio_assets.zip",
+  "outputDirectory": "content/hsk2/sc020/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk2_sc020_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "最近你看起来精神好多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk2_sc020_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我也觉得。可能是睡得早了一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk2_sc020_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "还有你现在走路也比以前多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk2_sc020_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对。我发现不用一次做很多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk2_sc020_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "每天一点儿，反而更容易坚持。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk2_sc020_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "以前我总想一下子改变很多习惯。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk2_sc020_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "所以很快就觉得累。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk2_sc020_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "现在我只选两三件最重要的。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk2_sc020_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "比如早点儿睡、每天走路？",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk2_sc020_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对，还有晚上少看一点儿手机。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk2_sc020_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这些都很实际。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk2_sc020_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "最重要的是我没有觉得压力很大。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk2_sc020_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "找到适合自己的节奏就好。",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk2_sc020_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "工作忙的时候我就少做一点儿。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk2_sc020_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "有空的时候再多走走、看看书。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk2_sc020_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这样生活舒服多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk2_sc020_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "下一个目标是什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk2_sc020_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "继续学中文，不过也要记得休息。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk2_sc020_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "精神",
+      "emotion": "neutral"
+    },
+    {
+      "order": 20,
+      "file": "hsk2_sc020_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "反而",
+      "emotion": "neutral"
+    },
+    {
+      "order": 21,
+      "file": "hsk2_sc020_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "一下子",
+      "emotion": "neutral"
+    },
+    {
+      "order": 22,
+      "file": "hsk2_sc020_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "改变",
+      "emotion": "neutral"
+    },
+    {
+      "order": 23,
+      "file": "hsk2_sc020_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "比如",
+      "emotion": "neutral"
+    },
+    {
+      "order": 24,
+      "file": "hsk2_sc020_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "实际",
+      "emotion": "neutral"
+    },
+    {
+      "order": 25,
+      "file": "hsk2_sc020_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "节奏",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk2_sc020_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "目标",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk2_sc020_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "继续",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk2_sc020_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "记得",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk2_sc020_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "还有你现在走路也比以前多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk2_sc020_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "以前我总想一下子改变很多习惯。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk2_sc020_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "比如早点儿睡、每天走路？",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk2_sc020_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "最重要的是我没有觉得压力很大。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk2_sc020_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "有空的时候再多走走、看看书。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk2_sc020_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "继续学中文，不过也要记得休息。",
+      "emotion": "natural"
+    }
+  ]
+}
