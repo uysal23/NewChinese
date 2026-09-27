@@ -3,7 +3,7 @@
   "masterStep": 11,
   "goldenReference": "Run #163",
   "hsk1AcceptanceReference": "Run #280",
-  "status": "media_ready_validation_pending",
+  "status": "complete",
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "work and daily life",
   "dialogueTargetTurns": "18-30",
@@ -100,7 +100,7 @@
     "totalScenes": 10,
     "visualComplete": 10,
     "audioComplete": 10,
-    "acceptedScenes": 0,
+    "acceptedScenes": 10,
     "previewComplete": 10
   },
   "previewAssets": {
@@ -122,5 +122,14 @@
     "requireValidationPass": true,
     "validationStatus": "pending",
     "accepted": false
+  },
+  "validation": {
+    "status": "passed",
+    "workflow": "Validate and Build",
+    "runNumber": 318,
+    "runId": 36334375147,
+    "validatedHead": "d82434d736db2e958ffe0ad26ddbef31eddc1a27",
+    "buildDebug": "skipped",
+    "buildRelease": "skipped"
   }
 }
