@@ -1,7 +1,7 @@
 {
   "sceneId": "HSK1_SC032",
   "visual": {
-    "status": "pending",
+    "status": "complete",
     "required": [
       "assets/hsk1_sc032_bg.webp",
       "assets/hsk1_sc032_char_li_na.webp",
@@ -9,14 +9,7 @@
       "assets/hsk1_sc032_fg.webp",
       "assets/hsk1_sc032_preview.webp"
     ],
-    "missing": [
-      "assets/hsk1_sc032_char_li_na.webp",
-      "assets/hsk1_sc032_char_zhang_wei.webp",
-      "assets/hsk1_sc032_fg.webp"
-    ],
-    "importedBackground": "assets/hsk1_sc032_bg.webp",
-    "importedPreview": "assets/hsk1_sc032_preview.webp",
-    "note": "Background and composite preview are present; Li Na, Zhang Wei and foreground layers remain pending."
+    "missing": []
   },
   "audio": {
     "status": "complete",
