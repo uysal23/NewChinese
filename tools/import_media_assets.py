@@ -13,6 +13,10 @@ PACKAGE_RE = re.compile(
     r"^(HSK([1-6])_SC(\d{3}))_(visual|audio)_assets\.zip$",
     re.IGNORECASE,
 )
+BATCH_RE = re.compile(
+    r"^HSK([1-6])_SC(\d{3})_SC(\d{3})_(visual|audio)_assets_batch\.zip$",
+    re.IGNORECASE,
+)
 
 ALLOWED_SUFFIXES = {
     "visual": {".webp", ".png", ".jpg", ".jpeg"},
@@ -110,12 +114,61 @@ def import_package(zip_path: Path) -> None:
         print(f"{category} status: complete")
 
 
+def expand_batch_package(batch_path: Path) -> None:
+    match = BATCH_RE.match(batch_path.name)
+    if not match:
+        return
+    level, start_s, end_s, category = match.groups()
+    start, end = int(start_s), int(end_s)
+    if start > end:
+        fail(f"Invalid batch range: {batch_path.name}")
+    expected = {
+        f"HSK{level}_SC{n:03d}_{category.lower()}_assets.zip"
+        for n in range(start, end + 1)
+    }
+    found: set[str] = set()
+    with zipfile.ZipFile(batch_path) as archive:
+        for info in safe_members(archive):
+            filename = Path(info.filename).name
+            if filename == "PACKAGE_MANIFEST.json":
+                continue
+            if filename not in expected:
+                fail(
+                    f"Unexpected nested package in {batch_path.name}: {filename}. "
+                    f"Expected scene packages for SC{start:03d}-SC{end:03d}."
+                )
+            destination = INCOMING / filename
+            with archive.open(info) as source, destination.open("wb") as target:
+                shutil.copyfileobj(source, target)
+            found.add(filename)
+    missing = sorted(expected - found)
+    if missing:
+        fail(f"Missing nested packages in {batch_path.name}: {', '.join(missing)}")
+    batch_path.unlink()
+    print(f"Expanded batch {batch_path.name}: {len(found)} scene packages.")
+
+
 def main() -> int:
     INCOMING.mkdir(exist_ok=True)
-    packages = sorted(INCOMING.glob("*.zip"))
-    if not packages:
+    initial = sorted(INCOMING.glob("*.zip"))
+    if not initial:
         print("No media ZIP packages found in incoming_assets.")
         return 0
+
+    for package in initial:
+        if BATCH_RE.match(package.name):
+            expand_batch_package(package)
+
+    packages = sorted(
+        path for path in INCOMING.glob("*.zip")
+        if PACKAGE_RE.match(path.name)
+    )
+    unsupported = sorted(
+        path.name for path in INCOMING.glob("*.zip")
+        if not PACKAGE_RE.match(path.name)
+    )
+    if unsupported:
+        fail(f"Unsupported media ZIP package(s): {', '.join(unsupported)}")
 
     for package in packages:
         import_package(package)
