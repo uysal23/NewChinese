@@ -25,31 +25,52 @@ import com.uysal23.newchinese.media.OfflineMandarinShadowingEngine
 fun StudyHubScreen(
     progress: SceneProgressEntity?,
     freeStudyMode: Boolean,
+    vocabularyCount: Int,
+    dialogueLineCount: Int,
     onVocabulary: () -> Unit,
     onSentence: () -> Unit,
     onShadowing: () -> Unit,
     onExam: () -> Unit,
     onBack: () -> Unit
 ) {
-    val studyReady = progress?.let {
-        it.vocabularyCompleted && it.sentencePracticeCompleted && it.shadowingCompleted
-    } == true
+    fun pct(value: Int, complete: Boolean): Int = if (complete) 100 else value.coerceIn(0, 100)
+    val vocabularyPercent = pct(progress?.vocabularyProgressPercent ?: 0, progress?.vocabularyCompleted == true)
+    val sentencePercent = pct(progress?.sentencePracticeProgressPercent ?: 0, progress?.sentencePracticeCompleted == true)
+    val shadowingPercent = pct(progress?.shadowingProgressPercent ?: 0, progress?.shadowingCompleted == true)
+    val studyReady = vocabularyPercent >= 50 && sentencePercent >= 50 && shadowingPercent >= 50
 
     Column(
-        Modifier.fillMaxSize().padding(20.dp),
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text("Çalışma", style = MaterialTheme.typography.headlineMedium)
         if (freeStudyMode) {
             Text("Serbest Çalışma modu · ilerleme ve sahne kilitleri değişmez.")
         } else {
-            StudyStatus("Kelime", progress?.vocabularyCompleted == true)
-            StudyStatus("Cümle", progress?.sentencePracticeCompleted == true)
-            StudyStatus("Shadowing", progress?.shadowingCompleted == true)
+            StudyStatus("Kelime", vocabularyPercent, "$vocabularyCount kelime")
+            StudyStatus("Cümle", sentencePercent, "$dialogueLineCount cümle × 3 çalışma")
+            StudyStatus(
+                "Shadowing",
+                shadowingPercent,
+                progress?.shadowingBestSimilarity
+                    ?.takeIf { it > 0 }
+                    ?.let { "En iyi benzerlik: %$it" }
+                    ?: "Henüz sonuç yok"
+            )
+            Text(
+                "Kelime, cümle ve shadowing çalışmalarının her birinde en az %50 ilerlediğinde istersen Sahne Sınavı'na geçebilirsin.",
+                style = MaterialTheme.typography.bodyMedium
+            )
         }
-        Button(onClick = onVocabulary, modifier = Modifier.fillMaxWidth()) { Text("Kelime Çalışması") }
-        Button(onClick = onSentence, modifier = Modifier.fillMaxWidth()) { Text("Cümle Çalışması") }
-        Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) { Text("Shadowing") }
+        Button(onClick = onVocabulary, modifier = Modifier.fillMaxWidth()) {
+            Text("Kelime Çalışması · $vocabularyCount")
+        }
+        Button(onClick = onSentence, modifier = Modifier.fillMaxWidth()) {
+            Text("Cümle Çalışması · ${dialogueLineCount * 3} görev")
+        }
+        Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) {
+            Text("Shadowing")
+        }
         if (!freeStudyMode) {
             Button(
                 onClick = onExam,
@@ -65,7 +86,7 @@ fun StudyHubScreen(
                 )
             }
             if (!studyReady) {
-                Text("Sınav için üç çalışma bölümünü de tamamla.")
+                Text("Sahne Sınavı için üç çalışma bölümünün her birinde en az %50 ilerleme gerekli.")
             }
         }
         OutlinedButton(onClick = onBack, modifier = Modifier.fillMaxWidth()) { Text("Diyaloğa Dön") }
@@ -73,11 +94,22 @@ fun StudyHubScreen(
 }
 
 @Composable
-private fun StudyStatus(label: String, complete: Boolean) {
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        Text(if (complete) "✓" else "○")
-        Spacer(Modifier.width(8.dp))
-        Text(label)
+private fun StudyStatus(label: String, percent: Int, detail: String) {
+    Card(Modifier.fillMaxWidth()) {
+        Column(
+            Modifier.fillMaxWidth().padding(12.dp),
+            verticalArrangement = Arrangement.spacedBy(4.dp)
+        ) {
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                Text(label, style = MaterialTheme.typography.titleMedium)
+                Text("%$percent", style = MaterialTheme.typography.titleMedium)
+            }
+            LinearProgressIndicator(
+                progress = { percent / 100f },
+                modifier = Modifier.fillMaxWidth()
+            )
+            Text(detail, style = MaterialTheme.typography.bodySmall)
+        }
     }
 }
 
@@ -88,6 +120,7 @@ fun VocabularyScreen(
     favoriteIds: Set<String>,
     playbackSpeed: Float,
     onToggleFavorite: (String) -> Unit,
+    onProgress: (Int) -> Unit,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
@@ -154,9 +187,16 @@ fun VocabularyScreen(
             Text("${index + 1} / ${items.size}")
 
             if (index < items.lastIndex) {
-                Button(onClick = { index++; showMeaning = false }) { Text("Sonraki →") }
+                Button(onClick = {
+                    onProgress((((index + 1).toFloat() / items.size) * 100).toInt())
+                    index++
+                    showMeaning = false
+                }) { Text("Sonraki →") }
             } else {
-                Button(onClick = onComplete) { Text("Tamamla ✓") }
+                Button(onClick = {
+                    onProgress(100)
+                    onComplete()
+                }) { Text("Tamamla ✓") }
             }
         }
     }
@@ -257,22 +297,80 @@ fun FreeStudyScreen(
     }
 }
 
+private enum class DialoguePracticeMode { REORDER, FILL_BLANK, LISTEN_SELECT }
+
+private data class DialoguePracticeTask(
+    val line: DialogueLine,
+    val mode: DialoguePracticeMode
+)
+
 @Composable
 fun SentencePracticeScreen(
     sceneId: String,
-    exercises: List<SentenceExercise>,
+    lines: List<DialogueLine>,
     playbackSpeed: Float,
+    onProgress: (Int) -> Unit,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
     val context = LocalContext.current
     val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
     DisposableEffect(Unit) { onDispose { audioPlayer.release() } }
+
+    val tasks = remember(lines) {
+        buildList {
+            DialoguePracticeMode.entries.forEach { mode ->
+                lines.forEach { line -> add(DialoguePracticeTask(line, mode)) }
+            }
+        }
+    }
     var index by remember { mutableIntStateOf(0) }
-    val exercise = exercises[index]
-    var selectedTokens by remember(index) { mutableStateOf(emptyList<String>()) }
     var selectedOption by remember(index) { mutableStateOf<String?>(null) }
     var audioMissing by remember(index) { mutableStateOf(false) }
+    val task = tasks[index]
+    val line = task.line
+
+    val chunks = remember(line.id) { splitMandarinChunks(line.chinese) }
+    val correctReorder = chunks.joinToString("")
+    val reorderOptions = remember(line.id) {
+        listOf(
+            correctReorder,
+            chunks.reversed().joinToString(""),
+            (chunks.drop(1) + chunks.take(1)).joinToString("")
+        ).distinct().shuffled()
+    }
+    val blankChunk = remember(line.id) {
+        chunks.getOrElse((chunks.size - 1).coerceAtLeast(0) / 2) { line.chinese }
+    }
+    val fillSentence = remember(line.id, blankChunk) {
+        line.chinese.replaceFirst(blankChunk, "＿＿＿")
+    }
+    val fillOptions = remember(line.id, lines) {
+        val distractors = lines
+            .filter { it.id != line.id }
+            .flatMap { splitMandarinChunks(it.chinese) }
+            .filter { it.isNotBlank() && it != blankChunk }
+            .distinct()
+            .shuffled()
+            .take(3)
+        (listOf(blankChunk) + distractors).distinct().shuffled()
+    }
+    val listenOptions = remember(line.id, lines) {
+        (listOf(line.chinese) + lines.filter { it.id != line.id }.shuffled().take(3).map { it.chinese })
+            .distinct()
+            .shuffled()
+    }
+
+    val correctAnswer = when (task.mode) {
+        DialoguePracticeMode.REORDER -> correctReorder
+        DialoguePracticeMode.FILL_BLANK -> blankChunk
+        DialoguePracticeMode.LISTEN_SELECT -> line.chinese
+    }
+    val options = when (task.mode) {
+        DialoguePracticeMode.REORDER -> reorderOptions
+        DialoguePracticeMode.FILL_BLANK -> fillOptions
+        DialoguePracticeMode.LISTEN_SELECT -> listenOptions
+    }
 
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp),
@@ -280,89 +378,82 @@ fun SentencePracticeScreen(
     ) {
         TextButton(onClick = onBack) { Text("Geri") }
         Text("Cümle Çalışması", style = MaterialTheme.typography.headlineMedium)
-        Text("${index + 1} / ${exercises.size}")
+        Text("${index + 1} / ${tasks.size} · ${lines.size} diyalog cümlesinin tamamı")
+
+        when (task.mode) {
+            DialoguePracticeMode.REORDER -> {
+                Text("Sıralama", style = MaterialTheme.typography.titleMedium)
+                Text("Parçaları doğru cümle sırasına getiren seçeneği seç.")
+            }
+            DialoguePracticeMode.FILL_BLANK -> {
+                Text("Boşluk Doldurma", style = MaterialTheme.typography.titleMedium)
+                Text(fillSentence, style = MaterialTheme.typography.headlineSmall)
+            }
+            DialoguePracticeMode.LISTEN_SELECT -> {
+                Text("Dinleme-Anlama", style = MaterialTheme.typography.titleMedium)
+                Text("Cümleyi dinle ve duyduğun Çince cümleyi seç.")
+            }
+        }
+
         OutlinedButton(
             onClick = {
-                val ok = exercise.audioFile.isNotBlank() &&
-                    audioPlayer.play("${sceneIdToAssetPath(sceneId)}/${exercise.audioFile}", playbackSpeed)
+                val ok = audioPlayer.play(
+                    "${sceneIdToAssetPath(sceneId)}/${line.audioFile}",
+                    playbackSpeed
+                )
                 audioMissing = !ok
-            }
-        ) { Text("🔊 Doğru Cümleyi Dinle") }
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) { Text("🔊 Cümleyi Dinle") }
+
         if (audioMissing) {
+            Text("Bu cümlenin Mandarin sesi bulunamadı.", color = MaterialTheme.colorScheme.error)
+        }
+
+        options.forEach { option ->
+            OutlinedButton(
+                onClick = { selectedOption = option },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(option)
+            }
+        }
+
+        if (selectedOption != null) {
             Text(
-                "Doğal Mandarin doğru cümle sesi henüz eklenmedi.",
-                color = MaterialTheme.colorScheme.error
+                if (selectedOption == correctAnswer) "✓ Doğru" else "Tekrar dene · Doğru: $correctAnswer"
             )
         }
 
-        when (exercise.type) {
-            "reorder", "repair_order" -> {
-                Text("Kelimeleri doğru sıraya koy.")
-                Card(Modifier.fillMaxWidth().heightIn(min = 72.dp)) {
-                    Row(
-                        Modifier.padding(12.dp).fillMaxWidth(),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        selectedTokens.forEachIndexed { tokenIndex, token ->
-                            AssistChip(
-                                onClick = {
-                                    selectedTokens = selectedTokens.toMutableList().also { it.removeAt(tokenIndex) }
-                                },
-                                label = { Text(token) }
-                            )
-                        }
-                    }
+        Button(
+            onClick = {
+                val completed = index + 1
+                onProgress(((completed.toFloat() / tasks.size) * 100).toInt())
+                if (index == tasks.lastIndex) {
+                    onProgress(100)
+                    onComplete()
+                } else {
+                    index++
                 }
-                FlowLikeRow(
-                    tokens = exercise.tokens.filter { token -> token !in selectedTokens },
-                    onToken = { selectedTokens = selectedTokens + it }
-                )
-                if (selectedTokens.size == exercise.tokens.size) {
-                    val answer = selectedTokens.joinToString("")
-                    Text(if (answer == exercise.tokens.joinToString("")) "✓ Doğru" else "Tekrar dene")
-                }
-            }
-            "fill_blank", "choose_word" -> {
-                Text(exercise.sentenceZh.orEmpty().replace("___", " - - - - - - - - "))
-                exercise.options.forEach { option ->
-                    OutlinedButton(
-                        onClick = { selectedOption = option },
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        Text(option)
-                    }
-                }
-                if (selectedOption != null) {
-                    Text(if (selectedOption == exercise.correctAnswer) "✓ Doğru" else "Tekrar dene")
-                }
-            }
-            "listen_select" -> {
-                Text("Cümleyi dinle ve doğru seçeneği seç.")
-                val correct = exercise.correctAnswer ?: exercise.correctZh
-                exercise.options.forEach { option ->
-                    OutlinedButton(
-                        onClick = { selectedOption = option },
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        Text(option)
-                    }
-                }
-                if (selectedOption != null) {
-                    Text(if (selectedOption == correct) "✓ Doğru" else "Tekrar dene")
-                }
-            }
-            else -> Text("Bu alıştırma tipi desteklenmiyor.")
-        }
-
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Button(onClick = { if (index > 0) index-- }, enabled = index > 0) { Text("←") }
-            if (index < exercises.lastIndex) {
-                Button(onClick = { index++ }) { Text("→") }
-            } else {
-                Button(onClick = onComplete) { Text("Tamamla ✓") }
-            }
+            },
+            enabled = selectedOption != null,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(if (index == tasks.lastIndex) "Cümle Çalışmasını Tamamla ✓" else "Sonraki →")
         }
     }
+}
+
+private fun splitMandarinChunks(text: String): List<String> {
+    val cleaned = text.trim()
+    if (cleaned.length <= 3) return cleaned.map { it.toString() }
+    val targetParts = when {
+        cleaned.length <= 6 -> 3
+        cleaned.length <= 12 -> 4
+        else -> 5
+    }
+    val chunkSize = kotlin.math.ceil(cleaned.length.toDouble() / targetParts).toInt().coerceAtLeast(1)
+    return cleaned.chunked(chunkSize)
 }
 
 @Composable
@@ -384,6 +475,7 @@ fun ShadowingSetupScreen(
     lines: List<DialogueLine>,
     playbackSpeed: Float,
     onSimilarityResult: (Int) -> Unit,
+    onProgress: (Int) -> Unit,
     onComplete: () -> Unit,
     onBack: () -> Unit
 ) {
@@ -650,7 +742,10 @@ fun ShadowingSetupScreen(
                     referencePlayed = false
                     referenceMissing = false
 
+                    val completed = currentIndex + 1
+                    onProgress(((completed.toFloat() / sessionLines.size) * 100).toInt())
                     if (currentIndex == sessionLines.lastIndex) {
+                        onProgress(100)
                         onComplete()
                     } else {
                         currentIndex++
