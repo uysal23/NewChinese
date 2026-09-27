@@ -1,0 +1,25 @@
+{
+  "locationId": "LOC_ELECTRONICS_STORE_001",
+  "name": "Neighborhood Electronics Store",
+  "city": "Hangzhou",
+  "style": "clean modern consumer electronics shop",
+  "continuity": [
+    "bright neutral lighting",
+    "headphones and phone accessories",
+    "small device display tables",
+    "tidy shelves",
+    "family-friendly",
+    "no readable generated branding"
+  ],
+  "zones": [
+    "headphone display",
+    "phone accessory wall",
+    "device demo table",
+    "checkout area"
+  ],
+  "timeVariants": [
+    "daytime",
+    "early evening"
+  ],
+  "signageRule": "avoid brand logos and critical readable generated text"
+}

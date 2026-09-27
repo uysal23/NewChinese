@@ -1,0 +1,27 @@
+{
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "name": "Hangzhou Public Library Study Area",
+  "city": "Hangzhou",
+  "style": "modern quiet public library and study space",
+  "continuity": [
+    "light wood shelves",
+    "large windows",
+    "quiet study tables",
+    "soft neutral lighting",
+    "green indoor plants",
+    "family-friendly",
+    "no critical generated readable text"
+  ],
+  "zones": [
+    "book shelves",
+    "quiet study tables",
+    "window reading area",
+    "self-service search area"
+  ],
+  "timeVariants": [
+    "morning",
+    "afternoon",
+    "early evening"
+  ],
+  "signageRule": "Simplified Chinese context only; critical text must be UI overlay, not generated image text"
+}
