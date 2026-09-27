@@ -82,5 +82,5 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - Golden Demo #163: kilitli referans.
 - SC001–SC030: tamam.
 - SC031–SC040: tamamlandı ve validation geçti.
-- SC041–SC050: içerik ve görseller 10/10 hazır; ses üretimi sırada.
-- **Aktif Adım: Adım 9**
+- SC041–SC050: tamamlandı; içerik, 50/50 görsel ve 240/240 ses hazır, validation kabulü tamamlandı.
+- **Aktif Adım: Adım 10 — HSK1 Seviye Kabul Testi**
