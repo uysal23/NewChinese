@@ -3,7 +3,7 @@
   "masterStep": 11,
   "goldenReference": "Run #163",
   "hsk1AcceptanceReference": "Run #280",
-  "status": "content_ready_visual_audio_pending",
+  "status": "media_ready_validation_pending",
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "work and daily life",
   "dialogueTargetTurns": "18-30",
@@ -12,61 +12,61 @@
       "sceneId": "HSK2_SC001",
       "titleTr": "Yeni Bir İş Günü",
       "focus": "iş günü rutini ve plan",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC002",
       "titleTr": "Bugünün Görevleri",
       "focus": "görevler, sıra ve öncelik",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC003",
       "titleTr": "Öğle Arasında",
       "focus": "öğle planı ve tercihler",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC004",
       "titleTr": "Yardım İstemek",
       "focus": "işte yardım isteme ve açıklama",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC005",
       "titleTr": "Küçük Bir Hata",
       "focus": "problem açıklama ve çözüm",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC006",
       "titleTr": "Yoğun Bir Öğleden Sonra",
       "focus": "zaman, yoğunluk ve plan değişikliği",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC007",
       "titleTr": "İş Çıkışı Planı",
       "focus": "iş sonrası etkinlik planı",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC008",
       "titleTr": "Bir Mesajı Açıklamak",
       "focus": "mesaj, neden ve tekrar açıklama",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC009",
       "titleTr": "Yarın İçin Hazırlık",
       "focus": "gelecek planları ve hazırlık",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     },
     {
       "sceneId": "HSK2_SC010",
       "titleTr": "İlk Haftayı Değerlendirmek",
       "focus": "deneyim, tercih ve küçük değerlendirme",
-      "status": "content_ready_visual_audio_pending"
+      "status": "media_ready_validation_pending"
     }
   ],
   "requiredBeforeContent": [
@@ -98,7 +98,7 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
+    "visualComplete": 10,
     "audioComplete": 10,
     "acceptedScenes": 0,
     "previewComplete": 10
@@ -107,6 +107,20 @@
     "status": "complete",
     "count": 10,
     "format": "webp",
-    "note": "Composite scene previews imported; layered background/character/foreground assets remain pending."
+    "note": "Composite previews and all layered background/character/foreground assets are present."
+  },
+  "layeredVisualAssets": {
+    "status": "complete",
+    "scenes": 10,
+    "assetsPerScene": 4,
+    "totalLayerAssets": 40
+  },
+  "acceptance": {
+    "sceneCount": 10,
+    "requireVisualComplete": true,
+    "requireAudioComplete": true,
+    "requireValidationPass": true,
+    "validationStatus": "pending",
+    "accepted": false
   }
 }
