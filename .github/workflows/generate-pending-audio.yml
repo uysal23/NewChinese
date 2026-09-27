@@ -27,6 +27,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Sync latest main
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -75,5 +82,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/hsk*/sc*/assets content/hsk*/sc*/media_status.json
           git commit -m "Generate and import pending scene audio"
-          git pull --rebase origin main
-          git push
+          git push origin HEAD:main
