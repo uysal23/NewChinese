@@ -82,5 +82,5 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - Golden Demo #163: kilitli referans.
 - SC001–SC030: tamam.
 - SC031–SC040: tamamlandı ve validation geçti.
-- SC041–SC050: içerik + visual manifest paketleri hazır; görsel ve ses üretimi sırada.
+- SC041–SC050: içerik ve görseller 10/10 hazır; ses üretimi sırada.
 - **Aktif Adım: Adım 9**
