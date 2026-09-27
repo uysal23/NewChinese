@@ -1,11 +1,26 @@
 {
-  "voiceId":"VOICE_LI_NA_001",
-  "language":"zh-CN",
-  "nativeStyle":"Standard Mandarin",
-  "genderProfile":"female",
-  "ageProfile":"27-32",
-  "tone":"warm",
-  "speakingStyle":"natural_conversational",
-  "assignedCharacterId":"CHAR_LI_NA_001",
-  "phoneTtsAllowed":false
+  "voiceId": "VOICE_LI_NA_001",
+  "language": "zh-CN",
+  "nativeStyle": "Standard Mandarin",
+  "genderProfile": "female",
+  "ageProfile": "27-32",
+  "tone": "warm",
+  "speakingStyle": "natural_conversational",
+  "assignedCharacterId": "CHAR_LI_NA_001",
+  "phoneTtsAllowed": false,
+  "productionEngine": "edge-tts",
+  "engineVoice": "zh-CN-XiaoxiaoNeural",
+  "encoding": {
+    "container": "m4a",
+    "codec": "aac",
+    "bitrateKbps": 128,
+    "sampleRateHz": 44100,
+    "channels": 1
+  },
+  "sourceRateByType": {
+    "dialogue": "+0%",
+    "vocabulary": "-8%",
+    "sentence": "-3%"
+  },
+  "pitch": "+0Hz"
 }
