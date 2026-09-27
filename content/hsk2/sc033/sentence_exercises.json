@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC033",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC033_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC033_001",
+      "correctZh": "今天周六，早上还不算太堵。",
+      "pinyin": "Jīntiān zhōuliù, zǎoshang hái bú suàn tài dǔ.",
+      "translationTr": "Bugün cumartesi, sabah çok sıkışık sayılmaz.",
+      "sentenceZh": "今天周六，早上还不算太堵。",
+      "correctAnswer": "今天周六，早上还不算太堵。",
+      "options": [],
+      "tokens": [
+        "今天周",
+        "六早上",
+        "还不算",
+        "太堵"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC033_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC033_002",
+      "correctZh": "先找检票口吧。",
+      "pinyin": "Xiān zhǎo jiǎnpiàokǒu ba.",
+      "translationTr": "Önce bilet kontrol girişini bulalım.",
+      "sentenceZh": "___检票口吧。",
+      "correctAnswer": "先找",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC033_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC033_003",
+      "correctZh": "你第一次自己从这里坐火车吗？",
+      "pinyin": "Nǐ dì yī cì zìjǐ cóng zhèlǐ zuò huǒchē ma?",
+      "translationTr": "Buradan ilk kez mi trenle gidiyorsun?",
+      "sentenceZh": "你第一次自己从这里坐火车吗？",
+      "correctAnswer": "你第一次自己从这里坐火车吗？",
+      "options": [
+        "你第一次自己从这里坐火车吗？",
+        "我们来得正好，还有四十分钟。",
+        "我还担心路上会堵车。",
+        "今天周六，早上还不算太堵。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC033_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC033_004",
+      "correctZh": "进站、检票、找站台，对吧？",
+      "pinyin": "Jìnzhàn, jiǎnpiào, zhǎo zhàntái, duì ba?",
+      "translationTr": "İçeri gir, bileti kontrol ettir, peronu bul, değil mi?",
+      "sentenceZh": "进站、检票、找站台，对吧？",
+      "correctAnswer": "进站、检票、找站台，对吧？",
+      "options": [],
+      "tokens": [
+        "进站、",
+        "检票、",
+        "找站台",
+        "对吧"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC033_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC033_005",
+      "correctZh": "你看，检票信息出来了。",
+      "pinyin": "Nǐ kàn, jiǎnpiào xìnxī chūlái le.",
+      "translationTr": "Bak, kontrol bilgisi çıktı.",
+      "sentenceZh": "___，检票信息出来了。",
+      "correctAnswer": "你看",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC033_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC033_006",
+      "correctZh": "好，周末旅行正式开始。",
+      "pinyin": "Hǎo, zhōumò lǚxíng zhèngshì kāishǐ.",
+      "translationTr": "Tamam, hafta sonu gezisi resmen başladı.",
+      "sentenceZh": "好，周末旅行正式开始。",
+      "correctAnswer": "好，周末旅行正式开始。",
+      "options": [
+        "好，周末旅行正式开始。",
+        "我们来得正好，还有四十分钟。",
+        "我还担心路上会堵车。",
+        "今天周六，早上还不算太堵。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_sentence_006.m4a"
+    }
+  ]
+}

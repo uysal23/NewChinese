@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC033",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC033_001",
+      "hanzi": "正好",
+      "pinyin": "zhènghǎo",
+      "translationTr": "tam zamanında",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_002",
+      "hanzi": "堵车",
+      "pinyin": "dǔchē",
+      "translationTr": "trafik sıkışıklığı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_003",
+      "hanzi": "检票口",
+      "pinyin": "jiǎnpiàokǒu",
+      "translationTr": "bilet kontrol girişi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_004",
+      "hanzi": "信息",
+      "pinyin": "xìnxī",
+      "translationTr": "bilgi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_005",
+      "hanzi": "流程",
+      "pinyin": "liúchéng",
+      "translationTr": "süreç",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_006",
+      "hanzi": "进站",
+      "pinyin": "jìnzhàn",
+      "translationTr": "istasyona giriş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_007",
+      "hanzi": "检票",
+      "pinyin": "jiǎnpiào",
+      "translationTr": "bilet kontrolü",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_008",
+      "hanzi": "站台",
+      "pinyin": "zhàntái",
+      "translationTr": "peron",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_009",
+      "hanzi": "过去",
+      "pinyin": "guòqù",
+      "translationTr": "oraya geçmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC033_010",
+      "hanzi": "正式",
+      "pinyin": "zhèngshì",
+      "translationTr": "resmen",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_word_010.m4a"
+    }
+  ]
+}

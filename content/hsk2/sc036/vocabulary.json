@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC036",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC036_001",
+      "hanzi": "客栈",
+      "pinyin": "kèzhàn",
+      "translationTr": "pansiyon",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_002",
+      "hanzi": "窗外",
+      "pinyin": "chuāngwài",
+      "translationTr": "pencere dışı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_003",
+      "hanzi": "行李",
+      "pinyin": "xíngli",
+      "translationTr": "bagaj",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_004",
+      "hanzi": "附近",
+      "pinyin": "fùjìn",
+      "translationTr": "yakın çevre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_005",
+      "hanzi": "河边",
+      "pinyin": "hébiān",
+      "translationTr": "nehir kenarı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_006",
+      "hanzi": "光线",
+      "pinyin": "guāngxiàn",
+      "translationTr": "ışık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_007",
+      "hanzi": "同意",
+      "pinyin": "tóngyì",
+      "translationTr": "katılmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_008",
+      "hanzi": "出门",
+      "pinyin": "chūmén",
+      "translationTr": "dışarı çıkmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_009",
+      "hanzi": "休息好",
+      "pinyin": "xiūxi hǎo",
+      "translationTr": "iyi dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC036_010",
+      "hanzi": "早上",
+      "pinyin": "zǎoshang",
+      "translationTr": "sabah",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_word_010.m4a"
+    }
+  ]
+}

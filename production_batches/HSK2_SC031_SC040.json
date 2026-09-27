@@ -1,0 +1,86 @@
+{
+  "batchId": "HSK2_SC031_SC040",
+  "masterStep": 11,
+  "goldenReference": "Run #163",
+  "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
+  "theme": "weekend travel",
+  "dialogueTargetTurns": "18-30",
+  "status": "content_ready_visual_audio_pending",
+  "scenes": [
+    {
+      "sceneId": "HSK2_SC031",
+      "titleTr": "Hafta Sonu Nereye Gidelim?",
+      "locationId": "LOC_CAFE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC032",
+      "titleTr": "Çantayı Hazırlamak",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC033",
+      "titleTr": "İstasyona Doğru",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC034",
+      "titleTr": "Su Kasabasına Varınca",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC035",
+      "titleTr": "Öğle Yemeği İçin Yer Aramak",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC036",
+      "titleTr": "Küçük Pansiyona Yerleşmek",
+      "locationId": "LOC_GUESTHOUSE_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC037",
+      "titleTr": "Su Kasabasında Sabah",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC038",
+      "titleTr": "Plan Değişince",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC039",
+      "titleTr": "Hangzhou’ya Dönüş",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "status": "content_ready_visual_audio_pending"
+    },
+    {
+      "sceneId": "HSK2_SC040",
+      "titleTr": "Göl Kenarında Geziyi Konuşmak",
+      "locationId": "LOC_WEST_LAKE_001",
+      "status": "content_ready_visual_audio_pending"
+    }
+  ],
+  "pipeline": [
+    "content",
+    "visuals",
+    "audio",
+    "app_binding",
+    "validation",
+    "batch_acceptance"
+  ],
+  "progress": {
+    "contentReady": 10,
+    "totalScenes": 10,
+    "visualComplete": 0,
+    "audioComplete": 0,
+    "acceptedScenes": 0
+  }
+}

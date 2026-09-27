@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC040",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC040_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "回到杭州以后，再看西湖感觉怎么样？",
+      "pinyin": "Huídào Hángzhōu yǐhòu, zài kàn Xīhú gǎnjué zěnmeyàng?",
+      "translationTr": "Hangzhou'ya dönüp West Lake'i tekrar görünce nasıl hissediyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "很熟悉，也很舒服。",
+      "pinyin": "Hěn shúxī, yě hěn shūfu.",
+      "translationTr": "Çok tanıdık ve rahat.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "旅行以后会更喜欢熟悉的地方吗？",
+      "pinyin": "Lǚxíng yǐhòu huì gèng xǐhuan shúxī de dìfang ma?",
+      "translationTr": "Seyahatten sonra tanıdık yerleri daha mı çok seviyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一点儿。不过我也更想去新的地方。",
+      "pinyin": "Yǒu yìdiǎnr. Búguò wǒ yě gèng xiǎng qù xīn de dìfang.",
+      "translationTr": "Biraz. Ama yeni yerlere gitme isteğim de arttı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这次你觉得最大的收获是什么？",
+      "pinyin": "Zhè cì nǐ juéde zuì dà de shōuhuò shì shénme?",
+      "translationTr": "Bu geziden en büyük kazancın ne oldu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不用把每一分钟都安排好。",
+      "pinyin": "Bú yòng bǎ měi yì fēnzhōng dōu ānpái hǎo.",
+      "translationTr": "Her dakikayı planlamak gerekmiyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还有呢？",
+      "pinyin": "Hái yǒu ne?",
+      "translationTr": "Başka?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "计划变了也没关系。",
+      "pinyin": "Jìhuà biàn le yě méiguānxi.",
+      "translationTr": "Plan değişse de sorun değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这两个经验以后很有用。",
+      "pinyin": "Zhè liǎng ge jīngyàn yǐhòu hěn yǒuyòng.",
+      "translationTr": "Bu iki deneyim ileride çok işine yarar.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也发现自己敢用中文问路、问价格了。",
+      "pinyin": "Wǒ yě fāxiàn zìjǐ gǎn yòng Zhōngwén wèn lù, wèn jiàgé le.",
+      "translationTr": "Ayrıca Çince yol ve fiyat sormaya daha cesur olduğumu fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "真实生活里的中文最容易留下来。",
+      "pinyin": "Zhēnshí shēnghuó lǐ de Zhōngwén zuì róngyì liú xiàlái.",
+      "translationTr": "Gerçek hayatta kullanılan Çince daha kalıcı oluyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，因为马上就有结果。",
+      "pinyin": "Duì, yīnwèi mǎshàng jiù yǒu jiéguǒ.",
+      "translationTr": "Evet, çünkü hemen sonucu görüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "接下来可以多参加一些活动。",
+      "pinyin": "Jiēxiàlái kěyǐ duō cānjiā yìxiē huódòng.",
+      "translationTr": "Bundan sonra daha fazla etkinliğe katılabilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "认识更多人，对吧？",
+      "pinyin": "Rènshi gèng duō rén, duì ba?",
+      "translationTr": "Daha fazla insan tanımak, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，不一定都是学习活动。",
+      "pinyin": "Duì, bù yídìng dōu shì xuéxí huódòng.",
+      "translationTr": "Evet, hepsinin öğrenme etkinliği olması gerekmez.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听起来有点儿挑战，不过也很有意思。",
+      "pinyin": "Tīng qǐlái yǒudiǎnr tiǎozhàn, búguò yě hěn yǒuyìsi.",
+      "translationTr": "Kulağa biraz zorlayıcı geliyor ama ilginç de.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "慢慢来，从一两个新朋友开始。",
+      "pinyin": "Mànmàn lái, cóng yì liǎng ge xīn péngyou kāishǐ.",
+      "translationTr": "Yavaş yavaş, bir iki yeni arkadaşla başlarsın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC040_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，那就是下一个目标。",
+      "pinyin": "Hǎo, nà jiù shì xià yí ge mùbiāo.",
+      "translationTr": "Tamam, sıradaki hedef bu olsun.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

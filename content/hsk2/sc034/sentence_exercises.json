@@ -1,0 +1,108 @@
+{
+  "sceneId": "HSK2_SC034",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC034_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC034_001",
+      "correctZh": "我们先往哪边走？",
+      "pinyin": "Wǒmen xiān wǎng nǎbiān zǒu?",
+      "translationTr": "Önce hangi tarafa gidelim?",
+      "sentenceZh": "我们先往哪边走？",
+      "correctAnswer": "我们先往哪边走？",
+      "options": [],
+      "tokens": [
+        "我们先",
+        "往哪边",
+        "走"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC034_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC034_002",
+      "correctZh": "对，不过我们不用一直看地图。",
+      "pinyin": "Duì, búguò wǒmen bú yòng yìzhí kàn dìtú.",
+      "translationTr": "Evet ama sürekli haritaya bakmamıza gerek yok.",
+      "sentenceZh": "___不过我们不用一直看地图。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC034_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC034_003",
+      "correctZh": "那边的小路看起来很安静。",
+      "pinyin": "Nàbiān de xiǎolù kàn qǐlái hěn ānjìng.",
+      "translationTr": "Şuradaki küçük yol çok sakin görünüyor.",
+      "sentenceZh": "那边的小路看起来很安静。",
+      "correctAnswer": "那边的小路看起来很安静。",
+      "options": [
+        "那边的小路看起来很安静。",
+        "这里比照片里还漂亮。",
+        "而且今天人还不算很多。",
+        "我们先往哪边走？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC034_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC034_004",
+      "correctZh": "是，老房子比较多。",
+      "pinyin": "Shì, lǎo fángzi bǐjiào duō.",
+      "translationTr": "Evet, daha çok eski ev var.",
+      "sentenceZh": "是，老房子比较多。",
+      "correctAnswer": "是，老房子比较多。",
+      "options": [],
+      "tokens": [
+        "是老房",
+        "子比较",
+        "多"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC034_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC034_005",
+      "correctZh": "对，我有时候会一直看屏幕。",
+      "pinyin": "Duì, wǒ yǒushíhou huì yìzhí kàn píngmù.",
+      "translationTr": "Evet, bazen sürekli ekrana bakıyorum.",
+      "sentenceZh": "___我有时候会一直看屏幕。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC034_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC034_006",
+      "correctZh": "对，今天就慢慢走。",
+      "pinyin": "Duì, jīntiān jiù mànmàn zǒu.",
+      "translationTr": "Evet, bugün yavaş yavaş gezelim.",
+      "sentenceZh": "对，今天就慢慢走。",
+      "correctAnswer": "对，今天就慢慢走。",
+      "options": [
+        "对，今天就慢慢走。",
+        "这里比照片里还漂亮。",
+        "而且今天人还不算很多。",
+        "我们先往哪边走？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_sentence_006.m4a"
+    }
+  ]
+}

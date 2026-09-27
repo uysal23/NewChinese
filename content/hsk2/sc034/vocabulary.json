@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC034",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC034_001",
+      "hanzi": "沿着",
+      "pinyin": "yánzhe",
+      "translationTr": "boyunca",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_002",
+      "hanzi": "地图",
+      "pinyin": "dìtú",
+      "translationTr": "harita",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_003",
+      "hanzi": "随便",
+      "pinyin": "suíbiàn",
+      "translationTr": "gelişigüzel",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_004",
+      "hanzi": "方向",
+      "pinyin": "fāngxiàng",
+      "translationTr": "yön",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_005",
+      "hanzi": "小路",
+      "pinyin": "xiǎolù",
+      "translationTr": "küçük yol",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_006",
+      "hanzi": "老房子",
+      "pinyin": "lǎo fángzi",
+      "translationTr": "eski ev",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_007",
+      "hanzi": "周围",
+      "pinyin": "zhōuwéi",
+      "translationTr": "çevre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_008",
+      "hanzi": "屏幕",
+      "pinyin": "píngmù",
+      "translationTr": "ekran",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_009",
+      "hanzi": "为了",
+      "pinyin": "wèile",
+      "translationTr": "...için",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC034_010",
+      "hanzi": "真的",
+      "pinyin": "zhēn de",
+      "translationTr": "gerçekten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_word_010.m4a"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC037",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC037_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC037_001",
+      "correctZh": "连水面看起来都更平静。",
+      "pinyin": "Lián shuǐmiàn kàn qǐlái dōu gèng píngjìng.",
+      "translationTr": "Su yüzeyi bile daha sakin görünüyor.",
+      "sentenceZh": "连水面看起来都更平静。",
+      "correctAnswer": "连水面看起来都更平静。",
+      "options": [],
+      "tokens": [
+        "连水面",
+        "看起来",
+        "都更平",
+        "静"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC037_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC037_002",
+      "correctZh": "因为不用赶时间，也还没有很多游客。",
+      "pinyin": "Yīnwèi bú yòng gǎn shíjiān, yě hái méiyǒu hěn duō yóukè.",
+      "translationTr": "Çünkü acele etmiyorsun ve henüz çok turist olmuyor.",
+      "sentenceZh": "___不用赶时间，也还没有很多游客。",
+      "correctAnswer": "因为",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC037_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC037_003",
+      "correctZh": "而且今天我们不用特别去什么地方。",
+      "pinyin": "Érqiě jīntiān wǒmen bú yòng tèbié qù shénme dìfang.",
+      "translationTr": "Üstelik bugün özellikle bir yere gitmemiz gerekmiyor.",
+      "sentenceZh": "而且今天我们不用特别去什么地方。",
+      "correctAnswer": "而且今天我们不用特别去什么地方。",
+      "options": [
+        "而且今天我们不用特别去什么地方。",
+        "早上的这里跟昨天下午完全不一样。",
+        "人少了很多，也安静多了。",
+        "连水面看起来都更平静。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC037_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC037_004",
+      "correctZh": "本来周末旅行就是为了放松。",
+      "pinyin": "Běnlái zhōumò lǚxíng jiù shì wèile fàngsōng.",
+      "translationTr": "Zaten hafta sonu gezisi rahatlamak içindir.",
+      "sentenceZh": "本来周末旅行就是为了放松。",
+      "correctAnswer": "本来周末旅行就是为了放松。",
+      "options": [],
+      "tokens": [
+        "本来周",
+        "末旅行",
+        "就是为",
+        "了放松"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC037_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC037_005",
+      "correctZh": "今天我们走到那座桥就回来。",
+      "pinyin": "Jīntiān wǒmen zǒu dào nà zuò qiáo jiù huílái.",
+      "translationTr": "Bugün şu köprüye kadar gidip döneriz.",
+      "sentenceZh": "___我们走到那座桥就回来。",
+      "correctAnswer": "今天",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC037_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC037_006",
+      "correctZh": "那就慢慢走，不着急。",
+      "pinyin": "Nà jiù mànmàn zǒu, bù zháojí.",
+      "translationTr": "O zaman yavaş yavaş yürüyelim, acele yok.",
+      "sentenceZh": "那就慢慢走，不着急。",
+      "correctAnswer": "那就慢慢走，不着急。",
+      "options": [
+        "那就慢慢走，不着急。",
+        "早上的这里跟昨天下午完全不一样。",
+        "人少了很多，也安静多了。",
+        "连水面看起来都更平静。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_sentence_006.m4a"
+    }
+  ]
+}

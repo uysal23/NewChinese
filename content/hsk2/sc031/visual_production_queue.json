@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK2_SC031",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CAFE_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "composition": "Canonical warm cafe, map and phone on table without readable text, Zhang Wei and Li Na discussing a weekend trip, relaxed planning mood.",
+  "assets": [
+    {
+      "file": "hsk2_sc031_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc031_char_li_na.webp",
+      "purpose": "Li Na transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc031_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc031_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc031_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

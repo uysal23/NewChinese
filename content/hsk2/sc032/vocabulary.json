@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC032",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC032_001",
+      "hanzi": "行李",
+      "pinyin": "xíngli",
+      "translationTr": "bagaj",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_002",
+      "hanzi": "一套",
+      "pinyin": "yí tào",
+      "translationTr": "bir takım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_003",
+      "hanzi": "天气预报",
+      "pinyin": "tiānqì yùbào",
+      "translationTr": "hava tahmini",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_004",
+      "hanzi": "充电器",
+      "pinyin": "chōngdiànqì",
+      "translationTr": "şarj cihazı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_005",
+      "hanzi": "出差",
+      "pinyin": "chūchāi",
+      "translationTr": "iş seyahati",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_006",
+      "hanzi": "身份证",
+      "pinyin": "shēnfènzhèng",
+      "translationTr": "kimlik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_007",
+      "hanzi": "确认",
+      "pinyin": "quèrèn",
+      "translationTr": "kontrol etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_008",
+      "hanzi": "双",
+      "pinyin": "shuāng",
+      "translationTr": "çift",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_009",
+      "hanzi": "感谢",
+      "pinyin": "gǎnxiè",
+      "translationTr": "teşekkür etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC032_010",
+      "hanzi": "迟到",
+      "pinyin": "chídào",
+      "translationTr": "geç kalmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_word_010.m4a"
+    }
+  ]
+}

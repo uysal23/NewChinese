@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC036",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC036_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "房间比我想的还舒服。",
+      "pinyin": "Fángjiān bǐ wǒ xiǎng de hái shūfu.",
+      "translationTr": "Oda düşündüğümden daha rahat.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "而且很安静，窗外也不错。",
+      "pinyin": "Érqiě hěn ānjìng, chuāngwài yě búcuò.",
+      "translationTr": "Üstelik çok sessiz, pencere manzarası da güzel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们先把东西放下吧。",
+      "pinyin": "Wǒmen xiān bǎ dōngxi fàngxià ba.",
+      "translationTr": "Önce eşyaları bırakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个小包真的够用了。",
+      "pinyin": "Zhège xiǎo bāo zhēn de gòu yòng le.",
+      "translationTr": "Bu küçük çanta gerçekten yeterliymiş.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "所以旅行不一定要带很多行李。",
+      "pinyin": "Suǒyǐ lǚxíng bù yídìng yào dài hěn duō xíngli.",
+      "translationTr": "Demek ki seyahatte çok bagaj taşımak şart değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我已经学到了。",
+      "pinyin": "Wǒ yǐjīng xuédào le.",
+      "translationTr": "Bunu öğrendim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你累不累？",
+      "pinyin": "Nǐ lèi bu lèi?",
+      "translationTr": "Yoruldun mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "有一点儿，不过休息十分钟就好。",
+      "pinyin": "Yǒu yìdiǎnr, búguò xiūxi shí fēnzhōng jiù hǎo.",
+      "translationTr": "Biraz ama on dakika dinlenmek yeter.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "晚上还想出去吗？",
+      "pinyin": "Wǎnshang hái xiǎng chūqù ma?",
+      "translationTr": "Akşam yine dışarı çıkmak ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "想在附近走走，不想去太远。",
+      "pinyin": "Xiǎng zài fùjìn zǒuzou, bù xiǎng qù tài yuǎn.",
+      "translationTr": "Yakında biraz yürümek istiyorum, çok uzağa gitmek istemiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那吃完晚饭以后走半小时。",
+      "pinyin": "Nà chī wán wǎnfàn yǐhòu zǒu bàn xiǎoshí.",
+      "translationTr": "O zaman akşam yemeğinden sonra yarım saat yürürüz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "明天早上呢？",
+      "pinyin": "Míngtiān zǎoshang ne?",
+      "translationTr": "Peki yarın sabah?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "早点儿起来，看看早上的河边。",
+      "pinyin": "Zǎodiǎnr qǐlái, kànkan zǎoshang de hébiān.",
+      "translationTr": "Biraz erken kalkıp sabah nehir kenarına bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "应该会比下午安静。",
+      "pinyin": "Yīnggāi huì bǐ xiàwǔ ānjìng.",
+      "translationTr": "Muhtemelen öğleden sonradan daha sakin olur.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，而且光线也好。",
+      "pinyin": "Duì, érqiě guāngxiàn yě hǎo.",
+      "translationTr": "Evet, ışık da güzel olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那今晚别睡太晚。",
+      "pinyin": "Nà jīnwǎn bié shuì tài wǎn.",
+      "translationTr": "O zaman bu akşam çok geç yatmayalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "同意。旅行也要休息好。",
+      "pinyin": "Tóngyì. Lǚxíng yě yào xiūxi hǎo.",
+      "translationTr": "Katılıyorum. Seyahatte de iyi dinlenmek lazım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC036_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，先坐十分钟再出门。",
+      "pinyin": "Hǎo, xiān zuò shí fēnzhōng zài chūmén.",
+      "translationTr": "Tamam, önce on dakika oturup sonra çıkarız.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK2_SC035",
+  "locationId": "LOC_DAY_TRIP_TOWN_001",
+  "assets": {
+    "background": "assets/hsk2_sc035_bg.webp",
+    "characterA": "assets/hsk2_sc035_char_li_na.webp",
+    "characterB": "assets/hsk2_sc035_char_zhang_wei.webp",
+    "foreground": "assets/hsk2_sc035_fg.webp",
+    "preview": "assets/hsk2_sc035_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_LI_NA_001",
+      "outfit": "OUTFIT_LI_NA_CASUAL_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK2_SC035_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

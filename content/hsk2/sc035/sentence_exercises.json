@@ -1,0 +1,107 @@
+{
+  "sceneId": "HSK2_SC035",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC035_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC035_001",
+      "correctZh": "这条街的店很多。",
+      "pinyin": "Zhè tiáo jiē de diàn hěn duō.",
+      "translationTr": "Bu sokakta çok yer var.",
+      "sentenceZh": "这条街的店很多。",
+      "correctAnswer": "这条街的店很多。",
+      "options": [],
+      "tokens": [
+        "这条街",
+        "的店很",
+        "多"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc035_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC035_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC035_002",
+      "correctZh": "可以先看看菜单和价格。",
+      "pinyin": "Kěyǐ xiān kànkan càidān hé jiàgé.",
+      "translationTr": "Önce menü ve fiyatlara bakabiliriz.",
+      "sentenceZh": "___先看看菜单和价格。",
+      "correctAnswer": "可以",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc035_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC035_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC035_003",
+      "correctZh": "不过我不想点太多。",
+      "pinyin": "Búguò wǒ bù xiǎng diǎn tài duō.",
+      "translationTr": "Ama fazla sipariş vermek istemiyorum.",
+      "sentenceZh": "不过我不想点太多。",
+      "correctAnswer": "不过我不想点太多。",
+      "options": [
+        "不过我不想点太多。",
+        "走了这么久，我开始饿了。",
+        "我也是。找个地方吃午饭吧。",
+        "这条街的店很多。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc035_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC035_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC035_004",
+      "correctZh": "可以先问清楚。",
+      "pinyin": "Kěyǐ xiān wèn qīngchu.",
+      "translationTr": "Önce sorup netleştirebiliriz.",
+      "sentenceZh": "可以先问清楚。",
+      "correctAnswer": "可以先问清楚。",
+      "options": [],
+      "tokens": [
+        "可以先",
+        "问清楚"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc035_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC035_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC035_005",
+      "correctZh": "这个方法很实际。",
+      "pinyin": "Zhège fāngfǎ hěn shíjì.",
+      "translationTr": "Bu yöntem çok pratik.",
+      "sentenceZh": "___方法很实际。",
+      "correctAnswer": "这个",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc035_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC035_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC035_006",
+      "correctZh": "好，就去那家安静的小店。",
+      "pinyin": "Hǎo, jiù qù nà jiā ānjìng de xiǎo diàn.",
+      "translationTr": "Tamam, şu sakin küçük yere gidelim.",
+      "sentenceZh": "好，就去那家安静的小店。",
+      "correctAnswer": "好，就去那家安静的小店。",
+      "options": [
+        "好，就去那家安静的小店。",
+        "走了这么久，我开始饿了。",
+        "我也是。找个地方吃午饭吧。",
+        "这条街的店很多。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc035_sentence_006.m4a"
+    }
+  ]
+}

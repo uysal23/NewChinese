@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC033",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC033_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们来得正好，还有四十分钟。",
+      "pinyin": "Wǒmen lái de zhènghǎo, hái yǒu sìshí fēnzhōng.",
+      "translationTr": "Tam zamanında geldik, kırk dakikamız var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还担心路上会堵车。",
+      "pinyin": "Wǒ hái dānxīn lùshang huì dǔchē.",
+      "translationTr": "Yolda trafik olur diye endişeleniyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天周六，早上还不算太堵。",
+      "pinyin": "Jīntiān zhōuliù, zǎoshang hái bú suàn tài dǔ.",
+      "translationTr": "Bugün cumartesi, sabah çok sıkışık sayılmaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们的车是几点？",
+      "pinyin": "Wǒmen de chē shì jǐ diǎn?",
+      "translationTr": "Trenimiz saat kaçta?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "九点二十。",
+      "pinyin": "Jiǔ diǎn èrshí.",
+      "translationTr": "Dokuzu yirmi geçe.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "先找检票口吧。",
+      "pinyin": "Xiān zhǎo jiǎnpiàokǒu ba.",
+      "translationTr": "Önce bilet kontrol girişini bulalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用急，信息还没出来。",
+      "pinyin": "Bú yòng jí, xìnxī hái méi chūlái.",
+      "translationTr": "Acele etmeye gerek yok, bilgi daha çıkmadı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我们先坐一会儿。",
+      "pinyin": "Nà wǒmen xiān zuò yíhuìr.",
+      "translationTr": "O zaman biraz oturalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你第一次自己从这里坐火车吗？",
+      "pinyin": "Nǐ dì yī cì zìjǐ cóng zhèlǐ zuò huǒchē ma?",
+      "translationTr": "Buradan ilk kez mi trenle gidiyorsun?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不是第一次坐火车，但是以前有人带我。",
+      "pinyin": "Bú shì dì yī cì zuò huǒchē, dànshì yǐqián yǒu rén dài wǒ.",
+      "translationTr": "İlk kez trene binmiyorum ama daha önce biri bana eşlik ediyordu.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天你可以自己看流程。",
+      "pinyin": "Jīntiān nǐ kěyǐ zìjǐ kàn liúchéng.",
+      "translationTr": "Bugün süreci kendin takip edebilirsin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "进站、检票、找站台，对吧？",
+      "pinyin": "Jìnzhàn, jiǎnpiào, zhǎo zhàntái, duì ba?",
+      "translationTr": "İçeri gir, bileti kontrol ettir, peronu bul, değil mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，很简单。",
+      "pinyin": "Duì, hěn jiǎndān.",
+      "translationTr": "Evet, çok basit.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我现在已经没那么紧张了。",
+      "pinyin": "Wǒ xiànzài yǐjīng méi nàme jǐnzhāng le.",
+      "translationTr": "Artık o kadar gergin değilim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "你看，检票信息出来了。",
+      "pinyin": "Nǐ kàn, jiǎnpiào xìnxī chūlái le.",
+      "translationTr": "Bak, kontrol bilgisi çıktı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们现在过去吗？",
+      "pinyin": "Wǒmen xiànzài guòqù ma?",
+      "translationTr": "Şimdi geçelim mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以，慢慢走，不用跑。",
+      "pinyin": "Kěyǐ, mànmàn zǒu, bú yòng pǎo.",
+      "translationTr": "Olur, yavaşça yürüyelim, koşmaya gerek yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc033_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC033_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，周末旅行正式开始。",
+      "pinyin": "Hǎo, zhōumò lǚxíng zhèngshì kāishǐ.",
+      "translationTr": "Tamam, hafta sonu gezisi resmen başladı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc033_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

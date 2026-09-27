@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC037",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC037_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "早上的这里跟昨天下午完全不一样。",
+      "pinyin": "Zǎoshang de zhèlǐ gēn zuótiān xiàwǔ wánquán bù yíyàng.",
+      "translationTr": "Burası sabah, dünkü öğleden tamamen farklı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "人少了很多，也安静多了。",
+      "pinyin": "Rén shǎo le hěn duō, yě ānjìng duō le.",
+      "translationTr": "İnsan çok daha az, çok daha sessiz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "连水面看起来都更平静。",
+      "pinyin": "Lián shuǐmiàn kàn qǐlái dōu gèng píngjìng.",
+      "translationTr": "Su yüzeyi bile daha sakin görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我最喜欢旅行里的早晨。",
+      "pinyin": "Wǒ zuì xǐhuan lǚxíng lǐ de zǎochén.",
+      "translationTr": "Seyahatte en çok sabahları severim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "为什么？",
+      "pinyin": "Wèishénme?",
+      "translationTr": "Neden?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "因为不用赶时间，也还没有很多游客。",
+      "pinyin": "Yīnwèi bú yòng gǎn shíjiān, yě hái méiyǒu hěn duō yóukè.",
+      "translationTr": "Çünkü acele etmiyorsun ve henüz çok turist olmuyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前旅行总想睡晚一点儿。",
+      "pinyin": "Wǒ yǐqián lǚxíng zǒng xiǎng shuì wǎn yìdiǎnr.",
+      "translationTr": "Eskiden seyahatte hep geç kalkmak isterdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "偶尔早起一次也不错。",
+      "pinyin": "Ǒu'ěr zǎoqǐ yí cì yě búcuò.",
+      "translationTr": "Ara sıra erken kalkmak da güzel.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "而且今天我们不用特别去什么地方。",
+      "pinyin": "Érqiě jīntiān wǒmen bú yòng tèbié qù shénme dìfang.",
+      "translationTr": "Üstelik bugün özellikle bir yere gitmemiz gerekmiyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，走到哪儿算哪儿。",
+      "pinyin": "Duì, zǒu dào nǎr suàn nǎr.",
+      "translationTr": "Evet, nereye gidersek orası.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这句话听起来很轻松。",
+      "pinyin": "Zhè jù huà tīng qǐlái hěn qīngsōng.",
+      "translationTr": "Bu cümle kulağa çok rahat geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "本来周末旅行就是为了放松。",
+      "pinyin": "Běnlái zhōumò lǚxíng jiù shì wèile fàngsōng.",
+      "translationTr": "Zaten hafta sonu gezisi rahatlamak içindir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我发现慢一点儿以后，看到的东西反而更多。",
+      "pinyin": "Wǒ fāxiàn màn yìdiǎnr yǐhòu, kàndào de dōngxi fǎn'ér gèng duō.",
+      "translationTr": "Daha yavaş gidince aslında daha çok şey gördüğümü fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "因为你没有一直看下一站。",
+      "pinyin": "Yīnwèi nǐ méiyǒu yìzhí kàn xià yí zhàn.",
+      "translationTr": "Çünkü sürekli sıradaki durağa bakmıyorsun.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天我们走到那座桥就回来。",
+      "pinyin": "Jīntiān wǒmen zǒu dào nà zuò qiáo jiù huílái.",
+      "translationTr": "Bugün şu köprüye kadar gidip döneriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "好，然后回去吃早饭。",
+      "pinyin": "Hǎo, ránhòu huíqù chī zǎofàn.",
+      "translationTr": "Tamam, sonra dönüp kahvaltı ederiz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这个早晨已经很值得了。",
+      "pinyin": "Zhège zǎochén yǐjīng hěn zhíde le.",
+      "translationTr": "Bu sabah şimdiden buna değdi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC037_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就慢慢走，不着急。",
+      "pinyin": "Nà jiù mànmàn zǒu, bù zháojí.",
+      "translationTr": "O zaman yavaş yavaş yürüyelim, acele yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

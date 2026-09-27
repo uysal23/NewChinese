@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC039",
+  "level": "HSK2",
+  "sceneNumber": 39,
+  "titleZh": "回杭州",
+  "titleTr": "Hangzhou’ya Dönüş",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC038",
+  "nextSceneId": "HSK2_SC040",
+  "summaryTr": "Dönüş yolunda Zhang Wei ile Li Na yorgunluklarını, en sevdikleri anları ve sonraki kısa gezi için öğrendiklerini konuşur."
+}

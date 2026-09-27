@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC039",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC039_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "感觉周末过得太快了。",
+      "pinyin": "Gǎnjué zhōumò guò de tài kuài le.",
+      "translationTr": "Hafta sonu çok hızlı geçti gibi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "是，不过我们也做了很多事。",
+      "pinyin": "Shì, búguò wǒmen yě zuò le hěn duō shì.",
+      "translationTr": "Evet ama birçok şey de yaptık.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "而且没有觉得特别累。",
+      "pinyin": "Érqiě méiyǒu juéde tèbié lèi.",
+      "translationTr": "Üstelik çok yorulmuş da hissetmiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "因为我们没有把时间排得太满。",
+      "pinyin": "Yīnwèi wǒmen méiyǒu bǎ shíjiān pái de tài mǎn.",
+      "translationTr": "Çünkü programı fazla doldurmadık.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你最喜欢哪一段？",
+      "pinyin": "Nǐ zuì xǐhuan nǎ yí duàn?",
+      "translationTr": "En çok hangi bölümü sevdin?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天早上的河边。你呢？",
+      "pinyin": "Jīntiān zǎoshang de hébiān. Nǐ ne?",
+      "translationTr": "Bu sabah nehir kenarını. Ya sen?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我喜欢昨天刚到的时候随便走走。",
+      "pinyin": "Wǒ xǐhuan zuótiān gāng dào de shíhou suíbiàn zǒuzou.",
+      "translationTr": "Dün yeni vardığımızda gelişigüzel dolaşmayı sevdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "看来你真的开始喜欢慢一点儿旅行了。",
+      "pinyin": "Kànlái nǐ zhēn de kāishǐ xǐhuan màn yìdiǎnr lǚxíng le.",
+      "translationTr": "Görünüşe göre yavaş seyahati gerçekten sevmeye başladın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，而且小包也很成功。",
+      "pinyin": "Duì, érqiě xiǎo bāo yě hěn chénggōng.",
+      "translationTr": "Evet, küçük çanta fikri de çok başarılıydı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "下次你不会再带电脑了吧？",
+      "pinyin": "Xià cì nǐ bú huì zài dài diànnǎo le ba?",
+      "translationTr": "Bir dahaki sefere bilgisayar götürmezsin artık, değil mi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "绝对不会。",
+      "pinyin": "Juéduì bú huì.",
+      "translationTr": "Kesinlikle götürmem.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "还有什么想改的？",
+      "pinyin": "Hái yǒu shénme xiǎng gǎi de?",
+      "translationTr": "Başka neyi değiştirmek istersin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可能提前一点儿订住的地方。",
+      "pinyin": "Kěnéng tíqián yìdiǎnr dìng zhù de dìfang.",
+      "translationTr": "Belki kalacak yeri biraz daha erken ayırtmak.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样选择会更多。",
+      "pinyin": "Zhèyàng xuǎnzé huì gèng duō.",
+      "translationTr": "Böyle daha çok seçenek olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "其他都很好。",
+      "pinyin": "Qítā dōu hěn hǎo.",
+      "translationTr": "Diğer her şey iyiydi.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "回杭州以后今晚别安排别的了。",
+      "pinyin": "Huí Hángzhōu yǐhòu jīnwǎn bié ānpái biéde le.",
+      "translationTr": "Hangzhou'ya dönünce bu akşam başka plan yapma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "同意。回家洗澡、吃点儿东西、早点儿睡。",
+      "pinyin": "Tóngyì. Huí jiā xǐzǎo, chī diǎnr dōngxi, zǎodiǎnr shuì.",
+      "translationTr": "Katılıyorum. Eve gidip duş alır, bir şeyler yer, erken yatarım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC039_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "完美的旅行结束方式。",
+      "pinyin": "Wánměi de lǚxíng jiéshù fāngshì.",
+      "translationTr": "Mükemmel bir seyahat bitişi.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

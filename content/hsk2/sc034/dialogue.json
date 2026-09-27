@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC034",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC034_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里比照片里还漂亮。",
+      "pinyin": "Zhèlǐ bǐ zhàopiàn lǐ hái piàoliang.",
+      "translationTr": "Burası fotoğraflardan bile güzel.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "而且今天人还不算很多。",
+      "pinyin": "Érqiě jīntiān rén hái bú suàn hěn duō.",
+      "translationTr": "Üstelik bugün çok kalabalık sayılmaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我们先往哪边走？",
+      "pinyin": "Wǒmen xiān wǎng nǎbiān zǒu?",
+      "translationTr": "Önce hangi tarafa gidelim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我想先沿着河走。",
+      "pinyin": "Wǒ xiǎng xiān yánzhe hé zǒu.",
+      "translationTr": "Önce nehir boyunca yürümek istiyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "地图上那座桥好像不远。",
+      "pinyin": "Dìtú shàng nà zuò qiáo hǎoxiàng bù yuǎn.",
+      "translationTr": "Haritadaki köprü çok uzak görünmüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，不过我们不用一直看地图。",
+      "pinyin": "Duì, búguò wǒmen bú yòng yìzhí kàn dìtú.",
+      "translationTr": "Evet ama sürekli haritaya bakmamıza gerek yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我也想随便走走。",
+      "pinyin": "Wǒ yě xiǎng suíbiàn zǒuzou.",
+      "translationTr": "Ben de biraz gelişigüzel dolaşmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "只要记得回来的方向就行。",
+      "pinyin": "Zhǐyào jìde huílái de fāngxiàng jiù xíng.",
+      "translationTr": "Dönüş yönünü hatırlamamız yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那边的小路看起来很安静。",
+      "pinyin": "Nàbiān de xiǎolù kàn qǐlái hěn ānjìng.",
+      "translationTr": "Şuradaki küçük yol çok sakin görünüyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "可以先去看看。",
+      "pinyin": "Kěyǐ xiān qù kànkan.",
+      "translationTr": "Önce oraya bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这里的房子跟杭州很不一样。",
+      "pinyin": "Zhèlǐ de fángzi gēn Hángzhōu hěn bù yíyàng.",
+      "translationTr": "Buradaki evler Hangzhou'dakilerden çok farklı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "是，老房子比较多。",
+      "pinyin": "Shì, lǎo fángzi bǐjiào duō.",
+      "translationTr": "Evet, daha çok eski ev var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想慢慢拍几张照片。",
+      "pinyin": "Wǒ xiǎng mànmàn pāi jǐ zhāng zhàopiàn.",
+      "translationTr": "Yavaşça birkaç fotoğraf çekmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "别只顾着拍，也看看周围。",
+      "pinyin": "Bié zhǐ gùzhe pāi, yě kànkan zhōuwéi.",
+      "translationTr": "Sadece fotoğraf çekmeye odaklanma, etrafına da bak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "对，我有时候会一直看屏幕。",
+      "pinyin": "Duì, wǒ yǒushíhou huì yìzhí kàn píngmù.",
+      "translationTr": "Evet, bazen sürekli ekrana bakıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "旅行不是为了拍很多照片。",
+      "pinyin": "Lǚxíng bú shì wèile pāi hěn duō zhàopiàn.",
+      "translationTr": "Seyahat çok fotoğraf çekmek için değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "是为了真的看看这个地方。",
+      "pinyin": "Shì wèile zhēn de kànkan zhège dìfang.",
+      "translationTr": "Bu yeri gerçekten görmek için.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc034_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC034_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，今天就慢慢走。",
+      "pinyin": "Duì, jīntiān jiù mànmàn zǒu.",
+      "translationTr": "Evet, bugün yavaş yavaş gezelim.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc034_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

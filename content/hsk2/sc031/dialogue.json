@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC031",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC031_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这个周末你想出去走走吗？",
+      "pinyin": "Zhège zhōumò nǐ xiǎng chūqù zǒuzou ma?",
+      "translationTr": "Bu hafta sonu dışarı çıkıp gezmek ister misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "想。我最近一直在杭州，还没去过附近的小地方。",
+      "pinyin": "Xiǎng. Wǒ zuìjìn yìzhí zài Hángzhōu, hái méi qùguo fùjìn de xiǎo dìfang.",
+      "translationTr": "İsterim. Son zamanlarda hep Hangzhou'daydım, yakındaki küçük yerlere hiç gitmedim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那我们可以去一个水乡看看。",
+      "pinyin": "Nà wǒmen kěyǐ qù yí ge shuǐxiāng kànkan.",
+      "translationTr": "O zaman bir su kasabasına gidebiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "远吗？",
+      "pinyin": "Yuǎn ma?",
+      "translationTr": "Uzak mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不远，坐火车一个多小时。",
+      "pinyin": "Bù yuǎn, zuò huǒchē yí ge duō xiǎoshí.",
+      "translationTr": "Uzak değil, trenle bir saatten biraz fazla.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那很适合周末。要住一晚吗？",
+      "pinyin": "Nà hěn shìhé zhōumò. Yào zhù yì wǎn ma?",
+      "translationTr": "O zaman hafta sonu için çok uygun. Bir gece kalalım mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我觉得住一晚会轻松一点儿。",
+      "pinyin": "Wǒ juéde zhù yì wǎn huì qīngsōng yìdiǎnr.",
+      "translationTr": "Bence bir gece kalmak daha rahat olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样不用当天赶回来。",
+      "pinyin": "Zhèyàng bú yòng dāngtiān gǎn huílái.",
+      "translationTr": "Böyle aynı gün geri dönmeye yetişmeye çalışmayız.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对。周六上午出发，周日下午回来。",
+      "pinyin": "Duì. Zhōuliù shàngwǔ chūfā, zhōurì xiàwǔ huílái.",
+      "translationTr": "Evet. Cumartesi sabah çıkar, pazar öğleden sonra döneriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我喜欢这个安排。",
+      "pinyin": "Wǒ xǐhuan zhège ānpái.",
+      "translationTr": "Bu planı sevdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们先看看车票和住的地方。",
+      "pinyin": "Wǒmen xiān kànkan chēpiào hé zhù de dìfang.",
+      "translationTr": "Önce bilet ve kalacak yere bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "不用选太贵的，干净方便就行。",
+      "pinyin": "Bú yòng xuǎn tài guì de, gānjìng fāngbiàn jiù xíng.",
+      "translationTr": "Çok pahalı seçmemize gerek yok, temiz ve uygun olması yeter.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我也是这么想的。",
+      "pinyin": "Wǒ yě shì zhème xiǎng de.",
+      "translationTr": "Ben de öyle düşünüyorum.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "到了以后先吃午饭还是先逛？",
+      "pinyin": "Dào le yǐhòu xiān chī wǔfàn háishi xiān guàng?",
+      "translationTr": "Varınca önce yemek mi yiyelim yoksa gezelim mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "看时间吧，不用安排得太满。",
+      "pinyin": "Kàn shíjiān ba, bú yòng ānpái de tài mǎn.",
+      "translationTr": "Saate bakarız, programı fazla doldurmaya gerek yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我这次想慢一点儿旅行。",
+      "pinyin": "Hǎo, wǒ zhè cì xiǎng màn yìdiǎnr lǚxíng.",
+      "translationTr": "Tamam, bu kez daha yavaş bir gezi yapmak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就少去几个地方，多走走看看。",
+      "pinyin": "Nà jiù shǎo qù jǐ ge dìfang, duō zǒuzou kànkan.",
+      "translationTr": "O zaman az yer gezip daha çok yürüyüp bakalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC031_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "决定了，周末去水乡。",
+      "pinyin": "Juédìng le, zhōumò qù shuǐxiāng.",
+      "translationTr": "Karar verdik, hafta sonu su kasabasına gidiyoruz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

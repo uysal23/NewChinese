@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC038",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC038_001",
+      "hanzi": "原来",
+      "pinyin": "yuánlái",
+      "translationTr": "önceki / asıl",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_002",
+      "hanzi": "石头路",
+      "pinyin": "shítou lù",
+      "translationTr": "taş yol",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_003",
+      "hanzi": "滑",
+      "pinyin": "huá",
+      "translationTr": "kaygan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_004",
+      "hanzi": "室内",
+      "pinyin": "shìnèi",
+      "translationTr": "kapalı alan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_005",
+      "hanzi": "可惜",
+      "pinyin": "kěxī",
+      "translationTr": "yazık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_006",
+      "hanzi": "临时",
+      "pinyin": "línshí",
+      "translationTr": "geçici / ani",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_007",
+      "hanzi": "变化",
+      "pinyin": "biànhuà",
+      "translationTr": "değişiklik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_008",
+      "hanzi": "雨声",
+      "pinyin": "yǔshēng",
+      "translationTr": "yağmur sesi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_009",
+      "hanzi": "下一步",
+      "pinyin": "xià yí bù",
+      "translationTr": "sonraki adım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC038_010",
+      "hanzi": "继续",
+      "pinyin": "jìxù",
+      "translationTr": "devam etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_word_010.m4a"
+    }
+  ]
+}

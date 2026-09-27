@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC032",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC032_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我总觉得两天也要带很多东西。",
+      "pinyin": "Wǒ zǒng juéde liǎng tiān yě yào dài hěn duō dōngxi.",
+      "translationTr": "İki gün için bile çok şey götürmem gerekiyormuş gibi geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "其实一个小包就够了。",
+      "pinyin": "Qíshí yí ge xiǎo bāo jiù gòu le.",
+      "translationTr": "Aslında küçük bir çanta yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "衣服要带几套？",
+      "pinyin": "Yīfu yào dài jǐ tào?",
+      "translationTr": "Kaç takım kıyafet götürelim?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "一套换的就可以，天气也不冷。",
+      "pinyin": "Yí tào huàn de jiù kěyǐ, tiānqì yě bù lěng.",
+      "translationTr": "Bir yedek takım yeter, hava da soğuk değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "雨伞要不要带？",
+      "pinyin": "Yǔsǎn yào bu yào dài?",
+      "translationTr": "Şemsiye alalım mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "天气预报说可能有小雨，带一把比较好。",
+      "pinyin": "Tiānqì yùbào shuō kěnéng yǒu xiǎoyǔ, dài yì bǎ bǐjiào hǎo.",
+      "translationTr": "Hava tahmini hafif yağmur olabilir diyor, bir tane almak iyi olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "充电器也不能忘。",
+      "pinyin": "Chōngdiànqì yě bù néng wàng.",
+      "translationTr": "Şarj aletini de unutmamak lazım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，不过不用带电脑。",
+      "pinyin": "Duì, búguò bú yòng dài diànnǎo.",
+      "translationTr": "Evet ama bilgisayar götürmeye gerek yok.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我刚想把电脑放进去。",
+      "pinyin": "Wǒ gāng xiǎng bǎ diànnǎo fàng jìnqù.",
+      "translationTr": "Tam bilgisayarı koymayı düşünüyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这次是休息，不是出差。",
+      "pinyin": "Zhè cì shì xiūxi, bú shì chūchāi.",
+      "translationTr": "Bu bir dinlenme gezisi, iş seyahati değil.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "你说得对。那我只带手机和耳机。",
+      "pinyin": "Nǐ shuō de duì. Nà wǒ zhǐ dài shǒujī hé ěrjī.",
+      "translationTr": "Haklısın. O zaman sadece telefon ve kulaklık alayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "身份证和车票信息也确认一下。",
+      "pinyin": "Shēnfènzhèng hé chēpiào xìnxī yě quèrèn yíxià.",
+      "translationTr": "Kimlik ve bilet bilgilerini de kontrol et.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "已经放好了。",
+      "pinyin": "Yǐjīng fàng hǎo le.",
+      "translationTr": "Hazır, koydum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "鞋子穿舒服的，不用带第二双。",
+      "pinyin": "Xiézi chuān shūfu de, bú yòng dài dì èr shuāng.",
+      "translationTr": "Rahat ayakkabı giy, ikinci çifti götürme.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样包真的很轻。",
+      "pinyin": "Zhèyàng bāo zhēn de hěn qīng.",
+      "translationTr": "Böyle çanta gerçekten çok hafif.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "走很多路的时候你会感谢现在的自己。",
+      "pinyin": "Zǒu hěn duō lù de shíhou nǐ huì gǎnxiè xiànzài de zìjǐ.",
+      "translationTr": "Çok yürüdüğünde şimdiki haline teşekkür edeceksin.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我不再加东西了。",
+      "pinyin": "Hǎo, wǒ bú zài jiā dōngxi le.",
+      "translationTr": "Tamam, artık bir şey eklemiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC032_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那早点儿睡，明天别迟到。",
+      "pinyin": "Nà zǎodiǎnr shuì, míngtiān bié chídào.",
+      "translationTr": "O zaman erken yat, yarın geç kalma.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

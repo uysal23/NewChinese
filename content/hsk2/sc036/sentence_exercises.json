@@ -1,0 +1,107 @@
+{
+  "sceneId": "HSK2_SC036",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC036_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC036_001",
+      "correctZh": "我们先把东西放下吧。",
+      "pinyin": "Wǒmen xiān bǎ dōngxi fàngxià ba.",
+      "translationTr": "Önce eşyaları bırakalım.",
+      "sentenceZh": "我们先把东西放下吧。",
+      "correctAnswer": "我们先把东西放下吧。",
+      "options": [],
+      "tokens": [
+        "我们先",
+        "把东西",
+        "放下吧"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC036_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC036_002",
+      "correctZh": "我已经学到了。",
+      "pinyin": "Wǒ yǐjīng xuédào le.",
+      "translationTr": "Bunu öğrendim.",
+      "sentenceZh": "___经学到了。",
+      "correctAnswer": "我已",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC036_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC036_003",
+      "correctZh": "晚上还想出去吗？",
+      "pinyin": "Wǎnshang hái xiǎng chūqù ma?",
+      "translationTr": "Akşam yine dışarı çıkmak ister misin?",
+      "sentenceZh": "晚上还想出去吗？",
+      "correctAnswer": "晚上还想出去吗？",
+      "options": [
+        "晚上还想出去吗？",
+        "房间比我想的还舒服。",
+        "而且很安静，窗外也不错。",
+        "我们先把东西放下吧。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC036_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC036_004",
+      "correctZh": "明天早上呢？",
+      "pinyin": "Míngtiān zǎoshang ne?",
+      "translationTr": "Peki yarın sabah?",
+      "sentenceZh": "明天早上呢？",
+      "correctAnswer": "明天早上呢？",
+      "options": [],
+      "tokens": [
+        "明天早",
+        "上呢"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC036_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC036_005",
+      "correctZh": "对，而且光线也好。",
+      "pinyin": "Duì, érqiě guāngxiàn yě hǎo.",
+      "translationTr": "Evet, ışık da güzel olur.",
+      "sentenceZh": "___而且光线也好。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc036_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC036_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC036_006",
+      "correctZh": "好，先坐十分钟再出门。",
+      "pinyin": "Hǎo, xiān zuò shí fēnzhōng zài chūmén.",
+      "translationTr": "Tamam, önce on dakika oturup sonra çıkarız.",
+      "sentenceZh": "好，先坐十分钟再出门。",
+      "correctAnswer": "好，先坐十分钟再出门。",
+      "options": [
+        "好，先坐十分钟再出门。",
+        "房间比我想的还舒服。",
+        "而且很安静，窗外也不错。",
+        "我们先把东西放下吧。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc036_sentence_006.m4a"
+    }
+  ]
+}

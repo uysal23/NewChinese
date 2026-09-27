@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC031",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC031_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC031_001",
+      "correctZh": "那我们可以去一个水乡看看。",
+      "pinyin": "Nà wǒmen kěyǐ qù yí ge shuǐxiāng kànkan.",
+      "translationTr": "O zaman bir su kasabasına gidebiliriz.",
+      "sentenceZh": "那我们可以去一个水乡看看。",
+      "correctAnswer": "那我们可以去一个水乡看看。",
+      "options": [],
+      "tokens": [
+        "那我们",
+        "可以去",
+        "一个水",
+        "乡看看"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC031_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC031_002",
+      "correctZh": "那很适合周末。要住一晚吗？",
+      "pinyin": "Nà hěn shìhé zhōumò. Yào zhù yì wǎn ma?",
+      "translationTr": "O zaman hafta sonu için çok uygun. Bir gece kalalım mı?",
+      "sentenceZh": "___适合周末。要住一晚吗？",
+      "correctAnswer": "那很",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC031_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC031_003",
+      "correctZh": "对。周六上午出发，周日下午回来。",
+      "pinyin": "Duì. Zhōuliù shàngwǔ chūfā, zhōurì xiàwǔ huílái.",
+      "translationTr": "Evet. Cumartesi sabah çıkar, pazar öğleden sonra döneriz.",
+      "sentenceZh": "对。周六上午出发，周日下午回来。",
+      "correctAnswer": "对。周六上午出发，周日下午回来。",
+      "options": [
+        "对。周六上午出发，周日下午回来。",
+        "这个周末你想出去走走吗？",
+        "想。我最近一直在杭州，还没去过附近的小地方。",
+        "那我们可以去一个水乡看看。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC031_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC031_004",
+      "correctZh": "不用选太贵的，干净方便就行。",
+      "pinyin": "Bú yòng xuǎn tài guì de, gānjìng fāngbiàn jiù xíng.",
+      "translationTr": "Çok pahalı seçmemize gerek yok, temiz ve uygun olması yeter.",
+      "sentenceZh": "不用选太贵的，干净方便就行。",
+      "correctAnswer": "不用选太贵的，干净方便就行。",
+      "options": [],
+      "tokens": [
+        "不用选",
+        "太贵的",
+        "干净方",
+        "便就行"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC031_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC031_005",
+      "correctZh": "看时间吧，不用安排得太满。",
+      "pinyin": "Kàn shíjiān ba, bú yòng ānpái de tài mǎn.",
+      "translationTr": "Saate bakarız, programı fazla doldurmaya gerek yok.",
+      "sentenceZh": "___间吧，不用安排得太满。",
+      "correctAnswer": "看时",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc031_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC031_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC031_006",
+      "correctZh": "决定了，周末去水乡。",
+      "pinyin": "Juédìng le, zhōumò qù shuǐxiāng.",
+      "translationTr": "Karar verdik, hafta sonu su kasabasına gidiyoruz.",
+      "sentenceZh": "决定了，周末去水乡。",
+      "correctAnswer": "决定了，周末去水乡。",
+      "options": [
+        "决定了，周末去水乡。",
+        "这个周末你想出去走走吗？",
+        "想。我最近一直在杭州，还没去过附近的小地方。",
+        "那我们可以去一个水乡看看。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc031_sentence_006.m4a"
+    }
+  ]
+}

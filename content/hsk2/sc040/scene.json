@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC040",
+  "level": "HSK2",
+  "sceneNumber": 40,
+  "titleZh": "西湖边聊旅行",
+  "titleTr": "Göl Kenarında Geziyi Konuşmak",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC039",
+  "nextSceneId": "HSK2_SC041",
+  "summaryTr": "Hafta sonu gezisinden sonra ikili West Lake kıyısında seyahat deneyimini değerlendirir ve yeni sosyal deneyimlere daha açık olmaya karar verir."
+}

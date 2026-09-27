@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC038",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC038_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC038_001",
+      "correctZh": "没关系，我们带伞了。",
+      "pinyin": "Méiguānxi, wǒmen dài sǎn le.",
+      "translationTr": "Sorun değil, şemsiyemiz var.",
+      "sentenceZh": "没关系，我们带伞了。",
+      "correctAnswer": "没关系，我们带伞了。",
+      "options": [],
+      "tokens": [
+        "没关系",
+        "我们带",
+        "伞了"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC038_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC038_002",
+      "correctZh": "那我们找个室内的地方。",
+      "pinyin": "Nà wǒmen zhǎo ge shìnèi de dìfang.",
+      "translationTr": "O zaman kapalı bir yer bulalım.",
+      "sentenceZh": "___们找个室内的地方。",
+      "correctAnswer": "那我",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC038_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC038_003",
+      "correctZh": "旅行里计划改变很正常。",
+      "pinyin": "Lǚxíng lǐ jìhuà gǎibiàn hěn zhèngcháng.",
+      "translationTr": "Seyahatte planın değişmesi çok normal.",
+      "sentenceZh": "旅行里计划改变很正常。",
+      "correctAnswer": "旅行里计划改变很正常。",
+      "options": [
+        "旅行里计划改变很正常。",
+        "开始下雨了。",
+        "天气预报说的是下午，没想到这么早。",
+        "没关系，我们带伞了。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC038_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC038_004",
+      "correctZh": "现在觉得换一个安排也可以。",
+      "pinyin": "Xiànzài juéde huàn yí ge ānpái yě kěyǐ.",
+      "translationTr": "Şimdi başka bir planın da olabileceğini düşünüyorum.",
+      "sentenceZh": "现在觉得换一个安排也可以。",
+      "correctAnswer": "现在觉得换一个安排也可以。",
+      "options": [],
+      "tokens": [
+        "现在觉",
+        "得换一",
+        "个安排",
+        "也可以"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC038_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC038_005",
+      "correctZh": "对，而且听听雨声。",
+      "pinyin": "Duì, érqiě tīngting yǔshēng.",
+      "translationTr": "Evet, yağmur sesini de dinleriz.",
+      "sentenceZh": "___而且听听雨声。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC038_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC038_006",
+      "correctZh": "好，今天继续慢慢来。",
+      "pinyin": "Hǎo, jīntiān jìxù mànmàn lái.",
+      "translationTr": "Tamam, bugün yine acele etmeden devam edelim.",
+      "sentenceZh": "好，今天继续慢慢来。",
+      "correctAnswer": "好，今天继续慢慢来。",
+      "options": [
+        "好，今天继续慢慢来。",
+        "开始下雨了。",
+        "天气预报说的是下午，没想到这么早。",
+        "没关系，我们带伞了。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_sentence_006.m4a"
+    }
+  ]
+}

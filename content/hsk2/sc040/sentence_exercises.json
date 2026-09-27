@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC040",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC040_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC040_001",
+      "correctZh": "旅行以后会更喜欢熟悉的地方吗？",
+      "pinyin": "Lǚxíng yǐhòu huì gèng xǐhuan shúxī de dìfang ma?",
+      "translationTr": "Seyahatten sonra tanıdık yerleri daha mı çok seviyorsun?",
+      "sentenceZh": "旅行以后会更喜欢熟悉的地方吗？",
+      "correctAnswer": "旅行以后会更喜欢熟悉的地方吗？",
+      "options": [],
+      "tokens": [
+        "旅行以",
+        "后会更",
+        "喜欢熟",
+        "悉的地",
+        "方吗"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC040_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC040_002",
+      "correctZh": "不用把每一分钟都安排好。",
+      "pinyin": "Bú yòng bǎ měi yì fēnzhōng dōu ānpái hǎo.",
+      "translationTr": "Her dakikayı planlamak gerekmiyor.",
+      "sentenceZh": "___把每一分钟都安排好。",
+      "correctAnswer": "不用",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC040_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC040_003",
+      "correctZh": "这两个经验以后很有用。",
+      "pinyin": "Zhè liǎng ge jīngyàn yǐhòu hěn yǒuyòng.",
+      "translationTr": "Bu iki deneyim ileride çok işine yarar.",
+      "sentenceZh": "这两个经验以后很有用。",
+      "correctAnswer": "这两个经验以后很有用。",
+      "options": [
+        "这两个经验以后很有用。",
+        "回到杭州以后，再看西湖感觉怎么样？",
+        "很熟悉，也很舒服。",
+        "旅行以后会更喜欢熟悉的地方吗？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC040_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC040_004",
+      "correctZh": "对，因为马上就有结果。",
+      "pinyin": "Duì, yīnwèi mǎshàng jiù yǒu jiéguǒ.",
+      "translationTr": "Evet, çünkü hemen sonucu görüyorum.",
+      "sentenceZh": "对，因为马上就有结果。",
+      "correctAnswer": "对，因为马上就有结果。",
+      "options": [],
+      "tokens": [
+        "对因为",
+        "马上就",
+        "有结果"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC040_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC040_005",
+      "correctZh": "对，不一定都是学习活动。",
+      "pinyin": "Duì, bù yídìng dōu shì xuéxí huódòng.",
+      "translationTr": "Evet, hepsinin öğrenme etkinliği olması gerekmez.",
+      "sentenceZh": "___不一定都是学习活动。",
+      "correctAnswer": "对，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc040_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC040_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC040_006",
+      "correctZh": "好，那就是下一个目标。",
+      "pinyin": "Hǎo, nà jiù shì xià yí ge mùbiāo.",
+      "translationTr": "Tamam, sıradaki hedef bu olsun.",
+      "sentenceZh": "好，那就是下一个目标。",
+      "correctAnswer": "好，那就是下一个目标。",
+      "options": [
+        "好，那就是下一个目标。",
+        "回到杭州以后，再看西湖感觉怎么样？",
+        "很熟悉，也很舒服。",
+        "旅行以后会更喜欢熟悉的地方吗？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc040_sentence_006.m4a"
+    }
+  ]
+}

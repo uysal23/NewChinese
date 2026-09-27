@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK2_SC040",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_WEST_LAKE_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "composition": "Canonical West Lake lakeside promenade at golden hour, Zhang Wei and Li Na walking beside stone railing with distant hills, reflective warm CGI.",
+  "assets": [
+    {
+      "file": "hsk2_sc040_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc040_char_li_na.webp",
+      "purpose": "Li Na transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc040_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc040_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc040_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

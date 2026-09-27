@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC032",
+  "level": "HSK2",
+  "sceneNumber": 32,
+  "titleZh": "收拾行李",
+  "titleTr": "Çantayı Hazırlamak",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC031",
+  "nextSceneId": "HSK2_SC033",
+  "summaryTr": "Gezi öncesi Zhang Wei ile Li Na küçük bir hafta sonu çantası hazırlar ve gereksiz eşya almamaya karar verir."
+}

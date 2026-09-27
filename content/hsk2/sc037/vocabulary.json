@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC037",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC037_001",
+      "hanzi": "完全",
+      "pinyin": "wánquán",
+      "translationTr": "tamamen",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_002",
+      "hanzi": "水面",
+      "pinyin": "shuǐmiàn",
+      "translationTr": "su yüzeyi",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_003",
+      "hanzi": "平静",
+      "pinyin": "píngjìng",
+      "translationTr": "sakin",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_004",
+      "hanzi": "游客",
+      "pinyin": "yóukè",
+      "translationTr": "turist",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_005",
+      "hanzi": "早起",
+      "pinyin": "zǎoqǐ",
+      "translationTr": "erken kalkmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_006",
+      "hanzi": "算",
+      "pinyin": "suàn",
+      "translationTr": "sayılmak / kabul etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_007",
+      "hanzi": "本来",
+      "pinyin": "běnlái",
+      "translationTr": "zaten",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_008",
+      "hanzi": "放松",
+      "pinyin": "fàngsōng",
+      "translationTr": "rahatlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_009",
+      "hanzi": "反而",
+      "pinyin": "fǎn'ér",
+      "translationTr": "tam tersine",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc037_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC037_010",
+      "hanzi": "值得",
+      "pinyin": "zhíde",
+      "translationTr": "değmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc037_word_010.m4a"
+    }
+  ]
+}

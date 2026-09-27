@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC038",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC038_L001",
+      "order": 1,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "开始下雨了。",
+      "pinyin": "Kāishǐ xiàyǔ le.",
+      "translationTr": "Yağmur başladı.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L002",
+      "order": 2,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "天气预报说的是下午，没想到这么早。",
+      "pinyin": "Tiānqì yùbào shuō de shì xiàwǔ, méi xiǎngdào zhème zǎo.",
+      "translationTr": "Hava tahmini öğleden sonra diyordu, bu kadar erken beklemiyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L003",
+      "order": 3,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "没关系，我们带伞了。",
+      "pinyin": "Méiguānxi, wǒmen dài sǎn le.",
+      "translationTr": "Sorun değil, şemsiyemiz var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L004",
+      "order": 4,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还要继续走原来的路线吗？",
+      "pinyin": "Hái yào jìxù zǒu yuánlái de lùxiàn ma?",
+      "translationTr": "Eski rotaya devam edelim mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L005",
+      "order": 5,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我觉得不用。石头路下雨以后可能有点儿滑。",
+      "pinyin": "Wǒ juéde bú yòng. Shítou lù xiàyǔ yǐhòu kěnéng yǒudiǎnr huá.",
+      "translationTr": "Bence gerek yok. Taş yol yağmurda kaygan olabilir.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L006",
+      "order": 6,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我们找个室内的地方。",
+      "pinyin": "Nà wǒmen zhǎo ge shìnèi de dìfang.",
+      "translationTr": "O zaman kapalı bir yer bulalım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L007",
+      "order": 7,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "前面有个可以喝茶的地方。",
+      "pinyin": "Qiánmiàn yǒu ge kěyǐ hē chá de dìfang.",
+      "translationTr": "İleride çay içebileceğimiz bir yer var.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L008",
+      "order": 8,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "正好，坐一会儿等雨小一点儿。",
+      "pinyin": "Zhènghǎo, zuò yíhuìr děng yǔ xiǎo yìdiǎnr.",
+      "translationTr": "Tam iyi, biraz oturup yağmurun hafiflemesini bekleriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L009",
+      "order": 9,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "旅行里计划改变很正常。",
+      "pinyin": "Lǚxíng lǐ jìhuà gǎibiàn hěn zhèngcháng.",
+      "translationTr": "Seyahatte planın değişmesi çok normal.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L010",
+      "order": 10,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "以前我会觉得没按计划走很可惜。",
+      "pinyin": "Yǐqián wǒ huì juéde méi àn jìhuà zǒu hěn kěxī.",
+      "translationTr": "Eskiden plana uymayınca çok yazık olmuş gibi hissederdim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L011",
+      "order": 11,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "现在呢？",
+      "pinyin": "Xiànzài ne?",
+      "translationTr": "Şimdi?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L012",
+      "order": 12,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "现在觉得换一个安排也可以。",
+      "pinyin": "Xiànzài juéde huàn yí ge ānpái yě kěyǐ.",
+      "translationTr": "Şimdi başka bir planın da olabileceğini düşünüyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L013",
+      "order": 13,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "有时候临时变化反而会看到别的东西。",
+      "pinyin": "Yǒushíhou línshí biànhuà fǎn'ér huì kàndào biéde dōngxi.",
+      "translationTr": "Bazen ani değişiklik sayesinde başka şeyler görürsün.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L014",
+      "order": 14,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "比如现在可以安静喝茶。",
+      "pinyin": "Bǐrú xiànzài kěyǐ ānjìng hē chá.",
+      "translationTr": "Mesela şimdi sakin sakin çay içebiliriz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L015",
+      "order": 15,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，而且听听雨声。",
+      "pinyin": "Duì, érqiě tīngting yǔshēng.",
+      "translationTr": "Evet, yağmur sesini de dinleriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L016",
+      "order": 16,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这也算旅行的一部分。",
+      "pinyin": "Zhè yě suàn lǚxíng de yí bùfen.",
+      "translationTr": "Bu da seyahatin bir parçası sayılır.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L017",
+      "order": 17,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "等雨小一点儿再决定下一步。",
+      "pinyin": "Děng yǔ xiǎo yìdiǎnr zài juédìng xià yí bù.",
+      "translationTr": "Yağmur hafifleyince sonraki adımı belirleriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc038_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC038_L018",
+      "order": 18,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，今天继续慢慢来。",
+      "pinyin": "Hǎo, jīntiān jìxù mànmàn lái.",
+      "translationTr": "Tamam, bugün yine acele etmeden devam edelim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc038_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

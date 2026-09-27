@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC032",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC032_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC032_001",
+      "correctZh": "衣服要带几套？",
+      "pinyin": "Yīfu yào dài jǐ tào?",
+      "translationTr": "Kaç takım kıyafet götürelim?",
+      "sentenceZh": "衣服要带几套？",
+      "correctAnswer": "衣服要带几套？",
+      "options": [],
+      "tokens": [
+        "衣服要",
+        "带几套"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC032_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC032_002",
+      "correctZh": "天气预报说可能有小雨，带一把比较好。",
+      "pinyin": "Tiānqì yùbào shuō kěnéng yǒu xiǎoyǔ, dài yì bǎ bǐjiào hǎo.",
+      "translationTr": "Hava tahmini hafif yağmur olabilir diyor, bir tane almak iyi olur.",
+      "sentenceZh": "___预报说可能有小雨，带一把比较好。",
+      "correctAnswer": "天气",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC032_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC032_003",
+      "correctZh": "我刚想把电脑放进去。",
+      "pinyin": "Wǒ gāng xiǎng bǎ diànnǎo fàng jìnqù.",
+      "translationTr": "Tam bilgisayarı koymayı düşünüyordum.",
+      "sentenceZh": "我刚想把电脑放进去。",
+      "correctAnswer": "我刚想把电脑放进去。",
+      "options": [
+        "我刚想把电脑放进去。",
+        "我总觉得两天也要带很多东西。",
+        "其实一个小包就够了。",
+        "衣服要带几套？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC032_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC032_004",
+      "correctZh": "身份证和车票信息也确认一下。",
+      "pinyin": "Shēnfènzhèng hé chēpiào xìnxī yě quèrèn yíxià.",
+      "translationTr": "Kimlik ve bilet bilgilerini de kontrol et.",
+      "sentenceZh": "身份证和车票信息也确认一下。",
+      "correctAnswer": "身份证和车票信息也确认一下。",
+      "options": [],
+      "tokens": [
+        "身份证",
+        "和车票",
+        "信息也",
+        "确认一",
+        "下"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC032_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC032_005",
+      "correctZh": "这样包真的很轻。",
+      "pinyin": "Zhèyàng bāo zhēn de hěn qīng.",
+      "translationTr": "Böyle çanta gerçekten çok hafif.",
+      "sentenceZh": "___包真的很轻。",
+      "correctAnswer": "这样",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc032_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC032_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC032_006",
+      "correctZh": "那早点儿睡，明天别迟到。",
+      "pinyin": "Nà zǎodiǎnr shuì, míngtiān bié chídào.",
+      "translationTr": "O zaman erken yat, yarın geç kalma.",
+      "sentenceZh": "那早点儿睡，明天别迟到。",
+      "correctAnswer": "那早点儿睡，明天别迟到。",
+      "options": [
+        "那早点儿睡，明天别迟到。",
+        "我总觉得两天也要带很多东西。",
+        "其实一个小包就够了。",
+        "衣服要带几套？"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc032_sentence_006.m4a"
+    }
+  ]
+}

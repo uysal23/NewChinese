@@ -1,0 +1,108 @@
+{
+  "sceneId": "HSK2_SC039",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC039_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC039_001",
+      "correctZh": "而且没有觉得特别累。",
+      "pinyin": "Érqiě méiyǒu juéde tèbié lèi.",
+      "translationTr": "Üstelik çok yorulmuş da hissetmiyorum.",
+      "sentenceZh": "而且没有觉得特别累。",
+      "correctAnswer": "而且没有觉得特别累。",
+      "options": [],
+      "tokens": [
+        "而且没",
+        "有觉得",
+        "特别累"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC039_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC039_002",
+      "correctZh": "今天早上的河边。你呢？",
+      "pinyin": "Jīntiān zǎoshang de hébiān. Nǐ ne?",
+      "translationTr": "Bu sabah nehir kenarını. Ya sen?",
+      "sentenceZh": "___早上的河边。你呢？",
+      "correctAnswer": "今天",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC039_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC039_003",
+      "correctZh": "对，而且小包也很成功。",
+      "pinyin": "Duì, érqiě xiǎo bāo yě hěn chénggōng.",
+      "translationTr": "Evet, küçük çanta fikri de çok başarılıydı.",
+      "sentenceZh": "对，而且小包也很成功。",
+      "correctAnswer": "对，而且小包也很成功。",
+      "options": [
+        "对，而且小包也很成功。",
+        "感觉周末过得太快了。",
+        "是，不过我们也做了很多事。",
+        "而且没有觉得特别累。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC039_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC039_004",
+      "correctZh": "还有什么想改的？",
+      "pinyin": "Hái yǒu shénme xiǎng gǎi de?",
+      "translationTr": "Başka neyi değiştirmek istersin?",
+      "sentenceZh": "还有什么想改的？",
+      "correctAnswer": "还有什么想改的？",
+      "options": [],
+      "tokens": [
+        "还有什",
+        "么想改",
+        "的"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC039_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC039_005",
+      "correctZh": "其他都很好。",
+      "pinyin": "Qítā dōu hěn hǎo.",
+      "translationTr": "Diğer her şey iyiydi.",
+      "sentenceZh": "___都很好。",
+      "correctAnswer": "其他",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc039_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC039_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC039_006",
+      "correctZh": "完美的旅行结束方式。",
+      "pinyin": "Wánměi de lǚxíng jiéshù fāngshì.",
+      "translationTr": "Mükemmel bir seyahat bitişi.",
+      "sentenceZh": "完美的旅行结束方式。",
+      "correctAnswer": "完美的旅行结束方式。",
+      "options": [
+        "完美的旅行结束方式。",
+        "感觉周末过得太快了。",
+        "是，不过我们也做了很多事。",
+        "而且没有觉得特别累。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc039_sentence_006.m4a"
+    }
+  ]
+}
