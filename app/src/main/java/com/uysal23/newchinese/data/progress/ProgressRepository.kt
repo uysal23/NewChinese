@@ -37,6 +37,14 @@ class ProgressRepository(private val dao: SceneProgressDao) {
         copy(shadowingCompleted = true, lastStudiedAt = System.currentTimeMillis())
     }
 
+    suspend fun recordShadowingSimilarity(sceneId: String, similarityPercent: Int) = mutate(sceneId) {
+        copy(
+            shadowingCompleted = true,
+            shadowingBestSimilarity = maxOf(shadowingBestSimilarity, similarityPercent.coerceIn(0, 100)),
+            lastStudiedAt = System.currentTimeMillis()
+        )
+    }
+
     suspend fun recordWordExam(sceneId: String, score: Int) = mutate(sceneId) {
         copy(
             wordExamPassed = wordExamPassed || ProgressRules.wordPassed(score),
