@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC012",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC012_001",
+      "hanzi": "困",
+      "pinyin": "kùn",
+      "translationTr": "uykulu",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_002",
+      "hanzi": "以后",
+      "pinyin": "yǐhòu",
+      "translationTr": "sonra",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_003",
+      "hanzi": "变成",
+      "pinyin": "biàn chéng",
+      "translationTr": "dönüşmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_004",
+      "hanzi": "注意",
+      "pinyin": "zhùyì",
+      "translationTr": "dikkat etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_005",
+      "hanzi": "睡前",
+      "pinyin": "shuì qián",
+      "translationTr": "yatmadan önce",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_006",
+      "hanzi": "或者",
+      "pinyin": "huòzhě",
+      "translationTr": "ya da",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_007",
+      "hanzi": "音乐",
+      "pinyin": "yīnyuè",
+      "translationTr": "müzik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_008",
+      "hanzi": "白天",
+      "pinyin": "báitiān",
+      "translationTr": "gündüz",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_009",
+      "hanzi": "感觉",
+      "pinyin": "gǎnjué",
+      "translationTr": "hissetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC012_010",
+      "hanzi": "坚持",
+      "pinyin": "jiānchí",
+      "translationTr": "sürdürmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_word_010.m4a"
+    }
+  ]
+}

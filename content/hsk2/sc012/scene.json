@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK2_SC012",
+  "level": "HSK2",
+  "sceneNumber": 12,
+  "titleZh": "睡得够不够",
+  "titleTr": "Yeterince Uyuyor musun?",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 11,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK2_SC011",
+  "nextSceneId": "HSK2_SC013",
+  "summaryTr": "Zhang Wei son günlerde geç yatınca Li Na onun uyku düzenini fark eder; ikili daha düzenli bir akşam planı yapar."
+}

@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC014",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC014_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天雨这么大，看来不能去公园了。",
+      "pinyin": "Jīntiān yǔ zhème dà, kànlái bù néng qù gōngyuán le.",
+      "translationTr": "Bugün yağmur çok şiddetli, galiba parka gidemeyeceğiz.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "没关系，在家也可以动一动。",
+      "pinyin": "Méiguānxi, zài jiā yě kěyǐ dòng yí dòng.",
+      "translationTr": "Sorun değil, evde de biraz hareket edebiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "在家怎么运动？这里又不大。",
+      "pinyin": "Zài jiā zěnme yùndòng? Zhèlǐ yòu bú dà.",
+      "translationTr": "Evde nasıl egzersiz yapacağız? Burası çok büyük değil.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "不用很大的地方。先把桌子旁边空出来。",
+      "pinyin": "Bú yòng hěn dà de dìfang. Xiān bǎ zhuōzi pángbiān kōng chūlái.",
+      "translationTr": "Büyük bir alan gerekmiyor. Önce masanın yanını boşaltalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "然后呢？",
+      "pinyin": "Ránhòu ne?",
+      "translationTr": "Sonra?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "我们可以做一些简单的动作，再走几分钟。",
+      "pinyin": "Wǒmen kěyǐ zuò yìxiē jiǎndān de dòngzuò, zài zǒu jǐ fēnzhōng.",
+      "translationTr": "Birkaç basit hareket yapıp sonra birkaç dakika yürüyebiliriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "在客厅走来走去吗？",
+      "pinyin": "Zài kètīng zǒu lái zǒu qù ma?",
+      "translationTr": "Salonda ileri geri mi yürüyeceğiz?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，听起来有点儿奇怪，但是很方便。",
+      "pinyin": "Duì, tīng qǐlái yǒudiǎnr qíguài, dànshì hěn fāngbiàn.",
+      "translationTr": "Evet, kulağa biraz garip geliyor ama çok pratik.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "邻居会不会觉得我们很奇怪？",
+      "pinyin": "Línjū huì bú huì juéde wǒmen hěn qíguài?",
+      "translationTr": "Komşular bizi garip bulmaz mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "只要别跳得太大声就没问题。",
+      "pinyin": "Zhǐyào bié tiào de tài dàshēng jiù méi wèntí.",
+      "translationTr": "Çok gürültülü zıplamadığımız sürece sorun olmaz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我同意。先做多久？",
+      "pinyin": "Nà wǒ tóngyì. Xiān zuò duōjiǔ?",
+      "translationTr": "O zaman tamam. Ne kadar yapacağız?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "十五分钟就够了。",
+      "pinyin": "Shíwǔ fēnzhōng jiù gòu le.",
+      "translationTr": "On beş dakika yeter.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这么短也有用吗？",
+      "pinyin": "Zhème duǎn yě yǒuyòng ma?",
+      "translationTr": "Bu kadar kısa süre de işe yarar mı?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "当然。重要的是别一直坐着。",
+      "pinyin": "Dāngrán. Zhòngyào de shì bié yìzhí zuòzhe.",
+      "translationTr": "Elbette. Önemli olan sürekli oturmamak.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，那我先把这边收一下。",
+      "pinyin": "Hǎo, nà wǒ xiān bǎ zhèbiān shōu yíxià.",
+      "translationTr": "Tamam, önce şu tarafı toparlayayım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "运动完我们再喝茶。",
+      "pinyin": "Yùndòng wán wǒmen zài hē chá.",
+      "translationTr": "Egzersizden sonra çay içeriz.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听起来像一个不错的下雨天计划。",
+      "pinyin": "Tīng qǐlái xiàng yí ge búcuò de xiàyǔtiān jìhuà.",
+      "translationTr": "Kulağa güzel bir yağmurlu gün planı gibi geliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC014_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "对，天气不好也不用整天坐着。",
+      "pinyin": "Duì, tiānqì bù hǎo yě bú yòng zhěngtiān zuòzhe.",
+      "translationTr": "Evet, hava kötü diye bütün gün oturmak gerekmiyor.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

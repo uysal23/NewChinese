@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK2_SC014",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "Canonical apartment on a rainy afternoon, rain visible through large window, open floor area cleared near sofa, Zhang Wei and Li Na preparing for gentle indoor movement, cozy family-friendly CGI.",
+  "assets": [
+    {
+      "file": "hsk2_sc014_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk2_sc014_char_li_na.webp",
+      "purpose": "Li Na transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc014_char_zhang_wei.webp",
+      "purpose": "Zhang Wei transparent full-body layer"
+    },
+    {
+      "file": "hsk2_sc014_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk2_sc014_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

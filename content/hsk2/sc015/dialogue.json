@@ -1,0 +1,204 @@
+{
+  "sceneId": "HSK2_SC015",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK2_SC015_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我今天鼻子有点儿不舒服。",
+      "pinyin": "Wǒ jīntiān bízi yǒudiǎnr bù shūfu.",
+      "translationTr": "Bugün burnum biraz rahatsız.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L002",
+      "order": 2,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "是不是昨天晚上着凉了？",
+      "pinyin": "Shì bu shì zuótiān wǎnshang zháoliáng le?",
+      "translationTr": "Dün gece üşütmüş olabilir misin?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "可能吧。早上起来就一直打喷嚏。",
+      "pinyin": "Kěnéng ba. Zǎoshang qǐlái jiù yìzhí dǎ pēntì.",
+      "translationTr": "Olabilir. Sabah kalktığımdan beri sürekli hapşırıyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L004",
+      "order": 4,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先去药店买点儿纸巾吧。",
+      "pinyin": "Xiān qù yàodiàn mǎi diǎnr zhǐjīn ba.",
+      "translationTr": "Önce eczaneden biraz mendil alalım.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我还想买一个新的温度计。",
+      "pinyin": "Wǒ hái xiǎng mǎi yí ge xīn de wēndùjì.",
+      "translationTr": "Yeni bir termometre de almak istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L006",
+      "order": 6,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "家里的坏了吗？",
+      "pinyin": "Jiālǐ de huài le ma?",
+      "translationTr": "Evdeki bozuldu mu?",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "没有坏，但是太旧了，我不太放心。",
+      "pinyin": "Méiyǒu huài, dànshì tài jiù le, wǒ bú tài fàngxīn.",
+      "translationTr": "Bozulmadı ama çok eski, pek güvenemiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L008",
+      "order": 8,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那换一个新的也好。",
+      "pinyin": "Nà huàn yí ge xīn de yě hǎo.",
+      "translationTr": "O zaman yenisiyle değiştirmek iyi olur.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还需要买别的吗？",
+      "pinyin": "Hái xūyào mǎi biéde ma?",
+      "translationTr": "Başka bir şey almamız gerekiyor mu?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L010",
+      "order": 10,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "先不用买太多。回家多喝水，好好休息。",
+      "pinyin": "Xiān bú yòng mǎi tài duō. Huí jiā duō hē shuǐ, hǎohāo xiūxi.",
+      "translationTr": "Şimdilik fazla bir şey alma. Eve dönünce bol su içip dinlen.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果明天还不舒服呢？",
+      "pinyin": "Rúguǒ míngtiān hái bù shūfu ne?",
+      "translationTr": "Yarın da rahatsız olursam?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L012",
+      "order": 12,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "如果越来越不舒服，就去医院看看。",
+      "pinyin": "Rúguǒ yuèláiyuè bù shūfu, jiù qù yīyuàn kànkan.",
+      "translationTr": "Daha kötü hissedersen hastaneye gidip görünürsün.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好。我现在其实没有发烧。",
+      "pinyin": "Hǎo. Wǒ xiànzài qíshí méiyǒu fāshāo.",
+      "translationTr": "Tamam. Aslında şu anda ateşim yok.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L014",
+      "order": 14,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "那就别太担心，今天早点儿回家。",
+      "pinyin": "Nà jiù bié tài dānxīn, jīntiān zǎodiǎnr huí jiā.",
+      "translationTr": "O zaman fazla endişelenme, bugün biraz erken eve dön.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我本来还想去咖啡馆学习。",
+      "pinyin": "Wǒ běnlái hái xiǎng qù kāfēiguǎn xuéxí.",
+      "translationTr": "Aslında kafeye gidip çalışmak istiyordum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L016",
+      "order": 16,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "今天先取消吧，休息更重要。",
+      "pinyin": "Jīntiān xiān qǔxiāo ba, xiūxi gèng zhòngyào.",
+      "translationTr": "Bugünlük iptal et, dinlenmek daha önemli.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "好，我听你的。买完东西就回家。",
+      "pinyin": "Hǎo, wǒ tīng nǐ de. Mǎi wán dōngxi jiù huí jiā.",
+      "translationTr": "Tamam, seni dinleyeceğim. Alışverişten sonra eve döneceğim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK2_SC015_L018",
+      "order": 18,
+      "speakerId": "CHAR_LI_NA_001",
+      "textZh": "这样最好，明天再看感觉。",
+      "pinyin": "Zhèyàng zuì hǎo, míngtiān zài kàn gǎnjué.",
+      "translationTr": "En iyisi bu, yarın nasıl hissettiğine bakarsın.",
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_line_018.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

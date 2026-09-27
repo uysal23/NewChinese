@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC012",
+  "sourcePolicy": "exam items dialogue-derived; full study practice uses every dialogue line in locked three-mode UI",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC012_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC012_001",
+      "correctZh": "你这几天早上总说很困。",
+      "pinyin": "Nǐ zhè jǐ tiān zǎoshang zǒng shuō hěn kùn.",
+      "translationTr": "Son birkaç gündür sabahları hep çok uykulu olduğunu söylüyorsun.",
+      "sentenceZh": "你这几天早上总说很困。",
+      "correctAnswer": "你这几天早上总说很困。",
+      "options": [],
+      "tokens": [
+        "你这几",
+        "天早上",
+        "总说很",
+        "困"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC012_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC012_002",
+      "correctZh": "不是。我回家以后总想看一会儿手机。",
+      "pinyin": "Bú shì. Wǒ huí jiā yǐhòu zǒng xiǎng kàn yíhuìr shǒujī.",
+      "translationTr": "Hayır. Eve gelince biraz telefona bakmak istiyorum.",
+      "sentenceZh": "___。我回家以后总想看一会儿手机。",
+      "correctAnswer": "不是",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC012_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC012_003",
+      "correctZh": "你可以睡前半小时不看手机。",
+      "pinyin": "Nǐ kěyǐ shuì qián bàn xiǎoshí bù kàn shǒujī.",
+      "translationTr": "Yatmadan yarım saat önce telefona bakmamayı deneyebilirsin.",
+      "sentenceZh": "你可以睡前半小时不看手机。",
+      "correctAnswer": "你可以睡前半小时不看手机。",
+      "options": [
+        "你可以睡前半小时不看手机。",
+        "你最近是不是睡得比较晚？",
+        "你怎么知道？",
+        "你这几天早上总说很困。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC012_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC012_004",
+      "correctZh": "听起来比一直看手机好。",
+      "pinyin": "Tīng qǐlái bǐ yìzhí kàn shǒujī hǎo.",
+      "translationTr": "Sürekli telefona bakmaktan daha iyi geliyor.",
+      "sentenceZh": "听起来比一直看手机好。",
+      "correctAnswer": "听起来比一直看手机好。",
+      "options": [],
+      "tokens": [
+        "听起来",
+        "比一直",
+        "看手机",
+        "好"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC012_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC012_005",
+      "correctZh": "每个人不一样，你先看看自己睡多久感觉最好。",
+      "pinyin": "Měi ge rén bù yíyàng, nǐ xiān kànkan zìjǐ shuì duōjiǔ gǎnjué zuì hǎo.",
+      "translationTr": "Herkes farklıdır, önce ne kadar uyuduğunda en iyi hissettiğine bak.",
+      "sentenceZh": "___人不一样，你先看看自己睡多久感觉最好。",
+      "correctAnswer": "每个",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc012_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC012_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC012_006",
+      "correctZh": "好，今天就从放下手机开始。",
+      "pinyin": "Hǎo, jīntiān jiù cóng fàngxià shǒujī kāishǐ.",
+      "translationTr": "Tamam, bugün telefonu bırakmakla başlayayım.",
+      "sentenceZh": "好，今天就从放下手机开始。",
+      "correctAnswer": "好，今天就从放下手机开始。",
+      "options": [
+        "好，今天就从放下手机开始。",
+        "你最近是不是睡得比较晚？",
+        "你怎么知道？",
+        "你这几天早上总说很困。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc012_sentence_006.m4a"
+    }
+  ]
+}

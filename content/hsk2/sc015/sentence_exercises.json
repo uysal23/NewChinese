@@ -1,0 +1,112 @@
+{
+  "sceneId": "HSK2_SC015",
+  "sourcePolicy": "exam items dialogue-derived; full study practice uses every dialogue line in locked three-mode UI",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC015_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC015_001",
+      "correctZh": "可能吧。早上起来就一直打喷嚏。",
+      "pinyin": "Kěnéng ba. Zǎoshang qǐlái jiù yìzhí dǎ pēntì.",
+      "translationTr": "Olabilir. Sabah kalktığımdan beri sürekli hapşırıyorum.",
+      "sentenceZh": "可能吧。早上起来就一直打喷嚏。",
+      "correctAnswer": "可能吧。早上起来就一直打喷嚏。",
+      "options": [],
+      "tokens": [
+        "可能吧",
+        "早上起",
+        "来就一",
+        "直打喷",
+        "嚏"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC015_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC015_002",
+      "correctZh": "家里的坏了吗？",
+      "pinyin": "Jiālǐ de huài le ma?",
+      "translationTr": "Evdeki bozuldu mu?",
+      "sentenceZh": "___的坏了吗？",
+      "correctAnswer": "家里",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC015_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC015_003",
+      "correctZh": "还需要买别的吗？",
+      "pinyin": "Hái xūyào mǎi biéde ma?",
+      "translationTr": "Başka bir şey almamız gerekiyor mu?",
+      "sentenceZh": "还需要买别的吗？",
+      "correctAnswer": "还需要买别的吗？",
+      "options": [
+        "还需要买别的吗？",
+        "我今天鼻子有点儿不舒服。",
+        "是不是昨天晚上着凉了？",
+        "可能吧。早上起来就一直打喷嚏。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC015_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC015_004",
+      "correctZh": "如果越来越不舒服，就去医院看看。",
+      "pinyin": "Rúguǒ yuèláiyuè bù shūfu, jiù qù yīyuàn kànkan.",
+      "translationTr": "Daha kötü hissedersen hastaneye gidip görünürsün.",
+      "sentenceZh": "如果越来越不舒服，就去医院看看。",
+      "correctAnswer": "如果越来越不舒服，就去医院看看。",
+      "options": [],
+      "tokens": [
+        "如果越",
+        "来越不",
+        "舒服就",
+        "去医院",
+        "看看"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC015_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC015_005",
+      "correctZh": "我本来还想去咖啡馆学习。",
+      "pinyin": "Wǒ běnlái hái xiǎng qù kāfēiguǎn xuéxí.",
+      "translationTr": "Aslında kafeye gidip çalışmak istiyordum.",
+      "sentenceZh": "___来还想去咖啡馆学习。",
+      "correctAnswer": "我本",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC015_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC015_006",
+      "correctZh": "这样最好，明天再看感觉。",
+      "pinyin": "Zhèyàng zuì hǎo, míngtiān zài kàn gǎnjué.",
+      "translationTr": "En iyisi bu, yarın nasıl hissettiğine bakarsın.",
+      "sentenceZh": "这样最好，明天再看感觉。",
+      "correctAnswer": "这样最好，明天再看感觉。",
+      "options": [
+        "这样最好，明天再看感觉。",
+        "我今天鼻子有点儿不舒服。",
+        "是不是昨天晚上着凉了？",
+        "可能吧。早上起来就一直打喷嚏。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_sentence_006.m4a"
+    }
+  ]
+}

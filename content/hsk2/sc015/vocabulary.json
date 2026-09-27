@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC015",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC015_001",
+      "hanzi": "鼻子",
+      "pinyin": "bízi",
+      "translationTr": "burun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_002",
+      "hanzi": "着凉",
+      "pinyin": "zháoliáng",
+      "translationTr": "üşütmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_003",
+      "hanzi": "打喷嚏",
+      "pinyin": "dǎ pēntì",
+      "translationTr": "hapşırmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_004",
+      "hanzi": "温度计",
+      "pinyin": "wēndùjì",
+      "translationTr": "termometre",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_005",
+      "hanzi": "旧",
+      "pinyin": "jiù",
+      "translationTr": "eski",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_006",
+      "hanzi": "放心",
+      "pinyin": "fàngxīn",
+      "translationTr": "içi rahat olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_007",
+      "hanzi": "越来越",
+      "pinyin": "yuèláiyuè",
+      "translationTr": "giderek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_008",
+      "hanzi": "发烧",
+      "pinyin": "fāshāo",
+      "translationTr": "ateşi olmak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_009",
+      "hanzi": "取消",
+      "pinyin": "qǔxiāo",
+      "translationTr": "iptal etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc015_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC015_010",
+      "hanzi": "感觉",
+      "pinyin": "gǎnjué",
+      "translationTr": "hissetmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc015_word_010.m4a"
+    }
+  ]
+}

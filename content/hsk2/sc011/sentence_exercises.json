@@ -1,0 +1,112 @@
+{
+  "sceneId": "HSK2_SC011",
+  "sourcePolicy": "exam items dialogue-derived; full study practice uses every dialogue line in locked three-mode UI",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC011_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC011_001",
+      "correctZh": "下午一直没停，回来的路上我都想睡觉。",
+      "pinyin": "Xiàwǔ yìzhí méi tíng, huílái de lùshang wǒ dōu xiǎng shuìjiào.",
+      "translationTr": "Öğleden sonra hiç durmadım, dönüş yolunda bile uyumak istedim.",
+      "sentenceZh": "下午一直没停，回来的路上我都想睡觉。",
+      "correctAnswer": "下午一直没停，回来的路上我都想睡觉。",
+      "options": [],
+      "tokens": [
+        "下午一",
+        "直没停",
+        "回来的",
+        "路上我",
+        "都想睡",
+        "觉"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC011_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC011_002",
+      "correctZh": "可以少学一点儿，十分钟也可以。",
+      "pinyin": "Kěyǐ shǎo xué yìdiǎnr, shí fēnzhōng yě kěyǐ.",
+      "translationTr": "Biraz daha az çalışabilirsin, on dakika da olur.",
+      "sentenceZh": "___少学一点儿，十分钟也可以。",
+      "correctAnswer": "可以",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC011_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC011_003",
+      "correctZh": "你说得对。我最近好像总是把时间排得太满。",
+      "pinyin": "Nǐ shuō de duì. Wǒ zuìjìn hǎoxiàng zǒng shì bǎ shíjiān pái de tài mǎn.",
+      "translationTr": "Haklısın. Son zamanlarda programımı sürekli fazla dolduruyorum galiba.",
+      "sentenceZh": "你说得对。我最近好像总是把时间排得太满。",
+      "correctAnswer": "你说得对。我最近好像总是把时间排得太满。",
+      "options": [
+        "你说得对。我最近好像总是把时间排得太满。",
+        "今天回家以后，我什么都不想做。",
+        "听起来你真的很累。今天工作很忙吗？",
+        "下午一直没停，回来的路上我都想睡觉。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC011_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC011_004",
+      "correctZh": "因为你想一天做太多事。",
+      "pinyin": "Yīnwèi nǐ xiǎng yì tiān zuò tài duō shì.",
+      "translationTr": "Çünkü bir günde çok fazla şey yapmak istiyorsun.",
+      "sentenceZh": "因为你想一天做太多事。",
+      "correctAnswer": "因为你想一天做太多事。",
+      "options": [],
+      "tokens": [
+        "因为你",
+        "想一天",
+        "做太多",
+        "事"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC011_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC011_005",
+      "correctZh": "其实听你这么说，我已经轻松一点儿了。",
+      "pinyin": "Qíshí tīng nǐ zhème shuō, wǒ yǐjīng qīngsōng yìdiǎnr le.",
+      "translationTr": "Aslında seni böyle söyleyince bile biraz rahatladım.",
+      "sentenceZh": "___听你这么说，我已经轻松一点儿了。",
+      "correctAnswer": "其实",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC011_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC011_006",
+      "correctZh": "先别记了，今天就好好休息吧。",
+      "pinyin": "Xiān bié jì le, jīntiān jiù hǎohāo xiūxi ba.",
+      "translationTr": "Şimdilik not etme, bugün güzelce dinlen.",
+      "sentenceZh": "先别记了，今天就好好休息吧。",
+      "correctAnswer": "先别记了，今天就好好休息吧。",
+      "options": [
+        "先别记了，今天就好好休息吧。",
+        "今天回家以后，我什么都不想做。",
+        "听起来你真的很累。今天工作很忙吗？",
+        "下午一直没停，回来的路上我都想睡觉。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_sentence_006.m4a"
+    }
+  ]
+}

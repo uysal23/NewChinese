@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK2_SC011",
+  "words": [
+    {
+      "wordId": "WORD_HSK2_SC011_001",
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "translationTr": "yorgun",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_002",
+      "hanzi": "安排",
+      "pinyin": "ānpái",
+      "translationTr": "planlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_003",
+      "hanzi": "影响",
+      "pinyin": "yǐngxiǎng",
+      "translationTr": "etkilemek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_004",
+      "hanzi": "最近",
+      "pinyin": "zuìjìn",
+      "translationTr": "son zamanlarda",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_005",
+      "hanzi": "空时间",
+      "pinyin": "kòng shíjiān",
+      "translationTr": "boş zaman",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_006",
+      "hanzi": "经常",
+      "pinyin": "jīngcháng",
+      "translationTr": "sık sık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_007",
+      "hanzi": "精神",
+      "pinyin": "jīngshen",
+      "translationTr": "zindelik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_008",
+      "hanzi": "轻松",
+      "pinyin": "qīngsōng",
+      "translationTr": "rahat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_009",
+      "hanzi": "部分",
+      "pinyin": "bùfen",
+      "translationTr": "bölüm",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc011_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK2_SC011_010",
+      "hanzi": "休息",
+      "pinyin": "xiūxi",
+      "translationTr": "dinlenmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc011_word_010.m4a"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "sceneId": "HSK2_SC014",
+  "sourcePolicy": "exam items dialogue-derived; full study practice uses every dialogue line in locked three-mode UI",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC014_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC014_001",
+      "correctZh": "在家怎么运动？这里又不大。",
+      "pinyin": "Zài jiā zěnme yùndòng? Zhèlǐ yòu bú dà.",
+      "translationTr": "Evde nasıl egzersiz yapacağız? Burası çok büyük değil.",
+      "sentenceZh": "在家怎么运动？这里又不大。",
+      "correctAnswer": "在家怎么运动？这里又不大。",
+      "options": [],
+      "tokens": [
+        "在家怎",
+        "么运动",
+        "这里又",
+        "不大"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC014_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC014_002",
+      "correctZh": "我们可以做一些简单的动作，再走几分钟。",
+      "pinyin": "Wǒmen kěyǐ zuò yìxiē jiǎndān de dòngzuò, zài zǒu jǐ fēnzhōng.",
+      "translationTr": "Birkaç basit hareket yapıp sonra birkaç dakika yürüyebiliriz.",
+      "sentenceZh": "___可以做一些简单的动作，再走几分钟。",
+      "correctAnswer": "我们",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC014_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC014_003",
+      "correctZh": "邻居会不会觉得我们很奇怪？",
+      "pinyin": "Línjū huì bú huì juéde wǒmen hěn qíguài?",
+      "translationTr": "Komşular bizi garip bulmaz mı?",
+      "sentenceZh": "邻居会不会觉得我们很奇怪？",
+      "correctAnswer": "邻居会不会觉得我们很奇怪？",
+      "options": [
+        "邻居会不会觉得我们很奇怪？",
+        "今天雨这么大，看来不能去公园了。",
+        "没关系，在家也可以动一动。",
+        "在家怎么运动？这里又不大。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC014_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC014_004",
+      "correctZh": "十五分钟就够了。",
+      "pinyin": "Shíwǔ fēnzhōng jiù gòu le.",
+      "translationTr": "On beş dakika yeter.",
+      "sentenceZh": "十五分钟就够了。",
+      "correctAnswer": "十五分钟就够了。",
+      "options": [],
+      "tokens": [
+        "十五分",
+        "钟就够",
+        "了"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC014_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC014_005",
+      "correctZh": "好，那我先把这边收一下。",
+      "pinyin": "Hǎo, nà wǒ xiān bǎ zhèbiān shōu yíxià.",
+      "translationTr": "Tamam, önce şu tarafı toparlayayım.",
+      "sentenceZh": "___那我先把这边收一下。",
+      "correctAnswer": "好，",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc014_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC014_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC014_006",
+      "correctZh": "对，天气不好也不用整天坐着。",
+      "pinyin": "Duì, tiānqì bù hǎo yě bú yòng zhěngtiān zuòzhe.",
+      "translationTr": "Evet, hava kötü diye bütün gün oturmak gerekmiyor.",
+      "sentenceZh": "对，天气不好也不用整天坐着。",
+      "correctAnswer": "对，天气不好也不用整天坐着。",
+      "options": [
+        "对，天气不好也不用整天坐着。",
+        "今天雨这么大，看来不能去公园了。",
+        "没关系，在家也可以动一动。",
+        "在家怎么运动？这里又不大。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc014_sentence_006.m4a"
+    }
+  ]
+}

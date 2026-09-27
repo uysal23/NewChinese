@@ -1,0 +1,110 @@
+{
+  "sceneId": "HSK2_SC013",
+  "sourcePolicy": "exam items dialogue-derived; full study practice uses every dialogue line in locked three-mode UI",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK2_SC013_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC013_001",
+      "correctZh": "所以先走，不一定要跑。",
+      "pinyin": "Suǒyǐ xiān zǒu, bù yídìng yào pǎo.",
+      "translationTr": "O yüzden önce yürüyelim, koşmak şart değil.",
+      "sentenceZh": "所以先走，不一定要跑。",
+      "correctAnswer": "所以先走，不一定要跑。",
+      "options": [],
+      "tokens": [
+        "所以先",
+        "走不一",
+        "定要跑"
+      ],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc013_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC013_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC013_002",
+      "correctZh": "我上班的时候坐得太久。",
+      "pinyin": "Wǒ shàngbān de shíhou zuò de tài jiǔ.",
+      "translationTr": "İşte çok uzun süre oturuyorum.",
+      "sentenceZh": "___班的时候坐得太久。",
+      "correctAnswer": "我上",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc013_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC013_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC013_003",
+      "correctZh": "对，而且不用特别准备。",
+      "pinyin": "Duì, érqiě bú yòng tèbié zhǔnbèi.",
+      "translationTr": "Evet, ayrıca özel bir hazırlık gerektirmez.",
+      "sentenceZh": "对，而且不用特别准备。",
+      "correctAnswer": "对，而且不用特别准备。",
+      "options": [
+        "对，而且不用特别准备。",
+        "今天空气不错，走快一点儿怎么样？",
+        "可以，不过我最近运动得不多。",
+        "所以先走，不一定要跑。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc013_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC013_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK2_SC013_004",
+      "correctZh": "如果天气好，我想走到湖的另一边。",
+      "pinyin": "Rúguǒ tiānqì hǎo, wǒ xiǎng zǒu dào hú de lìng yìbiān.",
+      "translationTr": "Hava güzel olursa gölün öbür tarafına kadar yürümek istiyorum.",
+      "sentenceZh": "如果天气好，我想走到湖的另一边。",
+      "correctAnswer": "如果天气好，我想走到湖的另一边。",
+      "options": [],
+      "tokens": [
+        "如果天",
+        "气好我",
+        "想走到",
+        "湖的另",
+        "一边"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc013_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC013_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK2_SC013_005",
+      "correctZh": "走路的时候也可以听中文。",
+      "pinyin": "Zǒulù de shíhou yě kěyǐ tīng Zhōngwén.",
+      "translationTr": "Yürürken Çince de dinleyebilirsin.",
+      "sentenceZh": "___的时候也可以听中文。",
+      "correctAnswer": "走路",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk2_sc013_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK2_SC013_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK2_SC013_006",
+      "correctZh": "今天我就只走路、看风景。",
+      "pinyin": "Jīntiān wǒ jiù zhǐ zǒulù, kàn fēngjǐng.",
+      "translationTr": "Bugün sadece yürüyüp manzaraya bakacağım.",
+      "sentenceZh": "今天我就只走路、看风景。",
+      "correctAnswer": "今天我就只走路、看风景。",
+      "options": [
+        "今天我就只走路、看风景。",
+        "今天空气不错，走快一点儿怎么样？",
+        "可以，不过我最近运动得不多。",
+        "所以先走，不一定要跑。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk2_sc013_sentence_006.m4a"
+    }
+  ]
+}
