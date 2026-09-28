@@ -22,8 +22,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 
-private const val CHARACTER_MIN_TRANSPARENT_FRACTION = 0.08f
-private const val FOREGROUND_MIN_TRANSPARENT_FRACTION = 0.12f
+private const val CHARACTER_MIN_TRANSPARENT_FRACTION = 0.35f
+private const val FOREGROUND_MIN_TRANSPARENT_FRACTION = 0.25f
 
 private data class LoadedVisual(
     val image: ImageBitmap,
