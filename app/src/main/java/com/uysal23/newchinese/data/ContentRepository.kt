@@ -19,7 +19,8 @@ data class VocabularyItem(
     val pinyin: String,
     val turkish: String,
     val voiceId: String,
-    val audioFile: String
+    val audioFile: String,
+    val sourceAssetBase: String
 )
 
 data class SentenceExercise(
@@ -104,6 +105,33 @@ class ContentRepository(private val context: Context) {
             .distinctBy { it.id }
     }
 
+
+    private val globalVocabulary: List<VocabularyItem> by lazy {
+        (1..6)
+            .flatMap { level -> availableSceneIds(level).sorted() }
+            .flatMap { sceneId ->
+                runCatching { loadSceneById(sceneId).vocabulary }.getOrDefault(emptyList())
+            }
+            .distinctBy { item -> item.hanzi to item.turkish }
+    }
+
+    fun loadDialogueVocabulary(scene: SceneContent): List<VocabularyItem> {
+        val dialogueText = scene.lines.joinToString(separator = "") { it.chinese }
+        val nativeWords = scene.vocabulary
+        val nativeKeys = nativeWords.map { it.hanzi }.toSet()
+
+        val extraWords = globalVocabulary
+            .asSequence()
+            .filter { it.hanzi.isNotBlank() }
+            .filter { dialogueText.contains(it.hanzi) }
+            .filter { it.hanzi !in nativeKeys }
+            .distinctBy { it.hanzi }
+            .sortedBy { dialogueText.indexOf(it.hanzi).let { index -> if (index < 0) Int.MAX_VALUE else index } }
+            .toList()
+
+        return (nativeWords + extraWords).distinctBy { it.hanzi }
+    }
+
     fun availableSceneIds(level: Int): Set<String> {
         val folders = context.assets.list("hsk$level").orEmpty()
         return folders
@@ -156,7 +184,8 @@ class ContentRepository(private val context: Context) {
                         pinyin = x.getString("pinyin"),
                         turkish = x.getString("translationTr"),
                         voiceId = x.optString("voiceId", ""),
-                        audioFile = x.optString("audioFile", "")
+                        audioFile = x.optString("audioFile", ""),
+                        sourceAssetBase = scenePath
                     )
                 )
             }
