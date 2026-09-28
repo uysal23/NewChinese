@@ -319,10 +319,24 @@ fun VocabularyScreen(
                 verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
                 Text(item.hanzi, style = MaterialTheme.typography.displayMedium)
-                Text(item.pinyin, style = MaterialTheme.typography.titleMedium)
+                if (item.pinyin.isNotBlank()) {
+                    Text(item.pinyin, style = MaterialTheme.typography.titleMedium)
+                } else if (!item.contextPinyin.isNullOrBlank()) {
+                    Text(
+                        "Bağlam pinyini: ${item.contextPinyin}",
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
 
                 if (showMeaning) {
-                    Text(item.turkish, style = MaterialTheme.typography.headlineSmall)
+                    if (item.turkish.isNotBlank()) {
+                        Text(item.turkish, style = MaterialTheme.typography.headlineSmall)
+                    } else if (!item.contextTurkish.isNullOrBlank()) {
+                        Text(
+                            "Bağlam: ${item.contextTurkish}",
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                    }
                 }
                 TextButton(onClick = { showMeaning = !showMeaning }) {
                     Text(if (showMeaning) "Anlamı Gizle" else "Anlamı Göster")
@@ -335,7 +349,15 @@ fun VocabularyScreen(
                         audioMissing = !ok
                     },
                     modifier = Modifier.fillMaxWidth()
-                ) { Text("🔊 Kelimeyi Dinle") }
+                ) {
+                    Text(
+                        if (item.referenceIsContextSentence) {
+                            "🔊 Bağlam Cümlesini Dinle"
+                        } else {
+                            "🔊 Kelimeyi Dinle"
+                        }
+                    )
+                }
 
                 if (audioMissing) {
                     Text(
@@ -358,7 +380,9 @@ fun VocabularyScreen(
                     style = MaterialTheme.typography.labelLarge
                 )
                 Text(item.hanzi, style = MaterialTheme.typography.headlineMedium)
-                Text(item.pinyin, style = MaterialTheme.typography.bodyLarge)
+                if (item.pinyin.isNotBlank()) {
+                    Text(item.pinyin, style = MaterialTheme.typography.bodyLarge)
+                }
 
                 when {
                     !hasMicPermission -> {
