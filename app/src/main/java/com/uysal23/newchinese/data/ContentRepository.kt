@@ -50,7 +50,9 @@ data class VisualAssets(
     val characterA: String?,
     val characterB: String?,
     val foreground: String?,
-    val preview: String?
+    val preview: String?,
+    val characterAId: String?,
+    val characterBId: String?
 )
 
 data class SceneContent(
@@ -227,12 +229,15 @@ class ContentRepository(private val context: Context) {
         }
 
         val assets = visualJson.optJSONObject("assets")
+        val visualCharacters = visualJson.optJSONArray("characters")
         val visualAssets = VisualAssets(
             background = assets?.optString("background")?.ifBlank { null },
             characterA = assets?.optString("characterA")?.ifBlank { null },
             characterB = assets?.optString("characterB")?.ifBlank { null },
             foreground = assets?.optString("foreground")?.ifBlank { null },
-            preview = assets?.optString("preview")?.ifBlank { null }
+            preview = assets?.optString("preview")?.ifBlank { null },
+            characterAId = visualCharacters?.optJSONObject(0)?.optString("characterId")?.ifBlank { null },
+            characterBId = visualCharacters?.optJSONObject(1)?.optString("characterId")?.ifBlank { null }
         )
 
         return SceneContent(
