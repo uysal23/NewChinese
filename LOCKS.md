@@ -34,7 +34,7 @@ All twenty planning steps are LOCKED. Read the relevant root manifest before cha
 - Family-friendly content: no alcohol, bars/nightclubs, mini-skirts, sexual/explicit content or erotic presentation.
 - Word exam pass: 90%.
 - Sentence exam pass: 85%.
-- Shadowing default/minimum: 6 sentences; UI choices 6 / 10 / 15 / Entire dialogue.
+- Telaffuz Çalışması default/minimum: 6 sentences; UI choices 6 / 10 / 15 / Entire dialogue.
 - Root manifests are the source of truth for future work.
 
 ## LOCKED GOLDEN DEMO V1 — SC001 reference implementation
@@ -46,7 +46,7 @@ The phone-tested HSK1_SC001 experience is the locked reference for all subsequen
 - Dialogue uses layered scene rendering: background + scene depth layer + both characters; the active speaker is visually emphasized without changing character identity.
 - Chinese, optional tone-marked pinyin and optional Turkish translation remain visible in the dedicated subtitle card and must never be hidden behind controls/system navigation.
 - Bottom controls keep the current two-row mobile-safe concept; do not regress to cramped controls.
-- Shadowing UI layout stays as currently accepted. Recording auto-stops after speech followed by silence; Mandarin recognition must work offline without requiring a device speech-recognition service.
-- Shadowing shows the recognized Mandarin text plus a factual target-vs-recognized similarity percentage. Do not label text similarity as tone/pronunciation accuracy.
+- Telaffuz Çalışması UI layout stays as currently accepted. Recording auto-stops after speech followed by silence; Mandarin recognition must work offline without requiring a device speech-recognition service.
+- Telaffuz Çalışması shows the recognized Mandarin text plus a factual target-vs-recognized similarity percentage. Do not label text similarity as tone/pronunciation accuracy.
 - Existing working behavior is regression-protected. Future scenes must reuse this concept rather than creating one-off screen designs.
 
