@@ -50,7 +50,7 @@ fun StudyHubScreen(
             StudyStatus("Kelime", vocabularyPercent, "$vocabularyCount kelime")
             StudyStatus("Cümle", sentencePercent, "$dialogueLineCount cümle × 3 çalışma")
             StudyStatus(
-                "Shadowing",
+                "Telaffuz Çalışması",
                 shadowingPercent,
                 progress?.shadowingBestSimilarity
                     ?.takeIf { it > 0 }
@@ -58,7 +58,7 @@ fun StudyHubScreen(
                     ?: "Henüz sonuç yok"
             )
             Text(
-                "Kelime, cümle ve shadowing çalışmalarının her birinde en az %50 ilerlediğinde istersen Sahne Sınavı'na geçebilirsin.",
+                "Kelime, cümle ve telaffuz çalışmalarının her birinde en az %50 ilerlediğinde istersen Sahne Sınavı'na geçebilirsin.",
                 style = MaterialTheme.typography.bodyMedium
             )
         }
@@ -69,7 +69,7 @@ fun StudyHubScreen(
             Text("Cümle Çalışması · ${dialogueLineCount * 3} görev")
         }
         Button(onClick = onShadowing, modifier = Modifier.fillMaxWidth()) {
-            Text("Shadowing")
+            Text("Telaffuz Çalışması")
         }
         if (!freeStudyMode) {
             Button(
@@ -603,7 +603,7 @@ fun ShadowingSetupScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         TextButton(onClick = onBack) { Text("Geri") }
-        Text("Shadowing", style = MaterialTheme.typography.headlineMedium)
+        Text("Telaffuz Çalışması", style = MaterialTheme.typography.headlineMedium)
 
         if (!started) {
             Text("Tekrar etmek istediğin cümle sayısını seç.")
@@ -653,7 +653,7 @@ fun ShadowingSetupScreen(
                 enabled = (hasMicPermission && offlineModelReady) || listenOnly,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("Shadowing'i Başlat")
+                Text("Telaffuz Çalışmasını Başlat")
             }
         } else if (sessionLines.isNotEmpty()) {
             val line = sessionLines[currentIndex]
