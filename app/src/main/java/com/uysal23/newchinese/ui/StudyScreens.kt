@@ -119,6 +119,7 @@ fun VocabularyScreen(
     items: List<VocabularyItem>,
     favoriteIds: Set<String>,
     playbackSpeed: Float,
+    allowSelection: Boolean = false,
     onToggleFavorite: (String) -> Unit,
     onProgress: (Int) -> Unit,
     onComplete: () -> Unit,
@@ -126,16 +127,173 @@ fun VocabularyScreen(
 ) {
     val context = LocalContext.current
     val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
-    DisposableEffect(Unit) { onDispose { audioPlayer.release() } }
-    var index by remember { mutableIntStateOf(0) }
+    val pronunciationEngine = remember {
+        OfflineMandarinShadowingEngine(context.applicationContext)
+    }
+
+    var offlineModelReady by remember { mutableStateOf(false) }
+    var offlineModelPreparing by remember { mutableStateOf(true) }
+    var offlineModelError by remember { mutableStateOf<String?>(null) }
+    var hasMicPermission by remember {
+        mutableStateOf(
+            ContextCompat.checkSelfPermission(context, Manifest.permission.RECORD_AUDIO) ==
+                PackageManager.PERMISSION_GRANTED
+        )
+    }
+
+    val permissionLauncher = rememberLauncherForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { granted ->
+        hasMicPermission = granted
+    }
+
+    LaunchedEffect(Unit) {
+        pronunciationEngine.prepare(
+            onReady = {
+                offlineModelReady = true
+                offlineModelPreparing = false
+                offlineModelError = null
+            },
+            onError = { message ->
+                offlineModelReady = false
+                offlineModelPreparing = false
+                offlineModelError = message
+            }
+        )
+    }
+
+    DisposableEffect(Unit) {
+        onDispose {
+            pronunciationEngine.release()
+            audioPlayer.release()
+        }
+    }
+
+    if (items.isEmpty()) {
+        Column(
+            Modifier.fillMaxSize().padding(20.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            TextButton(onClick = onBack) { Text("Geri") }
+            Text("Bu diyalog için çalışılabilir kelime bulunamadı.")
+        }
+        return
+    }
+
+    var selectedIds by remember(items, allowSelection) {
+        mutableStateOf(items.map { it.id }.toSet())
+    }
+    var selectionConfirmed by remember(items, allowSelection) {
+        mutableStateOf(!allowSelection)
+    }
+
+    if (allowSelection && !selectionConfirmed) {
+        Column(
+            Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState())
+                .padding(20.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            TextButton(onClick = onBack) { Text("Geri") }
+            Text("Kelime Seçimi", style = MaterialTheme.typography.headlineMedium)
+            Text(
+                "Bu diyalogda bulunan çalışılabilir kelimelerden istediğin kadarını seçebilir veya tümünü çalışabilirsin."
+            )
+            Text(
+                "Seçilen: ${selectedIds.size} / ${items.size}",
+                style = MaterialTheme.typography.titleMedium
+            )
+
+            Row(
+                Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                OutlinedButton(
+                    onClick = { selectedIds = items.map { it.id }.toSet() },
+                    modifier = Modifier.weight(1f)
+                ) { Text("Tümünü Seç") }
+                OutlinedButton(
+                    onClick = { selectedIds = emptySet() },
+                    modifier = Modifier.weight(1f)
+                ) { Text("Temizle") }
+            }
+
+            items.forEach { word ->
+                val selected = word.id in selectedIds
+                Card(
+                    onClick = {
+                        selectedIds = if (selected) selectedIds - word.id else selectedIds + word.id
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Row(
+                        Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 10.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Checkbox(
+                            checked = selected,
+                            onCheckedChange = { checked ->
+                                selectedIds = if (checked) selectedIds + word.id else selectedIds - word.id
+                            }
+                        )
+                        Spacer(Modifier.width(8.dp))
+                        Column {
+                            Text(word.hanzi, style = MaterialTheme.typography.titleLarge)
+                            Text(word.pinyin, style = MaterialTheme.typography.bodyMedium)
+                            Text(word.turkish, style = MaterialTheme.typography.bodySmall)
+                        }
+                    }
+                }
+            }
+
+            Button(
+                onClick = { selectionConfirmed = true },
+                enabled = selectedIds.isNotEmpty(),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Seçilen ${selectedIds.size} Kelimeyle Başla")
+            }
+        }
+        return
+    }
+
+    val studyItems = remember(items, selectedIds, allowSelection) {
+        if (allowSelection) items.filter { it.id in selectedIds } else items
+    }
+
+    var index by remember(studyItems) { mutableIntStateOf(0) }
     var showMeaning by remember { mutableStateOf(false) }
     var audioMissing by remember(index) { mutableStateOf(false) }
-    val item = items[index]
+    var isRecording by remember { mutableStateOf(false) }
+    var recognitionInProgress by remember { mutableStateOf(false) }
+    var recordedPath by remember { mutableStateOf<String?>(null) }
+    var recognizedText by remember { mutableStateOf<String?>(null) }
+    var similarityPercent by remember { mutableStateOf<Int?>(null) }
+    var recognitionError by remember { mutableStateOf<String?>(null) }
+
+    val safeIndex = index.coerceIn(0, studyItems.lastIndex)
+    val item = studyItems[safeIndex]
     val favorite = item.id in favoriteIds
 
+    LaunchedEffect(item.id) {
+        pronunciationEngine.cancel()
+        isRecording = false
+        recognitionInProgress = false
+        recordedPath = null
+        recognizedText = null
+        similarityPercent = null
+        recognitionError = null
+        audioMissing = false
+        showMeaning = false
+    }
+
     Column(
-        Modifier.fillMaxSize().padding(20.dp),
-        verticalArrangement = Arrangement.SpaceBetween,
+        Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(20.dp),
+        verticalArrangement = Arrangement.spacedBy(14.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
@@ -145,52 +303,173 @@ fun VocabularyScreen(
             }
         }
 
+        if (allowSelection) {
+            TextButton(onClick = {
+                pronunciationEngine.cancel()
+                selectionConfirmed = false
+            }) {
+                Text("Kelime Seçimini Değiştir")
+            }
+        }
+
         Card(Modifier.fillMaxWidth()) {
             Column(
                 Modifier.fillMaxWidth().padding(28.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(10.dp)
             ) {
                 Text(item.hanzi, style = MaterialTheme.typography.displayMedium)
                 Text(item.pinyin, style = MaterialTheme.typography.titleMedium)
-                Spacer(Modifier.height(18.dp))
-                if (showMeaning) Text(item.turkish, style = MaterialTheme.typography.headlineSmall)
+
+                if (showMeaning) {
+                    Text(item.turkish, style = MaterialTheme.typography.headlineSmall)
+                }
                 TextButton(onClick = { showMeaning = !showMeaning }) {
                     Text(if (showMeaning) "Anlamı Gizle" else "Anlamı Göster")
                 }
+
                 OutlinedButton(
                     onClick = {
                         val ok = item.audioFile.isNotBlank() &&
-                            audioPlayer.play("${sceneIdToAssetPath(sceneId)}/${item.audioFile}", playbackSpeed)
+                            audioPlayer.play("${item.sourceAssetBase}/${item.audioFile}", playbackSpeed)
                         audioMissing = !ok
-                    }
-                ) { Text("🔊 Dinle") }
+                    },
+                    modifier = Modifier.fillMaxWidth()
+                ) { Text("🔊 Kelimeyi Dinle") }
+
                 if (audioMissing) {
                     Text(
-                        "Doğal Mandarin kelime sesi henüz eklenmedi.",
+                        "Bu kelimenin doğal Mandarin sesi henüz eklenmedi.",
                         color = MaterialTheme.colorScheme.error
                     )
                 }
             }
         }
 
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+        Card(Modifier.fillMaxWidth()) {
+            Column(
+                Modifier.fillMaxWidth().padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(10.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text("Telaffuz Çalışması", style = MaterialTheme.typography.titleLarge)
+                Text(
+                    "Söyleyeceğin kelime:",
+                    style = MaterialTheme.typography.labelLarge
+                )
+                Text(item.hanzi, style = MaterialTheme.typography.headlineMedium)
+                Text(item.pinyin, style = MaterialTheme.typography.bodyLarge)
+
+                when {
+                    !hasMicPermission -> {
+                        Button(
+                            onClick = {
+                                permissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+                            },
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text("Mikrofon İzni Ver")
+                        }
+                    }
+                    offlineModelPreparing -> {
+                        Text("Mandarin tanıma modeli hazırlanıyor…")
+                    }
+                    !offlineModelReady -> {
+                        Text(
+                            offlineModelError ?: "Mandarin tanıma modeli hazır değil.",
+                            color = MaterialTheme.colorScheme.error
+                        )
+                    }
+                    else -> {
+                        Button(
+                            onClick = {
+                                if (!isRecording) {
+                                    recognizedText = null
+                                    similarityPercent = null
+                                    recognitionError = null
+                                    recognitionInProgress = false
+                                    recordedPath = null
+
+                                    val ok = pronunciationEngine.start(
+                                        targetText = item.hanzi,
+                                        onResult = { result ->
+                                            isRecording = false
+                                            recognitionInProgress = false
+                                            recordedPath = result.recordingPath
+                                            recognizedText = result.recognizedText
+                                            similarityPercent = result.similarityPercent
+                                            recognitionError = null
+                                        },
+                                        onError = { message ->
+                                            isRecording = false
+                                            recognitionInProgress = false
+                                            recognitionError = message
+                                        }
+                                    )
+                                    if (ok) isRecording = true
+                                } else {
+                                    pronunciationEngine.stop()
+                                    isRecording = false
+                                    recognitionInProgress = true
+                                }
+                            },
+                            enabled = !recognitionInProgress,
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text(if (isRecording) "■ Kaydı Durdur" else "🎙 Söyle ve Kaydet")
+                        }
+                    }
+                }
+
+                if (isRecording) {
+                    Text("Kelimeyi söyle; sustuğunda kayıt otomatik duracak.")
+                } else if (recognitionInProgress) {
+                    Text("Telaffuz karşılaştırılıyor…")
+                }
+
+                OutlinedButton(
+                    onClick = { recordedPath?.let { audioPlayer.playFile(it) } },
+                    enabled = recordedPath != null && !isRecording,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text("▶ Kendi Kaydımı Dinle")
+                }
+
+                if (recognizedText != null && similarityPercent != null) {
+                    Text(
+                        "Metin benzerliği: %$similarityPercent",
+                        style = MaterialTheme.typography.titleMedium,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                    Text("Tanınan: $recognizedText")
+                }
+
+                recognitionError?.let {
+                    Text(it, color = MaterialTheme.colorScheme.error)
+                }
+            }
+        }
+
+        Row(
+            Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             Button(
                 onClick = {
-                    if (index > 0) {
-                        index--
-                        showMeaning = false
+                    if (safeIndex > 0) {
+                        index = safeIndex - 1
                     }
                 },
-                enabled = index > 0
+                enabled = safeIndex > 0
             ) { Text("← Önceki") }
 
-            Text("${index + 1} / ${items.size}")
+            Text("${safeIndex + 1} / ${studyItems.size}")
 
-            if (index < items.lastIndex) {
+            if (safeIndex < studyItems.lastIndex) {
                 Button(onClick = {
-                    onProgress((((index + 1).toFloat() / items.size) * 100).toInt())
-                    index++
-                    showMeaning = false
+                    onProgress((((safeIndex + 1).toFloat() / studyItems.size) * 100).toInt())
+                    index = safeIndex + 1
                 }) { Text("Sonraki →") }
             } else {
                 Button(onClick = {
