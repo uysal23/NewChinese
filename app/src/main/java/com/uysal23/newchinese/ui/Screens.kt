@@ -255,7 +255,10 @@ fun DialogueScreen(
             characterA = scene.visualAssets.characterA,
             characterB = scene.visualAssets.characterB,
             foreground = scene.visualAssets.foreground,
+            preview = scene.visualAssets.preview,
             activeSpeakerId = line.speakerId,
+            characterAId = scene.characterIds.getOrNull(0),
+            characterBId = scene.characterIds.getOrNull(1),
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f)
