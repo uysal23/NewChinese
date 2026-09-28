@@ -5,67 +5,67 @@
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "language learning and technology",
   "dialogueTargetTurns": "18-30",
-  "status": "media_complete_validation_pending",
+  "status": "complete",
   "scenes": [
     {
       "sceneId": "HSK2_SC021",
       "titleTr": "Yeni Kelimeleri Nasıl Hatırlarım?",
       "locationId": "LOC_PUBLIC_LIBRARY_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC022",
       "titleTr": "Telefondan Kelime Bakmak",
       "locationId": "LOC_CAFE_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC023",
       "titleTr": "Kütüphanede Çalışmak",
       "locationId": "LOC_PUBLIC_LIBRARY_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC024",
       "titleTr": "Çince Yazma Klavyesi",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC025",
       "titleTr": "Kulaklık Almak",
       "locationId": "LOC_ELECTRONICS_STORE_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC026",
       "titleTr": "Sesli Çalışma Denemesi",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC027",
       "titleTr": "İlk Görüntülü Görüşme",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC028",
       "titleTr": "Online Ders Seçmek",
       "locationId": "LOC_CAFE_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC029",
       "titleTr": "Cihazda Küçük Bir Sorun",
       "locationId": "LOC_ELECTRONICS_STORE_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC030",
       "titleTr": "Daha Akıllı Çalışmak",
       "locationId": "LOC_PUBLIC_LIBRARY_001",
-      "status": "media_complete_validation_pending"
+      "status": "complete"
     }
   ],
   "pipeline": [
@@ -81,13 +81,13 @@
     "totalScenes": 10,
     "visualComplete": 10,
     "audioComplete": 10,
-    "acceptedScenes": 0,
+    "acceptedScenes": 10,
     "previewComplete": 10
   },
   "previewAssets": {
     "status": "complete",
     "count": 10,
     "format": "webp",
-    "note": "SC021-SC030 layered BG/character/FG assets are complete; validation and batch acceptance remain."
+    "note": "SC021-SC030 layered visual assets, previews and audio validated; batch accepted."
   }
 }
