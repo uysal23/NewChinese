@@ -86,7 +86,7 @@ fun DashboardScreen(
                 Text("Açılmış sahne: $unlocked / 300")
                 Text("Favoriler: $favoriteCount")
                 Text("Son çalışma: $lastScene")
-                Text("Shadowing metin benzerliği: " + (shadowingAverage?.let { "%$it" } ?: "Henüz veri yok"))
+                Text("Telaffuz Çalışması metin benzerliği: " + (shadowingAverage?.let { "%$it" } ?: "Henüz veri yok"))
             }
         }
 
@@ -190,7 +190,17 @@ fun DialogueScreen(
     var showTurkish by rememberSaveable { mutableStateOf(showTurkishDefault) }
 
     val line = scene.lines[index]
-    val speaker = if (line.speakerId.contains("LI_NA")) "李娜" else "张伟"
+    val speaker = when (line.speakerId) {
+        "CHAR_LI_NA_001" -> "李娜"
+        "CHAR_ZHANG_WEI_001" -> "张伟"
+        "CHAR_CHEN_YU_001" -> "陈雨"
+        "CHAR_LIU_MEI_001" -> "刘梅"
+        "CHAR_WANG_MING_001" -> "王明"
+        "CHAR_ZHAO_QIANG_001" -> "赵强"
+        "CHAR_SUN_LIN_001" -> "孙琳"
+        "CHAR_GAO_JIE_001" -> "高杰"
+        else -> line.speakerId
+    }
     val context = LocalContext.current
     val audioPlayer = remember { AssetAudioPlayer(context.applicationContext) }
 
@@ -257,8 +267,8 @@ fun DialogueScreen(
             foreground = scene.visualAssets.foreground,
             preview = scene.visualAssets.preview,
             activeSpeakerId = line.speakerId,
-            characterAId = scene.characterIds.getOrNull(0),
-            characterBId = scene.characterIds.getOrNull(1),
+            characterAId = scene.visualAssets.characterAId,
+            characterBId = scene.visualAssets.characterBId,
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f)
