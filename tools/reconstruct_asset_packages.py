@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import base64
+import json
 import re
 import zipfile
 from collections import defaultdict
@@ -206,6 +207,88 @@ def reconstruct_visual_packages() -> int:
 
                 place_character(li_name, 0.34)
                 place_character(zw_name, 0.67)
+
+                output = BytesIO()
+                canvas.convert("RGB").save(output, "WEBP", quality=78, method=6)
+                decoded[preview_name] = output.getvalue()
+
+        # HSK2 layered scenes reuse the latest approved canonical character layer
+        # for each declared character, while BG/FG remain scene-specific. This
+        # preserves face/outfit continuity and lets staged BG/FG packages build
+        # their merged preview deterministically.
+        hsk2_match = re.match(r"^HSK2_SC(\\d{3})$", scene_id)
+        if hsk2_match:
+            number = hsk2_match.group(1)
+            scene_number = int(number)
+            scene_dir = ROOT / "content" / "hsk2" / f"sc{number}"
+            manifest_path = scene_dir / "visual_manifest.json"
+            if not manifest_path.is_file():
+                raise RuntimeError(f"Missing visual manifest: {manifest_path}")
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+
+            def character_slug(character_id: str) -> str:
+                slug = character_id.lower()
+                if slug.startswith("char_"):
+                    slug = slug[5:]
+                slug = re.sub(r"_\\d{3}$", "", slug)
+                return slug
+
+            character_names: list[str] = []
+            for spec in manifest.get("characters", []):
+                slug = character_slug(spec["characterId"])
+                target_name = f"hsk2_sc{number}_char_{slug}.webp"
+                if target_name not in decoded:
+                    reference_path: Path | None = None
+                    for previous in range(scene_number - 1, 0, -1):
+                        candidate = (
+                            ROOT / "content" / "hsk2" / f"sc{previous:03d}" /
+                            "assets" / f"hsk2_sc{previous:03d}_char_{slug}.webp"
+                        )
+                        if candidate.is_file():
+                            reference_path = candidate
+                            break
+                    if reference_path is None:
+                        raise RuntimeError(
+                            f"No approved canonical HSK2 character layer found for {spec['characterId']}"
+                        )
+                    decoded[target_name] = reference_path.read_bytes()
+                    print(
+                        f"Reused canonical character for {scene_id}: "
+                        f"{reference_path.relative_to(ROOT)} -> {target_name}"
+                    )
+                character_names.append(target_name)
+
+            background_name = f"hsk2_sc{number}_bg.webp"
+            foreground_name = f"hsk2_sc{number}_fg.webp"
+            preview_name = f"hsk2_sc{number}_preview.webp"
+
+            if preview_name not in decoded and background_name in decoded:
+                background = Image.open(BytesIO(decoded[background_name])).convert("RGBA")
+                canvas = background.copy()
+
+                # Runtime draws foreground before character layers so opaque/partial
+                # foreground art cannot mask character bodies.
+                if foreground_name in decoded:
+                    foreground = Image.open(BytesIO(decoded[foreground_name])).convert("RGBA")
+                    if foreground.size != canvas.size:
+                        foreground = foreground.resize(canvas.size, Image.Resampling.LANCZOS)
+                    canvas.alpha_composite(foreground, (0, 0))
+
+                positions = [0.34, 0.67]
+                for index, asset_name in enumerate(character_names[:2]):
+                    if asset_name not in decoded:
+                        continue
+                    char = Image.open(BytesIO(decoded[asset_name])).convert("RGBA")
+                    target_h = int(canvas.height * 0.76)
+                    scale = target_h / max(char.height, 1)
+                    char = char.resize(
+                        (max(1, int(char.width * scale)), target_h),
+                        Image.Resampling.LANCZOS,
+                    )
+                    x_fraction = positions[index] if index < len(positions) else 0.5
+                    x = int(canvas.width * x_fraction - char.width / 2)
+                    y = canvas.height - char.height
+                    canvas.alpha_composite(char, (x, y))
 
                 output = BytesIO()
                 canvas.convert("RGB").save(output, "WEBP", quality=78, method=6)
