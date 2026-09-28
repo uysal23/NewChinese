@@ -13,9 +13,12 @@
       "assets/hsk2_sc022_bg.webp",
       "assets/hsk2_sc022_char_zhang_wei.webp",
       "assets/hsk2_sc022_char_li_na.webp",
-      "assets/hsk2_sc022_fg.webp",
+      "assets/hsk2_sc022_fg.webp"
+    ],
+    "available": [
       "assets/hsk2_sc022_preview.webp"
-    ]
+    ],
+    "previewStatus": "complete"
   },
   "audio": {
     "status": "complete",
@@ -57,5 +60,5 @@
     ],
     "missing": []
   },
-  "rule": "Mark complete only after physical assets exist and validation passes."
+  "rule": "Mark complete only after every declared physical asset exists and validation passes."
 }

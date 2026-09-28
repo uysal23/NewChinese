@@ -80,7 +80,14 @@
     "contentReady": 10,
     "totalScenes": 10,
     "visualComplete": 0,
-    "audioComplete": 0,
-    "acceptedScenes": 0
+    "audioComplete": 10,
+    "acceptedScenes": 0,
+    "previewComplete": 10
+  },
+  "previewAssets": {
+    "status": "complete",
+    "count": 10,
+    "format": "webp",
+    "note": "Composite scene previews imported; layered background/character/foreground assets remain pending."
   }
 }
