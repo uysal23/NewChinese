@@ -32,6 +32,9 @@ fun AppNavigation(
     val nav = rememberNavController()
     val scope = rememberCoroutineScope()
     val scene = remember(activeSceneId) { repository.loadSceneById(activeSceneId) }
+    val studyVocabulary = remember(scene.sceneId, freeStudyMode) {
+        if (freeStudyMode) repository.loadDialogueVocabulary(scene) else scene.vocabulary
+    }
     val placementQuestions = remember { repository.loadPlacementQuestions() }
     val availableScenes = remember { (1..6).flatMap { repository.availableSceneIds(it) }.toSet() }
     val appContext = LocalContext.current.applicationContext
@@ -138,7 +141,7 @@ fun AppNavigation(
                 StudyHubScreen(
                     progress = sceneProgress,
                     freeStudyMode = freeStudyMode,
-                    vocabularyCount = scene.vocabulary.size,
+                    vocabularyCount = studyVocabulary.size,
                     dialogueLineCount = scene.lines.size,
                     onVocabulary = { nav.navigate("vocabulary") },
                     onSentence = { nav.navigate("sentences") },
@@ -154,9 +157,10 @@ fun AppNavigation(
                 KeepScreenOn()
                 VocabularyScreen(
                     sceneId = scene.sceneId,
-                    items = scene.vocabulary,
+                    items = studyVocabulary,
                     favoriteIds = current.favoriteWordIds,
                     playbackSpeed = current.playbackSpeed,
+                    allowSelection = freeStudyMode,
                     onToggleFavorite = { id -> scope.launch { preferences.toggleFavorite(id) } },
                     onProgress = { percent ->
                         if (!freeStudyMode) {
