@@ -23,7 +23,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 
 private const val CHARACTER_MIN_TRANSPARENT_FRACTION = 0.35f
-private const val FOREGROUND_MIN_TRANSPARENT_FRACTION = 0.25f
 
 private data class LoadedVisual(
     val image: ImageBitmap,
@@ -175,9 +174,6 @@ fun AssetSceneStage(
     val characterBVisual = remember(sceneAssetBase, characterB) {
         loadVisual(context, sceneAssetBase, characterB, trimAlphaPadding = true)
     }
-    val foregroundVisual = remember(sceneAssetBase, foreground) {
-        loadVisual(context, sceneAssetBase, foreground, trimAlphaPadding = false)
-    }
     val previewVisual = remember(sceneAssetBase, preview) {
         loadVisual(context, sceneAssetBase, preview, trimAlphaPadding = false)
     }
@@ -239,20 +235,33 @@ fun AssetSceneStage(
             )
         }
 
-        val foregroundSafe =
-            foregroundVisual != null &&
-                foregroundVisual.transparentFraction >= FOREGROUND_MIN_TRANSPARENT_FRACTION
+        // Legacy foreground exports can contain blurred/opaque full-frame fragments.
+        // Do not render foreground in the dialogue stage until the asset is explicitly
+        // validated as a clean transparent depth-only layer. BG + character cutouts
+        // provide the stable composition without fogging or masking the scene.
 
-        if (foregroundSafe) {
-            Image(
-                bitmap = foregroundVisual!!.image,
-                contentDescription = "Sahne ön planı",
-                modifier = Modifier.fillMaxSize(),
-                contentScale = ContentScale.Crop
-            )
+        fun drawCharacterA() {
+            // local marker; actual composable draw happens in the branch below
         }
 
-        if (characterASafe) {
+        if (characterAActive && characterASafe) {
+            if (characterBSafe) {
+                Image(
+                    bitmap = characterBVisual!!.image,
+                    contentDescription = "Karakter B",
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd)
+                        .fillMaxWidth(0.50f)
+                        .fillMaxHeight(0.80f)
+                        .graphicsLayer {
+                            scaleX = characterBScale
+                            scaleY = characterBScale
+                            alpha = characterBAlpha
+                            transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
+                        },
+                    contentScale = ContentScale.Fit
+                )
+            }
             Image(
                 bitmap = characterAVisual!!.image,
                 contentDescription = "Karakter A",
@@ -268,24 +277,41 @@ fun AssetSceneStage(
                     },
                 contentScale = ContentScale.Fit
             )
-        }
-
-        if (characterBSafe) {
-            Image(
-                bitmap = characterBVisual!!.image,
-                contentDescription = "Karakter B",
-                modifier = Modifier
-                    .align(Alignment.BottomEnd)
-                    .fillMaxWidth(0.50f)
-                    .fillMaxHeight(0.80f)
-                    .graphicsLayer {
-                        scaleX = characterBScale
-                        scaleY = characterBScale
-                        alpha = characterBAlpha
-                        transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
-                    },
-                contentScale = ContentScale.Fit
-            )
+        } else {
+            if (characterASafe) {
+                Image(
+                    bitmap = characterAVisual!!.image,
+                    contentDescription = "Karakter A",
+                    modifier = Modifier
+                        .align(Alignment.BottomStart)
+                        .fillMaxWidth(0.50f)
+                        .fillMaxHeight(0.80f)
+                        .graphicsLayer {
+                            scaleX = characterAScale
+                            scaleY = characterAScale
+                            alpha = characterAAlpha
+                            transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.35f, 1f)
+                        },
+                    contentScale = ContentScale.Fit
+                )
+            }
+            if (characterBSafe) {
+                Image(
+                    bitmap = characterBVisual!!.image,
+                    contentDescription = "Karakter B",
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd)
+                        .fillMaxWidth(0.50f)
+                        .fillMaxHeight(0.80f)
+                        .graphicsLayer {
+                            scaleX = characterBScale
+                            scaleY = characterBScale
+                            alpha = characterBAlpha
+                            transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
+                        },
+                    contentScale = ContentScale.Fit
+                )
+            }
         }
 
         if (backgroundVisual == null && !characterASafe && !characterBSafe) {
