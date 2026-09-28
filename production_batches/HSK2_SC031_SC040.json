@@ -79,7 +79,7 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
+    "visualComplete": 3,
     "audioComplete": 0,
     "acceptedScenes": 0
   }
