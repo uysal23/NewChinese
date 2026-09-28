@@ -244,7 +244,7 @@ fun ProgressScreen(progress: List<SceneProgressEntity>) {
         MetricCard("Tamamlanan sahne", "$completed / 300")
         MetricCard("Açılmış sahne", "$unlocked / 300")
         MetricCard(
-            "Shadowing metin benzerliği",
+            "Telaffuz Çalışması metin benzerliği",
             shadowingAverage?.let { "%$it" } ?: "Henüz veri yok"
         )
         MetricCard("Son çalışılan", lastScene?.sceneId ?: "Henüz yok")
