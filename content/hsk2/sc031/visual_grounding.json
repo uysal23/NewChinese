@@ -1,0 +1,40 @@
+{
+  "sceneId": "HSK2_SC031",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ve Zhang Wei hafta sonu yakın bir su kasabasına gitmeyi planlar.",
+    "tone": "warm-curious-relaxed",
+    "mainAction": "Cafe masasında rota ve bir gece kalma seçeneğini konuşurlar.",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "map",
+      "phone",
+      "coffee cups"
+    ],
+    "continuityFromPrevious": "Dil öğrenme/teknoloji bloğundan hafta sonu seyahat bloğuna geçiş.",
+    "continuityToNext": "Evde hafif bagaj hazırlığına geçiş."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "locationReason": "Rahat hafta sonu planlama diyaloğu için canonical sıcak mahalle kafesi uygundur.",
+    "dialogueEvidence": [
+      "yakındaki küçük yerler",
+      "su kasabası",
+      "trenle bir saatten biraz fazla",
+      "bir gece kalmak"
+    ],
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "Karaktersiz sıcak kafe, pencere/kanal görünümü, okunabilir yazı yok.",
+    "characterA": "Canonical Li Na casual, doğal planlama pozu.",
+    "characterB": "Canonical Zhang Wei casual, doğal açıklayıcı jest.",
+    "foreground": "Şeffaf masa/telefon/harita/fincan derinlik katmanı; karakterleri kapatmaz.",
+    "preview": "Tek 9:16 sıcak seyahat planlama kompoziti."
+  }
+}

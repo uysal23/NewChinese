@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK2_SC032",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ve Zhang Wei iki günlük gezi için küçük bir çanta hazırlamayı konuşur.",
+    "tone": "practical-warm-organized",
+    "mainAction": "Evde küçük hafta sonu çantasını ve gerekli eşyaları hazırlarlar.",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "small travel bag",
+      "folded clothes",
+      "umbrella",
+      "phone"
+    ],
+    "continuityFromPrevious": "SC031'de planlanan gezi somut hazırlığa dönüşür.",
+    "continuityToNext": "Hazırlık sonrası tren istasyonuna geçilir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "locationReason": "Kişisel bagaj hazırlığı için canonical Zhang Wei evi doğru mekândır.",
+    "dialogueEvidence": [
+      "küçük çanta yeter",
+      "bir yedek takım",
+      "şemsiye almak",
+      "hafif yağmur"
+    ],
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "Karaktersiz sıcak modern Hangzhou dairesi.",
+    "characterA": "Canonical Li Na casual, hazırlık/işaret jesti.",
+    "characterB": "Canonical Zhang Wei casual, telefonla planlama jesti.",
+    "foreground": "Şeffaf açık seyahat çantası, katlı kıyafetler ve masa objeleri.",
+    "preview": "Tek 9:16 evde seyahat hazırlığı kompoziti."
+  }
+}

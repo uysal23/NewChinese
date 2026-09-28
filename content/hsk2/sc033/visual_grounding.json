@@ -1,0 +1,39 @@
+{
+  "sceneId": "HSK2_SC033",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ve Zhang Wei trenden önce istasyona erken gelir, saati ve giriş yönünü kontrol eder.",
+    "tone": "bright-travel-ready",
+    "mainAction": "İstasyonda ayakta yürürken yön bulur ve trene hazırlanırlar.",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "small travel bags",
+      "station seating",
+      "platform edge"
+    ],
+    "continuityFromPrevious": "SC032'de hazırlanan küçük bagajlarla yolculuk başlar.",
+    "continuityToNext": "Tren yolculuğu sonrası su kasabasına varış."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_TRAIN_STATION_001",
+    "locationReason": "Diyalog doğrudan tren saati, trafik ve kontrol girişini bulma üzerine kurulu.",
+    "dialogueEvidence": [
+      "kırk dakika var",
+      "tren dokuzu yirmi geçe",
+      "önce kontrol girişini bulalım"
+    ],
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "Karaktersiz modern Hangzhou tren istasyonu/peron alanı; okunabilir tabela yok.",
+    "characterA": "Canonical Li Na casual, küçük sırt çantasıyla seyahate hazır.",
+    "characterB": "Canonical Zhang Wei casual, küçük sırt çantasıyla yön gösterme jesti.",
+    "foreground": "Şeffaf bank/peron kenarı ve küçük valiz derinlik katmanı.",
+    "preview": "Tek 9:16 istasyonda yolculuk başlangıcı kompoziti."
+  }
+}
