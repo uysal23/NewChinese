@@ -1,7 +1,9 @@
 package com.uysal23.newchinese.data
 
 import android.content.Context
+import android.icu.text.BreakIterator
 import org.json.JSONObject
+import java.util.Locale
 
 data class DialogueLine(
     val id: String,
@@ -20,7 +22,10 @@ data class VocabularyItem(
     val turkish: String,
     val voiceId: String,
     val audioFile: String,
-    val sourceAssetBase: String
+    val sourceAssetBase: String,
+    val contextPinyin: String? = null,
+    val contextTurkish: String? = null,
+    val referenceIsContextSentence: Boolean = false
 )
 
 data class SentenceExercise(
@@ -119,19 +124,71 @@ class ContentRepository(private val context: Context) {
 
     fun loadDialogueVocabulary(scene: SceneContent): List<VocabularyItem> {
         val dialogueText = scene.lines.joinToString(separator = "") { it.chinese }
-        val nativeWords = scene.vocabulary
-        val nativeKeys = nativeWords.map { it.hanzi }.toSet()
-
-        val extraWords = globalVocabulary
-            .asSequence()
+        val sceneAssetBase = assetBaseForSceneId(scene.sceneId)
+        val knownByHanzi = (scene.vocabulary + globalVocabulary)
             .filter { it.hanzi.isNotBlank() }
-            .filter { dialogueText.contains(it.hanzi) }
-            .filter { it.hanzi !in nativeKeys }
+            .distinctBy { it.hanzi }
+            .associateBy { it.hanzi }
+
+        val ordered = mutableListOf<VocabularyItem>()
+        val seenHanzi = mutableSetOf<String>()
+
+        scene.lines.forEach { line ->
+            val iterator = BreakIterator.getWordInstance(Locale.SIMPLIFIED_CHINESE)
+            iterator.setText(line.chinese)
+            var start = iterator.first()
+            var tokenIndex = 0
+            var end = iterator.next()
+
+            while (end != BreakIterator.DONE) {
+                val token = line.chinese.substring(start, end).trim()
+                val containsHan = Regex("""[\u4E00-\u9FFF]""").containsMatchIn(token)
+                if (containsHan && token.isNotBlank() && token !in seenHanzi) {
+                    val known = knownByHanzi[token]
+                    if (known != null) {
+                        ordered += known
+                    } else {
+                        ordered += VocabularyItem(
+                            id = "DIALOGUE_${line.id}_${tokenIndex.toString().padStart(2, '0')}",
+                            hanzi = token,
+                            pinyin = "",
+                            turkish = "",
+                            voiceId = line.voiceId,
+                            audioFile = line.audioFile,
+                            sourceAssetBase = sceneAssetBase,
+                            contextPinyin = line.pinyin,
+                            contextTurkish = line.turkish,
+                            referenceIsContextSentence = true
+                        )
+                    }
+                    seenHanzi += token
+                    tokenIndex++
+                }
+                start = end
+                end = iterator.next()
+            }
+        }
+
+        // Preserve curriculum phrases/compound targets that the Chinese word breaker may
+        // split into smaller tokens, as long as they actually occur in this dialogue.
+        (scene.vocabulary + globalVocabulary)
+            .asSequence()
+            .filter { it.hanzi.isNotBlank() && dialogueText.contains(it.hanzi) }
+            .filter { it.hanzi !in seenHanzi }
             .distinctBy { it.hanzi }
             .sortedBy { dialogueText.indexOf(it.hanzi).let { index -> if (index < 0) Int.MAX_VALUE else index } }
-            .toList()
+            .forEach {
+                ordered += it
+                seenHanzi += it.hanzi
+            }
 
-        return (nativeWords + extraWords).distinctBy { it.hanzi }
+        return ordered
+    }
+
+    private fun assetBaseForSceneId(sceneId: String): String {
+        val match = Regex("""HSK(\d)_SC(\d{3})""").matchEntire(sceneId)
+            ?: return "hsk1/sc001"
+        return "hsk${match.groupValues[1]}/sc${match.groupValues[2]}"
     }
 
     fun availableSceneIds(level: Int): Set<String> {
