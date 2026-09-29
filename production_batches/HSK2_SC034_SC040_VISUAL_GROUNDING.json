@@ -1,0 +1,252 @@
+{
+  "batchId": "HSK2_SC034_SC040_VISUAL_GROUNDING",
+  "sourceBatch": "HSK2_SC031_SC040",
+  "governingRules": [
+    "LOCKED_STEP_17_VISUAL_SYSTEM.md",
+    "LOCKED_STEP_06_CHARACTER_BIBLE.md",
+    "LOCKED_STEP_07_LOCATION_BIBLE.md",
+    "LOCKED_STEP_10_HSK2_PLAN.md"
+  ],
+  "status": "approved_for_layer_production",
+  "scenes": [
+    {
+      "sceneId": "HSK2_SC034",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "sceneContext": {
+        "summary": "Li Na ve Zhang Wei su kasabasına varır; kanal boyunca sakin bir rota seçer, köprüyü ve eski evleri konuşur.",
+        "communicationPurpose": "yön seçme, rota konuşma, seyahat gözlemi",
+        "tone": "meraklı, sakin, sıcak",
+        "mainPhysicalAction": "kanal kıyısında yön ve rota üzerine konuşma",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "kanal",
+          "taş köprü",
+          "eski beyaz duvarlı koyu çatılı evler",
+          "dar yaya yolu",
+          "isteğe bağlı küçük harita/telefon"
+        ],
+        "continuityFrom": "SC033 tren istasyonundan gezi noktasına varış",
+        "continuityInto": "SC035 aynı su kasabasında öğle yemeği arama"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+        "whyMatch": "Diyalog nehir boyunca yürüme, taş köprü, sakin küçük yol ve eski evlerden söz ediyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Karakter içermeyen gündüz su kasabası; kanal, taş köprü, beyaz duvar/koyu çatı, dar yol; kritik okunabilir tabela yok.",
+        "CHAR_A": "Li Na canonical CASUAL_01; Zhang Wei'ye dönük, rota/yön gösteren doğal jest.",
+        "CHAR_B": "Zhang Wei canonical CASUAL_01; Li Na'ya dönük, çevreyi dinleyen/inceleyen seyahat pozu.",
+        "FG": "Alt kenarlarda hafif bitki/taş korkuluk derinliği; yüzleri, gövdeleri ve jestleri örtmez.",
+        "PREVIEW": "İki karakter kanal kenarında doğal ölçekte; arka planın köprü ve yol kimliği açık; yazı/balon bake edilmez."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC035",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "sceneContext": {
+        "summary": "İkili sakin ve yerel bir öğle yemeği yeri arar; kalabalık, fiyat, porsiyon ve sipariş miktarını konuşur.",
+        "communicationPurpose": "restoran seçme, fiyat ve porsiyon değerlendirme",
+        "tone": "rahat, pratik",
+        "mainPhysicalAction": "dar sokakta küçük bir yerel lokantayı değerlendirip girişe yönelme",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "dar su kasabası sokağı",
+          "küçük markasız lokanta cephesi",
+          "sade menü panosu fakat okunabilir kritik metin yok"
+        ],
+        "continuityFrom": "SC034 kanal boyunca gezi",
+        "continuityInto": "SC036 pansiyona yerleşme"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+        "whyMatch": "Sahne aynı su kasabasında, küçük yerel dükkânlar ve yaya sokağı bağlamında geçiyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Öğle ışığında su kasabası dar sokağı; küçük yerel lokanta girişi; karakter yok.",
+        "CHAR_A": "Li Na sakin bir yeri işaret eder/menüyü değerlendirir.",
+        "CHAR_B": "Zhang Wei aç ve meraklı; lokanta girişine bakar.",
+        "FG": "Yakın planda bitki, ahşap kapı kenarı veya masa köşesi; gövdeyi örtmez.",
+        "PREVIEW": "İkili küçük sakin lokanta önünde seçim yaparken; markasız ve metinsiz."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC036",
+      "locationId": "LOC_GUESTHOUSE_001",
+      "sceneContext": {
+        "summary": "Pansiyon odasına yerleşen ikili oda rahatlığı, küçük çanta, dinlenme ve ertesi sabah planını konuşur.",
+        "communicationPurpose": "konaklama, dinlenme ve ertesi gün planlama",
+        "tone": "rahatlamış, huzurlu",
+        "mainPhysicalAction": "eşyaları bırakıp odada kısa dinlenme",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "hafif ahşap mobilya",
+          "küçük seyahat çantası",
+          "pencere",
+          "çay kettle",
+          "sade yatak/oturma alanı"
+        ],
+        "continuityFrom": "SC035 öğle yemeğinden sonra pansiyona geçiş",
+        "continuityInto": "SC037 sabah erken su kasabası yürüyüşü"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_GUESTHOUSE_001/visual_bible.json",
+        "whyMatch": "Diyalog oda, sessizlik, pencere manzarası, bagaj ve dinlenme üzerine.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Temiz küçük pansiyon odası; açık ahşap, sessiz pencere manzarası, kettle; karakter yok.",
+        "CHAR_A": "Li Na rahat, pencere/oda yönüne bakıp sabah planını anlatır.",
+        "CHAR_B": "Zhang Wei küçük seyahat çantasını bırakmış, dinlenen doğal poz.",
+        "FG": "Ön planda hafif yatak/masa kenarı veya çanta detayı.",
+        "PREVIEW": "İkili rahat odada yerleşmiş; seyahat yorgunluğu hafif ama olumlu."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC037",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "sceneContext": {
+        "summary": "Sabah erken yürüyüşte daha sakin su yüzeyini ve az turisti fark eder, yavaş seyahati konuşurlar.",
+        "communicationPurpose": "sabah atmosferi ve seyahat temposu",
+        "tone": "sakin, ferah, düşünceli",
+        "mainPhysicalAction": "nehir kıyısında yavaş yürüyüş",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "sakin kanal",
+          "taş köprü",
+          "sabah ışığı",
+          "az insanlı/boş yaya yolu"
+        ],
+        "continuityFrom": "SC036 ertesi sabah erken kalkma planı",
+        "continuityInto": "SC038 hafif yağmurla plan değişikliği"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+        "whyMatch": "Aynı su kasabası sabah varyantı; kanal ve köprü konuşmanın merkezinde.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Sabah yumuşak ışığı, sakin kanal ve taş köprü; neredeyse boş yol.",
+        "CHAR_A": "Li Na yürürken sakin, çevreyi gösteren doğal jest.",
+        "CHAR_B": "Zhang Wei çevreyi gözlemleyen rahat yürüyüş pozu.",
+        "FG": "Yakın planda hafif söğüt yaprağı/taş korkuluk.",
+        "PREVIEW": "İkili sabah nehir kıyısında yavaş yürür; geniş nefes alan kompozisyon."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC038",
+      "locationId": "LOC_DAY_TRIP_TOWN_001",
+      "sceneContext": {
+        "summary": "Hafif yağmur başlayınca kaygan taş yol nedeniyle planı değiştirip kapalı yerde çay içmeye karar verirler.",
+        "communicationPurpose": "plan değişikliği, gerekçe ve alternatif üretme",
+        "tone": "sakin, esnek, hafif yağmurlu",
+        "mainPhysicalAction": "şemsiye altında yağmurdan korunup çay içilecek kapalı yere yönelme",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "ıslak taş yol",
+          "hafif yağmur",
+          "şemsiye",
+          "çay evi/saçak"
+        ],
+        "continuityFrom": "SC037 sakin sabah yürüyüşü",
+        "continuityInto": "SC039 Hangzhou'ya dönüş"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+        "whyMatch": "Aynı kasaba; diyalog özellikle taş yol, yağmur ve yakındaki çay içilecek yeri tarif ediyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Yağmurla ıslanmış su kasabası yolu ve kanal; karakter yok; yansımalar ve saçak.",
+        "CHAR_A": "Li Na şemsiye altında, kapalı yeri işaret eden doğal jest.",
+        "CHAR_B": "Zhang Wei şemsiye yanında, planı değiştirmeye hazır rahat ifade.",
+        "FG": "Yakın planda yağmur damlası/saçak kenarı; yüzleri örtmez.",
+        "PREVIEW": "İkili hafif yağmurda güvenli biçimde kapalı yere yönelir; dramatik fırtına yok."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC039",
+      "locationId": "LOC_TRAIN_STATION_001",
+      "sceneContext": {
+        "summary": "Dönüş yolunda ikili hafta sonunu değerlendirir; yavaş seyahat, küçük çanta ve erken rezervasyon üzerine konuşur.",
+        "communicationPurpose": "deneyim değerlendirme ve sonraki gezi için çıkarım",
+        "tone": "memnun, hafif yorgun",
+        "mainPhysicalAction": "tren istasyonunda dönüş beklerken sohbet",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "modern istasyon geometrisi",
+          "seyahat çantaları",
+          "platform/bekleme alanı"
+        ],
+        "continuityFrom": "SC038 yağmurlu gün sonrası dönüş",
+        "continuityInto": "SC040 West Lake'te geziyi değerlendirme"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_TRAIN_STATION_001/visual_bible.json",
+        "whyMatch": "Diyalog Hangzhou'ya dönüş yolculuğunda; istasyon devamlılığı önceki tren sahneleriyle korunmalı.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Canonical Hangzhou modern tren istasyonu; kritik tabela metni boş overlay alanı olarak.",
+        "CHAR_A": "Li Na rahat, küçük seyahat çantasıyla Zhang Wei'ye dönük.",
+        "CHAR_B": "Zhang Wei hafif yorgun ama memnun, küçük çanta/backpack ile.",
+        "FG": "Yakın planda valiz/koltuk veya platform korkuluğu, hafif.",
+        "PREVIEW": "İkili dönüş beklerken seyahati değerlendiriyor; istasyon kimliği net."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC040",
+      "locationId": "LOC_WEST_LAKE_001",
+      "sceneContext": {
+        "summary": "Hangzhou'ya döndükten sonra West Lake kıyısında gezi deneyimini değerlendirip daha fazla sosyal etkinliğe açık olmaya karar verirler.",
+        "communicationPurpose": "seyahat kazanımlarını değerlendirme ve yeni sosyal hedef koyma",
+        "tone": "huzurlu, umutlu, kapanış",
+        "mainPhysicalAction": "göl kıyısında yürüyüş/sohbet",
+        "charactersPresent": [
+          "CHAR_LI_NA_001",
+          "CHAR_ZHANG_WEI_001"
+        ],
+        "visibleProps": [
+          "West Lake",
+          "ağaçlı yürüyüş yolu",
+          "taş korkuluk",
+          "uzak tepeler",
+          "küçük gezi tekneleri"
+        ],
+        "continuityFrom": "SC039 Hangzhou'ya dönüş",
+        "continuityInto": "SC041 yeni sosyal çevre teması"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+        "whyMatch": "Diyalog doğrudan West Lake'e dönmeyi ve gezi sonrası değerlendirmeyi söylüyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Canonical West Lake göl kıyısı; sakin öğleden sonra/golden hour; karakter yok.",
+        "CHAR_A": "Li Na destekleyici, yeni sosyal hedefi anlatan açık el jesti.",
+        "CHAR_B": "Zhang Wei düşünceli ama motive, Li Na'ya dönük.",
+        "FG": "Yakın planda ağaç yaprakları/taş korkuluk; yüzleri ve jestleri örtmez.",
+        "PREVIEW": "İkili göl kıyısında doğal ölçekte, sakin kapanış; yazı/balon baked değil."
+      }
+    }
+  ]
+}
