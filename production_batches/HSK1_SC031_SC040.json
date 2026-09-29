@@ -2,67 +2,67 @@
   "batchId": "HSK1_SC031_SC040",
   "masterStep": 8,
   "goldenReference": "Run #163",
-  "status": "content_audio_visual_complete_validation_pending",
+  "status": "complete",
   "scenes": [
     {
       "sceneId": "HSK1_SC031",
       "titleTr": "Aileden Konuşmak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC032",
       "titleTr": "Aile Fotoğraflarına Bakmak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC033",
       "titleTr": "Anne Babayı Aramak",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC034",
       "titleTr": "Hafta Sonu Aile Planı",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC035",
       "titleTr": "Doğum Gününe Hazırlık",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC036",
       "titleTr": "Hobiler",
       "locationId": "LOC_CITY_PARK_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC037",
       "titleTr": "Evde Bir Akşam",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC038",
       "titleTr": "Arkadaş Eve Geliyor",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC039",
       "titleTr": "Kişiliğinden Bahsetmek",
       "locationId": "LOC_CITY_PARK_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK1_SC040",
       "titleTr": "Aile Akşam Yemeği",
       "locationId": "LOC_ZHANG_HOME_001",
-      "status": "content_audio_visual_complete_validation_pending"
+      "status": "complete"
     }
   ],
   "pipeline": [
@@ -77,15 +77,24 @@
     "sceneCount": 10,
     "requireVisualComplete": true,
     "requireAudioComplete": true,
-    "requireValidationPass": true
+    "requireValidationPass": true,
+    "validationStatus": "pass",
+    "accepted": true
   },
   "progress": {
-    "completeScenes": 0,
+    "completeScenes": 10,
     "totalScenes": 10,
     "contentReady": 10,
     "visualComplete": 10,
     "audioComplete": 10,
     "previewImported": 10,
     "previewTotal": 10
+  },
+  "validation": {
+    "status": "passed",
+    "workflow": "Validate and Build",
+    "runNumber": 361,
+    "runId": 36549855474,
+    "validatedHead": "9fcdb040f33a8dad230864e13013495ac52b46f2"
   }
 }
