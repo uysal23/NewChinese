@@ -1,7 +1,7 @@
 {
   "sceneId": "HSK2_SC036",
   "visual": {
-    "status": "pending",
+    "status": "complete",
     "required": [
       "assets/hsk2_sc036_bg.webp",
       "assets/hsk2_sc036_char_zhang_wei.webp",
@@ -9,13 +9,7 @@
       "assets/hsk2_sc036_fg.webp",
       "assets/hsk2_sc036_preview.webp"
     ],
-    "missing": [
-      "assets/hsk2_sc036_bg.webp",
-      "assets/hsk2_sc036_char_zhang_wei.webp",
-      "assets/hsk2_sc036_char_li_na.webp",
-      "assets/hsk2_sc036_fg.webp",
-      "assets/hsk2_sc036_preview.webp"
-    ]
+    "missing": []
   },
   "audio": {
     "status": "complete",
