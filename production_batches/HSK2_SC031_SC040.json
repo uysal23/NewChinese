@@ -79,8 +79,8 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 3,
-    "audioComplete": 0,
+    "visualComplete": 6,
+    "audioComplete": 10,
     "acceptedScenes": 0
   },
   "visualGrounding": {
@@ -99,6 +99,7 @@
   "notes": [
     "SC031-SC033 layered visuals are complete.",
     "SC034-SC040 scene-context grounding, location matching, and layer planning are approved before asset production.",
-    "Do not mark SC034-SC040 visual complete until all five physical assets exist and validation passes."
+    "Do not mark SC034-SC040 visual complete until all five physical assets exist and validation passes.",
+    "SC034-SC036 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets."
   ]
 }
