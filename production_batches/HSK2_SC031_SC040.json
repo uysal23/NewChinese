@@ -5,7 +5,7 @@
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "weekend travel",
   "dialogueTargetTurns": "18-30",
-  "status": "validation_pending",
+  "status": "complete",
   "scenes": [
     {
       "sceneId": "HSK2_SC031",
@@ -81,7 +81,7 @@
     "totalScenes": 10,
     "visualComplete": 10,
     "audioComplete": 10,
-    "acceptedScenes": 0
+    "acceptedScenes": 10
   },
   "visualGrounding": {
     "file": "production_batches/HSK2_SC034_SC040_VISUAL_GROUNDING.json",
@@ -108,19 +108,26 @@
     "requireVisualComplete": true,
     "requireAudioComplete": true,
     "requireValidationPass": true,
-    "validationStatus": "pending",
-    "accepted": false
+    "validationStatus": "pass",
+    "accepted": true
   },
   "previewAssets": {
     "status": "complete",
     "count": 10,
     "format": "webp",
-    "note": "SC031-SC040 layered visual assets and previews are physically present; awaiting final validation."
+    "note": "SC031-SC040 layered visual assets, previews and audio validated; batch accepted."
   },
   "layeredVisualAssets": {
     "status": "complete",
     "scenes": 10,
     "assetsPerScene": 4,
     "totalLayerAssets": 40
+  },
+  "validation": {
+    "status": "passed",
+    "workflow": "Validate and Build",
+    "runNumber": 409,
+    "runId": 36687932335,
+    "validatedHead": "179eb4a63b56216092d893105cb756d167e936f9"
   }
 }
