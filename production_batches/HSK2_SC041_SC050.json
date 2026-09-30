@@ -35,7 +35,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "content_ready_visual_audio_pending"
+      "status": "visual_complete_audio_pending"
     },
     {
       "sceneId": "HSK2_SC044",
@@ -45,7 +45,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LIU_MEI_001"
       ],
-      "status": "content_ready_visual_audio_pending"
+      "status": "visual_complete_audio_pending"
     },
     {
       "sceneId": "HSK2_SC045",
