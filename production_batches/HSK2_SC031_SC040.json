@@ -5,7 +5,7 @@
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "weekend travel",
   "dialogueTargetTurns": "18-30",
-  "status": "content_ready_visual_audio_pending",
+  "status": "validation_pending",
   "scenes": [
     {
       "sceneId": "HSK2_SC031",
@@ -79,7 +79,7 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 6,
+    "visualComplete": 10,
     "audioComplete": 10,
     "acceptedScenes": 0
   },
@@ -100,6 +100,27 @@
     "SC031-SC033 layered visuals are complete.",
     "SC034-SC040 scene-context grounding, location matching, and layer planning are approved before asset production.",
     "Do not mark SC034-SC040 visual complete until all five physical assets exist and validation passes.",
-    "SC034-SC036 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets."
-  ]
+    "SC034-SC036 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets.",
+    "SC037-SC040 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets."
+  ],
+  "acceptance": {
+    "sceneCount": 10,
+    "requireVisualComplete": true,
+    "requireAudioComplete": true,
+    "requireValidationPass": true,
+    "validationStatus": "pending",
+    "accepted": false
+  },
+  "previewAssets": {
+    "status": "complete",
+    "count": 10,
+    "format": "webp",
+    "note": "SC031-SC040 layered visual assets and previews are physically present; awaiting final validation."
+  },
+  "layeredVisualAssets": {
+    "status": "complete",
+    "scenes": 10,
+    "assetsPerScene": 4,
+    "totalLayerAssets": 40
+  }
 }
