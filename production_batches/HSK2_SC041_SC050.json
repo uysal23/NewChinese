@@ -122,5 +122,24 @@
     "visualComplete": 0,
     "audioComplete": 0,
     "acceptedScenes": 0
-  }
+  },
+  "visualGrounding": {
+    "file": "production_batches/HSK2_SC041_SC050_VISUAL_GROUNDING.json",
+    "status": "approved_for_layer_production",
+    "scenes": [
+      "HSK2_SC041",
+      "HSK2_SC042",
+      "HSK2_SC043",
+      "HSK2_SC044",
+      "HSK2_SC045",
+      "HSK2_SC046",
+      "HSK2_SC047",
+      "HSK2_SC048",
+      "HSK2_SC049",
+      "HSK2_SC050"
+    ]
+  },
+  "notes": [
+    "SC041-SC050 scene-context grounding, location matching and layered visual plans are approved before asset production."
+  ]
 }
