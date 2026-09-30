@@ -119,7 +119,7 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 2,
+    "visualComplete": 4,
     "audioComplete": 0,
     "acceptedScenes": 0
   },
@@ -141,6 +141,7 @@
   },
   "notes": [
     "SC041-SC050 scene-context grounding, location matching and layered visual plans are approved before asset production.",
-    "SC041-SC042 five-file layered visual sets were imported; media_status.visual is complete with no missing assets."
+    "SC041-SC042 five-file layered visual sets were imported; media_status.visual is complete with no missing assets.",
+    "SC043-SC044 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets."
   ]
 }
