@@ -1,0 +1,358 @@
+{
+  "batchId": "HSK2_SC041_SC050_VISUAL_GROUNDING",
+  "sourceBatch": "HSK2_SC041_SC050",
+  "governingRules": [
+    "LOCKED_STEP_17_VISUAL_SYSTEM.md",
+    "LOCKED_STEP_06_CHARACTER_BIBLE.md",
+    "LOCKED_STEP_07_LOCATION_BIBLE.md",
+    "LOCKED_STEP_10_HSK2_PLAN.md"
+  ],
+  "status": "approved_for_layer_production",
+  "scenes": [
+    {
+      "sceneId": "HSK2_SC041",
+      "locationId": "LOC_COMMUNITY_CENTER_001",
+      "sceneContext": {
+        "summary": "Zhang Wei mahalle etkinliğinde Chen Yu ile ilk kez tanışır; Hangzhou, iş ve hafta sonu hobileri üzerinden rahat bir ilk sohbet kurarlar.",
+        "communicationPurpose": "ilk tanışma, ortak ilgi alanı bulma, yeni arkadaşlık başlatma",
+        "tone": "hafif gergin başlayıp hızla sıcaklaşan, arkadaş canlısı",
+        "mainPhysicalAction": "topluluk merkezinin etkinlik alanında ayakta veya pencere yakını oturma alanında tanışma",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_CHEN_YU_001"
+        ],
+        "visibleProps": [
+          "açık renk ahşap masalar",
+          "hareketli sandalyeler",
+          "okunabilir metinsiz duyuru panosu",
+          "geniş pencereler",
+          "küçük bitki köşesi"
+        ],
+        "continuityFrom": "SC040 sonunda Zhang Wei daha fazla sosyal etkinliğe açık olmaya karar verir.",
+        "continuityInto": "SC042 Zhang Wei ve Chen Yu ilk tanışmadan sonra kafede daha rahat sohbet eder."
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+        "whyMatch": "Diyalog doğrudan mahalle etkinliğinde ilk tanışmayı anlatıyor; community center etkinlik odası ve giriş lounge'u buna uyuyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Aydınlık modern Hangzhou community activity room; açık ahşap masa/sandalye, büyük pencere, bitki köşesi; karakter ve okunabilir tabela yok.",
+        "CHAR_A": "Zhang Wei canonical casual; hafif ilk-tanışma gülümsemesi, Chen Yu'ya dönük açık el selamlama/jest.",
+        "CHAR_B": "Chen Yu canonical OUTFIT_CHEN_YU_CASUAL_01; kısa koyu saç, olive/navy casual jacket, sıcak tanışma ifadesi.",
+        "FG": "Alt/yan kenarda hafif sandalye veya bitki; yüzleri ve jestleri örtmez.",
+        "PREVIEW": "İki erkek karakter community center'da doğal mesafede ilk kez tanışırken; metin/balon bake edilmez."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC042",
+      "locationId": "LOC_CAFE_001",
+      "sceneContext": {
+        "summary": "Zhang Wei ile Chen Yu kafede buluşup iş, Hangzhou'ya alışma ve arkadaşlık üzerine daha rahat konuşur.",
+        "communicationPurpose": "arkadaşlığı derinleştirme, yeni ortama alışma deneyimi paylaşma",
+        "tone": "rahat, destekleyici, samimi",
+        "mainPhysicalAction": "sıcak mahalle kafesinde masa başında veya masa yanında sohbet",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_CHEN_YU_001"
+        ],
+        "visibleProps": [
+          "ahşap masa",
+          "çay/kahve fincanları",
+          "soft daylight",
+          "alkolsüz kafe ortamı"
+        ],
+        "continuityFrom": "SC041 ilk tanışma",
+        "continuityInto": "SC043 birlikte fotoğraf yürüyüşü planı"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+        "whyMatch": "Diyalog doğrudan birlikte kahve içme ve rahat sohbet bağlamında.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Warm Neighborhood Cafe; ahşap vurgular, yumuşak gündüz ışığı, sade oturma; insan/alkol/okunabilir tabela yok.",
+        "CHAR_A": "Zhang Wei canonical casual; rahat oturuş/ayakta sohbet, fincan yakınında doğal jest.",
+        "CHAR_B": "Chen Yu canonical casual; destekleyici gülümseme, Zhang Wei'ye dönük.",
+        "FG": "Masa köşesi, fincan veya bitki bokehi; bedenleri örtmez.",
+        "PREVIEW": "İki arkadaş sıcak kafede rahat sohbet eder; alkolsüz, aile dostu."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC043",
+      "locationId": "LOC_WEST_LAKE_001",
+      "sceneContext": {
+        "summary": "Chen Yu ve Zhang Wei West Lake çevresinde yürürken ışık, kadraj ve gözlem üzerine fotoğraf konuşur.",
+        "communicationPurpose": "fotoğraf çekme, gözlem becerisi ve öğrenme benzetmesi",
+        "tone": "meraklı, yaratıcı, sakin",
+        "mainPhysicalAction": "göl kıyısında yürüyüp telefon/kamera ile kadraj deneme",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_CHEN_YU_001"
+        ],
+        "visibleProps": [
+          "West Lake",
+          "ağaçlı yürüyüş yolu",
+          "taş korkuluk",
+          "uzak tepeler",
+          "küçük gezi teknesi",
+          "telefon veya küçük kamera"
+        ],
+        "continuityFrom": "SC042 birlikte yürüyüş planı",
+        "continuityInto": "SC044 Zhang Wei yeni başka bir arkadaşla tanışır"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+        "whyMatch": "Diyalog doğrudan West Lake çevresinde fotoğraf yürüyüşünü ve çevre gözlemini anlatıyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Canonical West Lake gündüz; göl, ağaçlı promenade, taş korkuluk, tepeler; karakter yok.",
+        "CHAR_A": "Zhang Wei telefonu/kamerayı tutup kadrajı deneyen meraklı poz.",
+        "CHAR_B": "Chen Yu küçük kamera/telefonla ışığı veya kadraj yönünü gösterir.",
+        "FG": "Yakın planda yaprak/taş korkuluk; görüntüyü çerçeveler, karakterleri kapatmaz.",
+        "PREVIEW": "İki arkadaş göl kenarında fotoğraf pratiği yapıyor; cihaz marka/yazısı okunmaz."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC044",
+      "locationId": "LOC_CAFE_001",
+      "sceneContext": {
+        "summary": "Zhang Wei kafede Liu Mei ile ilk kez tanışır; Çince çalışma, kitaplar ve mahalle etkinlikleri üzerine konuşur.",
+        "communicationPurpose": "yeni tanışma, ortak ilgi alanı ve etkinlik daveti",
+        "tone": "sakin, sıcak, meraklı",
+        "mainPhysicalAction": "kafede yüz yüze ilk sohbet",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_LIU_MEI_001"
+        ],
+        "visibleProps": [
+          "ahşap masa",
+          "çay/kahve",
+          "kitap veya küçük defter",
+          "soft daylight"
+        ],
+        "continuityFrom": "SC043 Chen Yu ile arkadaşlık deneyimi",
+        "continuityInto": "SC045 Liu Mei'nin kitap etkinliğine katılma"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+        "whyMatch": "Diyalog doğrudan kafede tanışma ve kitap/etkinlik konuşmasını içeriyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Warm Neighborhood Cafe; sakin aile dostu alan, soft daylight; okunabilir kritik metin yok.",
+        "CHAR_A": "Zhang Wei canonical casual; meraklı ve saygılı dinleme pozu.",
+        "CHAR_B": "Liu Mei canonical OUTFIT_LIU_MEI_CASUAL_01; omuz hizası koyu saç, cream/muted green top, sakin sıcak ifade.",
+        "FG": "Masa kenarı, fincan veya kitap; konuşma jestlerini kapatmaz.",
+        "PREVIEW": "Zhang Wei ve Liu Mei ilk kez rahatça tanışırken kitap/etkinlik bağlamı hafifçe görünür."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC045",
+      "locationId": "LOC_COMMUNITY_CENTER_001",
+      "sceneContext": {
+        "summary": "Zhang Wei Liu Mei'nin davetiyle küçük bir kitap paylaşım etkinliğine gelir; önce dinleyip sonra kısa konuşabileceğini öğrenir.",
+        "communicationPurpose": "etkinliğe katılma, kaygıyı azaltma, konuşma stratejisi",
+        "tone": "başta gergin, sonra güvenli ve cesaretlendirici",
+        "mainPhysicalAction": "etkinlik başlamadan community center'da hazırlanma",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_LIU_MEI_001"
+        ],
+        "visibleProps": [
+          "hafif düzenlenmiş sandalyeler",
+          "küçük masa",
+          "birkaç kitap",
+          "okunabilir metinsiz pano",
+          "geniş pencere"
+        ],
+        "continuityFrom": "SC044 Liu Mei'nin daveti",
+        "continuityInto": "SC046 etkinlik sonrası değerlendirme"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+        "whyMatch": "Diyalog kitap paylaşım etkinliğinin başlamasından hemen önce geçiyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Community activity room kitap paylaşım düzeni; açık renk masa/sandalye, birkaç kitap; karakter yok.",
+        "CHAR_A": "Zhang Wei hafif gergin ama katılmaya hazır; elinde ince kitap olabilir.",
+        "CHAR_B": "Liu Mei sakin ve cesaretlendirici, Zhang Wei'ye yönelmiş.",
+        "FG": "Yakın planda kitap/masa köşesi; yüzleri ve gövdeleri örtmez.",
+        "PREVIEW": "Etkinlik başlamadan iki karakter konuşur; kalabalık veya okunabilir metin gerekmez."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC046",
+      "locationId": "LOC_NEIGHBORHOOD_001",
+      "sceneContext": {
+        "summary": "Kitap etkinliği sonrası Zhang Wei ile Liu Mei mahallede yürürken ilk sosyal etkinlik deneyimini değerlendirir.",
+        "communicationPurpose": "deneyim değerlendirme, hatalara karşı rahatlama, yeniden katılma niyeti",
+        "tone": "rahatlamış, olumlu, umutlu",
+        "mainPhysicalAction": "ağaçlı mahalle kaldırımında yavaş yürüyüş",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_LIU_MEI_001"
+        ],
+        "visibleProps": [
+          "ağaçlı kaldırım",
+          "küçük park hissi",
+          "konut cepheleri",
+          "markasız küçük dükkânlar"
+        ],
+        "continuityFrom": "SC045 kitap etkinliği",
+        "continuityInto": "SC047 başka bir arkadaş grubuna davet"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_NEIGHBORHOOD_001/visual_bible.json",
+        "whyMatch": "Diyalog etkinlikten çıkış sonrası mahallede yürürken yapılan değerlendirmeye uygun.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Temiz, yaya dostu Hangzhou mahalle sokağı; ağaçlı kaldırım, konutlar, küçük park/dükkânlar; kritik tabela yok.",
+        "CHAR_A": "Zhang Wei rahatlamış, konuşurken doğal el jesti.",
+        "CHAR_B": "Liu Mei sıcak, destekleyici yürüyüş pozu.",
+        "FG": "Yakın planda ağaç yaprağı, bisiklet parkı veya düşük korkuluk; yüzleri örtmez.",
+        "PREVIEW": "İki karakter etkinlik sonrası mahallede yürürken rahatça konuşuyor."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC047",
+      "locationId": "LOC_CAFE_001",
+      "sceneContext": {
+        "summary": "Chen Yu Zhang Wei'yi hafta sonu küçük yürüyüş grubuna davet eder; grup büyüklüğü, rota, saat ve hazırlık konuşulur.",
+        "communicationPurpose": "davet, plan ayrıntısı sorma ve kabul etme",
+        "tone": "rahat, cesaretlendirici",
+        "mainPhysicalAction": "kafede hafta sonu yürüyüş planı konuşma",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_CHEN_YU_001"
+        ],
+        "visibleProps": [
+          "ahşap masa",
+          "fincanlar",
+          "telefon veya küçük rota notu"
+        ],
+        "continuityFrom": "SC046 sosyal etkinlikte cesaret kazanma",
+        "continuityInto": "SC048 yürüyüş grubuyla tanışma sonrası değerlendirme"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+        "whyMatch": "Diyalog davet ve rota ayrıntılarının rahatça konuşulduğu kafe ortamında.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Warm Neighborhood Cafe; soft daylight, ahşap detaylar; insan ve okunabilir tabela yok.",
+        "CHAR_A": "Zhang Wei meraklı, katılmaya karar veren doğal jest.",
+        "CHAR_B": "Chen Yu davetkâr, rota/telefonu işaret eden açık el jesti.",
+        "FG": "Masa/fincan/bitki derinliği; bedenleri örtmez.",
+        "PREVIEW": "Chen Yu küçük yürüyüş grubunu anlatırken Zhang Wei kabul ediyor."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC048",
+      "locationId": "LOC_CITY_PARK_001",
+      "sceneContext": {
+        "summary": "Hafta sonu grup yürüyüşünden sonra Zhang Wei ve Chen Yu yeni insanlarla konuşmanın nasıl doğal hale geldiğini değerlendirir.",
+        "communicationPurpose": "sosyal iletişim deneyimini değerlendirme, yardım isteme ve dinleme cesareti",
+        "tone": "başarılı, rahat, destekleyici",
+        "mainPhysicalAction": "park yürüyüş yolunda grup etkinliği sonrası sohbet",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_CHEN_YU_001"
+        ],
+        "visibleProps": [
+          "yeşil park",
+          "göl",
+          "küçük köprü",
+          "yürüyüş yolu",
+          "okunabilir metinsiz harita panosu"
+        ],
+        "continuityFrom": "SC047 yürüyüş grubu daveti",
+        "continuityInto": "SC049 Zhang Wei evde sosyal çevresinin büyüdüğünü anlatır"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+        "whyMatch": "Diyalog iki saatlik grup yürüyüşü ve yürürken doğal sohbet deneyimini değerlendiriyor.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Yeşil sakin Hangzhou city park; göl, küçük köprü, yürüyüş yolu; karakter yok.",
+        "CHAR_A": "Zhang Wei memnun ve özgüvenli, konuşurken açık el jesti.",
+        "CHAR_B": "Chen Yu rahat, destekleyici yürüyüş pozu.",
+        "FG": "Yakın planda park bitkisi veya düşük çit; karakterleri kapatmaz.",
+        "PREVIEW": "İki arkadaş yürüyüş sonrası parkta ilerlerken sosyal deneyimi konuşuyor."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC049",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "sceneContext": {
+        "summary": "Zhang Wei evde Li Na'ya sosyal çevresinin büyüdüğünü, farklı insanlarla konuşmaya alıştığını ve Hangzhou'yu artık gerçek hayatı gibi hissettiğini anlatır.",
+        "communicationPurpose": "kişisel ilerlemeyi ve sosyal çevreyi değerlendirme",
+        "tone": "sıcak, gururlu, ev rahatlığında",
+        "mainPhysicalAction": "evde oturarak veya pencere yakınında sohbet",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_LI_NA_001"
+        ],
+        "visibleProps": [
+          "açık ahşap mobilya",
+          "soft neutral duvarlar",
+          "büyük pencere",
+          "çay/telefon gibi küçük günlük eşya"
+        ],
+        "continuityFrom": "SC048 sosyal çevrenin genişlemesi",
+        "continuityInto": "SC050 HSK2 genel final değerlendirmesi"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+        "whyMatch": "Diyalog Zhang Wei'nin evinde Li Na ile kişisel sosyal ilerlemeyi konuştuğu özel ve sıcak bir değerlendirme sahnesi.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Zhang Wei Home; sıcak modern kompakt apartman, açık ahşap, büyük pencere; karakter yok.",
+        "CHAR_A": "Zhang Wei rahat ve gururlu; sosyal çevresini anlatan doğal jest.",
+        "CHAR_B": "Li Na destekleyici, sıcak gülümseme ve dinleme pozu.",
+        "FG": "Masa/çay/bitki bokehi; jestleri kapatmaz.",
+        "PREVIEW": "İkili evde sıcak ve sakin biçimde son haftalardaki değişimi konuşuyor."
+      }
+    },
+    {
+      "sceneId": "HSK2_SC050",
+      "locationId": "LOC_WEST_LAKE_001",
+      "sceneContext": {
+        "summary": "HSK2 finalinde Zhang Wei ile Li Na West Lake kıyısında iş, günlük yaşam, öğrenme yöntemi, seyahat ve sosyal çevredeki ilerlemeyi değerlendirip HSK3'e hazırlanır.",
+        "communicationPurpose": "seviye kapanışı, kazanım özeti, yeni hedef belirleme",
+        "tone": "huzurlu, gururlu, umutlu final",
+        "mainPhysicalAction": "West Lake promenade'da yürüyüş ve kapanış sohbeti",
+        "charactersPresent": [
+          "CHAR_ZHANG_WEI_001",
+          "CHAR_LI_NA_001"
+        ],
+        "visibleProps": [
+          "West Lake",
+          "ağaçlı yürüyüş yolu",
+          "taş korkuluk",
+          "uzak tepeler",
+          "küçük gezi tekneleri"
+        ],
+        "continuityFrom": "SC049 kişisel sosyal ilerleme değerlendirmesi",
+        "continuityInto": "HSK3 yeni seviye başlangıcı"
+      },
+      "locationMatching": {
+        "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+        "whyMatch": "Final sahnesi doğrudan West Lake kıyısında bütün HSK2 döneminin değerlendirilmesi olarak yazılmış.",
+        "approvedForLayerPlanning": true
+      },
+      "layers": {
+        "BG": "Canonical West Lake golden hour; göl, ağaçlı yol, taş korkuluk, tepeler ve küçük tekneler; karakter yok.",
+        "CHAR_A": "Zhang Wei sakin, özgüvenli, geleceğe dönük açık el jesti.",
+        "CHAR_B": "Li Na destekleyici, gururlu ve motive edici doğal poz.",
+        "FG": "Yakın planda yaprak/taş korkuluk; final kompozisyonunu çerçeveler.",
+        "PREVIEW": "İki karakter göl kıyısında HSK2'yi kapatıp yeni aşamaya bakar; metin/balon bake edilmez."
+      }
+    }
+  ]
+}
