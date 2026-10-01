@@ -267,6 +267,7 @@ fun DialogueScreen(
             foreground = scene.visualAssets.foreground,
             preview = scene.visualAssets.preview,
             activeSpeakerId = line.speakerId,
+            speechText = line.chinese,
             characterAId = scene.visualAssets.characterAId,
             characterBId = scene.visualAssets.characterBId,
             modifier = Modifier
