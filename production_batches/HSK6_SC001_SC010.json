@@ -2,18 +2,18 @@
   "level": "HSK6",
   "startScene": 1,
   "endScene": 10,
-  "status": "audio_complete_visual_pending",
+  "status": "content_ready_audio_pending_visual_pending",
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
     "visualComplete": 0,
-    "audioComplete": 10,
+    "audioComplete": 0,
     "acceptedScenes": 0
   },
   "scenes": [
     {
       "sceneId": "HSK6_SC001",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_ZHANG_OFFICE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -22,7 +22,7 @@
     },
     {
       "sceneId": "HSK6_SC002",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_WEST_LAKE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -31,7 +31,7 @@
     },
     {
       "sceneId": "HSK6_SC003",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -40,7 +40,7 @@
     },
     {
       "sceneId": "HSK6_SC004",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_ZHANG_OFFICE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -49,7 +49,7 @@
     },
     {
       "sceneId": "HSK6_SC005",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_WEST_LAKE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -58,7 +58,7 @@
     },
     {
       "sceneId": "HSK6_SC006",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -67,7 +67,7 @@
     },
     {
       "sceneId": "HSK6_SC007",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_ZHANG_OFFICE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -76,7 +76,7 @@
     },
     {
       "sceneId": "HSK6_SC008",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_WEST_LAKE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -85,7 +85,7 @@
     },
     {
       "sceneId": "HSK6_SC009",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -94,7 +94,7 @@
     },
     {
       "sceneId": "HSK6_SC010",
-      "status": "audio_complete_visual_pending",
+      "status": "content_ready_audio_pending_visual_pending",
       "locationId": "LOC_ZHANG_OFFICE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
