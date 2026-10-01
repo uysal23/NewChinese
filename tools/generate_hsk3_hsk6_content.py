@@ -7,6 +7,7 @@ from pathlib import Path
 from pypinyin import Style, lazy_pinyin
 
 ROOT = Path(__file__).resolve().parents[1]
+# Trigger marker: complete HSK3-HSK6 nonvisual production
 
 CHARACTERS = {
     "CHAR_ZHANG_WEI_001": {"voice": "VOICE_ZHANG_WEI_001", "slug": "zhang_wei", "name": "Zhang Wei"},
