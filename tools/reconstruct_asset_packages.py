@@ -309,116 +309,15 @@ def reconstruct_visual_packages() -> int:
     return count
 
 
-
-def reconstruct_hsk2_sc049_from_refs() -> int:
-    marker = PARTS_DIR / "HSK2_SC049_FROM_REFS"
-    if not marker.is_file():
-        return 0
-
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    source_bg = ROOT / "content/hsk2/sc019/assets/hsk2_sc019_bg.webp"
-    source_fg = ROOT / "content/hsk2/sc019/assets/hsk2_sc019_fg.webp"
-    source_zw = ROOT / "content/hsk2/sc040/assets/hsk2_sc040_char_zhang_wei.webp"
-    source_li = ROOT / "content/hsk2/sc040/assets/hsk2_sc040_char_li_na.webp"
-
-    sources = [source_bg, source_fg, source_zw, source_li]
-    missing = [p for p in sources if not p.is_file()]
-    if missing:
-        raise RuntimeError(
-            "Missing SC049 reference asset(s): "
-            + ", ".join(str(p.relative_to(ROOT)) for p in missing)
-        )
-
-    background = Image.open(source_bg).convert("RGB")
-    width, height = background.size
-
-    # Preserve canonical Zhang Wei Home identity while slightly refreshing
-    # framing/brightness for this reflective social-progress scene.
-    crop_x = max(1, int(width * 0.015))
-    background = background.crop((crop_x, 0, width, height))
-    background = background.resize((width, height), Image.Resampling.LANCZOS)
-    background = ImageEnhance.Brightness(background).enhance(1.02)
-    background = ImageEnhance.Color(background).enhance(0.98)
-
-    foreground = Image.open(source_fg).convert("RGBA")
-    if foreground.size != (width, height):
-        foreground = foreground.resize((width, height), Image.Resampling.LANCZOS)
-
-    # SC040 canonical cutouts face outward in their standalone assets.
-    # Flip them so SC049 Zhang-left / Li-right look inward toward each other.
-    zw = Image.open(source_zw).convert("RGBA").transpose(Image.Transpose.FLIP_LEFT_RIGHT)
-    li = Image.open(source_li).convert("RGBA").transpose(Image.Transpose.FLIP_LEFT_RIGHT)
-
-    assets: dict[str, bytes] = {}
-
-    out = BytesIO()
-    background.save(out, "WEBP", quality=80, method=6)
-    assets["hsk2_sc049_bg.webp"] = out.getvalue()
-
-    out = BytesIO()
-    zw.save(out, "WEBP", quality=88, method=6)
-    assets["hsk2_sc049_char_zhang_wei.webp"] = out.getvalue()
-
-    out = BytesIO()
-    li.save(out, "WEBP", quality=88, method=6)
-    assets["hsk2_sc049_char_li_na.webp"] = out.getvalue()
-
-    out = BytesIO()
-    foreground.save(out, "WEBP", quality=84, method=6)
-    assets["hsk2_sc049_fg.webp"] = out.getvalue()
-
-    # Build preview: BG -> FG -> characters. This follows current runtime
-    # convention and keeps foreground tea/plant depth from obscuring bodies.
-    canvas = background.convert("RGBA")
-    canvas.alpha_composite(foreground, (0, 0))
-
-    def place_character(payload: bytes, x_fraction: float, target_h_fraction: float) -> None:
-        char = Image.open(BytesIO(payload)).convert("RGBA")
-        bbox = char.getchannel("A").getbbox()
-        if bbox:
-            char = char.crop(bbox)
-        target_h = int(height * target_h_fraction)
-        scale = target_h / max(char.height, 1)
-        char = char.resize(
-            (max(1, int(char.width * scale)), target_h),
-            Image.Resampling.LANCZOS,
-        )
-        x = int(width * x_fraction - char.width / 2)
-        y = height - char.height - int(height * 0.02)
-        canvas.alpha_composite(char, (x, y))
-
-    place_character(assets["hsk2_sc049_char_zhang_wei.webp"], 0.34, 0.75)
-    place_character(assets["hsk2_sc049_char_li_na.webp"], 0.67, 0.74)
-
-    out = BytesIO()
-    canvas.convert("RGB").save(out, "WEBP", quality=80, method=6)
-    assets["hsk2_sc049_preview.webp"] = out.getvalue()
-
-    destination = OUT_DIR / "HSK2_SC049_visual_assets.zip"
-    if destination.exists():
-        destination.unlink()
-
-    with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for asset_name, payload in sorted(assets.items()):
-            archive.writestr(asset_name, payload)
-
-    print(
-        f"Built {destination.relative_to(ROOT)} from approved SC019 home and "
-        "SC040 canonical character references for HSK2_SC049."
-    )
-    return 1
-
 def main() -> int:
     if not PARTS_DIR.exists():
         print("No incoming_asset_parts directory; nothing to reconstruct.")
         return 0
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    special_sc049 = reconstruct_hsk2_sc049_from_refs()
     packages = reconstruct_package_parts()
     visuals = reconstruct_visual_packages()
-    print(f"Reconstructed packages: {packages}; visual packages: {visuals}; special SC049: {special_sc049}")
+    print(f"Reconstructed packages: {packages}; visual packages: {visuals}")
     return 0
 
 
