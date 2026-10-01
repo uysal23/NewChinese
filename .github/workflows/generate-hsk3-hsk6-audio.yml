@@ -40,16 +40,16 @@ jobs:
       - name: Generate shard audio with locked NewChinese pipeline
         run: |
           python tools/generate_audio_batch.py \
-            --batch-index "\${{ matrix.shard }}" \
+            --batch-index "${{ matrix.shard }}" \
             --batch-count 20 \
             --levels "3,4,5,6" \
-            --output-dir "generated_audio/shard-\${{ matrix.shard }}"
+            --output-dir "generated_audio/shard-${{ matrix.shard }}"
 
       - name: Upload scene audio packages
         uses: actions/upload-artifact@v4
         with:
-          name: hsk3-hsk6-audio-shard-\${{ matrix.shard }}
-          path: generated_audio/shard-\${{ matrix.shard }}/*.zip
+          name: hsk3-hsk6-audio-shard-${{ matrix.shard }}
+          path: generated_audio/shard-${{ matrix.shard }}/*.zip
           if-no-files-found: error
           retention-days: 1
 
