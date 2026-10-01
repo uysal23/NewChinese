@@ -5,7 +5,7 @@
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "expanding social circle",
   "dialogueTargetTurns": "18-30",
-  "status": "visual_in_progress_audio_pending",
+  "status": "visual_complete_audio_pending",
   "scenes": [
     {
       "sceneId": "HSK2_SC041",
@@ -105,7 +105,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LI_NA_001"
       ],
-      "status": "content_ready_visual_audio_pending"
+      "status": "visual_complete_audio_pending"
     }
   ],
   "pipeline": [
@@ -119,7 +119,7 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 9,
+    "visualComplete": 10,
     "audioComplete": 0,
     "acceptedScenes": 0
   },
@@ -144,6 +144,7 @@
     "SC041-SC042 five-file layered visual sets were imported; media_status.visual is complete with no missing assets.",
     "SC043-SC044 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets.",
     "SC045-SC046 five-file layered visual sets are present; media_status.visual is complete with no missing visual assets.",
-    "SC047 five-file layered visual set was imported through the media pipeline; media_status.visual is complete with no missing visual assets."
+    "SC047 five-file layered visual set was imported through the media pipeline; media_status.visual is complete with no missing visual assets.",
+    "SC048-SC050 five-file layered visual sets were imported; media_status.visual is complete with no missing visual assets. HSK2 SC041-SC050 visual production is 10/10 complete."
   ]
 }
