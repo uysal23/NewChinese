@@ -75,7 +75,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "content_ready_visual_audio_pending"
+      "status": "visual_complete_audio_pending"
     },
     {
       "sceneId": "HSK2_SC048",
@@ -119,7 +119,7 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 6,
+    "visualComplete": 7,
     "audioComplete": 0,
     "acceptedScenes": 0
   },
@@ -143,6 +143,7 @@
     "SC041-SC050 scene-context grounding, location matching and layered visual plans are approved before asset production.",
     "SC041-SC042 five-file layered visual sets were imported; media_status.visual is complete with no missing assets.",
     "SC043-SC044 five-file layered visual sets were imported through the media pipeline; media_status is complete with no missing visual assets.",
-    "SC045-SC046 five-file layered visual sets are present; media_status.visual is complete with no missing visual assets."
+    "SC045-SC046 five-file layered visual sets are present; media_status.visual is complete with no missing visual assets.",
+    "SC047 five-file layered visual set was imported through the media pipeline; media_status.visual is complete with no missing visual assets."
   ]
 }
