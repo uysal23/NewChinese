@@ -309,99 +309,15 @@ def reconstruct_visual_packages() -> int:
     return count
 
 
-
-def reconstruct_hsk2_sc048_from_refs() -> int:
-    marker = PARTS_DIR / "HSK2_SC048_FROM_REFS"
-    if not marker.is_file():
-        return 0
-
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    source_bg = ROOT / "content/hsk2/sc043/assets/hsk2_sc043_bg.webp"
-    source_fg = ROOT / "content/hsk2/sc043/assets/hsk2_sc043_fg.webp"
-    source_zw = ROOT / "content/hsk2/sc043/assets/hsk2_sc043_char_zhang_wei.webp"
-    source_cy = ROOT / "content/hsk2/sc047/assets/hsk2_sc047_char_chen_yu.webp"
-    sources = [source_bg, source_fg, source_zw, source_cy]
-    missing = [p for p in sources if not p.is_file()]
-    if missing:
-        raise RuntimeError(
-            "Missing SC048 reference asset(s): "
-            + ", ".join(str(p.relative_to(ROOT)) for p in missing)
-        )
-
-    background = Image.open(source_bg).convert("RGB")
-    width, height = background.size
-
-    # Reframe the approved lakeside source into a generic Hangzhou city-park view.
-    # Cropping the far-right side removes the West Lake landmark/pagoda while
-    # retaining lake, trees, bridge/walkway and family-friendly green-space cues.
-    crop_right = max(1, int(width * 0.76))
-    background = background.crop((0, 0, crop_right, height))
-    background = background.resize((width, height), Image.Resampling.LANCZOS)
-    background = ImageEnhance.Color(background).enhance(0.95)
-    background = ImageEnhance.Brightness(background).enhance(1.02)
-
-    foreground = Image.open(source_fg).convert("RGBA")
-    if foreground.size != (width, height):
-        foreground = foreground.resize((width, height), Image.Resampling.LANCZOS)
-
-    assets: dict[str, bytes] = {}
-
-    out = BytesIO()
-    background.save(out, "WEBP", quality=78, method=6)
-    assets["hsk2_sc048_bg.webp"] = out.getvalue()
-
-    assets["hsk2_sc048_char_zhang_wei.webp"] = source_zw.read_bytes()
-    assets["hsk2_sc048_char_chen_yu.webp"] = source_cy.read_bytes()
-
-    out = BytesIO()
-    foreground.save(out, "WEBP", quality=82, method=6)
-    assets["hsk2_sc048_fg.webp"] = out.getvalue()
-
-    canvas = background.convert("RGBA")
-    canvas.alpha_composite(foreground, (0, 0))
-
-    def place_character(payload: bytes, x_fraction: float) -> None:
-        char = Image.open(BytesIO(payload)).convert("RGBA")
-        target_h = int(height * 0.76)
-        scale = target_h / max(char.height, 1)
-        char = char.resize(
-            (max(1, int(char.width * scale)), target_h),
-            Image.Resampling.LANCZOS,
-        )
-        x = int(width * x_fraction - char.width / 2)
-        y = height - char.height
-        canvas.alpha_composite(char, (x, y))
-
-    place_character(assets["hsk2_sc048_char_zhang_wei.webp"], 0.34)
-    place_character(assets["hsk2_sc048_char_chen_yu.webp"], 0.67)
-
-    out = BytesIO()
-    canvas.convert("RGB").save(out, "WEBP", quality=78, method=6)
-    assets["hsk2_sc048_preview.webp"] = out.getvalue()
-
-    destination = OUT_DIR / "HSK2_SC048_visual_assets.zip"
-    if destination.exists():
-        destination.unlink()
-    with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for asset_name, payload in sorted(assets.items()):
-            archive.writestr(asset_name, payload)
-
-    print(
-        f"Built {destination.relative_to(ROOT)} from approved SC043/SC047 references "
-        "for HSK2_SC048."
-    )
-    return 1
-
 def main() -> int:
     if not PARTS_DIR.exists():
         print("No incoming_asset_parts directory; nothing to reconstruct.")
         return 0
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    special_sc048 = reconstruct_hsk2_sc048_from_refs()
     packages = reconstruct_package_parts()
     visuals = reconstruct_visual_packages()
-    print(f"Reconstructed packages: {packages}; visual packages: {visuals}; special SC048: {special_sc048}")
+    print(f"Reconstructed packages: {packages}; visual packages: {visuals}")
     return 0
 
 
