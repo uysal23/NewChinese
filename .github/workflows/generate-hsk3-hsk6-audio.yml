@@ -2,6 +2,10 @@ name: Generate HSK3-HSK6 Audio
 
 on:
   workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - ".audio-full-trigger"
 
 permissions:
   contents: write
