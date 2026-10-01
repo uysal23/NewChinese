@@ -318,7 +318,7 @@ def reconstruct_hsk2_sc048_from_refs() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     source_bg = ROOT / "content/hsk2/sc043/assets/hsk2_sc043_bg.webp"
     source_fg = ROOT / "content/hsk2/sc043/assets/hsk2_sc043_fg.webp"
-    source_zw = ROOT / "content/hsk2/sc047/assets/hsk2_sc047_char_zhang_wei.webp"
+    source_zw = ROOT / "content/hsk2/sc043/assets/hsk2_sc043_char_zhang_wei.webp"
     source_cy = ROOT / "content/hsk2/sc047/assets/hsk2_sc047_char_chen_yu.webp"
     sources = [source_bg, source_fg, source_zw, source_cy]
     missing = [p for p in sources if not p.is_file()]
