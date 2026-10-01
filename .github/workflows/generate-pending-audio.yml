@@ -5,7 +5,8 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "content/hsk*/sc*/audio_production_queue.json"
+      - "content/hsk1/sc*/audio_production_queue.json"
+      - "content/hsk2/sc*/audio_production_queue.json"
       - "tools/generate_pending_audio.py"
       - "tools/generate_audio_assets.py"
       - ".github/workflows/generate-pending-audio.yml"
