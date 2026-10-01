@@ -1,0 +1,63 @@
+name: Generate HSK3-HSK6 Content
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "tools/generate_hsk3_hsk6_content.py"
+      - ".github/workflows/generate-hsk3-hsk6-content.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newchinese-hsk3-hsk6-content
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install content generator dependency
+        run: python -m pip install "pypinyin>=0.51,<1"
+
+      - name: Generate HSK3-HSK6 content packages
+        run: python tools/generate_hsk3_hsk6_content.py
+
+      - name: Verify 300-scene target is physically present
+        shell: bash
+        run: |
+          count=$(find content/hsk[1-6] -mindepth 1 -maxdepth 1 -type d -name 'sc[0-9][0-9][0-9]' | wc -l)
+          echo "scene_count=$count"
+          test "$count" -eq 300
+
+      - name: Validate content schema and locked rules
+        run: python validation/validate_content.py
+
+      - name: Commit generated HSK3-HSK6 content
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/hsk3 content/hsk4 content/hsk5 content/hsk6 production_batches
+          if git diff --cached --quiet; then
+            echo "No generated content changes."
+            exit 0
+          fi
+          git commit -m "feat(content): generate HSK3-HSK6 nonvisual scene content"
+          git push origin main
