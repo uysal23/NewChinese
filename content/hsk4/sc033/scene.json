@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC033",
+  "level": "HSK4",
+  "sceneNumber": 33,
+  "titleZh": "讨论节日变化",
+  "titleTr": "Bayramların değişimini konuşmak",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC032",
+  "nextSceneId": "HSK4_SC034",
+  "summaryTr": "Chen Yu ile Zhang Wei, bayramların değişimini konuşmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

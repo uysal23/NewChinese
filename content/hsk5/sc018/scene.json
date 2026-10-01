@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC018",
+  "level": "HSK5",
+  "sceneNumber": 18,
+  "titleZh": "照片之外的记忆",
+  "titleTr": "Fotoğrafların ötesindeki anılar",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC017",
+  "nextSceneId": "HSK5_SC019",
+  "summaryTr": "Zhang Wei ile Chen Yu, fotoğrafların ötesindeki anılar konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

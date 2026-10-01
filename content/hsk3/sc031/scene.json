@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC031",
+  "level": "HSK3",
+  "sceneNumber": 31,
+  "titleZh": "参加摄影活动",
+  "titleTr": "Fotoğraf etkinliğine katılmak",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC030",
+  "nextSceneId": "HSK3_SC032",
+  "summaryTr": "Chen Yu ile Zhang Wei, fotoğraf etkinliğine katılmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

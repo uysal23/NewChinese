@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC039",
+  "level": "HSK5",
+  "sceneNumber": 39,
+  "titleZh": "网络舆论",
+  "titleTr": "Çevrimiçi kamuoyu",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC038",
+  "nextSceneId": "HSK5_SC040",
+  "summaryTr": "Liu Mei ile Zhang Wei, çevrimiçi kamuoyu konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

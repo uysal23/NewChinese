@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC029",
+  "level": "HSK5",
+  "sceneNumber": 29,
+  "titleZh": "学习耐心",
+  "titleTr": "Sabırlı olmayı öğrenmek",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC028",
+  "nextSceneId": "HSK5_SC030",
+  "summaryTr": "Li Na ile Zhang Wei, sabırlı olmayı öğrenmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

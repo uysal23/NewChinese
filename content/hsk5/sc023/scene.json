@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC023",
+  "level": "HSK5",
+  "sceneNumber": 23,
+  "titleZh": "保持好奇心",
+  "titleTr": "Merakı korumak",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC022",
+  "nextSceneId": "HSK5_SC024",
+  "summaryTr": "Li Na ile Zhang Wei, merakı korumak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

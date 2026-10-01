@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC046",
+  "level": "HSK4",
+  "sceneNumber": 46,
+  "titleZh": "修改方案",
+  "titleTr": "Planı revize etmek",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC045",
+  "nextSceneId": "HSK4_SC047",
+  "summaryTr": "Zhang Wei ile Chen Yu, planı revize etmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

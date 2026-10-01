@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC050",
+  "level": "HSK6",
+  "sceneNumber": 50,
+  "titleZh": "故事没有真正结束",
+  "titleTr": "Hikâye gerçekten bitmez",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC049",
+  "nextSceneId": null,
+  "summaryTr": "Zhang Wei ile Li Na, hikâye gerçekten bitmez konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

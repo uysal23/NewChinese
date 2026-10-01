@@ -1,0 +1,493 @@
+{
+  "sceneId": "HSK6_SC049",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK6_SC049_audio_assets.zip",
+  "outputDirectory": "content/hsk6/sc049/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural",
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk6_sc049_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "最近我反复想到“新的计划不必完美”，越想越觉得它和个人选择、社会环境都有关系。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk6_sc049_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这类问题很难靠单一立场解释，先把不同层次分开会更清楚。",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk6_sc049_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我以前总想先找到一个明确答案，现在反而更能接受不确定性。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk6_sc049_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "接受不确定性不等于放弃判断，而是知道判断建立在什么假设上。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk6_sc049_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "如果假设本身有问题，后面的结论可能都不稳。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk6_sc049_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "所以成熟的讨论会主动检查假设，而不是只争结论。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk6_sc049_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "不同立场之间有没有真正的共同点？",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk6_sc049_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "通常有。比如安全、公平、尊重和长期可持续性，只是权衡方式不同。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk6_sc049_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "权衡最难的地方是什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk6_sc049_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "是承认每个选择都有代价，而且代价可能由不同的人承担。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk6_sc049_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这就涉及责任了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk6_sc049_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对。责任不仅是做错以后负责，也包括决定之前认真考虑影响。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk6_sc049_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "边界应该怎么设定？",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk6_sc049_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "边界需要明确目的、适用范围和例外，否则容易变成空话。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk6_sc049_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "有些机制设计得很好，现实中还是会出现意外。",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk6_sc049_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "因为机制会遇到人的行为、资源限制和新的环境变化。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk6_sc049_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "所以不能只看制度文本，还要看实际运行。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk6_sc049_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "没错，长期效果往往和最初设计不完全一样。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk6_sc049_line_019.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我觉得“新的计划不必完美”最有意义的地方，是它逼着我们重新问问题。",
+      "emotion": "natural"
+    },
+    {
+      "order": 20,
+      "file": "hsk6_sc049_line_020.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "而且有些问题没有一次性的答案，只能持续反思。",
+      "emotion": "natural"
+    },
+    {
+      "order": 21,
+      "file": "hsk6_sc049_line_021.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "反思会不会让人变得犹豫？",
+      "emotion": "natural"
+    },
+    {
+      "order": 22,
+      "file": "hsk6_sc049_line_022.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "如果没有行动标准会。但好的反思应该让下一次判断更清楚。",
+      "emotion": "natural"
+    },
+    {
+      "order": 23,
+      "file": "hsk6_sc049_line_023.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那我们需要什么样的判断标准？",
+      "emotion": "natural"
+    },
+    {
+      "order": 24,
+      "file": "hsk6_sc049_line_024.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "事实是否可靠、影响是否可接受、过程是否公平、结果能否长期维持。",
+      "emotion": "natural"
+    },
+    {
+      "order": 25,
+      "file": "hsk6_sc049_line_025.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "如果这些标准互相冲突呢？",
+      "emotion": "natural"
+    },
+    {
+      "order": 26,
+      "file": "hsk6_sc049_line_026.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那就公开说明权衡，而不是假装没有代价。",
+      "emotion": "natural"
+    },
+    {
+      "order": 27,
+      "file": "hsk6_sc049_line_027.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "我越来越觉得透明本身也是一种责任。",
+      "emotion": "natural"
+    },
+    {
+      "order": 28,
+      "file": "hsk6_sc049_line_028.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "是，尤其当一个决定会影响很多人时，解释过程很重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 29,
+      "file": "hsk6_sc049_line_029.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "未来的可能性很多，我们很难预测得很准。",
+      "emotion": "natural"
+    },
+    {
+      "order": 30,
+      "file": "hsk6_sc049_line_030.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "所以比预测唯一结果更重要的，是提高适应不同结果的能力。",
+      "emotion": "natural"
+    },
+    {
+      "order": 31,
+      "file": "hsk6_sc049_line_031.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这和不确定性下的决策很像。",
+      "emotion": "natural"
+    },
+    {
+      "order": 32,
+      "file": "hsk6_sc049_line_032.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对。保留选择空间、设置检查点、允许修正，都是有用的方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 33,
+      "file": "hsk6_sc049_line_033.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "聊到这里，我对“新的计划不必完美”的看法比开始时更立体了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 34,
+      "file": "hsk6_sc049_line_034.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这就够了。复杂问题不一定要立刻得到简单结论。",
+      "emotion": "natural"
+    },
+    {
+      "order": 35,
+      "file": "hsk6_sc049_line_035.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那我们先保留这些问题，继续观察，也继续学习。",
+      "emotion": "natural"
+    },
+    {
+      "order": 36,
+      "file": "hsk6_sc049_line_036.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好。真正重要的不是永远正确，而是愿意根据新证据修正自己。",
+      "emotion": "natural"
+    },
+    {
+      "order": 37,
+      "file": "hsk6_sc049_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "意义",
+      "emotion": "neutral"
+    },
+    {
+      "order": 38,
+      "file": "hsk6_sc049_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "立场",
+      "emotion": "neutral"
+    },
+    {
+      "order": 39,
+      "file": "hsk6_sc049_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "机制",
+      "emotion": "neutral"
+    },
+    {
+      "order": 40,
+      "file": "hsk6_sc049_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "假设",
+      "emotion": "neutral"
+    },
+    {
+      "order": 41,
+      "file": "hsk6_sc049_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "权衡",
+      "emotion": "neutral"
+    },
+    {
+      "order": 42,
+      "file": "hsk6_sc049_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "边界",
+      "emotion": "neutral"
+    },
+    {
+      "order": 43,
+      "file": "hsk6_sc049_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "责任",
+      "emotion": "neutral"
+    },
+    {
+      "order": 44,
+      "file": "hsk6_sc049_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "反思",
+      "emotion": "neutral"
+    },
+    {
+      "order": 45,
+      "file": "hsk6_sc049_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "长期",
+      "emotion": "neutral"
+    },
+    {
+      "order": 46,
+      "file": "hsk6_sc049_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "不确定性",
+      "emotion": "neutral"
+    },
+    {
+      "order": 47,
+      "file": "hsk6_sc049_word_011.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可能性",
+      "emotion": "neutral"
+    },
+    {
+      "order": 48,
+      "file": "hsk6_sc049_word_012.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "判断",
+      "emotion": "neutral"
+    },
+    {
+      "order": 49,
+      "file": "hsk6_sc049_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "最近我反复想到“新的计划不必完美”，越想越觉得它和个人选择、社会环境都有关系。",
+      "emotion": "natural"
+    },
+    {
+      "order": 50,
+      "file": "hsk6_sc049_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "如果假设本身有问题，后面的结论可能都不稳。",
+      "emotion": "natural"
+    },
+    {
+      "order": 51,
+      "file": "hsk6_sc049_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "权衡最难的地方是什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 52,
+      "file": "hsk6_sc049_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "边界应该怎么设定？",
+      "emotion": "natural"
+    },
+    {
+      "order": 53,
+      "file": "hsk6_sc049_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "所以不能只看制度文本，还要看实际运行。",
+      "emotion": "natural"
+    },
+    {
+      "order": 54,
+      "file": "hsk6_sc049_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "而且有些问题没有一次性的答案，只能持续反思。",
+      "emotion": "natural"
+    },
+    {
+      "order": 55,
+      "file": "hsk6_sc049_sentence_007.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "事实是否可靠、影响是否可接受、过程是否公平、结果能否长期维持。",
+      "emotion": "natural"
+    },
+    {
+      "order": 56,
+      "file": "hsk6_sc049_sentence_008.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "是，尤其当一个决定会影响很多人时，解释过程很重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 57,
+      "file": "hsk6_sc049_sentence_009.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "对。保留选择空间、设置检查点、允许修正，都是有用的方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 58,
+      "file": "hsk6_sc049_sentence_010.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "好。真正重要的不是永远正确，而是愿意根据新证据修正自己。",
+      "emotion": "natural"
+    }
+  ]
+}

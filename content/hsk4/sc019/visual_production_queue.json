@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK4_SC019",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "continuity": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_WANG_MING_WORK_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "建立信任; canonical LOC_ZHANG_OFFICE_001; two adult characters only; natural conversational body language; no readable text.",
+  "assets": [
+    {
+      "file": "hsk4_sc019_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk4_sc019_char_wang_ming.webp",
+      "purpose": "CHAR_WANG_MING_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk4_sc019_char_zhang_wei.webp",
+      "purpose": "CHAR_ZHANG_WEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk4_sc019_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk4_sc019_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC021",
+  "level": "HSK5",
+  "sceneNumber": 21,
+  "titleZh": "长期目标",
+  "titleTr": "Uzun vadeli hedefler",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC020",
+  "nextSceneId": "HSK5_SC022",
+  "summaryTr": "Li Na ile Zhang Wei, uzun vadeli hedefler konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

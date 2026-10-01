@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC031",
+  "level": "HSK5",
+  "sceneNumber": 31,
+  "titleZh": "社区公共空间",
+  "titleTr": "Mahalledeki kamusal alanlar",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC030",
+  "nextSceneId": "HSK5_SC032",
+  "summaryTr": "Liu Mei ile Zhang Wei, mahalledeki kamusal alanlar konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

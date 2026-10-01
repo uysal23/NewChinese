@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC046",
+  "level": "HSK5",
+  "sceneNumber": 46,
+  "titleZh": "长期规划",
+  "titleTr": "Uzun vadeli planlama",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC045",
+  "nextSceneId": "HSK5_SC047",
+  "summaryTr": "Zhang Wei ile Wang Ming, uzun vadeli planlama konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

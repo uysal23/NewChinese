@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC017",
+  "level": "HSK6",
+  "sceneNumber": 17,
+  "titleZh": "考试与真实能力",
+  "titleTr": "Sınav ve gerçek yeterlilik",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC016",
+  "nextSceneId": "HSK6_SC018",
+  "summaryTr": "Liu Mei ile Zhang Wei, sınav ve gerçek yeterlilik konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

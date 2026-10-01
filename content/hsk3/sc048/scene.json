@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC048",
+  "level": "HSK3",
+  "sceneNumber": 48,
+  "titleZh": "分享项目结果",
+  "titleTr": "Proje sonucunu paylaşmak",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC047",
+  "nextSceneId": "HSK3_SC049",
+  "summaryTr": "Zhang Wei ile Chen Yu, proje sonucunu paylaşmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

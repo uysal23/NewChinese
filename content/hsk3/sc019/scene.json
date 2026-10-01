@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC019",
+  "level": "HSK3",
+  "sceneNumber": 19,
+  "titleZh": "复习旧内容",
+  "titleTr": "Eski konuları tekrar etmek",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC018",
+  "nextSceneId": "HSK3_SC020",
+  "summaryTr": "Li Na ile Zhang Wei, eski konuları tekrar etmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

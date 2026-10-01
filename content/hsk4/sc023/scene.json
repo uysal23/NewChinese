@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC023",
+  "level": "HSK4",
+  "sceneNumber": 23,
+  "titleZh": "安排运动时间",
+  "titleTr": "Egzersiz için zaman ayırmak",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC022",
+  "nextSceneId": "HSK4_SC024",
+  "summaryTr": "Li Na ile Zhang Wei, egzersiz için zaman ayırmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

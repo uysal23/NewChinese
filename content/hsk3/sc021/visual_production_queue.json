@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK3_SC021",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "continuity": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001",
+    "OUTFIT_LI_NA_CASUAL_01",
+    "OUTFIT_ZHANG_WEI_CASUAL_01"
+  ],
+  "composition": "家里设备出问题; canonical LOC_ZHANG_HOME_001; two adult characters only; natural conversational body language; no readable text.",
+  "assets": [
+    {
+      "file": "hsk3_sc021_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk3_sc021_char_li_na.webp",
+      "purpose": "CHAR_LI_NA_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk3_sc021_char_zhang_wei.webp",
+      "purpose": "CHAR_ZHANG_WEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk3_sc021_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk3_sc021_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

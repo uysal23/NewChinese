@@ -1,0 +1,145 @@
+{
+  "sceneId": "HSK4_SC016",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK4_SC016_001",
+      "correctZh": "关于“帮助同事但不过度”，我发现大家的观点不太一样。",
+      "pinyin": "guān yú“bāng zhù tóng shì dàn bù guò dù”， wǒ fā xiàn dà jiā de guān diǎn bù tài yī yàng。",
+      "translationTr": "“İş arkadaşına ölçülü yardım etmek” konusunda herkesin görüşünün biraz farklı olduğunu fark ettim.",
+      "sentenceZh": "关于“帮助同事但不过度”，我发现大家的观点不太一样。",
+      "correctAnswer": "关于“帮助同事但不过度”，我发现大家的观点不太一样。",
+      "options": [],
+      "tokens": [
+        "关于帮助",
+        "同事但不",
+        "过度我发",
+        "现大家的",
+        "观点不太",
+        "一样"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK4_SC016_002",
+      "correctZh": "如果有人不同意我的方案呢？",
+      "pinyin": "rú guǒ yǒu rén bù tóng yì wǒ de fāng àn ne？",
+      "translationTr": "Biri önerime katılmazsa ne olacak?",
+      "sentenceZh": "___有人不同意我的方案呢？",
+      "correctAnswer": "如果",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK4_SC016_003",
+      "correctZh": "效率和质量有时候会冲突。",
+      "pinyin": "xiào lǜ hé zhì liàng yǒu shí hòu huì chōng tū。",
+      "translationTr": "Verimlilik ile kalite bazen çatışıyor.",
+      "sentenceZh": "效率和质量有时候会冲突。",
+      "correctAnswer": "效率和质量有时候会冲突。",
+      "options": [
+        "效率和质量有时候会冲突。",
+        "关于“帮助同事但不过度”，我发现大家的观点不太一样。",
+        "这很正常。先把共同目标和优先顺序说清楚。",
+        "我担心协调的时候会让人觉得我在指挥别人。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK4_SC016_004",
+      "correctZh": "这样是不是更容易建立信任？",
+      "pinyin": "zhè yàng shì bú shì gèng róng yì jiàn lì xìn rèn？",
+      "translationTr": "Bu güven oluşturmayı kolaylaştırır mı?",
+      "sentenceZh": "这样是不是更容易建立信任？",
+      "correctAnswer": "这样是不是更容易建立信任？",
+      "options": [],
+      "tokens": [
+        "这样是不",
+        "是更容易",
+        "建立信任"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK4_SC016_005",
+      "correctZh": "看角色、承诺和实际能力，超出边界的事情要及时说明。",
+      "pinyin": "kàn jué sè、 chéng nuò hé shí jì néng lì， chāo chū biān jiè de shì qíng yào jí shí shuō míng。",
+      "translationTr": "Rol, verilen söz ve gerçek kapasiteye bakılır; sınırı aşan işler zamanında belirtilmelidir.",
+      "sentenceZh": "___色、承诺和实际能力，超出边界的事情要及时说明。",
+      "correctAnswer": "看角",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK4_SC016_006",
+      "correctZh": "所以重要决定最好留下一段清楚的记录。",
+      "pinyin": "suǒ yǐ zhòng yào jué dìng zuì hǎo liú xià yī duàn qīng chǔ de jì lù。",
+      "translationTr": "Bu yüzden önemli kararlar için açık bir kayıt bırakmak iyi olur.",
+      "sentenceZh": "所以重要决定最好留下一段清楚的记录。",
+      "correctAnswer": "所以重要决定最好留下一段清楚的记录。",
+      "options": [
+        "所以重要决定最好留下一段清楚的记录。",
+        "关于“帮助同事但不过度”，我发现大家的观点不太一样。",
+        "这很正常。先把共同目标和优先顺序说清楚。",
+        "我担心协调的时候会让人觉得我在指挥别人。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_006.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_007",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK4_SC016_007",
+      "correctZh": "然后跟相关的人确认一次，这一步很关键。",
+      "pinyin": "rán hòu gēn xiāng guān de rén què rèn yī cì， zhè yī bù hěn guān jiàn。",
+      "translationTr": "Sonra ilgili kişilerle bir kez doğrula; bu adım çok önemli.",
+      "sentenceZh": "然后跟相关的人确认一次，这一步很关键。",
+      "correctAnswer": "然后跟相关的人确认一次，这一步很关键。",
+      "options": [],
+      "tokens": [
+        "然后跟相",
+        "关的人确",
+        "认一次这",
+        "一步很关",
+        "键"
+      ],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_007.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK4_SC016_008",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK4_SC016_008",
+      "correctZh": "那就按这个方向试一次，再根据反馈调整。",
+      "pinyin": "nà jiù àn zhè ge fāng xiàng shì yī cì， zài gēn jù fǎn kuì tiáo zhěng。",
+      "translationTr": "O halde bu yönde bir kez dene, sonra geri bildirime göre ayarla.",
+      "sentenceZh": "___按这个方向试一次，再根据反馈调整。",
+      "correctAnswer": "那就",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_sentence_008.m4a"
+    }
+  ]
+}

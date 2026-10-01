@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC035",
+  "level": "HSK5",
+  "sceneNumber": 35,
+  "titleZh": "公共交通体验",
+  "titleTr": "Toplu taşıma deneyimi",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC034",
+  "nextSceneId": "HSK5_SC036",
+  "summaryTr": "Liu Mei ile Zhang Wei, toplu taşıma deneyimi konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

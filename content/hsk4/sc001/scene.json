@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC001",
+  "level": "HSK4",
+  "sceneNumber": 1,
+  "titleZh": "承担更重要的任务",
+  "titleTr": "Daha önemli bir görev üstlenmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC050",
+  "nextSceneId": "HSK4_SC002",
+  "summaryTr": "Wang Ming ile Zhang Wei, daha önemli bir görev üstlenmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

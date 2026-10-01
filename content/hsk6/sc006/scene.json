@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC006",
+  "level": "HSK6",
+  "sceneNumber": 6,
+  "titleZh": "重新定义成功",
+  "titleTr": "Başarıyı yeniden tanımlamak",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC005",
+  "nextSceneId": "HSK6_SC007",
+  "summaryTr": "Zhang Wei ile Wang Ming, başarıyı yeniden tanımlamak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

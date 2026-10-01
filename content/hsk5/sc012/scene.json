@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC012",
+  "level": "HSK5",
+  "sceneNumber": 12,
+  "titleZh": "计划外的风景",
+  "titleTr": "Plansız karşılaşılan manzaralar",
+  "locationId": "LOC_DAY_TRIP_TOWN_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC011",
+  "nextSceneId": "HSK5_SC013",
+  "summaryTr": "Zhang Wei ile Chen Yu, plansız karşılaşılan manzaralar konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

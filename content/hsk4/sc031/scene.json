@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC031",
+  "level": "HSK4",
+  "sceneNumber": 31,
+  "titleZh": "第一次看地方戏",
+  "titleTr": "İlk kez yerel tiyatro izlemek",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC030",
+  "nextSceneId": "HSK4_SC032",
+  "summaryTr": "Chen Yu ile Zhang Wei, i̇lk kez yerel tiyatro izlemek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

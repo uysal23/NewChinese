@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC018",
+  "level": "HSK3",
+  "sceneNumber": 18,
+  "titleZh": "和朋友练中文",
+  "titleTr": "Arkadaşla Çince pratik yapmak",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC017",
+  "nextSceneId": "HSK3_SC019",
+  "summaryTr": "Zhang Wei ile Liu Mei, arkadaşla çince pratik yapmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

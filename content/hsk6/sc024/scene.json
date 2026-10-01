@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC024",
+  "level": "HSK6",
+  "sceneNumber": 24,
+  "titleZh": "不同价值观共处",
+  "titleTr": "Farklı değerlerle birlikte yaşamak",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC023",
+  "nextSceneId": "HSK6_SC025",
+  "summaryTr": "Zhang Wei ile Liu Mei, farklı değerlerle birlikte yaşamak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

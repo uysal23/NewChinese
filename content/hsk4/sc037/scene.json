@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC037",
+  "level": "HSK4",
+  "sceneNumber": 37,
+  "titleZh": "和陈宇聊摄影",
+  "titleTr": "Chen Yu ile fotoğrafçılık konuşmak",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC036",
+  "nextSceneId": "HSK4_SC038",
+  "summaryTr": "Chen Yu ile Zhang Wei, chen yu ile fotoğrafçılık konuşmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

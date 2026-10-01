@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC032",
+  "level": "HSK3",
+  "sceneNumber": 32,
+  "titleZh": "和朋友徒步",
+  "titleTr": "Arkadaşlarla yürüyüş yapmak",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC031",
+  "nextSceneId": "HSK3_SC033",
+  "summaryTr": "Zhang Wei ile Liu Mei, arkadaşlarla yürüyüş yapmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

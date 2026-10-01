@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC046",
+  "level": "HSK6",
+  "sceneNumber": 46,
+  "titleZh": "选择留下还是出发",
+  "titleTr": "Kalmak mı yola çıkmak mı",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC045",
+  "nextSceneId": "HSK6_SC047",
+  "summaryTr": "Zhang Wei ile Li Na, kalmak mı yola çıkmak mı konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

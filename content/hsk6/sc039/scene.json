@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC039",
+  "level": "HSK6",
+  "sceneNumber": 39,
+  "titleZh": "不确定性下的决策",
+  "titleTr": "Belirsizlik altında karar vermek",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC038",
+  "nextSceneId": "HSK6_SC040",
+  "summaryTr": "Wang Ming ile Zhang Wei, belirsizlik altında karar vermek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC043",
+  "level": "HSK3",
+  "sceneNumber": 43,
+  "titleZh": "给照片分类",
+  "titleTr": "Fotoğrafları sınıflandırmak",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC042",
+  "nextSceneId": "HSK3_SC044",
+  "summaryTr": "Wang Ming ile Zhang Wei, fotoğrafları sınıflandırmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

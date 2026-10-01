@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC040",
+  "level": "HSK6",
+  "sceneNumber": 40,
+  "titleZh": "我们希望怎样的未来",
+  "titleTr": "Nasıl bir gelecek istiyoruz",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC039",
+  "nextSceneId": "HSK6_SC041",
+  "summaryTr": "Zhang Wei ile Chen Yu, nasıl bir gelecek istiyoruz konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK3_SC010",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "assets": {
+    "background": "assets/hsk3_sc010_bg.webp",
+    "characterA": "assets/hsk3_sc010_char_zhang_wei.webp",
+    "characterB": "assets/hsk3_sc010_char_wang_ming.webp",
+    "foreground": "assets/hsk3_sc010_fg.webp",
+    "preview": "assets/hsk3_sc010_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_WANG_MING_001",
+      "outfit": "OUTFIT_WANG_MING_WORK_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK3_SC010_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

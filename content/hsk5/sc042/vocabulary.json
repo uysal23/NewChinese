@@ -1,0 +1,113 @@
+{
+  "sceneId": "HSK5_SC042",
+  "words": [
+    {
+      "wordId": "WORD_HSK5_SC042_001",
+      "hanzi": "趋势",
+      "pinyin": "qū shì",
+      "translationTr": "eğilim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_002",
+      "hanzi": "价值",
+      "pinyin": "jià zhí",
+      "translationTr": "değer",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_003",
+      "hanzi": "判断",
+      "pinyin": "pàn duàn",
+      "translationTr": "yargı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_004",
+      "hanzi": "资源",
+      "pinyin": "zī yuán",
+      "translationTr": "kaynak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_005",
+      "hanzi": "策略",
+      "pinyin": "cè lüè",
+      "translationTr": "strateji",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_006",
+      "hanzi": "平衡",
+      "pinyin": "píng héng",
+      "translationTr": "denge",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_007",
+      "hanzi": "风险",
+      "pinyin": "fēng xiǎn",
+      "translationTr": "risk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_008",
+      "hanzi": "机会",
+      "pinyin": "jī huì",
+      "translationTr": "fırsat",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_009",
+      "hanzi": "长期",
+      "pinyin": "cháng qī",
+      "translationTr": "uzun vadeli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_010",
+      "hanzi": "影响",
+      "pinyin": "yǐng xiǎng",
+      "translationTr": "etki",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_word_010.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_011",
+      "hanzi": "选择",
+      "pinyin": "xuǎn zé",
+      "translationTr": "seçim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_word_011.m4a"
+    },
+    {
+      "wordId": "WORD_HSK5_SC042_012",
+      "hanzi": "责任",
+      "pinyin": "zé rèn",
+      "translationTr": "sorumluluk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_word_012.m4a"
+    }
+  ]
+}

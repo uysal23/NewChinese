@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC018",
+  "level": "HSK4",
+  "sceneNumber": 18,
+  "titleZh": "处理会议冲突",
+  "titleTr": "Toplantı çatışmasını çözmek",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC017",
+  "nextSceneId": "HSK4_SC019",
+  "summaryTr": "Zhang Wei ile Liu Mei, toplantı çatışmasını çözmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

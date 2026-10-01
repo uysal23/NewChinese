@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC047",
+  "level": "HSK6",
+  "sceneNumber": 47,
+  "titleZh": "给过去的自己一句话",
+  "titleTr": "Geçmişteki kendine bir cümle",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC046",
+  "nextSceneId": "HSK6_SC048",
+  "summaryTr": "Li Na ile Zhang Wei, geçmişteki kendine bir cümle konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC043",
+  "level": "HSK6",
+  "sceneNumber": 43,
+  "titleZh": "从陌生到熟悉",
+  "titleTr": "Yabancılıktan aşinalığa",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC042",
+  "nextSceneId": "HSK6_SC044",
+  "summaryTr": "Li Na ile Zhang Wei, yabancılıktan aşinalığa konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

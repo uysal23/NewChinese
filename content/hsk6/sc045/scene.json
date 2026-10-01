@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC045",
+  "level": "HSK6",
+  "sceneNumber": 45,
+  "titleZh": "失败留下的东西",
+  "titleTr": "Başarısızlığın bıraktıkları",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC044",
+  "nextSceneId": "HSK6_SC046",
+  "summaryTr": "Li Na ile Zhang Wei, başarısızlığın bıraktıkları konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC007",
+  "level": "HSK4",
+  "sceneNumber": 7,
+  "titleZh": "和同事协调资源",
+  "titleTr": "Kaynakları iş arkadaşlarıyla koordine etmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC006",
+  "nextSceneId": "HSK4_SC008",
+  "summaryTr": "Wang Ming ile Zhang Wei, kaynakları iş arkadaşlarıyla koordine etmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

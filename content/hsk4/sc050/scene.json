@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC050",
+  "level": "HSK4",
+  "sceneNumber": 50,
+  "titleZh": "HSK4项目总结",
+  "titleTr": "HSK4 projesini değerlendirmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC049",
+  "nextSceneId": "HSK5_SC001",
+  "summaryTr": "Zhang Wei ile Chen Yu, hsk4 projesini değerlendirmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

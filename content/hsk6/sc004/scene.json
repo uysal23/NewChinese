@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC004",
+  "level": "HSK6",
+  "sceneNumber": 4,
+  "titleZh": "能力与身份",
+  "titleTr": "Yetenek ve kimlik",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC003",
+  "nextSceneId": "HSK6_SC005",
+  "summaryTr": "Zhang Wei ile Wang Ming, yetenek ve kimlik konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC040",
+  "level": "HSK5",
+  "sceneNumber": 40,
+  "titleZh": "城市生活质量",
+  "titleTr": "Şehirde yaşam kalitesi",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC039",
+  "nextSceneId": "HSK5_SC041",
+  "summaryTr": "Zhang Wei ile Chen Yu, şehirde yaşam kalitesi konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

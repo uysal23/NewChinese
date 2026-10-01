@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC002",
+  "level": "HSK6",
+  "sceneNumber": 2,
+  "titleZh": "职业成就与生活价值",
+  "titleTr": "Kariyer başarısı ve yaşam değeri",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC001",
+  "nextSceneId": "HSK6_SC003",
+  "summaryTr": "Zhang Wei ile Wang Ming, kariyer başarısı ve yaşam değeri konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

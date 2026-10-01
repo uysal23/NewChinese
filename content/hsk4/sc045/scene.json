@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC045",
+  "level": "HSK4",
+  "sceneNumber": 45,
+  "titleZh": "收集反馈",
+  "titleTr": "Geri bildirim toplamak",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC044",
+  "nextSceneId": "HSK4_SC046",
+  "summaryTr": "Wang Ming ile Zhang Wei, geri bildirim toplamak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

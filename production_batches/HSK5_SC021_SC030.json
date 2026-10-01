@@ -1,0 +1,108 @@
+{
+  "level": "HSK5",
+  "startScene": 21,
+  "endScene": 30,
+  "status": "content_ready_audio_pending_visual_pending",
+  "progress": {
+    "contentReady": 10,
+    "totalScenes": 10,
+    "visualComplete": 0,
+    "audioComplete": 0,
+    "acceptedScenes": 0
+  },
+  "scenes": [
+    {
+      "sceneId": "HSK5_SC021",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "characterIds": [
+        "CHAR_LI_NA_001",
+        "CHAR_ZHANG_WEI_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC022",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_CITY_PARK_001",
+      "characterIds": [
+        "CHAR_ZHANG_WEI_001",
+        "CHAR_LI_NA_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC023",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_PUBLIC_LIBRARY_001",
+      "characterIds": [
+        "CHAR_LI_NA_001",
+        "CHAR_ZHANG_WEI_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC024",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "characterIds": [
+        "CHAR_ZHANG_WEI_001",
+        "CHAR_LI_NA_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC025",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_CITY_PARK_001",
+      "characterIds": [
+        "CHAR_LI_NA_001",
+        "CHAR_ZHANG_WEI_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC026",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_PUBLIC_LIBRARY_001",
+      "characterIds": [
+        "CHAR_ZHANG_WEI_001",
+        "CHAR_LI_NA_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC027",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "characterIds": [
+        "CHAR_LI_NA_001",
+        "CHAR_ZHANG_WEI_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC028",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_CITY_PARK_001",
+      "characterIds": [
+        "CHAR_ZHANG_WEI_001",
+        "CHAR_LI_NA_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC029",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_PUBLIC_LIBRARY_001",
+      "characterIds": [
+        "CHAR_LI_NA_001",
+        "CHAR_ZHANG_WEI_001"
+      ]
+    },
+    {
+      "sceneId": "HSK5_SC030",
+      "status": "content_ready_audio_pending_visual_pending",
+      "locationId": "LOC_ZHANG_HOME_001",
+      "characterIds": [
+        "CHAR_ZHANG_WEI_001",
+        "CHAR_LI_NA_001"
+      ]
+    }
+  ],
+  "notes": [
+    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending."
+  ]
+}

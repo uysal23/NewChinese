@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC036",
+  "level": "HSK6",
+  "sceneNumber": 36,
+  "titleZh": "虚拟世界与现实关系",
+  "titleTr": "Sanal dünya ve gerçek ilişkiler",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC035",
+  "nextSceneId": "HSK6_SC037",
+  "summaryTr": "Zhang Wei ile Chen Yu, sanal dünya ve gerçek ilişkiler konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

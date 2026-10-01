@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC018",
+  "level": "HSK6",
+  "sceneNumber": 18,
+  "titleZh": "老师和学习者的角色",
+  "titleTr": "Öğretmen ve öğrenenin rolü",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC017",
+  "nextSceneId": "HSK6_SC019",
+  "summaryTr": "Zhang Wei ile Li Na, öğretmen ve öğrenenin rolü konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

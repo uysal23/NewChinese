@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC011",
+  "level": "HSK6",
+  "sceneNumber": 11,
+  "titleZh": "成年人为什么还要学习",
+  "titleTr": "Yetişkinler neden öğrenmeye devam eder",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC010",
+  "nextSceneId": "HSK6_SC012",
+  "summaryTr": "Liu Mei ile Zhang Wei, yetişkinler neden öğrenmeye devam eder konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

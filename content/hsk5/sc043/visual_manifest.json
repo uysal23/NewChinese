@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK5_SC043",
+  "locationId": "LOC_CAFE_001",
+  "assets": {
+    "background": "assets/hsk5_sc043_bg.webp",
+    "characterA": "assets/hsk5_sc043_char_wang_ming.webp",
+    "characterB": "assets/hsk5_sc043_char_zhang_wei.webp",
+    "foreground": "assets/hsk5_sc043_fg.webp",
+    "preview": "assets/hsk5_sc043_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_WANG_MING_001",
+      "outfit": "OUTFIT_WANG_MING_WORK_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK5_SC043_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

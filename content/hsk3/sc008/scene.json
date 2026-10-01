@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC008",
+  "level": "HSK3",
+  "sceneNumber": 8,
+  "titleZh": "检查细节",
+  "titleTr": "Ayrıntıları kontrol etmek",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC007",
+  "nextSceneId": "HSK3_SC009",
+  "summaryTr": "Zhang Wei ile Wang Ming, ayrıntıları kontrol etmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

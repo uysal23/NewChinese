@@ -1,0 +1,145 @@
+{
+  "sceneId": "HSK3_SC037",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK3_SC037_001",
+      "correctZh": "今天想和你聊聊“拍城市夜景”。这件事最近对我影响挺大。",
+      "pinyin": "jīn tiān xiǎng hé nǐ liáo liáo“pāi chéng shì yè jǐng”。 zhè jiàn shì zuì jìn duì wǒ yǐng xiǎng tǐng dà。",
+      "translationTr": "Bugün seninle “Şehir gece fotoğrafları çekmek” hakkında konuşmak istiyorum. Son zamanlarda bu konu beni epey etkiliyor.",
+      "sentenceZh": "今天想和你聊聊“拍城市夜景”。这件事最近对我影响挺大。",
+      "correctAnswer": "今天想和你聊聊“拍城市夜景”。这件事最近对我影响挺大。",
+      "options": [],
+      "tokens": [
+        "今天想和",
+        "你聊聊拍",
+        "城市夜景",
+        "这件事最",
+        "近对我影",
+        "响挺大"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk3_sc037_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK3_SC037_002",
+      "correctZh": "计划本来就需要调整，先看最重要的部分。",
+      "pinyin": "jì huà běn lái jiù xū yào tiáo zhěng， xiān kàn zuì zhòng yào de bù fèn。",
+      "translationTr": "Planların zaten ayarlanması gerekir; önce en önemli kısma bakalım.",
+      "sentenceZh": "___本来就需要调整，先看最重要的部分。",
+      "correctAnswer": "计划",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc037_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK3_SC037_003",
+      "correctZh": "把原因说明白，再听听对方的想法，通常会好很多。",
+      "pinyin": "bǎ yuán yīn shuō míng bái， zài tīng tīng duì fāng de xiǎng fǎ， tōng cháng huì hǎo hěn duō。",
+      "translationTr": "Nedenini açıkça anlatıp karşı tarafı dinlersen genelde çok daha iyi olur.",
+      "sentenceZh": "把原因说明白，再听听对方的想法，通常会好很多。",
+      "correctAnswer": "把原因说明白，再听听对方的想法，通常会好很多。",
+      "options": [
+        "把原因说明白，再听听对方的想法，通常会好很多。",
+        "今天想和你聊聊“拍城市夜景”。这件事最近对我影响挺大。",
+        "可以。你现在最想解决的是什么？",
+        "我先做了一个计划，可实际情况和我想的不太一样。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc037_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK3_SC037_004",
+      "correctZh": "我想把这件事变成一个稳定的习惯。",
+      "pinyin": "wǒ xiǎng bǎ zhè jiàn shì biàn chéng yí gè wěn dìng de xí guàn。",
+      "translationTr": "Bunu kalıcı bir alışkanlığa dönüştürmek istiyorum.",
+      "sentenceZh": "我想把这件事变成一个稳定的习惯。",
+      "correctAnswer": "我想把这件事变成一个稳定的习惯。",
+      "options": [],
+      "tokens": [
+        "我想把这",
+        "件事变成",
+        "一个稳定",
+        "的习惯"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk3_sc037_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK3_SC037_005",
+      "correctZh": "先解决眼前的问题，再记录原因，下次就会更快。",
+      "pinyin": "xiān jiě jué yǎn qián de wèn tí， zài jì lù yuán yīn， xià cì jiù huì gèng kuài。",
+      "translationTr": "Önce önündeki sorunu çöz, sonra nedenini not et; bir dahaki sefere daha hızlı olursun.",
+      "sentenceZh": "___决眼前的问题，再记录原因，下次就会更快。",
+      "correctAnswer": "先解",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc037_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK3_SC037_006",
+      "correctZh": "我以前总觉得一定要有最好的方法。",
+      "pinyin": "wǒ yǐ qián zǒng jué de yí dìng yào yǒu zuì hǎo de fāng fǎ。",
+      "translationTr": "Eskiden mutlaka en iyi yöntemi bulmam gerektiğini düşünürdüm.",
+      "sentenceZh": "我以前总觉得一定要有最好的方法。",
+      "correctAnswer": "我以前总觉得一定要有最好的方法。",
+      "options": [
+        "我以前总觉得一定要有最好的方法。",
+        "今天想和你聊聊“拍城市夜景”。这件事最近对我影响挺大。",
+        "可以。你现在最想解决的是什么？",
+        "我先做了一个计划，可实际情况和我想的不太一样。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk3_sc037_sentence_006.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_007",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK3_SC037_007",
+      "correctZh": "那我今天先做一个具体的小步骤。",
+      "pinyin": "nà wǒ jīn tiān xiān zuò yí gè jù tǐ de xiǎo bù zhòu。",
+      "translationTr": "O halde bugün somut bir küçük adım atacağım.",
+      "sentenceZh": "那我今天先做一个具体的小步骤。",
+      "correctAnswer": "那我今天先做一个具体的小步骤。",
+      "options": [],
+      "tokens": [
+        "那我今天",
+        "先做一个",
+        "具体的小",
+        "步骤"
+      ],
+      "voiceId": "VOICE_CHEN_YU_001",
+      "audioFile": "assets/hsk3_sc037_sentence_007.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK3_SC037_008",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK3_SC037_008",
+      "correctZh": "不客气。过几天我们再看看效果。",
+      "pinyin": "bú kè qì。 guò jǐ tiān wǒ men zài kàn kàn xiào guǒ。",
+      "translationTr": "Rica ederim. Birkaç gün sonra sonucu yine değerlendiririz.",
+      "sentenceZh": "___气。过几天我们再看看效果。",
+      "correctAnswer": "不客",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc037_sentence_008.m4a"
+    }
+  ]
+}

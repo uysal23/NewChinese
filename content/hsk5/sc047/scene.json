@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC047",
+  "level": "HSK5",
+  "sceneNumber": 47,
+  "titleZh": "培养新人",
+  "titleTr": "Yeni çalışanları geliştirmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC046",
+  "nextSceneId": "HSK5_SC048",
+  "summaryTr": "Wang Ming ile Zhang Wei, yeni çalışanları geliştirmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

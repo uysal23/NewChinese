@@ -1,0 +1,11 @@
+{
+  "sceneId": "HSK3_SC032",
+  "passingScore": 85,
+  "shuffleQuestions": true,
+  "types": [
+    "reorder",
+    "fill_blank",
+    "listen_select"
+  ],
+  "source": "dialogue-derived sentence exercises"
+}

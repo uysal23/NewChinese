@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC010",
+  "level": "HSK5",
+  "sceneNumber": 10,
+  "titleZh": "技术与生活边界",
+  "titleTr": "Teknoloji ile yaşam arasındaki sınır",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC009",
+  "nextSceneId": "HSK5_SC011",
+  "summaryTr": "Zhang Wei ile Chen Yu, teknoloji ile yaşam arasındaki sınır konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC027",
+  "level": "HSK4",
+  "sceneNumber": 27,
+  "titleZh": "学会拒绝不合理安排",
+  "titleTr": "Makul olmayan planlara hayır demek",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC026",
+  "nextSceneId": "HSK4_SC028",
+  "summaryTr": "Li Na ile Zhang Wei, makul olmayan planlara hayır demek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

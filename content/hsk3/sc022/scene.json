@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC022",
+  "level": "HSK3",
+  "sceneNumber": 22,
+  "titleZh": "预约维修",
+  "titleTr": "Tamir randevusu almak",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC021",
+  "nextSceneId": "HSK3_SC023",
+  "summaryTr": "Zhang Wei ile Li Na, tamir randevusu almak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

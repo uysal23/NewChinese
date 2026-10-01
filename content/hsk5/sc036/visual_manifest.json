@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK5_SC036",
+  "locationId": "LOC_CITY_PARK_001",
+  "assets": {
+    "background": "assets/hsk5_sc036_bg.webp",
+    "characterA": "assets/hsk5_sc036_char_zhang_wei.webp",
+    "characterB": "assets/hsk5_sc036_char_chen_yu.webp",
+    "foreground": "assets/hsk5_sc036_fg.webp",
+    "preview": "assets/hsk5_sc036_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_CHEN_YU_001",
+      "outfit": "OUTFIT_CHEN_YU_CASUAL_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK5_SC036_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

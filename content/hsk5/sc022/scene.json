@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC022",
+  "level": "HSK5",
+  "sceneNumber": 22,
+  "titleZh": "面对失败",
+  "titleTr": "Başarısızlıkla yüzleşmek",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC021",
+  "nextSceneId": "HSK5_SC023",
+  "summaryTr": "Zhang Wei ile Li Na, başarısızlıkla yüzleşmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

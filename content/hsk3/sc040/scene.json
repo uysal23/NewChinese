@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC040",
+  "level": "HSK3",
+  "sceneNumber": 40,
+  "titleZh": "平衡社交和休息",
+  "titleTr": "Sosyallik ile dinlenmeyi dengelemek",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC039",
+  "nextSceneId": "HSK3_SC041",
+  "summaryTr": "Zhang Wei ile Liu Mei, sosyallik ile dinlenmeyi dengelemek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

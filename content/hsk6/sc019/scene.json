@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC019",
+  "level": "HSK6",
+  "sceneNumber": 19,
+  "titleZh": "终身学习的成本",
+  "titleTr": "Yaşam boyu öğrenmenin maliyeti",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC018",
+  "nextSceneId": "HSK6_SC020",
+  "summaryTr": "Liu Mei ile Zhang Wei, yaşam boyu öğrenmenin maliyeti konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

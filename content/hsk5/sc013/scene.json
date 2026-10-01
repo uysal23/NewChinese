@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC013",
+  "level": "HSK5",
+  "sceneNumber": 13,
+  "titleZh": "旅行中的文化差异",
+  "titleTr": "Seyahatte kültürel farklılıklar",
+  "locationId": "LOC_GUESTHOUSE_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC012",
+  "nextSceneId": "HSK5_SC014",
+  "summaryTr": "Li Na ile Zhang Wei, seyahatte kültürel farklılıklar konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC049",
+  "level": "HSK6",
+  "sceneNumber": 49,
+  "titleZh": "新的计划不必完美",
+  "titleTr": "Yeni planların kusursuz olması gerekmez",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC048",
+  "nextSceneId": "HSK6_SC050",
+  "summaryTr": "Li Na ile Zhang Wei, yeni planların kusursuz olması gerekmez konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

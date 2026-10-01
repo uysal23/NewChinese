@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC005",
+  "level": "HSK3",
+  "sceneNumber": 5,
+  "titleZh": "处理临时变化",
+  "titleTr": "Ani değişikliklerle başa çıkmak",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC004",
+  "nextSceneId": "HSK3_SC006",
+  "summaryTr": "Wang Ming ile Zhang Wei, ani değişikliklerle başa çıkmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

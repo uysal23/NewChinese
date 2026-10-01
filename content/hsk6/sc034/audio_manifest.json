@@ -1,0 +1,306 @@
+{
+  "sceneId": "HSK6_SC034",
+  "status": "audio-assets-pending",
+  "format": "m4a/aac",
+  "language": "zh-CN",
+  "voiceBindings": {
+    "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+  },
+  "dialogue": [
+    {
+      "file": "assets/hsk6_sc034_line_001.m4a",
+      "lineId": "HSK6_SC034_L001",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_002.m4a",
+      "lineId": "HSK6_SC034_L002",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_003.m4a",
+      "lineId": "HSK6_SC034_L003",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_004.m4a",
+      "lineId": "HSK6_SC034_L004",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_005.m4a",
+      "lineId": "HSK6_SC034_L005",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_006.m4a",
+      "lineId": "HSK6_SC034_L006",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_007.m4a",
+      "lineId": "HSK6_SC034_L007",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_008.m4a",
+      "lineId": "HSK6_SC034_L008",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_009.m4a",
+      "lineId": "HSK6_SC034_L009",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_010.m4a",
+      "lineId": "HSK6_SC034_L010",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_011.m4a",
+      "lineId": "HSK6_SC034_L011",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_012.m4a",
+      "lineId": "HSK6_SC034_L012",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_013.m4a",
+      "lineId": "HSK6_SC034_L013",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_014.m4a",
+      "lineId": "HSK6_SC034_L014",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_015.m4a",
+      "lineId": "HSK6_SC034_L015",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_016.m4a",
+      "lineId": "HSK6_SC034_L016",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_017.m4a",
+      "lineId": "HSK6_SC034_L017",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_018.m4a",
+      "lineId": "HSK6_SC034_L018",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_019.m4a",
+      "lineId": "HSK6_SC034_L019",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_020.m4a",
+      "lineId": "HSK6_SC034_L020",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_021.m4a",
+      "lineId": "HSK6_SC034_L021",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_022.m4a",
+      "lineId": "HSK6_SC034_L022",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_023.m4a",
+      "lineId": "HSK6_SC034_L023",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_024.m4a",
+      "lineId": "HSK6_SC034_L024",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_025.m4a",
+      "lineId": "HSK6_SC034_L025",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_026.m4a",
+      "lineId": "HSK6_SC034_L026",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_027.m4a",
+      "lineId": "HSK6_SC034_L027",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_028.m4a",
+      "lineId": "HSK6_SC034_L028",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_029.m4a",
+      "lineId": "HSK6_SC034_L029",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_030.m4a",
+      "lineId": "HSK6_SC034_L030",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_031.m4a",
+      "lineId": "HSK6_SC034_L031",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_032.m4a",
+      "lineId": "HSK6_SC034_L032",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_033.m4a",
+      "lineId": "HSK6_SC034_L033",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_034.m4a",
+      "lineId": "HSK6_SC034_L034",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_035.m4a",
+      "lineId": "HSK6_SC034_L035",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_line_036.m4a",
+      "lineId": "HSK6_SC034_L036",
+      "voiceId": "VOICE_CHEN_YU_001"
+    }
+  ],
+  "vocabulary": [
+    {
+      "file": "assets/hsk6_sc034_word_001.m4a",
+      "wordId": "WORD_HSK6_SC034_001",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_002.m4a",
+      "wordId": "WORD_HSK6_SC034_002",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_003.m4a",
+      "wordId": "WORD_HSK6_SC034_003",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_004.m4a",
+      "wordId": "WORD_HSK6_SC034_004",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_005.m4a",
+      "wordId": "WORD_HSK6_SC034_005",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_006.m4a",
+      "wordId": "WORD_HSK6_SC034_006",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_007.m4a",
+      "wordId": "WORD_HSK6_SC034_007",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_008.m4a",
+      "wordId": "WORD_HSK6_SC034_008",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_009.m4a",
+      "wordId": "WORD_HSK6_SC034_009",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_010.m4a",
+      "wordId": "WORD_HSK6_SC034_010",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_011.m4a",
+      "wordId": "WORD_HSK6_SC034_011",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_word_012.m4a",
+      "wordId": "WORD_HSK6_SC034_012",
+      "voiceId": "VOICE_CHEN_YU_001"
+    }
+  ],
+  "sentences": [
+    {
+      "file": "assets/hsk6_sc034_sentence_001.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_001",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_002.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_002",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_003.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_003",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_004.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_004",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_005.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_005",
+      "voiceId": "VOICE_ZHANG_WEI_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_006.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_006",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_007.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_007",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_008.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_008",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_009.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_009",
+      "voiceId": "VOICE_CHEN_YU_001"
+    },
+    {
+      "file": "assets/hsk6_sc034_sentence_010.m4a",
+      "exerciseId": "EX_SENT_HSK6_SC034_010",
+      "voiceId": "VOICE_CHEN_YU_001"
+    }
+  ]
+}

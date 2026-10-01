@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC040",
+  "level": "HSK4",
+  "sceneNumber": 40,
+  "titleZh": "传统与现代",
+  "titleTr": "Gelenek ve modernlik",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC039",
+  "nextSceneId": "HSK4_SC041",
+  "summaryTr": "Zhang Wei ile Liu Mei, gelenek ve modernlik konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

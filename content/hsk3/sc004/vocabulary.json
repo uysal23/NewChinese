@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK3_SC004",
+  "words": [
+    {
+      "wordId": "WORD_HSK3_SC004_001",
+      "hanzi": "责任",
+      "pinyin": "zé rèn",
+      "translationTr": "sorumluluk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc004_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_002",
+      "hanzi": "计划",
+      "pinyin": "jì huà",
+      "translationTr": "plan",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk3_sc004_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_003",
+      "hanzi": "调整",
+      "pinyin": "tiáo zhěng",
+      "translationTr": "ayarlamak",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc004_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_004",
+      "hanzi": "经验",
+      "pinyin": "jīng yàn",
+      "translationTr": "deneyim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk3_sc004_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_005",
+      "hanzi": "沟通",
+      "pinyin": "gōu tōng",
+      "translationTr": "iletişim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc004_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_006",
+      "hanzi": "解决",
+      "pinyin": "jiě jué",
+      "translationTr": "çözmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk3_sc004_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_007",
+      "hanzi": "习惯",
+      "pinyin": "xí guàn",
+      "translationTr": "alışkanlık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc004_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_008",
+      "hanzi": "进步",
+      "pinyin": "jìn bù",
+      "translationTr": "ilerleme",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk3_sc004_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_009",
+      "hanzi": "影响",
+      "pinyin": "yǐng xiǎng",
+      "translationTr": "etki",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc004_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK3_SC004_010",
+      "hanzi": "选择",
+      "pinyin": "xuǎn zé",
+      "translationTr": "seçim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk3_sc004_word_010.m4a"
+    }
+  ]
+}

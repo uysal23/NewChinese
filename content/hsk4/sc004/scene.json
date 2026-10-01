@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC004",
+  "level": "HSK4",
+  "sceneNumber": 4,
+  "titleZh": "讨论优先顺序",
+  "titleTr": "Öncelikleri tartışmak",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC003",
+  "nextSceneId": "HSK4_SC005",
+  "summaryTr": "Zhang Wei ile Wang Ming, öncelikleri tartışmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

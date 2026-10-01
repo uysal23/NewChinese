@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC036",
+  "level": "HSK4",
+  "sceneNumber": 36,
+  "titleZh": "老建筑与新城市",
+  "titleTr": "Eski yapılar ve yeni şehir",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC035",
+  "nextSceneId": "HSK4_SC037",
+  "summaryTr": "Zhang Wei ile Liu Mei, eski yapılar ve yeni şehir konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

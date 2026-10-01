@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC048",
+  "level": "HSK4",
+  "sceneNumber": 48,
+  "titleZh": "决定取舍",
+  "titleTr": "Öncelik ve fedakârlık kararı vermek",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC047",
+  "nextSceneId": "HSK4_SC049",
+  "summaryTr": "Zhang Wei ile Chen Yu, öncelik ve fedakârlık kararı vermek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

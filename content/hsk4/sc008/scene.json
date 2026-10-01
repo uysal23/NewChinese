@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC008",
+  "level": "HSK4",
+  "sceneNumber": 8,
+  "titleZh": "处理不同意见",
+  "titleTr": "Farklı görüşleri ele almak",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC007",
+  "nextSceneId": "HSK4_SC009",
+  "summaryTr": "Zhang Wei ile Wang Ming, farklı görüşleri ele almak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

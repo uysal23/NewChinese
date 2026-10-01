@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC050",
+  "level": "HSK5",
+  "sceneNumber": 50,
+  "titleZh": "HSK5阶段总结",
+  "titleTr": "HSK5 aşamasını değerlendirmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC049",
+  "nextSceneId": "HSK6_SC001",
+  "summaryTr": "Zhang Wei ile Wang Ming, hsk5 aşamasını değerlendirmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC012",
+  "level": "HSK4",
+  "sceneNumber": 12,
+  "titleZh": "如何给反馈",
+  "titleTr": "Nasıl geri bildirim verilir",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC011",
+  "nextSceneId": "HSK4_SC013",
+  "summaryTr": "Zhang Wei ile Liu Mei, nasıl geri bildirim verilir konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

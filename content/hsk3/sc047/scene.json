@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC047",
+  "level": "HSK3",
+  "sceneNumber": 47,
+  "titleZh": "解决同步问题",
+  "titleTr": "Senkronizasyon sorununu çözmek",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC046",
+  "nextSceneId": "HSK3_SC048",
+  "summaryTr": "Wang Ming ile Zhang Wei, senkronizasyon sorununu çözmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

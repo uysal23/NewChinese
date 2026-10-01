@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC033",
+  "level": "HSK6",
+  "sceneNumber": 33,
+  "titleZh": "自动化决策的责任",
+  "titleTr": "Otomatik kararların sorumluluğu",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC032",
+  "nextSceneId": "HSK6_SC034",
+  "summaryTr": "Wang Ming ile Zhang Wei, otomatik kararların sorumluluğu konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

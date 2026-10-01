@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC025",
+  "level": "HSK5",
+  "sceneNumber": 25,
+  "titleZh": "比较与焦虑",
+  "titleTr": "Karşılaştırma ve kaygı",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC024",
+  "nextSceneId": "HSK5_SC026",
+  "summaryTr": "Li Na ile Zhang Wei, karşılaştırma ve kaygı konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

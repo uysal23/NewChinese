@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC035",
+  "level": "HSK4",
+  "sceneNumber": 35,
+  "titleZh": "博物馆里的故事",
+  "titleTr": "Müzedeki hikâyeler",
+  "locationId": "LOC_DAY_TRIP_TOWN_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC034",
+  "nextSceneId": "HSK4_SC036",
+  "summaryTr": "Chen Yu ile Zhang Wei, müzedeki hikâyeler konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

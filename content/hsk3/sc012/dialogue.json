@@ -1,0 +1,270 @@
+{
+  "sceneId": "HSK3_SC012",
+  "status": "locked-reference",
+  "lines": [
+    {
+      "lineId": "HSK3_SC012_L001",
+      "order": 1,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "今天想和你聊聊“利用通勤时间”。这件事最近对我影响挺大。",
+      "pinyin": "jīn tiān xiǎng hé nǐ liáo liáo“lì yòng tōng qín shí jiān”。 zhè jiàn shì zuì jìn duì wǒ yǐng xiǎng tǐng dà。",
+      "translationTr": "Bugün seninle “Yolculuk süresini değerlendirmek” hakkında konuşmak istiyorum. Son zamanlarda bu konu beni epey etkiliyor.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_001.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L002",
+      "order": 2,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "可以。你现在最想解决的是什么？",
+      "pinyin": "kě yǐ。 nǐ xiàn zài zuì xiǎng jiě jué de shì shén me？",
+      "translationTr": "Olur. Şu anda en çok neyi çözmek istiyorsun?",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_002.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L003",
+      "order": 3,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我先做了一个计划，可实际情况和我想的不太一样。",
+      "pinyin": "wǒ xiān zuò le yí gè jì huà， kě shí jì qíng kuàng hé wǒ xiǎng de bù tài yī yàng。",
+      "translationTr": "Önce bir plan yaptım ama gerçek durum düşündüğüm gibi olmadı.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_003.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L004",
+      "order": 4,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "计划本来就需要调整，先看最重要的部分。",
+      "pinyin": "jì huà běn lái jiù xū yào tiáo zhěng， xiān kàn zuì zhòng yào de bù fèn。",
+      "translationTr": "Planların zaten ayarlanması gerekir; önce en önemli kısma bakalım.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_004.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L005",
+      "order": 5,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我发现自己有时候太快做选择，没有先问清楚。",
+      "pinyin": "wǒ fā xiàn zì jǐ yǒu shí hòu tài kuài zuò xuǎn zé， méi yǒu xiān wèn qīng chǔ。",
+      "translationTr": "Bazen yeterince sormadan çok hızlı seçim yaptığımı fark ettim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_005.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L006",
+      "order": 6,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "这和经验有关，多做几次会更稳。",
+      "pinyin": "zhè hé jīng yàn yǒu guān， duō zuò jǐ cì huì gèng wěn。",
+      "translationTr": "Bu deneyimle ilgili; birkaç kez daha yapınca daha sağlam olursun.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_006.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L007",
+      "order": 7,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "还有沟通的问题，我怕说得太直接。",
+      "pinyin": "hái yǒu gōu tōng de wèn tí， wǒ pà shuō dé tài zhí jiē。",
+      "translationTr": "Bir de iletişim konusu var; fazla doğrudan konuşmaktan çekiniyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_007.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L008",
+      "order": 8,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "把原因说明白，再听听对方的想法，通常会好很多。",
+      "pinyin": "bǎ yuán yīn shuō míng bái， zài tīng tīng duì fāng de xiǎng fǎ， tōng cháng huì hǎo hěn duō。",
+      "translationTr": "Nedenini açıkça anlatıp karşı tarafı dinlersen genelde çok daha iyi olur.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_008.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L009",
+      "order": 9,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我的责任应该到哪里？",
+      "pinyin": "nà wǒ de zé rèn yīng gāi dào nǎ lǐ？",
+      "translationTr": "Peki benim sorumluluğum nerede bitmeli?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_009.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L010",
+      "order": 10,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "先把自己负责的部分做好，遇到不确定的地方及时确认。",
+      "pinyin": "xiān bǎ zì jǐ fù zé de bù fèn zuò hǎo， yù dào bù què dìng de dì fāng jí shí què rèn。",
+      "translationTr": "Önce kendi sorumluluğundaki kısmı iyi yap; emin olmadığın noktaları zamanında netleştir.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_010.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L011",
+      "order": 11,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我想把这件事变成一个稳定的习惯。",
+      "pinyin": "wǒ xiǎng bǎ zhè jiàn shì biàn chéng yí gè wěn dìng de xí guàn。",
+      "translationTr": "Bunu kalıcı bir alışkanlığa dönüştürmek istiyorum.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_011.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L012",
+      "order": 12,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "那就从小一点的动作开始，不用一次做得太多。",
+      "pinyin": "nà jiù cóng xiǎo yì diǎn de dòng zuò kāi shǐ， bù yòng yī cì zuò dé tài duō。",
+      "translationTr": "O zaman küçük bir adımla başla; bir seferde çok fazla yapmana gerek yok.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_012.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L013",
+      "order": 13,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "如果中间又出问题呢？",
+      "pinyin": "rú guǒ zhōng jiān yòu chū wèn tí ne？",
+      "translationTr": "Arada yine sorun çıkarsa?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_013.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L014",
+      "order": 14,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "先解决眼前的问题，再记录原因，下次就会更快。",
+      "pinyin": "xiān jiě jué yǎn qián de wèn tí， zài jì lù yuán yīn， xià cì jiù huì gèng kuài。",
+      "translationTr": "Önce önündeki sorunu çöz, sonra nedenini not et; bir dahaki sefere daha hızlı olursun.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_014.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L015",
+      "order": 15,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "这样做真的能看到进步吗？",
+      "pinyin": "zhè yàng zuò zhēn de néng kàn dào jìn bù ma？",
+      "translationTr": "Böyle yapınca gerçekten ilerleme görülebilir mi?",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_015.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L016",
+      "order": 16,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "能。你可以每周回头看一次，会发现变化比想象中明显。",
+      "pinyin": "néng。 nǐ kě yǐ měi zhōu huí tóu kàn yī cì， huì fā xiàn biàn huà bǐ xiǎng xiàng zhōng míng xiǎn。",
+      "translationTr": "Evet. Haftada bir geriye bakarsan değişimin düşündüğünden daha belirgin olduğunu görürsün.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_016.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L017",
+      "order": 17,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "我以前总觉得一定要有最好的方法。",
+      "pinyin": "wǒ yǐ qián zǒng jué de yí dìng yào yǒu zuì hǎo de fāng fǎ。",
+      "translationTr": "Eskiden mutlaka en iyi yöntemi bulmam gerektiğini düşünürdüm.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_017.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L018",
+      "order": 18,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "其实适合现在情况的方法更重要。",
+      "pinyin": "qí shí shì hé xiàn zài qíng kuàng de fāng fǎ gèng zhòng yào。",
+      "translationTr": "Aslında şu anki duruma uygun yöntem daha önemli.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_018.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L019",
+      "order": 19,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "听起来我应该少一点着急，多一点观察。",
+      "pinyin": "tīng qǐ lái wǒ yīng gāi shǎo yì diǎn zháo jí， duō yì diǎn guān chá。",
+      "translationTr": "Anlaşılan biraz daha az acele edip biraz daha çok gözlemlemeliyim.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_019.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L020",
+      "order": 20,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "对，尤其是“利用通勤时间”这种事，过程本身也很重要。",
+      "pinyin": "duì， yóu qí shì“lì yòng tōng qín shí jiān” zhè zhǒng shì， guò chéng běn shēn yě hěn zhòng yào。",
+      "translationTr": "Evet, özellikle “Yolculuk süresini değerlendirmek” gibi konularda sürecin kendisi de önemli.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_020.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L021",
+      "order": 21,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "那我今天先做一个具体的小步骤。",
+      "pinyin": "nà wǒ jīn tiān xiān zuò yí gè jù tǐ de xiǎo bù zhòu。",
+      "translationTr": "O halde bugün somut bir küçük adım atacağım.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_021.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L022",
+      "order": 22,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "很好，做完以后再决定下一步，不需要一次想完。",
+      "pinyin": "hěn hǎo， zuò wán yǐ hòu zài jué dìng xià yī bù， bù xū yào yī cì xiǎng wán。",
+      "translationTr": "Harika. Bitirdikten sonra sonraki adımı belirlersin; her şeyi bir kerede düşünmek zorunda değilsin.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_022.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L023",
+      "order": 23,
+      "speakerId": "CHAR_ZHANG_WEI_001",
+      "textZh": "谢谢，我现在思路清楚多了。",
+      "pinyin": "xiè xiè， wǒ xiàn zài sī lù qīng chǔ duō le。",
+      "translationTr": "Teşekkürler, şimdi kafam çok daha net.",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk3_sc012_line_023.m4a",
+      "emotion": "natural"
+    },
+    {
+      "lineId": "HSK3_SC012_L024",
+      "order": 24,
+      "speakerId": "CHAR_LIU_MEI_001",
+      "textZh": "不客气。过几天我们再看看效果。",
+      "pinyin": "bú kè qì。 guò jǐ tiān wǒ men zài kàn kàn xiào guǒ。",
+      "translationTr": "Rica ederim. Birkaç gün sonra sonucu yine değerlendiririz.",
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk3_sc012_line_024.m4a",
+      "emotion": "natural"
+    }
+  ]
+}

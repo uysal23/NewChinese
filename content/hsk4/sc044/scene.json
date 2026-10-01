@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC044",
+  "level": "HSK4",
+  "sceneNumber": 44,
+  "titleZh": "第一次原型",
+  "titleTr": "İlk prototip",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC043",
+  "nextSceneId": "HSK4_SC045",
+  "summaryTr": "Zhang Wei ile Chen Yu, i̇lk prototip konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

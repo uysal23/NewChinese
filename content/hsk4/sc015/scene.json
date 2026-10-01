@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC015",
+  "level": "HSK4",
+  "sceneNumber": 15,
+  "titleZh": "避免信息误解",
+  "titleTr": "Bilgi yanlış anlaşılmalarını önlemek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC014",
+  "nextSceneId": "HSK4_SC016",
+  "summaryTr": "Wang Ming ile Zhang Wei, bilgi yanlış anlaşılmalarını önlemek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

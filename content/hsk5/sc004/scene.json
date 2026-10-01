@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC004",
+  "level": "HSK5",
+  "sceneNumber": 4,
+  "titleZh": "数字工具依赖",
+  "titleTr": "Dijital araç bağımlılığı",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC003",
+  "nextSceneId": "HSK5_SC005",
+  "summaryTr": "Zhang Wei ile Chen Yu, dijital araç bağımlılığı konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

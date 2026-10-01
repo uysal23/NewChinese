@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC007",
+  "level": "HSK6",
+  "sceneNumber": 7,
+  "titleZh": "承担更大的责任",
+  "titleTr": "Daha büyük sorumluluk almak",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC006",
+  "nextSceneId": "HSK6_SC008",
+  "summaryTr": "Wang Ming ile Zhang Wei, daha büyük sorumluluk almak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

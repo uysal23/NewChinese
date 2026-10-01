@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC021",
+  "level": "HSK4",
+  "sceneNumber": 21,
+  "titleZh": "工作后真正休息",
+  "titleTr": "İşten sonra gerçekten dinlenmek",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC020",
+  "nextSceneId": "HSK4_SC022",
+  "summaryTr": "Li Na ile Zhang Wei, i̇şten sonra gerçekten dinlenmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

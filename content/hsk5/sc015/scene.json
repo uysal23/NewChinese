@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC015",
+  "level": "HSK5",
+  "sceneNumber": 15,
+  "titleZh": "和当地人交流",
+  "titleTr": "Yerel insanlarla iletişim",
+  "locationId": "LOC_TRAIN_STATION_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC014",
+  "nextSceneId": "HSK5_SC016",
+  "summaryTr": "Li Na ile Zhang Wei, yerel insanlarla iletişim konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

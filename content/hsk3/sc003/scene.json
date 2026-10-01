@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC003",
+  "level": "HSK3",
+  "sceneNumber": 3,
+  "titleZh": "确认截止时间",
+  "titleTr": "Son tarihi netleştirmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC002",
+  "nextSceneId": "HSK3_SC004",
+  "summaryTr": "Wang Ming ile Zhang Wei, son tarihi netleştirmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

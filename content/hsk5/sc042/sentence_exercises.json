@@ -1,0 +1,184 @@
+{
+  "sceneId": "HSK5_SC042",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK5_SC042_001",
+      "correctZh": "最近我在想“资源有限怎么办”，感觉背后不只是一个简单问题。",
+      "pinyin": "zuì jìn wǒ zài xiǎng“zī yuán yǒu xiàn zěn me bàn”， gǎn jué bèi hòu bù zhǐ shì yí gè jiǎn dān wèn tí。",
+      "translationTr": "Son zamanlarda “Kaynaklar sınırlıyken ne yapılır” üzerine düşünüyorum; arkasında tek bir basit sorun olmadığını hissediyorum.",
+      "sentenceZh": "最近我在想“资源有限怎么办”，感觉背后不只是一个简单问题。",
+      "correctAnswer": "最近我在想“资源有限怎么办”，感觉背后不只是一个简单问题。",
+      "options": [],
+      "tokens": [
+        "最近我在",
+        "想资源有",
+        "限怎么办",
+        "感觉背后",
+        "不只是一",
+        "个简单问",
+        "题"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK5_SC042_002",
+      "correctZh": "所以需要平衡，不是把一个指标做到最高就结束。",
+      "pinyin": "suǒ yǐ xū yào píng héng， bú shì bǎ yí gè zhǐ biāo zuò dào zuì gāo jiù jié shù。",
+      "translationTr": "Bu yüzden denge gerekir; tek bir göstergenin en yükseğe çıkarılmasıyla iş bitmez.",
+      "sentenceZh": "___需要平衡，不是把一个指标做到最高就结束。",
+      "correctAnswer": "所以",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK5_SC042_003",
+      "correctZh": "先看问题本身，再看资源、成本和实际使用条件。",
+      "pinyin": "xiān kàn wèn tí běn shēn， zài kàn zī yuán、 chéng běn hé shí jì shǐ yòng tiáo jiàn。",
+      "translationTr": "Önce sorunun kendisine, sonra kaynaklara, maliyete ve gerçek kullanım koşullarına bakmalıyız.",
+      "sentenceZh": "先看问题本身，再看资源、成本和实际使用条件。",
+      "correctAnswer": "先看问题本身，再看资源、成本和实际使用条件。",
+      "options": [
+        "先看问题本身，再看资源、成本和实际使用条件。",
+        "最近我在想“资源有限怎么办”，感觉背后不只是一个简单问题。",
+        "对，这类问题通常同时涉及价值、资源和长期影响。",
+        "如果只看眼前效率，可能会忽略别的东西。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK5_SC042_004",
+      "correctZh": "责任又该怎么分？",
+      "pinyin": "zé rèn yòu gāi zěn me fēn？",
+      "translationTr": "Peki sorumluluk nasıl paylaşılmalı?",
+      "sentenceZh": "责任又该怎么分？",
+      "correctAnswer": "责任又该怎么分？",
+      "options": [],
+      "tokens": [
+        "责任又该",
+        "怎么分"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK5_SC042_005",
+      "correctZh": "如果信息不完整，还能做判断吗？",
+      "pinyin": "rú guǒ xìn xī bù wán zhěng， hái néng zuò pàn duàn ma？",
+      "translationTr": "Bilgi eksikken yine de yargıda bulunabilir miyiz?",
+      "sentenceZh": "___信息不完整，还能做判断吗？",
+      "correctAnswer": "如果",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK5_SC042_006",
+      "correctZh": "是，因为这里的影响可能比表面看到的更广。",
+      "pinyin": "shì， yīn wèi zhè lǐ de yǐng xiǎng kě néng bǐ biǎo miàn kàn dào de gèng guǎng。",
+      "translationTr": "Evet, çünkü buradaki etki görünenden daha geniş olabilir.",
+      "sentenceZh": "是，因为这里的影响可能比表面看到的更广。",
+      "correctAnswer": "是，因为这里的影响可能比表面看到的更广。",
+      "options": [
+        "是，因为这里的影响可能比表面看到的更广。",
+        "最近我在想“资源有限怎么办”，感觉背后不只是一个简单问题。",
+        "对，这类问题通常同时涉及价值、资源和长期影响。",
+        "如果只看眼前效率，可能会忽略别的东西。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_sentence_006.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_007",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK5_SC042_007",
+      "correctZh": "先找共同底线，再把分歧保留下来，不一定马上统一。",
+      "pinyin": "xiān zhǎo gòng tóng dǐ xiàn， zài bǎ fēn qí bǎo liú xià lái， bù yí dìng mǎ shàng tǒng yī。",
+      "translationTr": "Önce ortak alt sınırı bulur, ayrılıkları koruruz; hemen aynı görüşe gelmek gerekmez.",
+      "sentenceZh": "先找共同底线，再把分歧保留下来，不一定马上统一。",
+      "correctAnswer": "先找共同底线，再把分歧保留下来，不一定马上统一。",
+      "options": [],
+      "tokens": [
+        "先找共同",
+        "底线再把",
+        "分歧保留",
+        "下来不一",
+        "定马上统",
+        "一"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_sentence_007.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_008",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK5_SC042_008",
+      "correctZh": "那我想先列出目标、资源、风险和机会。",
+      "pinyin": "nà wǒ xiǎng xiān liè chū mù biāo、 zī yuán、 fēng xiǎn hé jī huì。",
+      "translationTr": "O halde önce hedefleri, kaynakları, riskleri ve fırsatları listelemek istiyorum.",
+      "sentenceZh": "___想先列出目标、资源、风险和机会。",
+      "correctAnswer": "那我",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_sentence_008.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_009",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK5_SC042_009",
+      "correctZh": "这样讨论以后，我对“资源有限怎么办”没有那么简单化了。",
+      "pinyin": "zhè yàng tǎo lùn yǐ hòu， wǒ duì“zī yuán yǒu xiàn zěn me bàn” méi yǒu nà me jiǎn dān huà le。",
+      "translationTr": "Bu konuşmadan sonra “Kaynaklar sınırlıyken ne yapılır” konusunu artık o kadar basite indirgemiyorum.",
+      "sentenceZh": "这样讨论以后，我对“资源有限怎么办”没有那么简单化了。",
+      "correctAnswer": "这样讨论以后，我对“资源有限怎么办”没有那么简单化了。",
+      "options": [
+        "这样讨论以后，我对“资源有限怎么办”没有那么简单化了。",
+        "最近我在想“资源有限怎么办”，感觉背后不只是一个简单问题。",
+        "对，这类问题通常同时涉及价值、资源和长期影响。",
+        "如果只看眼前效率，可能会忽略别的东西。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk5_sc042_sentence_009.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK5_SC042_010",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK5_SC042_010",
+      "correctZh": "可以，等有新信息时再更新判断。",
+      "pinyin": "kě yǐ， děng yǒu xīn xìn xī shí zài gēng xīn pàn duàn。",
+      "translationTr": "Olur; yeni bilgi geldiğinde yargımızı güncelleriz.",
+      "sentenceZh": "可以，等有新信息时再更新判断。",
+      "correctAnswer": "可以，等有新信息时再更新判断。",
+      "options": [],
+      "tokens": [
+        "可以等有",
+        "新信息时",
+        "再更新判",
+        "断"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk5_sc042_sentence_010.m4a"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "sceneId": "HSK6_SC018",
+  "words": [
+    {
+      "wordId": "WORD_HSK6_SC018_001",
+      "hanzi": "意义",
+      "pinyin": "yì yì",
+      "translationTr": "anlam",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc018_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_002",
+      "hanzi": "立场",
+      "pinyin": "lì chǎng",
+      "translationTr": "tutum",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk6_sc018_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_003",
+      "hanzi": "机制",
+      "pinyin": "jī zhì",
+      "translationTr": "mekanizma",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc018_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_004",
+      "hanzi": "假设",
+      "pinyin": "jiǎ shè",
+      "translationTr": "varsayım",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk6_sc018_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_005",
+      "hanzi": "权衡",
+      "pinyin": "quán héng",
+      "translationTr": "dengeleyerek değerlendirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc018_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_006",
+      "hanzi": "边界",
+      "pinyin": "biān jiè",
+      "translationTr": "sınır",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk6_sc018_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_007",
+      "hanzi": "责任",
+      "pinyin": "zé rèn",
+      "translationTr": "sorumluluk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc018_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_008",
+      "hanzi": "反思",
+      "pinyin": "fǎn sī",
+      "translationTr": "öz değerlendirme",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk6_sc018_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_009",
+      "hanzi": "长期",
+      "pinyin": "cháng qī",
+      "translationTr": "uzun vadeli",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc018_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_010",
+      "hanzi": "不确定性",
+      "pinyin": "bù què dìng xìng",
+      "translationTr": "belirsizlik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk6_sc018_word_010.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_011",
+      "hanzi": "可能性",
+      "pinyin": "kě néng xìng",
+      "translationTr": "olasılık",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc018_word_011.m4a"
+    },
+    {
+      "wordId": "WORD_HSK6_SC018_012",
+      "hanzi": "判断",
+      "pinyin": "pàn duàn",
+      "translationTr": "yargı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LI_NA_001",
+      "audioFile": "assets/hsk6_sc018_word_012.m4a"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC042",
+  "level": "HSK4",
+  "sceneNumber": 42,
+  "titleZh": "明确目标",
+  "titleTr": "Hedefi netleştirmek",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC041",
+  "nextSceneId": "HSK4_SC043",
+  "summaryTr": "Zhang Wei ile Chen Yu, hedefi netleştirmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

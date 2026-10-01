@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC008",
+  "level": "HSK5",
+  "sceneNumber": 8,
+  "titleZh": "技术更新太快",
+  "titleTr": "Teknolojinin çok hızlı değişmesi",
+  "locationId": "LOC_ELECTRONICS_STORE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC007",
+  "nextSceneId": "HSK5_SC009",
+  "summaryTr": "Zhang Wei ile Chen Yu, teknolojinin çok hızlı değişmesi konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

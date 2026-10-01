@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC032",
+  "level": "HSK4",
+  "sceneNumber": 32,
+  "titleZh": "参观传统街区",
+  "titleTr": "Geleneksel mahalleyi gezmek",
+  "locationId": "LOC_DAY_TRIP_TOWN_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC031",
+  "nextSceneId": "HSK4_SC033",
+  "summaryTr": "Zhang Wei ile Liu Mei, geleneksel mahalleyi gezmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

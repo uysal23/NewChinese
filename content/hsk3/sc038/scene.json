@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC038",
+  "level": "HSK3",
+  "sceneNumber": 38,
+  "titleZh": "邀请朋友来家里",
+  "titleTr": "Arkadaşları eve davet etmek",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC037",
+  "nextSceneId": "HSK3_SC039",
+  "summaryTr": "Zhang Wei ile Liu Mei, arkadaşları eve davet etmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

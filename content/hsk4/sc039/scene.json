@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC039",
+  "level": "HSK4",
+  "sceneNumber": 39,
+  "titleZh": "年轻人的生活方式",
+  "titleTr": "Gençlerin yaşam biçimi",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC038",
+  "nextSceneId": "HSK4_SC040",
+  "summaryTr": "Chen Yu ile Zhang Wei, gençlerin yaşam biçimi konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

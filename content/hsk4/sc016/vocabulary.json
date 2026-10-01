@@ -1,0 +1,95 @@
+{
+  "sceneId": "HSK4_SC016",
+  "words": [
+    {
+      "wordId": "WORD_HSK4_SC016_001",
+      "hanzi": "协调",
+      "pinyin": "xié tiáo",
+      "translationTr": "koordine etmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_word_001.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_002",
+      "hanzi": "观点",
+      "pinyin": "guān diǎn",
+      "translationTr": "görüş",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_word_002.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_003",
+      "hanzi": "责任",
+      "pinyin": "zé rèn",
+      "translationTr": "sorumluluk",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_word_003.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_004",
+      "hanzi": "边界",
+      "pinyin": "biān jiè",
+      "translationTr": "sınır",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_word_004.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_005",
+      "hanzi": "效率",
+      "pinyin": "xiào lǜ",
+      "translationTr": "verimlilik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_word_005.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_006",
+      "hanzi": "压力",
+      "pinyin": "yā lì",
+      "translationTr": "baskı",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_word_006.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_007",
+      "hanzi": "信任",
+      "pinyin": "xìn rèn",
+      "translationTr": "güven",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_word_007.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_008",
+      "hanzi": "反馈",
+      "pinyin": "fǎn kuì",
+      "translationTr": "geri bildirim",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_word_008.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_009",
+      "hanzi": "优先",
+      "pinyin": "yōu xiān",
+      "translationTr": "öncelik",
+      "isExamTarget": true,
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk4_sc016_word_009.m4a"
+    },
+    {
+      "wordId": "WORD_HSK4_SC016_010",
+      "hanzi": "改进",
+      "pinyin": "gǎi jìn",
+      "translationTr": "iyileştirmek",
+      "isExamTarget": true,
+      "voiceId": "VOICE_LIU_MEI_001",
+      "audioFile": "assets/hsk4_sc016_word_010.m4a"
+    }
+  ]
+}

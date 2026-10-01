@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC002",
+  "level": "HSK4",
+  "sceneNumber": 2,
+  "titleZh": "准备团队会议",
+  "titleTr": "Takım toplantısına hazırlanmak",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC001",
+  "nextSceneId": "HSK4_SC003",
+  "summaryTr": "Zhang Wei ile Wang Ming, takım toplantısına hazırlanmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

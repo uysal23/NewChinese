@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC050",
+  "level": "HSK3",
+  "sceneNumber": 50,
+  "titleZh": "准备进入HSK4",
+  "titleTr": "HSK4'e hazırlanmak",
+  "locationId": "LOC_ELECTRONICS_STORE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC049",
+  "nextSceneId": "HSK4_SC001",
+  "summaryTr": "Zhang Wei ile Chen Yu, hsk4'e hazırlanmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

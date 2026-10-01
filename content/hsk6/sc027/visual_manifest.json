@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK6_SC027",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "assets": {
+    "background": "assets/hsk6_sc027_bg.webp",
+    "characterA": "assets/hsk6_sc027_char_chen_yu.webp",
+    "characterB": "assets/hsk6_sc027_char_zhang_wei.webp",
+    "foreground": "assets/hsk6_sc027_fg.webp",
+    "preview": "assets/hsk6_sc027_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_CHEN_YU_001",
+      "outfit": "OUTFIT_CHEN_YU_CASUAL_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK6_SC027_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

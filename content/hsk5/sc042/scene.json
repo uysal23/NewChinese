@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC042",
+  "level": "HSK5",
+  "sceneNumber": 42,
+  "titleZh": "资源有限怎么办",
+  "titleTr": "Kaynaklar sınırlıyken ne yapılır",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC041",
+  "nextSceneId": "HSK5_SC043",
+  "summaryTr": "Zhang Wei ile Wang Ming, kaynaklar sınırlıyken ne yapılır konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

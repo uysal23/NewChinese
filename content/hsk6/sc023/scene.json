@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC023",
+  "level": "HSK6",
+  "sceneNumber": 23,
+  "titleZh": "公共讨论中的耐心",
+  "titleTr": "Kamusal tartışmada sabır",
+  "locationId": "LOC_NEIGHBORHOOD_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC022",
+  "nextSceneId": "HSK6_SC024",
+  "summaryTr": "Chen Yu ile Zhang Wei, kamusal tartışmada sabır konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

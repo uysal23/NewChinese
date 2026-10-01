@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC016",
+  "level": "HSK3",
+  "sceneNumber": 16,
+  "titleZh": "从错误中学习",
+  "titleTr": "Hatalardan öğrenmek",
+  "locationId": "LOC_ZHANG_HOME_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC015",
+  "nextSceneId": "HSK3_SC017",
+  "summaryTr": "Zhang Wei ile Liu Mei, hatalardan öğrenmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

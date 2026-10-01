@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC003",
+  "level": "HSK4",
+  "sceneNumber": 3,
+  "titleZh": "解释项目风险",
+  "titleTr": "Proje risklerini açıklamak",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC002",
+  "nextSceneId": "HSK4_SC004",
+  "summaryTr": "Wang Ming ile Zhang Wei, proje risklerini açıklamak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

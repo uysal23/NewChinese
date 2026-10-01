@@ -1,0 +1,32 @@
+{
+  "sceneId": "HSK6_SC005",
+  "locationId": "LOC_WEST_LAKE_001",
+  "assets": {
+    "background": "assets/hsk6_sc005_bg.webp",
+    "characterA": "assets/hsk6_sc005_char_wang_ming.webp",
+    "characterB": "assets/hsk6_sc005_char_zhang_wei.webp",
+    "foreground": "assets/hsk6_sc005_fg.webp",
+    "preview": "assets/hsk6_sc005_preview.webp"
+  },
+  "characters": [
+    {
+      "characterId": "CHAR_WANG_MING_001",
+      "outfit": "OUTFIT_WANG_MING_WORK_01",
+      "speechBubbleAnchor": "face_right"
+    },
+    {
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "speechBubbleAnchor": "face_left"
+    }
+  ],
+  "cameraPreset": "CAM_HSK6_SC005_01",
+  "lightingPreset": "LIGHT_WARM_NATURAL_01",
+  "activeSpeakerBubble": {
+    "fill": "white",
+    "opacity": "light",
+    "outline": "dashed",
+    "text": false
+  },
+  "status": "visual-assets-pending"
+}

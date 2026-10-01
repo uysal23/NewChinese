@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC016",
+  "level": "HSK5",
+  "sceneNumber": 16,
+  "titleZh": "预算与体验",
+  "titleTr": "Bütçe ve deneyim",
+  "locationId": "LOC_DAY_TRIP_TOWN_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC015",
+  "nextSceneId": "HSK5_SC017",
+  "summaryTr": "Zhang Wei ile Chen Yu, bütçe ve deneyim konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

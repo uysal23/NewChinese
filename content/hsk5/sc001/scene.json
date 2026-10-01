@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC001",
+  "level": "HSK5",
+  "sceneNumber": 1,
+  "titleZh": "人工智能进入日常工作",
+  "titleTr": "Yapay zekânın günlük işe girmesi",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC050",
+  "nextSceneId": "HSK5_SC002",
+  "summaryTr": "Wang Ming ile Zhang Wei, yapay zekânın günlük işe girmesi konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

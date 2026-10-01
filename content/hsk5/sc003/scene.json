@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC003",
+  "level": "HSK5",
+  "sceneNumber": 3,
+  "titleZh": "数据隐私",
+  "titleTr": "Veri gizliliği",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC002",
+  "nextSceneId": "HSK5_SC004",
+  "summaryTr": "Wang Ming ile Zhang Wei, veri gizliliği konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

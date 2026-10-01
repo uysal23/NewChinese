@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC011",
+  "level": "HSK4",
+  "sceneNumber": 11,
+  "titleZh": "新同事加入",
+  "titleTr": "Yeni bir ekip arkadaşının katılması",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC010",
+  "nextSceneId": "HSK4_SC012",
+  "summaryTr": "Wang Ming ile Zhang Wei, yeni bir ekip arkadaşının katılması konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

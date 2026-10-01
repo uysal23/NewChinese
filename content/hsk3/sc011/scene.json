@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC011",
+  "level": "HSK3",
+  "sceneNumber": 11,
+  "titleZh": "制定学习计划",
+  "titleTr": "Öğrenme planı yapmak",
+  "locationId": "LOC_PUBLIC_LIBRARY_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC010",
+  "nextSceneId": "HSK3_SC012",
+  "summaryTr": "Li Na ile Zhang Wei, öğrenme planı yapmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

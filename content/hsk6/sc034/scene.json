@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC034",
+  "level": "HSK6",
+  "sceneNumber": 34,
+  "titleZh": "隐私与便利交换",
+  "titleTr": "Gizlilik ve kolaylık takası",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_CHEN_YU_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC033",
+  "nextSceneId": "HSK6_SC035",
+  "summaryTr": "Zhang Wei ile Chen Yu, gizlilik ve kolaylık takası konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

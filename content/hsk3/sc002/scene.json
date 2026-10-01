@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC002",
+  "level": "HSK3",
+  "sceneNumber": 2,
+  "titleZh": "安排一天的工作",
+  "titleTr": "Günün işlerini planlamak",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC001",
+  "nextSceneId": "HSK3_SC003",
+  "summaryTr": "Zhang Wei ile Wang Ming, günün işlerini planlamak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

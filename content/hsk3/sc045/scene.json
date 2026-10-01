@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC045",
+  "level": "HSK3",
+  "sceneNumber": 45,
+  "titleZh": "记录项目进度",
+  "titleTr": "Proje ilerlemesini kaydetmek",
+  "locationId": "LOC_ZHANG_OFFICE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC044",
+  "nextSceneId": "HSK3_SC046",
+  "summaryTr": "Wang Ming ile Zhang Wei, proje ilerlemesini kaydetmek konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

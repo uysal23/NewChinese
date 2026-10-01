@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC033",
+  "level": "HSK5",
+  "sceneNumber": 33,
+  "titleZh": "年轻人的住房压力",
+  "titleTr": "Gençlerin konut baskısı",
+  "locationId": "LOC_CITY_PARK_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC032",
+  "nextSceneId": "HSK5_SC034",
+  "summaryTr": "Liu Mei ile Zhang Wei, gençlerin konut baskısı konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

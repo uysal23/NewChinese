@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK5_SC048",
+  "level": "HSK5",
+  "sceneNumber": 48,
+  "titleZh": "决定停止一个方案",
+  "titleTr": "Bir planı durdurma kararı",
+  "locationId": "LOC_OFFICE_BREAKROOM_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_WANG_MING_001"
+  ],
+  "estimatedMinutes": 18,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK5_SC047",
+  "nextSceneId": "HSK5_SC049",
+  "summaryTr": "Zhang Wei ile Wang Ming, bir planı durdurma kararı konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

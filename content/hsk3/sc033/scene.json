@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC033",
+  "level": "HSK3",
+  "sceneNumber": 33,
+  "titleZh": "一起做饭",
+  "titleTr": "Birlikte yemek yapmak",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_CHEN_YU_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC032",
+  "nextSceneId": "HSK3_SC034",
+  "summaryTr": "Chen Yu ile Zhang Wei, birlikte yemek yapmak konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

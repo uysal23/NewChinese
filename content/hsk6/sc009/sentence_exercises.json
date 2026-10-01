@@ -1,0 +1,190 @@
+{
+  "sceneId": "HSK6_SC009",
+  "sourcePolicy": "exam dialogue-derived; full study uses every dialogue line × three locked modes",
+  "exercises": [
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_001",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK6_SC009_001",
+      "correctZh": "最近我反复想到“什么时候应该离开”，越想越觉得它和个人选择、社会环境都有关系。",
+      "pinyin": "zuì jìn wǒ fǎn fù xiǎng dào“shén me shí hòu yīng gāi lí kāi”， yuè xiǎng yuè jué de tā hé gè rén xuǎn zé、 shè huì huán jìng dōu yǒu guān xì。",
+      "translationTr": "Son zamanlarda “Ne zaman ayrılmak gerekir” üzerine tekrar tekrar düşünüyorum; düşündükçe hem kişisel tercihlerle hem toplumsal ortamla bağlantılı olduğunu görüyorum.",
+      "sentenceZh": "最近我反复想到“什么时候应该离开”，越想越觉得它和个人选择、社会环境都有关系。",
+      "correctAnswer": "最近我反复想到“什么时候应该离开”，越想越觉得它和个人选择、社会环境都有关系。",
+      "options": [],
+      "tokens": [
+        "最近我反",
+        "复想到什",
+        "么时候应",
+        "该离开越",
+        "想越觉得",
+        "它和个人",
+        "选择社会",
+        "环境都有",
+        "关系"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk6_sc009_sentence_001.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_002",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK6_SC009_002",
+      "correctZh": "如果假设本身有问题，后面的结论可能都不稳。",
+      "pinyin": "rú guǒ jiǎ shè běn shēn yǒu wèn tí， hòu miàn de jié lùn kě néng dōu bù wěn。",
+      "translationTr": "Varsayımın kendisi sorunluysa sonraki sonuçların tamamı zayıf olabilir.",
+      "sentenceZh": "___假设本身有问题，后面的结论可能都不稳。",
+      "correctAnswer": "如果",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk6_sc009_sentence_002.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_003",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK6_SC009_003",
+      "correctZh": "权衡最难的地方是什么？",
+      "pinyin": "quán héng zuì nán de dì fāng shì shén me？",
+      "translationTr": "Dengeleyerek karar vermenin en zor yanı nedir?",
+      "sentenceZh": "权衡最难的地方是什么？",
+      "correctAnswer": "权衡最难的地方是什么？",
+      "options": [
+        "权衡最难的地方是什么？",
+        "最近我反复想到“什么时候应该离开”，越想越觉得它和个人选择、社会环境都有关系。",
+        "这类问题很难靠单一立场解释，先把不同层次分开会更清楚。",
+        "我以前总想先找到一个明确答案，现在反而更能接受不确定性。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk6_sc009_sentence_003.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_004",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK6_SC009_004",
+      "correctZh": "边界应该怎么设定？",
+      "pinyin": "biān jiè yīng gāi zěn me shè dìng？",
+      "translationTr": "Sınırlar nasıl belirlenmeli?",
+      "sentenceZh": "边界应该怎么设定？",
+      "correctAnswer": "边界应该怎么设定？",
+      "options": [],
+      "tokens": [
+        "边界应该",
+        "怎么设定"
+      ],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk6_sc009_sentence_004.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_005",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK6_SC009_005",
+      "correctZh": "所以不能只看制度文本，还要看实际运行。",
+      "pinyin": "suǒ yǐ bù néng zhǐ kàn zhì dù wén běn， hái yào kàn shí jì yùn xíng。",
+      "translationTr": "O halde yalnız kurala değil, gerçek işleyişe de bakmak gerekir.",
+      "sentenceZh": "___不能只看制度文本，还要看实际运行。",
+      "correctAnswer": "所以",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_WANG_MING_001",
+      "audioFile": "assets/hsk6_sc009_sentence_005.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_006",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK6_SC009_006",
+      "correctZh": "而且有些问题没有一次性的答案，只能持续反思。",
+      "pinyin": "ér qiě yǒu xiē wèn tí méi yǒu yí cì xìng de dá àn， zhǐ néng chí xù fǎn sī。",
+      "translationTr": "Üstelik bazı soruların tek seferlik cevabı yoktur; sürekli öz değerlendirme gerekir.",
+      "sentenceZh": "而且有些问题没有一次性的答案，只能持续反思。",
+      "correctAnswer": "而且有些问题没有一次性的答案，只能持续反思。",
+      "options": [
+        "而且有些问题没有一次性的答案，只能持续反思。",
+        "最近我反复想到“什么时候应该离开”，越想越觉得它和个人选择、社会环境都有关系。",
+        "这类问题很难靠单一立场解释，先把不同层次分开会更清楚。",
+        "我以前总想先找到一个明确答案，现在反而更能接受不确定性。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc009_sentence_006.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_007",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK6_SC009_007",
+      "correctZh": "事实是否可靠、影响是否可接受、过程是否公平、结果能否长期维持。",
+      "pinyin": "shì shí shì fǒu kě kào、 yǐng xiǎng shì fǒu kě jiē shòu、 guò chéng shì fǒu gōng píng、 jié guǒ néng fǒu cháng qī wéi chí。",
+      "translationTr": "Olguların güvenilirliği, etkinin kabul edilebilirliği, sürecin adilliği ve sonucun uzun vadede sürdürülebilirliği.",
+      "sentenceZh": "事实是否可靠、影响是否可接受、过程是否公平、结果能否长期维持。",
+      "correctAnswer": "事实是否可靠、影响是否可接受、过程是否公平、结果能否长期维持。",
+      "options": [],
+      "tokens": [
+        "事实是否",
+        "可靠影响",
+        "是否可接",
+        "受过程是",
+        "否公平结",
+        "果能否长",
+        "期维持"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc009_sentence_007.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_008",
+      "type": "fill_blank",
+      "sentenceId": "SENT_HSK6_SC009_008",
+      "correctZh": "是，尤其当一个决定会影响很多人时，解释过程很重要。",
+      "pinyin": "shì， yóu qí dāng yí gè jué dìng huì yǐng xiǎng hěn duō rén shí， jiě shì guò chéng hěn zhòng yào。",
+      "translationTr": "Evet, özellikle bir karar çok kişiyi etkiliyorsa süreci açıklamak önemlidir.",
+      "sentenceZh": "是，尤其当一个决定会影响很多人时，解释过程很重要。",
+      "correctAnswer": "是尤",
+      "options": [],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc009_sentence_008.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_009",
+      "type": "listen_select",
+      "sentenceId": "SENT_HSK6_SC009_009",
+      "correctZh": "对。保留选择空间、设置检查点、允许修正，都是有用的方法。",
+      "pinyin": "duì。 bǎo liú xuǎn zé kōng jiān、 shè zhì jiǎn chá diǎn、 yǔn xǔ xiū zhèng， dōu shì yǒu yòng de fāng fǎ。",
+      "translationTr": "Evet. Seçenek alanı bırakmak, kontrol noktaları koymak ve düzeltmeye izin vermek yararlı yöntemlerdir.",
+      "sentenceZh": "对。保留选择空间、设置检查点、允许修正，都是有用的方法。",
+      "correctAnswer": "对。保留选择空间、设置检查点、允许修正，都是有用的方法。",
+      "options": [
+        "对。保留选择空间、设置检查点、允许修正，都是有用的方法。",
+        "最近我反复想到“什么时候应该离开”，越想越觉得它和个人选择、社会环境都有关系。",
+        "这类问题很难靠单一立场解释，先把不同层次分开会更清楚。",
+        "我以前总想先找到一个明确答案，现在反而更能接受不确定性。"
+      ],
+      "tokens": [],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc009_sentence_009.m4a"
+    },
+    {
+      "exerciseId": "EX_SENT_HSK6_SC009_010",
+      "type": "reorder",
+      "sentenceId": "SENT_HSK6_SC009_010",
+      "correctZh": "好。真正重要的不是永远正确，而是愿意根据新证据修正自己。",
+      "pinyin": "hǎo。 zhēn zhèng zhòng yào de bú shì yǒng yuǎn zhèng què， ér shì yuàn yì gēn jù xīn zhèng jù xiū zhèng zì jǐ。",
+      "translationTr": "Olur. Asıl önemli olan hep haklı olmak değil, yeni kanıtlara göre kendini düzeltebilmektir.",
+      "sentenceZh": "好。真正重要的不是永远正确，而是愿意根据新证据修正自己。",
+      "correctAnswer": "好。真正重要的不是永远正确，而是愿意根据新证据修正自己。",
+      "options": [],
+      "tokens": [
+        "好真正重",
+        "要的不是",
+        "永远正确",
+        "而是愿意",
+        "根据新证",
+        "据修正自",
+        "己"
+      ],
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "audioFile": "assets/hsk6_sc009_sentence_010.m4a"
+    }
+  ]
+}

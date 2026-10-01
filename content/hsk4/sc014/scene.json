@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK4_SC014",
+  "level": "HSK4",
+  "sceneNumber": 14,
+  "titleZh": "跨部门沟通",
+  "titleTr": "Birimler arası iletişim",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001"
+  ],
+  "estimatedMinutes": 16,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK4_SC013",
+  "nextSceneId": "HSK4_SC015",
+  "summaryTr": "Zhang Wei ile Liu Mei, birimler arası iletişim konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

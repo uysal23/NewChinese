@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC015",
+  "level": "HSK6",
+  "sceneNumber": 15,
+  "titleZh": "跨领域学习",
+  "titleTr": "Alanlar arası öğrenme",
+  "locationId": "LOC_COMMUNITY_CENTER_001",
+  "characterIds": [
+    "CHAR_LIU_MEI_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC014",
+  "nextSceneId": "HSK6_SC016",
+  "summaryTr": "Liu Mei ile Zhang Wei, alanlar arası öğrenme konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

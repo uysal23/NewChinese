@@ -1,0 +1,365 @@
+{
+  "sceneId": "HSK3_SC022",
+  "language": "zh-CN",
+  "outputFormat": "m4a",
+  "packageName": "HSK3_SC022_audio_assets.zip",
+  "outputDirectory": "content/hsk3/sc022/assets",
+  "productionProfile": {
+    "engine": "edge-tts",
+    "generator": "tools/generate_audio_assets.py",
+    "voices": {
+      "VOICE_ZHANG_WEI_001": "zh-CN-YunxiNeural",
+      "VOICE_LI_NA_001": "zh-CN-XiaoxiaoNeural"
+    },
+    "rateByType": {
+      "dialogue": "+0%",
+      "vocabulary": "-8%",
+      "sentence": "-3%"
+    },
+    "encoding": {
+      "codec": "aac",
+      "bitrate": "128k",
+      "sampleRate": 44100,
+      "channels": 1
+    },
+    "loudness": "loudnorm=I=-18:TP=-2:LRA=7"
+  },
+  "items": [
+    {
+      "order": 1,
+      "file": "hsk3_sc022_line_001.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天想和你聊聊“预约维修”。这件事最近对我影响挺大。",
+      "emotion": "natural"
+    },
+    {
+      "order": 2,
+      "file": "hsk3_sc022_line_002.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "可以。你现在最想解决的是什么？",
+      "emotion": "natural"
+    },
+    {
+      "order": 3,
+      "file": "hsk3_sc022_line_003.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我先做了一个计划，可实际情况和我想的不太一样。",
+      "emotion": "natural"
+    },
+    {
+      "order": 4,
+      "file": "hsk3_sc022_line_004.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "计划本来就需要调整，先看最重要的部分。",
+      "emotion": "natural"
+    },
+    {
+      "order": 5,
+      "file": "hsk3_sc022_line_005.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我发现自己有时候太快做选择，没有先问清楚。",
+      "emotion": "natural"
+    },
+    {
+      "order": 6,
+      "file": "hsk3_sc022_line_006.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "这和经验有关，多做几次会更稳。",
+      "emotion": "natural"
+    },
+    {
+      "order": 7,
+      "file": "hsk3_sc022_line_007.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "还有沟通的问题，我怕说得太直接。",
+      "emotion": "natural"
+    },
+    {
+      "order": 8,
+      "file": "hsk3_sc022_line_008.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "把原因说明白，再听听对方的想法，通常会好很多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 9,
+      "file": "hsk3_sc022_line_009.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我的责任应该到哪里？",
+      "emotion": "natural"
+    },
+    {
+      "order": 10,
+      "file": "hsk3_sc022_line_010.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "先把自己负责的部分做好，遇到不确定的地方及时确认。",
+      "emotion": "natural"
+    },
+    {
+      "order": 11,
+      "file": "hsk3_sc022_line_011.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我想把这件事变成一个稳定的习惯。",
+      "emotion": "natural"
+    },
+    {
+      "order": 12,
+      "file": "hsk3_sc022_line_012.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "那就从小一点的动作开始，不用一次做得太多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 13,
+      "file": "hsk3_sc022_line_013.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "如果中间又出问题呢？",
+      "emotion": "natural"
+    },
+    {
+      "order": 14,
+      "file": "hsk3_sc022_line_014.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "先解决眼前的问题，再记录原因，下次就会更快。",
+      "emotion": "natural"
+    },
+    {
+      "order": 15,
+      "file": "hsk3_sc022_line_015.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "这样做真的能看到进步吗？",
+      "emotion": "natural"
+    },
+    {
+      "order": 16,
+      "file": "hsk3_sc022_line_016.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "能。你可以每周回头看一次，会发现变化比想象中明显。",
+      "emotion": "natural"
+    },
+    {
+      "order": 17,
+      "file": "hsk3_sc022_line_017.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我以前总觉得一定要有最好的方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 18,
+      "file": "hsk3_sc022_line_018.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "其实适合现在情况的方法更重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 19,
+      "file": "hsk3_sc022_line_019.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "听起来我应该少一点着急，多一点观察。",
+      "emotion": "natural"
+    },
+    {
+      "order": 20,
+      "file": "hsk3_sc022_line_020.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "对，尤其是“预约维修”这种事，过程本身也很重要。",
+      "emotion": "natural"
+    },
+    {
+      "order": 21,
+      "file": "hsk3_sc022_line_021.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我今天先做一个具体的小步骤。",
+      "emotion": "natural"
+    },
+    {
+      "order": 22,
+      "file": "hsk3_sc022_line_022.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "很好，做完以后再决定下一步，不需要一次想完。",
+      "emotion": "natural"
+    },
+    {
+      "order": 23,
+      "file": "hsk3_sc022_line_023.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "谢谢，我现在思路清楚多了。",
+      "emotion": "natural"
+    },
+    {
+      "order": 24,
+      "file": "hsk3_sc022_line_024.m4a",
+      "type": "dialogue",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "不客气。过几天我们再看看效果。",
+      "emotion": "natural"
+    },
+    {
+      "order": 25,
+      "file": "hsk3_sc022_word_001.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "责任",
+      "emotion": "neutral"
+    },
+    {
+      "order": 26,
+      "file": "hsk3_sc022_word_002.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "计划",
+      "emotion": "neutral"
+    },
+    {
+      "order": 27,
+      "file": "hsk3_sc022_word_003.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "调整",
+      "emotion": "neutral"
+    },
+    {
+      "order": 28,
+      "file": "hsk3_sc022_word_004.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "经验",
+      "emotion": "neutral"
+    },
+    {
+      "order": 29,
+      "file": "hsk3_sc022_word_005.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "沟通",
+      "emotion": "neutral"
+    },
+    {
+      "order": 30,
+      "file": "hsk3_sc022_word_006.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "解决",
+      "emotion": "neutral"
+    },
+    {
+      "order": 31,
+      "file": "hsk3_sc022_word_007.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "习惯",
+      "emotion": "neutral"
+    },
+    {
+      "order": 32,
+      "file": "hsk3_sc022_word_008.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "进步",
+      "emotion": "neutral"
+    },
+    {
+      "order": 33,
+      "file": "hsk3_sc022_word_009.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "影响",
+      "emotion": "neutral"
+    },
+    {
+      "order": 34,
+      "file": "hsk3_sc022_word_010.m4a",
+      "type": "vocabulary",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "选择",
+      "emotion": "neutral"
+    },
+    {
+      "order": 35,
+      "file": "hsk3_sc022_sentence_001.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "今天想和你聊聊“预约维修”。这件事最近对我影响挺大。",
+      "emotion": "natural"
+    },
+    {
+      "order": 36,
+      "file": "hsk3_sc022_sentence_002.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "计划本来就需要调整，先看最重要的部分。",
+      "emotion": "natural"
+    },
+    {
+      "order": 37,
+      "file": "hsk3_sc022_sentence_003.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "把原因说明白，再听听对方的想法，通常会好很多。",
+      "emotion": "natural"
+    },
+    {
+      "order": 38,
+      "file": "hsk3_sc022_sentence_004.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我想把这件事变成一个稳定的习惯。",
+      "emotion": "natural"
+    },
+    {
+      "order": 39,
+      "file": "hsk3_sc022_sentence_005.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "先解决眼前的问题，再记录原因，下次就会更快。",
+      "emotion": "natural"
+    },
+    {
+      "order": 40,
+      "file": "hsk3_sc022_sentence_006.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "我以前总觉得一定要有最好的方法。",
+      "emotion": "natural"
+    },
+    {
+      "order": 41,
+      "file": "hsk3_sc022_sentence_007.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_ZHANG_WEI_001",
+      "textZh": "那我今天先做一个具体的小步骤。",
+      "emotion": "natural"
+    },
+    {
+      "order": 42,
+      "file": "hsk3_sc022_sentence_008.m4a",
+      "type": "sentence",
+      "voiceId": "VOICE_LI_NA_001",
+      "textZh": "不客气。过几天我们再看看效果。",
+      "emotion": "natural"
+    }
+  ]
+}

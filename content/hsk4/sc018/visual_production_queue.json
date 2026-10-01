@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK4_SC018",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_CAFE_001",
+  "continuity": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LIU_MEI_001",
+    "OUTFIT_ZHANG_WEI_CASUAL_01",
+    "OUTFIT_LIU_MEI_CASUAL_01"
+  ],
+  "composition": "处理会议冲突; canonical LOC_CAFE_001; two adult characters only; natural conversational body language; no readable text.",
+  "assets": [
+    {
+      "file": "hsk4_sc018_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk4_sc018_char_zhang_wei.webp",
+      "purpose": "CHAR_ZHANG_WEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk4_sc018_char_liu_mei.webp",
+      "purpose": "CHAR_LIU_MEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk4_sc018_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk4_sc018_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC005",
+  "level": "HSK6",
+  "sceneNumber": 5,
+  "titleZh": "长期职业倦怠",
+  "titleTr": "Uzun süreli mesleki tükenmişlik",
+  "locationId": "LOC_WEST_LAKE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC004",
+  "nextSceneId": "HSK6_SC006",
+  "summaryTr": "Wang Ming ile Zhang Wei, uzun süreli mesleki tükenmişlik konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

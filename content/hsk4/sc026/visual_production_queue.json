@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK4_SC026",
+  "style": "locked-2.5D-3D-CGI",
+  "locationId": "LOC_WEST_LAKE_001",
+  "continuity": [
+    "CHAR_ZHANG_WEI_001",
+    "CHAR_LI_NA_001",
+    "OUTFIT_ZHANG_WEI_CASUAL_01",
+    "OUTFIT_LI_NA_CASUAL_01"
+  ],
+  "composition": "和李娜讨论压力; canonical LOC_WEST_LAKE_001; two adult characters only; natural conversational body language; no readable text.",
+  "assets": [
+    {
+      "file": "hsk4_sc026_bg.webp",
+      "purpose": "background without characters"
+    },
+    {
+      "file": "hsk4_sc026_char_zhang_wei.webp",
+      "purpose": "CHAR_ZHANG_WEI_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk4_sc026_char_li_na.webp",
+      "purpose": "CHAR_LI_NA_001 transparent full-body layer"
+    },
+    {
+      "file": "hsk4_sc026_fg.webp",
+      "purpose": "subtle foreground depth layer"
+    },
+    {
+      "file": "hsk4_sc026_preview.webp",
+      "purpose": "scene preview two-shot"
+    }
+  ],
+  "rules": [
+    "no baked readable text",
+    "family-friendly",
+    "canonical identities",
+    "modest clothing",
+    "mobile-safe framing",
+    "location/dialogue fidelity"
+  ]
+}

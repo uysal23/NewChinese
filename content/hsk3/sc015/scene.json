@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK3_SC015",
+  "level": "HSK3",
+  "sceneNumber": 15,
+  "titleZh": "练习复述",
+  "titleTr": "Yeniden anlatma çalışması",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_LI_NA_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 14,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK3_SC014",
+  "nextSceneId": "HSK3_SC016",
+  "summaryTr": "Li Na ile Zhang Wei, yeniden anlatma çalışması konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}

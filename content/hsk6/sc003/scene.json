@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sceneId": "HSK6_SC003",
+  "level": "HSK6",
+  "sceneNumber": 3,
+  "titleZh": "选择稳定还是变化",
+  "titleTr": "İstikrar mı değişim mi",
+  "locationId": "LOC_CAFE_001",
+  "characterIds": [
+    "CHAR_WANG_MING_001",
+    "CHAR_ZHANG_WEI_001"
+  ],
+  "estimatedMinutes": 20,
+  "isInitiallyUnlocked": false,
+  "previousSceneId": "HSK6_SC002",
+  "nextSceneId": "HSK6_SC004",
+  "summaryTr": "Wang Ming ile Zhang Wei, i̇stikrar mı değişim mi konusunu Hangzhou'daki gündelik hayat bağlamında doğal bir konuşmayla ele alır; farklı seçenekleri değerlendirip uygulanabilir bir sonuç çıkarır."
+}
