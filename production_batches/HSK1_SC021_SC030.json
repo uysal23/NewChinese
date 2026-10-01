@@ -86,7 +86,8 @@
     "visualComplete": 10,
     "audioComplete": 10,
     "validationBuildStatus": "success",
-    "validationBuildRun": 253
+    "validationBuildRun": 253,
+    "acceptedScenes": 10
   },
   "completedAt": "2026-09-26"
 }

@@ -5,7 +5,7 @@
   "planSource": "LOCKED_STEP_10_HSK2_PLAN.md",
   "theme": "expanding social circle",
   "dialogueTargetTurns": "18-30",
-  "status": "visual_complete_audio_pending",
+  "status": "complete",
   "scenes": [
     {
       "sceneId": "HSK2_SC041",
@@ -15,7 +15,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC042",
@@ -25,7 +25,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC043",
@@ -35,7 +35,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC044",
@@ -45,7 +45,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LIU_MEI_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC045",
@@ -55,7 +55,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LIU_MEI_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC046",
@@ -65,7 +65,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LIU_MEI_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC047",
@@ -75,7 +75,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC048",
@@ -85,7 +85,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_CHEN_YU_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC049",
@@ -95,7 +95,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LI_NA_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     },
     {
       "sceneId": "HSK2_SC050",
@@ -105,7 +105,7 @@
         "CHAR_ZHANG_WEI_001",
         "CHAR_LI_NA_001"
       ],
-      "status": "visual_complete_audio_pending"
+      "status": "complete"
     }
   ],
   "pipeline": [
@@ -120,8 +120,8 @@
     "contentReady": 10,
     "totalScenes": 10,
     "visualComplete": 10,
-    "audioComplete": 0,
-    "acceptedScenes": 0
+    "audioComplete": 10,
+    "acceptedScenes": 10
   },
   "visualGrounding": {
     "file": "production_batches/HSK2_SC041_SC050_VISUAL_GROUNDING.json",

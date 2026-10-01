@@ -2,18 +2,18 @@
   "level": "HSK4",
   "startScene": 21,
   "endScene": 30,
-  "status": "content_ready_audio_pending_visual_pending",
+  "status": "audio_complete_visual_pending",
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
     "visualComplete": 0,
-    "audioComplete": 0,
+    "audioComplete": 10,
     "acceptedScenes": 0
   },
   "scenes": [
     {
       "sceneId": "HSK4_SC021",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -22,7 +22,7 @@
     },
     {
       "sceneId": "HSK4_SC022",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_CITY_PARK_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -31,7 +31,7 @@
     },
     {
       "sceneId": "HSK4_SC023",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_WEST_LAKE_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -40,7 +40,7 @@
     },
     {
       "sceneId": "HSK4_SC024",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -49,7 +49,7 @@
     },
     {
       "sceneId": "HSK4_SC025",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_CITY_PARK_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -58,7 +58,7 @@
     },
     {
       "sceneId": "HSK4_SC026",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_WEST_LAKE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -67,7 +67,7 @@
     },
     {
       "sceneId": "HSK4_SC027",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -76,7 +76,7 @@
     },
     {
       "sceneId": "HSK4_SC028",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_CITY_PARK_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -85,7 +85,7 @@
     },
     {
       "sceneId": "HSK4_SC029",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_WEST_LAKE_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -94,7 +94,7 @@
     },
     {
       "sceneId": "HSK4_SC030",
-      "status": "content_ready_audio_pending_visual_pending",
+      "status": "audio_complete_visual_pending",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
