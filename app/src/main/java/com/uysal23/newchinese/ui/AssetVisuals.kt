@@ -3,8 +3,10 @@ package com.uysal23.newchinese.ui
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Color as AndroidColor
+import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -15,7 +17,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.PathEffect
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
@@ -157,6 +163,7 @@ fun AssetSceneStage(
     foreground: String?,
     preview: String?,
     activeSpeakerId: String,
+    speechText: String,
     characterAId: String? = null,
     characterBId: String? = null,
     modifier: Modifier = Modifier
@@ -213,7 +220,7 @@ fun AssetSceneStage(
         label = "characterBAlpha"
     )
 
-    Box(
+    BoxWithConstraints(
         modifier = modifier.background(MaterialTheme.colorScheme.surfaceVariant)
     ) {
         if (usePreviewFallback) {
@@ -223,62 +230,37 @@ fun AssetSceneStage(
                 modifier = Modifier.fillMaxSize(),
                 contentScale = ContentScale.Crop
             )
-            return@Box
-        }
-
-        if (backgroundVisual != null) {
-            Image(
-                bitmap = backgroundVisual.image,
-                contentDescription = "Sahne arka planı",
-                modifier = Modifier.fillMaxSize(),
-                contentScale = ContentScale.Crop
-            )
-        }
-
-        // Legacy foreground exports can contain blurred/opaque full-frame fragments.
-        // Do not render foreground in the dialogue stage until the asset is explicitly
-        // validated as a clean transparent depth-only layer. BG + character cutouts
-        // provide the stable composition without fogging or masking the scene.
-
-        fun drawCharacterA() {
-            // local marker; actual composable draw happens in the branch below
-        }
-
-        if (characterAActive && characterASafe) {
-            if (characterBSafe) {
+        } else {
+            if (backgroundVisual != null) {
                 Image(
-                    bitmap = characterBVisual!!.image,
-                    contentDescription = "Karakter B",
-                    modifier = Modifier
-                        .align(Alignment.BottomEnd)
-                        .fillMaxWidth(0.50f)
-                        .fillMaxHeight(0.80f)
-                        .graphicsLayer {
-                            scaleX = characterBScale
-                            scaleY = characterBScale
-                            alpha = characterBAlpha
-                            transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
-                        },
-                    contentScale = ContentScale.Fit
+                    bitmap = backgroundVisual.image,
+                    contentDescription = "Sahne arka planı",
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
                 )
             }
-            Image(
-                bitmap = characterAVisual!!.image,
-                contentDescription = "Karakter A",
-                modifier = Modifier
-                    .align(Alignment.BottomStart)
-                    .fillMaxWidth(0.50f)
-                    .fillMaxHeight(0.80f)
-                    .graphicsLayer {
-                        scaleX = characterAScale
-                        scaleY = characterAScale
-                        alpha = characterAAlpha
-                        transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.35f, 1f)
-                    },
-                contentScale = ContentScale.Fit
-            )
-        } else {
-            if (characterASafe) {
+
+            // Foreground intentionally remains disabled until a clean transparent depth layer is validated.
+            // The dialogue bubble is rendered last so it always remains readable above the scene.
+
+            if (characterAActive && characterASafe) {
+                if (characterBSafe) {
+                    Image(
+                        bitmap = characterBVisual!!.image,
+                        contentDescription = "Karakter B",
+                        modifier = Modifier
+                            .align(Alignment.BottomEnd)
+                            .fillMaxWidth(0.50f)
+                            .fillMaxHeight(0.80f)
+                            .graphicsLayer {
+                                scaleX = characterBScale
+                                scaleY = characterBScale
+                                alpha = characterBAlpha
+                                transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
+                            },
+                        contentScale = ContentScale.Fit
+                    )
+                }
                 Image(
                     bitmap = characterAVisual!!.image,
                     contentDescription = "Karakter A",
@@ -294,34 +276,140 @@ fun AssetSceneStage(
                         },
                     contentScale = ContentScale.Fit
                 )
+            } else {
+                if (characterASafe) {
+                    Image(
+                        bitmap = characterAVisual!!.image,
+                        contentDescription = "Karakter A",
+                        modifier = Modifier
+                            .align(Alignment.BottomStart)
+                            .fillMaxWidth(0.50f)
+                            .fillMaxHeight(0.80f)
+                            .graphicsLayer {
+                                scaleX = characterAScale
+                                scaleY = characterAScale
+                                alpha = characterAAlpha
+                                transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.35f, 1f)
+                            },
+                        contentScale = ContentScale.Fit
+                    )
+                }
+                if (characterBSafe) {
+                    Image(
+                        bitmap = characterBVisual!!.image,
+                        contentDescription = "Karakter B",
+                        modifier = Modifier
+                            .align(Alignment.BottomEnd)
+                            .fillMaxWidth(0.50f)
+                            .fillMaxHeight(0.80f)
+                            .graphicsLayer {
+                                scaleX = characterBScale
+                                scaleY = characterBScale
+                                alpha = characterBAlpha
+                                transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
+                            },
+                        contentScale = ContentScale.Fit
+                    )
+                }
             }
-            if (characterBSafe) {
-                Image(
-                    bitmap = characterBVisual!!.image,
-                    contentDescription = "Karakter B",
-                    modifier = Modifier
-                        .align(Alignment.BottomEnd)
-                        .fillMaxWidth(0.50f)
-                        .fillMaxHeight(0.80f)
-                        .graphicsLayer {
-                            scaleX = characterBScale
-                            scaleY = characterBScale
-                            alpha = characterBAlpha
-                            transformOrigin = androidx.compose.ui.graphics.TransformOrigin(0.65f, 1f)
-                        },
-                    contentScale = ContentScale.Fit
-                )
+
+            if (backgroundVisual == null && !characterASafe && !characterBSafe) {
+                Box(
+                    modifier = Modifier.fillMaxSize(),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Text("CGI görsel asset’i bekleniyor")
+                }
             }
         }
 
-        if (backgroundVisual == null && !characterASafe && !characterBSafe) {
-            Box(
-                modifier = Modifier.fillMaxSize(),
-                contentAlignment = Alignment.Center
-            ) {
-                Text("CGI görsel asset’i bekleniyor")
+        if (speechText.isNotBlank()) {
+            val bubbleWidth = minOf(maxWidth * 0.42f, 184.dp)
+            val mouthY = maxHeight * 0.30f
+            val bubbleTopTarget = (mouthY - 26.dp).coerceAtLeast(8.dp)
+            val bubbleXTarget = if (characterAActive) {
+                (maxWidth * 0.30f + 8.dp).coerceAtMost(maxWidth - bubbleWidth - 6.dp)
+            } else {
+                (maxWidth * 0.70f - bubbleWidth - 8.dp).coerceAtLeast(6.dp)
             }
+
+            val bubbleX by animateDpAsState(
+                targetValue = bubbleXTarget,
+                animationSpec = tween(220),
+                label = "speechBubbleX"
+            )
+            val bubbleY by animateDpAsState(
+                targetValue = bubbleTopTarget,
+                animationSpec = tween(220),
+                label = "speechBubbleY"
+            )
+
+            SceneSpeechBubble(
+                text = speechText,
+                pointsLeft = characterAActive,
+                modifier = Modifier
+                    .width(bubbleWidth)
+                    .offset(x = bubbleX, y = bubbleY)
+            )
         }
+    }
+}
+
+@Composable
+private fun SceneSpeechBubble(
+    text: String,
+    pointsLeft: Boolean,
+    modifier: Modifier = Modifier
+) {
+    val fillColor = MaterialTheme.colorScheme.surface.copy(alpha = 0.78f)
+    val borderColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.56f)
+    val textColor = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.94f)
+
+    Box(
+        modifier = modifier
+            .heightIn(min = 48.dp, max = 86.dp)
+            .padding(horizontal = 2.dp, vertical = 2.dp)
+    ) {
+        Canvas(Modifier.matchParentSize()) {
+            drawRoundRect(
+                color = fillColor,
+                cornerRadius = CornerRadius(18f, 18f)
+            )
+            drawRoundRect(
+                color = borderColor,
+                cornerRadius = CornerRadius(18f, 18f),
+                style = Stroke(
+                    width = 2.2f,
+                    pathEffect = PathEffect.dashPathEffect(floatArrayOf(9f, 6f))
+                )
+            )
+
+            val tailY = size.height * 0.56f
+            val edgeX = if (pointsLeft) 0f else size.width
+            val tailX = if (pointsLeft) -14f else size.width + 14f
+            drawLine(
+                color = borderColor,
+                start = androidx.compose.ui.geometry.Offset(edgeX, tailY - 6f),
+                end = androidx.compose.ui.geometry.Offset(tailX, tailY),
+                strokeWidth = 2.2f
+            )
+            drawLine(
+                color = borderColor,
+                start = androidx.compose.ui.geometry.Offset(tailX, tailY),
+                end = androidx.compose.ui.geometry.Offset(edgeX, tailY + 6f),
+                strokeWidth = 2.2f
+            )
+        }
+
+        Text(
+            text = text,
+            color = textColor,
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier
+                .align(Alignment.Center)
+                .padding(horizontal = 12.dp, vertical = 8.dp),
+            maxLines = 3
+        )
     }
 }
 
