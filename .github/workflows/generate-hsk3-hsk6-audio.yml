@@ -1,0 +1,145 @@
+name: Generate HSK3-HSK6 Audio
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: newchinese-hsk3-hsk6-audio
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        shard: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install locked audio production tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install "edge-tts>=7,<8"
+
+      - name: Generate shard audio with locked NewChinese pipeline
+        run: |
+          python tools/generate_audio_batch.py \
+            --batch-index "\${{ matrix.shard }}" \
+            --batch-count 20 \
+            --levels "3,4,5,6" \
+            --output-dir "generated_audio/shard-\${{ matrix.shard }}"
+
+      - name: Upload scene audio packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: hsk3-hsk6-audio-shard-\${{ matrix.shard }}
+          path: generated_audio/shard-\${{ matrix.shard }}/*.zip
+          if-no-files-found: error
+          retention-days: 1
+
+  import-finalize:
+    needs: generate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download all generated scene packages
+        uses: actions/download-artifact@v4
+        with:
+          pattern: hsk3-hsk6-audio-shard-*
+          path: incoming_assets
+          merge-multiple: true
+
+      - name: Import physical audio assets
+        run: python tools/import_media_assets.py
+
+      - name: Finalize all nonvisual statuses
+        run: python tools/finalize_nonvisual_status.py
+
+      - name: Validate all locked content
+        run: python validation/validate_content.py
+
+      - name: Assert 300 scenes and zero missing audio
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root = Path(".")
+          scenes = []
+          pending = []
+          for h in range(1, 7):
+              for n in range(1, 51):
+                  d = root / "content" / f"hsk{h}" / f"sc{n:03d}"
+                  scenes.append(d)
+                  media = json.loads((d / "media_status.json").read_text(encoding="utf-8"))
+                  audio = media["audio"]
+                  missing = [x for x in audio["required"] if not (d / x).is_file()]
+                  if audio["status"] != "complete" or missing:
+                      pending.append((f"HSK{h}_SC{n:03d}", audio["status"], missing))
+          print("scene_count", len(scenes))
+          print("pending_audio", len(pending))
+          if len(scenes) != 300 or pending:
+              raise SystemExit(f"Nonvisual completion audit failed: {pending[:5]}")
+          PY
+
+      - name: Commit HSK3 audio and metadata
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/hsk3
+          git commit -m "feat(audio): complete HSK3 locked Mandarin audio" || true
+          git push origin main
+
+      - name: Commit HSK4 audio and metadata
+        shell: bash
+        run: |
+          git add content/hsk4
+          git commit -m "feat(audio): complete HSK4 locked Mandarin audio" || true
+          git push origin main
+
+      - name: Commit HSK5 audio and metadata
+        shell: bash
+        run: |
+          git add content/hsk5
+          git commit -m "feat(audio): complete HSK5 locked Mandarin audio" || true
+          git push origin main
+
+      - name: Commit HSK6 audio and metadata
+        shell: bash
+        run: |
+          git add content/hsk6
+          git commit -m "feat(audio): complete HSK6 locked Mandarin audio" || true
+          git push origin main
+
+      - name: Commit cross-level status cleanup
+        shell: bash
+        run: |
+          git add content/hsk1 content/hsk2 production_batches
+          git commit -m "chore(status): synchronize HSK1-HSK6 nonvisual completion" || true
+          git push origin main
