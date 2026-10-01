@@ -309,15 +309,119 @@ def reconstruct_visual_packages() -> int:
     return count
 
 
+
+def reconstruct_hsk2_sc050_from_refs() -> int:
+    marker = PARTS_DIR / "HSK2_SC050_FROM_REFS"
+    if not marker.is_file():
+        return 0
+
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    source_bg = ROOT / "content/hsk2/sc040/assets/hsk2_sc040_bg.webp"
+    source_fg = ROOT / "content/hsk2/sc040/assets/hsk2_sc040_fg.webp"
+    source_zw = ROOT / "content/hsk2/sc040/assets/hsk2_sc040_char_zhang_wei.webp"
+    source_li = ROOT / "content/hsk2/sc040/assets/hsk2_sc040_char_li_na.webp"
+
+    sources = [source_bg, source_fg, source_zw, source_li]
+    missing = [p for p in sources if not p.is_file()]
+    if missing:
+        raise RuntimeError(
+            "Missing SC050 reference asset(s): "
+            + ", ".join(str(p.relative_to(ROOT)) for p in missing)
+        )
+
+    background = Image.open(source_bg).convert("RGB")
+    width, height = background.size
+
+    # HSK2 finale: preserve canonical West Lake identity while shifting
+    # the approved SC040 daylight source toward warm golden-hour light.
+    background = ImageEnhance.Color(background).enhance(1.06)
+    background = ImageEnhance.Contrast(background).enhance(0.98)
+    warm_bg = Image.new("RGB", background.size, (255, 190, 120))
+    background = Image.blend(background, warm_bg, 0.10)
+    background = ImageEnhance.Brightness(background).enhance(1.02)
+
+    foreground = Image.open(source_fg).convert("RGBA")
+    if foreground.size != (width, height):
+        foreground = foreground.resize((width, height), Image.Resampling.LANCZOS)
+    fg_alpha = foreground.getchannel("A")
+    fg_rgb = foreground.convert("RGB")
+    fg_rgb = Image.blend(fg_rgb, Image.new("RGB", fg_rgb.size, (255, 190, 120)), 0.08)
+    foreground = fg_rgb.convert("RGBA")
+    foreground.putalpha(fg_alpha)
+
+    # Canonical CASUAL_01 character identities from the approved SC040 West Lake scene.
+    # Their original facing directions naturally support Li-left / Zhang-right dialogue.
+    zw = Image.open(source_zw).convert("RGBA")
+    li = Image.open(source_li).convert("RGBA")
+
+    assets: dict[str, bytes] = {}
+
+    out = BytesIO()
+    background.save(out, "WEBP", quality=82, method=6)
+    assets["hsk2_sc050_bg.webp"] = out.getvalue()
+
+    out = BytesIO()
+    zw.save(out, "WEBP", quality=90, method=6)
+    assets["hsk2_sc050_char_zhang_wei.webp"] = out.getvalue()
+
+    out = BytesIO()
+    li.save(out, "WEBP", quality=90, method=6)
+    assets["hsk2_sc050_char_li_na.webp"] = out.getvalue()
+
+    out = BytesIO()
+    foreground.save(out, "WEBP", quality=86, method=6)
+    assets["hsk2_sc050_fg.webp"] = out.getvalue()
+
+    canvas = background.convert("RGBA")
+
+    def place_character(payload: bytes, x_fraction: float, target_h_fraction: float) -> None:
+        char = Image.open(BytesIO(payload)).convert("RGBA")
+        bbox = char.getchannel("A").getbbox()
+        if bbox:
+            char = char.crop(bbox)
+        target_h = int(height * target_h_fraction)
+        scale = target_h / max(char.height, 1)
+        char = char.resize(
+            (max(1, int(char.width * scale)), target_h),
+            Image.Resampling.LANCZOS,
+        )
+        x = int(width * x_fraction - char.width / 2)
+        y = height - char.height - int(height * 0.025)
+        canvas.alpha_composite(char, (x, y))
+
+    # Li Na asks the reflective questions; Zhang Wei answers and looks forward.
+    place_character(assets["hsk2_sc050_char_li_na.webp"], 0.34, 0.76)
+    place_character(assets["hsk2_sc050_char_zhang_wei.webp"], 0.67, 0.77)
+    canvas.alpha_composite(foreground, (0, 0))
+
+    out = BytesIO()
+    canvas.convert("RGB").save(out, "WEBP", quality=82, method=6)
+    assets["hsk2_sc050_preview.webp"] = out.getvalue()
+
+    destination = OUT_DIR / "HSK2_SC050_visual_assets.zip"
+    if destination.exists():
+        destination.unlink()
+    with zipfile.ZipFile(destination, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for asset_name, payload in sorted(assets.items()):
+            archive.writestr(asset_name, payload)
+
+    print(
+        f"Built {destination.relative_to(ROOT)} from approved SC040 West Lake "
+        "and canonical Zhang Wei/Li Na references for HSK2_SC050."
+    )
+    return 1
+
 def main() -> int:
     if not PARTS_DIR.exists():
         print("No incoming_asset_parts directory; nothing to reconstruct.")
         return 0
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    special_sc050 = reconstruct_hsk2_sc050_from_refs()
     packages = reconstruct_package_parts()
     visuals = reconstruct_visual_packages()
-    print(f"Reconstructed packages: {packages}; visual packages: {visuals}")
+    print(f"Reconstructed packages: {packages}; visual packages: {visuals}; special SC050: {special_sc050}")
     return 0
 
 
