@@ -1,0 +1,51 @@
+{
+  "sceneId": "HSK3_SC028",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Li Na mahalle eczanesinde komşularla iletişim konusunu konuşur; açık soru sorma, karşı tarafı dinleme ve uygulanabilir küçük adımlar belirleme üzerinde dururlar.",
+    "communicationPurpose": "komşularla iletişim kurma, durumu açıklama, karşı tarafı dinleme, belirsiz noktaları netleştirme ve sonraki adımı seçme",
+    "tone": "sakin, destekleyici, gündelik ve çözüm odaklı",
+    "mainPhysicalAction": "mahalle eczanesinin müşteri alanında karşılıklı doğal konuşma ve iletişim seçeneklerini değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "visibleProps": [
+      "temel ilk yardım/eczane rafları",
+      "tezgah veya müşteri alanı",
+      "isteğe bağlı telefon veya küçük not"
+    ],
+    "continuityFromPrevious": "SC027'de teknik internet sorununu açık sorularla çözme temasından, SC028'de kişiler arası komşuluk iletişimine doğal geçiş; netleştirme ve dinleme davranışı korunur.",
+    "continuityToNext": "SC029'da ev bütçesini planlama temasına geçiş; seçenekleri değerlendirme ve sorumlulukları netleştirme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PHARMACY_001",
+    "authoritativeBible": "locations/LOC_PHARMACY_001/visual_bible.json",
+    "locationReason": "Neighborhood Pharmacy, kısa gündelik mahalle karşılaşması ve iletişim konuşması için temiz, aile dostu, tarafsız bir sosyal ortam sağlar.",
+    "dialogueEvidence": [
+      "邻里沟通",
+      "沟通的问题",
+      "听听对方的想法",
+      "遇到不确定的地方及时确认",
+      "先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC024 aynı LOC_PHARMACY_001, aynı Zhang Wei + Li Na karakter sırası, aynı casual outfitler ve aynı karşılıklı speech-bubble yönleriyle kabul edilmiş canonical görsel kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC024 canonical LOC_PHARMACY_001 karaktersiz BG yeniden kullanılır.",
+    "characterA": "HSK3_SC024 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 face_right şeffaf karakter katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC024 canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01 face_left şeffaf karakter katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC024 canonical pharmacy FG yeniden kullanılır; yüzleri, gövdeleri ve konuşma jestlerini örtmez.",
+    "preview": "HSK3_SC024 kabul edilmiş tek 9:16 Zhang Wei + Li Na pharmacy two-shot preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc024/assets/hsk3_sc024_bg.webp",
+      "characterA": "content/hsk3/sc024/assets/hsk3_sc024_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc024/assets/hsk3_sc024_char_li_na.webp",
+      "foreground": "content/hsk3/sc024/assets/hsk3_sc024_fg.webp",
+      "preview": "content/hsk3/sc024/assets/hsk3_sc024_preview.webp"
+    }
+  }
+}

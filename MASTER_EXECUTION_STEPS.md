@@ -85,12 +85,8 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - SC041–SC050: tamamlandı; içerik, 50/50 görsel ve 240/240 ses hazır.
 - HSK1: 50/50 seviye kabulü tamamlandı. Run #280 validation, unit test, lint, debug APK ve release APK/AAB build SUCCESS.
 - HSK2: tamamlanan üretim adımları repo durumuna göre korunur; bu satır artık aktif çalışma noktası değildir.
-- HSK3: SC001–SC024 için görsel ve ses durumları complete.
-- HSK3_SC020: canonical kütüphane görselleri tamamlandı; final validation, unit test ve Android lint SUCCESS.
-- HSK3_SC021: visual complete, audio complete.
-- HSK3_SC022: visual complete, audio complete; Validate and Build SUCCESS, Android APK build SUCCESS.
-- HSK3_SC023: canonical elektronik mağaza görselleri tamamlandı; final validation, unit test ve Android lint SUCCESS.
-- HSK3_SC024: canonical eczane görselleri tamamlandı; final validation, unit test ve Android lint SUCCESS.
-- HSK3_SC025: audio complete, visual pending (5/5 görsel asset eksik).
+- HSK3: SC001–SC027 için görsel ve ses durumları complete.
+- HSK3_SC027: 5/5 canonical elektronik mağaza görseli doğrulandı; final validation, unit test ve Android lint SUCCESS.
+- HSK3_SC028: audio complete, visual pending (AUTO-PROGRESS canonical pharmacy stage başlatılıyor).
 - **Aktif Adım: Adım 12 — HSK3'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK3_SC025 görsel assetlerini üretmek ve sahneyi complete duruma getirmek**
+- **Anlık iş kalemi: HSK3_SC028 görsel assetlerini canonical kaynakla stage etmek, validate etmek ve complete duruma getirmek**
