@@ -1,0 +1,51 @@
+{
+  "sceneId": "HSK3_SC019",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ile Zhang Wei Zhang Wei'nin evinde eski konuları tekrar etmeyi konuşur; planı gözden geçirip sürdürülebilir bir tekrar alışkanlığına dönüştürmeye çalışırlar.",
+    "communicationPurpose": "eski öğrenme içeriğini tekrar etme, ilerlemeyi değerlendirme, planı ayarlama ve düzenli tekrar alışkanlığı oluşturma",
+    "tone": "sakin, düşünceli, destekleyici, yetişkin",
+    "mainPhysicalAction": "evde çalışma alanında karşılıklı oturup önceki öğrenme içeriğini ve tekrar planını değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "çalışma masası",
+      "not defteri veya çalışma materyali",
+      "isteğe bağlı telefon veya ses kaydı cihazı"
+    ],
+    "continuityFromPrevious": "SC018'de arkadaşla Çince pratik yapma temasından, Li Na ve Zhang Wei'nin ev ortamında daha yapılandırılmış eski içerik tekrarına geçiş.",
+    "continuityToNext": "SC020'de öğrenme yöntemini ayarlama temasına geçiş; tekrar deneyiminden çıkarılan sonuçlar bir sonraki sahnede yöntem değişikliğine bağlanır."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "locationReason": "Eski öğrenme içeriğini sakin biçimde tekrar etmek için Zhang Wei'nin warm modern compact apartment çalışma ortamı doğal ve continuity-safe bir mekândır.",
+    "dialogueEvidence": [
+      "复习旧内容",
+      "稳定的习惯",
+      "每周回头看一次",
+      "适合现在情况的方法更重要",
+      "先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK2_SC026 aynı LOC_ZHANG_HOME_001, aynı Li Na + Zhang Wei çifti, aynı casual outfitler ve aynı karşılıklı yüz yönleriyle dil pratiği/tekrar bağlamında kabul edilmiş canonical görsel kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "Canonical LOC_ZHANG_HOME_001 BG; HSK2_SC026 kabul edilmiş karakter içermeyen ev/çalışma ortamı yeniden kullanılır.",
+    "characterA": "Canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01; HSK2_SC026 kabul edilmiş face_right şeffaf karakter katmanı yeniden kullanılır.",
+    "characterB": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK2_SC026 kabul edilmiş face_left şeffaf karakter katmanı yeniden kullanılır.",
+    "foreground": "Canonical LOC_ZHANG_HOME_001 FG; HSK2_SC026 kabul edilmiş hafif çalışma alanı derinlik katmanı yeniden kullanılır ve karakterleri örtmez.",
+    "preview": "HSK2_SC026 kabul edilmiş tek 9:16 Li Na + Zhang Wei ev/öğrenme two-shot composite yeniden kullanılır; yazı, logo, baked subtitle veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc026/assets/hsk2_sc026_bg.webp",
+      "characterA": "content/hsk2/sc026/assets/hsk2_sc026_char_li_na.webp",
+      "characterB": "content/hsk2/sc026/assets/hsk2_sc026_char_zhang_wei.webp",
+      "foreground": "content/hsk2/sc026/assets/hsk2_sc026_fg.webp",
+      "preview": "content/hsk2/sc026/assets/hsk2_sc026_preview.webp"
+    }
+  }
+}
