@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK3_SC024",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Li Na mahalle eczanesi bağlamında ulaşım planını değiştirmeyi konuşur; plan değişikliği, iletişim ve küçük uygulanabilir adımlar üzerinde dururlar.",
+    "communicationPurpose": "ulaşım planını değiştirme, seçenekleri yeniden değerlendirme, nedenleri açıklama ve uygulanabilir yeni adım belirleme",
+    "tone": "sakin, düşünceli, destekleyici, yetişkin",
+    "mainPhysicalAction": "eczane içinde karşılıklı konuşarak plan değişikliğini değerlendirme",
+    "charactersPresent": ["CHAR_ZHANG_WEI_001","CHAR_LI_NA_001"],
+    "visibleProps": ["eczane rafları","tezgah alanı","gündelik küçük eczane ürünleri"],
+    "continuityFromPrevious": "SC023 elektronik mağazadaki problem çözme temasından, plan değişikliği gerektiren gündelik bir duruma geçiş.",
+    "continuityToNext": "SC025'te hastaneye gitmeden önce hazırlanma temasına geçiş; sağlık/planlama bağlamı doğal biçimde sürer."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PHARMACY_001",
+    "authoritativeBible": "locations/LOC_PHARMACY_001/visual_bible.json",
+    "locationReason": "SC024 manifesti LOC_PHARMACY_001'i kilitliyor; sonraki SC025 sağlık hazırlığı temasına continuity sağlar.",
+    "dialogueEvidence": ["更改出行计划","计划本来就需要调整","适合现在情况的方法更重要","先做一个具体的小步骤"],
+    "continuityEvidence": "HSK2_SC015 aynı canonical eczane ortamını complete görsellerle kullanır; HSK3_SC022 Zhang Wei ve Li Na'yı SC024 ile aynı outfit/yön düzeninde complete olarak içerir.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC015 canonical LOC_PHARMACY_001 karaktersiz BG yeniden kullanılır.",
+    "characterA": "HSK3_SC022 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC022 canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK2_SC015 canonical eczane FG yeniden kullanılır.",
+    "preview": "Dört runtime katmanından türetilen tek 9:16 two-shot composite; yazısız, logosuz, UI'sız.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc015/assets/hsk2_sc015_bg.webp",
+      "characterA": "content/hsk3/sc022/assets/hsk3_sc022_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc022/assets/hsk3_sc022_char_li_na.webp",
+      "foreground": "content/hsk2/sc015/assets/hsk2_sc015_fg.webp"
+    }
+  }
+}
