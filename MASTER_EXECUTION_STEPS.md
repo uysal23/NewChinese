@@ -80,13 +80,10 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 
 ## Güncel Durum
 - Golden Demo #163: kilitli referans.
-- SC001–SC030: tamam.
-- SC031–SC040: tamamlandı ve validation geçti.
-- SC041–SC050: tamamlandı; içerik, 50/50 görsel ve 240/240 ses hazır.
-- HSK1: 50/50 seviye kabulü tamamlandı. Run #280 validation, unit test, lint, debug APK ve release APK/AAB build SUCCESS.
-- HSK2: tamamlanan üretim adımları repo durumuna göre korunur; bu satır artık aktif çalışma noktası değildir.
-- HSK3: SC001–SC027 için görsel ve ses durumları complete.
-- HSK3_SC027: 5/5 canonical elektronik mağaza görseli doğrulandı; final validation, unit test ve Android lint SUCCESS.
-- HSK3_SC028: audio complete, visual pending (AUTO-PROGRESS canonical pharmacy stage başlatılıyor).
+- HSK1: 50/50 seviye kabulü tamamlandı.
+- HSK2: tamamlanan üretim adımları repo durumuna göre korunur.
+- HSK3: SC001–SC028 için görsel ve ses durumları complete.
+- HSK3_SC028: 5/5 canonical pharmacy görseli mevcut; mevcut CI run #37238185256 validation + unit test + Android lint SUCCESS.
+- HSK3_SC029: sıradaki AUTO-PROGRESS sahnesi.
 - **Aktif Adım: Adım 12 — HSK3'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK3_SC028 görsel assetlerini canonical kaynakla stage etmek, validate etmek ve complete duruma getirmek**
+- **Anlık iş kalemi: HSK3_SC029 için canonical görselleri doğrulayıp complete duruma getirmek; sonraki sahnelerde Actions tüketmemek için [skip ci] kullanılacak.**
