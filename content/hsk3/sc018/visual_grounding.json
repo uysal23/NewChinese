@@ -1,0 +1,51 @@
+{
+  "sceneId": "HSK3_SC018",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Liu Mei sıcak mahalle kafesinde arkadaşla Çince pratik yapmayı konuşur; düzenli pratik, iletişim ve küçük uygulanabilir adımlar üzerinde dururlar.",
+    "communicationPurpose": "arkadaşla Çince pratik yapma, iletişim kaygısını azaltma, planı ayarlama ve sürdürülebilir alışkanlık oluşturma",
+    "tone": "sıcak, sakin, destekleyici, yetişkin",
+    "mainPhysicalAction": "kafe masasında karşılıklı oturup doğal sohbet ve dil pratiği üzerine konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "visibleProps": [
+      "kafe masası",
+      "çay veya kahve fincanları",
+      "isteğe bağlı not defteri veya telefon"
+    ],
+    "continuityFromPrevious": "SC017 kütüphanede öğrenme materyali seçimi temasından, Zhang Wei'nin öğrenme sürecini sosyal konuşma pratiğine taşıdığı doğal geçiş.",
+    "continuityToNext": "SC019 ev ortamında eski konuları tekrar etme temasına geçiş; öğrenme rutini ve Zhang Wei sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "locationReason": "Arkadaşla doğal Çince konuşma pratiği için sıcak, aile dostu ve gündelik Hangzhou kafesi uygun sosyal ortam sağlar.",
+    "dialogueEvidence": [
+      "和朋友练中文",
+      "沟通的问题",
+      "听听对方的想法",
+      "稳定的习惯",
+      "先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC012 aynı LOC_CAFE_001, aynı Zhang Wei + Liu Mei çifti, aynı casual outfitler ve aynı karşılıklı yüz yönleriyle kabul edilmiş canonical görsel kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "Canonical LOC_CAFE_001 BG; HSK3_SC012 kabul edilmiş karaktersiz sıcak kafe katmanı yeniden kullanılır.",
+    "characterA": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK3_SC012 kabul edilmiş face_right şeffaf full-body katmanı yeniden kullanılır.",
+    "characterB": "Canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01; HSK3_SC012 kabul edilmiş face_left şeffaf full-body katmanı yeniden kullanılır.",
+    "foreground": "Canonical LOC_CAFE_001 FG; HSK3_SC012 kabul edilmiş hafif masa/kafe derinlik katmanı yeniden kullanılır ve karakterleri örtmez.",
+    "preview": "HSK3_SC012 kabul edilmiş tek 9:16 Zhang Wei + Liu Mei kafe two-shot composite yeniden kullanılır; yazı, logo, baked subtitle veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc012/assets/hsk3_sc012_bg.webp",
+      "characterA": "content/hsk3/sc012/assets/hsk3_sc012_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc012/assets/hsk3_sc012_char_liu_mei.webp",
+      "foreground": "content/hsk3/sc012/assets/hsk3_sc012_fg.webp",
+      "preview": "content/hsk3/sc012/assets/hsk3_sc012_preview.webp"
+    }
+  }
+}
