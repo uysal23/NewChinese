@@ -1,0 +1,50 @@
+{
+  "sceneId": "HSK3_SC022",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Li Na Hangzhou'daki mahalle ortamında bir cihaz için tamir randevusu alma sürecini konuşur; doğru soruları sorma, seçenekleri netleştirme ve küçük uygulanabilir adımlar belirleme üzerinde dururlar.",
+    "communicationPurpose": "tamir randevusu alma, hizmet seçeneklerini netleştirme, iletişim ve planlama",
+    "tone": "sakin, pratik, destekleyici, yetişkin",
+    "mainPhysicalAction": "mahallede yürürken veya küçük yerel işletmelerin yakınında durup tamir randevusu ve sonraki adımları değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "visibleProps": [
+      "mahalle kaldırımı",
+      "küçük yerel işletme cepheleri",
+      "isteğe bağlı telefon",
+      "ağaçlar ve yaya alanı"
+    ],
+    "continuityFromPrevious": "SC021'de evdeki cihaz sorununun tespit edilmesinden, SC022'de bu sorun için dışarıda tamir hizmeti/randevusu ayarlama adımına doğal geçiş.",
+    "continuityToNext": "SC023'te elektronik mağazası ve geciken kargo sorununa geçiş; cihaz/hizmet çözümü teması sürer."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_NEIGHBORHOOD_001",
+    "authoritativeBible": "locations/LOC_NEIGHBORHOOD_001/visual_bible.json",
+    "locationReason": "Tamir randevusu ve yerel hizmet seçeneklerini konuşmak için ağaçlı, küçük dükkânlı ve yaya dostu Zhang Wei mahallesi uygun gündelik Hangzhou bağlamıdır.",
+    "dialogueEvidence": [
+      "预约维修",
+      "没有先问清楚",
+      "沟通的问题",
+      "及时确认",
+      "先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK1_SC030 aynı LOC_NEIGHBORHOOD_001 için kabul edilmiş gerçek mahalle BG kaynağıdır; canonical Li Na ve Zhang Wei cutout'ları da aynı sahnede sağlam fiziksel assetler olarak mevcuttur.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK1_SC030 canonical LOC_NEIGHBORHOOD_001 BG, 9:16 mobile-safe biçime fit edilerek kullanılır.",
+    "characterA": "CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 canonical cutout; target face_right için yalnız horizontal mirror uygulanır, kimlik/outfit korunur.",
+    "characterB": "CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01 canonical cutout; target face_left için yalnız horizontal mirror uygulanır, kimlik/outfit korunur.",
+    "foreground": "Geçersiz eski placeholder FG kullanılmaz; 9:16 şeffaf, yalnız alt kenarlarda çok hafif çevresel derinlik veren ve karakterleri örtmeyen yeni FG türetilir.",
+    "preview": "BG + CHAR_A + CHAR_B + FG gerçek runtime katmanlarından türetilen tek 9:16 two-shot; yazı, logo, baked subtitle veya UI yok.",
+    "sourceReuse": {
+      "background": "content/hsk1/sc030/assets/hsk1_sc030_bg.webp",
+      "characterA": "content/hsk1/sc030/assets/hsk1_sc030_char_zhang_wei.webp",
+      "characterB": "content/hsk1/sc030/assets/hsk1_sc030_char_li_na.webp"
+    }
+  }
+}
