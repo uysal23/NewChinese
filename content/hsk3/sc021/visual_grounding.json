@@ -1,0 +1,51 @@
+{
+  "sceneId": "HSK3_SC021",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ile Zhang Wei Zhang Wei'nin evinde bir cihazın sorun çıkarması durumunu konuşur; önce basit kontrolleri değerlendirip sonra gerekirse yardım alma yaklaşımını netleştirir.",
+    "communicationPurpose": "evdeki cihaz sorununu tanımlama, basit kontrolleri değerlendirme, sorumluluk sınırını belirleme ve gerektiğinde yardım isteme",
+    "tone": "sakin, pratik, destekleyici, yetişkin",
+    "mainPhysicalAction": "evde çalışma/oturma alanında bir telefon, bilgisayar veya benzeri cihazı birlikte kontrol ederek konuşma",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "telefon veya dizüstü bilgisayar",
+      "çalışma masası",
+      "isteğe bağlı kulaklık veya bağlantı aksesuarı"
+    ],
+    "continuityFromPrevious": "SC020'de öğrenme yöntemini ayarlama temasından, ev ortamında karşılaşılan somut bir teknik sorunu değerlendirmeye geçiş.",
+    "continuityToNext": "SC022'de tamir randevusu alma temasına geçiş; evde yapılan ilk kontroller yetersiz kalırsa dışarıdan destek alma mantığı doğal biçimde devam eder."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "locationReason": "Sorun evdeki bir cihazla ilgili olduğu için Zhang Wei'nin warm modern compact apartment ortamı doğrudan sahne bağlamıyla eşleşir.",
+    "dialogueEvidence": [
+      "家里设备出问题",
+      "先解决眼前的问题",
+      "遇到不确定的地方及时确认",
+      "不要太快做选择",
+      "过几天我们再看看效果"
+    ],
+    "continuityEvidence": "HSK2_SC027 aynı LOC_ZHANG_HOME_001, aynı Li Na + Zhang Wei çifti, aynı casual outfitler ve aynı karşılıklı yüz yönleriyle bağlantı/cihaz kullanımı bağlamında kabul edilmiş canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "Canonical LOC_ZHANG_HOME_001 BG; HSK2_SC027 kabul edilmiş karaktersiz ev/çalışma ortamı yeniden kullanılır.",
+    "characterA": "Canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01; HSK2_SC027 kabul edilmiş face_right şeffaf karakter katmanı yeniden kullanılır.",
+    "characterB": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK2_SC027 kabul edilmiş face_left şeffaf karakter katmanı yeniden kullanılır.",
+    "foreground": "Canonical LOC_ZHANG_HOME_001 FG; HSK2_SC027 kabul edilmiş hafif ev/teknoloji derinlik katmanı yeniden kullanılır ve karakterleri örtmez.",
+    "preview": "HSK2_SC027 kabul edilmiş tek 9:16 Li Na + Zhang Wei ev/teknoloji two-shot composite yeniden kullanılır; yazı, logo, baked subtitle veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc027/assets/hsk2_sc027_bg.webp",
+      "characterA": "content/hsk2/sc027/assets/hsk2_sc027_char_li_na.webp",
+      "characterB": "content/hsk2/sc027/assets/hsk2_sc027_char_zhang_wei.webp",
+      "foreground": "content/hsk2/sc027/assets/hsk2_sc027_fg.webp",
+      "preview": "content/hsk2/sc027/assets/hsk2_sc027_preview.webp"
+    }
+  }
+}
