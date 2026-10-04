@@ -48,7 +48,7 @@
     }
   },
   "production": {
-    "status": "generated-awaiting-validation",
+    "status": "validated-complete",
     "generatedAssetCommit": "c2686a7491a8f3754af17ae25997ed8016efa19c",
     "physicalAssets": {
       "background": {
@@ -80,6 +80,13 @@
       "PREVIEW physically exists",
       "generation script QA passed"
     ],
-    "completionBlockedUntilValidation": true
+    "completionBlockedUntilValidation": false,
+    "validation": {
+      "runId": 37232705160,
+      "manifestContent": "success",
+      "mediaImporter": "success",
+      "unitTests": "success",
+      "androidLint": "success"
+    }
   }
 }
