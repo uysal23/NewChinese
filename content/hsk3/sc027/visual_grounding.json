@@ -1,0 +1,38 @@
+{
+  "sceneId":"HSK3_SC027",
+  "sceneContext":{
+    "status":"approved",
+    "summary":"Li Na ile Zhang Wei elektronik mağazasında internet sorununu çözmek için seçenekleri değerlendirir, sorunu netleştirir ve uygulanabilir sonraki adımı belirler.",
+    "communicationPurpose":"teknik bir sorunu açıklama, doğru soruyu sorma, çözüm seçeneklerini karşılaştırma ve sonraki adımı seçme",
+    "tone":"sakin, pratik, çözüm odaklı",
+    "mainPhysicalAction":"elektronik mağazasındaki cihaz/aksesuar alanında karşılıklı konuşup internet sorununu çözme seçeneklerini değerlendirme",
+    "charactersPresent":["CHAR_LI_NA_001","CHAR_ZHANG_WEI_001"],
+    "visibleProps":["telefon aksesuarları","küçük cihaz demo alanı","telefon veya not"],
+    "continuityFromPrevious":"SC026'daki günlük işlemi tamamladıktan sonra daha teknik bir günlük soruna geçiş.",
+    "continuityToNext":"SC028'de eczane ortamındaki komşuluk iletişimi temasına geçiş; açık soru sorma ve iletişim kurma sürekliliği korunur."
+  },
+  "locationMatch":{
+    "status":"approved",
+    "locationId":"LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible":"locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason":"İnternet/bağlantı sorunu için modern consumer electronics shop doğal ve dialogue-faithful çözüm ortamıdır.",
+    "dialogueEvidence":["解决网络问题","没有先问清楚","遇到不确定的地方及时确认","先解决眼前的问题"],
+    "continuityEvidence":"HSK3_SC023 aynı elektronik mağazası, aynı Li Na + Zhang Wei çifti ve aynı casual manifest sırasıyla kabul edilmiş canonical kaynaktır.",
+    "approvedForLayerPlanning":true
+  },
+  "layerPlan":{
+    "status":"approved",
+    "background":"HSK3_SC023 canonical electronics-store BG yeniden kullanılır.",
+    "characterA":"HSK3_SC023 canonical Li Na casual katmanı yeniden kullanılır.",
+    "characterB":"HSK3_SC023 canonical Zhang Wei casual katmanı yeniden kullanılır.",
+    "foreground":"HSK3_SC023 canonical store foreground katmanı yeniden kullanılır.",
+    "preview":"HSK3_SC023 kabul edilmiş electronics-store Li Na + Zhang Wei 9:16 preview yeniden kullanılır.",
+    "sourceReuse":{
+      "background":"content/hsk3/sc023/assets/hsk3_sc023_bg.webp",
+      "characterA":"content/hsk3/sc023/assets/hsk3_sc023_char_li_na.webp",
+      "characterB":"content/hsk3/sc023/assets/hsk3_sc023_char_zhang_wei.webp",
+      "foreground":"content/hsk3/sc023/assets/hsk3_sc023_fg.webp",
+      "preview":"content/hsk3/sc023/assets/hsk3_sc023_preview.webp"
+    }
+  }
+}
