@@ -46,5 +46,40 @@
       "characterA": "content/hsk1/sc030/assets/hsk1_sc030_char_zhang_wei.webp",
       "characterB": "content/hsk1/sc030/assets/hsk1_sc030_char_li_na.webp"
     }
+  },
+  "production": {
+    "status": "generated-awaiting-validation",
+    "generatedAssetCommit": "c2686a7491a8f3754af17ae25997ed8016efa19c",
+    "physicalAssets": {
+      "background": {
+        "file": "assets/hsk3_sc022_bg.webp",
+        "sizeBytes": 116410
+      },
+      "characterA": {
+        "file": "assets/hsk3_sc022_char_zhang_wei.webp",
+        "sizeBytes": 366710
+      },
+      "characterB": {
+        "file": "assets/hsk3_sc022_char_li_na.webp",
+        "sizeBytes": 428616
+      },
+      "foreground": {
+        "file": "assets/hsk3_sc022_fg.webp",
+        "sizeBytes": 15352
+      },
+      "preview": {
+        "file": "assets/hsk3_sc022_preview.webp",
+        "sizeBytes": 115558
+      }
+    },
+    "qa": [
+      "BG physically exists",
+      "CHAR_A physically exists",
+      "CHAR_B physically exists",
+      "FG physically exists",
+      "PREVIEW physically exists",
+      "generation script QA passed"
+    ],
+    "completionBlockedUntilValidation": true
   }
 }
