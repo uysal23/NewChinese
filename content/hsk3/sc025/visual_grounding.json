@@ -1,0 +1,38 @@
+{
+  "sceneId": "HSK3_SC025",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ile Zhang Wei evde, hastaneye gitmeden önce hazırlık yaparken hangi adımları önce ele alacaklarını ve planı nasıl sadeleştireceklerini konuşur.",
+    "communicationPurpose": "önceden hazırlık yapma, gerekli adımları sıralama, belirsizlikleri netleştirme ve uygulanabilir küçük bir adım belirleme",
+    "tone": "sakin, destekleyici, yetişkin",
+    "mainPhysicalAction": "Zhang Wei'nin evindeki çalışma/oturma alanında karşılıklı konuşup hazırlık planını gözden geçirme",
+    "charactersPresent": ["CHAR_LI_NA_001", "CHAR_ZHANG_WEI_001"],
+    "visibleProps": ["çalışma masası veya sehpa", "not defteri veya telefon", "gündelik ev eşyaları"],
+    "continuityFromPrevious": "SC024 eczane bağlamından sonra sağlıkla ilgili bir sonraki adımı evde sakin biçimde planlamaya geçiş.",
+    "continuityToNext": "SC026'da mahalle içinde küçük bir banka işini halletme temasına geçiş; planlama ve günlük görev yönetimi sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "locationReason": "Hastaneye gitmeden önce hazırlık yapmak için warm modern compact apartment doğal, güvenli ve aile dostu bir ön-hazırlık ortamıdır.",
+    "dialogueEvidence": ["去医院前准备", "计划本来就需要调整", "遇到不确定的地方及时确认", "先做一个具体的小步骤"],
+    "continuityEvidence": "HSK3_SC021 aynı LOC_ZHANG_HOME_001, aynı Li Na + Zhang Wei çifti, aynı casual outfitler ve aynı layered composition ile kabul edilmiş canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC021 kabul edilmiş canonical Zhang Wei Home BG yeniden kullanılır.",
+    "characterA": "Canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01 katmanı HSK3_SC021'den yeniden kullanılır.",
+    "characterB": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 katmanı HSK3_SC021'den yeniden kullanılır.",
+    "foreground": "HSK3_SC021 kabul edilmiş hafif ev içi foreground katmanı yeniden kullanılır.",
+    "preview": "HSK3_SC021 kabul edilmiş Li Na + Zhang Wei / Zhang Wei Home 9:16 preview'u aynı canonical kimlik ve lokasyon continuity'si nedeniyle yeniden kullanılır.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc021/assets/hsk3_sc021_bg.webp",
+      "characterA": "content/hsk3/sc021/assets/hsk3_sc021_char_li_na.webp",
+      "characterB": "content/hsk3/sc021/assets/hsk3_sc021_char_zhang_wei.webp",
+      "foreground": "content/hsk3/sc021/assets/hsk3_sc021_fg.webp",
+      "preview": "content/hsk3/sc021/assets/hsk3_sc021_preview.webp"
+    }
+  }
+}
