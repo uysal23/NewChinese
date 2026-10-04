@@ -1,7 +1,7 @@
 {
   "sceneId": "HSK3_SC016",
   "visual": {
-    "status": "complete",
+    "status": "pending",
     "required": [
       "assets/hsk3_sc016_bg.webp",
       "assets/hsk3_sc016_char_zhang_wei.webp",
@@ -9,7 +9,9 @@
       "assets/hsk3_sc016_fg.webp",
       "assets/hsk3_sc016_preview.webp"
     ],
-    "missing": []
+    "missing": [
+      "assets/hsk3_sc016_preview.webp"
+    ]
   },
   "audio": {
     "status": "complete",
@@ -59,5 +61,5 @@
     ],
     "missing": []
   },
-  "rule": "Mark complete only after physical assets exist and validation passes."
+  "rule": "Audio may be complete only after every declared physical M4A exists and validation passes; visuals remain pending until all declared visual assets exist and pass quality gate."
 }
