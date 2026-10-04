@@ -2,10 +2,10 @@
   "sceneId": "HSK3_SC020",
   "sceneContext": {
     "status": "approved",
-    "summary": "Zhang Wei ile Liu Mei halk kütüphanesinde mevcut çalışma yöntemini değerlendirir ve daha uygun, sürdürülebilir bir öğrenme yöntemi üzerinde anlaşır.",
-    "communicationPurpose": "öğrenme yöntemini değerlendirme, mevcut planı ayarlama, ilerlemeyi gözlemleme ve uygulanabilir küçük adım belirleme",
+    "summary": "Zhang Wei ile Liu Mei Hangzhou halk kütüphanesinde öğrenme yöntemini nasıl ayarlayacaklarını konuşur; mevcut planı, ilerlemeyi ve daha uygun çalışma yaklaşımını değerlendirirler.",
+    "communicationPurpose": "öğrenme yöntemini ayarlama, seçenekleri karşılaştırma, ilerlemeyi gözden geçirme ve sürdürülebilir küçük adım belirleme",
     "tone": "sakin, düşünceli, destekleyici, yetişkin",
-    "mainPhysicalAction": "kütüphane çalışma alanında karşılıklı konuşup çalışma yöntemini ve öğrenme planını gözden geçirme",
+    "mainPhysicalAction": "kütüphane çalışma alanında karşılıklı konuşarak mevcut çalışma yöntemini değerlendirme",
     "charactersPresent": [
       "CHAR_ZHANG_WEI_001",
       "CHAR_LIU_MEI_001"
@@ -13,17 +13,17 @@
     "visibleProps": [
       "kitap rafları",
       "çalışma masası",
-      "öğrenme kitapları veya not defteri",
-      "isteğe bağlı telefon"
+      "öğrenme materyalleri",
+      "isteğe bağlı not defteri veya telefon"
     ],
-    "continuityFromPrevious": "SC019'da eski konuları tekrar etme deneyiminden, Zhang Wei'nin bu deneyim üzerinden çalışma yöntemini yeniden değerlendirmesine geçiş.",
-    "continuityToNext": "SC021'de evdeki cihaz sorununa geçilir; Zhang Wei'nin aynı canonical kimliği ve problem çözme yaklaşımı korunur."
+    "continuityFromPrevious": "SC019 ev ortamında eski içeriği tekrar etme deneyiminden, bu deneyime göre öğrenme yöntemini kütüphanede yeniden değerlendirmeye geçiş.",
+    "continuityToNext": "SC021 evde cihaz sorunu temasına geçiş; Zhang Wei'nin öğrenme rutini ve problem çözme yaklaşımı korunur."
   },
   "locationMatch": {
     "status": "approved",
     "locationId": "LOC_PUBLIC_LIBRARY_001",
     "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
-    "locationReason": "Öğrenme yöntemini karşılaştırmak ve planı ayarlamak için sessiz, çalışma odaklı canonical Hangzhou Public Library Study Area doğal bir ortamdır.",
+    "locationReason": "Öğrenme yöntemini karşılaştırmak ve düzenlemek için sakin çalışma masaları ve öğrenme materyalleri bulunan canonical halk kütüphanesi doğrudan uygun ortamdır.",
     "dialogueEvidence": [
       "调整学习方法",
       "计划本来就需要调整",
@@ -31,16 +31,16 @@
       "每周回头看一次",
       "适合现在情况的方法更重要"
     ],
-    "continuityEvidence": "LOC_PUBLIC_LIBRARY_001 için HSK2_SC030 kabul edilmiş sağlam kütüphane katmanları; Zhang Wei + Liu Mei için HSK3_SC012 kabul edilmiş sağlam canonical karakter katmanları mevcuttur.",
+    "continuityEvidence": "LOC_PUBLIC_LIBRARY_001 daha önce complete kabul edilmiş HSK2_SC030 katmanlarıyla güvenli mekân kaynağı sağlar; Zhang Wei ve Liu Mei karakter katmanları ise HSK3_SC012/SC018'de aynı outfit ve yönlerle kabul edilmiştir.",
     "approvedForLayerPlanning": true
   },
   "layerPlan": {
     "status": "approved",
-    "background": "Canonical LOC_PUBLIC_LIBRARY_001 BG; HSK2_SC030 kabul edilmiş sağlam karaktersiz kütüphane katmanı yeniden kullanılır.",
-    "characterA": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK3_SC012 kabul edilmiş face_right şeffaf full-body katmanı yeniden kullanılır ve sol tarafta konumlanır.",
-    "characterB": "Canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01; HSK3_SC012 kabul edilmiş face_left şeffaf full-body katmanı yeniden kullanılır ve sağ tarafta konumlanır.",
-    "foreground": "Canonical LOC_PUBLIC_LIBRARY_001 FG; HSK2_SC030 kabul edilmiş hafif kütüphane derinlik katmanı yeniden kullanılır.",
-    "preview": "Dört gerçek katmandan türetilen tek 9:16 iki-shot; Zhang Wei solda, Liu Mei sağda; yazı, logo, baked subtitle veya UI yoktur.",
+    "background": "Canonical LOC_PUBLIC_LIBRARY_001 BG; HSK2_SC030 kabul edilmiş karaktersiz kütüphane katmanı yeniden kullanılır.",
+    "characterA": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK3_SC012 kabul edilmiş face_right şeffaf karakter katmanı yeniden kullanılır.",
+    "characterB": "Canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01; HSK3_SC012 kabul edilmiş face_left şeffaf karakter katmanı yeniden kullanılır.",
+    "foreground": "Canonical LOC_PUBLIC_LIBRARY_001 FG; HSK2_SC030 kabul edilmiş hafif kütüphane derinlik katmanı yeniden kullanılır ve karakterleri örtmez.",
+    "preview": "Dört gerçek runtime katmanından türetilen tek 9:16 Zhang Wei + Liu Mei kütüphane two-shot composite; yazı, logo, baked subtitle veya UI yok.",
     "sourceReuse": {
       "background": "content/hsk2/sc030/assets/hsk2_sc030_bg.webp",
       "characterA": "content/hsk3/sc012/assets/hsk3_sc012_char_zhang_wei.webp",

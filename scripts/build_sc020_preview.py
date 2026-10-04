@@ -11,10 +11,8 @@ def fit_char(path: Path, target_h: int, x: int, bottom: int = 930):
     if bbox:
         l, t, r, b = bbox
         pad = 8
-        l = max(0, l - pad)
-        t = max(0, t - pad)
-        r = min(im.width, r + pad)
-        b = min(im.height, b + pad)
+        l = max(0, l - pad); t = max(0, t - pad)
+        r = min(im.width, r + pad); b = min(im.height, b + pad)
         im = im.crop((l, t, r, b))
     scale = target_h / im.height
     im = im.resize((max(1, int(im.width * scale)), target_h), Image.Resampling.LANCZOS)
@@ -23,8 +21,8 @@ def fit_char(path: Path, target_h: int, x: int, bottom: int = 930):
     return canvas
 
 bg = Image.open(ASSETS / "hsk3_sc020_bg.webp").convert("RGB").resize((W, H), Image.Resampling.LANCZOS)
-char_a = fit_char(ASSETS / "hsk3_sc020_char_zhang_wei.webp", 710, -45)
-char_b = fit_char(ASSETS / "hsk3_sc020_char_liu_mei.webp", 700, 255)
+char_a = fit_char(ASSETS / "hsk3_sc020_char_zhang_wei.webp", 710, -30)
+char_b = fit_char(ASSETS / "hsk3_sc020_char_liu_mei.webp", 700, 270)
 fg = Image.open(ASSETS / "hsk3_sc020_fg.webp").convert("RGBA").resize((W, H), Image.Resampling.LANCZOS)
 
 preview = bg.convert("RGBA")
