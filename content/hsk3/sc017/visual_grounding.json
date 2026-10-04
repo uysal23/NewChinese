@@ -14,7 +14,7 @@
       "kitap rafları",
       "çalışma masası",
       "öğrenme kitapları/materyalleri",
-      "isteğe bağlı not defteri veya telefon"
+      "öğrenme araçları"
     ],
     "continuityFromPrevious": "SC016 ev ortamındaki hatalardan öğrenme temasından, Zhang Wei'nin aynı canonical kimliği korunarak kütüphanedeki pratik öğrenme seçimine geçiş.",
     "continuityToNext": "SC018'de Zhang Wei'nin arkadaşla Çince pratik yapma temasına geçiş; çalışma/öğrenme sürekliliği korunur."
@@ -23,7 +23,7 @@
     "status": "approved",
     "locationId": "LOC_PUBLIC_LIBRARY_001",
     "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
-    "locationReason": "Sahnenin konusu doğrudan öğrenme materyali seçimi olduğu için light wood shelves, quiet study tables ve reading/study zones içeren canonical Hangzhou Public Library Study Area diyaloğu doğal olarak destekler.",
+    "locationReason": "Sahnenin konusu doğrudan öğrenme materyali seçimi olduğu için canonical Hangzhou Public Library Study Area diyaloğu ve öğrenme eylemini doğal olarak destekler.",
     "dialogueEvidence": [
       "选择学习材料",
       "计划需要调整",
@@ -31,21 +31,22 @@
       "适合现在情况的方法更重要",
       "先做一个具体的小步骤"
     ],
-    "continuityEvidence": "Aynı LOC_PUBLIC_LIBRARY_001 HSK3_SC014 içinde kabul edilmiş ve complete durumdadır; mekân kimliği bu canonical kaynaktan korunur.",
+    "continuityEvidence": "LOC_PUBLIC_LIBRARY_001 ve Li Na + Zhang Wei ikilisi HSK2_SC030 içinde aynı casual outfit ve karşılıklı yönlerle kabul edilmiş, görsel olarak complete bir canonical kaynak oluşturur.",
     "approvedForLayerPlanning": true
   },
   "layerPlan": {
     "status": "approved",
-    "background": "Canonical LOC_PUBLIC_LIBRARY_001 BG; SC014 kabul edilmiş kütüphane katmanı yeniden kullanılır, karakter içermez ve kritik okunabilir metin yoktur.",
-    "characterA": "Canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01; SC013 kabul edilmiş şeffaf full-body katmanı, face_right yönüyle yeniden kullanılır.",
-    "characterB": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; SC013 kabul edilmiş şeffaf full-body katmanı, face_left yönüyle yeniden kullanılır.",
-    "foreground": "Canonical LOC_PUBLIC_LIBRARY_001 FG; SC014 kabul edilmiş hafif derinlik katmanı yeniden kullanılır, karakter yüz/gövde/jestlerini kapatmaz.",
-    "preview": "Dört runtime katmanından türetilen tek 9:16 iki-shot kompozit; Li Na solda, Zhang Wei sağda; yazı, logo, baked subtitle veya UI yok.",
+    "background": "Canonical LOC_PUBLIC_LIBRARY_001 BG; HSK2_SC030 kabul edilmiş kütüphane katmanı doğrudan yeniden kullanılır.",
+    "characterA": "Canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01; HSK2_SC030 kabul edilmiş face_right şeffaf karakter katmanı doğrudan yeniden kullanılır.",
+    "characterB": "Canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK2_SC030 kabul edilmiş face_left şeffaf karakter katmanı doğrudan yeniden kullanılır.",
+    "foreground": "Canonical LOC_PUBLIC_LIBRARY_001 FG; HSK2_SC030 kabul edilmiş hafif derinlik katmanı doğrudan yeniden kullanılır.",
+    "preview": "HSK2_SC030 kabul edilmiş tek 9:16 iki-shot canonical library composite doğrudan yeniden kullanılır; karakter, lokasyon, outfit ve öğrenme araçları bağlamı SC017 ile uyumludur.",
     "sourceReuse": {
-      "background": "content/hsk3/sc014/assets/hsk3_sc014_bg.webp",
-      "characterA": "content/hsk3/sc013/assets/hsk3_sc013_char_li_na.webp",
-      "characterB": "content/hsk3/sc013/assets/hsk3_sc013_char_zhang_wei.webp",
-      "foreground": "content/hsk3/sc014/assets/hsk3_sc014_fg.webp"
+      "background": "content/hsk2/sc030/assets/hsk2_sc030_bg.webp",
+      "characterA": "content/hsk2/sc030/assets/hsk2_sc030_char_li_na.webp",
+      "characterB": "content/hsk2/sc030/assets/hsk2_sc030_char_zhang_wei.webp",
+      "foreground": "content/hsk2/sc030/assets/hsk2_sc030_fg.webp",
+      "preview": "content/hsk2/sc030/assets/hsk2_sc030_preview.webp"
     }
   }
 }
