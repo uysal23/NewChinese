@@ -49,7 +49,7 @@
     }
   },
   "previewQa": {
-    "status": "generated-pending-validation",
+    "status": "validated",
     "derivedFrom": [
       "assets/hsk3_sc020_bg.webp",
       "assets/hsk3_sc020_char_zhang_wei.webp",
@@ -58,6 +58,13 @@
     ],
     "preview": "assets/hsk3_sc020_preview.webp",
     "previewBlobSha": "8fd05438bfece2e798187fc0eb6203516b753432",
-    "generatorCommit": "2c89cf19cdbccaeda3af6cc05cd2cd85feecb8c8"
+    "generatorCommit": "2c89cf19cdbccaeda3af6cc05cd2cd85feecb8c8",
+    "validationRunId": 37231691336,
+    "validation": {
+      "manifestsAndContent": "success",
+      "mediaImporterSmokeTest": "success",
+      "unitTests": "success",
+      "androidLint": "success"
+    }
   }
 }
