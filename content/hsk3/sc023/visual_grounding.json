@@ -1,0 +1,52 @@
+{
+  "sceneId": "HSK3_SC023",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ile Zhang Wei Hangzhou'daki elektronik mağazasında geciken bir kargo sorununu konuşur; durumu netleştirme, iletişim kurma, sorumluluk sınırlarını belirleme ve sonraki adımı planlama üzerinde dururlar.",
+    "communicationPurpose": "geciken kargo sorununu değerlendirme, bilgi netleştirme, iletişim ve uygulanabilir çözüm planı oluşturma",
+    "tone": "sakin, pratik, destekleyici, yetişkin",
+    "mainPhysicalAction": "elektronik mağazasında ürün/aksesuar alanına yakın bir noktada karşılıklı konuşup geciken teslimat ve sonraki adımları değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "küçük cihaz sergileme masası",
+      "telefon aksesuarları",
+      "kulaklık veya küçük elektronik ürünler",
+      "isteğe bağlı telefon"
+    ],
+    "continuityFromPrevious": "SC022'de tamir randevusu ve hizmet çözümü temasından, SC023'te elektronik mağazasında geciken kargo sorununa doğal geçiş; cihaz/hizmet çözümü teması sürer.",
+    "continuityToNext": "SC024'te ulaşım planını değiştirme temasına geçiş; beklenmeyen durumlara göre plan ayarlama motifi korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "Geciken elektronik ürün/kargo sorununu konuşmak için marka bağımsız, aile dostu ve küçük cihaz/aksesuar sergilerinin bulunduğu canonical elektronik mağazası uygun bağlamdır.",
+    "dialogueEvidence": [
+      "快递没按时到",
+      "没有先问清楚",
+      "沟通的问题",
+      "及时确认",
+      "先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK2_SC029 aynı LOC_ELECTRONICS_STORE_001, aynı Li Na + Zhang Wei çifti, aynı casual outfitler ve aynı karşılıklı yüz yönleriyle cihaz sorunu/mağazada yardım bağlamında kabul edilmiş canonical görsel kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC029 canonical LOC_ELECTRONICS_STORE_001 BG doğrudan yeniden kullanılır; karakter içermez ve mağaza kimliğini korur.",
+    "characterA": "CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01; HSK2_SC029 kabul edilmiş face_right şeffaf full-body katmanı doğrudan yeniden kullanılır.",
+    "characterB": "CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01; HSK2_SC029 kabul edilmiş face_left şeffaf full-body katmanı doğrudan yeniden kullanılır.",
+    "foreground": "HSK2_SC029 canonical elektronik mağaza FG doğrudan yeniden kullanılır; karakter yüz/gövde/jestlerini kapatmaz.",
+    "preview": "Aynı dört canonical runtime katmanından türetilmiş HSK2_SC029 kabul edilmiş 9:16 two-shot PREVIEW yeniden kullanılır; yazı, logo, baked subtitle veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc029/assets/hsk2_sc029_bg.webp",
+      "characterA": "content/hsk2/sc029/assets/hsk2_sc029_char_li_na.webp",
+      "characterB": "content/hsk2/sc029/assets/hsk2_sc029_char_zhang_wei.webp",
+      "foreground": "content/hsk2/sc029/assets/hsk2_sc029_fg.webp",
+      "preview": "content/hsk2/sc029/assets/hsk2_sc029_preview.webp"
+    }
+  }
+}
