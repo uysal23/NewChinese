@@ -1,0 +1,51 @@
+{
+  "sceneId": "HSK3_SC020",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Liu Mei Hangzhou halk kütüphanesinde öğrenme yöntemini ayarlamayı konuşur; plan, deneyim, iletişim ve ilerleme üzerinden daha uygun çalışma yöntemini seçerler.",
+    "communicationPurpose": "öğrenme yöntemini değerlendirme, mevcut yöntemi ayarlama, ilerlemeyi gözlemleme ve sürdürülebilir küçük adım belirleme",
+    "tone": "sakin, düşünceli, destekleyici, yetişkin",
+    "mainPhysicalAction": "kütüphane çalışma alanında karşılıklı konuşup öğrenme yöntemini ve çalışma planını değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "visibleProps": [
+      "kitap rafları",
+      "çalışma masası",
+      "öğrenme materyalleri",
+      "isteğe bağlı not defteri veya telefon"
+    ],
+    "continuityFromPrevious": "SC019'da eski konuları tekrar etme deneyiminden çıkarılan sonuçlar, SC020'de öğrenme yöntemini bilinçli biçimde ayarlama kararına bağlanır.",
+    "continuityToNext": "SC021'de evdeki cihaz sorunu temasına geçiş; Zhang Wei'nin problem çözme ve yöntemi uyarlama çizgisi korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "locationReason": "Öğrenme yöntemlerini ve çalışma planını değerlendirmek için canonical Hangzhou Public Library Study Area doğal, sakin ve eğitim odaklı bir ortam sağlar.",
+    "dialogueEvidence": [
+      "调整学习方法",
+      "计划本来就需要调整",
+      "稳定的习惯",
+      "每周回头看一次",
+      "适合现在情况的方法更重要"
+    ],
+    "continuityEvidence": "SC017'nin doğrulanmış LOC_PUBLIC_LIBRARY_001 BG/FG katmanları ile SC018'in doğrulanmış Zhang Wei + Liu Mei canonical karakter katmanları birlikte SC020 manifestindeki lokasyon, kimlik, outfit ve yüz yönü kilitlerini tam karşılar.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "SC017'de validation geçmiş canonical LOC_PUBLIC_LIBRARY_001 BG yeniden kullanılır; karakter içermez.",
+    "characterA": "SC018'de validation geçmiş canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 face_right şeffaf karakter katmanı yeniden kullanılır.",
+    "characterB": "SC018'de validation geçmiş canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01 face_left şeffaf karakter katmanı yeniden kullanılır.",
+    "foreground": "SC017'de validation geçmiş canonical LOC_PUBLIC_LIBRARY_001 FG yeniden kullanılır; karakter yüz/gövde/jestlerini kapatmaz.",
+    "preview": "BG + CHAR_A + CHAR_B + FG gerçek runtime katmanlarından 9:16 tek sahne preview türetilir; yazı, logo, baked subtitle, collage veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc017/assets/hsk3_sc017_bg.webp",
+      "characterA": "content/hsk3/sc018/assets/hsk3_sc018_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc018/assets/hsk3_sc018_char_liu_mei.webp",
+      "foreground": "content/hsk3/sc017/assets/hsk3_sc017_fg.webp"
+    }
+  }
+}
