@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC020",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou'daki sıcak mahalle kafesinde takım ilişkilerini; ortak hedef ve öncelikleri netleştirme, rol ve sorumluluk sınırlarını koruma, farklı görüşleri dinleme, olgu ile yorumu ayırma, somut ve şeffaf geri bildirim verme, önemli kararları kaydetme ve sonuç ile ilişkiyi birlikte gözetme çerçevesinde değerlendirir.",
+    "continuityFromPrevious": "HSK4_SC019'da güvenin tutarlı ve şeffaf iletişimle nasıl kurulduğu ele alınır; SC020'de bu güven pratiği ekip ilişkilerinin daha geniş ve bütünsel değerlendirmesine taşınır.",
+    "continuityToNext": "HSK4_SC021'de işten sonra gerçekten dinlenmeye geçilir; ekip içi sorumluluk ve ilişki dengesinden sürdürülebilir çalışma temposu ve kişisel dinlenme sınırlarına doğal continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC012 aynı LOC_CAFE_001, aynı Zhang Wei + Liu Mei çifti, aynı casual outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc012/assets/hsk3_sc012_bg.webp",
+    "characterA": "content/hsk3/sc012/assets/hsk3_sc012_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc012/assets/hsk3_sc012_char_liu_mei.webp",
+    "foreground": "content/hsk3/sc012/assets/hsk3_sc012_fg.webp",
+    "preview": "content/hsk3/sc012/assets/hsk3_sc012_preview.webp"
+  }
+}
