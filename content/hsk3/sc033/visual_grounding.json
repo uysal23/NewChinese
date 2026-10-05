@@ -1,0 +1,61 @@
+{
+  "sceneId": "HSK3_SC033",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou'daki sıcak mahalle kafesinde birlikte yemek yapma fikrini konuşur; planı netleştirir, seçenekleri değerlendirir ve uygulanabilir küçük adımlar belirler.",
+    "communicationPurpose": "birlikte yemek yapma planını netleştirme, seçenekleri değerlendirme, sorumlulukları doğrulama ve küçük uygulanabilir adımlar belirleme",
+    "tone": "sakin, arkadaşça, gündelik ve çözüm odaklı",
+    "mainPhysicalAction": "sıcak mahalle kafesinde oturup veya ayakta kısa bir sohbetle birlikte yemek yapma planını ve sonraki adımları konuşma",
+    "charactersPresent": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "tea or coffee",
+      "wood accents",
+      "modest seating",
+      "soft daylight"
+    ],
+    "continuityFromPrevious": "SC032'de Zhang Wei Liu Mei ile sosyal hafta sonu planını konuşurken, SC033'te Chen Yu ile başka bir ortak etkinlik planına geçer; seçenekleri değerlendirme ve küçük adım seçme davranışı korunur.",
+    "continuityToNext": "SC034'te Zhang Wei Liu Mei ile kitap kulübü tartışmasına geçer; iletişim, planlama ve uygun yöntem seçme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "locationReason": "Repo kilidine göre SC033'ün authoritative mekânı LOC_CAFE_001'dir; warm cozy family-friendly cafe, planlama ve arkadaşça sohbet için continuity açısından uygundur.",
+    "dialogueEvidence": [
+      "一起做饭",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK2_SC042 aynı LOC_CAFE_001 ve aynı Zhang Wei + Chen Yu çiftiyle, aynı casual outfitler ve LIGHT_WARM_NATURAL_01 altında visual-assets-complete kabul edilmiş canonical cafe kaynağıdır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "SC033 pending manifesti Chen Yu characterA / Zhang Wei characterB sırasındaydı; kabul edilmiş canonical cafe kompozisyonu HSK2_SC042'de Zhang Wei characterA / Chen Yu characterB düzenindedir. Scene.json ve dialogue speaker bağları değişmeden yalnız visual composition bu accepted kaynağa hizalandı.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / face_right",
+      "CHAR_CHEN_YU_001 / characterB / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC042 canonical cafe BG yeniden kullanılır.",
+    "characterA": "HSK2_SC042 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK2_SC042 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK2_SC042 canonical cafe FG yeniden kullanılır.",
+    "preview": "HSK2_SC042 kabul edilmiş Zhang Wei + Chen Yu cafe 9:16 preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc042/assets/hsk2_sc042_bg.webp",
+      "characterA": "content/hsk2/sc042/assets/hsk2_sc042_char_zhang_wei.webp",
+      "characterB": "content/hsk2/sc042/assets/hsk2_sc042_char_chen_yu.webp",
+      "foreground": "content/hsk2/sc042/assets/hsk2_sc042_fg.webp",
+      "preview": "content/hsk2/sc042/assets/hsk2_sc042_preview.webp"
+    }
+  }
+}

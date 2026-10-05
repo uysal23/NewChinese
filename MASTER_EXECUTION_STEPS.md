@@ -82,8 +82,8 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - Golden Demo #163: kilitli referans.
 - HSK1: 50/50 seviye kabulü tamamlandı.
 - HSK2: tamamlanan üretim adımları repo durumuna göre korunur.
-- HSK3: SC001–SC032 için görsel ve ses durumları complete.
-- HSK3_SC032: 5/5 canonical Community Center görseli mevcut; HSK2_SC045 kabul edilmiş Zhang Wei + Liu Mei katmanları continuity kurallarına uygun yeniden kullanıldı.
-- HSK3_SC033: sıradaki AUTO-PROGRESS sahnesi.
+- HSK3: SC001–SC033 için görsel ve ses durumları complete.
+- HSK3_SC033: 5/5 canonical Cafe görseli mevcut; HSK2_SC042 kabul edilmiş Zhang Wei + Chen Yu cafe katmanları continuity kurallarına uygun yeniden kullanıldı.
+- HSK3_SC034: sıradaki AUTO-PROGRESS sahnesi.
 - **Aktif Adım: Adım 12 — HSK3'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK3_SC033 için manifest + dialogue + continuity kontrolünü yapıp canonical görselleri complete duruma getirmek; Actions tüketmemek için [skip ci] kullanılacak.**
+- **Anlık iş kalemi: HSK3_SC034 için manifest + dialogue + continuity kontrolünü yapıp canonical görselleri complete duruma getirmek; Actions tüketmemek için [skip ci] kullanılacak.**
