@@ -1,0 +1,49 @@
+{
+  "sceneId": "HSK3_SC002",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında günün işlerini planlamayı konuşur; öncelikleri belirler, sorumlulukları netleştirir ve uygulanabilir küçük adımlarla çalışma gününü düzenler.",
+    "communicationPurpose": "günün işlerini planlama, öncelikleri belirleme, sorumlulukları netleştirme ve uygulanabilir çalışma adımları seçme",
+    "tone": "sakin, profesyonel, arkadaşça ve çözüm odaklı",
+    "mainPhysicalAction": "ofis break-room alanında günün görevlerini ve iş sırasını karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_WANG_MING_001"
+    ],
+    "visibleProps": [
+      "light wood table",
+      "simple kitchenette counter",
+      "tea and water station",
+      "small refrigerator",
+      "two or three indoor plants",
+      "clean neutral walls"
+    ],
+    "continuityFromPrevious": "SC001'de yeni görev kapsamı ve sorumluluklar netleştirilir; SC002'de bu görev günlük iş planına dönüştürülür.",
+    "continuityToNext": "SC003'te Wang Ming ile Zhang Wei son tarihi netleştirir; günlük iş planından deadline belirlemeye doğal iş continuity'si korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "locationReason": "Günün işlerini planlama üzerine kısa ve doğal iş konuşması; Zhang Wei ofisine bağlı küçük, aydınlık lunch/tea area canonical break-room ile uyumludur.",
+    "dialogueEvidence": [
+      "安排一天的工作",
+      "计划本来就需要调整，先看最重要的部分",
+      "先把自己负责的部分做好，遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "LOC_OFFICE_BREAKROOM_001 visual bible'dan türetilmiş yeni canonical 2.5D/3D BG kullanılır; insan, logo ve okunabilir yazı içermez.",
+    "characterA": "HSK3_SC045 accepted CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC045 accepted CHAR_WANG_MING_001 / OUTFIT_WANG_MING_WORK_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "Break-room BG ile aynı location bible'a göre oluşturulmuş şeffaf foreground depth katmanı kullanılır.",
+    "preview": "Kimlik drift'i riskini sıfırlamak için neutral canonical break-room BG fiziksel preview olarak kullanılır; runtime'da accepted iki character layer ayrı render edilir.",
+    "sourceReuse": {
+      "characterA": "content/hsk3/sc045/assets/hsk3_sc045_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc045/assets/hsk3_sc045_char_wang_ming.webp"
+    }
+  }
+}
