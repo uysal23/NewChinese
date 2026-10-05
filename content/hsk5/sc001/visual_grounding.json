@@ -1,0 +1,73 @@
+{
+  "sceneId": "HSK5_SC001",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki modern çalışma ortamında yapay zekânın günlük işe girmesini; verimlilik, kaynak, maliyet, risk, sorumluluk, belirsizlik ve uzun vadeli etki arasında dengeli karar verme çerçevesinde ele alır.",
+    "communicationPurpose": "Yapay zekâ araçlarının günlük iş akışına katılmasını tek boyutlu verimlilik yerine hedefler, kaynaklar, riskler, sorumluluklar ve uzun vadeli etkiler üzerinden değerlendirmek.",
+    "tone": "sakin, profesyonel, analitik ve çözüm odaklı",
+    "mainPhysicalAction": "modern ofis ortamında bilgisayar/masa başında iş akışı ve teknoloji kullanımı üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "large windows",
+      "compact office work area"
+    ],
+    "continuityFromPrevious": "HSK4_SC050'de Zhang Wei ile Chen Yu proje sonuçlarını, geri bildirimleri ve kanıta dayalı karar alışkanlıklarını değerlendirir. HSK5_SC001 bu refleksiyonu aynı işyeri bağlamında Wang Ming ile daha soyut teknoloji, risk ve sorumluluk tartışmasına taşır.",
+    "continuityToNext": "HSK5_SC002'de Zhang Wei ile Chen Yu teknoloji/araç seçimini daha somut bir elektronik mağazası bağlamında ele alır; SC001'de kurulan hedef-kaynak-risk değerlendirme çerçevesi bu seçime doğal temel oluşturur."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Günlük iş akışında yapay zekâ ve dijital araç kullanımını tartışmak için masaüstü bilgisayarlar ve profesyonel iş ortamı içeren Zhang Wei Workplace doğrudan uygundur.",
+    "dialogueEvidence": [
+      "人工智能进入日常工作",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK4_SC041 ve HSK4_SC047 aynı LOC_ZHANG_OFFICE_001 içinde aynı Zhang Wei + Wang Ming çifti, aynı canonical kıyafetler ve LIGHT_WARM_NATURAL_01 ile accepted complete durumundadır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC001 manifesti Wang Ming face_right + Zhang Wei face_left istemektedir. Accepted canonical Zhang Office pair kaynakları Zhang Wei face_right + Wang Ming face_left düzenindedir; identity drift yaratmamak için yalnız visual composition bu accepted düzene hizalanır. scene.json karakter üyeliği ve locked dialogue speaker sırası değişmez.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK4_SC041 accepted Zhang Office seti aynı mekân, aynı karakter çifti, aynı kıyafetler ve aynı ışıkla birebir canonical kaynak olarak yeniden kullanılır. Preview textless 9:16 accepted composite olup AI/iş temasına uygun neutral computer/desk context sağlar."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc041/assets/hsk4_sc041_bg.webp",
+    "characterA": "content/hsk4/sc041/assets/hsk4_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc041/assets/hsk4_sc041_char_wang_ming.webp",
+    "foreground": "content/hsk4/sc041/assets/hsk4_sc041_fg.webp",
+    "preview": "content/hsk4/sc041/assets/hsk4_sc041_preview.webp"
+  }
+}
