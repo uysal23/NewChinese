@@ -83,15 +83,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK1: 50/50 seviye kabulü tamamlandı.
 - HSK2: tamamlanan üretim adımları repo durumuna göre korunur.
 - HSK3: **50/50 visual + audio COMPLETE**; seviye kapanışı passed ve HSK4 geçişi allowed.
-- HSK4_SC001: 5/5 canonical Office visual complete.
-- HSK4_SC002: 5/5 canonical Break Room visual complete.
-- HSK4_SC003: 5/5 canonical Office visual complete.
-- HSK4_SC004: 5/5 canonical Break Room visual complete.
-- HSK4_SC005: 5/5 canonical Office visual complete.
-- HSK4_SC006: 5/5 canonical Break Room visual complete.
-- HSK4_SC007: 5/5 canonical Office visual complete.
-- HSK4_SC008: 5/5 canonical Break Room visual complete.
-- HSK4_SC009: 5/5 canonical Office visual complete; HSK3_SC045 accepted Office seti current Zhang Wei + Wang Ming outfit/yön kilitleriyle yeniden kullanıldı.
-- HSK4_SC001–SC010 batch: **9/10 visual complete, 10/10 audio complete**.
+- HSK4_SC001–SC010: **10/10 visual + audio complete**.
+- HSK4 first batch closure: pending final physical audit in this commit cycle.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC010 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC011 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**

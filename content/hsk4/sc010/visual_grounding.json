@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC010",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında ara değerlendirme yapmayı; ilerleme, öncelikler, kalite-verim dengesi, sorumluluk sınırları, ekip iletişimi ve sonraki iyileştirme adımlarını birlikte gözden geçirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC009'da sorumlu kişiye yapılandırılmış raporlama yapılır; SC010'da bu rapor ve çalışma yaklaşımı ara değerlendirmeyle gözden geçirilir.",
+    "continuityToNext": "HSK4_SC011'de yeni bir ekip arkadaşının katılması ele alınır; ara değerlendirmeden ekip yapısı ve onboarding koordinasyonuna doğal profesyonel continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC002 aynı mekân, aynı Zhang Wei + Wang Ming çifti, aynı outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc002/assets/hsk3_sc002_bg.webp",
+    "characterA": "content/hsk3/sc002/assets/hsk3_sc002_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc002/assets/hsk3_sc002_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc002/assets/hsk3_sc002_fg.webp",
+    "preview": "content/hsk3/sc002/assets/hsk3_sc002_preview.webp"
+  }
+}
