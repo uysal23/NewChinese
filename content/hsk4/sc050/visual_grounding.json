@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK4_SC050",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki modern çalışma ortamında HSK4 projesini değerlendirir; hedeflere ne ölçüde ulaşıldığını, güçlü ve zayıf yönleri, geri bildirimlerden öğrenilenleri ve bir sonraki seviyeye taşınacak çalışma alışkanlıklarını birlikte gözden geçirir.",
+    "continuityFromPrevious": "HSK4_SC049'da proje herkese açık biçimde sunulur; SC050'de sunum sonuçları, alınan tepkiler ve süreç boyunca verilen kararlar bütün proje açısından değerlendirilir.",
+    "continuityToNext": "HSK5_SC001'de Wang Ming ile Zhang Wei yapay zekânın günlük işe girmesini tartışır; SC050'de geliştirilen değerlendirme, kanıt-temelli karar ve proje refleksiyonu becerileri HSK5'te daha karmaşık iş/teknoloji bağlamına doğal geçiş sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "continuityEvidence": "HSK4_SC044 is an accepted complete Zhang Office composite with exact Zhang Wei + Chen Yu casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "SC050 exactly matches HSK4_SC044 for location, character IDs, outfits, anchors and lighting. The accepted textless 9:16 Office composite set is reused without regeneration."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc044/assets/hsk4_sc044_bg.webp",
+    "characterA": "content/hsk4/sc044/assets/hsk4_sc044_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc044/assets/hsk4_sc044_char_chen_yu.webp",
+    "foreground": "content/hsk4/sc044/assets/hsk4_sc044_fg.webp",
+    "preview": "content/hsk4/sc044/assets/hsk4_sc044_preview.webp"
+  }
+}
