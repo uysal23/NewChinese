@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC023",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Li Na ile Zhang Wei, Hangzhou West Lake kıyısında egzersiz için düzenli zaman ayırmayı; öncelikleri netleştirme, iş yoğunluğunun hareket zamanını aşındırmasını önleme, sürdürülebilir bir rutin kurma ve dinlenme ile hareket arasında gerçekçi denge kurma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC022'de gereksiz mesainin azaltılması ve sürdürülebilir çalışma sınırları ele alınır; SC023'te açılan zaman düzenli egzersiz ve hareket için planlanır.",
+    "continuityToNext": "HSK4_SC024'te uykuya özen göstermeye geçilir; düzenli hareket planından fiziksel toparlanma, dinlenme ve uyku kalitesini korumaya doğal continuity sağlanır."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_WEST_LAKE_001",
+    "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC040 is an accepted complete West Lake source with identical Li Na + Zhang Wei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc040/assets/hsk2_sc040_bg.webp",
+    "characterA": "content/hsk2/sc040/assets/hsk2_sc040_char_li_na.webp",
+    "characterB": "content/hsk2/sc040/assets/hsk2_sc040_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc040/assets/hsk2_sc040_fg.webp",
+    "preview": "content/hsk2/sc040/assets/hsk2_sc040_preview.webp"
+  }
+}
