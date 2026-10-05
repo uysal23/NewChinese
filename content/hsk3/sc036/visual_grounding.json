@@ -1,0 +1,52 @@
+{
+  "sceneId": "HSK3_SC036",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou Community Activity Center'da kısa bisiklet gezisi planını konuşur; seçenekleri değerlendirir, sorumlulukları netleştirir ve küçük uygulanabilir adımlar belirler.",
+    "communicationPurpose": "kısa bisiklet gezisi planını netleştirme, seçenekleri değerlendirme, sorumlulukları doğrulama ve uygulanabilir küçük adımlar seçme",
+    "tone": "sakin, arkadaşça, pratik ve destekleyici",
+    "mainPhysicalAction": "community center içindeki aydınlık etkinlik alanında veya giriş salonunda kısa bisiklet gezisi planını ve sonraki adımları konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "visibleProps": [
+      "light wood tables",
+      "movable chairs",
+      "notice board without readable text",
+      "large windows",
+      "small plant corner"
+    ],
+    "continuityFromPrevious": "SC035'te Chen Yu ile sosyal buluşma planlamasından SC036'da Liu Mei ile daha hareket odaklı bir hafta sonu planına geçilir; planlama, iletişim ve küçük adım seçme davranışı korunur.",
+    "continuityToNext": "SC037'de Chen Yu ile şehir gece fotoğrafları planına geçilir; sosyal planlama, seçenekleri değerlendirme ve uygulanabilir adım seçme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "locationReason": "Kısa bisiklet gezisi gibi mahalle/topluluk temelli hafta sonu planını konuşmak için community activity center doğal ve continuity açısından uygun bir buluşma noktasıdır.",
+    "dialogueEvidence": [
+      "计划短途骑行",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC032 aynı LOC_COMMUNITY_CENTER_001, aynı Zhang Wei + Liu Mei karakter sırası, aynı casual outfitler, aynı face_right/face_left bubble yönleri ve LIGHT_WARM_NATURAL_01 ile visual-assets-complete kabul edilmiş HSK3 canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC032 canonical Community Center BG yeniden kullanılır.",
+    "characterA": "HSK3_SC032 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC032 canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC032 canonical Community Center FG yeniden kullanılır.",
+    "preview": "HSK3_SC032 kabul edilmiş Zhang Wei + Liu Mei Community Center 9:16 preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc032/assets/hsk3_sc032_bg.webp",
+      "characterA": "content/hsk3/sc032/assets/hsk3_sc032_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc032/assets/hsk3_sc032_char_liu_mei.webp",
+      "foreground": "content/hsk3/sc032/assets/hsk3_sc032_fg.webp",
+      "preview": "content/hsk3/sc032/assets/hsk3_sc032_preview.webp"
+    }
+  }
+}
