@@ -85,7 +85,8 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK3: **50/50 visual + audio COMPLETE**; seviye kapanışı passed ve HSK4 geçişi allowed.
 - HSK4_SC001: 5/5 canonical Office visual complete.
 - HSK4_SC002: 5/5 canonical Break Room visual complete.
-- HSK4_SC003: 5/5 canonical Office visual complete; HSK3_SC045 accepted Office seti current Zhang Wei + Wang Ming outfit/yön kilitleriyle yeniden kullanıldı.
-- HSK4_SC001–SC010 batch: **3/10 visual complete, 10/10 audio complete**.
+- HSK4_SC003: 5/5 canonical Office visual complete.
+- HSK4_SC004: 5/5 canonical Break Room visual complete; HSK3_SC002 accepted Break Room seti aynı Zhang Wei + Wang Ming outfit/yön kilitleriyle yeniden kullanıldı.
+- HSK4_SC001–SC010 batch: **4/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC004 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC005 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**

@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC004",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında öncelikleri profesyonel biçimde tartışır; ortak hedefleri, seçenekleri, farklı görüşleri ve karar etkilerini değerlendirir.",
+    "continuityFromPrevious": "HSK4_SC003'te proje riskleri açıklanır; SC004'te bu risklere göre öncelikler tartışılır.",
+    "continuityToNext": "HSK4_SC005'te takvim baskısıyla başa çıkmaya geçilir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC002 aynı mekân, aynı Zhang Wei + Wang Ming çifti, aynı outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc002/assets/hsk3_sc002_bg.webp",
+    "characterA": "content/hsk3/sc002/assets/hsk3_sc002_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc002/assets/hsk3_sc002_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc002/assets/hsk3_sc002_fg.webp",
+    "preview": "content/hsk3/sc002/assets/hsk3_sc002_preview.webp"
+  }
+}
