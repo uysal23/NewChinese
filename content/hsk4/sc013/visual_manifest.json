@@ -3,20 +3,20 @@
   "locationId": "LOC_ZHANG_OFFICE_001",
   "assets": {
     "background": "assets/hsk4_sc013_bg.webp",
-    "characterA": "assets/hsk4_sc013_char_wang_ming.webp",
-    "characterB": "assets/hsk4_sc013_char_zhang_wei.webp",
+    "characterA": "assets/hsk4_sc013_char_zhang_wei.webp",
+    "characterB": "assets/hsk4_sc013_char_wang_ming.webp",
     "foreground": "assets/hsk4_sc013_fg.webp",
     "preview": "assets/hsk4_sc013_preview.webp"
   },
   "characters": [
     {
-      "characterId": "CHAR_WANG_MING_001",
-      "outfit": "OUTFIT_WANG_MING_WORK_01",
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
       "speechBubbleAnchor": "face_right"
     },
     {
-      "characterId": "CHAR_ZHANG_WEI_001",
-      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "characterId": "CHAR_WANG_MING_001",
+      "outfit": "OUTFIT_WANG_MING_WORK_01",
       "speechBubbleAnchor": "face_left"
     }
   ],
@@ -28,5 +28,5 @@
     "outline": "dashed",
     "text": false
   },
-  "status": "visual-assets-pending"
+  "status": "visual-assets-complete"
 }

@@ -1,0 +1,28 @@
+{
+  "sceneId": "HSK4_SC013",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki Zhang Wei ofisinde eleştiriyi kabul etmeyi; savunmaya geçmeden dinleme, olgu ile yorumu ayırma, geri bildirimin yararlı kısmını seçme ve sonraki adımı somutlaştırma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC012'de geri bildirim verme pratiği ele alınır; SC013'te geri bildirimi ve eleştiriyi olgun biçimde kabul etmeye geçilir.",
+    "continuityToNext": "HSK4_SC014'te birimler arası iletişime geçilir; eleştiriyi yapıcı biçimde kabul etmekten farklı ekiplerle daha açık koordinasyona doğal continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC045 aynı mekân ve current outfit kilitleriyle accepted Zhang Wei face_right + Wang Ming face_left canonical pairini içerir."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending manifestte Wang Ming face_right + Zhang Wei face_left düzeni vardı; current outfit lock'larıyla accepted complete pair bulunmadığından yalnız görsel kompozisyon SC045 accepted Zhang Wei face_right + Wang Ming face_left düzenine hizalandı. Scene/dialogue ve HSK4 maturity değişmedi."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc045/assets/hsk3_sc045_bg.webp",
+    "characterA": "content/hsk3/sc045/assets/hsk3_sc045_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc045/assets/hsk3_sc045_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc045/assets/hsk3_sc045_fg.webp",
+    "preview": "content/hsk3/sc045/assets/hsk3_sc045_preview.webp"
+  }
+}
