@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC025",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Li Na ile Zhang Wei, Hangzhou'daki sakin şehir parkında hafta sonu iş mesajlarına bakmamayı; çalışma ve özel yaşam sınırlarını koruma, sürekli erişilebilir olma baskısını azaltma, dinlenme zamanını gerçekten boş bırakma ve sürdürülebilir iş alışkanlıkları geliştirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC024'te uyku ve toparlanmayı koruma ele alınır; SC025'te bu sınır hafta sonuna genişletilerek iş mesajlarından zihinsel olarak uzaklaşma pratiğine taşınır.",
+    "continuityToNext": "HSK4_SC026'da Li Na ile stres konuşulacaktır; SC025'te işten kopabilme ve sınır koyma yaklaşımı, stres kaynaklarını açıkça tanımlama ve yönetme konusuna doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CITY_PARK_001",
+    "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC020 is an accepted complete City Park source with exact Li Na + Zhang Wei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc020/assets/hsk2_sc020_bg.webp",
+    "characterA": "content/hsk2/sc020/assets/hsk2_sc020_char_li_na.webp",
+    "characterB": "content/hsk2/sc020/assets/hsk2_sc020_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc020/assets/hsk2_sc020_fg.webp",
+    "preview": "content/hsk2/sc020/assets/hsk2_sc020_preview.webp"
+  }
+}

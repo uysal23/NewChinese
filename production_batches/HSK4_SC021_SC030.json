@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 4,
+    "visualComplete": 5,
     "audioComplete": 10,
-    "acceptedScenes": 4
+    "acceptedScenes": 5
   },
   "scenes": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "sceneId": "HSK4_SC025",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_CITY_PARK_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -103,11 +103,12 @@
     }
   ],
   "notes": [
-    "HSK4_SC021-SC024 visual + audio complete; HSK4_SC025-SC030 audio complete with visuals pending.",
+    "HSK4_SC021-SC025 visual + audio complete; HSK4_SC026-SC030 audio complete with visuals pending.",
     "HSK4_SC021 reuses accepted HSK3_SC021 canonical Zhang Wei Home assets.",
     "HSK4_SC022 uses accepted HSK2_SC020 canonical City Park composition aligned to accepted Li Na face_right + Zhang Wei face_left.",
     "HSK4_SC023 reuses accepted HSK2_SC040 canonical West Lake assets with identical Li Na face_right + Zhang Wei face_left casual composition.",
     "HSK4_SC024 reuses accepted HSK2_SC049 canonical Zhang Wei Home assets with exact Zhang Wei face_right + Li Na face_left casual composition.",
+    "HSK4_SC025 reuses accepted HSK2_SC020 canonical City Park assets with exact Li Na face_right + Zhang Wei face_left casual composition.",
     "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }
