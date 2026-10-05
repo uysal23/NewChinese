@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC046",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki sıcak mahalle kafesinde toplanan geri bildirimlere göre planı revize etmeyi; ortak hedefi koruma, sorunları önceliklendirme, uygulanabilir değişiklikleri seçme ve yeni planın etkilerini değerlendirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC045'te Wang Ming ile Zhang Wei geri bildirimleri toplar; SC046'da bu geri bildirimler Zhang Wei ile Chen Yu tarafından somut plan değişikliklerine dönüştürülür.",
+    "continuityToNext": "HSK4_SC047'de Wang Ming ile Zhang Wei görüş ayrılığı yaşar; revize edilen planın farklı öncelik ve beklentileri görünür kılması, doğal olarak görüş ayrılığı ve uzlaşma aşamasına geçiş sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC048 is an accepted complete Cafe source with exact Zhang Wei + Chen Yu casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc048/assets/hsk3_sc048_bg.webp",
+    "characterA": "content/hsk3/sc048/assets/hsk3_sc048_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc048/assets/hsk3_sc048_char_chen_yu.webp",
+    "foreground": "content/hsk3/sc048/assets/hsk3_sc048_fg.webp",
+    "preview": "content/hsk3/sc048/assets/hsk3_sc048_preview.webp"
+  }
+}
