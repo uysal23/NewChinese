@@ -103,8 +103,8 @@
     }
   ],
   "notes": [
-    "HSK4_SC001-SC010 visual production complete; batch now 10/10 visual complete and 10/10 audio complete.",
-    "Physical batch closure audit required and will be performed after commit.",
+    "HSK4_SC001-SC010 visual + audio production complete: 10/10 accepted scenes.",
+    "Physical closure audit PASSED: every scene has exactly 5 WebP visual assets and 46 M4A audio assets; no missing physical media.",
     "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }

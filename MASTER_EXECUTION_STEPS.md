@@ -84,6 +84,6 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK2: tamamlanan üretim adımları repo durumuna göre korunur.
 - HSK3: **50/50 visual + audio COMPLETE**; seviye kapanışı passed ve HSK4 geçişi allowed.
 - HSK4_SC001–SC010: **10/10 visual + audio complete**.
-- HSK4 first batch closure: pending final physical audit in this commit cycle.
+- HSK4 first batch closure: **PASSED** — SC001–SC010 için her sahnede 5/5 WebP + 46/46 M4A fiziksel doğrulandı; eksik medya yok.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
 - **Anlık iş kalemi: HSK4_SC011 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**
