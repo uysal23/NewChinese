@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC004",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki modern çalışma ortamında dijital araç bağımlılığını; verimlilik, alışkanlık, alternatif yöntemler, sorumluluk, risk ve uzun vadeli sürdürülebilirlik arasında denge kurarak değerlendirir.",
+    "communicationPurpose": "Dijital araçların faydasını korurken aşırı bağımlılık, tek araca bağlanma ve insan kararının zayıflaması risklerini değerlendirmek.",
+    "tone": "sakin, analitik, profesyonel ve çözüm odaklı",
+    "mainPhysicalAction": "modern ofis ortamında bilgisayar/masa başında dijital iş akışları ve araç bağımlılığı üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "large windows",
+      "compact office work area"
+    ],
+    "continuityFromPrevious": "HSK5_SC003'te Wang Ming ile Zhang Wei veri gizliliğinde bilgi kontrolü, sorumluluk ve uzun vadeli etkiyi değerlendirir. SC004'te Zhang Wei bu sorumluluk çerçevesini Chen Yu ile dijital araçlara aşırı bağımlılık ve sürdürülebilir iş alışkanlıklarına taşır.",
+    "continuityToNext": "HSK5_SC005'te Wang Ming ile Zhang Wei teknoloji araçlarını daha somut seçim/uygulama bağlamında değerlendirir; SC004'te kurulan araç bağımlılığı, alternatifler ve risk farkındalığı sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Dijital araç bağımlılığı doğrudan masaüstü bilgisayarlar, dijital iş akışı ve profesyonel kullanım alışkanlıklarıyla ilgili olduğu için canonical Zhang Wei Workplace sahneye doğrudan uygundur.",
+    "dialogueEvidence": [
+      "数字工具依赖",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "长期来看，稳定的方法和可持续的节奏更有价值。"
+    ],
+    "continuityEvidence": "HSK4_SC044 aynı LOC_ZHANG_OFFICE_001, aynı Zhang Wei + Chen Yu çifti, aynı canonical outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical composite kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "HSK4_SC044 accepted Zhang Office composite seti SC004 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc044/assets/hsk4_sc044_bg.webp",
+    "characterA": "content/hsk4/sc044/assets/hsk4_sc044_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc044/assets/hsk4_sc044_char_chen_yu.webp",
+    "foreground": "content/hsk4/sc044/assets/hsk4_sc044_fg.webp",
+    "preview": "content/hsk4/sc044/assets/hsk4_sc044_preview.webp"
+  }
+}
