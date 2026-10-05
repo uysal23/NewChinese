@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC030",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Li Na, Hangzhou'daki sıcak ev ortamında verimliliği yeniden tanımlamayı; yalnızca daha fazla iş üretmek yerine öncelik, kalite, sürdürülebilir tempo, dinlenme, odak ve ilişkisel dengeyi birlikte değerlendirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC029'da boş zamanın zihinsel toparlanma ve sürdürülebilir performans için gerekli olduğu vurgulanır; SC030'da bu anlayış verimliliğin daha geniş, dengeli ve sürdürülebilir bir tanımına dönüşür.",
+    "continuityToNext": "HSK4_SC031'de Chen Yu ile Zhang Wei ilk kez yerel tiyatro izlemeye geçer; SC030'da iş ve yaşam dengesinin yeniden tanımlanması, iş dışındaki kültürel deneyimlere bilinçli alan açılmasına doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC049 is an accepted complete Zhang Wei Home source with exact Zhang Wei + Li Na casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc049/assets/hsk2_sc049_bg.webp",
+    "characterA": "content/hsk2/sc049/assets/hsk2_sc049_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc049/assets/hsk2_sc049_char_li_na.webp",
+    "foreground": "content/hsk2/sc049/assets/hsk2_sc049_fg.webp",
+    "preview": "content/hsk2/sc049/assets/hsk2_sc049_preview.webp"
+  }
+}
