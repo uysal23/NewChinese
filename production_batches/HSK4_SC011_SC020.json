@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 6,
+    "visualComplete": 7,
     "audioComplete": 10,
-    "acceptedScenes": 6
+    "acceptedScenes": 7
   },
   "scenes": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "sceneId": "HSK4_SC017",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ZHANG_OFFICE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -103,6 +103,6 @@
     }
   ],
   "notes": [
-    "HSK4_SC011-SC016 complete; SC017-SC020 visual pending."
+    "HSK4_SC011-SC017 complete; SC018-SC020 visual pending."
   ]
 }
