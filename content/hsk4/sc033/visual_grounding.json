@@ -1,0 +1,46 @@
+{
+  "sceneId": "HSK4_SC033",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou Public Library'nin sakin çalışma alanında bayramların zaman içinde nasıl değiştiğini; gelenek ile modern yaşam arasındaki ilişkiyi, farklı kuşakların bakış açılarını, değişimin nedenlerini ve kültürel sürekliliği dengeli biçimde değerlendirerek konuşur.",
+    "continuityFromPrevious": "HSK4_SC032'de geleneksel mahalle ve su kasabası dokusu doğrudan gözlemlenir; SC033'te bu kültürel gözlem, geleneklerin ve bayram pratiklerinin zamanla nasıl değiştiğini daha düşünsel biçimde tartışmaya taşınır.",
+    "continuityToNext": "HSK4_SC034'te çay kültürünü öğrenmeye geçilir; SC033'te geleneklerin dönüşümünü tartışmak, belirli bir kültürel pratiği daha yakından inceleyerek süreklilik ve değişimi somutlaştırmaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC023 is an accepted complete Public Library source for the locked light-wood shelves, study tables, large windows, plants and LIGHT_WARM_NATURAL_01."
+  },
+  "characterMatch": {
+    "status": "approved",
+    "continuityEvidence": "HSK2_SC041 provides the accepted casual Zhang Wei face_right + Chen Yu face_left pair. No accepted exact reverse pair was found for Public Library, so the pending manifest was aligned to this canonical orientation without altering scene membership or dialogue."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "canonical-layer-composite",
+    "note": "Public Library BG/FG are reused from HSK2_SC023, exact accepted Zhang Wei/Chen Yu character layers from HSK2_SC041, and a scene-specific textless 9:16 preview was generated. Incorrect female-character preview attempts were explicitly rejected and never committed."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc023/assets/hsk2_sc023_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc023/assets/hsk2_sc023_fg.webp",
+    "preview": "content/hsk4/sc033/assets/hsk4_sc033_preview.webp"
+  }
+}
