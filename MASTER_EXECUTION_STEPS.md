@@ -110,6 +110,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4_SC032: 5/5 canonical Day Trip Town composite visual complete; HSK2_SC034 BG/FG + HSK2_SC045 Zhang Wei/Liu Mei layers + scene-specific preview kullanıldı.
 - HSK4_SC033: 5/5 canonical Public Library composite visual complete; HSK2_SC023 BG/FG + HSK2_SC041 Zhang Wei/Chen Yu layers + scene-specific preview kullanıldı.
 - HSK4_SC034: 5/5 canonical Community Center visual complete; HSK2_SC045 accepted Community Center seti yeniden kullanıldı.
-- HSK4_SC031–SC040 fourth batch: **4/10 visual complete, 10/10 audio complete**.
+- HSK4_SC035: 5/5 canonical Day Trip Town composite visual complete; HSK2_SC034 BG/FG + HSK2_SC041 Zhang Wei/Chen Yu layers + scene-specific preview kullanıldı.
+- HSK4_SC031–SC040 fourth batch: **5/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC035 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC036 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
