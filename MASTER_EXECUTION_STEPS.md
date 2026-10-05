@@ -83,9 +83,9 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK1: 50/50 seviye kabulü tamamlandı.
 - HSK2: tamamlanan üretim adımları repo durumuna göre korunur.
 - HSK3 audio: **50/50 complete**.
-- HSK3 visual/media acceptance: **39/50 complete**.
-- HSK3_SC050: 5/5 canonical Electronics Store görsel asseti mevcut; HSK3_SC046 kabul edilmiş BG/CHAR_A/CHAR_B/FG/PREVIEW seti aynı Zhang Wei + Chen Yu outfit ve yön kilitleriyle birebir yeniden kullanıldı.
-- HSK3 level closure: **BLOCKED** — görseli eksik/pending sahneler: SC001–SC010 ve SC011.
+- HSK3 visual/media acceptance: **40/50 complete**.
+- HSK3_SC001: eksik görsel onarımı tamamlandı; 5/5 canonical Office asseti mevcut ve HSK3_SC045 accepted Office seti continuity kurallarına uygun yeniden kullanıldı.
+- HSK3 level closure: **BLOCKED** — görseli eksik/pending sahneler: SC002–SC010 ve SC011.
 - HSK4_SC001 geçişi, HSK3 50/50 visual+audio kabulü tamamlanana kadar açılmayacak.
 - **Aktif Adım: Adım 12 — HSK3'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK3_SC001’den başlayarak SC001–SC011 eksik görsel zincirlerini BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation sırasıyla tamamla; Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK3_SC002 eksik görsel zincirini BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation sırasıyla tamamla; Actions tüketmemek için [skip ci] kullan.**
