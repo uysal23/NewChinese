@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK3_SC041",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki işyerinde dijital dosyaları düzenleme konusunu konuşur; planı netleştirir, seçenekleri değerlendirir, sorumlulukları belirler ve küçük uygulanabilir adımlar seçer.",
+    "communicationPurpose": "dijital dosya düzenleme planını netleştirme, iş akışını sadeleştirme, sorumlulukları doğrulama ve küçük uygulanabilir adımlar belirleme",
+    "tone": "sakin, profesyonel, arkadaşça ve çözüm odaklı",
+    "mainPhysicalAction": "modern ofis ortamında bilgisayar ve masa başı çalışma bağlamında dijital dosya düzenleme yaklaşımı üzerine konuşma",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "large windows",
+      "compact office work area"
+    ],
+    "continuityFromPrevious": "SC040'ta Zhang Wei Liu Mei ile sosyal dengeyi konuşurken, SC041'de Wang Ming ile işyeri bağlamına geçilir; planlama, önceliklendirme ve küçük adımlarla ilerleme davranışı korunur.",
+    "continuityToNext": "SC042'de Zhang Wei Chen Yu ile yeni bir uygulama deneme bağlamına geçer; dijital araçları değerlendirme, deneyimden öğrenme ve uygun yöntem seçme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Dijital dosyaları düzenlemek doğrudan masaüstü bilgisayarlar, depolama ve iş akışıyla ilgili olduğu için Zhang Wei Workplace sahnenin doğal ve authoritative mekânıdır.",
+    "dialogueEvidence": [
+      "整理数字文件",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK2_SC001 aynı LOC_ZHANG_OFFICE_001 ve aynı Zhang Wei + Wang Ming çiftiyle visual-assets-complete kabul edilmiş canonical ofis kaynağıdır; preview bilgisayar/masa bağlamını açık biçimde gösterir.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "SC041 pending manifesti Wang Ming characterA / Zhang Wei characterB sırasındaydı; repo içinde Wang Ming face_right physical canonical asset bulunmadı. Accepted HSK2_SC001 office composition Zhang Wei characterA / Wang Ming characterB düzenindedir. Scene.json ve dialogue speaker bağları korunarak yalnız visual composition bu accepted kaynağa hizalandı.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "wardrobeResolution": "Zhang Wei için current authoritative visual bible yalnız OUTFIT_ZHANG_WEI_CASUAL_01'i canonical sayıyor; SC041 manifestinde bu güncel outfit lock korunur. HSK2_SC001 fiziksel Zhang Wei asset'i modest casual görünümle uyumludur.",
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC001 canonical Zhang Wei Workplace BG yeniden kullanılır.",
+    "characterA": "HSK2_SC001 accepted Zhang Wei physical character layer, current HSK3 manifestte OUTFIT_ZHANG_WEI_CASUAL_01 olarak bağlanır.",
+    "characterB": "HSK2_SC001 canonical CHAR_WANG_MING_001 / OUTFIT_WANG_MING_WORK_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK2_SC001 canonical office FG yeniden kullanılır.",
+    "preview": "HSK2_SC001 kabul edilmiş 9:16 office preview yeniden kullanılır; bilgisayar/masa bağlamı SC041 temasına uygundur ve baked critical text, logo veya UI içermez.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc001/assets/hsk2_sc001_bg.webp",
+      "characterA": "content/hsk2/sc001/assets/hsk2_sc001_char_zhang_wei.webp",
+      "characterB": "content/hsk2/sc001/assets/hsk2_sc001_char_wang_ming.webp",
+      "foreground": "content/hsk2/sc001/assets/hsk2_sc001_fg.webp",
+      "preview": "content/hsk2/sc001/assets/hsk2_sc001_preview.webp"
+    }
+  }
+}
