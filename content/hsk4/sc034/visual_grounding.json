@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC034",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou topluluk merkezinde çay kültürünü öğrenmeyi; kültürel bir pratiğin gündelik yaşamla ilişkisini, farklı kuşak ve alışkanlıkları, gözlem ile yorum ayrımını ve geleneğin modern yaşam içindeki yerini dengeli biçimde değerlendirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC033'te bayramların zaman içinde nasıl değiştiği konuşulur; SC034'te kültürel değişim daha somut bir gelenek olan çay kültürü üzerinden incelenir.",
+    "continuityToNext": "HSK4_SC035'te müzedeki hikâyelere geçilir; çay kültürünü belirli bir pratik üzerinden öğrenme deneyimi, kültürel nesne ve anlatıların tarihsel bağlamını müze ortamında keşfetmeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001": "VOICE_LIU_MEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC045 is an accepted complete Community Center source with exact Zhang Wei + Liu Mei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc045/assets/hsk2_sc045_bg.webp",
+    "characterA": "content/hsk2/sc045/assets/hsk2_sc045_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc045/assets/hsk2_sc045_char_liu_mei.webp",
+    "foreground": "content/hsk2/sc045/assets/hsk2_sc045_fg.webp",
+    "preview": "content/hsk2/sc045/assets/hsk2_sc045_preview.webp"
+  }
+}
