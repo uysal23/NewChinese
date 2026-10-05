@@ -1,0 +1,62 @@
+{
+  "sceneId": "HSK3_SC009",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki Zhang Wei ofisinde küçük bir yanlış anlaşılmayı çözmeyi konuşur; nedenleri açıkça ifade etmeyi, karşı tarafı dinlemeyi ve sorumluluk sınırlarını netleştirmeyi değerlendirir.",
+    "communicationPurpose": "küçük bir yanlış anlaşılmayı çözme, nedenleri açıkça ifade etme, karşı tarafı dinleme ve iletişimde uygulanabilir küçük adım seçme",
+    "tone": "sakin, profesyonel, uzlaştırıcı ve çözüm odaklı",
+    "mainPhysicalAction": "ofis çalışma alanında küçük bir iletişim yanlış anlaşılmasını karşılıklı konuşarak çözme",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "compact meeting corner",
+      "simple notes without readable text"
+    ],
+    "continuityFromPrevious": "SC008'de ayrıntılar kontrol edilir; SC009'da gözden kaçan iletişim detaylarından doğan küçük bir yanlış anlaşılmayı çözmeye geçilir.",
+    "continuityToNext": "SC010'da haftalık iş değerlendirmesine geçilir; iletişim sorununun çözümünden haftalık genel değerlendirmeye doğal continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Küçük bir iş yanlış anlaşılmasını çözme ve profesyonel iletişimi netleştirme konusu canonical Zhang Wei Workplace ofisiyle uyumludur.",
+    "dialogueEvidence": [
+      "解决小误会",
+      "把原因说明白，再听听对方的想法，通常会好很多",
+      "先把自己负责的部分做好，遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC045 aynı LOC_ZHANG_OFFICE_001 için visual-assets-complete kabul edilmiş ve Zhang Wei CASUAL_01 / face_right + Wang Ming WORK_01 / face_left current canonical pairini içerir.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "SC009 pending manifesti Wang Ming characterA / face_right ve Zhang Wei characterB / face_left düzenindeydi; repo içinde current Zhang casual outfit lock ile bu yönlerde accepted complete pair yok. SC045 accepted Zhang Wei face_right + Wang Ming face_left pair yeniden kullanıldı. Scene.json karakter sırası ve dialogue speaker bağları değiştirilmedi.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC045 canonical LOC_ZHANG_OFFICE_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC045 canonical Zhang Wei CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC045 canonical Wang Ming WORK_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC045 canonical Office FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC045 accepted Office two-shot preview birebir yeniden kullanılır.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc045/assets/hsk3_sc045_bg.webp",
+      "characterA": "content/hsk3/sc045/assets/hsk3_sc045_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc045/assets/hsk3_sc045_char_wang_ming.webp",
+      "foreground": "content/hsk3/sc045/assets/hsk3_sc045_fg.webp",
+      "preview": "content/hsk3/sc045/assets/hsk3_sc045_preview.webp"
+    }
+  }
+}
