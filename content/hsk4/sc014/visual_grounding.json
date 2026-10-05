@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC014",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou'daki sıcak mahalle kafesinde birimler arası iletişimi; ortak hedefleri netleştirme, bilgi kaybını azaltma, sorumluluk sınırlarını açıklama ve farklı ekiplerin önceliklerini dengeli biçimde değerlendirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC013'te eleştiriyi kabul etme ve yapıcı geri bildirim alma ele alınır; SC014'te bu iletişim olgunluğu birimler arası koordinasyona taşınır.",
+    "continuityToNext": "HSK4_SC015'te bilgi yanlış anlaşılmalarını önlemeye geçilir; birimler arası iletişimden bilgi bütünlüğü ve doğrulama pratiğine doğal continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC012 aynı LOC_CAFE_001, aynı Zhang Wei + Liu Mei çifti, aynı casual outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc012/assets/hsk3_sc012_bg.webp",
+    "characterA": "content/hsk3/sc012/assets/hsk3_sc012_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc012/assets/hsk3_sc012_char_liu_mei.webp",
+    "foreground": "content/hsk3/sc012/assets/hsk3_sc012_fg.webp",
+    "preview": "content/hsk3/sc012/assets/hsk3_sc012_preview.webp"
+  }
+}
