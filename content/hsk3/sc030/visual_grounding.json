@@ -1,0 +1,49 @@
+{
+  "sceneId": "HSK3_SC030",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Li Na, Hangzhou'daki mahalle ortamında hafta sonu çok iş olduğunda öncelikleri belirleme, işleri sıraya koyma ve küçük uygulanabilir adımlar seçme üzerine konuşur.",
+    "communicationPurpose": "yoğun bir hafta sonunu planlama, öncelikleri belirleme, sorumlulukları netleştirme, belirsiz noktaları doğrulama ve küçük adımlarla ilerleme",
+    "tone": "sakin, pratik, destekleyici ve gündelik",
+    "mainPhysicalAction": "temiz ve yaya dostu mahalle ortamında yürürken veya kısa süre durup hafta sonu görevlerini ve önceliklerini konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "visibleProps": [
+      "telefon veya küçük not",
+      "gündelik mahalle/sokak öğeleri"
+    ],
+    "continuityFromPrevious": "SC029'da ev bütçesi için plan ve sorumluluklar netleştirildikten sonra SC030'da aynı planlama alışkanlığı hafta sonu görev yönetimine taşınır.",
+    "continuityToNext": "SC031'de Zhang Wei, Chen Yu ile şehir parkındaki fotoğraf etkinliğine geçer; önceliklendirme ve bir sonraki uygulanabilir adımı seçme davranışı korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_NEIGHBORHOOD_001",
+    "authoritativeBible": "locations/LOC_NEIGHBORHOOD_001/visual_bible.json",
+    "locationReason": "Hafta sonu çok iş olduğunda günlük işleri ve öncelikleri konuşmak için temiz, yaya dostu, aile dostu Hangzhou mahalle ortamı doğal bir dış mekândır.",
+    "dialogueEvidence": [
+      "周末事情太多",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC026 aynı LOC_NEIGHBORHOOD_001, aynı Zhang Wei + Li Na karakter sırası, aynı casual outfitler, aynı face_right/face_left bubble yönleri ve LIGHT_WARM_NATURAL_01 ile complete kabul edilmiş en yakın canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC026 kabul edilmiş canonical neighborhood BG yeniden kullanılır.",
+    "characterA": "HSK3_SC026 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC026 canonical CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC026 kabul edilmiş canonical neighborhood FG yeniden kullanılır.",
+    "preview": "HSK3_SC026 kabul edilmiş Zhang Wei + Li Na neighborhood 9:16 preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc026/assets/hsk3_sc026_bg.webp",
+      "characterA": "content/hsk3/sc026/assets/hsk3_sc026_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc026/assets/hsk3_sc026_char_li_na.webp",
+      "foreground": "content/hsk3/sc026/assets/hsk3_sc026_fg.webp",
+      "preview": "content/hsk3/sc026/assets/hsk3_sc026_preview.webp"
+    }
+  }
+}
