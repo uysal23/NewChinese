@@ -104,7 +104,7 @@
   ],
   "notes": [
     "HSK4_SC031-SC040 visual + audio production complete: 10/10 accepted scenes.",
-    "Physical closure audit pending final physical count verification for exactly 5 WebP visual assets and 46 M4A audio assets per scene.",
+    "Physical closure audit PASSED: every scene has exactly 5 WebP visual assets and 46 M4A audio assets; manifest/media status complete and no missing physical media.",
     "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }
