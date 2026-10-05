@@ -111,10 +111,9 @@
     "level": "HSK3",
     "totalScenes": 50,
     "audioComplete": 50,
-    "visualComplete": 48,
-    "acceptedScenes": 48,
+    "visualComplete": 49,
+    "acceptedScenes": 49,
     "missingVisualScenes": [
-      "HSK3_SC010",
       "HSK3_SC011"
     ],
     "nextLevel": "HSK4",
