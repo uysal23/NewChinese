@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK4_SC022",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Li Na, Hangzhou'daki sakin şehir parkında gereksiz mesaiyi azaltmayı; öncelikleri netleştirme, sorumluluk sınırlarını koruma, baskı altında acele karar vermeme, verimlilik ile kaliteyi dengeleme ve işi sürdürülebilir biçimde planlama çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC021'de işten sonra gerçekten dinlenme ve işi zihinsel olarak bırakma ele alınır; SC022'de bu sınır koyma yaklaşımı gereksiz fazla mesainin nedenlerini ve çalışma düzenini iyileştirmeye taşınır.",
+    "continuityToNext": "HSK4_SC023'te egzersiz için zaman ayırmaya geçilir; SC022'de gereksiz mesaiyi azaltarak kazanılan zamanın sağlıklı hareket ve düzenli egzersiz için ayrılmasına doğal continuity sağlanır."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CITY_PARK_001",
+    "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC020 is an accepted complete City Park source with the same Li Na + Zhang Wei casual outfit pair, face_right/face_left composition and LIGHT_WARM_NATURAL_01."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC022 manifest requested Zhang Wei face_right + Li Na face_left. No accepted exact pair was used; composition is aligned to the accepted HSK2_SC020 Li Na face_right + Zhang Wei face_left canonical arrangement. Scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc020/assets/hsk2_sc020_bg.webp",
+    "characterA": "content/hsk2/sc020/assets/hsk2_sc020_char_li_na.webp",
+    "characterB": "content/hsk2/sc020/assets/hsk2_sc020_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc020/assets/hsk2_sc020_fg.webp",
+    "preview": "content/hsk2/sc020/assets/hsk2_sc020_preview.webp"
+  }
+}
