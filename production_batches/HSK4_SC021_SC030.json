@@ -6,14 +6,14 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
+    "visualComplete": 1,
     "audioComplete": 10,
-    "acceptedScenes": 0
+    "acceptedScenes": 1
   },
   "scenes": [
     {
       "sceneId": "HSK4_SC021",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -103,6 +103,8 @@
     }
   ],
   "notes": [
-    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending."
+    "HSK4_SC021 visual + audio complete; HSK4_SC022-SC030 audio complete with visuals pending.",
+    "HSK4_SC021 reuses the accepted HSK3_SC021 canonical Zhang Wei Home set with identical location, character order, casual outfits and face_right/face_left anchors.",
+    "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }

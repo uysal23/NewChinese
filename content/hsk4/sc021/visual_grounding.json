@@ -1,0 +1,33 @@
+{
+  "sceneId": "HSK4_SC021",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Li Na ile Zhang Wei, Hangzhou'daki sıcak ve modern ev ortamında işten sonra gerçekten dinlenme temasını; iş sorumluluklarını netleştirme, baskı altında daha bilinçli karar verme, sınırları koruma, işbirliğini sürdürülebilir tutma ve işi eve taşımadan dinlenmeye alan açma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC020'de takım ilişkileri, sorumluluk sınırları ve sürdürülebilir işbirliği değerlendirilir; SC021'de bu denge işten sonra zihinsel olarak işi bırakıp gerçekten dinlenmeye taşınır.",
+    "continuityToNext": "HSK4_SC022'de gereksiz mesaiyi azaltmaya geçilir; SC021'deki dinlenme ve sınır koyma yaklaşımı, fazla mesainin nedenlerini ve çalışma verimliliğini değerlendirmeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "note": "Dialogue structure, speaker/voice mapping and HSK4 maturity are valid. Existing locked dialogue and already-complete audio are preserved without content rewrites."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC021 is an accepted canonical source with the identical LOC_ZHANG_HOME_001, Li Na + Zhang Wei order, casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc021/assets/hsk3_sc021_bg.webp",
+    "characterA": "content/hsk3/sc021/assets/hsk3_sc021_char_li_na.webp",
+    "characterB": "content/hsk3/sc021/assets/hsk3_sc021_char_zhang_wei.webp",
+    "foreground": "content/hsk3/sc021/assets/hsk3_sc021_fg.webp",
+    "preview": "content/hsk3/sc021/assets/hsk3_sc021_preview.webp"
+  }
+}
