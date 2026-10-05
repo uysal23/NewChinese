@@ -1,0 +1,52 @@
+{
+  "sceneId": "HSK3_SC038",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou West Lake kıyısında arkadaşları eve davet etme planını konuşur; seçenekleri değerlendirir, iletişim ve sorumlulukları netleştirir ve küçük uygulanabilir adımlar belirler.",
+    "communicationPurpose": "arkadaşları eve davet etme planını netleştirme, seçenekleri değerlendirme, sorumlulukları doğrulama ve uygulanabilir küçük adımlar belirleme",
+    "tone": "sakin, arkadaşça, gündelik ve destekleyici",
+    "mainPhysicalAction": "West Lake kıyısındaki sakin yürüyüş alanında oturup veya kısa süre durup davet planını ve sonraki adımları konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "visibleProps": [
+      "lake view",
+      "tree-lined walkway",
+      "stone railing",
+      "distant hills",
+      "small sightseeing boats without readable text"
+    ],
+    "continuityFromPrevious": "SC037'de Chen Yu ile yaratıcı bir şehir fotoğrafı planından SC038'de Liu Mei ile sosyal ev daveti planına geçilir; planlama, iletişim ve küçük adımla ilerleme davranışı korunur.",
+    "continuityToNext": "SC039'da Chen Yu ile yeni biriyle tanışma bağlamına geçilir; sosyal iletişim, seçenekleri değerlendirme ve uygulanabilir adım seçme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_WEST_LAKE_001",
+    "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+    "locationReason": "Repo kilidine göre SC038'in authoritative mekânı LOC_WEST_LAKE_001'dir; sakin ve aile dostu göl kıyısı sosyal planlama konuşması için doğal bir bağlam sağlar.",
+    "dialogueEvidence": [
+      "邀请朋友来家里",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC034 aynı LOC_WEST_LAKE_001, aynı Zhang Wei + Liu Mei karakter sırası, aynı casual outfitler, aynı face_right/face_left bubble yönleri ve LIGHT_WARM_NATURAL_01 ile visual-assets-complete kabul edilmiş HSK3 canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC034 canonical West Lake BG yeniden kullanılır.",
+    "characterA": "HSK3_SC034 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC034 canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC034 canonical West Lake FG yeniden kullanılır.",
+    "preview": "HSK3_SC034 kabul edilmiş Zhang Wei + Liu Mei West Lake 9:16 preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc034/assets/hsk3_sc034_bg.webp",
+      "characterA": "content/hsk3/sc034/assets/hsk3_sc034_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc034/assets/hsk3_sc034_char_liu_mei.webp",
+      "foreground": "content/hsk3/sc034/assets/hsk3_sc034_fg.webp",
+      "preview": "content/hsk3/sc034/assets/hsk3_sc034_preview.webp"
+    }
+  }
+}
