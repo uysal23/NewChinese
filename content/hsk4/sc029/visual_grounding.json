@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC029",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Li Na ile Zhang Wei, Hangzhou West Lake kıyısında kendine bilinçli boş zaman bırakmayı; yoğun programı sadeleştirme, her boşluğu işle doldurmama, zihinsel toparlanmaya alan açma ve verimlilik ile yaşam kalitesi arasında daha sağlıklı bir denge kurma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC028'de odaklanmayı geri kazanmak için dikkat yükü ve gereksiz sorumluluklar azaltılır; SC029'da bu sadeleşme, takvimde ve zihinde bilinçli boşluk bırakmaya taşınır.",
+    "continuityToNext": "HSK4_SC030'da verimliliği yeniden tanımlamaya geçilir; boş zamanın kayıp değil toparlanma ve sürdürülebilir performansın bir parçası olduğu fikri, verimliliği yalnızca daha fazla iş üretmekten daha geniş bir çerçevede değerlendirmeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_WEST_LAKE_001",
+    "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC040 is an accepted complete West Lake source with exact Li Na + Zhang Wei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc040/assets/hsk2_sc040_bg.webp",
+    "characterA": "content/hsk2/sc040/assets/hsk2_sc040_char_li_na.webp",
+    "characterB": "content/hsk2/sc040/assets/hsk2_sc040_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc040/assets/hsk2_sc040_fg.webp",
+    "preview": "content/hsk2/sc040/assets/hsk2_sc040_preview.webp"
+  }
+}
