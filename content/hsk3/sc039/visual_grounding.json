@@ -1,0 +1,61 @@
+{
+  "sceneId": "HSK3_SC039",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou City Park'ta yeni biriyle tanışma konusunu konuşur; iletişim biçimini, seçenekleri ve sorumlulukları değerlendirip uygulanabilir küçük adımlar belirler.",
+    "communicationPurpose": "yeni biriyle tanışma sürecini netleştirme, sosyal iletişimi planlama, sorumlulukları doğrulama ve küçük uygulanabilir adımlar belirleme",
+    "tone": "sakin, arkadaşça, sosyal ve destekleyici",
+    "mainPhysicalAction": "şehir parkındaki göl ve yürüyüş yolu çevresinde yeni biriyle tanışma ve iletişim yaklaşımı üzerine konuşma",
+    "charactersPresent": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "lake",
+      "small bridge",
+      "walking paths",
+      "map board without readable text"
+    ],
+    "continuityFromPrevious": "SC038'de Zhang Wei Liu Mei ile sosyal davet planını konuşurken, SC039'da Chen Yu ile yeni biriyle tanışma bağlamına geçilir; sosyal iletişim ve küçük adımlarla ilerleme davranışı korunur.",
+    "continuityToNext": "SC040'da Zhang Wei Liu Mei ile sosyallik ve dinlenme dengesini konuşur; sosyal planlama, sınır koyma ve uygulanabilir adım seçme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CITY_PARK_001",
+    "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+    "locationReason": "Repo kilidine göre SC039'un authoritative mekânı LOC_CITY_PARK_001'dir; sakin, aile dostu açık alan yeni biriyle tanışma ve sosyal iletişim planı için doğal bir bağlam sağlar.",
+    "dialogueEvidence": [
+      "认识新成员",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC035 aynı LOC_CITY_PARK_001 ve aynı Zhang Wei + Chen Yu çiftiyle, aynı casual outfitler, aynı face_right/face_left visual composition ve LIGHT_WARM_NATURAL_01 ile visual-assets-complete kabul edilmiş HSK3 canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "SC039 pending manifesti Chen Yu characterA / Zhang Wei characterB sırasındaydı; accepted HSK3_SC035 City Park composition Zhang Wei characterA / Chen Yu characterB düzenindedir. Scene.json ve dialogue speaker bağları değişmeden yalnız visual composition canonical kaynağa hizalandı.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / face_right",
+      "CHAR_CHEN_YU_001 / characterB / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC035 canonical City Park BG yeniden kullanılır.",
+    "characterA": "HSK3_SC035 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC035 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC035 canonical City Park FG yeniden kullanılır.",
+    "preview": "HSK3_SC035 kabul edilmiş Zhang Wei + Chen Yu City Park 9:16 preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc035/assets/hsk3_sc035_bg.webp",
+      "characterA": "content/hsk3/sc035/assets/hsk3_sc035_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc035/assets/hsk3_sc035_char_chen_yu.webp",
+      "foreground": "content/hsk3/sc035/assets/hsk3_sc035_fg.webp",
+      "preview": "content/hsk3/sc035/assets/hsk3_sc035_preview.webp"
+    }
+  }
+}
