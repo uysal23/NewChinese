@@ -1,0 +1,54 @@
+{
+  "sceneId": "HSK4_SC002",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında takım toplantısına nasıl hazırlanacaklarını tartışır; ortak hedefleri, öncelikleri, sorumlulukları, farklı görüşleri ve toplantıda olası çatışmaları nasıl yöneteceklerini daha olgun profesyonel bir çerçevede değerlendirir.",
+    "communicationPurpose": "takım toplantısına hazırlanma, hedef ve öncelikleri netleştirme, sorumlulukları belirleme, farklı görüşleri yönetme ve koordinasyon kalitesini artırma",
+    "tone": "profesyonel, olgun, işbirlikçi, analitik ve çözüm odaklı",
+    "mainPhysicalAction": "office break-room alanında yaklaşan takım toplantısının hedeflerini, gündem önceliklerini ve iletişim yaklaşımını karşılıklı planlama",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_WANG_MING_001"
+    ],
+    "visibleProps": [
+      "light wood table",
+      "simple kitchenette counter",
+      "tea and water station",
+      "small refrigerator",
+      "two or three indoor plants",
+      "neutral meeting notes without readable text"
+    ],
+    "continuityFromPrevious": "HSK4_SC001'de daha önemli bir görev üstlenmenin sorumluluk ve koordinasyon boyutları ele alınır; SC002'de bu sorumluluk takım toplantısı hazırlığına ve daha yapılandırılmış ekip iletişimine dönüşür.",
+    "continuityToNext": "HSK4_SC003'te proje risklerini açıklamaya geçilir; toplantı hazırlığından riskleri açık ve dengeli biçimde ifade etmeye doğal profesyonel continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "locationReason": "Takım toplantısı öncesi kısa hazırlık ve koordinasyon konuşması, ofise bağlı sakin tea/lunch alanı olan canonical Break Room ile doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "准备团队会议",
+      "先把共同目标和优先顺序说清楚",
+      "不同意见有时能帮助我们改进方案",
+      "这就是成熟的协调：结果和关系都要照顾"
+    ],
+    "continuityEvidence": "HSK3_SC002 aynı LOC_OFFICE_BREAKROOM_001, aynı Zhang Wei + Wang Ming karakter çifti, aynı outfit ve aynı face_right / face_left yönleriyle visual-assets-complete kabul edilmiş birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC002 canonical LOC_OFFICE_BREAKROOM_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC002 accepted CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC002 accepted CHAR_WANG_MING_001 / OUTFIT_WANG_MING_WORK_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC002 canonical Break Room FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC002 neutral canonical Break Room preview birebir yeniden kullanılır; runtime'da accepted iki character layer ayrı render edilir.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc002/assets/hsk3_sc002_bg.webp",
+      "characterA": "content/hsk3/sc002/assets/hsk3_sc002_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc002/assets/hsk3_sc002_char_wang_ming.webp",
+      "foreground": "content/hsk3/sc002/assets/hsk3_sc002_fg.webp",
+      "preview": "content/hsk3/sc002/assets/hsk3_sc002_preview.webp"
+    }
+  }
+}
