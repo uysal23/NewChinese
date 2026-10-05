@@ -1,0 +1,46 @@
+{
+  "sceneId": "HSK4_SC032",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Zhejiang'daki geleneksel su kasabası atmosferinde geleneksel mahalleyi gezmeyi; yerel mimariyi gözlemleme, kültürel ayrıntılara dikkat etme, farklı dönemlerin yaşam biçimlerini karşılaştırma ve kültürel deneyimi gündelik hayat bağlamında değerlendirme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC031'de yerel tiyatroyla başlayan kültürel merak, SC032'de topluluk merkezinden çıkarak geleneksel mahalle ve su kasabası dokusunu doğrudan keşfetmeye taşınır.",
+    "continuityToNext": "HSK4_SC033'te bayramların zaman içinde nasıl değiştiği konuşulur; SC032'de gözlenen geleneksel çevre ve gündelik kültür, geleneklerin modern yaşamla birlikte nasıl dönüştüğünü tartışmaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001": "VOICE_LIU_MEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_DAY_TRIP_TOWN_001",
+    "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC034 is an accepted complete Day Trip Town source for the locked canal, stone bridge, white-wall/dark-roof water-town environment and LIGHT_WARM_NATURAL_01."
+  },
+  "characterMatch": {
+    "status": "approved",
+    "continuityEvidence": "HSK2_SC045 provides accepted casual Zhang Wei face_right + Liu Mei face_left character layers matching SC032's locked character IDs, outfits and anchors."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "canonical-layer-composite",
+    "note": "No accepted historical full set exists for LOC_DAY_TRIP_TOWN_001 with Zhang Wei + Liu Mei. Background/foreground are reused from the accepted location source, character layers from the accepted exact character-pair source, and a scene-specific textless 9:16 preview was generated to avoid wrong-location or wrong-character reuse."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc034/assets/hsk2_sc034_bg.webp",
+    "characterA": "content/hsk2/sc045/assets/hsk2_sc045_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc045/assets/hsk2_sc045_char_liu_mei.webp",
+    "foreground": "content/hsk2/sc034/assets/hsk2_sc034_fg.webp",
+    "preview": "content/hsk4/sc032/assets/hsk4_sc032_preview.webp"
+  }
+}
