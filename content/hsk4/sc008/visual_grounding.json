@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC008",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında farklı görüşleri ele almayı tartışır; görüş ayrılığının gerçek nedenini bulma, olgu ile yorumu ayırma, karşı tarafı dinleme ve sonuç ile ilişkiyi birlikte gözetme üzerinde dururlar.",
+    "continuityFromPrevious": "HSK4_SC007'de kaynak koordinasyonu ele alınır; SC008'de bu koordinasyon sırasında ortaya çıkan farklı görüşlerin nasıl yönetileceğine geçilir.",
+    "continuityToNext": "HSK4_SC009'da sorumlu kişiye rapor vermeye geçilir; farklı görüşleri netleştirdikten sonra karar ve durumu yukarı doğru açık biçimde raporlama continuity'si korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC002 aynı mekân, aynı Zhang Wei + Wang Ming çifti, aynı outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc002/assets/hsk3_sc002_bg.webp",
+    "characterA": "content/hsk3/sc002/assets/hsk3_sc002_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc002/assets/hsk3_sc002_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc002/assets/hsk3_sc002_fg.webp",
+    "preview": "content/hsk3/sc002/assets/hsk3_sc002_preview.webp"
+  }
+}
