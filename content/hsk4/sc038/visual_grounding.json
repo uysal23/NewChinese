@@ -1,0 +1,42 @@
+{
+  "sceneId": "HSK4_SC038",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Zhejiang yakınlarındaki geleneksel su kasabası ortamında toplum kültür etkinliklerini; yerel katılım, farklı yaş gruplarının ihtiyaçları, kültürel süreklilik, uygulanabilir organizasyon ve topluluk ilişkileri çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC037'de fotoğrafçılık üzerinden yerel yaşamı gözlemleme ve anlatma pratiği ele alınır; SC038'de bu dikkat, topluluk içindeki kültür etkinliklerine katılım ve organizasyon biçimlerini değerlendirmeye taşınır.",
+    "continuityToNext": "HSK4_SC039'da gençlerin yaşam biçimine geçilir; toplum kültür etkinliklerinde farklı kuşakların katılımını değerlendirmek, gençlerin gündelik tercihleri ve değişen yaşam alışkanlıklarını konuşmaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001": "VOICE_LIU_MEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_DAY_TRIP_TOWN_001",
+    "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+    "continuityEvidence": "HSK4_SC032 is an accepted complete Day Trip Town composite with the exact Zhang Wei + Liu Mei casual pair, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "SC038 exactly matches HSK4_SC032 for location, character IDs, outfits, anchors and lighting. The accepted textless 9:16 composite set is reused without regeneration."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc032/assets/hsk4_sc032_bg.webp",
+    "characterA": "content/hsk4/sc032/assets/hsk4_sc032_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc032/assets/hsk4_sc032_char_liu_mei.webp",
+    "foreground": "content/hsk4/sc032/assets/hsk4_sc032_fg.webp",
+    "preview": "content/hsk4/sc032/assets/hsk4_sc032_preview.webp"
+  }
+}
