@@ -101,6 +101,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4_SC024: 5/5 canonical Zhang Home visual complete; HSK2_SC049 accepted Home seti yeniden kullanıldı.
 - HSK4_SC025: 5/5 canonical City Park visual complete; HSK2_SC020 accepted Park seti yeniden kullanıldı.
 - HSK4_SC026: 5/5 canonical West Lake visual complete; HSK2_SC050 accepted West Lake seti yeniden kullanıldı.
-- HSK4_SC021–SC030 third batch: **6/10 visual complete, 10/10 audio complete**.
+- HSK4_SC027: 5/5 canonical Zhang Home visual complete; HSK3_SC021 accepted Home seti yeniden kullanıldı.
+- HSK4_SC021–SC030 third batch: **7/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC027 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC028 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**

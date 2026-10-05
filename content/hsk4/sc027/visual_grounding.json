@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC027",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Li Na ile Zhang Wei, Hangzhou'daki sıcak ev ortamında makul olmayan planlara hayır demeyi; gerçekçi kapasiteyi değerlendirme, sorumluluk sınırlarını açıkça ifade etme, baskı altında acele kabul vermeme ve ilişkiyi korurken uygulanamaz talepleri reddetme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC026'da stres kaynakları ve sınırlar açıkça konuşulur; SC027'de bu farkındalık, makul olmayan veya sürdürülemez planları net biçimde reddetme davranışına taşınır.",
+    "continuityToNext": "HSK4_SC028'de odaklanmayı geri kazanmaya geçilir; gereksiz yükleri reddetme ve sorumlulukları sadeleştirme pratiği, dikkat dağınıklığını azaltıp odaklanmayı yeniden kurmaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC021 is an accepted complete Zhang Wei Home source with exact Li Na + Zhang Wei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc021/assets/hsk3_sc021_bg.webp",
+    "characterA": "content/hsk3/sc021/assets/hsk3_sc021_char_li_na.webp",
+    "characterB": "content/hsk3/sc021/assets/hsk3_sc021_char_zhang_wei.webp",
+    "foreground": "content/hsk3/sc021/assets/hsk3_sc021_fg.webp",
+    "preview": "content/hsk3/sc021/assets/hsk3_sc021_preview.webp"
+  }
+}
