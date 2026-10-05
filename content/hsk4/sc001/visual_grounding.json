@@ -1,0 +1,64 @@
+{
+  "sceneId": "HSK4_SC001",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki Zhang Wei ofisinde daha önemli bir görev üstlenmenin sorumluluk, koordinasyon, geri bildirim, çatışma yönetimi ve karar kaydı boyutlarını tartışır; daha olgun profesyonel muhakeme ve ilişki yönetimi vurgulanır.",
+    "communicationPurpose": "daha yüksek sorumluluk üstlenme, ekip koordinasyonu yapma, farklı görüşleri değerlendirme, gerçekçi geri bildirim verme ve sorumluluk sınırlarını netleştirme",
+    "tone": "profesyonel, olgun, analitik, dengeli ve çözüm odaklı",
+    "mainPhysicalAction": "ofis çalışma alanında daha önemli bir görevin sorumluluk ve koordinasyon boyutlarını karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "compact meeting corner",
+      "simple work notes without readable text"
+    ],
+    "continuityFromPrevious": "HSK3_SC050'de Zhang Wei HSK4'e geçiş için yöntem ve hazırlığı değerlendirir; HSK4_SC001'de bu hazırlık daha yüksek sorumluluk, koordinasyon ve profesyonel muhakeme gerektiren bir iş görevine dönüşür.",
+    "continuityToNext": "HSK4_SC002'de Zhang Wei ile Wang Ming takım toplantısına hazırlanır; daha önemli görev üstlenme konusundan ekip toplantısı hazırlığına doğal profesyonel continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Daha yüksek sorumluluk, koordinasyon ve profesyonel karar alma konuşması canonical Zhang Wei Workplace ofisinin masa ve toplantı alanlarıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "承担更重要的任务",
+      "先把共同目标和优先顺序说清楚",
+      "不同意见有时能帮助我们改进方案",
+      "这就是成熟的协调：结果和关系都要照顾"
+    ],
+    "continuityEvidence": "HSK3_SC045 aynı LOC_ZHANG_OFFICE_001 için visual-assets-complete kabul edilmiş ve current canonical Zhang Wei CASUAL_01 / face_right + Wang Ming WORK_01 / face_left pairini içerir.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "HSK4_SC001 pending manifesti Wang Ming characterA / face_right ve Zhang Wei characterB / face_left düzenindeydi. Repo içinde current outfit lock'larıyla bu yönlerde accepted complete pair bulunmadı. HSK3_SC045 accepted Zhang Wei face_right + Wang Ming face_left visual pair yeniden kullanıldı. HSK4 maturity, scene.json karakter sırası ve dialogue speaker bağları değiştirilmedi.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "hsk4MaturityPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC045 canonical LOC_ZHANG_OFFICE_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC045 accepted Zhang Wei CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC045 accepted Wang Ming WORK_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC045 canonical Office FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC045 accepted Office two-shot preview birebir yeniden kullanılır.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc045/assets/hsk3_sc045_bg.webp",
+      "characterA": "content/hsk3/sc045/assets/hsk3_sc045_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc045/assets/hsk3_sc045_char_wang_ming.webp",
+      "foreground": "content/hsk3/sc045/assets/hsk3_sc045_fg.webp",
+      "preview": "content/hsk3/sc045/assets/hsk3_sc045_preview.webp"
+    }
+  }
+}
