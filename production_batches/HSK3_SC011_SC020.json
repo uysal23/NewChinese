@@ -2,18 +2,18 @@
   "level": "HSK3",
   "startScene": 11,
   "endScene": 20,
-  "status": "audio_complete_visual_pending",
+  "status": "complete",
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 9,
+    "visualComplete": 10,
     "audioComplete": 10,
-    "acceptedScenes": 9
+    "acceptedScenes": 10
   },
   "scenes": [
     {
       "sceneId": "HSK3_SC011",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_PUBLIC_LIBRARY_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -103,7 +103,7 @@
     }
   ],
   "notes": [
-    "Repo audit synchronized batch status: 9/10 visual complete, 10/10 audio complete.",
-    "Remaining visual-pending scenes must be completed before HSK3 level acceptance."
+    "Repo audit synchronized batch status: 10/10 visual complete, 10/10 audio complete.",
+    "All scenes in HSK3_SC011-SC020 have complete media status."
   ]
 }

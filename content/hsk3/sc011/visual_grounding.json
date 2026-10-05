@@ -1,0 +1,52 @@
+{
+  "sceneId": "HSK3_SC011",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Li Na ile Zhang Wei, Hangzhou Public Library çalışma alanında öğrenme planı yapmayı konuşur; hedefleri önceliklendirir, planın gerçek koşullara göre ayarlanabileceğini değerlendirir ve sürdürülebilir küçük çalışma adımları belirler.",
+    "communicationPurpose": "öğrenme planı oluşturma, öncelikleri belirleme, planı koşullara göre uyarlama ve sürdürülebilir küçük çalışma adımı seçme",
+    "tone": "sakin, destekleyici, düşünceli ve çözüm odaklı",
+    "mainPhysicalAction": "sessiz kütüphane çalışma alanında kişisel öğrenme planı ve takip yaklaşımı üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood shelves",
+      "quiet study tables",
+      "large windows",
+      "green indoor plants",
+      "neutral notebook or device without readable text"
+    ],
+    "continuityFromPrevious": "SC010'da Zhang Wei haftalık iş deneyimini değerlendirir; SC011'de Li Na ile değerlendirme ve küçük-adım yaklaşımını kişisel öğrenme planına taşır.",
+    "continuityToNext": "SC012'de Zhang Wei Liu Mei ile yolculuk süresini değerlendirmeye geçer; öğrenme planındaki zamanı verimli kullanma teması günlük rutine taşınır."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "locationReason": "Öğrenme planı hazırlama, odaklanma ve düzenli çalışma konusu; sessiz çalışma masaları ve okuma alanları bulunan canonical Public Library ile doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "制定学习计划",
+      "计划本来就需要调整，先看最重要的部分",
+      "能。你可以每周回头看一次，会发现变化比想象中明显",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC017 aynı LOC_PUBLIC_LIBRARY_001, aynı Li Na + Zhang Wei karakter çifti, aynı OUTFIT_LI_NA_CASUAL_01 / OUTFIT_ZHANG_WEI_CASUAL_01 ve aynı face_right / face_left yönleriyle visual-assets-complete kabul edilmiş birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC017 canonical LOC_PUBLIC_LIBRARY_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC017 accepted CHAR_LI_NA_001 / OUTFIT_LI_NA_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC017 accepted CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC017 canonical Public Library FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC017 accepted Public Library two-shot preview birebir yeniden kullanılır.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc017/assets/hsk3_sc017_bg.webp",
+      "characterA": "content/hsk3/sc017/assets/hsk3_sc017_char_li_na.webp",
+      "characterB": "content/hsk3/sc017/assets/hsk3_sc017_char_zhang_wei.webp",
+      "foreground": "content/hsk3/sc017/assets/hsk3_sc017_fg.webp",
+      "preview": "content/hsk3/sc017/assets/hsk3_sc017_preview.webp"
+    }
+  }
+}

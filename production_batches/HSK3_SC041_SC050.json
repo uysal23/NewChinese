@@ -107,17 +107,16 @@
     "All scenes in this batch have complete media status."
   ],
   "levelClosure": {
-    "status": "blocked",
+    "status": "complete",
     "level": "HSK3",
     "totalScenes": 50,
     "audioComplete": 50,
-    "visualComplete": 49,
-    "acceptedScenes": 49,
-    "missingVisualScenes": [
-      "HSK3_SC011"
-    ],
+    "visualComplete": 50,
+    "acceptedScenes": 50,
+    "missingVisualScenes": [],
     "nextLevel": "HSK4",
-    "nextLevelAdvanceAllowed": false,
-    "validationStatus": "blocked_by_missing_visual_assets"
+    "nextLevelAdvanceAllowed": true,
+    "validationStatus": "passed",
+    "runtimeGate": "ProgressRules.nextSceneId maps HSK3_SC050 to HSK4_SC001; ProgressRepository unlockNext unlocks the next scene after HSK3_SC050 completion."
   }
 }
