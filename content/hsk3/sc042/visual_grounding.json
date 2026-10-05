@@ -1,0 +1,51 @@
+{
+  "sceneId": "HSK3_SC042",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki elektronik mağazasında yeni bir uygulamayı deneme konusunu konuşur; planı gözden geçirir, seçenekleri ve deneyimi değerlendirir, iletişim ve sorumluluk sınırlarını netleştirir ve küçük uygulanabilir bir sonraki adım seçer.",
+    "communicationPurpose": "yeni bir uygulamayı değerlendirip deneme, deneyimden öğrenme, uygun yöntemi seçme ve küçük uygulanabilir adımı belirleme",
+    "tone": "sakin, meraklı, arkadaşça ve çözüm odaklı",
+    "mainPhysicalAction": "elektronik mağazasındaki cihaz ve telefon aksesuarı demo alanında yeni uygulama/dijital araç seçimi üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "headphones",
+      "phone accessories",
+      "small device display tables",
+      "demo devices without readable branding",
+      "tidy retail shelves"
+    ],
+    "continuityFromPrevious": "SC041'de Zhang Wei Wang Ming ile dijital dosya düzenleme ve küçük uygulanabilir adımlar üzerine çalışır; SC042'de Chen Yu ile bu dijital araç değerlendirme yaklaşımını yeni bir uygulamayı denemeye taşır.",
+    "continuityToNext": "SC043'te Zhang Wei Wang Ming ile fotoğrafları sınıflandırmaya geçer; dijital düzen, uygun yöntem seçme ve deneyimden öğrenme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "Yeni bir uygulama ve dijital araç deneme konusu; demo cihazları, telefon aksesuarları ve marka/metinsiz ürün teşhirleri bulunan canonical elektronik mağazasıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "尝试新应用",
+      "计划本来就需要调整，先看最重要的部分",
+      "这和经验有关，多做几次会更稳",
+      "其实适合现在情况的方法更重要"
+    ],
+    "continuityEvidence": "HSK2_SC025 aynı LOC_ELECTRONICS_STORE_001 için visual-assets-complete kabul edilmiş canonical mağaza kaynağıdır. HSK3_SC031 ise aynı Zhang Wei + Chen Yu çiftini current outfit ve face_right/face_left yönleriyle visual-assets-complete kabul edilmiş canonical karakter kaynağıdır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC025 canonical LOC_ELECTRONICS_STORE_001 BG yeniden kullanılır.",
+    "characterA": "HSK3_SC031 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC031 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK2_SC025 canonical electronics-store FG yeniden kullanılır; character body/speaking gesture masking yapılmaz.",
+    "preview": "SC042 için 9:16 electronics-store two-shot QA preview üretilir; baked readable text, logo veya UI içermez.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc025/assets/hsk2_sc025_bg.webp",
+      "characterA": "content/hsk3/sc031/assets/hsk3_sc031_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc031/assets/hsk3_sc031_char_chen_yu.webp",
+      "foreground": "content/hsk2/sc025/assets/hsk2_sc025_fg.webp"
+    }
+  }
+}
