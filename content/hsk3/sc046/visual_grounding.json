@@ -1,0 +1,65 @@
+{
+  "sceneId": "HSK3_SC046",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki elektronik mağazasında proje için kullanılabilecek araç ve yöntemleri değerlendirir; seçenekleri karşılaştırır, iletişim ve sorumluluk sınırlarını netleştirir ve küçük uygulanabilir bir sonraki adım seçer.",
+    "communicationPurpose": "proje araçlarını/yöntemlerini değerlendirme, uygun seçeneği belirleme, deneyimden öğrenme ve uygulanabilir küçük adım seçme",
+    "tone": "sakin, analitik, arkadaşça ve çözüm odaklı",
+    "mainPhysicalAction": "elektronik mağazasındaki cihaz ve aksesuar demo alanında proje için kullanılabilecek dijital araçları değerlendirme üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "headphones",
+      "phone accessories",
+      "small device display tables",
+      "neutral demo devices without readable branding",
+      "tidy retail shelves"
+    ],
+    "continuityFromPrevious": "SC045'te Wang Ming ile Zhang Wei proje ilerlemesini kaydetme ve takip yöntemini netleştirir; SC046'da Zhang Wei Chen Yu ile bu takip için uygun araç ve yöntemleri değerlendirir.",
+    "continuityToNext": "SC047'de Wang Ming ile Zhang Wei senkronizasyon sorununu çözmeye geçer; araç seçimi, dijital takip ve sorun çözme sürekliliği korunur."
+  },
+  "contentConsistency": {
+    "status": "approved-with-locked-reference-note",
+    "note": "SC046 titleZh/titleTr metni Wang Ming ile araçları tartışmayı söylerken scene.json characterIds ve locked dialogue satırlarının tamamı Zhang Wei + Chen Yu çiftini kullanır. LOCKS gereği başlık/dialogue değiştirilmedi; görsel üretim gerçek scene/dialogue karakterlerine göre yürütüldü.",
+    "sceneCharacters": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "dialogueSpeakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "lockedReferencePreserved": true
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "Araç ve yöntem değerlendirme konusu; demo cihazları, aksesuar duvarı ve marka/metinsiz ürün teşhirleri bulunan canonical elektronik mağazasıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "和王明讨论工具",
+      "计划本来就需要调整，先看最重要的部分",
+      "其实适合现在情况的方法更重要",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC042 aynı LOC_ELECTRONICS_STORE_001, aynı Zhang Wei + Chen Yu karakter çifti, aynı OUTFIT_ZHANG_WEI_CASUAL_01 / OUTFIT_CHEN_YU_CASUAL_01 ve aynı face_right / face_left yönleriyle visual-assets-complete kabul edilmiş birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC042 canonical LOC_ELECTRONICS_STORE_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC042 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC042 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC042 canonical electronics-store FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC042 accepted electronics-store two-shot preview birebir yeniden kullanılır; aynı mekân, karakter kimlikleri, kıyafetler ve yönler korunur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc042/assets/hsk3_sc042_bg.webp",
+      "characterA": "content/hsk3/sc042/assets/hsk3_sc042_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc042/assets/hsk3_sc042_char_chen_yu.webp",
+      "foreground": "content/hsk3/sc042/assets/hsk3_sc042_fg.webp",
+      "preview": "content/hsk3/sc042/assets/hsk3_sc042_preview.webp"
+    }
+  }
+}
