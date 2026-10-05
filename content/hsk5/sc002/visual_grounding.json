@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC002",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki elektronik mağazasında otomasyon ile insan yargısının sınırlarını; verimlilik, maliyet, risk, sorumluluk, belirsizlik ve uzun vadeli etki arasında denge kurarak değerlendirir.",
+    "communicationPurpose": "Otomasyonun nerede yardımcı olması, nerede insan kararının korunması gerektiğini tek boyutlu verimlilik yerine hedefler, kaynaklar, riskler ve sorumluluklar üzerinden değerlendirmek.",
+    "tone": "sakin, analitik, profesyonel ve çözüm odaklı",
+    "mainPhysicalAction": "elektronik mağazasındaki demo cihazları ve aksesuarlar çevresinde teknoloji/otomasyon seçeneklerini değerlendirerek karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "headphones",
+      "phone accessories",
+      "small device display tables",
+      "neutral demo devices without readable branding",
+      "tidy retail shelves"
+    ],
+    "continuityFromPrevious": "HSK5_SC001'de Wang Ming ile Zhang Wei yapay zekânın günlük işe girişini hedef-kaynak-risk-sorumluluk çerçevesinde değerlendirir. SC002'de Zhang Wei bu çerçeveyi Chen Yu ile daha somut otomasyon ve insan yargısı kararına taşır.",
+    "continuityToNext": "HSK5_SC003'te Wang Ming ile Zhang Wei daha geniş teknoloji/iş değerlendirmesine geçer; SC002'de kurulan otomasyon sınırı, sorumluluk ve belirsizlik yaklaşımı sonraki tartışmaya doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "Otomasyon ve insan yargısı konusu, marka/metinsiz demo cihazları ve teknoloji ürünlerinin karşılaştırılabildiği canonical elektronik mağazasıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "自动化与人的判断",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK3_SC042 aynı LOC_ELECTRONICS_STORE_001, aynı Zhang Wei + Chen Yu çifti, aynı canonical outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete birebir kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK3_SC042 accepted Electronics Store seti SC002 ile mekân, karakter kimlikleri, kıyafetler, yönler ve ışık açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc042/assets/hsk3_sc042_bg.webp",
+    "characterA": "content/hsk3/sc042/assets/hsk3_sc042_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc042/assets/hsk3_sc042_char_chen_yu.webp",
+    "foreground": "content/hsk3/sc042/assets/hsk3_sc042_fg.webp",
+    "preview": "content/hsk3/sc042/assets/hsk3_sc042_preview.webp"
+  }
+}

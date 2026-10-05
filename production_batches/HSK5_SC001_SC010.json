@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 1,
+    "visualComplete": 2,
     "audioComplete": 10,
-    "acceptedScenes": 1
+    "acceptedScenes": 2
   },
   "scenes": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "sceneId": "HSK5_SC002",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ELECTRONICS_STORE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -104,7 +104,8 @@
   ],
   "notes": [
     "HSK5_SC001 visual + audio complete; accepted canonical Zhang Office set reused from HSK4_SC041 after HSK4_SC050 → HSK5_SC001 continuity grounding.",
-    "HSK5_SC001-SC010 first batch progress: 1/10 visual complete, 10/10 audio complete.",
+    "HSK5_SC002 visual + audio complete; accepted canonical Electronics Store set reused from HSK3_SC042 after HSK5_SC001 → HSK5_SC002 continuity grounding.",
+    "HSK5_SC001-SC010 first batch progress: 2/10 visual complete, 10/10 audio complete.",
     "HSK5 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }
