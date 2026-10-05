@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC042",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou topluluk merkezinde ortak projenin hedefini netleştirmeyi; ortak amacı açıklaştırma, öncelikleri sıralama, olgular ile yorumları ayırma, sorumluluk sınırlarını belirleme ve ölçülebilir bir sonuç üzerinde uzlaşma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC041'de Wang Ming ile Zhang Wei ortak projeyi belirler; SC042'de proje seçimi somut hedefleri, öncelikleri ve başarı ölçütlerini netleştirme aşamasına taşınır.",
+    "continuityToNext": "HSK4_SC043'te Wang Ming ile Zhang Wei görev dağıtımına geçer; hedefin netleştirilmesi, görevleri hangi öncelik ve sorumluluklara göre dağıtacaklarını belirlemeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC041 is an accepted complete Community Center source with exact Zhang Wei + Chen Yu casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc041/assets/hsk2_sc041_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc041/assets/hsk2_sc041_fg.webp",
+    "preview": "content/hsk2/sc041/assets/hsk2_sc041_preview.webp"
+  }
+}
