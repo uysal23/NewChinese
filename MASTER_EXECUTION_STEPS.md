@@ -114,6 +114,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4_SC036: 5/5 canonical Public Library visual complete; HSK3_SC020 accepted Public Library seti yeniden kullanıldı.
 - HSK4_SC037: 5/5 canonical Community Center visual complete; HSK2_SC041 accepted Community Center seti yeniden kullanıldı.
 - HSK4_SC038: 5/5 canonical Day Trip Town composite visual complete; HSK4_SC032 accepted composite seti yeniden kullanıldı.
-- HSK4_SC031–SC040 fourth batch: **8/10 visual complete, 10/10 audio complete**.
+- HSK4_SC039: 5/5 canonical Public Library composite visual complete; HSK4_SC033 accepted composite seti yeniden kullanıldı.
+- HSK4_SC031–SC040 fourth batch: **9/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC039 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC040 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; ardından fourth batch physical closure audit yap. Actions tüketmemek için [skip ci] kullan.**

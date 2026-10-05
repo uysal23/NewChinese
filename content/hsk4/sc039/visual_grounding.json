@@ -1,0 +1,46 @@
+{
+  "sceneId": "HSK4_SC039",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou Public Library'nin sakin çalışma alanında gençlerin yaşam biçimini; değişen öncelikler, çalışma ve dinlenme dengesi, teknoloji kullanım alışkanlıkları, kuşaklar arası farklılıklar ve bireysel seçimlerin toplumsal etkileri çerçevesinde konuşur.",
+    "continuityFromPrevious": "HSK4_SC038'de toplum kültür etkinliklerinde farklı yaş gruplarının katılımı ele alınır; SC039'da bu kuşak farkları gençlerin gündelik yaşam biçimleri ve değişen tercihleri üzerinden daha doğrudan değerlendirilir.",
+    "continuityToNext": "HSK4_SC040'ta gelenek ve modernlik temasına geçilir; gençlerin yaşam biçimindeki değişimleri değerlendirmek, geleneksel değerlerle modern gündelik alışkanlıkların nasıl birlikte var olabileceğini tartışmaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "continuityEvidence": "HSK4_SC033 is an accepted complete Public Library composite with the same Zhang Wei + Chen Yu casual pair, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC039 manifest requested Chen Yu face_right + Zhang Wei face_left. The accepted canonical pair is Zhang Wei face_right + Chen Yu face_left, so visual composition is aligned to the accepted arrangement while scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "SC039 matches HSK4_SC033 for location, character IDs, outfits and lighting after canonical anchor alignment. The accepted textless 9:16 composite set is reused without regeneration."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc033/assets/hsk4_sc033_bg.webp",
+    "characterA": "content/hsk4/sc033/assets/hsk4_sc033_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc033/assets/hsk4_sc033_char_chen_yu.webp",
+    "foreground": "content/hsk4/sc033/assets/hsk4_sc033_fg.webp",
+    "preview": "content/hsk4/sc033/assets/hsk4_sc033_preview.webp"
+  }
+}

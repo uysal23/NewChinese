@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 8,
+    "visualComplete": 9,
     "audioComplete": 10,
-    "acceptedScenes": 8
+    "acceptedScenes": 9
   },
   "scenes": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "sceneId": "HSK4_SC039",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_PUBLIC_LIBRARY_001",
       "characterIds": [
         "CHAR_CHEN_YU_001",
@@ -103,7 +103,7 @@
     }
   ],
   "notes": [
-    "HSK4_SC031-SC038 visual + audio complete; HSK4_SC039-SC040 audio complete with visuals pending.",
+    "HSK4_SC031-SC039 visual + audio complete; HSK4_SC040 audio complete with visuals pending.",
     "HSK4_SC031 uses accepted HSK2_SC041 canonical Community Center composition aligned to accepted Zhang Wei face_right + Chen Yu face_left.",
     "HSK4_SC032 uses canonical composite: HSK2_SC034 Day Trip Town BG/FG + HSK2_SC045 Zhang Wei/Liu Mei layers + scene-specific preview.",
     "HSK4_SC033 uses canonical composite: HSK2_SC023 Public Library BG/FG + HSK2_SC041 Zhang Wei/Chen Yu layers + scene-specific preview.",
@@ -112,6 +112,7 @@
     "HSK4_SC036 reuses accepted HSK3_SC020 canonical Public Library assets with exact Zhang Wei face_right + Liu Mei face_left casual composition.",
     "HSK4_SC037 reuses accepted HSK2_SC041 canonical Community Center assets; pending reverse anchor order aligned to accepted Zhang Wei face_right + Chen Yu face_left without changing locked scene/dialogue content.",
     "HSK4_SC038 reuses the accepted HSK4_SC032 Day Trip Town composite with exact Zhang Wei face_right + Liu Mei face_left casual composition and the same textless 9:16 preview.",
+    "HSK4_SC039 reuses the accepted HSK4_SC033 Public Library composite; pending reverse anchor order aligned to accepted Zhang Wei face_right + Chen Yu face_left without changing locked scene/dialogue content.",
     "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }
