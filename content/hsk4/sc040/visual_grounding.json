@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC040",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou topluluk merkezinde gelenek ve modernlik temasını; kültürel süreklilik, değişen yaşam alışkanlıkları, farklı kuşakların bakış açıları, korunması gereken değerler ve modern ihtiyaçlarla uyumlu çözümler çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC039'da gençlerin yaşam biçimi ve değişen gündelik tercihler konuşulur; SC040'da bu değişimler geleneksel değerlerle modern yaşamın nasıl dengelenebileceği tartışmasına taşınır.",
+    "continuityToNext": "HSK4_SC041'de Wang Ming ile Zhang Wei ortak projeyi belirlemeye geçer; SC040'taki farklı değerleri uzlaştırma ve ortak zemin bulma yaklaşımı, bir sonraki sahnede ortak hedef ve proje tanımına doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001": "VOICE_LIU_MEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC045 is an accepted complete Community Center source with exact Zhang Wei + Liu Mei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc045/assets/hsk2_sc045_bg.webp",
+    "characterA": "content/hsk2/sc045/assets/hsk2_sc045_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc045/assets/hsk2_sc045_char_liu_mei.webp",
+    "foreground": "content/hsk2/sc045/assets/hsk2_sc045_fg.webp",
+    "preview": "content/hsk2/sc045/assets/hsk2_sc045_preview.webp"
+  }
+}
