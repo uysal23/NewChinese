@@ -1,0 +1,52 @@
+{
+  "sceneId": "HSK3_SC040",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou Community Activity Center'da sosyallik ile dinlenmeyi dengeleme konusunu konuşur; seçenekleri değerlendirir, sınırları ve sorumlulukları netleştirir ve küçük uygulanabilir adımlar belirler.",
+    "communicationPurpose": "sosyal etkinlikler ile dinlenme arasında denge kurma, öncelikleri değerlendirme, sınırları ve sorumlulukları netleştirme, küçük uygulanabilir adımlar belirleme",
+    "tone": "sakin, düşünceli, arkadaşça ve destekleyici",
+    "mainPhysicalAction": "community center içindeki aydınlık ve sakin etkinlik alanında sosyal planlar ve dinlenme dengesi üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "visibleProps": [
+      "light wood tables",
+      "movable chairs",
+      "notice board without readable text",
+      "large windows",
+      "small plant corner"
+    ],
+    "continuityFromPrevious": "SC039'da Chen Yu ile yeni biriyle tanışma bağlamındaki sosyal iletişimden SC040'ta Liu Mei ile sosyallik ve dinlenme dengesine geçilir; sosyal planlama ve sağlıklı sınır koyma davranışı korunur.",
+    "continuityToNext": "SC041'de Wang Ming ile ofis bağlamında dijital dosyaları düzenleme konusuna geçilir; planlama, önceliklendirme ve küçük adımlarla ilerleme davranışı korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "locationReason": "Repo kilidine göre SC040'ın authoritative mekânı LOC_COMMUNITY_CENTER_001'dir; sakin, aydınlık ve topluluk odaklı ortam sosyallik ile dinlenme dengesini konuşmak için uygundur.",
+    "dialogueEvidence": [
+      "平衡社交和休息",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC036 aynı LOC_COMMUNITY_CENTER_001, aynı Zhang Wei + Liu Mei karakter sırası, aynı casual outfitler, aynı face_right/face_left bubble yönleri ve LIGHT_WARM_NATURAL_01 ile visual-assets-complete kabul edilmiş HSK3 canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC036 canonical Community Center BG yeniden kullanılır.",
+    "characterA": "HSK3_SC036 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK3_SC036 canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK3_SC036 canonical Community Center FG yeniden kullanılır.",
+    "preview": "HSK3_SC036 kabul edilmiş Zhang Wei + Liu Mei Community Center 9:16 preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc036/assets/hsk3_sc036_bg.webp",
+      "characterA": "content/hsk3/sc036/assets/hsk3_sc036_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc036/assets/hsk3_sc036_char_liu_mei.webp",
+      "foreground": "content/hsk3/sc036/assets/hsk3_sc036_fg.webp",
+      "preview": "content/hsk3/sc036/assets/hsk3_sc036_preview.webp"
+    }
+  }
+}
