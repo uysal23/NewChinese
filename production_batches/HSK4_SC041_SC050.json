@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 8,
+    "visualComplete": 9,
     "audioComplete": 10,
-    "acceptedScenes": 8
+    "acceptedScenes": 9
   },
   "scenes": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "sceneId": "HSK4_SC049",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -103,7 +103,7 @@
     }
   ],
   "notes": [
-    "HSK4_SC041-SC048 visual + audio complete; HSK4_SC049-SC050 audio complete with visuals pending.",
+    "HSK4_SC041-SC049 visual + audio complete; HSK4_SC050 audio complete with visuals pending.",
     "HSK4_SC041 reuses accepted HSK3_SC041 canonical Zhang Office assets; pending reverse anchor order aligned to accepted Zhang Wei face_right + Wang Ming face_left without changing locked scene/dialogue content.",
     "HSK4_SC042 reuses accepted HSK2_SC041 canonical Community Center assets with exact Zhang Wei face_right + Chen Yu face_left casual composition.",
     "HSK4_SC043 uses canonical composite: HSK3_SC048 Cafe BG/FG + HSK3_SC041 Zhang Wei/Wang Ming layers; pending reverse anchor order aligned to accepted Zhang Wei face_right + Wang Ming face_left; scene-specific textless 9:16 Cafe preview.",
@@ -112,6 +112,7 @@
     "HSK4_SC046 reuses accepted HSK3_SC048 canonical Cafe assets with exact Zhang Wei face_right + Chen Yu face_left casual composition.",
     "HSK4_SC047 reuses accepted HSK3_SC041 canonical Zhang Office assets; pending reverse anchor order aligned to accepted Zhang Wei face_right + Wang Ming face_left without changing locked scene/dialogue content.",
     "HSK4_SC048 reuses accepted HSK2_SC041 canonical Community Center assets with exact Zhang Wei face_right + Chen Yu face_left casual composition.",
+    "HSK4_SC049 reuses the accepted HSK4_SC043 Cafe composite; pending reverse anchor order aligned to accepted Zhang Wei face_right + Wang Ming face_left without changing locked scene/dialogue content.",
     "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }

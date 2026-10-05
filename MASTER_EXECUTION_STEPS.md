@@ -125,6 +125,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4_SC046: 5/5 canonical Cafe visual complete; HSK3_SC048 accepted Cafe seti yeniden kullanıldı.
 - HSK4_SC047: 5/5 canonical Zhang Office visual complete; HSK3_SC041 accepted Office seti yeniden kullanıldı.
 - HSK4_SC048: 5/5 canonical Community Center visual complete; HSK2_SC041 accepted Community Center seti yeniden kullanıldı.
-- HSK4_SC041–SC050 fifth batch: **8/10 visual complete, 10/10 audio complete**.
+- HSK4_SC049: 5/5 canonical Cafe composite visual complete; HSK4_SC043 accepted Cafe composite seti yeniden kullanıldı.
+- HSK4_SC041–SC050 fifth batch: **9/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC049 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC050 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; ardından fifth batch physical closure audit yap. Actions tüketmemek için [skip ci] kullan.**

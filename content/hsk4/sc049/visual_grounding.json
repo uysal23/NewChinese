@@ -1,0 +1,46 @@
+{
+  "sceneId": "HSK4_SC049",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki sıcak mahalle kafesinde herkese açık sunum yapmayı; temel mesajı sadeleştirme, hedef kitleye uygun anlatım seçme, farklı görüşleri öngörme ve proje sonucunu açık biçimde paylaşma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC048'de öncelik ve fedakârlık kararları netleştirilir; SC049'da bu kararlar herkese açık sunumda hangi mesaj ve sonuçların öne çıkarılacağını belirlemeye dönüşür.",
+    "continuityToNext": "HSK4_SC050'de HSK4 projesi değerlendirilir; SC049'daki açık sunum ve alınan tepkiler, projenin güçlü yanlarını, sınırlılıklarını ve sonraki adımlarını değerlendirmeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK4_SC043 is an accepted complete Cafe composite with the same Zhang Wei + Wang Ming pair, required casual/work outfits and LIGHT_WARM_NATURAL_01."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC049 manifest requested Wang Ming face_right + Zhang Wei face_left. The accepted Zhang Wei/Wang Ming visual pair uses Zhang Wei face_right + Wang Ming face_left, so only visual composition is aligned to the accepted arrangement. Scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "SC049 matches HSK4_SC043 for location, character IDs, outfits and lighting after canonical anchor alignment. The accepted textless 9:16 Cafe composite set is reused without regeneration."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc043/assets/hsk4_sc043_bg.webp",
+    "characterA": "content/hsk4/sc043/assets/hsk4_sc043_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc043/assets/hsk4_sc043_char_wang_ming.webp",
+    "foreground": "content/hsk4/sc043/assets/hsk4_sc043_fg.webp",
+    "preview": "content/hsk4/sc043/assets/hsk4_sc043_preview.webp"
+  }
+}
