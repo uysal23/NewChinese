@@ -1,0 +1,59 @@
+{
+  "sceneId": "HSK3_SC034",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou West Lake kıyısında kitap kulübü tartışması üzerine konuşur; fikirlerini netleştirir, iletişim biçimini değerlendirir ve küçük uygulanabilir adımlar belirler.",
+    "communicationPurpose": "kitap kulübünde tartışma planını netleştirme, görüşleri dinleme, sorumlulukları doğrulama ve uygun iletişim adımları belirleme",
+    "tone": "sakin, düşünceli, arkadaşça ve destekleyici",
+    "mainPhysicalAction": "West Lake kıyısındaki yürüyüş alanında oturup veya kısa süre durup kitap kulübü tartışması ve sonraki adımlar üzerine konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "visibleProps": [
+      "kitap veya not defteri",
+      "lake view",
+      "tree-lined walkway",
+      "stone railing",
+      "distant hills",
+      "small sightseeing boats without readable text"
+    ],
+    "continuityFromPrevious": "SC033'te Chen Yu ile ortak etkinlik planlayan Zhang Wei, SC034'te Liu Mei ile daha düşünsel bir sosyal etkinliğe geçer; iletişim, seçenekleri değerlendirme ve küçük adım seçme davranışı korunur.",
+    "continuityToNext": "SC035'te Chen Yu ile masa oyunu buluşmasına geçilir; sosyal planlama, iletişim ve deneyimden öğrenme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_WEST_LAKE_001",
+    "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+    "locationReason": "Repo kilidine göre SC034'ün authoritative mekânı LOC_WEST_LAKE_001'dir; sakin göl kıyısı, ağaçlı yürüyüş yolu ve taş korkuluklar kitap kulübü konuşması için aile dostu ve doğal bir bağlam sağlar.",
+    "dialogueEvidence": [
+      "读书会讨论",
+      "计划本来就需要调整，先看最重要的部分",
+      "把原因说明白，再听听对方的想法",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK2_SC043 visual-assets-complete kabul edilmiş West Lake BG/FG kaynağıdır. HSK2_SC045 visual-assets-complete kabul edilmiş Zhang Wei + Liu Mei character pair kaynağıdır. SC034 bu iki canonical kaynağı birleştirir.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC043 canonical LOC_WEST_LAKE_001 BG yeniden kullanılır.",
+    "characterA": "HSK2_SC045 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK2_SC045 canonical CHAR_LIU_MEI_001 / OUTFIT_LIU_MEI_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK2_SC043 canonical West Lake FG yeniden kullanılır.",
+    "preview": "SC034 için West Lake + Zhang Wei + Liu Mei kombinasyonuna özel yeni 9:16, textless, logo/UI içermeyen preview üretildi.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc043/assets/hsk2_sc043_bg.webp",
+      "characterA": "content/hsk2/sc045/assets/hsk2_sc045_char_zhang_wei.webp",
+      "characterB": "content/hsk2/sc045/assets/hsk2_sc045_char_liu_mei.webp",
+      "foreground": "content/hsk2/sc043/assets/hsk2_sc043_fg.webp"
+    },
+    "generatedPreview": {
+      "file": "assets/hsk3_sc034_preview.webp",
+      "aspectRatio": "9:16",
+      "text": false,
+      "logo": false,
+      "ui": false
+    }
+  }
+}
