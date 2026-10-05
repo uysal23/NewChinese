@@ -1,21 +1,15 @@
 {
   "sceneId": "HSK5_SC003",
   "visual": {
-    "status": "pending",
+    "status": "complete",
     "required": [
       "assets/hsk5_sc003_bg.webp",
-      "assets/hsk5_sc003_char_wang_ming.webp",
       "assets/hsk5_sc003_char_zhang_wei.webp",
+      "assets/hsk5_sc003_char_wang_ming.webp",
       "assets/hsk5_sc003_fg.webp",
       "assets/hsk5_sc003_preview.webp"
     ],
-    "missing": [
-      "assets/hsk5_sc003_bg.webp",
-      "assets/hsk5_sc003_char_wang_ming.webp",
-      "assets/hsk5_sc003_char_zhang_wei.webp",
-      "assets/hsk5_sc003_fg.webp",
-      "assets/hsk5_sc003_preview.webp"
-    ]
+    "missing": []
   },
   "audio": {
     "status": "complete",
@@ -77,5 +71,5 @@
     ],
     "missing": []
   },
-  "rule": "Audio may be complete only after every declared physical M4A exists and validation passes; visuals intentionally remain pending until produced."
+  "rule": "Audio and visuals may be complete only after every declared physical asset exists and validation passes."
 }

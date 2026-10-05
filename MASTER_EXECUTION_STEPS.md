@@ -131,6 +131,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4: **50/50 visual + audio COMPLETE**; five 10-scene batch closure audits PASSED.
 - HSK5_SC001: **5/5 canonical Zhang Office visual complete**; HSK4_SC041 accepted Office seti yeniden kullanıldı; HSK4_SC050 → HSK5_SC001 level-transition continuity approved.
 - HSK5_SC002: **5/5 canonical Electronics Store visual complete**; HSK3_SC042 accepted Electronics Store seti yeniden kullanıldı; HSK5_SC001 → HSK5_SC002 continuity approved.
-- HSK5_SC001–SC010 first batch: **2/10 visual complete, 10/10 audio complete**.
+- HSK5_SC003: **5/5 canonical Cafe visual complete**; HSK4_SC043 accepted Cafe composite seti yeniden kullanıldı; HSK5_SC002 → HSK5_SC003 continuity approved.
+- HSK5_SC001–SC010 first batch: **3/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC003 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC004 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**

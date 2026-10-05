@@ -1,0 +1,73 @@
+{
+  "sceneId": "HSK5_SC003",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki sıcak mahalle kafesinde veri gizliliğini; kolaylık/verimlilik ile kişisel sınırlar, bilgi kontrolü, sorumluluk, risk ve uzun vadeli etki arasında denge kurarak değerlendirir.",
+    "communicationPurpose": "Veri gizliliğini yalnız teknik verimlilik değil, bilgi kontrolü, sorumluluk, risk ve bireysel/ortak değerler üzerinden değerlendirmek.",
+    "tone": "sakin, analitik, yansıtıcı ve çözüm odaklı",
+    "mainPhysicalAction": "kafe masasında gündelik teknoloji kullanımı ve veri paylaşım tercihleri üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "warm wood cafe furniture",
+      "tea or coffee cups",
+      "small neutral notebook or laptop without readable text",
+      "soft daylight",
+      "modest seating"
+    ],
+    "continuityFromPrevious": "HSK5_SC002'de Zhang Wei ile Chen Yu otomasyonun sınırlarını, sorumluluğu ve insan yargısını değerlendirir. SC003'te Wang Ming ile Zhang Wei aynı karar çerçevesini veri gizliliği ve bilgi kontrolüne taşır.",
+    "continuityToNext": "HSK5_SC004'te Zhang Wei ile Chen Yu teknoloji kararlarının ekip/iş bağlamındaki daha geniş etkilerine geçer; SC003'te kurulan gizlilik, sorumluluk ve değer dengesi bu tartışmaya doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "locationReason": "Veri gizliliği gibi kişisel/teknolojik bir konuyu sakin ve gündelik bağlamda değerlendirmek için canonical sıcak, aile dostu Cafe ortamı uygundur; görselde kritik okunabilir metin gerektirmez.",
+    "dialogueEvidence": [
+      "数据隐私",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK4_SC043 aynı LOC_CAFE_001, aynı Zhang Wei + Wang Ming çifti, aynı canonical outfits ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical composite kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC003 manifesti Wang Ming face_right + Zhang Wei face_left istemektedir. Accepted canonical Cafe/Office pair kaynakları Zhang Wei face_right + Wang Ming face_left düzenindedir; identity drift yaratmamak için yalnız visual composition bu accepted düzene hizalanır. scene.json karakter üyeliği ve locked dialogue speaker sırası değişmez.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "HSK4_SC043 accepted Cafe composite seti SC003 ile location, character IDs, outfits ve lighting açısından uyumludur; canonical anchor alignment sonrası 5'li set yeniden üretim olmadan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc043/assets/hsk4_sc043_bg.webp",
+    "characterA": "content/hsk4/sc043/assets/hsk4_sc043_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc043/assets/hsk4_sc043_char_wang_ming.webp",
+    "foreground": "content/hsk4/sc043/assets/hsk4_sc043_fg.webp",
+    "preview": "content/hsk4/sc043/assets/hsk4_sc043_preview.webp"
+  }
+}
