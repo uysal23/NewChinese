@@ -1,0 +1,46 @@
+{
+  "sceneId": "HSK4_SC044",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki modern çalışma ortamında ilk prototipi; hedefleri uygulanabilir bir çıktıya dönüştürme, erken aşamada eksikleri görünür kılma, teknik seçimleri gerekçelendirme ve geri bildirime açık bir ilk sürüm oluşturma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC043'te görev dağılımı netleştirilir; SC044'te bu sorumluluklar ilk uygulanabilir prototipi birlikte üretme ve değerlendirme aşamasına dönüşür.",
+    "continuityToNext": "HSK4_SC045'te Wang Ming ile Zhang Wei geri bildirim toplamaya geçer; ilk prototipin ortaya çıkması, farklı kullanıcı ve ekip görüşlerini sistemli biçimde toplamaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC041 is an accepted complete Zhang Office source for light wood desks, neutral office walls, Hangzhou urban-window view, desk plants, tidy family-friendly workplace and LIGHT_WARM_NATURAL_01."
+  },
+  "characterMatch": {
+    "status": "approved",
+    "continuityEvidence": "HSK2_SC041 provides accepted Zhang Wei face_right + Chen Yu face_left casual character layers matching SC044's locked character IDs, outfits and anchors."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "canonical-layer-composite",
+    "note": "No accepted historical full set exists for LOC_ZHANG_OFFICE_001 with Zhang Wei + Chen Yu. Office BG/FG are reused from HSK3_SC041, exact accepted Zhang Wei/Chen Yu character layers from HSK2_SC041, and a scene-specific textless 9:16 Office preview was generated. Incorrect preview attempts were rejected and never committed; final preview Git-blob SHA was verified before commit."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc041/assets/hsk3_sc041_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk3/sc041/assets/hsk3_sc041_fg.webp",
+    "preview": "content/hsk4/sc044/assets/hsk4_sc044_preview.webp"
+  }
+}

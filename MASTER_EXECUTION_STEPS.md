@@ -120,6 +120,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4_SC041: 5/5 canonical Zhang Office visual complete; HSK3_SC041 accepted Office seti yeniden kullanıldı.
 - HSK4_SC042: 5/5 canonical Community Center visual complete; HSK2_SC041 accepted Community Center seti yeniden kullanıldı.
 - HSK4_SC043: 5/5 canonical Cafe composite visual complete; HSK3_SC048 BG/FG + HSK3_SC041 Zhang Wei/Wang Ming layers + scene-specific preview kullanıldı.
-- HSK4_SC041–SC050 fifth batch: **3/10 visual complete, 10/10 audio complete**.
+- HSK4_SC044: 5/5 canonical Zhang Office composite visual complete; HSK3_SC041 BG/FG + HSK2_SC041 Zhang Wei/Chen Yu layers + scene-specific preview kullanıldı.
+- HSK4_SC041–SC050 fifth batch: **4/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC044 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC045 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla. Actions tüketmemek için [skip ci] kullan.**
