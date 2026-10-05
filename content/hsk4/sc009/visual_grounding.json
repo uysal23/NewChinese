@@ -1,0 +1,28 @@
+{
+  "sceneId": "HSK4_SC009",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki Zhang Wei ofisinde sorumlu kişiye rapor vermeyi; olguları yorumdan ayırma, öncelikleri açıkça aktarma, sorumluluk sınırlarını belirtme ve önemli kararları kaydetme çerçevesinde değerlendirir.",
+    "continuityFromPrevious": "HSK4_SC008'de farklı görüşler netleştirilir; SC009'da sonuç ve durum sorumlu kişiye yapılandırılmış biçimde raporlanır.",
+    "continuityToNext": "HSK4_SC010'da ara değerlendirme yapılır; raporlama sonrasında ilerleme ve yaklaşım yeniden gözden geçirilir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC045 aynı mekân ve current outfit kilitleriyle accepted Zhang Wei face_right + Wang Ming face_left canonical pairini içerir."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending manifestte Wang Ming face_right + Zhang Wei face_left düzeni vardı; current outfit lock'larıyla accepted complete pair bulunmadığından yalnız görsel kompozisyon SC045 accepted Zhang Wei face_right + Wang Ming face_left düzenine hizalandı. Scene/dialogue ve HSK4 maturity değişmedi."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc045/assets/hsk3_sc045_bg.webp",
+    "characterA": "content/hsk3/sc045/assets/hsk3_sc045_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc045/assets/hsk3_sc045_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc045/assets/hsk3_sc045_fg.webp",
+    "preview": "content/hsk3/sc045/assets/hsk3_sc045_preview.webp"
+  }
+}
