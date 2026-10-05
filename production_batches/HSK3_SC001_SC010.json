@@ -103,6 +103,7 @@
     }
   ],
   "notes": [
-    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending."
+    "Repo audit synchronized batch status: 0/10 visual complete, 10/10 audio complete.",
+    "Remaining visual-pending scenes must be completed before HSK3 level acceptance."
   ]
 }

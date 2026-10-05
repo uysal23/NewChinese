@@ -2,18 +2,18 @@
   "level": "HSK3",
   "startScene": 21,
   "endScene": 30,
-  "status": "audio_complete_visual_pending",
+  "status": "complete",
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
+    "visualComplete": 10,
     "audioComplete": 10,
-    "acceptedScenes": 0
+    "acceptedScenes": 10
   },
   "scenes": [
     {
       "sceneId": "HSK3_SC021",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -22,7 +22,7 @@
     },
     {
       "sceneId": "HSK3_SC022",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_NEIGHBORHOOD_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -31,7 +31,7 @@
     },
     {
       "sceneId": "HSK3_SC023",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ELECTRONICS_STORE_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -40,7 +40,7 @@
     },
     {
       "sceneId": "HSK3_SC024",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_PHARMACY_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -49,7 +49,7 @@
     },
     {
       "sceneId": "HSK3_SC025",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -58,7 +58,7 @@
     },
     {
       "sceneId": "HSK3_SC026",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_NEIGHBORHOOD_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -67,7 +67,7 @@
     },
     {
       "sceneId": "HSK3_SC027",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ELECTRONICS_STORE_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -76,7 +76,7 @@
     },
     {
       "sceneId": "HSK3_SC028",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_PHARMACY_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -85,7 +85,7 @@
     },
     {
       "sceneId": "HSK3_SC029",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_ZHANG_HOME_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -94,7 +94,7 @@
     },
     {
       "sceneId": "HSK3_SC030",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_NEIGHBORHOOD_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -103,6 +103,7 @@
     }
   ],
   "notes": [
-    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending."
+    "Repo audit synchronized batch status: 10/10 visual complete, 10/10 audio complete.",
+    "All scenes in this batch have complete media status."
   ]
 }

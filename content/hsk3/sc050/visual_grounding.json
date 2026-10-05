@@ -1,0 +1,73 @@
+{
+  "sceneId": "HSK3_SC050",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki elektronik mağazasında HSK4'e geçişe hazırlanmayı konuşur; HSK3 boyunca öğrendiklerini değerlendirir, uygun çalışma yöntemini seçer ve bir sonraki seviyeye geçmeden önce küçük uygulanabilir hazırlık adımlarını netleştirir.",
+    "communicationPurpose": "HSK3 deneyimini değerlendirme, HSK4 için hazırlık yöntemini seçme ve bir sonraki seviyeye geçiş öncesi uygulanabilir küçük adım belirleme",
+    "tone": "sakin, motive edici, analitik ve çözüm odaklı",
+    "mainPhysicalAction": "elektronik mağazasındaki demo alanında dijital araçlar ve çalışma yöntemleri üzerinden bir sonraki öğrenme seviyesine hazırlığı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "headphones",
+      "phone accessories",
+      "small device display tables",
+      "neutral demo devices without readable branding",
+      "tidy retail shelves"
+    ],
+    "continuityFromPrevious": "SC049'da Wang Ming ile Zhang Wei teknik deneyimi özetler; SC050'de Zhang Wei Chen Yu ile bu deneyimi HSK4 hazırlığına dönüştürür.",
+    "continuityToNext": "HSK4_SC001, HSK3 seviye kabulü tamamlandıktan sonra Zhang Wei ile Wang Ming'in daha önemli bir görev üstlenmesiyle başlar; öğrenilen teknik/iş yöntemi daha yüksek sorumluluk düzeyine taşınır."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "HSK4 hazırlığı içinde dijital araç ve çalışma yöntemi değerlendirmesi; marka/metinsiz cihaz demo alanları bulunan canonical elektronik mağazasıyla uyumludur.",
+    "dialogueEvidence": [
+      "准备进入HSK4",
+      "计划本来就需要调整，先看最重要的部分",
+      "其实适合现在情况的方法更重要",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC046 aynı LOC_ELECTRONICS_STORE_001, aynı Zhang Wei + Chen Yu karakter çifti, aynı OUTFIT_ZHANG_WEI_CASUAL_01 / OUTFIT_CHEN_YU_CASUAL_01 ve aynı face_right / face_left yönleriyle visual-assets-complete kabul edilmiş birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC046 canonical LOC_ELECTRONICS_STORE_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC046 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC046 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC046 canonical electronics-store FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC046 accepted electronics-store two-shot preview birebir yeniden kullanılır; aynı mekân, kimlikler, kıyafetler ve yönler korunur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc046/assets/hsk3_sc046_bg.webp",
+      "characterA": "content/hsk3/sc046/assets/hsk3_sc046_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc046/assets/hsk3_sc046_char_chen_yu.webp",
+      "foreground": "content/hsk3/sc046/assets/hsk3_sc046_fg.webp",
+      "preview": "content/hsk3/sc046/assets/hsk3_sc046_preview.webp"
+    }
+  },
+  "levelClosureAudit": {
+    "status": "blocked",
+    "audioCompleteScenes": 50,
+    "visualCompleteScenesAfterThisScene": 39,
+    "totalScenes": 50,
+    "missingVisualScenes": [
+      "HSK3_SC001",
+      "HSK3_SC002",
+      "HSK3_SC003",
+      "HSK3_SC004",
+      "HSK3_SC005",
+      "HSK3_SC006",
+      "HSK3_SC007",
+      "HSK3_SC008",
+      "HSK3_SC009",
+      "HSK3_SC010",
+      "HSK3_SC011"
+    ],
+    "nextLevelAdvanceAllowed": false,
+    "reason": "Repo audit shows SC001-SC010 have no physical WebP visual assets and SC011 visual status remains pending. HSK4 must not start until HSK3 reaches 50/50 visual+audio acceptance."
+  }
+}
