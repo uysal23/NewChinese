@@ -1,0 +1,62 @@
+{
+  "sceneId": "HSK3_SC047",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou Public Library çalışma alanında senkronizasyon sorununu çözmeyi konuşur; planı ve sorumlulukları gözden geçirir, sorunun nedenini kaydeder ve küçük uygulanabilir bir sonraki adım belirler.",
+    "communicationPurpose": "senkronizasyon sorununu çözme, nedenini belirleme, sorumlulukları netleştirme ve tekrar etmeyi önleyecek uygun yöntemi seçme",
+    "tone": "sakin, analitik, destekleyici ve çözüm odaklı",
+    "mainPhysicalAction": "sessiz kütüphane çalışma alanında cihaz/dijital dosya senkronizasyon sorununu değerlendirme ve çözüm planı oluşturma üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood shelves",
+      "quiet study tables",
+      "large windows",
+      "green indoor plants",
+      "neutral laptop or tablet without readable text"
+    ],
+    "continuityFromPrevious": "SC046'da Zhang Wei Chen Yu ile uygun dijital araç ve yöntemleri değerlendirir; SC047'de Wang Ming ile seçilen araçların senkronizasyon sorununu çözmeye ve kayıt altına almaya geçer.",
+    "continuityToNext": "SC048'de Zhang Wei Chen Yu ile proje sonucunu paylaşmaya geçer; teknik sorunu çözüp sonucu değerlendirme ve paylaşma sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "locationReason": "Senkronizasyon sorunu üzerine sakin dijital çalışma, cihaz kullanımı ve odaklı problem çözme; canonical Public Library çalışma alanıyla uyumludur.",
+    "dialogueEvidence": [
+      "解决同步问题",
+      "先解决眼前的问题，再记录原因，下次就会更快",
+      "能。你可以每周回头看一次，会发现变化比想象中明显",
+      "其实适合现在情况的方法更重要"
+    ],
+    "continuityEvidence": "HSK3_SC043 aynı LOC_PUBLIC_LIBRARY_001 için visual-assets-complete kabul edilmiş ve Zhang Wei CASUAL_01 / face_right + Wang Ming WORK_01 / face_left current canonical pairini içerir.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "SC047 pending manifesti Wang Ming characterA / face_right ve Zhang Wei characterB / face_left düzenindeydi; repo içinde bu yönlerle current Zhang casual outfit lock'unu birlikte taşıyan complete accepted pair bulunmadı. SC043'te kabul edilmiş Zhang Wei face_right + Wang Ming face_left visual pair birebir yeniden kullanıldı. Scene.json karakter sırası ve dialogue speaker bağları değiştirilmedi.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC043 canonical LOC_PUBLIC_LIBRARY_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC043 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC043 canonical CHAR_WANG_MING_001 / OUTFIT_WANG_MING_WORK_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC043 canonical Public Library FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC043 accepted Public Library preview birebir yeniden kullanılır; runtime sahnesinde aynı canonical character layer düzeni korunur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc043/assets/hsk3_sc043_bg.webp",
+      "characterA": "content/hsk3/sc043/assets/hsk3_sc043_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc043/assets/hsk3_sc043_char_wang_ming.webp",
+      "foreground": "content/hsk3/sc043/assets/hsk3_sc043_fg.webp",
+      "preview": "content/hsk3/sc043/assets/hsk3_sc043_preview.webp"
+    }
+  }
+}

@@ -82,8 +82,8 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - Golden Demo #163: kilitli referans.
 - HSK1: 50/50 seviye kabulü tamamlandı.
 - HSK2: tamamlanan üretim adımları repo durumuna göre korunur.
-- HSK3: SC001–SC046 için görsel ve ses durumları complete.
-- HSK3_SC046: 5/5 canonical Electronics Store görsel asseti mevcut; HSK3_SC042 kabul edilmiş BG/CHAR_A/CHAR_B/FG/PREVIEW seti aynı Zhang Wei + Chen Yu outfit ve yön kilitleriyle birebir yeniden kullanıldı. Başlıkta Wang Ming geçmesine rağmen locked scene/dialogue Zhang Wei + Chen Yu olduğu için içerik kilidi korunarak görseller gerçek scene/dialogue karakterlerine bağlandı.
-- HSK3_SC047: sıradaki AUTO-PROGRESS sahnesi.
+- HSK3: SC001–SC047 için görsel ve ses durumları complete.
+- HSK3_SC047: 5/5 canonical Public Library görsel asseti mevcut; HSK3_SC043 kabul edilmiş BG/CHAR_A/CHAR_B/FG/PREVIEW seti Zhang Wei + Wang Ming outfit ve yön kilitleriyle yeniden kullanıldı.
+- HSK3_SC048: sıradaki AUTO-PROGRESS sahnesi.
 - **Aktif Adım: Adım 12 — HSK3'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK3_SC047 için manifest + dialogue + continuity kontrolünü yapıp canonical görselleri complete duruma getirmek; Actions tüketmemek için [skip ci] kullanılacak.**
+- **Anlık iş kalemi: HSK3_SC048 için manifest + dialogue + continuity kontrolünü yapıp canonical görselleri complete duruma getirmek; Actions tüketmemek için [skip ci] kullanılacak.**
