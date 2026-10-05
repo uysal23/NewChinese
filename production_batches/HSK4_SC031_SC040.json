@@ -6,14 +6,14 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
+    "visualComplete": 1,
     "audioComplete": 10,
-    "acceptedScenes": 0
+    "acceptedScenes": 1
   },
   "scenes": [
     {
       "sceneId": "HSK4_SC031",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_COMMUNITY_CENTER_001",
       "characterIds": [
         "CHAR_CHEN_YU_001",
@@ -103,6 +103,8 @@
     }
   ],
   "notes": [
-    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending."
+    "HSK4_SC031 visual + audio complete; HSK4_SC032-SC040 audio complete with visuals pending.",
+    "HSK4_SC031 uses accepted HSK2_SC041 canonical Community Center composition; pending reverse anchor order was aligned to accepted Zhang Wei face_right + Chen Yu face_left without changing locked scene/dialogue content.",
+    "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }

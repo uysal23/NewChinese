@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK4_SC031",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou topluluk merkezinde ilk kez yerel tiyatro izleme deneyimini; kültürel merak, yeni bir etkinliğe açık olma, farklı görüşleri dinleme ve gündelik yaşamın dışında yerel kültüre bilinçli alan açma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC030'da verimlilik daha sürdürülebilir ve dengeli biçimde yeniden tanımlanır; SC031'de bu yaklaşım iş dışındaki kültürel deneyimlere zaman ayırmaya dönüşür.",
+    "continuityToNext": "HSK4_SC032'de geleneksel bir mahalleyi gezmeye geçilir; yerel tiyatroyla başlayan kültürel merak, kentin geleneksel dokusunu doğrudan keşfetmeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC041 is the accepted complete Community Center source with the same Chen Yu + Zhang Wei pair, casual outfits and LIGHT_WARM_NATURAL_01."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC031 manifest requested Chen Yu face_right + Zhang Wei face_left. The accepted pair at this location is Zhang Wei face_right + Chen Yu face_left, so only visual composition is aligned to the accepted arrangement. Scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc041/assets/hsk2_sc041_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc041/assets/hsk2_sc041_fg.webp",
+    "preview": "content/hsk2/sc041/assets/hsk2_sc041_preview.webp"
+  }
+}
