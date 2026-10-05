@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK4_SC047",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki modern çalışma ortamında görüş ayrılığı yaşamayı; ortak hedefi korurken farklı öncelikleri açığa çıkarma, olgularla yorumları ayırma, karşı tarafın kaygısını dinleme ve uygulanabilir uzlaşma noktası bulma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC046'da plan geri bildirimlere göre revize edilir; SC047'de bu değişikliklerin farklı beklentileri görünür kılmasıyla Wang Ming ve Zhang Wei arasında görüş ayrılığı ortaya çıkar.",
+    "continuityToNext": "HSK4_SC048'de Zhang Wei ile Chen Yu öncelik ve fedakârlık kararı verir; SC047'deki anlaşmazlığı çözebilmek için hangi unsurların vazgeçilmez, hangilerinin esnetilebilir olduğunu belirleme ihtiyacı doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC041 is an accepted complete Zhang Office source with the same Zhang Wei + Wang Ming pair, required casual/work outfits and LIGHT_WARM_NATURAL_01."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC047 manifest requested Wang Ming face_right + Zhang Wei face_left. Accepted Zhang Office pair sources use Zhang Wei face_right + Wang Ming face_left, so only visual composition is aligned to that canonical arrangement. Scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc041/assets/hsk3_sc041_bg.webp",
+    "characterA": "content/hsk3/sc041/assets/hsk3_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc041/assets/hsk3_sc041_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc041/assets/hsk3_sc041_fg.webp",
+    "preview": "content/hsk3/sc041/assets/hsk3_sc041_preview.webp"
+  }
+}
