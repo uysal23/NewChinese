@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC018",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou'daki kafede toplantı çatışmasını çözmeyi; tarafların gerekçelerini tam dinleme, gerçek ayrılık noktasını bulma, olgu ile yorumu ayırma ve sonuç ile ilişkiyi birlikte gözetme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC017'de sorumluluk sınırları netleştirilir; SC018'de bu netlik toplantı içindeki çatışmayı yapıcı biçimde çözmeye taşınır.",
+    "continuityToNext": "HSK4_SC019'da güven oluşturmaya geçilir; çatışmayı olgun biçimde çözme pratiğinden tutarlı ve şeffaf iletişimle güven kurmaya doğal continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC012 aynı LOC_CAFE_001, aynı Zhang Wei + Liu Mei çifti, aynı casual outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc012/assets/hsk3_sc012_bg.webp",
+    "characterA": "content/hsk3/sc012/assets/hsk3_sc012_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc012/assets/hsk3_sc012_char_liu_mei.webp",
+    "foreground": "content/hsk3/sc012/assets/hsk3_sc012_fg.webp",
+    "preview": "content/hsk3/sc012/assets/hsk3_sc012_preview.webp"
+  }
+}

@@ -90,7 +90,8 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK4_SC014: 5/5 canonical Cafe visual complete.
 - HSK4_SC015: 5/5 canonical Office visual complete.
 - HSK4_SC016: 5/5 canonical Cafe visual complete.
-- HSK4_SC017: 5/5 canonical Office visual complete; HSK3_SC045 accepted Office seti yeniden kullanıldı.
-- HSK4_SC011–SC020 second batch: **7/10 visual complete, 10/10 audio complete**.
+- HSK4_SC017: 5/5 canonical Office visual complete.
+- HSK4_SC018: 5/5 canonical Cafe visual complete; HSK3_SC012 accepted Cafe seti yeniden kullanıldı.
+- HSK4_SC011–SC020 second batch: **8/10 visual complete, 10/10 audio complete**.
 - **Aktif Adım: Adım 13 — HSK4'ü 50/50 Tamamla**
-- **Anlık iş kalemi: HSK4_SC018 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK4_SC019 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini tamamla; Actions tüketmemek için [skip ci] kullan.**
