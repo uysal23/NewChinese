@@ -1,0 +1,52 @@
+{
+  "sceneId": "HSK3_SC048",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki sıcak mahalle kafesinde proje sonucunu paylaşmayı konuşur; süreci gözden geçirir, önemli noktaları seçer, sonucu açık ve sakin biçimde nasıl aktaracağını netleştirir ve bir sonraki küçük adımı belirler.",
+    "communicationPurpose": "proje sonucunu anlaşılır biçimde paylaşma, önemli noktaları seçme, iletişimi netleştirme ve sonraki adımı belirleme",
+    "tone": "sakin, arkadaşça, yansıtıcı ve çözüm odaklı",
+    "mainPhysicalAction": "kafe masasında tamamlanan projenin sonucu ve nasıl paylaşılacağı üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "warm wood cafe furniture",
+      "tea or coffee cups",
+      "small neutral notebook or laptop without readable text",
+      "soft daylight",
+      "modest seating"
+    ],
+    "continuityFromPrevious": "SC047'de Wang Ming ile Zhang Wei senkronizasyon sorununu çözüp nedenini ve takip yöntemini netleştirir; SC048'de Zhang Wei Chen Yu ile teknik süreçten çıkan proje sonucunu paylaşmaya geçer.",
+    "continuityToNext": "SC049'da Wang Ming ile Zhang Wei teknik deneyimi özetler; sonucu paylaşma, öğrenilenleri çıkarma ve bir sonraki uygulamaya taşıma sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "locationReason": "Proje sonucunu sakin biçimde paylaşma ve değerlendirme konuşması; sıcak, aile dostu, karşılıklı konuşmaya uygun canonical Cafe ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "分享项目结果",
+      "计划本来就需要调整，先看最重要的部分",
+      "把原因说明白，再听听对方的想法，通常会好很多",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC044 aynı LOC_CAFE_001, aynı Zhang Wei + Chen Yu karakter çifti, aynı OUTFIT_ZHANG_WEI_CASUAL_01 / OUTFIT_CHEN_YU_CASUAL_01 ve aynı face_right / face_left yönleriyle visual-assets-complete kabul edilmiş birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC044 canonical LOC_CAFE_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC044 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC044 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC044 canonical Cafe FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC044 accepted Cafe two-shot preview birebir yeniden kullanılır; aynı mekân, karakter kimlikleri, kıyafetler ve yönler korunur.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc044/assets/hsk3_sc044_bg.webp",
+      "characterA": "content/hsk3/sc044/assets/hsk3_sc044_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc044/assets/hsk3_sc044_char_chen_yu.webp",
+      "foreground": "content/hsk3/sc044/assets/hsk3_sc044_fg.webp",
+      "preview": "content/hsk3/sc044/assets/hsk3_sc044_preview.webp"
+    }
+  }
+}
