@@ -1,0 +1,73 @@
+{
+  "sceneId": "HSK5_SC005",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki elektronik mağazasında uzaktan işbirliğini; dijital araç seçimi, iletişim netliği, sorumluluk paylaşımı, risk, kaynak ve sürdürülebilir çalışma ritmi üzerinden değerlendirir.",
+    "communicationPurpose": "Uzaktan işbirliğinde araçların amaç değil destek olması gerektiğini; karar, iletişim ve sorumluluğun açık kalmasını değerlendirmek.",
+    "tone": "sakin, analitik, işbirlikçi ve çözüm odaklı",
+    "mainPhysicalAction": "elektronik mağazasındaki cihaz ve aksesuar demo alanında uzaktan çalışma/işbirliği için teknoloji seçeneklerini değerlendirerek karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "headphones",
+      "phone accessories",
+      "small device display tables",
+      "neutral demo devices without readable branding",
+      "tidy retail shelves"
+    ],
+    "continuityFromPrevious": "HSK5_SC004'te Zhang Wei ile Chen Yu dijital araç bağımlılığını ve alternatif yöntemleri değerlendirir. SC005'te Wang Ming ile Zhang Wei bu farkındalığı uzaktan işbirliği için araç seçimi, iletişim ve sorumluluk paylaşımına taşır.",
+    "continuityToNext": "HSK5_SC006'da Zhang Wei ile Chen Yu teknoloji/iletişim kararlarını daha sosyal bir Cafe bağlamında değerlendirir; SC005'teki işbirliği, risk ve iletişim çerçevesi sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "Uzaktan işbirliği için cihaz/aksesuar ve dijital araç seçeneklerini değerlendirmek, marka/metinsiz demo ürünleri olan canonical Electronics Store ile doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "远程协作",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK3_SC042 accepted Electronics Store BG/FG kaynağıdır; HSK4_SC041 accepted Zhang Wei + Wang Ming canonical character pair kaynağıdır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC005 manifesti Wang Ming face_right + Zhang Wei face_left istemektedir. Accepted Zhang Wei/Wang Ming pair kaynağı Zhang Wei face_right + Wang Ming face_left düzenindedir; identity drift yaratmamak için visual composition bu canonical düzene hizalanır. scene.json ve locked dialogue speaker sırası değişmez.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "compositionMethod": {
+    "status": "preview_pending",
+    "method": "canonical-layer-composite",
+    "note": "Electronics Store BG/FG HSK3_SC042 accepted kaynağından; Zhang Wei/Wang Ming character layers HSK4_SC041 accepted kaynağından stage edilir. Locked visual completion gate gereği doğru dört katmandan türetilmiş textless 9:16 PREVIEW fiziksel olarak oluşmadan scene visual complete/accepted işaretlenmez."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc042/assets/hsk3_sc042_bg.webp",
+    "characterA": "content/hsk4/sc041/assets/hsk4_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc041/assets/hsk4_sc041_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc042/assets/hsk3_sc042_fg.webp",
+    "preview": "PENDING: derive from the four staged canonical layers using repo deterministic compositor logic."
+  }
+}
