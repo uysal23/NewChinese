@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC006",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında iyileştirme önerisi sunmayı tartışır; öneriyi kişiye değil konuya odaklama, farklı görüşleri dinleme, sorumluluk ve sınırları açıkça belirtme ve geri bildirime göre çözümü ayarlama üzerinde dururlar.",
+    "continuityFromPrevious": "HSK4_SC005'te takvim baskısı altında öncelik, kalite ve kapasite dengesi değerlendirilir; SC006'da bu deneyim somut bir iyileştirme önerisine dönüştürülür.",
+    "continuityToNext": "HSK4_SC007'de kaynakları iş arkadaşlarıyla koordine etmeye geçilir; öneriden uygulama ve kaynak koordinasyonuna doğal profesyonel continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC002 aynı mekân, aynı Zhang Wei + Wang Ming çifti, aynı outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc002/assets/hsk3_sc002_bg.webp",
+    "characterA": "content/hsk3/sc002/assets/hsk3_sc002_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc002/assets/hsk3_sc002_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc002/assets/hsk3_sc002_fg.webp",
+    "preview": "content/hsk3/sc002/assets/hsk3_sc002_preview.webp"
+  }
+}
