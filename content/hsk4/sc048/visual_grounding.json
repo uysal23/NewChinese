@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC048",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou topluluk merkezinde öncelik ve fedakârlık kararı vermeyi; ortak hedefi korurken vazgeçilmez unsurları belirleme, maliyet ve faydayı karşılaştırma, esnetilebilir noktaları ayırma ve uygulanabilir bir dengeye ulaşma çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC047'de Wang Ming ile Zhang Wei görüş ayrılığı yaşar; SC048'de bu anlaşmazlığın çözümü için hangi unsurların öncelikli, hangilerinin fedakârlık edilebilir olduğu Zhang Wei ile Chen Yu tarafından değerlendirilir.",
+    "continuityToNext": "HSK4_SC049'da herkese açık sunuma geçilir; SC048'de öncelik ve fedakârlık kararının netleşmesi, sunumda hangi mesaj ve sonuçların öne çıkarılacağını belirlemeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC041 is an accepted complete Community Center source with exact Zhang Wei + Chen Yu casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc041/assets/hsk2_sc041_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc041/assets/hsk2_sc041_fg.webp",
+    "preview": "content/hsk2/sc041/assets/hsk2_sc041_preview.webp"
+  }
+}
