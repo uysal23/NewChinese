@@ -1,0 +1,41 @@
+{
+  "sceneId": "HSK4_SC037",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou topluluk merkezinde fotoğrafçılığı; çevredeki ayrıntıları fark etme, bir görüntünün neyi öne çıkardığını düşünme, teknik seçimlerle anlatım amacı arasındaki ilişkiyi değerlendirme ve farklı görsel bakış açılarını karşılaştırma çerçevesinde konuşur.",
+    "continuityFromPrevious": "HSK4_SC036'da eski yapılar ile yeni şehir arasındaki ilişki gözlem ve değerlendirme üzerinden ele alınır; SC037'de bu görsel dikkat, çevreyi fotoğrafçılık üzerinden nasıl gördüğümüz ve anlattığımız konusuna taşınır.",
+    "continuityToNext": "HSK4_SC038'de toplum kültür etkinliğine geçilir; fotoğrafçılık üzerinden yerel yaşamı gözlemleme pratiği, topluluk içindeki kültürel etkinlikleri fark etme ve katılım biçimlerini konuşmaya doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "continuityEvidence": "HSK2_SC041 is the accepted complete Community Center source with the same Zhang Wei + Chen Yu pair, casual outfits and LIGHT_WARM_NATURAL_01."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC037 manifest requested Chen Yu face_right + Zhang Wei face_left. The accepted pair at this location is Zhang Wei face_right + Chen Yu face_left, so only visual composition is aligned to the accepted arrangement. Scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc041/assets/hsk2_sc041_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc041/assets/hsk2_sc041_fg.webp",
+    "preview": "content/hsk2/sc041/assets/hsk2_sc041_preview.webp"
+  }
+}
