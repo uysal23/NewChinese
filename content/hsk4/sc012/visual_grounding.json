@@ -1,0 +1,24 @@
+{
+  "sceneId": "HSK4_SC012",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou'daki sıcak mahalle kafesinde nasıl geri bildirim verileceğini; somut davranışa odaklanma, kişiselleştirmeden açık konuşma, sorumluluk sınırlarını gözetme ve ilişkiyi koruyarak iyileştirme önerme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC011'de yeni ekip arkadaşının katılması ve onboarding beklentileri ele alınır; SC012'de bu bağlam yapıcı geri bildirim verme pratiğine taşınır.",
+    "continuityToNext": "HSK4_SC013'te eleştiriyi kabul etmeye geçilir; geri bildirim verme pratiğinden geri bildirim alma olgunluğuna doğal continuity korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC012 aynı LOC_CAFE_001, aynı Zhang Wei + Liu Mei çifti, aynı casual outfit ve aynı face_right / face_left yönleriyle accepted canonical kaynaktır."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc012/assets/hsk3_sc012_bg.webp",
+    "characterA": "content/hsk3/sc012/assets/hsk3_sc012_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc012/assets/hsk3_sc012_char_liu_mei.webp",
+    "foreground": "content/hsk3/sc012/assets/hsk3_sc012_fg.webp",
+    "preview": "content/hsk3/sc012/assets/hsk3_sc012_preview.webp"
+  }
+}

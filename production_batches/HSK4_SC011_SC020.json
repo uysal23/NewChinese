@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 1,
+    "visualComplete": 2,
     "audioComplete": 10,
-    "acceptedScenes": 1
+    "acceptedScenes": 2
   },
   "scenes": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "sceneId": "HSK4_SC012",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -103,8 +103,8 @@
     }
   ],
   "notes": [
-    "HSK4_SC011 visual production complete; second HSK4 batch started at 1/10 visual complete and 10/10 audio complete.",
-    "HSK4_SC012-SC020 remain visual pending.",
+    "HSK4_SC011-SC012 visual production complete; second HSK4 batch now 2/10 visual complete and 10/10 audio complete.",
+    "HSK4_SC013-SC020 remain visual pending.",
     "HSK4 maturity lock and locked dialogue/scene content remain unchanged."
   ]
 }
