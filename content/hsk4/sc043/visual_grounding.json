@@ -1,0 +1,50 @@
+{
+  "sceneId": "HSK4_SC043",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki sıcak mahalle kafesinde ortak proje görevlerini dağıtmayı; hedef ve önceliklere göre sorumluluk belirleme, kapasite ve sınırları dikkate alma, koordinasyon baskısını azaltma ve herkesin katkısını açık biçimde tanımlama çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC042'de proje hedefi ve öncelikler netleştirilir; SC043'te bu ortak hedefler somut sorumluluklara ve görev dağılımına dönüştürülür.",
+    "continuityToNext": "HSK4_SC044'te Zhang Wei ile Chen Yu ilk prototipe geçer; görevlerin açıkça paylaşılması, ilk uygulanabilir çıktıyı üretip birlikte değerlendirmeye doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "Dialogue file contains 28 physical lines in order, speaker/voice mapping is valid, audio references are unique, and existing locked HSK4 dialogue/audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC048 is an accepted complete Cafe source for the warm wood accents, plants, soft daylight, tea/coffee and LIGHT_WARM_NATURAL_01."
+  },
+  "characterMatch": {
+    "status": "approved",
+    "continuityEvidence": "HSK3_SC041 provides accepted Zhang Wei face_right + Wang Ming face_left character layers with the required Zhang Wei casual and Wang Ming work outfits."
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending SC043 manifest requested Wang Ming face_right + Zhang Wei face_left. Accepted Zhang Wei/Wang Ming pair sources use Zhang Wei face_right + Wang Ming face_left, so only visual composition is aligned to that canonical arrangement. Scene character membership, dialogue speakers and HSK4 maturity remain unchanged."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "canonical-layer-composite",
+    "note": "No accepted historical full set exists for LOC_CAFE_001 with Wang Ming + Zhang Wei. Cafe BG/FG are reused from HSK3_SC048, exact accepted Zhang Wei/Wang Ming character layers from HSK3_SC041, and a scene-specific textless 9:16 Cafe preview was generated and binary Git-blob SHA verified before commit."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc048/assets/hsk3_sc048_bg.webp",
+    "characterA": "content/hsk3/sc041/assets/hsk3_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc041/assets/hsk3_sc041_char_wang_ming.webp",
+    "foreground": "content/hsk3/sc048/assets/hsk3_sc048_fg.webp",
+    "preview": "content/hsk4/sc043/assets/hsk4_sc043_preview.webp"
+  }
+}
