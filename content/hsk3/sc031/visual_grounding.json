@@ -1,0 +1,62 @@
+{
+  "sceneId": "HSK3_SC031",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Chen Yu ile Zhang Wei, Hangzhou'daki şehir parkında bir fotoğraf etkinliğine katılmayı konuşur; planı netleştirir, seçenekleri değerlendirir ve uygulanabilir küçük adımlar belirler.",
+    "communicationPurpose": "fotoğraf etkinliğine katılma planını netleştirme, seçenekleri değerlendirme, sorumlulukları doğrulama ve küçük uygulanabilir adımlar belirleme",
+    "tone": "sakin, meraklı, arkadaşça ve çözüm odaklı",
+    "mainPhysicalAction": "şehir parkındaki göl ve yürüyüş yolu çevresinde fotoğraf etkinliği ve katılım planı üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_CHEN_YU_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "kamera veya telefon",
+      "göl",
+      "yürüyüş yolu",
+      "küçük köprü",
+      "okunabilir metin içermeyen park yönlendirme öğeleri"
+    ],
+    "continuityFromPrevious": "SC030'da hafta sonu görevlerini önceliklendiren Zhang Wei, SC031'de Chen Yu ile sosyal ve yaratıcı bir hafta sonu etkinliğine geçer; planlama ve sonraki küçük adımı seçme davranışı korunur.",
+    "continuityToNext": "SC032'de Zhang Wei başka bir arkadaşlık/hafta sonu etkinliği bağlamına geçer; sosyal planlama ve uygulanabilir adım seçme sürekliliği korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CITY_PARK_001",
+    "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+    "locationReason": "Fotoğraf etkinliği için göl, küçük köprü, yürüyüş yolları ve aile dostu açık alan içeren City Park doğal ve doğrudan uygun mekândır.",
+    "dialogueEvidence": [
+      "参加摄影活动",
+      "计划本来就需要调整，先看最重要的部分",
+      "遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK2_SC048 aynı LOC_CITY_PARK_001 ve aynı Zhang Wei + Chen Yu çiftiyle visual-assets-complete kabul edilmiş canonical City Park kaynağıdır. HSK3_SC031'de sahne/dialogue kimlikleri değişmeden yalnız görsel katman sırası bu kabul edilmiş park kompozisyonuna hizalanır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "SC031'in ilk pending manifestinde Chen Yu characterA / Zhang Wei characterB düzeni vardı; repo genelinde bu yönlerle complete City Park pair asset bulunmadı. Kimlik, outfit ve mekân continuity'sini bozmamak için accepted HSK2_SC048 visual composition kullanıldı.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / face_right",
+      "CHAR_CHEN_YU_001 / characterB / face_left"
+    ]
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK2_SC048 canonical LOC_CITY_PARK_001 BG yeniden kullanılır.",
+    "characterA": "HSK2_SC048 canonical CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı yeniden kullanılır.",
+    "characterB": "HSK2_SC048 canonical CHAR_CHEN_YU_001 / OUTFIT_CHEN_YU_CASUAL_01 / face_left katmanı yeniden kullanılır.",
+    "foreground": "HSK2_SC048 canonical City Park FG yeniden kullanılır.",
+    "preview": "HSK2_SC048 kabul edilmiş 9:16 City Park Zhang Wei + Chen Yu preview yeniden kullanılır; baked text, logo veya UI yoktur.",
+    "sourceReuse": {
+      "background": "content/hsk2/sc048/assets/hsk2_sc048_bg.webp",
+      "characterA": "content/hsk2/sc048/assets/hsk2_sc048_char_zhang_wei.webp",
+      "characterB": "content/hsk2/sc048/assets/hsk2_sc048_char_chen_yu.webp",
+      "foreground": "content/hsk2/sc048/assets/hsk2_sc048_fg.webp",
+      "preview": "content/hsk2/sc048/assets/hsk2_sc048_preview.webp"
+    }
+  }
+}

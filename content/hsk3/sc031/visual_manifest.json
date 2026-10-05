@@ -3,20 +3,20 @@
   "locationId": "LOC_CITY_PARK_001",
   "assets": {
     "background": "assets/hsk3_sc031_bg.webp",
-    "characterA": "assets/hsk3_sc031_char_chen_yu.webp",
-    "characterB": "assets/hsk3_sc031_char_zhang_wei.webp",
+    "characterA": "assets/hsk3_sc031_char_zhang_wei.webp",
+    "characterB": "assets/hsk3_sc031_char_chen_yu.webp",
     "foreground": "assets/hsk3_sc031_fg.webp",
     "preview": "assets/hsk3_sc031_preview.webp"
   },
   "characters": [
     {
-      "characterId": "CHAR_CHEN_YU_001",
-      "outfit": "OUTFIT_CHEN_YU_CASUAL_01",
+      "characterId": "CHAR_ZHANG_WEI_001",
+      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
       "speechBubbleAnchor": "face_right"
     },
     {
-      "characterId": "CHAR_ZHANG_WEI_001",
-      "outfit": "OUTFIT_ZHANG_WEI_CASUAL_01",
+      "characterId": "CHAR_CHEN_YU_001",
+      "outfit": "OUTFIT_CHEN_YU_CASUAL_01",
       "speechBubbleAnchor": "face_left"
     }
   ],
@@ -28,5 +28,5 @@
     "outline": "dashed",
     "text": false
   },
-  "status": "visual-assets-pending"
+  "status": "visual-assets-complete"
 }
