@@ -1,0 +1,37 @@
+{
+  "sceneId": "HSK4_SC036",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK4",
+    "summary": "Zhang Wei ile Liu Mei, Hangzhou Public Library'nin sakin çalışma alanında eski yapılar ile yeni şehir arasındaki ilişkiyi; kültürel mirası koruma, şehir gelişiminin ihtiyaçlarını değerlendirme, farklı görüşleri ayırma ve geçmiş ile modern yaşam arasında dengeli çözümler düşünme çerçevesinde ele alır.",
+    "continuityFromPrevious": "HSK4_SC035'te müzedeki hikâyeler ve kültürel miras üzerine konuşulur; SC036'da bu tarihsel bakış, eski yapıların yeni şehir içindeki rolünü değerlendirmeye taşınır.",
+    "continuityToNext": "HSK4_SC037'de Chen Yu ile fotoğrafçılık konuşulacaktır; eski ve yeni şehir dokusunu gözlemleme pratiği, çevredeki ayrıntıları görsel olarak fark etme ve fotoğrafçılık üzerinden anlatma konusuna doğal continuity sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 28,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LIU_MEI_001": "VOICE_LIU_MEI_001"
+    },
+    "note": "Dialogue order, speaker/voice mapping, unique audio references and HSK4 maturity are valid. Existing locked dialogue and complete audio are preserved."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "continuityEvidence": "HSK3_SC020 is an accepted complete Public Library source with exact Zhang Wei + Liu Mei casual outfits, face_right/face_left anchors and LIGHT_WARM_NATURAL_01."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc020/assets/hsk3_sc020_bg.webp",
+    "characterA": "content/hsk3/sc020/assets/hsk3_sc020_char_zhang_wei.webp",
+    "characterB": "content/hsk3/sc020/assets/hsk3_sc020_char_liu_mei.webp",
+    "foreground": "content/hsk3/sc020/assets/hsk3_sc020_fg.webp",
+    "preview": "content/hsk3/sc020/assets/hsk3_sc020_preview.webp"
+  }
+}
