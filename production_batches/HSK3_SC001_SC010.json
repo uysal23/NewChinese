@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 5,
+    "visualComplete": 6,
     "audioComplete": 10,
-    "acceptedScenes": 5
+    "acceptedScenes": 6
   },
   "scenes": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "sceneId": "HSK3_SC006",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_OFFICE_BREAKROOM_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -103,7 +103,7 @@
     }
   ],
   "notes": [
-    "Repo audit synchronized batch status: 5/10 visual complete, 10/10 audio complete.",
-    "HSK3_SC001-SC005 visual repair complete; SC006-SC010 remain visual pending."
+    "Repo audit synchronized batch status: 6/10 visual complete, 10/10 audio complete.",
+    "HSK3_SC001-SC006 visual repair complete; SC007-SC010 remain visual pending."
   ]
 }

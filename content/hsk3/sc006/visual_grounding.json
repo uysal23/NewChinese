@@ -1,0 +1,53 @@
+{
+  "sceneId": "HSK3_SC006",
+  "sceneContext": {
+    "status": "approved",
+    "summary": "Zhang Wei ile Wang Ming, Hangzhou ofisine bağlı mola alanında bir iş arkadaşından yardım istemeyi konuşur; ne zaman destek istemenin uygun olduğunu, sorumluluğu korurken belirsizlikleri nasıl netleştireceğini ve küçük bir yardım talebini nasıl başlatacağını değerlendirir.",
+    "communicationPurpose": "iş arkadaşından uygun biçimde yardım isteme, sorumluluk sınırlarını koruma, belirsiz noktaları netleştirme ve uygulanabilir yardım talebi oluşturma",
+    "tone": "sakin, profesyonel, destekleyici ve çözüm odaklı",
+    "mainPhysicalAction": "office break-room alanında destek isteme ve görev sorumluluğunu paylaşma üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_WANG_MING_001"
+    ],
+    "visibleProps": [
+      "light wood table",
+      "simple kitchenette counter",
+      "tea and water station",
+      "small refrigerator",
+      "two or three indoor plants",
+      "clean neutral walls"
+    ],
+    "continuityFromPrevious": "SC005'te ani değişikliklere uyum sağlanır; SC006'da Zhang Wei bu değişiklikler sırasında gerektiğinde Wang Ming'den destek istemeyi ele alır.",
+    "continuityToNext": "SC007'de iş ilerlemesini raporlamaya geçilir; yardım isteme sonrasında ilerlemeyi açık biçimde paylaşma continuity'si korunur."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_OFFICE_BREAKROOM_001",
+    "authoritativeBible": "locations/LOC_OFFICE_BREAKROOM_001/visual_bible.json",
+    "locationReason": "Bir iş arkadaşından yardım isteme üzerine kısa, doğal ve ekip içi konuşma; ofise bağlı küçük tea/lunch alanı olan canonical Break Room ile uyumludur.",
+    "dialogueEvidence": [
+      "向同事求助",
+      "计划本来就需要调整，先看最重要的部分",
+      "先把自己负责的部分做好，遇到不确定的地方及时确认",
+      "那我今天先做一个具体的小步骤"
+    ],
+    "continuityEvidence": "HSK3_SC002 aynı LOC_OFFICE_BREAKROOM_001, aynı Zhang Wei + Wang Ming karakter çifti, aynı outfit ve aynı face_right / face_left yönleriyle visual-assets-complete kabul edilmiş birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "HSK3_SC002 canonical LOC_OFFICE_BREAKROOM_001 BG birebir yeniden kullanılır.",
+    "characterA": "HSK3_SC002 accepted CHAR_ZHANG_WEI_001 / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right katmanı birebir yeniden kullanılır.",
+    "characterB": "HSK3_SC002 accepted CHAR_WANG_MING_001 / OUTFIT_WANG_MING_WORK_01 / face_left katmanı birebir yeniden kullanılır.",
+    "foreground": "HSK3_SC002 canonical Break Room FG birebir yeniden kullanılır.",
+    "preview": "HSK3_SC002 neutral canonical Break Room preview birebir yeniden kullanılır; runtime'da accepted iki character layer ayrı render edilir.",
+    "sourceReuse": {
+      "background": "content/hsk3/sc002/assets/hsk3_sc002_bg.webp",
+      "characterA": "content/hsk3/sc002/assets/hsk3_sc002_char_zhang_wei.webp",
+      "characterB": "content/hsk3/sc002/assets/hsk3_sc002_char_wang_ming.webp",
+      "foreground": "content/hsk3/sc002/assets/hsk3_sc002_fg.webp",
+      "preview": "content/hsk3/sc002/assets/hsk3_sc002_preview.webp"
+    }
+  }
+}
