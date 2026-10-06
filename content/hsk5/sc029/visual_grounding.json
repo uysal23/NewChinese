@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC029",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, Public Library bağlamında sabırlı olmayı öğrenmeyi; zaman, kaynaklar, belirsizlik, öğrenme, sorumluluk ve sürdürülebilir gelişim üzerinden değerlendirir.",
+    "communicationPurpose": "Sabırlı olmayı pasif bekleme değil, uzun vadeli öğrenme, belirsizliği taşıma ve istikrarlı ilerleme becerisi olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve öğrenme odaklı",
+    "mainPhysicalAction": "kütüphane çalışma alanında sabır, öğrenme süreci ve uzun vadeli gelişim üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light-wood bookshelves",
+      "study tables",
+      "large windows",
+      "plants",
+      "library objects without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC028'de Zhang Wei ile Li Na yeniden harekete geçmeyi küçük uygulanabilir adımlar ve sürdürülebilir tempo üzerinden ele alır. SC029'da Li Na ile Zhang Wei bu çizgiyi sabır, öğrenme süreci ve uzun vadeli gelişime taşır.",
+    "continuityToNext": "HSK5_SC030'da Zhang Wei ile Li Na Zhang Home bağlamında üçüncü batch kapanışına gider; SC029'da kurulan sabır ve sürdürülebilir gelişim çerçevesi kapanış sahnesine doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "locationReason": "Sabırlı olmayı öğrenmek teması, zaman ve öğrenme sürecinin doğal olarak ele alınabildiği canonical Public Library ortamıyla uyumludur.",
+    "dialogueEvidence": [
+      "学习耐心",
+      "长期来看，稳定的方法和可持续的节奏更有价值",
+      "等有新信息时再更新判断。"
+    ],
+    "continuityEvidence": "HSK2_SC023 accepted complete Public Library seti aynı Li Na + Zhang Wei çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile HSK5_SC029 manifestine birebir uyar. HSK5_SC023 aynı accepted seti başarıyla kullanmıştır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC023 accepted Public Library seti SC029 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve yanlış preview reuse riskini önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc023/assets/hsk2_sc023_bg.webp",
+    "characterA": "content/hsk2/sc023/assets/hsk2_sc023_char_li_na.webp",
+    "characterB": "content/hsk2/sc023/assets/hsk2_sc023_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc023/assets/hsk2_sc023_fg.webp",
+    "preview": "content/hsk2/sc023/assets/hsk2_sc023_preview.webp"
+  }
+}
