@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 5,
+    "visualComplete": 6,
     "audioComplete": 10,
-    "acceptedScenes": 5
+    "acceptedScenes": 6
   },
   "scenes": [
     {
@@ -58,7 +58,7 @@
     },
     {
       "sceneId": "HSK5_SC006",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -109,6 +109,7 @@
     "HSK5_SC004 visual + audio complete; accepted canonical Zhang Office composite set reused from HSK4_SC044 after HSK5_SC003 → HSK5_SC004 continuity grounding.",
     "HSK5 maturity lock and locked dialogue/scene content remain unchanged.",
     "HSK5_SC005 visual + audio complete; canonical Electronics Store composite HSK3_SC042 BG/FG + HSK4_SC041 Zhang Wei/Wang Ming layers üzerinden deterministic textless 9:16 PREVIEW ile tamamlandı; HSK5_SC004 → HSK5_SC005 continuity approved.",
-    "HSK5_SC001-SC010 first batch progress: 5/10 visual complete, 10/10 audio complete, 5/10 accepted."
+    "HSK5_SC006 visual + audio complete; accepted canonical Cafe set reused from HSK4_SC046 after HSK5_SC005 → HSK5_SC006 continuity grounding.",
+    "HSK5_SC001-SC010 first batch progress: 6/10 visual complete, 10/10 audio complete, 6/10 accepted."
   ]
 }

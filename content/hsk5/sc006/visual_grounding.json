@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC006",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki sıcak mahalle kafesinde bilgi aşırı yükünü; kaynak güvenilirliği, dikkat yönetimi, önceliklendirme, belirsizlik, sorumluluk ve uzun vadeli karar kalitesi üzerinden değerlendirir.",
+    "communicationPurpose": "Bilgi fazlalığında daha çok veri toplamak yerine güvenilir kaynak, öncelik, karar sorumluluğu ve sürdürülebilir dikkat yönetimi çerçevesi kurmak.",
+    "tone": "sakin, analitik, yansıtıcı ve çözüm odaklı",
+    "mainPhysicalAction": "kafe masasında gündelik bilgi akışı, dijital kaynaklar ve karar verme yükü üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "warm wood cafe furniture",
+      "tea or coffee cups",
+      "small neutral notebook or laptop without readable text",
+      "soft daylight",
+      "modest seating"
+    ],
+    "continuityFromPrevious": "HSK5_SC005'te Wang Ming ile Zhang Wei uzaktan işbirliğinde araç seçimi, iletişim ve sorumluluk paylaşımını değerlendirir. SC006'da Zhang Wei bu karar çerçevesini Chen Yu ile bilgi aşırı yükü, kaynak seçimi ve dikkat yönetimine taşır.",
+    "continuityToNext": "HSK5_SC007'de Wang Ming ile Zhang Wei iş/teknoloji kararlarında daha geniş değerlendirmeye geçer; SC006'da kurulan bilgi filtreleme, belirsizlik ve sorumluluk yaklaşımı sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "locationReason": "Bilgi aşırı yükü gibi kişisel/teknolojik bir konuyu sakin ve gündelik bağlamda değerlendirmek için canonical sıcak Cafe ortamı doğrudan uygundur.",
+    "dialogueEvidence": [
+      "信息过载",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK4_SC046 aynı LOC_CAFE_001, aynı Zhang Wei + Chen Yu çifti, aynı canonical outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete birebir canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK4_SC046 accepted Cafe seti SC006 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc046/assets/hsk4_sc046_bg.webp",
+    "characterA": "content/hsk4/sc046/assets/hsk4_sc046_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc046/assets/hsk4_sc046_char_chen_yu.webp",
+    "foreground": "content/hsk4/sc046/assets/hsk4_sc046_fg.webp",
+    "preview": "content/hsk4/sc046/assets/hsk4_sc046_preview.webp"
+  }
+}
