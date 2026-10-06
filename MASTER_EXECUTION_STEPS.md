@@ -133,7 +133,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK5_SC002: **5/5 canonical Electronics Store visual complete**; HSK3_SC042 accepted Electronics Store seti yeniden kullanıldı; HSK5_SC001 → HSK5_SC002 continuity approved.
 - HSK5_SC003: **5/5 canonical Cafe visual complete**; HSK4_SC043 accepted Cafe composite seti yeniden kullanıldı; HSK5_SC002 → HSK5_SC003 continuity approved.
 - HSK5_SC004: **5/5 canonical Zhang Office visual complete**; HSK4_SC044 accepted Office composite seti yeniden kullanıldı; HSK5_SC003 → HSK5_SC004 continuity approved.
-- HSK5_SC005: **4/5 canonical Electronics Store layers staged; PREVIEW pending**; HSK3_SC042 BG/FG + HSK4_SC041 Zhang Wei/Wang Ming layers kullanıldı; HSK5_SC004 → HSK5_SC005 continuity approved. Scene completion gate intentionally not passed.
-- HSK5_SC001–SC010 first batch: **4/10 visual complete, 10/10 audio complete**.
+- HSK5_SC005: **5/5 canonical Electronics Store composite visual complete**; HSK3_SC042 BG/FG + HSK4_SC041 Zhang Wei/Wang Ming layers kullanıldı; textless 9:16 PREVIEW deterministic olarak türetildi; HSK5_SC004 → HSK5_SC005 continuity approved.
+- HSK5_SC001–SC010 first batch: **5/10 visual complete, 10/10 audio complete, 5/10 accepted**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC005 için staged BG + CHAR_A + CHAR_B + FG katmanlarından doğru textless 9:16 PREVIEW üret, fiziksel 5/5 validation yap ve yalnız sonra scene/batch acceptance'ı ilerlet. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC006 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**

@@ -58,9 +58,9 @@
     ]
   },
   "compositionMethod": {
-    "status": "preview_pending",
+    "status": "approved",
     "method": "canonical-layer-composite",
-    "note": "Electronics Store BG/FG HSK3_SC042 accepted kaynağından; Zhang Wei/Wang Ming character layers HSK4_SC041 accepted kaynağından stage edilir. Locked visual completion gate gereği doğru dört katmandan türetilmiş textless 9:16 PREVIEW fiziksel olarak oluşmadan scene visual complete/accepted işaretlenmez."
+    "note": "Electronics Store BG/FG HSK3_SC042 accepted kaynağından; Zhang Wei/Wang Ming character layers HSK4_SC041 accepted kaynağından kullanıldı. Textless 9:16 PREVIEW staged dört canonical runtime katmanından repo deterministic PIL compositor mantığıyla fiziksel olarak türetildi."
   },
   "layerPlan": {
     "status": "approved",
@@ -68,6 +68,6 @@
     "characterA": "content/hsk4/sc041/assets/hsk4_sc041_char_zhang_wei.webp",
     "characterB": "content/hsk4/sc041/assets/hsk4_sc041_char_wang_ming.webp",
     "foreground": "content/hsk3/sc042/assets/hsk3_sc042_fg.webp",
-    "preview": "PENDING: derive from the four staged canonical layers using repo deterministic compositor logic."
+    "preview": "content/hsk5/sc005/assets/hsk5_sc005_preview.webp"
   }
 }

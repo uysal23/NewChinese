@@ -1,7 +1,7 @@
 {
   "sceneId": "HSK5_SC005",
   "visual": {
-    "status": "pending",
+    "status": "complete",
     "required": [
       "assets/hsk5_sc005_bg.webp",
       "assets/hsk5_sc005_char_zhang_wei.webp",
@@ -9,9 +9,7 @@
       "assets/hsk5_sc005_fg.webp",
       "assets/hsk5_sc005_preview.webp"
     ],
-    "missing": [
-      "assets/hsk5_sc005_preview.webp"
-    ]
+    "missing": []
   },
   "audio": {
     "status": "complete",
@@ -73,5 +71,5 @@
     ],
     "missing": []
   },
-  "rule": "Audio and visuals may be complete only after every declared physical asset exists and validation passes; SC005 has four canonical runtime layers staged and remains pending until the correct derived PREVIEW physically exists."
+  "rule": "Audio and visuals may be complete only after every declared physical asset exists and validation passes."
 }
