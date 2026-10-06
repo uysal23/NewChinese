@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC025",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, City Park bağlamında karşılaştırma ve kaygıyı; değerler, kaynaklar, belirsizlik, sorumluluk, öz değerlendirme ve sürdürülebilir tempo üzerinden değerlendirir.",
+    "communicationPurpose": "Karşılaştırmayı yalnız dış ölçütlerle değil, kişisel hedefler, kaynaklar, değerler ve uzun vadeli gelişim çerçevesinde yeniden ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "şehir parkında karşılaştırma, kaygı ve kişisel ölçütler üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "park walkway",
+      "greenery",
+      "bench",
+      "soft daylight",
+      "urban park elements without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC024'te Zhang Wei ile Li Na kalıcı alışkanlıkları yapı, tekrar ve sürdürülebilir tempo üzerinden ele alır. SC025'te Li Na ile Zhang Wei bu çerçeveyi dış karşılaştırmaların yarattığı kaygıyı kişisel hedefler ve uzun vadeli gelişim üzerinden yeniden değerlendirmeye taşır.",
+    "continuityToNext": "HSK5_SC026'da Zhang Wei ile Li Na Public Library bağlamına geçer; SC025'te kurulan öz değerlendirme ve farklı ölçütleri sorgulama yaklaşımı bilgi arama ve eleştirel değerlendirmeye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CITY_PARK_001",
+    "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+    "locationReason": "Karşılaştırma ve kaygı teması sakin, düşünmeye açık canonical City Park ortamıyla uyumludur.",
+    "dialogueEvidence": [
+      "比较与焦虑",
+      "趋势可以参考，判断还是要回到自己的目标",
+      "长期来看，稳定的方法和可持续的节奏更有价值。"
+    ],
+    "continuityEvidence": "HSK2_SC020 accepted complete City Park seti aynı Li Na + Zhang Wei çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile HSK5_SC025 manifestine birebir uyar. HSK4_SC025 aynı accepted seti başarıyla kullanmıştır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC020 accepted City Park seti SC025 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve yanlış preview reuse riskini önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc020/assets/hsk2_sc020_bg.webp",
+    "characterA": "content/hsk2/sc020/assets/hsk2_sc020_char_li_na.webp",
+    "characterB": "content/hsk2/sc020/assets/hsk2_sc020_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc020/assets/hsk2_sc020_fg.webp",
+    "preview": "content/hsk2/sc020/assets/hsk2_sc020_preview.webp"
+  }
+}
