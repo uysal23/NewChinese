@@ -1,0 +1,73 @@
+{
+  "sceneId": "HSK5_SC007",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki modern çalışma ortamında öneri algoritmalarını; kolaylık, kişiselleştirme, bilgi çeşitliliği, önyargı, sorumluluk ve uzun vadeli karar kalitesi üzerinden değerlendirir.",
+    "communicationPurpose": "Öneri algoritmalarını yalnız hız ve kişiselleştirme değil, bilgi çeşitliliği, kullanıcı kontrolü, önyargı riski ve sorumluluk açısından değerlendirmek.",
+    "tone": "sakin, profesyonel, analitik ve çözüm odaklı",
+    "mainPhysicalAction": "modern ofis ortamında bilgisayar/masa başında öneri sistemleri, bilgi seçimi ve karar etkileri üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "large windows",
+      "compact office work area"
+    ],
+    "continuityFromPrevious": "HSK5_SC006'da Zhang Wei ile Chen Yu bilgi aşırı yükü, kaynak seçimi ve dikkat yönetimini değerlendirir. SC007'de Wang Ming ile Zhang Wei bu çerçeveyi hangi bilgilerin kullanıcıya önerildiği, görünür olduğu ve kararları nasıl etkilediği konusuna taşır.",
+    "continuityToNext": "HSK5_SC008'de Zhang Wei ile Chen Yu teknoloji kararlarını daha somut ürün/araç bağlamında değerlendirir; SC007'deki öneri, önyargı ve kullanıcı kontrolü tartışması sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Öneri algoritmaları, dijital iş akışı ve bilgisayar tabanlı bilgi seçimiyle doğrudan ilişkili olduğu için canonical Zhang Wei Workplace doğal ve authoritative mekândır.",
+    "dialogueEvidence": [
+      "推荐算法",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK5_SC001 aynı LOC_ZHANG_OFFICE_001, aynı Zhang Wei + Wang Ming çifti, aynı canonical outfits ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC007 manifesti Wang Ming face_right + Zhang Wei face_left istemektedir. Accepted canonical Zhang Office pair kaynağı Zhang Wei face_right + Wang Ming face_left düzenindedir; identity drift yaratmamak için yalnız visual composition accepted düzene hizalanır. scene.json karakter üyeliği ve locked dialogue speaker sırası değişmez.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK5_SC001 accepted Zhang Office seti SC007 ile location, character IDs, outfits ve lighting açısından birebir uyumludur; canonical anchor alignment sonrası 5'li set yeniden üretim olmadan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk5/sc001/assets/hsk5_sc001_bg.webp",
+    "characterA": "content/hsk5/sc001/assets/hsk5_sc001_char_zhang_wei.webp",
+    "characterB": "content/hsk5/sc001/assets/hsk5_sc001_char_wang_ming.webp",
+    "foreground": "content/hsk5/sc001/assets/hsk5_sc001_fg.webp",
+    "preview": "content/hsk5/sc001/assets/hsk5_sc001_preview.webp"
+  }
+}
