@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 8,
+    "visualComplete": 9,
     "audioComplete": 10,
-    "acceptedScenes": 8
+    "acceptedScenes": 9
   },
   "scenes": [
     {
@@ -85,7 +85,7 @@
     },
     {
       "sceneId": "HSK5_SC009",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_CAFE_001",
       "characterIds": [
         "CHAR_WANG_MING_001",
@@ -112,6 +112,7 @@
     "HSK5_SC006 visual + audio complete; accepted canonical Cafe set reused from HSK4_SC046 after HSK5_SC005 → HSK5_SC006 continuity grounding.",
     "HSK5_SC007 visual + audio complete; accepted canonical Zhang Office set reused from HSK5_SC001 after HSK5_SC006 → HSK5_SC007 continuity grounding.",
     "HSK5_SC008 visual + audio complete; accepted canonical Electronics Store set reused from HSK5_SC002 after HSK5_SC007 → HSK5_SC008 continuity grounding.",
-    "HSK5_SC001-SC010 first batch progress: 8/10 visual complete, 10/10 audio complete, 8/10 accepted."
+    "HSK5_SC009 visual + audio complete; accepted canonical Cafe set reused from HSK5_SC003 after HSK5_SC008 → HSK5_SC009 continuity grounding.",
+    "HSK5_SC001-SC010 first batch progress: 9/10 visual complete, 10/10 audio complete, 9/10 accepted."
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "sceneId": "HSK5_SC009",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Wang Ming ile Zhang Wei, Hangzhou'daki sıcak mahalle kafesinde doğru aracı seçmeyi; gerçek ihtiyaç, maliyet, kullanım koşulları, öğrenme yükü, veri/gizlilik etkisi ve uzun vadeli sürdürülebilirlik üzerinden değerlendirir.",
+    "communicationPurpose": "Araç seçiminde popülerlik veya kısa vadeli hız yerine hedef, kaynak, kullanım koşulları, risk ve uzun vadeli uyumu birlikte değerlendirmek.",
+    "tone": "sakin, analitik, yansıtıcı ve çözüm odaklı",
+    "mainPhysicalAction": "kafe masasında farklı dijital araç seçeneklerini ve hangi koşullarda hangi aracın uygun olduğunu karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "warm wood cafe furniture",
+      "tea or coffee cups",
+      "small neutral notebook or laptop without readable text",
+      "soft daylight",
+      "modest seating"
+    ],
+    "continuityFromPrevious": "HSK5_SC008'de Zhang Wei ile Chen Yu hızlı teknoloji değişiminde yenilik baskısı, gerçek ihtiyaç ve sürdürülebilirlik dengesini değerlendirir. SC009'da Wang Ming ile Zhang Wei bu çerçeveyi doğrudan hangi aracın hangi koşulda uygun olduğuna taşır.",
+    "continuityToNext": "HSK5_SC010'da Zhang Wei ile Chen Yu ilk 10 sahnelik HSK5 teknoloji/karar çerçevesini daha geniş işyeri bağlamında toparlar; SC009'daki araç-seçim kriterleri kapanış değerlendirmesine doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_WANG_MING_001": "VOICE_WANG_MING_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CAFE_001",
+    "authoritativeBible": "locations/LOC_CAFE_001/visual_bible.json",
+    "locationReason": "Doğru araç seçimi gibi kişisel/teknolojik bir değerlendirmeyi sakin, gündelik ve baskısız biçimde tartışmak için canonical Cafe ortamı uygundur.",
+    "dialogueEvidence": [
+      "选择合适工具",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK5_SC003 aynı LOC_CAFE_001, aynı Zhang Wei + Wang Ming çifti, aynı canonical outfits ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC009 manifesti Wang Ming face_right + Zhang Wei face_left istemektedir. Accepted canonical Cafe pair kaynağı Zhang Wei face_right + Wang Ming face_left düzenindedir; identity drift yaratmamak için yalnız visual composition accepted düzene hizalanır. scene.json karakter üyeliği ve locked dialogue speaker sırası değişmez.",
+    "sceneCharacterOrderPreservedInSceneJson": true,
+    "dialogueSpeakerBindingsPreserved": true,
+    "visualComposition": [
+      "CHAR_ZHANG_WEI_001 / characterA / OUTFIT_ZHANG_WEI_CASUAL_01 / face_right",
+      "CHAR_WANG_MING_001 / characterB / OUTFIT_WANG_MING_WORK_01 / face_left"
+    ]
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK5_SC003 accepted Cafe seti SC009 ile location, character IDs, outfits ve lighting açısından birebir uyumludur; canonical anchor alignment sonrası 5'li set yeniden üretim olmadan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk5/sc003/assets/hsk5_sc003_bg.webp",
+    "characterA": "content/hsk5/sc003/assets/hsk5_sc003_char_zhang_wei.webp",
+    "characterB": "content/hsk5/sc003/assets/hsk5_sc003_char_wang_ming.webp",
+    "foreground": "content/hsk5/sc003/assets/hsk5_sc003_fg.webp",
+    "preview": "content/hsk5/sc003/assets/hsk5_sc003_preview.webp"
+  }
+}
