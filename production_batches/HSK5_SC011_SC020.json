@@ -2,13 +2,13 @@
   "level": "HSK5",
   "startScene": 11,
   "endScene": 20,
-  "status": "in_progress",
+  "status": "complete",
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 9,
+    "visualComplete": 10,
     "audioComplete": 10,
-    "acceptedScenes": 9
+    "acceptedScenes": 10
   },
   "scenes": [
     {
@@ -94,7 +94,7 @@
     },
     {
       "sceneId": "HSK5_SC020",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_DAY_TRIP_TOWN_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -113,6 +113,7 @@
     "HSK5_SC017 visual + audio complete; accepted canonical Guesthouse 5'li seti HSK2_SC036 kaynağından birebir reuse edildi; HSK5_SC016 → HSK5_SC017 continuity approved.",
     "HSK5_SC018 visual + audio complete; accepted canonical West Lake composite 5'li seti HSK5_SC014 kaynağından birebir reuse edildi; HSK5_SC017 → HSK5_SC018 continuity approved.",
     "HSK5_SC019 visual + audio complete; accepted canonical Train Station 5'li seti HSK2_SC033 kaynağından birebir reuse edildi; HSK5_SC018 → HSK5_SC019 continuity approved.",
-    "HSK5_SC011-SC020 second batch progress: 9/10 visual complete, 10/10 audio complete, 9/10 accepted."
+    "HSK5_SC020 visual + audio complete; accepted Day Trip Town composite 5'li seti HSK4_SC035 kaynağından birebir reuse edildi; HSK5_SC019 → HSK5_SC020 continuity approved.",
+    "HSK5_SC011-SC020 second batch closure: 10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit pending final repository verification."
   ]
 }
