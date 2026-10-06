@@ -150,6 +150,6 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK5_SC018: **5/5 canonical West Lake composite visual complete**; HSK5_SC014 accepted West Lake + Zhang Wei/Chen Yu 5'li composite seti birebir yeniden kullanıldı; HSK5_SC017 → HSK5_SC018 continuity approved.
 - HSK5_SC019: **5/5 canonical Train Station visual complete**; HSK2_SC033 accepted Train Station 5'li seti birebir yeniden kullanıldı; HSK5_SC018 → HSK5_SC019 continuity approved.
 - HSK5_SC020: **5/5 canonical Day Trip Town visual complete**; HSK4_SC035 accepted Day Trip Town composite 5'li seti birebir yeniden kullanıldı; HSK5_SC019 → HSK5_SC020 continuity approved.
-- HSK5_SC011–SC020 second batch: **10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit pending final repository verification**.
+- HSK5_SC011–SC020 second batch: **10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit PASSED (each scene 5 WebP + 54 M4A)**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC011–SC020 ikinci batch için fiziksel 10/10 closure audit'i tamamla; audit geçerse HSK5_SC021'i aktif işe geçir. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC021 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**

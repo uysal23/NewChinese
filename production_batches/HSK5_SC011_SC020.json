@@ -114,6 +114,6 @@
     "HSK5_SC018 visual + audio complete; accepted canonical West Lake composite 5'li seti HSK5_SC014 kaynağından birebir reuse edildi; HSK5_SC017 → HSK5_SC018 continuity approved.",
     "HSK5_SC019 visual + audio complete; accepted canonical Train Station 5'li seti HSK2_SC033 kaynağından birebir reuse edildi; HSK5_SC018 → HSK5_SC019 continuity approved.",
     "HSK5_SC020 visual + audio complete; accepted Day Trip Town composite 5'li seti HSK4_SC035 kaynağından birebir reuse edildi; HSK5_SC019 → HSK5_SC020 continuity approved.",
-    "HSK5_SC011-SC020 second batch closure: 10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit pending final repository verification."
+    "HSK5_SC011-SC020 second batch closure: 10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit PASSED (each scene: 5 WebP + 54 M4A, no missing visual assets)."
   ]
 }
