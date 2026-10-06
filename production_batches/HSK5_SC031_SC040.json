@@ -2,18 +2,18 @@
   "level": "HSK5",
   "startScene": 31,
   "endScene": 40,
-  "status": "audio_complete_visual_pending",
+  "status": "in_progress",
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 0,
+    "visualComplete": 1,
     "audioComplete": 10,
-    "acceptedScenes": 0
+    "acceptedScenes": 1
   },
   "scenes": [
     {
       "sceneId": "HSK5_SC031",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_COMMUNITY_CENTER_001",
       "characterIds": [
         "CHAR_LIU_MEI_001",
@@ -103,6 +103,8 @@
     }
   ],
   "notes": [
-    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending."
+    "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending.",
+    "HSK5_SC031 visual + audio complete; accepted canonical Community Center Zhang Wei/Liu Mei 5'li seti HSK2_SC045 kaynağından reuse edildi; visual manifest accepted canonical orientation Zhang Wei face_right + Liu Mei face_left düzenine hizalandı; HSK5_SC030 → HSK5_SC031 continuity approved.",
+    "HSK5_SC031-SC040 fourth batch progress: 1/10 visual complete, 10/10 audio complete, 1/10 accepted."
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "sceneId": "HSK5_SC031",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Liu Mei ile Zhang Wei, Community Center bağlamında mahalledeki kamusal alanları; erişim, kaynaklar, farklı kullanıcı ihtiyaçları, sorumluluk ve uzun vadeli değer üzerinden değerlendirir.",
+    "communicationPurpose": "Kamusal alanları yalnız fiziksel mekân değil, farklı kullanıcıların ihtiyaçlarını, kaynakları, erişimi ve ortak sorumluluğu dengeleyen toplumsal sistem olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve toplum odaklı",
+    "mainPhysicalAction": "toplum merkezinde kamusal alanların kullanımı, erişimi ve ortak sorumlulukları üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LIU_MEI_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "community seating",
+      "notice-board-like shapes without readable text",
+      "indoor plants",
+      "multi-use tables",
+      "warm natural light"
+    ],
+    "continuityFromPrevious": "HSK5_SC030'da Zhang Wei ile Li Na kendini yeniden tanımayı deneyimler ve değerleri güncelleme üzerinden değerlendirir. SC031'de Liu Mei ile Zhang Wei bu bireysel değerlendirme çizgisini toplumsal düzeye taşıyarak ortak alanlar, farklı ihtiyaçlar ve kamusal sorumlulukları tartışır.",
+    "continuityToNext": "HSK5_SC032'de Zhang Wei ile Chen Yu Neighborhood bağlamına geçer; SC031'de kurulan kamusal alan ve ortak sorumluluk çerçevesi mahalle yaşamı değerlendirmelerine doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LIU_MEI_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LIU_MEI_001": "VOICE_LIU_MEI_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_COMMUNITY_CENTER_001",
+    "authoritativeBible": "locations/LOC_COMMUNITY_CENTER_001/visual_bible.json",
+    "locationReason": "Mahalledeki kamusal alanlar konusu canonical Community Center ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "社区公共空间",
+      "如果信息不完整，还能做判断吗？",
+      "当然。做公共或团队选择时，这一点很重要。"
+    ],
+    "continuityEvidence": "HSK2_SC045 accepted complete Community Center seti Zhang Wei + Liu Mei kimlikleri, casual outfits ve LIGHT_WARM_NATURAL_01 sağlar. Pending SC031 orientation ters olduğu için accepted canonical Zhang Wei face_right + Liu Mei face_left düzeni korunmuştur.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC031 manifest Liu Mei face_right + Zhang Wei face_left istedi; accepted exact reverse Community Center pair bulunmadı. HSK2_SC045 accepted canonical Zhang Wei face_right + Liu Mei face_left düzenine visual manifest hizalandı. Scene character membership, dialogue speaker order ve locked content değişmedi."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC045 accepted Community Center full seti location, identities, outfits and lighting açısından uygundur. Identity drift ve yanlış preview reuse riskini önlemek için full set blob-level reuse edildi; yalnız visual manifest canonical accepted orientation’a hizalandı."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc045/assets/hsk2_sc045_bg.webp",
+    "characterA": "content/hsk2/sc045/assets/hsk2_sc045_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc045/assets/hsk2_sc045_char_liu_mei.webp",
+    "foreground": "content/hsk2/sc045/assets/hsk2_sc045_fg.webp",
+    "preview": "content/hsk2/sc045/assets/hsk2_sc045_preview.webp"
+  }
+}
