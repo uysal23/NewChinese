@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC014",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou West Lake kıyısında tek başına seyahat edebilme becerisini; bağımsız karar verme, güvenlik, kaynak yönetimi, belirsizlik, öz-farkındalık ve uzun vadeli özgüven üzerinden değerlendirir.",
+    "communicationPurpose": "Tek başına seyahati yalnız fiziksel bağımsızlık değil, riskleri değerlendirme, kaynakları yönetme ve koşullara göre karar verebilme becerisi olarak ele almak.",
+    "tone": "sakin, analitik, düşünceli ve çözüm odaklı",
+    "mainPhysicalAction": "West Lake yürüyüş yolunda bağımsız seyahat, karar verme ve risk yönetimi üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "lake view",
+      "tree-lined walkway",
+      "stone railing",
+      "distant hills",
+      "small sightseeing boats without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC013'te Li Na ile Zhang Wei kültürel farklılıkları bağlam, saygı ve esneklik üzerinden değerlendirir. SC014'te Zhang Wei ile Chen Yu bu gözlem ve esneklik yaklaşımını tek başına seyahatte bağımsız karar verme, güvenlik ve belirsizlik yönetimine taşır.",
+    "continuityToNext": "HSK5_SC015'te Li Na ile Zhang Wei tekrar Train Station bağlamına döner; SC014'teki bağımsızlık, risk ve kaynak yönetimi çerçevesi sonraki yolculuk kararlarına doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_WEST_LAKE_001",
+    "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+    "locationReason": "Tek başına seyahat, bağımsız hareket ve kamusal alanda karar verme teması canonical West Lake promenade ile doğal biçimde uyumludur.",
+    "dialogueEvidence": [
+      "独自旅行的能力",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK2_SC040 accepted West Lake BG/FG kaynağıdır; HSK2_SC041/HSK4_SC035 accepted Zhang Wei + Chen Yu casual character katmanları canonical orientation sağlar.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "preview_pending",
+    "method": "canonical-layer-composite",
+    "note": "Exact historical West Lake + Zhang Wei + Chen Yu full-set bulunmadı. West Lake BG/FG accepted HSK2_SC040 kaynağından, Zhang Wei/Chen Yu karakter katmanları accepted canonical pair kaynağından staged edilir. Doğru textless 9:16 PREVIEW fiziksel olarak türetilmeden scene visual complete/accepted işaretlenmez."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc040/assets/hsk2_sc040_bg.webp",
+    "characterA": "content/hsk4/sc035/assets/hsk4_sc035_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc035/assets/hsk4_sc035_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc040/assets/hsk2_sc040_fg.webp",
+    "preview": "PENDING: derive from the four staged canonical layers using repo deterministic compositor logic."
+  }
+}

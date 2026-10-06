@@ -10,10 +10,6 @@
       "assets/hsk5_sc014_preview.webp"
     ],
     "missing": [
-      "assets/hsk5_sc014_bg.webp",
-      "assets/hsk5_sc014_char_zhang_wei.webp",
-      "assets/hsk5_sc014_char_chen_yu.webp",
-      "assets/hsk5_sc014_fg.webp",
       "assets/hsk5_sc014_preview.webp"
     ]
   },
@@ -77,5 +73,5 @@
     ],
     "missing": []
   },
-  "rule": "Audio may be complete only after every declared physical M4A exists and validation passes; visuals intentionally remain pending until produced."
+  "rule": "Audio and visuals may be complete only after every declared physical asset exists and validation passes; SC014 has four canonical runtime layers staged and remains pending until the correct derived PREVIEW physically exists."
 }
