@@ -3,11 +3,6 @@ name: Build Android APK
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - ".github/workflows/build-apk.yml"
-      - ".github/workflows/validate-build.yml"
-      - ".github/workflows/complete-hsk5-sc014.yml"
-      - "tools/complete_hsk5_sc014.py"
   workflow_dispatch:
 
 permissions:
