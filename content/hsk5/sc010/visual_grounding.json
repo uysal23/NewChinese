@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC010",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki modern çalışma ortamında teknoloji ile yaşam arasındaki sınırı; verimlilik, dikkat, özel alan, sürekli erişilebilirlik, sorumluluk, dinlenme ve uzun vadeli yaşam kalitesi üzerinden değerlendirir.",
+    "communicationPurpose": "Teknolojiyi yararlı araç olarak kullanırken sürekli bağlılık, dikkat dağılması ve yaşam alanlarının aşırı dijitalleşmesi risklerine karşı sürdürülebilir sınırlar kurmak.",
+    "tone": "sakin, analitik, profesyonel ve yansıtıcı",
+    "mainPhysicalAction": "modern ofis ortamında bilgisayar/masa başında teknoloji kullanım sınırları, erişilebilirlik ve iş-yaşam dengesi üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "light wood desks",
+      "neutral computer monitors without readable text",
+      "green desk plants",
+      "large windows",
+      "compact office work area"
+    ],
+    "continuityFromPrevious": "HSK5_SC009'da Wang Ming ile Zhang Wei doğru aracı seçerken hedef, kaynak, kullanım koşulları ve sürdürülebilirlik kriterlerini değerlendirir. SC010'da Zhang Wei ile Chen Yu bu çerçeveyi araç seçiminin ötesine taşıyarak teknolojinin yaşamın tamamını kaplamaması için sınır, sorumluluk ve sürdürülebilir kullanım üzerine kapanış değerlendirmesi yapar.",
+    "continuityToNext": "HSK5_SC011'de ikinci 10'lu batch'e geçilir; ilk batch boyunca kurulan hedef-kaynak-risk-sorumluluk ve sürdürülebilir teknoloji kullanımı çerçevesi sonraki sahnelere temel oluşturur."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_OFFICE_001",
+    "authoritativeBible": "locations/LOC_ZHANG_OFFICE_001/visual_bible.json",
+    "locationReason": "Teknoloji ile yaşam arasındaki sınır, profesyonel dijital iş akışının günlük yaşam üzerindeki etkilerini tartıştığı için canonical Zhang Wei Workplace ile doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "技术与生活边界",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK5_SC004 aynı LOC_ZHANG_OFFICE_001, aynı Zhang Wei + Chen Yu çifti, aynı canonical outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK5_SC004 accepted Zhang Office seti SC010 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk5/sc004/assets/hsk5_sc004_bg.webp",
+    "characterA": "content/hsk5/sc004/assets/hsk5_sc004_char_zhang_wei.webp",
+    "characterB": "content/hsk5/sc004/assets/hsk5_sc004_char_chen_yu.webp",
+    "foreground": "content/hsk5/sc004/assets/hsk5_sc004_fg.webp",
+    "preview": "content/hsk5/sc004/assets/hsk5_sc004_preview.webp"
+  }
+}
