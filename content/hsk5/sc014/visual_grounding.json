@@ -48,9 +48,9 @@
     "approvedForLayerPlanning": true
   },
   "compositionMethod": {
-    "status": "preview_pending",
+    "status": "approved",
     "method": "canonical-layer-composite",
-    "note": "Exact historical West Lake + Zhang Wei + Chen Yu full-set bulunmadı. West Lake BG/FG accepted HSK2_SC040 kaynağından, Zhang Wei/Chen Yu karakter katmanları accepted canonical pair kaynağından staged edilir. Doğru textless 9:16 PREVIEW fiziksel olarak türetilmeden scene visual complete/accepted işaretlenmez."
+    "note": "West Lake BG/FG HSK2_SC040 accepted kaynağından; Zhang Wei/Chen Yu character layers HSK4_SC035 accepted canonical pair kaynağından kullanıldı. Textless 9:16 PREVIEW staged dört canonical runtime katmanından repo deterministic PIL compositor mantığıyla fiziksel olarak türetildi."
   },
   "layerPlan": {
     "status": "approved",
@@ -58,6 +58,6 @@
     "characterA": "content/hsk4/sc035/assets/hsk4_sc035_char_zhang_wei.webp",
     "characterB": "content/hsk4/sc035/assets/hsk4_sc035_char_chen_yu.webp",
     "foreground": "content/hsk2/sc040/assets/hsk2_sc040_fg.webp",
-    "preview": "PENDING: derive from the four staged canonical layers using repo deterministic compositor logic."
+    "preview": "content/hsk5/sc014/assets/hsk5_sc014_preview.webp"
   }
 }
