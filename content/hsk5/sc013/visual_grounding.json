@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC013",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, Zhejiang yakınlarındaki küçük pansiyonda seyahatte kültürel farklılıkları; yerel alışkanlıklar, iletişim biçimleri, beklentiler, yanlış anlamalar, saygı, esneklik ve uzun vadeli öğrenme değeri üzerinden değerlendirir.",
+    "communicationPurpose": "Kültürel farklılıkları yargılamadan gözlemlemek, bağlama göre iletişim kurmak ve yanlış anlamaları azaltmak için esnek ve saygılı bir yaklaşım geliştirmek.",
+    "tone": "sakin, düşünceli, yetişkin ve öğrenmeye açık",
+    "mainPhysicalAction": "küçük pansiyonun ortak/resepsiyon alanında yerel alışkanlıklar ve seyahat sırasında fark edilen kültürel farklılıklar üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light wood furniture",
+      "small reception area",
+      "tea kettle",
+      "simple guesthouse seating",
+      "window toward quiet lane"
+    ],
+    "continuityFromPrevious": "HSK5_SC012'de Zhang Wei ile Chen Yu plan dışı deneyimlerde esneklik ve beklenmedik değeri değerlendirir. SC013'te Li Na ile Zhang Wei bu esnekliği kültürel farklılıkları anlamaya, bağlamı okumaya ve saygılı iletişime taşır.",
+    "continuityToNext": "HSK5_SC014'te Zhang Wei ile Chen Yu seyahat ve kamusal alan deneyimini West Lake bağlamında sürdürür; SC013'teki gözlem, bağlam ve farklı bakış açılarını değerlendirme yaklaşımı sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_GUESTHOUSE_001",
+    "authoritativeBible": "locations/LOC_GUESTHOUSE_001/visual_bible.json",
+    "locationReason": "Seyahatte kültürel farklılıklar konusu, yerel konaklama ve gündelik etkileşimlerin doğrudan gözlenebildiği canonical Guesthouse ortamıyla uyumludur.",
+    "dialogueEvidence": [
+      "旅行中的文化差异",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK2_SC036 aynı LOC_GUESTHOUSE_001, aynı Li Na + Zhang Wei çifti, aynı canonical casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC036 accepted Guesthouse seti SC013 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc036/assets/hsk2_sc036_bg.webp",
+    "characterA": "content/hsk2/sc036/assets/hsk2_sc036_char_li_na.webp",
+    "characterB": "content/hsk2/sc036/assets/hsk2_sc036_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc036/assets/hsk2_sc036_fg.webp",
+    "preview": "content/hsk2/sc036/assets/hsk2_sc036_preview.webp"
+  }
+}
