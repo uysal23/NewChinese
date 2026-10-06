@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC016",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Day Trip Town bağlamında bütçe ve deneyim dengesini; kaynaklar, maliyet, belirsizlik, sorumluluk, değer ve sürdürülebilir kararlar üzerinden değerlendirir.",
+    "communicationPurpose": "Bütçeyi yalnız kısıt olarak değil, deneyim kalitesi, kaynak kullanımı ve uzun vadeli değerle birlikte değerlendirmek.",
+    "tone": "sakin, analitik, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "su kasabası yürüyüş güzergâhında bütçe, deneyim ve karar dengesi üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "canal",
+      "stone bridge",
+      "white-wall dark-roof buildings",
+      "narrow pedestrian lane",
+      "small travel items without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC015'te Li Na ile Zhang Wei yerel insanlarla iletişimde bilgi toplama, bağlamı anlama ve yeni bilgiyle karar güncellemeyi değerlendirir. SC016'da Zhang Wei ile Chen Yu bu yaklaşımı bütçe ve deneyim dengesine taşıyarak kaynak, maliyet, risk ve uzun vadeli değeri tartışır.",
+    "continuityToNext": "HSK5_SC017'de Li Na ile Zhang Wei Guesthouse bağlamına geçer; SC016'da kurulan kaynak, maliyet ve deneyim dengesi konaklama kararlarına doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_DAY_TRIP_TOWN_001",
+    "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+    "locationReason": "Bütçe ve deneyim dengesi, gezi sırasında kaynak/maliyet ve deneyim kalitesini birlikte değerlendirmeye uygun canonical Day Trip Town ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "预算与体验",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "长期来看，稳定的方法和可持续的节奏更有价值。"
+    ],
+    "continuityEvidence": "HSK4_SC035 accepted complete Day Trip Town composite seti aynı Zhang Wei + Chen Yu çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile SC016 manifestine birebir uyar. HSK5_SC012 aynı 5'li seti başarıyla reuse etmiştir.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "HSK4_SC035 accepted Day Trip Town composite seti SC016 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc035/assets/hsk4_sc035_bg.webp",
+    "characterA": "content/hsk4/sc035/assets/hsk4_sc035_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc035/assets/hsk4_sc035_char_chen_yu.webp",
+    "foreground": "content/hsk4/sc035/assets/hsk4_sc035_fg.webp",
+    "preview": "content/hsk4/sc035/assets/hsk4_sc035_preview.webp"
+  }
+}

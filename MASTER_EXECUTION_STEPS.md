@@ -145,6 +145,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK5_SC013: **5/5 canonical Guesthouse visual complete**; HSK2_SC036 accepted Guesthouse seti yeniden kullanıldı; HSK5_SC012 → HSK5_SC013 continuity approved.
 - HSK5_SC014: **5/5 canonical West Lake composite visual complete**; HSK2_SC040 BG/FG + HSK4_SC035 Zhang Wei/Chen Yu layers kullanıldı; textless 9:16 PREVIEW deterministic olarak türetildi; HSK5_SC013 → HSK5_SC014 continuity approved.
 - HSK5_SC015: **5/5 canonical Train Station visual complete**; HSK2_SC033 accepted Train Station 5'li seti birebir yeniden kullanıldı; HSK5_SC014 → HSK5_SC015 continuity approved.
-- HSK5_SC011–SC020 second batch: **5/10 visual complete, 10/10 audio complete, 5/10 accepted**.
+- HSK5_SC016: **5/5 canonical Day Trip Town visual complete**; HSK4_SC035 accepted Day Trip Town composite 5'li seti birebir yeniden kullanıldı; HSK5_SC015 → HSK5_SC016 continuity approved.
+- HSK5_SC011–SC020 second batch: **6/10 visual complete, 10/10 audio complete, 6/10 accepted**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC016 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC017 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**
