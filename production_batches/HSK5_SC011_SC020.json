@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 6,
+    "visualComplete": 7,
     "audioComplete": 10,
-    "acceptedScenes": 6
+    "acceptedScenes": 7
   },
   "scenes": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "sceneId": "HSK5_SC017",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_GUESTHOUSE_001",
       "characterIds": [
         "CHAR_LI_NA_001",
@@ -110,6 +110,7 @@
     "HSK5_SC014 visual + audio complete; canonical West Lake composite HSK2_SC040 BG/FG + HSK4_SC035 Zhang Wei/Chen Yu layers üzerinden deterministic textless 9:16 PREVIEW ile tamamlandı; HSK5_SC013 → HSK5_SC014 continuity approved.",
     "HSK5_SC015 visual + audio complete; accepted canonical Train Station 5'li seti HSK2_SC033 kaynağından birebir reuse edildi; HSK5_SC014 → HSK5_SC015 continuity approved.",
     "HSK5_SC016 visual + audio complete; accepted Day Trip Town composite 5'li seti HSK4_SC035 kaynağından birebir reuse edildi; HSK5_SC015 → HSK5_SC016 continuity approved.",
-    "HSK5_SC011-SC020 second batch progress: 6/10 visual complete, 10/10 audio complete, 6/10 accepted."
+    "HSK5_SC017 visual + audio complete; accepted canonical Guesthouse 5'li seti HSK2_SC036 kaynağından birebir reuse edildi; HSK5_SC016 → HSK5_SC017 continuity approved.",
+    "HSK5_SC011-SC020 second batch progress: 7/10 visual complete, 10/10 audio complete, 7/10 accepted."
   ]
 }
