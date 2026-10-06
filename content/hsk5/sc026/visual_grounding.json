@@ -1,0 +1,67 @@
+{
+  "sceneId": "HSK5_SC026",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Li Na, Public Library bağlamında kusursuz olmamayı kabul etmeyi; değerler, kaynaklar, belirsizlik, sorumluluk, öğrenme ve uyum sağlama üzerinden değerlendirir.",
+    "communicationPurpose": "Kusursuzluk beklentisini azaltıp ilerlemeyi, öğrenmeyi ve kararları yeni bilgiyle güncelleyebilmeyi daha sürdürülebilir bir ölçüt olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "kütüphane çalışma alanında kusursuzluk beklentisi, öğrenme ve uyum sağlama üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "visibleProps": [
+      "light-wood bookshelves",
+      "study tables",
+      "large windows",
+      "plants",
+      "library objects without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC025'te Li Na ile Zhang Wei karşılaştırma ve kaygıyı kişisel hedefler ve sürdürülebilir gelişim üzerinden değerlendirir. SC026'da Zhang Wei ile Li Na bu çizgiyi kusursuzluk beklentisini bırakma, hatalardan öğrenme ve uyum sağlama yaklaşımına taşır.",
+    "continuityToNext": "HSK5_SC027'de Li Na ile Zhang Wei Zhang Home bağlamına döner; SC026'da kurulan gerçekçi beklenti ve sürdürülebilir gelişim çerçevesi sonraki kişisel değerlendirmelere doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "locationReason": "Kusursuz olmamayı kabul etmek, öğrenme ve yeniden değerlendirme temaları canonical Public Library ortamıyla uyumludur.",
+    "dialogueEvidence": [
+      "接受不完美",
+      "如果信息不完整，还能做判断吗？",
+      "这就是进步：不是答案更多，而是看问题的角度更完整。"
+    ],
+    "continuityEvidence": "HSK2_SC023 accepted complete Public Library seti aynı Li Na + Zhang Wei kimlikleri, casual outfits ve LIGHT_WARM_NATURAL_01 sağlar. Exact reverse Public Library pair bulunmadığı için accepted canonical Li Na face_right + Zhang Wei face_left orientation korunmuştur.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC026 manifest Zhang Wei face_right + Li Na face_left istedi; accepted exact reverse Public Library pair bulunmadı. HSK2_SC023 canonical accepted orientation Li Na face_right + Zhang Wei face_left olarak visual manifest hizalandı. Scene character membership, dialogue speaker order ve locked content değişmedi."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC023 accepted Public Library full seti location, identities, outfits and lighting açısından uygundur. Identity drift ve yanlış preview reuse riskini önlemek için full set blob-level reuse edildi; yalnız visual manifest canonical accepted orientation’a hizalandı."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc023/assets/hsk2_sc023_bg.webp",
+    "characterA": "content/hsk2/sc023/assets/hsk2_sc023_char_li_na.webp",
+    "characterB": "content/hsk2/sc023/assets/hsk2_sc023_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc023/assets/hsk2_sc023_fg.webp",
+    "preview": "content/hsk2/sc023/assets/hsk2_sc023_preview.webp"
+  }
+}
