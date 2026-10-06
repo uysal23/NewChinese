@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC008",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Hangzhou'daki elektronik mağazasında teknolojinin çok hızlı değişmesini; yenilik baskısı, gerçek ihtiyaç, maliyet, kullanım ömrü, öğrenme yükü, risk ve uzun vadeli sürdürülebilirlik üzerinden değerlendirir.",
+    "communicationPurpose": "Hızlı teknoloji değişiminde her yeniliği takip etmek yerine gerçek ihtiyaç, kaynak, maliyet, öğrenme yükü ve uzun vadeli kullanım değerine göre karar vermek.",
+    "tone": "sakin, analitik, profesyonel ve çözüm odaklı",
+    "mainPhysicalAction": "elektronik mağazasındaki cihaz ve aksesuarlar çevresinde yeni teknoloji seçeneklerini karşılaştırıp güncelleme temposu ve gerçek ihtiyaç üzerine konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "headphones",
+      "phone accessories",
+      "small device display tables",
+      "neutral demo devices without readable branding",
+      "tidy retail shelves"
+    ],
+    "continuityFromPrevious": "HSK5_SC007'de Wang Ming ile Zhang Wei öneri algoritmalarının bilgi görünürlüğü ve kararları nasıl etkilediğini değerlendirir. SC008'de Zhang Wei bu karar çerçevesini Chen Yu ile hızla değişen teknoloji seçenekleri, güncelleme baskısı ve gerçek ihtiyaç dengesine taşır.",
+    "continuityToNext": "HSK5_SC009'da Wang Ming ile Zhang Wei teknoloji kullanımının daha sosyal/kişisel etkilerine geçer; SC008'deki yenilik baskısı, maliyet ve sürdürülebilirlik çerçevesi sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ELECTRONICS_STORE_001",
+    "authoritativeBible": "locations/LOC_ELECTRONICS_STORE_001/visual_bible.json",
+    "locationReason": "Teknolojinin hızlı değişimi, cihaz/aksesuar karşılaştırması ve yenilik baskısı doğrudan canonical Electronics Store bağlamıyla uyumludur.",
+    "dialogueEvidence": [
+      "技术更新太快",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK5_SC002 aynı LOC_ELECTRONICS_STORE_001, aynı Zhang Wei + Chen Yu çifti, aynı canonical outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK5_SC002 accepted Electronics Store seti SC008 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk5/sc002/assets/hsk5_sc002_bg.webp",
+    "characterA": "content/hsk5/sc002/assets/hsk5_sc002_char_zhang_wei.webp",
+    "characterB": "content/hsk5/sc002/assets/hsk5_sc002_char_chen_yu.webp",
+    "foreground": "content/hsk5/sc002/assets/hsk5_sc002_fg.webp",
+    "preview": "content/hsk5/sc002/assets/hsk5_sc002_preview.webp"
+  }
+}
