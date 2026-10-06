@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC030",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Li Na, Zhang Home bağlamında kendini yeniden tanımayı; değerler, deneyimler, kaynaklar, belirsizlik, sorumluluk ve uzun vadeli gelişim üzerinden değerlendirir.",
+    "communicationPurpose": "Kendini yeniden tanımayı sabit bir kimlik tanımı değil, deneyimlerden öğrenme, değerleri gözden geçirme ve yeni bilgiyle kendini güncelleme süreci olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve yansıtıcı",
+    "mainPhysicalAction": "ev ortamında kişisel değişim, değerler ve uzun vadeli öz değerlendirme üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "visibleProps": [
+      "warm modern living room",
+      "sofa",
+      "low table",
+      "home lighting",
+      "domestic objects without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC029'da Li Na ile Zhang Wei sabırlı olmayı uzun vadeli öğrenme ve sürdürülebilir gelişim üzerinden değerlendirir. SC030'da Zhang Wei ile Li Na bu çizgiyi kendini yeniden tanıma ve deneyimler ışığında değerleri güncelleme üzerine taşır.",
+    "continuityToNext": "HSK5_SC031 dördüncü batch başlangıcıdır; SC030'nin öz değerlendirme kapanışı önceki kişisel gelişim temalarını tamamlayarak yeni konu kümesine temiz geçiş sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "locationReason": "Kendini yeniden tanıma konusu sakin ve kişisel değerlendirmeye uygun canonical Zhang Home ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "重新认识自己",
+      "长期来看，稳定的方法和可持续的节奏更有价值",
+      "等有新信息时再更新判断。"
+    ],
+    "continuityEvidence": "HSK2_SC049 accepted complete Zhang Home seti aynı Zhang Wei + Li Na çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile HSK5_SC030 manifestine birebir uyar. HSK5_SC024 aynı accepted seti başarıyla kullanmıştır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC049 accepted Zhang Home seti SC030 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve yanlış preview reuse riskini önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc049/assets/hsk2_sc049_bg.webp",
+    "characterA": "content/hsk2/sc049/assets/hsk2_sc049_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc049/assets/hsk2_sc049_char_li_na.webp",
+    "foreground": "content/hsk2/sc049/assets/hsk2_sc049_fg.webp",
+    "preview": "content/hsk2/sc049/assets/hsk2_sc049_preview.webp"
+  }
+}
