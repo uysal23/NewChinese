@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC023",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, Public Library bağlamında merakı korumayı; bilgi arama, belirsizlik, farklı görüşler, kaynak kullanımı ve uzun vadeli öğrenme üzerinden değerlendirir.",
+    "communicationPurpose": "Merakı yalnız yeni bilgi tüketimi değil, soru sorma, kanıt arama, belirsizliği kabul etme ve görüşleri güncelleyebilme alışkanlığı olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve öğrenme odaklı",
+    "mainPhysicalAction": "kütüphane çalışma alanında merak, bilgi arama ve öğrenmeyi sürdürme üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "light-wood bookshelves",
+      "study tables",
+      "large windows",
+      "plants",
+      "library objects without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC022'de Zhang Wei ile Li Na başarısızlıkla yüzleşmeyi öğrenme, yeniden değerlendirme ve uyum sağlama üzerinden ele alır. SC023'te Li Na ile Zhang Wei bu yaklaşımı merakı koruma, yeni bilgi arama ve görüşleri güncelleme alışkanlığına taşır.",
+    "continuityToNext": "HSK5_SC024'te Zhang Wei ile Li Na Zhang Home bağlamına döner; SC023'te kurulan merak ve bilgi arama çerçevesi ev ortamındaki sonraki kişisel değerlendirmelere doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_PUBLIC_LIBRARY_001",
+    "authoritativeBible": "locations/LOC_PUBLIC_LIBRARY_001/visual_bible.json",
+    "locationReason": "Merakı koruma ve yeni bilgi arama teması canonical Public Library ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "保持好奇心",
+      "如果信息不完整，还能做判断吗？",
+      "等有新信息时再更新判断。"
+    ],
+    "continuityEvidence": "HSK2_SC023 accepted complete Public Library seti aynı Li Na + Zhang Wei çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile HSK5_SC023 manifestine birebir uyar.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC023 accepted Public Library seti SC023 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve yanlış preview reuse riskini önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc023/assets/hsk2_sc023_bg.webp",
+    "characterA": "content/hsk2/sc023/assets/hsk2_sc023_char_li_na.webp",
+    "characterB": "content/hsk2/sc023/assets/hsk2_sc023_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc023/assets/hsk2_sc023_fg.webp",
+    "preview": "content/hsk2/sc023/assets/hsk2_sc023_preview.webp"
+  }
+}

@@ -153,6 +153,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK5_SC011–SC020 second batch: **10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit PASSED (each scene 5 WebP + 54 M4A)**.
 - HSK5_SC021: **5/5 canonical Zhang Home visual complete**; HSK3_SC021 accepted Zhang Home 5'li seti birebir yeniden kullanıldı; HSK5_SC020 → HSK5_SC021 continuity approved.
 - HSK5_SC022: **5/5 canonical City Park visual complete**; HSK4_SC022 accepted City Park seti reuse edildi ve visual manifest canonical Li Na face_right + Zhang Wei face_left orientation’a hizalandı; HSK5_SC021 → HSK5_SC022 continuity approved.
-- HSK5_SC021–SC030 third batch: **2/10 visual complete, 10/10 audio complete, 2/10 accepted**.
+- HSK5_SC023: **5/5 canonical Public Library visual complete**; HSK2_SC023 accepted Public Library 5'li seti birebir yeniden kullanıldı; HSK5_SC022 → HSK5_SC023 continuity approved.
+- HSK5_SC021–SC030 third batch: **3/10 visual complete, 10/10 audio complete, 3/10 accepted**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC023 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC024 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**
