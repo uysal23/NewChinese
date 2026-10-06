@@ -140,5 +140,7 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK5_SC009: **5/5 canonical Cafe visual complete**; HSK5_SC003 accepted Cafe seti yeniden kullanıldı; HSK5_SC008 → HSK5_SC009 continuity approved.
 - HSK5_SC010: **5/5 canonical Zhang Office visual complete**; HSK5_SC004 accepted Office seti yeniden kullanıldı; HSK5_SC009 → HSK5_SC010 continuity approved.
 - HSK5_SC001–SC010 first batch: **10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit PASSED**.
+- HSK5_SC011: **5/5 canonical Train Station visual complete**; HSK2_SC033 accepted Train Station seti yeniden kullanıldı; HSK5_SC010 → HSK5_SC011 continuity approved.
+- HSK5_SC011–SC020 second batch: **1/10 visual complete, 10/10 audio complete, 1/10 accepted**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC011 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. HSK5_SC011–SC020 ikinci batch ilerlemesini başlat; Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC012 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. HSK5_SC011–SC020 ikinci batch ilerlemesini güncelle; Actions tüketmemek için [skip ci] kullan.**

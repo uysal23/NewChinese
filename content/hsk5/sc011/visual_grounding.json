@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC011",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, Hangzhou tren istasyonunda yavaş seyahati; hız, maliyet, deneyim derinliği, esneklik, kaynak kullanımı, dikkat ve uzun vadeli yaşam kalitesi üzerinden değerlendirir.",
+    "communicationPurpose": "Seyahatte yalnız hız ve verimlilik yerine deneyim kalitesi, kaynaklar, esneklik ve sürdürülebilir tempo arasında denge kurmak.",
+    "tone": "sakin, düşünceli, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "tren istasyonunda yolculuk öncesi beklerken rota, tempo ve seyahat yaklaşımı üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "station seating",
+      "small travel bags",
+      "platform edge",
+      "neutral station architecture without readable generated text",
+      "soft daylight"
+    ],
+    "continuityFromPrevious": "HSK5_SC010'da Zhang Wei ile Chen Yu teknoloji ile yaşam arasındaki sınırı, sürdürülebilir tempo ve yaşam kalitesi açısından değerlendirir. SC011'de Li Na ile Zhang Wei aynı denge yaklaşımını seyahat temposuna taşıyarak hız yerine deneyim, kaynak ve uzun vadeli değerleri tartışır.",
+    "continuityToNext": "HSK5_SC012'de Zhang Wei ile Chen Yu kısa gezi bağlamında seyahat kararlarını somutlaştırır; SC011'de kurulan tempo, maliyet ve deneyim kalitesi çerçevesi doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_TRAIN_STATION_001",
+    "authoritativeBible": "locations/LOC_TRAIN_STATION_001/visual_bible.json",
+    "locationReason": "Yavaş seyahat konusu doğrudan yolculuk başlangıcı, bekleme, rota ve tempo değerlendirmesiyle ilişkili olduğu için canonical Train Station doğal ve authoritative mekândır.",
+    "dialogueEvidence": [
+      "慢旅行",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK2_SC033 aynı LOC_TRAIN_STATION_001, aynı Li Na + Zhang Wei çifti, aynı canonical casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC033 accepted Train Station seti SC011 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc033/assets/hsk2_sc033_bg.webp",
+    "characterA": "content/hsk2/sc033/assets/hsk2_sc033_char_li_na.webp",
+    "characterB": "content/hsk2/sc033/assets/hsk2_sc033_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc033/assets/hsk2_sc033_fg.webp",
+    "preview": "content/hsk2/sc033/assets/hsk2_sc033_preview.webp"
+  }
+}
