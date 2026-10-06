@@ -6,9 +6,9 @@
   "progress": {
     "contentReady": 10,
     "totalScenes": 10,
-    "visualComplete": 1,
+    "visualComplete": 2,
     "audioComplete": 10,
-    "acceptedScenes": 1
+    "acceptedScenes": 2
   },
   "scenes": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "sceneId": "HSK5_SC022",
-      "status": "audio_complete_visual_pending",
+      "status": "complete",
       "locationId": "LOC_CITY_PARK_001",
       "characterIds": [
         "CHAR_ZHANG_WEI_001",
@@ -105,6 +105,7 @@
   "notes": [
     "HSK3-HSK6 content and audio queues generated from locked plans. Visual production intentionally pending.",
     "HSK5_SC021 visual + audio complete; accepted canonical Zhang Home 5'li seti HSK3_SC021 kaynağından birebir reuse edildi; HSK5_SC020 → HSK5_SC021 continuity approved.",
-    "HSK5_SC021-SC030 third batch progress: 1/10 visual complete, 10/10 audio complete, 1/10 accepted."
+    "HSK5_SC022 visual + audio complete; accepted canonical City Park 5'li seti HSK4_SC022/HSK2_SC020 kaynağından reuse edildi; visual manifest accepted canonical orientation Li Na face_right + Zhang Wei face_left düzenine hizalandı; HSK5_SC021 → HSK5_SC022 continuity approved.",
+    "HSK5_SC021-SC030 third batch progress: 2/10 visual complete, 10/10 audio complete, 2/10 accepted."
   ]
 }

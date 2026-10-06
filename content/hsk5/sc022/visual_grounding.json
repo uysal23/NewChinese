@@ -1,0 +1,67 @@
+{
+  "sceneId": "HSK5_SC022",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Li Na, City Park bağlamında başarısızlıkla yüzleşmeyi; değerler, kaynaklar, belirsizlik, sorumluluk, öğrenme ve uyum sağlama üzerinden değerlendirir.",
+    "communicationPurpose": "Başarısızlığı yalnız olumsuz sonuç değil, karar sürecini gözden geçirme, öğrenme ve yeni bilgiyle yön güncelleme fırsatı olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "şehir parkında başarısızlık, öğrenme ve yeniden değerlendirme üzerine karşılıklı konuşma",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "visibleProps": [
+      "park walkway",
+      "greenery",
+      "bench",
+      "soft daylight",
+      "urban park elements without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC021'de Li Na ile Zhang Wei uzun vadeli hedefleri değerler, kaynaklar ve sürdürülebilir planlama üzerinden değerlendirir. SC022'de aynı hedef çerçevesi başarısızlıkla karşılaşıldığında öğrenme, uyum sağlama ve karar sürecini gözden geçirmeye taşınır.",
+    "continuityToNext": "HSK5_SC023'te Li Na ile Zhang Wei Public Library bağlamına geçer; SC022'de kurulan öğrenme ve yeniden değerlendirme yaklaşımı bilgi arama ve daha derin düşünmeye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_LI_NA_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve içerik değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_CITY_PARK_001",
+    "authoritativeBible": "locations/LOC_CITY_PARK_001/visual_bible.json",
+    "locationReason": "Başarısızlıkla yüzleşme ve yeniden değerlendirme teması sakin, düşünmeye açık canonical City Park ortamıyla uyumludur.",
+    "dialogueEvidence": [
+      "面对失败",
+      "如果信息不完整，还能做判断吗？",
+      "这就是进步：不是答案更多，而是看问题的角度更完整。"
+    ],
+    "continuityEvidence": "HSK4_SC022 accepted complete City Park seti aynı Li Na + Zhang Wei casual outfit pair, LIGHT_WARM_NATURAL_01 ve accepted canonical Li Na face_right + Zhang Wei face_left orientation ile güvenli kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "manifestAdjustment": {
+    "status": "approved",
+    "reason": "Pending HSK5_SC022 visual manifest Zhang Wei face_right + Li Na face_left istedi; accepted exact City Park pair mevcut değildir. HSK4_SC022 precedent’i izlenerek visual manifest accepted canonical Li Na face_right + Zhang Wei face_left düzenine hizalandı. Scene character membership, dialogue speaker order ve locked content değişmedi."
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK4_SC022 accepted City Park seti location, character identities, outfits and lighting açısından uygundur. Identity drift önlemek için accepted full set blob-level reuse edildi ve orientation visual manifestte canonical accepted düzene hizalandı."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc022/assets/hsk4_sc022_bg.webp",
+    "characterA": "content/hsk4/sc022/assets/hsk4_sc022_char_li_na.webp",
+    "characterB": "content/hsk4/sc022/assets/hsk4_sc022_char_zhang_wei.webp",
+    "foreground": "content/hsk4/sc022/assets/hsk4_sc022_fg.webp",
+    "preview": "content/hsk4/sc022/assets/hsk4_sc022_preview.webp"
+  }
+}
