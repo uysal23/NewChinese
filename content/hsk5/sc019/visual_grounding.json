@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC019",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, Train Station bağlamında tanıdık şehre dönmeyi; deneyim, kaynaklar, belirsizlik, sorumluluk, değer ve uzun vadeli anlam üzerinden değerlendirir.",
+    "communicationPurpose": "Tanıdık bir şehre dönüşü yalnız fiziksel geri dönüş değil, seyahatte edinilen deneyimleri değerlendirip günlük yaşama taşıma süreci olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "tren istasyonunda dönüş yolculuğu öncesi seyahat deneyimlerini ve tanıdık şehre dönüşün anlamını değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "station seating",
+      "small travel bags",
+      "platform edge",
+      "neutral station architecture without readable generated text",
+      "soft daylight"
+    ],
+    "continuityFromPrevious": "HSK5_SC018'de Zhang Wei ile Chen Yu fotoğrafların ötesindeki anıları dikkat, deneyim kalitesi ve uzun vadeli anlam üzerinden değerlendirir. SC019'da Li Na ile Zhang Wei bu çerçeveyi tanıdık şehre dönüşe taşıyarak seyahat deneyimlerini günlük yaşama nasıl aktardıklarını tartışır.",
+    "continuityToNext": "HSK5_SC020'de Zhang Wei ile Chen Yu Day Trip Town bağlamında ikinci batch kapanışına gider; SC019'daki deneyim değerlendirmesi ve uzun vadeli anlam çerçevesi kapanış sahnesine doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_TRAIN_STATION_001",
+    "authoritativeBible": "locations/LOC_TRAIN_STATION_001/visual_bible.json",
+    "locationReason": "Tanıdık şehre dönüş teması, yolculuk kapanışı ve geri dönüş kararlarının doğal olarak gerçekleştiği canonical Train Station ile doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "回到熟悉城市",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "等有新信息时再更新判断。"
+    ],
+    "continuityEvidence": "HSK2_SC033 accepted complete canonical Train Station seti aynı Li Na + Zhang Wei çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile SC019 manifestine birebir uyar. HSK5_SC011 ve SC015 aynı 5'li seti başarıyla reuse etmiştir.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK2_SC033 accepted Train Station seti SC019 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc033/assets/hsk2_sc033_bg.webp",
+    "characterA": "content/hsk2/sc033/assets/hsk2_sc033_char_li_na.webp",
+    "characterB": "content/hsk2/sc033/assets/hsk2_sc033_char_zhang_wei.webp",
+    "foreground": "content/hsk2/sc033/assets/hsk2_sc033_fg.webp",
+    "preview": "content/hsk2/sc033/assets/hsk2_sc033_preview.webp"
+  }
+}
