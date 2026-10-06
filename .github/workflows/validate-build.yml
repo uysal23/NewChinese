@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
+    paths-ignore:
+      - ".github/workflows/build-apk.yml"
+      - ".github/workflows/validate-build.yml"
+      - ".github/workflows/complete-hsk5-sc014.yml"
+      - "tools/complete_hsk5_sc014.py"
   pull_request:
 
 permissions:
