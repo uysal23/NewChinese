@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC021",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Li Na ile Zhang Wei, Zhang Home bağlamında uzun vadeli hedefleri; değerler, kaynaklar, belirsizlik, sorumluluk, esneklik ve sürdürülebilir tempo üzerinden değerlendirir.",
+    "communicationPurpose": "Uzun vadeli hedefleri yalnız sonuç odaklı değil, değerler, kaynak kullanımı, risk yönetimi ve zaman içinde güncellenebilir kararlar olarak ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve çözüm odaklı",
+    "mainPhysicalAction": "ev ortamında uzun vadeli hedefler, kaynaklar ve sürdürülebilir planlama üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "visibleProps": [
+      "warm modern living room",
+      "sofa",
+      "low table",
+      "home lighting",
+      "domestic objects without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC020'de Zhang Wei ile Chen Yu seyahatin kararları, değerleri ve davranışları nasıl değiştirdiğini değerlendirerek ikinci batch'i kapatır. SC021'de Li Na ile Zhang Wei bu uzun vadeli öğrenme çizgisini kişisel hedefler ve sürdürülebilir planlamaya taşır.",
+    "continuityToNext": "HSK5_SC022'de Zhang Wei ile Li Na City Park bağlamına geçer; SC021'de kurulan uzun vadeli hedef ve kaynak dengesi sonraki gündelik karar tartışmalarına doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_LI_NA_001",
+      "CHAR_ZHANG_WEI_001"
+    ],
+    "voiceMapping": {
+      "CHAR_LI_NA_001": "VOICE_LI_NA_001",
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_ZHANG_HOME_001",
+    "authoritativeBible": "locations/LOC_ZHANG_HOME_001/visual_bible.json",
+    "locationReason": "Uzun vadeli hedefler konusu kişisel planlama, değerler ve kaynakların sakin biçimde değerlendirilebildiği canonical Zhang Home ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "长期目标",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "长期来看，稳定的方法和可持续的节奏更有价值。"
+    ],
+    "continuityEvidence": "HSK3_SC021 accepted complete canonical Zhang Home seti aynı Li Na + Zhang Wei çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile SC021 manifestine birebir uyar. HSK4_SC021 aynı accepted seti canonical source olarak kullanmıştır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-canonical-set-reuse",
+    "note": "HSK3_SC021 accepted Zhang Home seti SC021 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk3/sc021/assets/hsk3_sc021_bg.webp",
+    "characterA": "content/hsk3/sc021/assets/hsk3_sc021_char_li_na.webp",
+    "characterB": "content/hsk3/sc021/assets/hsk3_sc021_char_zhang_wei.webp",
+    "foreground": "content/hsk3/sc021/assets/hsk3_sc021_fg.webp",
+    "preview": "content/hsk3/sc021/assets/hsk3_sc021_preview.webp"
+  }
+}
