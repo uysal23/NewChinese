@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC012",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Zhejiang yakınlarındaki su kasabasında plansız karşılaşılan manzaraları; plan esnekliği, dikkat, zaman kullanımı, deneyim kalitesi, maliyet, belirsizlik ve uzun vadeli değer üzerinden değerlendirir.",
+    "communicationPurpose": "Planın dışına çıkan deneyimleri yalnız aksama olarak görmek yerine, koşullara göre esneklik ve değer üretme açısından değerlendirmek.",
+    "tone": "sakin, analitik, meraklı ve çözüm odaklı",
+    "mainPhysicalAction": "su kasabası yürüyüş güzergâhında plan dışı duraklar ve beklenmedik manzaralar üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "canal",
+      "stone bridge",
+      "white-wall dark-roof buildings",
+      "narrow pedestrian lane",
+      "small travel items without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC011'de Li Na ile Zhang Wei yavaş seyahatte tempo, kaynak ve deneyim kalitesini değerlendirir. SC012'de Zhang Wei ile Chen Yu aynı yaklaşımı plan dışı keşiflere taşıyarak esneklik, dikkat ve beklenmedik değeri tartışır.",
+    "continuityToNext": "HSK5_SC013'te Li Na ile Zhang Wei konaklama ve yerel deneyim bağlamına geçer; SC012'de kurulan esneklik ve deneyim değeri çerçevesi sonraki sahneye doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_DAY_TRIP_TOWN_001",
+    "authoritativeBible": "locations/LOC_DAY_TRIP_TOWN_001/visual_bible.json",
+    "locationReason": "Plansız karşılaşılan manzaralar ve esnek gezi akışı, canonical su kasabası yürüyüş/canal ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "计划外的风景",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "谁做决定、谁掌握信息、谁承担后果，都应该说清楚。"
+    ],
+    "continuityEvidence": "HSK4_SC035 aynı LOC_DAY_TRIP_TOWN_001, aynı Zhang Wei + Chen Yu çifti, aynı canonical outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile accepted complete canonical composite kaynaktır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "HSK4_SC035 accepted Day Trip Town composite seti SC012 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve gereksiz yeniden üretimi önlemek için 5'li set doğrudan reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk4/sc035/assets/hsk4_sc035_bg.webp",
+    "characterA": "content/hsk4/sc035/assets/hsk4_sc035_char_zhang_wei.webp",
+    "characterB": "content/hsk4/sc035/assets/hsk4_sc035_char_chen_yu.webp",
+    "foreground": "content/hsk4/sc035/assets/hsk4_sc035_fg.webp",
+    "preview": "content/hsk4/sc035/assets/hsk4_sc035_preview.webp"
+  }
+}
