@@ -114,6 +114,6 @@
     "HSK5_SC028 visual + audio complete; accepted canonical City Park 5'li seti HSK2_SC020 kaynağından reuse edildi; visual manifest accepted canonical orientation Li Na face_right + Zhang Wei face_left düzenine hizalandı; HSK5_SC027 → HSK5_SC028 continuity approved.",
     "HSK5_SC029 visual + audio complete; accepted canonical Public Library 5'li seti HSK2_SC023 kaynağından birebir reuse edildi; HSK5_SC028 → HSK5_SC029 continuity approved.",
     "HSK5_SC030 visual + audio complete; accepted canonical Zhang Home 5'li seti HSK2_SC049 kaynağından birebir reuse edildi; HSK5_SC029 → HSK5_SC030 continuity approved.",
-    "HSK5_SC021-SC030 third batch closure: 10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit pending final repository verification."
+    "HSK5_SC021-SC030 third batch closure: 10/10 visual complete, 10/10 audio complete, 10/10 accepted; physical closure audit PASSED (each scene: 5 WebP + 54 M4A, no missing visual assets)."
   ]
 }
