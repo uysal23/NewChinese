@@ -165,4 +165,4 @@ Her adım bitince bir sonraki adıma geçilir. Durum raporu kısa tutulur:
 - HSK5_SC031: **5/5 canonical Community Center visual complete**; HSK2_SC045 accepted Community Center Zhang Wei/Liu Mei 5'li seti reuse edildi ve visual manifest canonical Zhang Wei face_right + Liu Mei face_left orientation’a hizalandı; HSK5_SC030 → HSK5_SC031 continuity approved.
 - HSK5_SC031–SC040 fourth batch: **1/10 visual complete, 10/10 audio complete, 1/10 accepted**.
 - **Aktif Adım: Adım 14 — HSK5'i 50/50 Tamamla**
-- **Anlık iş kalemi: HSK5_SC032 için manifest + dialogue + continuity kontrolünü yapıp BG → CHAR_A → CHAR_B → FG → PREVIEW → repo → validation zincirini yürüt. Actions tüketmemek için [skip ci] kullan.**
+- **Anlık iş kalemi: HSK5_SC032 için staged Neighborhood BG + Zhang Wei + Chen Yu + FG katmanlarından doğru textless 9:16 PREVIEW üret; fiziksel 5/5 validation geçmeden scene/batch acceptance'ı ilerletme. Actions tüketmemek için [skip ci] kullan.**

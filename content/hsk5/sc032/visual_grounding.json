@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC032",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, Neighborhood bağlamında şehirde yalnızlığı; sosyal bağlar, erişim, kaynaklar, belirsizlik, sorumluluk ve uzun vadeli yaşam kalitesi üzerinden değerlendirir.",
+    "communicationPurpose": "Şehirde yalnızlığı yalnız bireysel duygu değil, sosyal bağlar, mahalle yapısı, erişim ve ortak yaşam koşullarıyla birlikte ele almak.",
+    "tone": "sakin, düşünceli, yetişkin ve toplum odaklı",
+    "mainPhysicalAction": "mahalle yürüyüşü bağlamında şehirde yalnızlık, sosyal bağ ve yaşam çevresi üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "tree-lined sidewalks",
+      "small park edge",
+      "mixed residential storefronts",
+      "pedestrian-friendly street",
+      "family-friendly neighborhood details without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC031'de Liu Mei ile Zhang Wei kamusal alanları erişim, kaynak ve ortak sorumluluk üzerinden değerlendirir. SC032'de Zhang Wei ile Chen Yu bu toplumsal çerçeveyi mahalle ölçeğinde sosyal bağlar ve şehirde yalnızlık konusuna taşır.",
+    "continuityToNext": "HSK5_SC033'te Liu Mei ile Zhang Wei City Park bağlamına geçer; SC032'de kurulan sosyal bağ ve mahalle yaşamı çerçevesi kamusal açık alan değerlendirmelerine doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, speaker/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_NEIGHBORHOOD_001",
+    "authoritativeBible": "locations/LOC_NEIGHBORHOOD_001/visual_bible.json",
+    "locationReason": "Şehirde yalnızlık konusu sosyal bağların ve gündelik karşılaşmaların doğal olarak yaşandığı canonical Neighborhood ortamıyla doğrudan uyumludur.",
+    "dialogueEvidence": [
+      "城市里的孤独",
+      "如果信息不完整，还能做判断吗？",
+      "当然。做公共或团队选择时，这一点很重要。"
+    ],
+    "continuityEvidence": "HSK2_SC046 accepted complete Neighborhood seti canonical Neighborhood BG/FG sağlar. HSK2_SC041 accepted complete canonical Zhang Wei + Chen Yu pair aynı casual outfits, Zhang Wei face_right + Chen Yu face_left ve LIGHT_WARM_NATURAL_01 sağlar.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "preview_pending",
+    "method": "canonical-layer-composite",
+    "note": "Neighborhood BG/FG HSK2_SC046 accepted kaynağından; Zhang Wei/Chen Yu character layers HSK2_SC041 accepted canonical pair kaynağından stage edildi. Exact historical full-set yok. Yanlış karakterli HSK2_SC046 preview reuse edilmedi. Textless 9:16 PREVIEW fiziksel olarak henüz üretilmediği için completion gate açık bırakıldı."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk2/sc046/assets/hsk2_sc046_bg.webp",
+    "characterA": "content/hsk2/sc041/assets/hsk2_sc041_char_zhang_wei.webp",
+    "characterB": "content/hsk2/sc041/assets/hsk2_sc041_char_chen_yu.webp",
+    "foreground": "content/hsk2/sc046/assets/hsk2_sc046_fg.webp",
+    "preview": "content/hsk5/sc032/assets/hsk5_sc032_preview.webp"
+  }
+}
