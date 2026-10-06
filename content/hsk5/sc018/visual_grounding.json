@@ -1,0 +1,63 @@
+{
+  "sceneId": "HSK5_SC018",
+  "sceneContext": {
+    "status": "approved",
+    "maturityLock": "HSK5",
+    "summary": "Zhang Wei ile Chen Yu, West Lake bağlamında fotoğrafların ötesindeki anıları; dikkat, deneyim kalitesi, belirsizlik, değer, sorumluluk ve uzun vadeli anlam üzerinden değerlendirir.",
+    "communicationPurpose": "Seyahat anılarını yalnız fotoğraf kaydı olarak değil, dikkat, bağlam, deneyim kalitesi ve uzun vadeli anlam üzerinden değerlendirmek.",
+    "tone": "sakin, analitik, düşünceli ve çözüm odaklı",
+    "mainPhysicalAction": "West Lake yürüyüş yolunda anı, deneyim ve dikkat üzerine karşılıklı değerlendirme",
+    "charactersPresent": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "visibleProps": [
+      "lake view",
+      "tree-lined walkway",
+      "stone railing",
+      "distant hills",
+      "small sightseeing boats without readable text"
+    ],
+    "continuityFromPrevious": "HSK5_SC017'de Li Na ile Zhang Wei çevreci tercihlerde kaynak kullanımı, sorumluluk ve uzun vadeli etkiyi değerlendirir. SC018'de Zhang Wei ile Chen Yu bu uzun vadeli değer çerçevesini fotoğrafların ötesindeki deneyim ve anı kalitesine taşır.",
+    "continuityToNext": "HSK5_SC019'da Li Na ile Zhang Wei tekrar Train Station bağlamına döner; SC018'de kurulan dikkat, deneyim kalitesi ve uzun vadeli anlam çerçevesi sonraki yolculuk değerlendirmelerine doğal temel sağlar."
+  },
+  "dialogueCheck": {
+    "status": "approved_with_locked_content",
+    "lineCount": 32,
+    "speakers": [
+      "CHAR_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001"
+    ],
+    "voiceMapping": {
+      "CHAR_ZHANG_WEI_001": "VOICE_ZHANG_WEI_001",
+      "CHAR_CHEN_YU_001": "VOICE_CHEN_YU_001"
+    },
+    "note": "dialogue.json locked-reference olarak korunmuştur; 32 fiziksel satır sıralı, iki konuşmacı/voice mapping geçerli ve mevcut ses referansları değiştirilmemiştir."
+  },
+  "locationMatch": {
+    "status": "approved",
+    "locationId": "LOC_WEST_LAKE_001",
+    "authoritativeBible": "locations/LOC_WEST_LAKE_001/visual_bible.json",
+    "locationReason": "Fotoğrafların ötesindeki anılar teması, manzara, yürüyüş ve doğrudan deneyim odaklı canonical West Lake promenade ile doğal biçimde uyumludur.",
+    "dialogueEvidence": [
+      "照片之外的记忆",
+      "先看问题本身，再看资源、成本和实际使用条件",
+      "长期来看，稳定的方法和可持续的节奏更有价值。"
+    ],
+    "continuityEvidence": "HSK5_SC014 accepted complete canonical West Lake composite seti aynı Zhang Wei + Chen Yu çifti, aynı casual outfits, aynı face_right/face_left yönleri ve LIGHT_WARM_NATURAL_01 ile SC018 manifestine birebir uyar. HSK2_SC040 preview farklı karakter çifti içerdiği için kullanılmamıştır.",
+    "approvedForLayerPlanning": true
+  },
+  "compositionMethod": {
+    "status": "approved",
+    "method": "accepted-composite-reuse",
+    "note": "HSK5_SC014 accepted West Lake composite seti SC018 ile location, character IDs, outfits, anchors ve lighting açısından birebir eşleşir; identity drift ve yanlış preview reuse riskini önlemek için BG + CHAR_A + CHAR_B + FG + PREVIEW 5'li seti doğrudan blob-level reuse edilir."
+  },
+  "layerPlan": {
+    "status": "approved",
+    "background": "content/hsk5/sc014/assets/hsk5_sc014_bg.webp",
+    "characterA": "content/hsk5/sc014/assets/hsk5_sc014_char_zhang_wei.webp",
+    "characterB": "content/hsk5/sc014/assets/hsk5_sc014_char_chen_yu.webp",
+    "foreground": "content/hsk5/sc014/assets/hsk5_sc014_fg.webp",
+    "preview": "content/hsk5/sc014/assets/hsk5_sc014_preview.webp"
+  }
+}
